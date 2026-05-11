@@ -19,8 +19,12 @@ export const metadata: Metadata = {
   description:
     "Gita Global Family, led by Sri BramhBodhi, shares the Bhagavad Gita's timeless teachings to inspire selfless service, uplift communities, and empower underprivileged lives through education.",
   icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
   metadataBase: new URL("https://gitaglobalfamily.org"),
   openGraph: {
