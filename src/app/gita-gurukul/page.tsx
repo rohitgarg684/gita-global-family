@@ -15,6 +15,7 @@ import {
   Phone,
 } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import { img } from "@/lib/image-url";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -79,7 +80,7 @@ export default function GitaGurukulPage() {
       {/* Hero */}
       <section className="relative py-28 md:py-36 overflow-hidden">
         <Image
-          src="/images/gurukul.png"
+          src={img("gurukul.png")}
           alt="Gita Global Gurukul"
           fill
           className="object-cover"
@@ -160,7 +161,7 @@ export default function GitaGurukulPage() {
             className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl"
           >
             <Image
-              src="/images/gurukul.png"
+              src={img("gurukul.png")}
               alt="Gita Global Gurukul Himachal"
               fill
               className="object-cover"
@@ -178,7 +179,7 @@ export default function GitaGurukulPage() {
             className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1"
           >
             <Image
-              src="/images/vision.jpg"
+              src={img("vision.jpg")}
               alt="Vrindavan HQ"
               fill
               className="object-cover"
@@ -405,7 +406,7 @@ export default function GitaGurukulPage() {
       {/* How You Can Help */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
-          src="/images/banner.jpg"
+          src={img("banner.jpg")}
           alt="Support Education"
           fill
           className="object-cover"

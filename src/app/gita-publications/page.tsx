@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, ShoppingCart } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import { img } from "@/lib/image-url";
 
 const RAZORPAY_STORE =
   "https://pages.razorpay.com/stores/st_QvF1VOCPbywKFo";
@@ -15,7 +16,7 @@ const hindiBooks = [
     description:
       "अध्याय परिचयों, आत्म मूल्यांकन उपकरणों आदि के साथ भगवद्गीता की गहन व्याख्या। परिवर्धित संस्करण। 8.5×5.5 इंच, 800 पृष्ठ।",
     price: "₹499",
-    image: "/images/book-mokshavidyadayini.jpeg",
+    image: img("book-mokshavidyadayini.jpeg"),
   },
   {
     title: "Sampoorn Kraanti Kee Bhoomika",
@@ -23,7 +24,7 @@ const hindiBooks = [
     description:
       "गीता के इस संस्करण में सरल हिंदी अर्थ, टिप्पणियाँ व ईश्वर-प्राप्ति के 10 मार्गों पर विशेष निबंध हैं।",
     price: "₹350",
-    image: "/images/book-sampoorn-kraanti.jpeg",
+    image: img("book-sampoorn-kraanti.jpeg"),
   },
   {
     title: "Hari Ko Kaun Dulaaro",
@@ -31,7 +32,7 @@ const hindiBooks = [
     description:
       "जीवन श्रेष्ठ और मोक्ष उसी का होगा जो ईश्वर का प्रिय है। यह पुस्तक उन गुणों की विवेचना करती है जो ईश्वर को प्रिय हैं।",
     price: "₹200",
-    image: "/images/book-hari-ko-kaun.jpeg",
+    image: img("book-hari-ko-kaun.jpeg"),
   },
   {
     title: "Hamaaree Geeta Aur Eeshvar Praapti Ke Das Maarg",
@@ -39,7 +40,7 @@ const hindiBooks = [
     description:
       "गीता के इस संस्करण में सरल हिंदी अर्थ, पाद-टिप्पणियाँ और ईश्वर-प्राप्ति के दस मार्गों पर विशेष निबंध समाहित हैं।",
     price: "₹125",
-    image: "/images/book-hamaaree-geeta.jpeg",
+    image: img("book-hamaaree-geeta.jpeg"),
   },
   {
     title: "Geeta Navaneet Shlok Vidyaarthiyon Ke Liye",
@@ -47,7 +48,7 @@ const hindiBooks = [
     description:
       "गीता के प्रमुख उपदेशों को युवाओं के लिए सार रूप में प्रस्तुत करता है। ये श्लोक ध्यान, अनुशासन और नैतिक जीवन की प्रेरणा देते हैं।",
     price: "₹60",
-    image: "/images/book-geeta-navaneet.jpeg",
+    image: img("book-geeta-navaneet.jpeg"),
   },
 ];
 
@@ -58,7 +59,7 @@ const englishBooks = [
     description:
       "This edition of the Bhagavad Gita includes an insightful essay on God's ideas in life management, spanning 495 pages in a compact 8×5-inch format.",
     price: "₹399",
-    image: "/images/book-gods-ideas.jpeg",
+    image: img("book-gods-ideas.jpeg"),
   },
   {
     title: "The Cream Of The Bhagavad Gita",
@@ -66,7 +67,7 @@ const englishBooks = [
     description:
       "Distills key Gita teachings for youth. These verses inspire focus, discipline, and ethical living.",
     price: "₹100",
-    image: "/images/book-cream-of-gita.jpeg",
+    image: img("book-cream-of-gita.jpeg"),
   },
 ];
 
@@ -134,7 +135,7 @@ export default function GitaPublicationsPage() {
       {/* Hero */}
       <section className="relative py-20 md:py-32 overflow-hidden">
         <Image
-          src="/images/publications.png"
+          src={img("publications.png")}
           alt="Gita Publications"
           fill
           className="object-cover"
@@ -220,7 +221,7 @@ export default function GitaPublicationsPage() {
       {/* Mission */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
-          src="/images/vision.jpg"
+          src={img("vision.jpg")}
           alt="Our Mission"
           fill
           className="object-cover"

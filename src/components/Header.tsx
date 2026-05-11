@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { img } from "@/lib/image-url";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -35,7 +36,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/images/logo-icon.png"
+              src={img("logo-icon.png")}
               alt="Gita Global Family"
               width={56}
               height={56}

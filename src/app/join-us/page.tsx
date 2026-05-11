@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import SectionHeading from "@/components/SectionHeading";
+import { img } from "@/lib/image-url";
 
 const DONATE_LINK = "https://rzp.io/rzp/TsaLFcd";
 
@@ -169,7 +170,7 @@ export default function JoinUsPage() {
       {/* Hero */}
       <section className="relative py-28 md:py-36 overflow-hidden">
         <Image
-          src="/images/banner.jpg"
+          src={img("banner.jpg")}
           alt="Join the Family"
           fill
           className="object-cover"
@@ -353,7 +354,7 @@ export default function JoinUsPage() {
       {/* Connect & Volunteer */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
-          src="/images/vision.jpg"
+          src={img("vision.jpg")}
           alt="Connect and Volunteer"
           fill
           className="object-cover"

@@ -14,6 +14,7 @@ import {
   Globe,
 } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import { img } from "@/lib/image-url";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -55,7 +56,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="relative py-28 md:py-36 overflow-hidden">
         <Image
-          src="/images/banner.jpg"
+          src={img("banner.jpg")}
           alt="About Gita Global Family"
           fill
           className="object-cover"
@@ -115,7 +116,7 @@ export default function AboutPage() {
             className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl"
           >
             <Image
-              src="/images/vision.jpg"
+              src={img("vision.jpg")}
               alt="Our Story"
               fill
               className="object-cover"
@@ -171,7 +172,7 @@ export default function AboutPage() {
       {/* Leadership */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
-          src="/images/brahmabodhi.jpeg"
+          src={img("brahmabodhi.jpeg")}
           alt="Sriyut BrahmBodhi"
           fill
           className="object-cover"

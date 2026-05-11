@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { img } from "@/lib/image-url";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     title: "Gita Global Family",
     description:
       "Gita Global Family, led by Sri BramhBodhi, shares the Bhagavad Gita's timeless teachings to inspire selfless service, uplift communities, and empower underprivileged lives through education.",
-    images: ["/images/og-image.jpeg"],
+    images: [img("og-image.jpeg")],
     siteName: "Gita Global Family",
   },
   twitter: {
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Gita Global Family",
     description:
       "Gita Global Family, led by Sri BramhBodhi, shares the Bhagavad Gita's timeless teachings to inspire selfless service, uplift communities, and empower underprivileged lives through education.",
-    images: ["/images/og-image.jpeg"],
+    images: [img("og-image.jpeg")],
   },
 };
 

@@ -16,25 +16,26 @@ import FAQAccordion from "@/components/FAQAccordion";
 import BlogCard from "@/components/BlogCard";
 import ContactForm from "@/components/ContactForm";
 import DonationButton from "@/components/DonationButton";
+import { img } from "@/lib/image-url";
 
 const navTabs = [
   {
     icon: GraduationCap,
     label: "Gita Global Gurukul",
     href: "/gita-gurukul",
-    image: "/images/gurukul.png",
+    image: img("gurukul.png"),
   },
   {
     icon: BookOpen,
     label: "Gita Publications",
     href: "/gita-publications",
-    image: "/images/publications.png",
+    image: img("publications.png"),
   },
   {
     icon: Globe,
     label: "Network",
     href: "/networking",
-    image: "/images/connect-icon.png",
+    image: img("connect-icon.png"),
   },
 ];
 
@@ -45,7 +46,7 @@ const blogPosts = [
       "अंतःकरण को शुद्ध किए बिना ऊँची आध्यात्मिक उपलब्धि और ईश्वर दर्शन असंभव",
     date: "Jul 31, 2025",
     slug: "व-षय-आध-य-त-म-क-प-रगत-क-ल-ए-मन-क-व-क-र-क-क-स-द-र-कर",
-    image: "/images/blog-thumb-1.jpg",
+    image: img("blog-thumb-1.jpg"),
   },
   {
     title:
@@ -54,7 +55,7 @@ const blogPosts = [
       "ईश्वर का नाम जप प्रगति की दिशा में ले जा सकता है, लेकिन मार्गदर्शन भक्ति को गहराता है और सच्ची सिद्धि सुनिश्चित करता है।",
     date: "Jul 31, 2025",
     slug: "प-रश-न-क-य-ब-न-ग-र-क-य-ईश-वर-क-न-म-जपन-स-अध-य-त-म-क-उपलब-ध-प-र-प-त-नह-ह-सकत",
-    image: "/images/blog-thumb-2.jpeg",
+    image: img("blog-thumb-2.jpeg"),
   },
   {
     title:
@@ -63,7 +64,7 @@ const blogPosts = [
       "Chanting God's name can lead to progress, but guidance deepens devotion and ensures true attainment.",
     date: "Jul 31, 2025",
     slug: "question-can-a-spiritual-seeker-have-high-spiritual-attainments-by-just-chanting-the-name-of-god-without-the-guidance-of-a-guru",
-    image: "/images/blog-thumb-3.jpeg",
+    image: img("blog-thumb-3.jpeg"),
   },
 ];
 
@@ -196,7 +197,7 @@ export default function HomePage() {
       {/* Our Vision */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
-          src="/images/vision.jpg"
+          src={img("vision.jpg")}
           alt="Our Vision"
           fill
           className="object-cover"
@@ -228,7 +229,7 @@ export default function HomePage() {
               className="relative aspect-[3/4] max-w-sm mx-auto rounded-2xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="/images/brahmabodhi.jpeg"
+                src={img("brahmabodhi.jpeg")}
                 alt="Sriyut BrahmBodhi"
                 fill
                 className="object-cover"
@@ -246,7 +247,7 @@ export default function HomePage() {
             className="relative aspect-video rounded-2xl overflow-hidden shadow-xl"
           >
             <Image
-              src="/images/banner.jpg"
+              src={img("banner.jpg")}
               alt="Our Mission"
               fill
               className="object-cover"
@@ -322,7 +323,7 @@ export default function HomePage() {
           >
             <div className="relative h-56">
               <Image
-                src="/images/gurukul.png"
+                src={img("gurukul.png")}
                 alt="Gurukul & Ashrams"
                 fill
                 className="object-cover"
@@ -385,7 +386,7 @@ export default function HomePage() {
           >
             <div className="relative h-56">
               <Image
-                src="/images/publications.png"
+                src={img("publications.png")}
                 alt="Gita Publications"
                 fill
                 className="object-cover"
@@ -505,7 +506,7 @@ export default function HomePage() {
             className="col-span-2 row-span-2 relative rounded-xl overflow-hidden group"
           >
             <Image
-              src="/images/gallery-1.jpg"
+              src={img("gallery-1.jpg")}
               alt="Gallery 1"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -519,7 +520,7 @@ export default function HomePage() {
             className="col-span-2 row-span-1 relative rounded-xl overflow-hidden group"
           >
             <Image
-              src="/images/hero-1.jpeg"
+              src={img("hero-1.jpeg")}
               alt="Gallery 2"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -533,7 +534,7 @@ export default function HomePage() {
             className="col-span-2 row-span-2 relative rounded-xl overflow-hidden group"
           >
             <Image
-              src="/images/gallery-2.jpg"
+              src={img("gallery-2.jpg")}
               alt="Gallery 3"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -547,7 +548,7 @@ export default function HomePage() {
             className="col-span-2 row-span-1 relative rounded-xl overflow-hidden group"
           >
             <Image
-              src="/images/hero-2.jpeg"
+              src={img("hero-2.jpeg")}
               alt="Gallery 4"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"

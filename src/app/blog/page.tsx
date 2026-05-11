@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/SectionHeading";
 import BlogCard from "@/components/BlogCard";
+import { img } from "@/lib/image-url";
 
 const englishArticles = [
   {
@@ -81,7 +82,7 @@ export default function BlogPage() {
       {/* Hero */}
       <section className="relative py-28 md:py-36 overflow-hidden">
         <Image
-          src="/images/banner.jpg"
+          src={img("banner.jpg")}
           alt="Blog"
           fill
           className="object-cover"

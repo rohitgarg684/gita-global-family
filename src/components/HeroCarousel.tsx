@@ -5,15 +5,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { img } from "@/lib/image-url";
 
 const heroImages = [
-  "/images/hero-1.jpeg",
-  "/images/hero-2.jpeg",
-  "/images/hero-3.jpeg",
-  "/images/gallery-1.jpg",
-  "/images/gallery-2.jpg",
-  "/images/brahmabodhi.jpeg",
-  "/images/banner.jpg",
+  img("hero-1.jpeg"),
+  img("hero-2.jpeg"),
+  img("hero-3.jpeg"),
+  img("gallery-1.jpg"),
+  img("gallery-2.jpg"),
+  img("brahmabodhi.jpeg"),
+  img("banner.jpg"),
 ];
 
 const CARD_GAP = 20;

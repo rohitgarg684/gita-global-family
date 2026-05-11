@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { MapPin, Phone, Mail } from "lucide-react";
+import { img } from "@/lib/image-url";
 
 const quickLinks = [
   { href: "/about", label: "About" },
@@ -62,7 +63,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4">
               <Image
-                src="/images/logo.png"
+                src={img("logo.png")}
                 alt="Gita Global Family"
                 width={48}
                 height={48}

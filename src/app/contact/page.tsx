@@ -5,6 +5,7 @@ import Image from "next/image";
 import { MapPin, Phone, Mail } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import ContactForm from "@/components/ContactForm";
+import { img } from "@/lib/image-url";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -41,7 +42,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="relative py-28 md:py-36 overflow-hidden">
         <Image
-          src="/images/banner.jpg"
+          src={img("banner.jpg")}
           alt="Contact Us"
           fill
           className="object-cover"

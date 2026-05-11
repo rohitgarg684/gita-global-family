@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Video, Share2, Camera, MessageCircle, Globe, ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import { img } from "@/lib/image-url";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -19,14 +20,14 @@ const youtubeChannels = [
     description:
       "Hindi spiritual discourses, Gita teachings, and guided sessions for Hindi-speaking seekers.",
     url: "https://www.youtube.com/@BrahmBodhi_HindiOfficial",
-    image: "/images/youtube-1.png",
+    image: img("youtube-1.png"),
   },
   {
     title: "BrahmBodhi English Official",
     description:
       "English teachings, spiritual wisdom, and Gita insights for the global community.",
     url: "https://www.youtube.com/@BrahmBodhi_EnglishOfficial",
-    image: "/images/youtube-2.png",
+    image: img("youtube-2.png"),
   },
 ];
 
@@ -55,7 +56,7 @@ export default function NetworkingPage() {
       {/* Hero Section */}
       <section className="relative py-20 md:py-32 overflow-hidden">
         <Image
-          src="/images/banner.jpg"
+          src={img("banner.jpg")}
           alt="Networking"
           fill
           className="object-cover"

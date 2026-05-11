@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Video } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import { img } from "@/lib/image-url";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -17,29 +18,43 @@ const karmaYogaPhotos = [
   {
     title: "Siddharth, IPS — Now BrahmBodhi",
     subtitle: "Worked As Additional Director General of Police",
+    image: img("karma-yoga-siddharth-ips.jpeg"),
   },
   {
     title: "With Dalai Lama, 2010",
     subtitle:
       "HH Dalai Lama launching Sri Siddharth\u2019s Poetry Collection",
+    image: img("karma-yoga-dalai-lama.jpeg"),
   },
   {
     title: "With Shyam Benegal, A Movie Director",
     subtitle: "During a children\u2019s camp at New Delhi, 2007",
+    image: img("karma-yoga-shyam-benegal.jpeg"),
   },
   {
     title: "With Sundarlal Bahuguna, Environmentalist",
     subtitle: "At a children\u2019s camp in Rishikesh, Uttarakhand",
+    image: img("karma-yoga-sundarlal-bahuguna.jpeg"),
   },
   {
     title: "With Sri Sri Ravi Shankar, Spiritual Leader",
     subtitle:
       "Ravi Shankar launching Sri Siddharth\u2019s book at New Delhi",
+    image: img("karma-yoga-ravi-shankar.jpeg"),
   },
   {
     title: "With Swami Agnivesh and Mr Kanodia",
     subtitle: "At World Confluence in Kolkata in 2011",
+    image: img("karma-yoga-agnivesh-kanodia.jpeg"),
   },
+];
+
+const newspaperArticles = [
+  img("newspaper-1.jpeg"),
+  img("newspaper-2.jpeg"),
+  img("newspaper-3.jpeg"),
+  img("newspaper-4.jpeg"),
+  img("newspaper-5.jpeg"),
 ];
 
 export default function BrahmBodhiPage() {
@@ -48,7 +63,7 @@ export default function BrahmBodhiPage() {
       {/* Hero */}
       <section className="relative py-28 md:py-36 overflow-hidden">
         <Image
-          src="/images/brahmabodhi.jpeg"
+          src={img("brahmabodhi.jpeg")}
           alt="Sriyut BrahmBodhi"
           fill
           className="object-cover object-top"
@@ -176,13 +191,13 @@ export default function BrahmBodhiPage() {
               transition={{ duration: 0.4, delay: i * 0.08 }}
               className="bg-warm-gray rounded-2xl p-6 border border-cream-dark/30 hover:shadow-lg transition-shadow"
             >
-              <div className="w-full aspect-[4/3] bg-cream rounded-xl mb-5 flex items-center justify-center overflow-hidden">
-                <div className="text-center text-text-muted text-sm p-4">
-                  <div className="w-16 h-16 bg-saffron/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-2xl">📷</span>
-                  </div>
-                  Photo
-                </div>
+              <div className="w-full aspect-[4/3] bg-cream rounded-xl mb-5 overflow-hidden relative">
+                <Image
+                  src={photo.image}
+                  alt={photo.title}
+                  fill
+                  className="object-cover"
+                />
               </div>
               <h3 className="text-base font-semibold text-dark-brown leading-snug">
                 {photo.title}
@@ -200,19 +215,39 @@ export default function BrahmBodhiPage() {
         <SectionHeading title="Newspaper Articles" />
         <motion.p
           {...fadeInUp}
-          className="text-center text-text-secondary max-w-3xl mx-auto leading-relaxed"
+          className="text-center text-text-secondary max-w-3xl mx-auto mb-12 leading-relaxed"
         >
           These articles were published in various national English newspapers
           when he served as a civil servant, prior to adopting his spiritual
           name, BrahmBodhi. After his full transition into spirituality, he
           ceased sending articles.
         </motion.p>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {newspaperArticles.map((src, i) => (
+            <motion.div
+              key={src}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: i * 0.08 }}
+              className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow"
+            >
+              <Image
+                src={src}
+                alt={`Newspaper article ${i + 1}`}
+                fill
+                className="object-cover"
+              />
+            </motion.div>
+          ))}
+        </div>
       </section>
 
       {/* CTA */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
-          src="/images/banner.jpg"
+          src={img("banner.jpg")}
           alt="Join the journey"
           fill
           className="object-cover"

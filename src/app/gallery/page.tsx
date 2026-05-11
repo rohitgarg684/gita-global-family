@@ -3,14 +3,15 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/SectionHeading";
+import { img } from "@/lib/image-url";
 
 const galleryImages = [
-  { src: "/images/gallery-1.jpg", alt: "Community gathering", span: "md:col-span-2 md:row-span-2" },
-  { src: "/images/gallery-2.jpg", alt: "Spiritual session", span: "" },
-  { src: "/images/banner.jpg", alt: "Events and celebrations", span: "" },
-  { src: "/images/vision.jpg", alt: "Our vision in action", span: "md:col-span-2" },
-  { src: "/images/gurukul.png", alt: "Gita Global Gurukul", span: "" },
-  { src: "/images/brahmabodhi.jpeg", alt: "Sriyut BrahmBodhi", span: "" },
+  { src: img("gallery-1.jpg"), alt: "Community gathering", span: "md:col-span-2 md:row-span-2" },
+  { src: img("gallery-2.jpg"), alt: "Spiritual session", span: "" },
+  { src: img("banner.jpg"), alt: "Events and celebrations", span: "" },
+  { src: img("vision.jpg"), alt: "Our vision in action", span: "md:col-span-2" },
+  { src: img("gurukul.png"), alt: "Gita Global Gurukul", span: "" },
+  { src: img("brahmabodhi.jpeg"), alt: "Sriyut BrahmBodhi", span: "" },
 ];
 
 export default function GalleryPage() {
@@ -19,7 +20,7 @@ export default function GalleryPage() {
       {/* Hero Section */}
       <section className="relative py-20 md:py-32 overflow-hidden">
         <Image
-          src="/images/gallery-1.jpg"
+          src={img("gallery-1.jpg")}
           alt="Gallery"
           fill
           className="object-cover"
@@ -51,24 +52,24 @@ export default function GalleryPage() {
           subtitle="A glimpse into the activities, events, and spirit of the Gita Global Family."
         />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[250px] md:auto-rows-[300px]">
-          {galleryImages.map((img, i) => (
+          {galleryImages.map((item, i) => (
             <motion.div
-              key={img.src}
+              key={item.src}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className={`relative rounded-2xl overflow-hidden group cursor-pointer ${img.span}`}
+              className={`relative rounded-2xl overflow-hidden group cursor-pointer ${item.span}`}
             >
               <Image
-                src={img.src}
-                alt={img.alt}
+                src={item.src}
+                alt={item.alt}
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <p className="text-white font-medium text-sm">{img.alt}</p>
+                <p className="text-white font-medium text-sm">{item.alt}</p>
               </div>
             </motion.div>
           ))}
