@@ -13,6 +13,7 @@ const navLinks = [
   { href: "/events", label: "Events" },
   { href: "/blog", label: "Blogs" },
   { href: "/join-us", label: "Join the Family" },
+  { href: "/sanatan-seva-nidhi", label: "Sanatan Seva Nidhi" },
   {
     label: "More",
     children: [
@@ -20,7 +21,6 @@ const navLinks = [
       { href: "/brahmabodhi", label: "BrahmBodhi" },
       { href: "/gita-gurukul", label: "Gita Gurukul" },
       { href: "/bhagavad-gita", label: "Bhagavad Gita" },
-      { href: "/sanatan-seva-nidhi", label: "Sanatan Seva Nidhi" },
       { href: "/networking", label: "Network" },
       { href: "/gallery", label: "Gallery" },
     ],
