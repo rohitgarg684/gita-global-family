@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { BookOpen, ArrowRight, ShoppingCart } from "lucide-react";
+import { ArrowRight, ShoppingCart } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
 const RAZORPAY_STORE =
@@ -15,6 +15,7 @@ const hindiBooks = [
     description:
       "अध्याय परिचयों, आत्म मूल्यांकन उपकरणों आदि के साथ भगवद्गीता की गहन व्याख्या। परिवर्धित संस्करण। 8.5×5.5 इंच, 800 पृष्ठ।",
     price: "₹499",
+    image: "/images/book-mokshavidyadayini.jpeg",
   },
   {
     title: "Sampoorn Kraanti Kee Bhoomika",
@@ -22,6 +23,7 @@ const hindiBooks = [
     description:
       "गीता के इस संस्करण में सरल हिंदी अर्थ, टिप्पणियाँ व ईश्वर-प्राप्ति के 10 मार्गों पर विशेष निबंध हैं।",
     price: "₹350",
+    image: "/images/book-sampoorn-kraanti.jpeg",
   },
   {
     title: "Hari Ko Kaun Dulaaro",
@@ -29,6 +31,7 @@ const hindiBooks = [
     description:
       "जीवन श्रेष्ठ और मोक्ष उसी का होगा जो ईश्वर का प्रिय है। यह पुस्तक उन गुणों की विवेचना करती है जो ईश्वर को प्रिय हैं।",
     price: "₹200",
+    image: "/images/book-hari-ko-kaun.jpeg",
   },
   {
     title: "Hamaaree Geeta Aur Eeshvar Praapti Ke Das Maarg",
@@ -36,6 +39,7 @@ const hindiBooks = [
     description:
       "गीता के इस संस्करण में सरल हिंदी अर्थ, पाद-टिप्पणियाँ और ईश्वर-प्राप्ति के दस मार्गों पर विशेष निबंध समाहित हैं।",
     price: "₹125",
+    image: "/images/book-hamaaree-geeta.jpeg",
   },
   {
     title: "Geeta Navaneet Shlok Vidyaarthiyon Ke Liye",
@@ -43,6 +47,7 @@ const hindiBooks = [
     description:
       "गीता के प्रमुख उपदेशों को युवाओं के लिए सार रूप में प्रस्तुत करता है। ये श्लोक ध्यान, अनुशासन और नैतिक जीवन की प्रेरणा देते हैं।",
     price: "₹60",
+    image: "/images/book-geeta-navaneet.jpeg",
   },
 ];
 
@@ -53,6 +58,7 @@ const englishBooks = [
     description:
       "This edition of the Bhagavad Gita includes an insightful essay on God's ideas in life management, spanning 495 pages in a compact 8×5-inch format.",
     price: "₹399",
+    image: "/images/book-gods-ideas.jpeg",
   },
   {
     title: "The Cream Of The Bhagavad Gita",
@@ -60,6 +66,7 @@ const englishBooks = [
     description:
       "Distills key Gita teachings for youth. These verses inspire focus, discipline, and ethical living.",
     price: "₹100",
+    image: "/images/book-cream-of-gita.jpeg",
   },
 ];
 
@@ -76,37 +83,46 @@ function BookCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.08 }}
-      className="bg-white rounded-2xl border border-cream-dark/30 p-6 md:p-8 hover:shadow-lg transition-shadow flex flex-col"
+      className="bg-white rounded-2xl border border-cream-dark/30 overflow-hidden hover:shadow-lg transition-shadow flex flex-col"
     >
-      <div className="flex items-start gap-4 mb-4">
-        <div className="w-12 h-12 bg-saffron/10 rounded-xl flex items-center justify-center shrink-0">
-          <BookOpen className="w-6 h-6 text-saffron" />
+      {book.image && (
+        <div className="relative w-full aspect-[4/3] bg-cream">
+          <Image
+            src={book.image}
+            alt={book.title}
+            fill
+            className="object-contain p-4"
+          />
         </div>
-        <div className="min-w-0">
+      )}
+      <div className="p-6 md:p-8 flex flex-col flex-1">
+        <div className="min-w-0 mb-4">
           <h3 className="text-lg font-semibold text-dark-brown leading-snug">
             {book.title}
           </h3>
           {book.subtitle && (
-            <p className="text-sm text-saffron font-medium mt-0.5">
+            <p className="text-sm text-saffron font-medium mt-1">
               {book.subtitle}
             </p>
           )}
         </div>
-      </div>
-      <p className="text-sm text-text-secondary leading-relaxed flex-1">
-        {book.description}
-      </p>
-      <div className="flex items-center justify-between mt-5 pt-4 border-t border-cream-dark/20">
-        <span className="text-xl font-bold text-dark-brown">{book.price}</span>
-        <a
-          href={RAZORPAY_STORE}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors"
-        >
-          <ShoppingCart className="w-4 h-4" />
-          Buy Now
-        </a>
+        <p className="text-sm text-text-secondary leading-relaxed flex-1">
+          {book.description}
+        </p>
+        <div className="flex items-center justify-between mt-5 pt-4 border-t border-cream-dark/20">
+          <span className="text-xl font-bold text-dark-brown">
+            {book.price}
+          </span>
+          <a
+            href={RAZORPAY_STORE}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors"
+          >
+            <ShoppingCart className="w-4 h-4" />
+            Buy Now
+          </a>
+        </div>
       </div>
     </motion.div>
   );
