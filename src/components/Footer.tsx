@@ -6,6 +6,7 @@ import { img } from "@/lib/image-url";
 const quickLinks = [
   { href: "/about", label: "About" },
   { href: "/gita-publications", label: "Publications" },
+  { href: "/events", label: "Events" },
   { href: "/blog", label: "Blog" },
   { href: "/bhagavad-gita", label: "Bhagavad Gita" },
   { href: "/sanatan-seva-nidhi", label: "Sanatan Seva Nidhi" },
