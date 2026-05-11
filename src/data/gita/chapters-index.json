@@ -1,0 +1,128 @@
+[
+  {
+    "chapter": 1,
+    "nameHindi": "अर्जुन विषाद योग",
+    "nameEnglish": "Arjuna Vishada Yoga",
+    "subtitle": "The Yoga of Arjuna's Grief",
+    "totalVerses": 49
+  },
+  {
+    "chapter": 2,
+    "nameHindi": "सांख्य योग",
+    "nameEnglish": "Sankhya Yoga",
+    "subtitle": "The Yoga of Knowledge",
+    "totalVerses": 70
+  },
+  {
+    "chapter": 3,
+    "nameHindi": "कर्म योग",
+    "nameEnglish": "Karma Yoga",
+    "subtitle": "The Yoga of Action",
+    "totalVerses": 43
+  },
+  {
+    "chapter": 4,
+    "nameHindi": "ज्ञान कर्म संन्यास योग",
+    "nameEnglish": "Jnana Karma Sannyasa Yoga",
+    "subtitle": "The Yoga of Knowledge and Renunciation of Action",
+    "totalVerses": 41
+  },
+  {
+    "chapter": 5,
+    "nameHindi": "कर्म संन्यास योग",
+    "nameEnglish": "Karma Sannyasa Yoga",
+    "subtitle": "The Yoga of Renunciation of Action",
+    "totalVerses": 27
+  },
+  {
+    "chapter": 6,
+    "nameHindi": "आत्म संयम योग",
+    "nameEnglish": "Atma Samyama Yoga",
+    "subtitle": "The Yoga of Self-Control",
+    "totalVerses": 47
+  },
+  {
+    "chapter": 7,
+    "nameHindi": "ज्ञान विज्ञान योग",
+    "nameEnglish": "Jnana Vijnana Yoga",
+    "subtitle": "The Yoga of Knowledge and Wisdom",
+    "totalVerses": 29
+  },
+  {
+    "chapter": 8,
+    "nameHindi": "अक्षर ब्रह्म योग",
+    "nameEnglish": "Akshara Brahma Yoga",
+    "subtitle": "The Yoga of the Imperishable Brahman",
+    "totalVerses": 27
+  },
+  {
+    "chapter": 9,
+    "nameHindi": "राजविद्या राजगुह्य योग",
+    "nameEnglish": "Raja Vidya Raja Guhya Yoga",
+    "subtitle": "The Yoga of Royal Knowledge and Royal Secret",
+    "totalVerses": 34
+  },
+  {
+    "chapter": 10,
+    "nameHindi": "विभूति योग",
+    "nameEnglish": "Vibhuti Yoga",
+    "subtitle": "The Yoga of Divine Glories",
+    "totalVerses": 40
+  },
+  {
+    "chapter": 11,
+    "nameHindi": "विश्वरूप दर्शन योग",
+    "nameEnglish": "Vishwarupa Darshana Yoga",
+    "subtitle": "The Yoga of the Vision of the Universal Form",
+    "totalVerses": 53
+  },
+  {
+    "chapter": 12,
+    "nameHindi": "भक्ति योग",
+    "nameEnglish": "Bhakti Yoga",
+    "subtitle": "The Yoga of Devotion",
+    "totalVerses": 18
+  },
+  {
+    "chapter": 13,
+    "nameHindi": "क्षेत्र क्षेत्रज्ञ विभाग योग",
+    "nameEnglish": "Kshetra Kshetrajna Vibhaga Yoga",
+    "subtitle": "The Yoga of the Field and the Knower of the Field",
+    "totalVerses": 34
+  },
+  {
+    "chapter": 14,
+    "nameHindi": "गुणत्रय विभाग योग",
+    "nameEnglish": "Gunatraya Vibhaga Yoga",
+    "subtitle": "The Yoga of the Three Gunas",
+    "totalVerses": 27
+  },
+  {
+    "chapter": 15,
+    "nameHindi": "पुरुषोत्तम योग",
+    "nameEnglish": "Purushottama Yoga",
+    "subtitle": "The Yoga of the Supreme Person",
+    "totalVerses": 20
+  },
+  {
+    "chapter": 16,
+    "nameHindi": "दैवासुर सम्पद विभाग योग",
+    "nameEnglish": "Daivasura Sampad Vibhaga Yoga",
+    "subtitle": "The Yoga of the Division of Divine and Demoniac Qualities",
+    "totalVerses": 24
+  },
+  {
+    "chapter": 17,
+    "nameHindi": "श्रद्धात्रय विभाग योग",
+    "nameEnglish": "Shraddhatraya Vibhaga Yoga",
+    "subtitle": "The Yoga of the Three Divisions of Faith",
+    "totalVerses": 28
+  },
+  {
+    "chapter": 18,
+    "nameHindi": "मोक्ष संन्यास योग",
+    "nameEnglish": "Moksha Sannyasa Yoga",
+    "subtitle": "The Yoga of Liberation through Renunciation",
+    "totalVerses": 76
+  }
+]
