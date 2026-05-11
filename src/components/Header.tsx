@@ -19,6 +19,7 @@ const navLinks = [
       { href: "/about", label: "About" },
       { href: "/brahmabodhi", label: "BrahmBodhi" },
       { href: "/gita-gurukul", label: "Gita Gurukul" },
+      { href: "/sanatan-seva-nidhi", label: "Sanatan Seva Nidhi" },
       { href: "/networking", label: "Network" },
       { href: "/gallery", label: "Gallery" },
     ],
