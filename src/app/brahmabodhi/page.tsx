@@ -3,15 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import {
-  ArrowRight,
-  BookOpen,
-  Video,
-  Feather,
-  Lightbulb,
-  Heart,
-  Mic,
-} from "lucide-react";
+import { ArrowRight, Video } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
 const fadeInUp = {
@@ -21,38 +13,33 @@ const fadeInUp = {
   transition: { duration: 0.5 },
 };
 
-const teachings = [
+const karmaYogaPhotos = [
   {
-    icon: BookOpen,
-    title: "Bhagavad Gita Discourses",
-    description:
-      "In-depth verse-by-verse commentary on the Bhagavad Gita, making its profound wisdom accessible for modern seekers across all walks of life.",
+    title: "Siddharth, IPS — Now BrahmBodhi",
+    subtitle: "Worked As Additional Director General of Police",
   },
   {
-    icon: Lightbulb,
-    title: "Practical Spirituality",
-    description:
-      "Guidance on integrating spiritual principles into daily living — from mindful action to selfless service — rooted in the concept of Nishkama Karma.",
+    title: "With Dalai Lama, 2010",
+    subtitle:
+      "HH Dalai Lama launching Sri Siddharth\u2019s Poetry Collection",
   },
   {
-    icon: Heart,
-    title: "Devotion & Inner Peace",
-    description:
-      "Teachings on Bhakti Yoga and the path of devotion, helping seekers cultivate a deep, personal connection with the Divine.",
+    title: "With Shyam Benegal, A Movie Director",
+    subtitle: "During a children\u2019s camp at New Delhi, 2007",
   },
   {
-    icon: Mic,
-    title: "Live Satsangs & Sessions",
-    description:
-      "Regular live sessions and Q&A on YouTube covering spiritual queries, life challenges, and the application of Gita wisdom in everyday situations.",
+    title: "With Sundarlal Bahuguna, Environmentalist",
+    subtitle: "At a children\u2019s camp in Rishikesh, Uttarakhand",
   },
-];
-
-const publications = [
-  "Bhagavad Gita — Verse-by-verse commentary with practical insights",
-  "Spiritual Awakening — A guide to inner transformation through Bhagavad Dharma",
-  "Path of Selfless Action — Understanding Nishkama Karma in modern life",
-  "Wisdom for Youth — Gita teachings adapted for young minds and students",
+  {
+    title: "With Sri Sri Ravi Shankar, Spiritual Leader",
+    subtitle:
+      "Ravi Shankar launching Sri Siddharth\u2019s book at New Delhi",
+  },
+  {
+    title: "With Swami Agnivesh and Mr Kanodia",
+    subtitle: "At World Confluence in Kolkata in 2011",
+  },
 ];
 
 export default function BrahmBodhiPage() {
@@ -75,7 +62,7 @@ export default function BrahmBodhiPage() {
             transition={{ duration: 0.5 }}
             className="text-saffron-light font-semibold text-sm uppercase tracking-wider"
           >
-            Spiritual Leader & Author
+            Hari Sharanam!
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -85,202 +72,141 @@ export default function BrahmBodhiPage() {
           >
             Sriyut BrahmBodhi
           </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-5 text-white/85 text-base md:text-lg max-w-2xl mx-auto leading-relaxed"
-          >
-            Guiding humanity toward self-realization through the eternal
-            teachings of the Bhagavad Gita.
-          </motion.p>
         </div>
       </section>
 
-      {/* Bio */}
+      {/* Main Bio */}
       <section className="section-padding py-16 md:py-24 bg-cream">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <motion.div {...fadeInUp}>
-            <span className="text-saffron font-semibold text-sm uppercase tracking-wider">
-              Biography
-            </span>
-            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-dark-brown leading-tight">
-              A Life Dedicated to Spiritual Awakening
-            </h2>
-            <p className="mt-5 text-text-secondary leading-relaxed">
-              Sriyut BrahmBodhi is the founder and spiritual guide of Gita
-              Global Family. A devoted practitioner of Bhagavad Dharma, he has
-              spent decades immersed in the study, practice, and dissemination
-              of the Bhagavad Gita&apos;s timeless wisdom.
+        <div className="max-w-4xl mx-auto">
+          <motion.div {...fadeInUp} className="space-y-6 text-text-secondary leading-relaxed text-base md:text-lg">
+            <p>
+              BrahmBodhi stands as a beacon in the spiritual realm, a venerated
+              leader, accomplished author, profound thinker, and dedicated
+              educationist. Holding the esteemed position of Founder and
+              President of the Gita Global Family, he also champions the
+              principles and philosophies as the Head of Bhagavad Dharma, a
+              spiritual path deeply rooted in the teachings of the revered
+              Bhagavad Gita.
             </p>
-            <p className="mt-4 text-text-secondary leading-relaxed">
-              Driven by deep compassion and a vision for global transformation,
-              Sriyut BrahmBodhi established Gita Global Family to bridge the gap
-              between ancient spiritual knowledge and the needs of modern
-              society. His teachings emphasize selfless action, devotion, and the
-              practical application of Gita principles in everyday life.
+            <p>
+              Under his visionary leadership, the{" "}
+              <strong className="text-dark-brown">Gita Global Family</strong>{" "}
+              has burgeoned into an organization with far-reaching wings,
+              including the educational pioneer{" "}
+              <strong className="text-dark-brown">
+                Gita Global Gurukul
+              </strong>{" "}
+              Schools, the enlightening channel of{" "}
+              <strong className="text-dark-brown">
+                Gita Global Publications
+              </strong>
+              , and the yet to be unveiled{" "}
+              <strong className="text-dark-brown">Gita Dham</strong>&mdash;a
+              sanctuary conceived to be an amalgamation of a Gita temple, a hub
+              dedicated to poverty alleviation, and a vibrant center promoting
+              art and culture.
             </p>
-            <p className="mt-4 text-text-secondary leading-relaxed">
-              As a prolific author, he has published over 30 books that
-              translate the Gita&apos;s profound philosophy into language
-              accessible to readers of all backgrounds. His work spans multiple
-              languages, reaching seekers across India and around the world.
+            <p>
+              BrahmBodhi is committed to unlocking the boundless potential within
+              individuals and communities, propelling them towards a life rich in
+              purpose and fulfillment. A staunch advocate for education and
+              personal growth, he has embarked on a journey of empowerment,
+              seeding knowledge and fostering development for years.
+            </p>
+            <p>
+              We invite you to delve deeper into the multifaceted world of
+              BrahmBodhi through this portal, designed to be a gateway to his
+              diverse projects and his presence on various social media
+              platforms. Herein, you will find an enriching assembly of his
+              oeuvre, encompassing insightful articles, transformative videos,
+              and enlightening books&mdash;all curated to guide you towards a
+              life of heightened fulfillment and purpose.
             </p>
           </motion.div>
+
+          {/* YouTube Links */}
           <motion.div
             {...fadeInUp}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="relative aspect-[3/4] max-w-md mx-auto rounded-2xl overflow-hidden shadow-xl"
+            className="flex flex-col sm:flex-row gap-4 mt-10"
           >
-            <Image
-              src="/images/brahmabodhi.jpeg"
-              alt="Sriyut BrahmBodhi"
-              fill
-              className="object-cover"
-            />
-            <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-dark-brown/80 to-transparent p-6">
-              <p className="text-white font-semibold text-lg">
-                Sriyut BrahmBodhi
-              </p>
-              <p className="text-white/70 text-sm">
-                Founder, Gita Global Family
-              </p>
-            </div>
+            <a
+              href="https://www.youtube.com/@BrahmBodhi_EnglishOfficial?sub_confirmation=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition-colors shadow-md"
+            >
+              <Video className="w-5 h-5" />
+              Explore on YouTube
+            </a>
+            <a
+              href="https://www.youtube.com/@BrahmBodhi_HindiOfficial?sub_confirmation=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition-colors shadow-md"
+            >
+              <Video className="w-5 h-5" />
+              ब्रह्मबोधि Channel
+            </a>
           </motion.div>
         </div>
       </section>
 
-      {/* Teachings */}
+      {/* Karma Yoga Section */}
       <section className="section-padding py-16 md:py-24">
         <SectionHeading
-          title="His Teachings & Contributions"
-          subtitle="Sriyut BrahmBodhi's teachings illuminate the path of spiritual growth, selfless service, and inner peace for seekers worldwide."
+          title="BrahmBodhi's Karma Yoga"
+          subtitle="Before fully dedicating himself to spirituality and authorship, BrahmBodhi actively practiced Karma Yoga as outlined in the Bhagavad Gita. He collaborated with esteemed individuals across various disciplines."
         />
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {teachings.map((t, i) => (
+        <motion.p
+          {...fadeInUp}
+          className="text-center text-text-secondary max-w-3xl mx-auto mb-12 leading-relaxed"
+        >
+          A selection of photographs featuring BrahmBodhi with these notable
+          figures is showcased here, with additional images of his multiple
+          endeavors available on the subsequent pages.
+        </motion.p>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {karmaYogaPhotos.map((photo, i) => (
             <motion.div
-              key={t.title}
-              initial={{ opacity: 0, y: 20 }}
+              key={photo.title}
+              initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="bg-warm-gray rounded-2xl p-8 hover:shadow-lg transition-shadow border border-cream-dark/30"
+              transition={{ duration: 0.4, delay: i * 0.08 }}
+              className="bg-warm-gray rounded-2xl p-6 border border-cream-dark/30 hover:shadow-lg transition-shadow"
             >
-              <div className="w-14 h-14 bg-saffron/10 rounded-2xl flex items-center justify-center mb-5">
-                <t.icon className="w-7 h-7 text-saffron" />
+              <div className="w-full aspect-[4/3] bg-cream rounded-xl mb-5 flex items-center justify-center overflow-hidden">
+                <div className="text-center text-text-muted text-sm p-4">
+                  <div className="w-16 h-16 bg-saffron/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <span className="text-2xl">📷</span>
+                  </div>
+                  Photo
+                </div>
               </div>
-              <h3 className="text-lg font-semibold text-dark-brown mb-3">
-                {t.title}
+              <h3 className="text-base font-semibold text-dark-brown leading-snug">
+                {photo.title}
               </h3>
-              <p className="text-sm text-text-secondary leading-relaxed">
-                {t.description}
+              <p className="text-sm text-text-secondary mt-1.5 leading-relaxed">
+                {photo.subtitle}
               </p>
             </motion.div>
           ))}
         </div>
       </section>
 
-      {/* YouTube Channels */}
-      <section className="section-padding py-16 md:py-24 bg-maroon">
-        <SectionHeading
-          title="Watch on YouTube"
-          subtitle="Subscribe to BrahmBodhi's official channels for regular teachings, discourses, and live satsangs."
-          light
-        />
-        <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-          <motion.a
-            href="https://www.youtube.com/@BrahmBodhi_HindiOfficial"
-            target="_blank"
-            rel="noopener noreferrer"
-            {...fadeInUp}
-            className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/10 hover:bg-white/15 transition-colors"
-          >
-            <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
-              <Video className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold text-white mb-2">
-              Hindi Channel
-            </h3>
-            <p className="text-white/70 text-sm leading-relaxed mb-4">
-              BrahmBodhi Hindi Official — हिन्दी में भगवद गीता की शिक्षाएं
-            </p>
-            <span className="inline-flex items-center gap-2 text-saffron-light font-semibold text-sm group-hover:gap-3 transition-all">
-              Subscribe Now <ArrowRight className="w-4 h-4" />
-            </span>
-          </motion.a>
-
-          <motion.a
-            href="https://www.youtube.com/@BrahmBodhi_EnglishOfficial"
-            target="_blank"
-            rel="noopener noreferrer"
-            {...fadeInUp}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/10 hover:bg-white/15 transition-colors"
-          >
-            <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
-              <Video className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold text-white mb-2">
-              English Channel
-            </h3>
-            <p className="text-white/70 text-sm leading-relaxed mb-4">
-              BrahmBodhi English Official — Bhagavad Gita teachings in English
-            </p>
-            <span className="inline-flex items-center gap-2 text-saffron-light font-semibold text-sm group-hover:gap-3 transition-all">
-              Subscribe Now <ArrowRight className="w-4 h-4" />
-            </span>
-          </motion.a>
-        </div>
-      </section>
-
-      {/* Published Works */}
+      {/* Newspaper Articles */}
       <section className="section-padding py-16 md:py-24 bg-cream">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <motion.div {...fadeInUp}>
-            <span className="text-saffron font-semibold text-sm uppercase tracking-wider">
-              Published Works
-            </span>
-            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-dark-brown leading-tight">
-              Over 30 Books Published
-            </h2>
-            <p className="mt-5 text-text-secondary leading-relaxed">
-              Sriyut BrahmBodhi has authored over 30 books through Gita Global
-              Publication, making the Bhagavad Gita&apos;s wisdom accessible in
-              multiple languages. His publications cover spiritual philosophy,
-              practical guidance, youth education, and commentary on sacred
-              texts.
-            </p>
-            <ul className="mt-6 space-y-3">
-              {publications.map((pub) => (
-                <li key={pub} className="flex items-start gap-3">
-                  <Feather className="w-5 h-5 text-saffron mt-0.5 shrink-0" />
-                  <span className="text-text-secondary text-sm leading-relaxed">
-                    {pub}
-                  </span>
-                </li>
-              ))}
-            </ul>
-            <Link
-              href="/gita-publications"
-              className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
-            >
-              Explore Publications
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </motion.div>
-          <motion.div
-            {...fadeInUp}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl"
-          >
-            <Image
-              src="/images/vision.jpg"
-              alt="Published Works"
-              fill
-              className="object-cover"
-            />
-          </motion.div>
-        </div>
+        <SectionHeading title="Newspaper Articles" />
+        <motion.p
+          {...fadeInUp}
+          className="text-center text-text-secondary max-w-3xl mx-auto leading-relaxed"
+        >
+          These articles were published in various national English newspapers
+          when he served as a civil servant, prior to adopting his spiritual
+          name, BrahmBodhi. After his full transition into spirituality, he
+          ceased sending articles.
+        </motion.p>
       </section>
 
       {/* CTA */}

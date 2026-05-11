@@ -5,15 +5,14 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
-  Brain,
-  HeartHandshake,
-  Award,
-  BookHeart,
+  BookOpen,
+  Heart,
+  Globe,
   Monitor,
-  Calendar,
-  Video,
   Users,
   GraduationCap,
+  Mail,
+  Phone,
 } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
@@ -24,65 +23,54 @@ const fadeInUp = {
   transition: { duration: 0.5 },
 };
 
-const features = [
+const DONATE_LINK = "https://rzp.io/rzp/TsaLFcd";
+
+const values = [
   {
-    icon: Brain,
-    title: "Critical Thinking",
+    icon: Heart,
+    title: "No Discrimination",
     description:
-      "Encouraging students to question, analyze, and develop independent thought through inquiry-based learning inspired by the Gurukul tradition.",
+      "No caste or birth-based discrimination \u2014 open to all children, regardless of background.",
   },
   {
-    icon: HeartHandshake,
-    title: "Life Skills",
+    icon: BookOpen,
+    title: "Rooted in Bhagavad Gita",
     description:
-      "Building emotional intelligence, communication, teamwork, and resilience to prepare children for real-world challenges beyond academics.",
+      "Rooted in Bhagavad Gita\u2019s teachings \u2014 promoting equality, discipline, and compassion.",
   },
   {
-    icon: Award,
-    title: "Academic Excellence",
+    icon: Globe,
+    title: "Global & Inclusive",
     description:
-      "Delivering quality education in core subjects with modern teaching methodologies, personalized attention, and an emphasis on conceptual clarity.",
-  },
-  {
-    icon: BookHeart,
-    title: "Value-Based Education",
-    description:
-      "Integrating the ethical and moral teachings of the Bhagavad Gita into the curriculum to nurture character, compassion, and integrity.",
+      "Serving tribal, marginalized, and international communities.",
   },
 ];
 
-const howItWorks = [
+const howWeOperate = [
+  {
+    icon: GraduationCap,
+    title: "Minimal Costs",
+    description: "Using existing temples as learning centers.",
+  },
   {
     icon: Monitor,
-    title: "Online Zoom Classes",
+    title: "Digital Learning",
     description:
-      "Live, interactive sessions conducted via Zoom, bringing the Gurukul experience directly to students' homes — no barriers, no boundaries.",
-  },
-  {
-    icon: Calendar,
-    title: "Six Days a Week",
-    description:
-      "Consistent classes from Monday to Saturday ensure students maintain a disciplined learning rhythm with dedicated topics each day.",
-  },
-  {
-    icon: Video,
-    title: "Available on YouTube",
-    description:
-      "All sessions are recorded and made available on the Gita Global Gurukul YouTube channel so students can revisit lessons anytime.",
+      "High-quality video lessons reduce teacher dependency.",
   },
   {
     icon: Users,
-    title: "Open to All",
-    description:
-      "Completely free for underprivileged children. Schools and community organizations are welcome to enroll their students.",
+    title: "Volunteer-Driven",
+    description: "Experts teach remotely, keeping costs low.",
   },
 ];
 
-const stats = [
-  { value: "6", label: "Days / Week" },
-  { value: "100%", label: "Free Education" },
-  { value: "1000+", label: "Students Reached" },
-  { value: "Global", label: "Access" },
+const curriculumExtras = [
+  "Critical Thinking",
+  "Financial & Spiritual Literacy",
+  "Poverty Alleviation Strategies",
+  "Aesthetic Sense & Humor",
+  "Study Skills & Moral Values",
 ];
 
 export default function GitaGurukulPage() {
@@ -99,86 +87,71 @@ export default function GitaGurukulPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/60" />
         <div className="relative section-padding text-center">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="w-16 h-16 bg-saffron/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-6 border border-saffron/30"
-          >
-            <GraduationCap className="w-8 h-8 text-saffron-light" />
-          </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            transition={{ duration: 0.6 }}
             className="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
           >
-            Gita Global Gurukul
+            Our Gurukul Story
           </motion.h1>
+        </div>
+      </section>
+
+      {/* Global Vision */}
+      <section className="section-padding py-16 md:py-24 bg-cream">
+        <div className="max-w-4xl mx-auto">
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-5 text-white/85 text-base md:text-lg max-w-2xl mx-auto leading-relaxed"
+            {...fadeInUp}
+            className="text-text-secondary text-base md:text-lg leading-relaxed"
           >
-            A holistic education system blending ancient Indian Gurukul
-            principles with modern learning, offering free personalized
-            education to underprivileged children.
+            A global vision is being realized through various initiatives,
+            including a <strong className="text-dark-brown">Gita Temple</strong>{" "}
+            for spiritual development, an{" "}
+            <strong className="text-dark-brown">Ashram</strong> retreat, the{" "}
+            <strong className="text-dark-brown">
+              Gita Global Gurukul School
+            </strong>{" "}
+            headquarters, a{" "}
+            <strong className="text-dark-brown">
+              Poverty Alleviation Centre
+            </strong>{" "}
+            to support those in need, and an{" "}
+            <strong className="text-dark-brown">
+              Art and Culture Centre
+            </strong>{" "}
+            to revive local traditions within a 10-km radius. These
+            interconnected efforts aim to foster spiritual growth, education,
+            poverty relief, and cultural revival, collectively working toward a
+            transformative impact.
           </motion.p>
         </div>
       </section>
 
-      {/* Stats Bar */}
-      <section className="bg-saffron section-padding py-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {stats.map((s, i) => (
-            <motion.div
-              key={s.label}
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: i * 0.1 }}
-              className="text-center"
-            >
-              <p className="text-2xl md:text-3xl font-bold text-white">
-                {s.value}
-              </p>
-              <p className="text-white/80 text-sm mt-1">{s.label}</p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
-      {/* About Gurukul */}
-      <section className="section-padding py-16 md:py-24 bg-cream">
+      {/* Himachal Branch */}
+      <section className="section-padding py-16 md:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div {...fadeInUp}>
             <span className="text-saffron font-semibold text-sm uppercase tracking-wider">
-              About the Gurukul
+              Gita Global Gurukul
             </span>
             <h2 className="mt-3 text-2xl md:text-4xl font-bold text-dark-brown leading-tight">
-              Where Ancient Wisdom Meets Modern Education
+              Himachal, India
             </h2>
             <p className="mt-5 text-text-secondary leading-relaxed">
-              Gita Global Gurukul is a pioneering education initiative by Gita
-              Global Family that reimagines the ancient Indian Gurukul system for
-              the modern world. Rooted in the belief that every child deserves
-              access to quality education, the Gurukul offers free, personalized
-              learning to underprivileged children across India and beyond.
+              A branch of Gita Global Gurukul is currently operating in
+              Satiwala, Sirmaur District, Himachal Pradesh. The gurukul serves
+              children from Himachal Pradesh, Bihar, Jharkhand, and Uttar
+              Pradesh, with girls comprising one-third of the student body. Our
+              students represent diverse castes and communities, including tribal
+              groups and marginalized populations.
             </p>
             <p className="mt-4 text-text-secondary leading-relaxed">
-              Unlike conventional schooling, the Gurukul model goes beyond
-              textbooks. It blends academic instruction with life skills,
-              critical thinking, and the ethical values drawn from the Bhagavad
-              Gita. Students don&apos;t just learn subjects — they develop
-              character, compassion, and a lifelong love for learning.
-            </p>
-            <p className="mt-4 text-text-secondary leading-relaxed">
-              Led by the vision of Sriyut BrahmBodhi, the Gurukul operates
-              through live online Zoom classes six days a week, making
-              high-quality education accessible to anyone with an internet
-              connection. Sessions are also available on YouTube for students to
-              revisit and for new learners to discover.
+              The campus enjoys a picturesque location along the
+              Chandigarh-Dehradun National Highway, nestled in the Himalayan
+              foothills amid lush forests. The sacred Markandeya River flows
+              nearby, originating near the ancient ashram of Rishi Markandeya,
+              adding spiritual significance to our learning environment.
             </p>
           </motion.div>
           <motion.div
@@ -188,7 +161,7 @@ export default function GitaGurukulPage() {
           >
             <Image
               src="/images/gurukul.png"
-              alt="Gita Global Gurukul"
+              alt="Gita Global Gurukul Himachal"
               fill
               className="object-cover"
             />
@@ -196,142 +169,328 @@ export default function GitaGurukulPage() {
         </div>
       </section>
 
-      {/* Key Features */}
-      <section className="section-padding py-16 md:py-24">
-        <SectionHeading
-          title="Key Features"
-          subtitle="Our curriculum is designed to develop the whole child — intellectually, emotionally, and spiritually."
-        />
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {features.map((f, i) => (
-            <motion.div
-              key={f.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="bg-warm-gray rounded-2xl p-8 text-center hover:shadow-lg transition-shadow border border-cream-dark/30"
+      {/* Vrindavan HQ */}
+      <section className="section-padding py-16 md:py-24 bg-warm-gray">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <motion.div
+            {...fadeInUp}
+            transition={{ duration: 0.5, delay: 0.15 }}
+            className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1"
+          >
+            <Image
+              src="/images/vision.jpg"
+              alt="Vrindavan HQ"
+              fill
+              className="object-cover"
+            />
+          </motion.div>
+          <motion.div {...fadeInUp} className="order-1 lg:order-2">
+            <span className="text-saffron font-semibold text-sm uppercase tracking-wider">
+              Gita Global Gurukul HQ
+            </span>
+            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-dark-brown leading-tight">
+              Vrindavan, UP, India
+            </h2>
+            <h3 className="mt-4 text-lg font-semibold text-dark-brown">
+              Future Headquarters Development
+            </h3>
+            <p className="mt-3 text-text-secondary leading-relaxed">
+              The Gita Global Gurukul Headquarters and main campus are being
+              established near the sacred city of Vrindavan, Mathura (Uttar
+              Pradesh). This expansive project will occupy over one hectare of
+              acquired land, where initial infrastructure is already taking
+              shape.
+            </p>
+            <p className="mt-4 text-text-secondary leading-relaxed">
+              All necessary regulatory approvals are presently underway as we
+              prepare to create this flagship center of holistic learning.
+            </p>
+            <a
+              href={DONATE_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-8 px-6 py-3.5 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
             >
-              <div className="w-14 h-14 bg-saffron/10 rounded-2xl flex items-center justify-center mx-auto mb-5">
-                <f.icon className="w-7 h-7 text-saffron" />
-              </div>
-              <h3 className="text-lg font-semibold text-dark-brown mb-3">
-                {f.title}
-              </h3>
-              <p className="text-sm text-text-secondary leading-relaxed">
-                {f.description}
-              </p>
-            </motion.div>
-          ))}
+              Support Gita Gurukul Education
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </motion.div>
         </div>
       </section>
 
-      {/* How It Works */}
+      {/* Brief Note */}
       <section className="section-padding py-16 md:py-24 bg-cream">
-        <SectionHeading
-          title="How It Works"
-          subtitle="A simple, accessible model that removes every barrier between a child and quality education."
-        />
-        <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          {howItWorks.map((step, i) => (
-            <motion.div
-              key={step.title}
-              initial={{ opacity: 0, x: i % 2 === 0 ? -20 : 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="flex gap-5 bg-white rounded-2xl p-6 border border-cream-dark/30"
-            >
-              <div className="w-12 h-12 bg-saffron/10 rounded-xl flex items-center justify-center shrink-0">
-                <step.icon className="w-6 h-6 text-saffron" />
-              </div>
-              <div>
-                <h3 className="text-base font-semibold text-dark-brown mb-2">
-                  {step.title}
-                </h3>
+        <SectionHeading title="A Brief Note on Gita Global Gurukul" />
+
+        <div className="max-w-4xl mx-auto space-y-12">
+          {/* Purpose */}
+          <motion.div {...fadeInUp}>
+            <h3 className="text-xl font-bold text-dark-brown mb-4">
+              Our Purpose
+            </h3>
+            <p className="text-text-secondary leading-relaxed">
+              Gita Global Gurukul, an initiative of{" "}
+              <strong className="text-dark-brown">Gita Global Family</strong>,
+              is dedicated to the{" "}
+              <strong className="text-dark-brown">
+                complete development of children
+              </strong>
+              &mdash;spiritually, intellectually, and morally. Inspired by the
+              teachings of the{" "}
+              <strong className="text-dark-brown">Bhagavad Gita</strong> and the
+              life of <strong className="text-dark-brown">Lord Ram</strong>, we
+              follow the ancient Indian philosophy of{" "}
+              <strong className="text-dark-brown">
+                Artha (wealth), Dharma (duty), Kama (desire), and Moksha
+                (liberation)
+              </strong>{" "}
+              to cultivate well-rounded individuals. Our vision extends beyond
+              India, aiming to empower children{" "}
+              <strong className="text-dark-brown">worldwide</strong> with
+              timeless wisdom and modern skills.
+            </p>
+          </motion.div>
+
+          {/* Approach */}
+          <motion.div {...fadeInUp}>
+            <h3 className="text-xl font-bold text-dark-brown mb-4">
+              Our Approach
+            </h3>
+            <p className="text-text-secondary leading-relaxed mb-4">
+              To make <strong className="text-dark-brown">holistic education accessible</strong>, we have designed two models:
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white rounded-2xl p-6 border border-cream-dark/30">
+                <h4 className="font-semibold text-dark-brown mb-2">
+                  1. Residential Gurukuls
+                </h4>
                 <p className="text-sm text-text-secondary leading-relaxed">
-                  {step.description}
+                  For immersive learning in a traditional gurukul setting.
                 </p>
               </div>
-            </motion.div>
-          ))}
+              <div className="bg-white rounded-2xl p-6 border border-cream-dark/30">
+                <h4 className="font-semibold text-dark-brown mb-2">
+                  2. Single-Teacher (Ekal) Gurukuls
+                </h4>
+                <p className="text-sm text-text-secondary leading-relaxed mb-3">
+                  Affordable village-based schools requiring minimal setup:
+                </p>
+                <ul className="text-sm text-text-secondary space-y-1.5">
+                  <li className="flex items-start gap-2">
+                    <span className="text-saffron mt-0.5">&bull;</span>
+                    A medium-sized TV for digital lessons
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-saffron mt-0.5">&bull;</span>
+                    An inverter for uninterrupted power
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-saffron mt-0.5">&bull;</span>
+                    A speaker system for up to 100 students
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-saffron mt-0.5">&bull;</span>
+                    A water dispenser for hygiene
+                  </li>
+                </ul>
+                <p className="mt-4 text-sm font-semibold text-saffron">
+                  Initial setup cost: Just ₹50,000 per Gurukul.
+                </p>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Values */}
+          <motion.div {...fadeInUp}>
+            <h3 className="text-xl font-bold text-dark-brown mb-6">
+              Our Values
+            </h3>
+            <div className="grid sm:grid-cols-3 gap-6">
+              {values.map((v, i) => (
+                <div
+                  key={v.title}
+                  className="bg-white rounded-2xl p-6 text-center border border-cream-dark/30"
+                >
+                  <div className="w-12 h-12 bg-saffron/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <v.icon className="w-6 h-6 text-saffron" />
+                  </div>
+                  <h4 className="font-semibold text-dark-brown mb-2">
+                    {v.title}
+                  </h4>
+                  <p className="text-sm text-text-secondary leading-relaxed">
+                    {v.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* How We Operate */}
+          <motion.div {...fadeInUp}>
+            <h3 className="text-xl font-bold text-dark-brown mb-6">
+              How We Operate
+            </h3>
+            <div className="grid sm:grid-cols-3 gap-6">
+              {howWeOperate.map((item) => (
+                <div
+                  key={item.title}
+                  className="flex gap-4 bg-white rounded-2xl p-5 border border-cream-dark/30"
+                >
+                  <div className="w-10 h-10 bg-saffron/10 rounded-lg flex items-center justify-center shrink-0">
+                    <item.icon className="w-5 h-5 text-saffron" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-dark-brown text-sm mb-1">
+                      {item.title}
+                    </h4>
+                    <p className="text-sm text-text-secondary leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* Unique Curriculum */}
+          <motion.div {...fadeInUp}>
+            <h3 className="text-xl font-bold text-dark-brown mb-4">
+              Our Unique Curriculum
+            </h3>
+            <p className="text-text-secondary leading-relaxed mb-4">
+              Beyond conventional subjects (Math, Science, English), we teach:
+            </p>
+            <div className="flex flex-wrap gap-3">
+              {curriculumExtras.map((item) => (
+                <span
+                  key={item}
+                  className="px-4 py-2 bg-saffron/10 text-saffron font-medium text-sm rounded-full border border-saffron/20"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* Progress */}
+          <motion.div {...fadeInUp}>
+            <h3 className="text-xl font-bold text-dark-brown mb-4">
+              Our Progress
+            </h3>
+            <ul className="space-y-3 text-text-secondary leading-relaxed">
+              <li className="flex items-start gap-3">
+                <span className="text-saffron mt-1 font-bold">&bull;</span>
+                <span>
+                  <strong className="text-dark-brown">
+                    Operational Gurukul in Himachal Pradesh
+                  </strong>{" "}
+                  &mdash; Serving children from Bihar, Jharkhand, UP, and tribal
+                  communities.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-saffron mt-1 font-bold">&bull;</span>
+                <span>
+                  <strong className="text-dark-brown">
+                    Upcoming HQ in Vrindavan
+                  </strong>{" "}
+                  &mdash; Land acquired for a large Gurukul campus.
+                </span>
+              </li>
+            </ul>
+          </motion.div>
         </div>
       </section>
 
-      {/* YouTube CTA */}
+      {/* How You Can Help */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
-          src="/images/gurukul.png"
-          alt="Subscribe to Gita Global Gurukul"
+          src="/images/banner.jpg"
+          alt="Support Education"
           fill
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-maroon/90 via-maroon/80 to-maroon/70" />
+        <div className="absolute inset-0 bg-maroon/85" />
         <div className="relative section-padding">
           <div className="max-w-3xl mx-auto text-center">
             <motion.div {...fadeInUp}>
-              <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg shadow-red-600/30">
-                <Video className="w-10 h-10 text-white" />
-              </div>
               <h2 className="text-2xl md:text-4xl font-bold text-white leading-tight">
-                Subscribe to Gita Global Gurukul
+                How You Can Help
               </h2>
-              <p className="mt-5 text-white/80 leading-relaxed max-w-xl mx-auto">
-                Watch our classes on YouTube, subscribe to stay updated, and
-                share with schools and communities who can benefit from free,
-                value-based education.
+              <p className="mt-5 text-white/80 leading-relaxed">
+                Your donation supports:
               </p>
+              <ul className="mt-4 space-y-2 text-left max-w-lg mx-auto">
+                {[
+                  "Setting up new Ekal Gurukuls (₹50,000 each)",
+                  "Expanding residential Gurukuls",
+                  "Developing digital learning tools",
+                  "Sponsoring a child\u2019s education",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    className="flex items-start gap-3 text-white/90"
+                  >
+                    <span className="text-gold mt-1">&bull;</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-6 text-saffron-light text-sm italic">
+                All donations are tax-exempt under 80G.
+              </p>
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
                 <a
-                  href="https://www.youtube.com/@BrahmBodhi_HindiOfficial?sub_confirmation=1"
+                  href={DONATE_LINK}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition-colors shadow-lg"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
                 >
-                  <Video className="w-5 h-5" />
-                  Subscribe Now
-                </a>
-                <Link
-                  href="/join-us"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-white/30 text-white font-semibold rounded-full hover:bg-white/10 transition-colors"
-                >
-                  Enroll Your School
+                  Sponsor a Gurukul
                   <ArrowRight className="w-4 h-4" />
-                </Link>
+                </a>
               </div>
+
+              <div className="flex flex-col sm:flex-row gap-6 justify-center mt-8 text-white/80 text-sm">
+                <a
+                  href="mailto:namaste@gitaglobalfamily.org"
+                  className="inline-flex items-center gap-2 hover:text-white transition-colors"
+                >
+                  <Mail className="w-4 h-4" />
+                  namaste@gitaglobalfamily.org
+                </a>
+                <a
+                  href="tel:+918865052915"
+                  className="inline-flex items-center gap-2 hover:text-white transition-colors"
+                >
+                  <Phone className="w-4 h-4" />
+                  +91 886-505-2915
+                </a>
+              </div>
+
+              <p className="mt-8 text-white/70 italic text-sm max-w-md mx-auto">
+                &ldquo;The future of Dharma lies in the hands of our children.
+                Support their journey today.&rdquo;
+              </p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Bottom CTA */}
-      <section className="section-padding py-16 md:py-24 bg-warm-gray text-center">
-        <motion.div {...fadeInUp} className="max-w-2xl mx-auto">
-          <GraduationCap className="w-10 h-10 text-saffron mx-auto mb-5" />
-          <h2 className="text-2xl md:text-4xl font-bold text-dark-brown leading-tight">
-            Every Child Deserves a Chance
-          </h2>
-          <p className="mt-5 text-text-secondary leading-relaxed">
-            Help us reach more children by spreading the word, volunteering, or
-            supporting the Gurukul initiative. Together, we can transform lives
-            through the power of education and ancient wisdom.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <Link
-              href="/join-us"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
-            >
-              Get Involved
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-            <Link
-              href="/donate"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-saffron text-saffron font-semibold rounded-full hover:bg-saffron hover:text-white transition-colors"
-            >
-              Support the Gurukul
-            </Link>
-          </div>
-        </motion.div>
+      {/* Gallery CTA */}
+      <section className="section-padding py-16 md:py-20 text-center">
+        <SectionHeading
+          title="Gallery"
+          subtitle="Capture the essence of mindfulness in every breath and pose."
+        />
+        <Link
+          href="/gallery"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
+        >
+          All Gallery
+          <ArrowRight className="w-4 h-4" />
+        </Link>
       </section>
     </>
   );

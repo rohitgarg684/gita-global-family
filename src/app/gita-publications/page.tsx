@@ -1,49 +1,121 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
-import { BookOpen, Globe, Heart, Users, ArrowRight, Mail } from "lucide-react";
+import { BookOpen, ArrowRight, ShoppingCart } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
-const fadeInUp = {
-  initial: { opacity: 0, y: 30 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: "-50px" as const },
-  transition: { duration: 0.5 },
-};
+const RAZORPAY_STORE =
+  "https://pages.razorpay.com/stores/st_QvF1VOCPbywKFo";
 
-const categories = [
+const hindiBooks = [
   {
-    icon: BookOpen,
-    title: "Bhagavad Gita Commentaries",
+    title: "Mokshavidyadayini Parampavan Bhagavad Gita",
+    subtitle: "Sabhi Dukhom Se Pare, Anand Ki Oor",
     description:
-      "In-depth commentaries and translations making the Gita accessible to readers across languages and backgrounds.",
+      "अध्याय परिचयों, आत्म मूल्यांकन उपकरणों आदि के साथ भगवद्गीता की गहन व्याख्या। परिवर्धित संस्करण। 8.5×5.5 इंच, 800 पृष्ठ।",
+    price: "₹499",
   },
   {
-    icon: Globe,
-    title: "Multilingual Editions",
+    title: "Sampoorn Kraanti Kee Bhoomika",
+    subtitle: "",
     description:
-      "Publications in Hindi, English, and other languages to reach seekers worldwide.",
+      "गीता के इस संस्करण में सरल हिंदी अर्थ, टिप्पणियाँ व ईश्वर-प्राप्ति के 10 मार्गों पर विशेष निबंध हैं।",
+    price: "₹350",
   },
   {
-    icon: Heart,
-    title: "Spiritual Growth Guides",
+    title: "Hari Ko Kaun Dulaaro",
+    subtitle: "",
     description:
-      "Practical guides for daily spiritual practice, meditation, and self-realization.",
+      "जीवन श्रेष्ठ और मोक्ष उसी का होगा जो ईश्वर का प्रिय है। यह पुस्तक उन गुणों की विवेचना करती है जो ईश्वर को प्रिय हैं।",
+    price: "₹200",
   },
   {
-    icon: Users,
-    title: "Community & Outreach",
+    title: "Hamaaree Geeta Aur Eeshvar Praapti Ke Das Maarg",
+    subtitle: "",
     description:
-      "Books on community service, poverty alleviation, and building a spiritually grounded society.",
+      "गीता के इस संस्करण में सरल हिंदी अर्थ, पाद-टिप्पणियाँ और ईश्वर-प्राप्ति के दस मार्गों पर विशेष निबंध समाहित हैं।",
+    price: "₹125",
+  },
+  {
+    title: "Geeta Navaneet Shlok Vidyaarthiyon Ke Liye",
+    subtitle: "51 श्लोक स्टूडेंट्स के लिए",
+    description:
+      "गीता के प्रमुख उपदेशों को युवाओं के लिए सार रूप में प्रस्तुत करता है। ये श्लोक ध्यान, अनुशासन और नैतिक जीवन की प्रेरणा देते हैं।",
+    price: "₹60",
   },
 ];
+
+const englishBooks = [
+  {
+    title: "Bhagavad Gita With God's Ideas on Life Management",
+    subtitle: "",
+    description:
+      "This edition of the Bhagavad Gita includes an insightful essay on God's ideas in life management, spanning 495 pages in a compact 8×5-inch format.",
+    price: "₹399",
+  },
+  {
+    title: "The Cream Of The Bhagavad Gita",
+    subtitle: "51 Verses for Students",
+    description:
+      "Distills key Gita teachings for youth. These verses inspire focus, discipline, and ethical living.",
+    price: "₹100",
+  },
+];
+
+function BookCard({
+  book,
+  index,
+}: {
+  book: (typeof hindiBooks)[0];
+  index: number;
+}) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.4, delay: index * 0.08 }}
+      className="bg-white rounded-2xl border border-cream-dark/30 p-6 md:p-8 hover:shadow-lg transition-shadow flex flex-col"
+    >
+      <div className="flex items-start gap-4 mb-4">
+        <div className="w-12 h-12 bg-saffron/10 rounded-xl flex items-center justify-center shrink-0">
+          <BookOpen className="w-6 h-6 text-saffron" />
+        </div>
+        <div className="min-w-0">
+          <h3 className="text-lg font-semibold text-dark-brown leading-snug">
+            {book.title}
+          </h3>
+          {book.subtitle && (
+            <p className="text-sm text-saffron font-medium mt-0.5">
+              {book.subtitle}
+            </p>
+          )}
+        </div>
+      </div>
+      <p className="text-sm text-text-secondary leading-relaxed flex-1">
+        {book.description}
+      </p>
+      <div className="flex items-center justify-between mt-5 pt-4 border-t border-cream-dark/20">
+        <span className="text-xl font-bold text-dark-brown">{book.price}</span>
+        <a
+          href={RAZORPAY_STORE}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-5 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors"
+        >
+          <ShoppingCart className="w-4 h-4" />
+          Buy Now
+        </a>
+      </div>
+    </motion.div>
+  );
+}
 
 export default function GitaPublicationsPage() {
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero */}
       <section className="relative py-20 md:py-32 overflow-hidden">
         <Image
           src="/images/publications.png"
@@ -52,7 +124,7 @@ export default function GitaPublicationsPage() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-dark-brown/80 to-dark-brown/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-dark-brown/85 to-dark-brown/50" />
         <div className="relative section-padding">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -61,67 +133,75 @@ export default function GitaPublicationsPage() {
             className="max-w-2xl"
           >
             <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-              Gita Publications
+              Gita Global Publications
             </h1>
             <p className="mt-5 text-white/90 text-lg leading-relaxed">
-              Spreading the timeless wisdom of the Bhagavad Gita to every corner
-              of the world through the written word.
+              Spreading the timeless wisdom of the Bhagavad Gita through
+              thoughtfully crafted books in Hindi and English.
             </p>
+            <a
+              href={RAZORPAY_STORE}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
+            >
+              <ShoppingCart className="w-5 h-5" />
+              Visit Our Store
+            </a>
           </motion.div>
         </div>
       </section>
 
-      {/* Intro Section */}
+      {/* Intro */}
       <section className="section-padding py-16 md:py-24 bg-cream">
         <div className="max-w-4xl mx-auto text-center">
           <SectionHeading
-            title="Sharing Timeless Wisdom Worldwide"
+            title="Books That Transform Lives"
             subtitle="Gita Global Publication is a dedicated unit of the Gita Global Family, committed to sharing the Bhagavad Gita's eternal teachings with the world."
           />
           <motion.p
-            {...fadeInUp}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
             className="text-text-secondary leading-relaxed text-base md:text-lg"
           >
-            Through thoughtfully crafted publications, we aim to make the
-            profound wisdom of the Gita accessible to seekers of all ages,
-            backgrounds, and languages. Our books serve as beacons of light,
-            guiding readers toward spiritual growth, inner peace, and purposeful
+            Through our publications, we aim to make the profound wisdom of the
+            Gita accessible to seekers of all ages, backgrounds, and languages.
+            From comprehensive commentaries to concise student editions, each
+            book serves as a beacon of light for spiritual growth and purposeful
             living.
           </motion.p>
         </div>
       </section>
 
-      {/* Book Categories */}
+      {/* Hindi Books */}
       <section className="section-padding py-16 md:py-24">
         <SectionHeading
-          title="30+ Published Books & Growing"
-          subtitle="Our diverse catalog spans multiple categories, each designed to illuminate a different facet of Gita's wisdom."
+          title="हिंदी प्रकाशन — Hindi Publications"
+          subtitle="Bhagavad Gita commentaries and guides in Hindi"
         />
-        <div className="grid md:grid-cols-2 gap-6">
-          {categories.map((cat, i) => (
-            <motion.div
-              key={cat.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="bg-warm-gray rounded-2xl p-8 hover:shadow-lg transition-shadow border border-cream-dark/30"
-            >
-              <div className="w-14 h-14 bg-saffron/10 rounded-2xl flex items-center justify-center mb-5">
-                <cat.icon className="w-7 h-7 text-saffron" />
-              </div>
-              <h3 className="text-lg font-semibold text-dark-brown mb-3">
-                {cat.title}
-              </h3>
-              <p className="text-sm text-text-secondary leading-relaxed">
-                {cat.description}
-              </p>
-            </motion.div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {hindiBooks.map((book, i) => (
+            <BookCard key={book.title} book={book} index={i} />
           ))}
         </div>
       </section>
 
-      {/* Mission Section */}
+      {/* English Books */}
+      <section className="section-padding py-16 md:py-24 bg-warm-gray">
+        <SectionHeading
+          title="English Publications"
+          subtitle="Bhagavad Gita editions and guides in English"
+        />
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {englishBooks.map((book, i) => (
+            <BookCard key={book.title} book={book} index={i} />
+          ))}
+        </div>
+      </section>
+
+      {/* Mission */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
           src="/images/vision.jpg"
@@ -133,68 +213,71 @@ export default function GitaPublicationsPage() {
         <div className="relative section-padding">
           <div className="max-w-3xl mx-auto text-center">
             <SectionHeading title="Our Mission" light />
-            <motion.div {...fadeInUp} className="space-y-4">
-              <p className="text-white/90 leading-relaxed text-base md:text-lg">
-                Through our publications, we strive to:
-              </p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="space-y-4"
+            >
               <ul className="space-y-3 text-left max-w-xl mx-auto">
-                <li className="flex items-start gap-3 text-white/90">
-                  <span className="text-gold mt-1 text-lg">&#9679;</span>
-                  <span>
-                    Promote peace, unity, and brotherhood across communities and
-                    nations.
-                  </span>
-                </li>
-                <li className="flex items-start gap-3 text-white/90">
-                  <span className="text-gold mt-1 text-lg">&#9679;</span>
-                  <span>
-                    Combat spiritual and material poverty through the
-                    transformative power of knowledge.
-                  </span>
-                </li>
-                <li className="flex items-start gap-3 text-white/90">
-                  <span className="text-gold mt-1 text-lg">&#9679;</span>
-                  <span>
-                    Make the Gita&apos;s teachings accessible to all,
-                    regardless of language, location, or background.
-                  </span>
-                </li>
-                <li className="flex items-start gap-3 text-white/90">
-                  <span className="text-gold mt-1 text-lg">&#9679;</span>
-                  <span>
-                    Inspire individuals to live with purpose, compassion, and
-                    spiritual awareness.
-                  </span>
-                </li>
+                {[
+                  "Promote peace, unity, and brotherhood across communities and nations.",
+                  "Combat spiritual and material poverty through the transformative power of knowledge.",
+                  "Make the Gita's teachings accessible to all, regardless of language, location, or background.",
+                  "Inspire individuals to live with purpose, compassion, and spiritual awareness.",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    className="flex items-start gap-3 text-white/90"
+                  >
+                    <span className="text-gold mt-1 text-lg">&#9679;</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
               </ul>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA */}
       <section className="section-padding py-16 md:py-24 bg-cream">
         <motion.div
-          {...fadeInUp}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
           className="max-w-2xl mx-auto text-center"
         >
           <div className="w-16 h-16 bg-saffron/10 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Mail className="w-8 h-8 text-saffron" />
+            <ShoppingCart className="w-8 h-8 text-saffron" />
           </div>
           <h2 className="text-2xl md:text-3xl font-bold text-dark-brown mb-4">
-            Get Our Publications
+            Order Your Copy Today
           </h2>
           <p className="text-text-secondary leading-relaxed mb-8">
-            Interested in our books or want to distribute them in your
-            community? Reach out to us and we&apos;ll be happy to assist you.
+            All our publications are available for purchase through our Razorpay
+            store. You can also reach out to distribute them in your community.
           </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
-          >
-            Contact Us
-            <ArrowRight className="w-4 h-4" />
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href={RAZORPAY_STORE}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
+            >
+              <ShoppingCart className="w-5 h-5" />
+              Browse All Books
+            </a>
+            <a
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-dark-brown font-semibold rounded-full hover:bg-cream transition-colors border border-cream-dark/30"
+            >
+              Contact Us
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
         </motion.div>
       </section>
     </>
