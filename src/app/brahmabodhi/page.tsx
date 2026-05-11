@@ -55,6 +55,7 @@ const newspaperArticles = [
   img("newspaper-3.jpeg"),
   img("newspaper-4.jpeg"),
   img("newspaper-5.jpeg"),
+  img("newspaper-6.jpeg"),
 ];
 
 export default function BrahmBodhiPage() {
@@ -63,10 +64,10 @@ export default function BrahmBodhiPage() {
       {/* Hero */}
       <section className="relative py-28 md:py-36 overflow-hidden">
         <Image
-          src={img("brahmabodhi.jpeg")}
+          src={img("brahmabodhi-hero.png")}
           alt="Sriyut BrahmBodhi"
           fill
-          className="object-cover object-top"
+          className="object-cover"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/60" />
@@ -90,10 +91,35 @@ export default function BrahmBodhiPage() {
         </div>
       </section>
 
-      {/* Main Bio */}
-      <section className="section-padding py-16 md:py-24 bg-cream">
-        <div className="max-w-4xl mx-auto">
-          <motion.div {...fadeInUp} className="space-y-6 text-text-secondary leading-relaxed text-base md:text-lg">
+      {/* Main Bio — two-column layout */}
+      <section className="section-padding py-16 md:py-24 bg-white">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 md:gap-16 items-start">
+          {/* Portrait */}
+          <motion.div
+            {...fadeInUp}
+            className="w-full md:w-[360px] shrink-0"
+          >
+            <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src={img("brahmabodhi-portrait.jpeg")}
+                alt="Sriyut BrahmBodhi"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+            <h2 className="mt-6 text-xl md:text-2xl font-light text-dark-brown tracking-wide">
+              <span className="italic">SRIYUT</span>{" "}
+              <strong className="font-bold">BRAHMBODHI</strong>
+            </h2>
+          </motion.div>
+
+          {/* Bio text */}
+          <motion.div
+            {...fadeInUp}
+            className="flex-1 space-y-6 text-text-secondary leading-relaxed text-base md:text-lg"
+          >
+            <p className="text-saffron font-semibold">Hari Sharanam!</p>
             <p>
               BrahmBodhi stands as a beacon in the spiritual realm, a venerated
               leader, accomplished author, profound thinker, and dedicated
@@ -137,31 +163,28 @@ export default function BrahmBodhiPage() {
               and enlightening books&mdash;all curated to guide you towards a
               life of heightened fulfillment and purpose.
             </p>
-          </motion.div>
 
-          {/* YouTube Links */}
-          <motion.div
-            {...fadeInUp}
-            className="flex flex-col sm:flex-row gap-4 mt-10"
-          >
-            <a
-              href="https://www.youtube.com/@BrahmBodhi_EnglishOfficial?sub_confirmation=1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition-colors shadow-md"
-            >
-              <Video className="w-5 h-5" />
-              Explore on YouTube
-            </a>
-            <a
-              href="https://www.youtube.com/@BrahmBodhi_HindiOfficial?sub_confirmation=1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition-colors shadow-md"
-            >
-              <Video className="w-5 h-5" />
-              ब्रह्मबोधि Channel
-            </a>
+            {/* YouTube Links */}
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <a
+                href="https://www.youtube.com/@BrahmBodhi_EnglishOfficial?sub_confirmation=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition-colors shadow-md"
+              >
+                <Video className="w-5 h-5" />
+                Explore on YouTube
+              </a>
+              <a
+                href="https://www.youtube.com/@BrahmBodhi_HindiOfficial?sub_confirmation=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition-colors shadow-md"
+              >
+                <Video className="w-5 h-5" />
+                ब्रह्मबोधि Channel
+              </a>
+            </div>
           </motion.div>
         </div>
       </section>
