@@ -13,7 +13,7 @@ import {
 import HeroCarousel from "@/components/HeroCarousel";
 import SectionHeading from "@/components/SectionHeading";
 import FAQAccordion from "@/components/FAQAccordion";
-import BlogCard from "@/components/BlogCard";
+import ArticlesCarousel from "@/components/ArticlesCarousel";
 import ContactForm from "@/components/ContactForm";
 import DonationButton from "@/components/DonationButton";
 import VideoCarousel from "@/components/VideoCarousel";
@@ -41,34 +41,54 @@ const navTabs = [
   },
 ];
 
-const blogPosts = [
-  {
-    title: "विषय : आध्यात्मिक प्रगति के लिए मन के विकारों को कैसे दूर करें?",
-    excerpt:
-      "अंतःकरण को शुद्ध किए बिना ऊँची आध्यात्मिक उपलब्धि और ईश्वर दर्शन असंभव",
-    date: "Jul 31, 2025",
-    slug: "व-षय-आध-य-त-म-क-प-रगत-क-ल-ए-मन-क-व-क-र-क-क-स-द-र-कर",
-    image: img("blog-thumb-1.jpg"),
-  },
-  {
-    title:
-      "प्रश्न : क़्या बिना गुरू किये ईश्वर का नाम जपनें से अध्यात्मिक उपलब्धि प्राप्त नहीं हो सकती?",
-    excerpt:
-      "ईश्वर का नाम जप प्रगति की दिशा में ले जा सकता है, लेकिन मार्गदर्शन भक्ति को गहराता है और सच्ची सिद्धि सुनिश्चित करता है।",
-    date: "Jul 31, 2025",
-    slug: "प-रश-न-क-य-ब-न-ग-र-क-य-ईश-वर-क-न-म-जपन-स-अध-य-त-म-क-उपलब-ध-प-र-प-त-नह-ह-सकत",
-    image: img("blog-thumb-2.jpeg"),
-  },
-  {
-    title:
-      "Can a spiritual seeker have high spiritual attainments by just chanting the name of God without the guidance of a guru?",
-    excerpt:
-      "Chanting God's name can lead to progress, but guidance deepens devotion and ensures true attainment.",
-    date: "Jul 31, 2025",
-    slug: "question-can-a-spiritual-seeker-have-high-spiritual-attainments-by-just-chanting-the-name-of-god-without-the-guidance-of-a-guru",
-    image: img("blog-thumb-3.jpeg"),
-  },
-];
+const articles = {
+  english: [
+    {
+      title: "Does Bhagavad Gita Support the Hindu Caste System?",
+      slug: "the-benefits-of-yoga-for-mental-health",
+      image: img("blog-caste-system.webp"),
+    },
+    {
+      title: "How can mental stress be healed through spirituality?",
+      slug: "question-(rajesh-k-dubey)-how-can-mental-stress-be-healed-through-spirituality",
+      image: img("blog-mental-stress-en.png"),
+    },
+    {
+      title: "Can a spiritual seeker attain God without a guru?",
+      slug: "question-can-a-spiritual-seeker-have-high-spiritual-attainments-by-just-chanting-the-name-of-god-without-the-guidance-of-a-guru",
+      image: img("blog-chanting-guru.png"),
+    },
+  ],
+  gita: [
+    {
+      title: "Karmanye Vadhikaraste",
+      slug: "karmanye-vadhikaraste",
+      image: img("blog-karmanye.jpg"),
+    },
+  ],
+  hindi: [
+    {
+      title: "आत्म-जागरूकता से जगाएं अपनी अंदरूनी सुपरपावर",
+      slug: "\u0906\u0924-\u092e-\u091c-\u0917\u0930-\u0915\u0924-\u0938-\u091c\u0917-\u090f-\u0905\u092a\u0928-\u0905-\u0926\u0930-\u0928-\u0938-\u092a\u0930\u092a-\u0935\u0930",
+      image: img("blog-atma-jagurukta.webp"),
+    },
+    {
+      title: "मानसिक तनाव को अध्यात्म के जरिए कैसे ठीक किया जा सकता है?",
+      slug: "\u092a-\u0930\u0936-\u0928-(\u0930-\u091c-\u0935-\u0939-\u0915-\u0921-\u092c-)-\u092e-\u0928\u0938-\u0915-\u0924\u0928-\u0935-\u0915-\u0905\u0927-\u092f-\u0924-\u092e-\u0915-\u091c\u0930-\u090f-\u0915-\u0938-\u0920-\u0915-\u0915-\u092f-\u091c-\u0938\u0915\u0924-\u0939",
+      image: img("blog-mental-stress-hi.png"),
+    },
+    {
+      title: "क़्या बिना गुरू किये ईश्वर का नाम जपनें से अध्यात्मिक उपलब्धि प्राप्त नहीं हो सकती?",
+      slug: "\u092a-\u0930\u0936-\u0928-\u0915-\u092f-\u092c-\u0928-\u0917-\u0930-\u0915-\u092f-\u0908\u0936-\u0935\u0930-\u0915-\u0928-\u092e-\u091c\u092a\u0928-\u0938-\u0905\u0927-\u092f-\u0924-\u092e-\u0915-\u0909\u092a\u0932\u092c-\u0927-\u092a-\u0930-\u092a\u0924-\u0928\u0939-\u0939-\u0938\u0915\u0924",
+      image: img("blog-chanting-guru-hi.png"),
+    },
+    {
+      title: "आध्यात्मिक प्रगति के लिए मन के विकारों को कैसे दूर करें?",
+      slug: "\u0935-\u0937\u092f-\u0906\u0927-\u092f-\u0924-\u092e-\u0915-\u092a-\u0930\u0917\u0924-\u0915-\u0932-\u090f-\u092e\u0928-\u0915-\u0935-\u0915-\u0930-\u0915-\u0915-\u0938-\u0926-\u0930-\u0915\u0930",
+      image: img("blog-man-ke-vikar.png"),
+    },
+  ],
+};
 
 const waysWeHelp = [
   {
@@ -255,22 +275,15 @@ export default function HomePage() {
       </section>
 
       {/* Browse Our Articles */}
-      <section className="section-padding py-16 md:py-24">
+      <section className="section-padding py-16 md:py-24 bg-cream">
         <SectionHeading title="Browse Our Articles" />
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogPosts.map((post, i) => (
-            <BlogCard key={post.slug} {...post} index={i} />
-          ))}
-        </div>
-        <div className="text-center mt-10">
-          <Link
-            href="/blog"
-            className="inline-flex items-center gap-2 px-6 py-3 border-2 border-saffron text-saffron font-semibold rounded-full hover:bg-saffron hover:text-white transition-colors"
-          >
-            View All Articles
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
+        <ArticlesCarousel
+          categories={[
+            { title: "English Articles", articles: articles.english },
+            { title: "Gita Verses", articles: articles.gita },
+            { title: "हिन्दी लेख", articles: articles.hindi },
+          ]}
+        />
       </section>
 
       {/* Our Vision */}
