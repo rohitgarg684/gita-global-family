@@ -35,11 +35,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-icon.png"
               alt="Gita Global Family"
-              width={48}
-              height={48}
-              className="w-10 h-10 md:w-12 md:h-12"
+              width={56}
+              height={56}
+              className="w-11 h-11 md:w-14 md:h-14 rounded-lg"
             />
             <span className="font-semibold text-lg md:text-xl text-dark-brown hidden sm:block">
               Gita Global Family
