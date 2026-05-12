@@ -7,7 +7,6 @@ import { ChevronLeft, ChevronRight, X, Play } from "lucide-react";
 interface Clip {
   id: string;
   title: string;
-  source: "ig" | "yt";
 }
 
 interface ClipCategory {
@@ -19,61 +18,61 @@ const categories: ClipCategory[] = [
   {
     title: "Why Sanatan Dharma Is Under Threat",
     clips: [
-      { id: "i5Ggq_Uj6cw", title: "The Shrinking Horizon of Hinduism", source: "yt" },
-      { id: "z2_uAJViC9I", title: "Why 99% of Hindu Homes Have No Gita or Ramayan", source: "yt" },
-      { id: "JMQooCcbADI", title: "Training a New Priestly Class for Hindu Revival", source: "yt" },
-      { id: "irGtZjk2LLQ", title: "Reviving Rural Hindu Temples", source: "yt" },
-      { id: "X0sKCdcWRaI", title: "A National Fund for Hindu Revival", source: "yt" },
-      { id: "eZOPUVN4Yt0", title: "A Fund to Support Persecuted Hindus", source: "yt" },
-      { id: "JeD6X0mhH1o", title: "Why Hinduism Confuses the World", source: "yt" },
-      { id: "8kTIOXE9Q4o", title: "Not All Streams of Hinduism Are All-Inclusive", source: "yt" },
-      { id: "u1oNzKZKfOI", title: "Hinduism Also Waits For..", source: "yt" },
-      { id: "FR2jyvisMn8", title: "When Lack of Dharma Made India a Slave", source: "yt" },
+      { id: "i5Ggq_Uj6cw", title: "The Shrinking Horizon of Hinduism" },
+      { id: "z2_uAJViC9I", title: "Why 99% of Hindu Homes Have No Gita or Ramayan" },
+      { id: "JMQooCcbADI", title: "Training a New Priestly Class for Hindu Revival" },
+      { id: "irGtZjk2LLQ", title: "Reviving Rural Hindu Temples" },
+      { id: "X0sKCdcWRaI", title: "A National Fund for Hindu Revival" },
+      { id: "eZOPUVN4Yt0", title: "A Fund to Support Persecuted Hindus" },
+      { id: "JeD6X0mhH1o", title: "Why Hinduism Confuses the World" },
+      { id: "8kTIOXE9Q4o", title: "Not All Streams of Hinduism Are All-Inclusive" },
+      { id: "u1oNzKZKfOI", title: "Hinduism Also Waits For.." },
+      { id: "FR2jyvisMn8", title: "When Lack of Dharma Made India a Slave" },
     ],
   },
   {
     title: "The Secularism Trap: Reclaiming Hindu Identity",
     clips: [
-      { id: "SpoZGJilxM4", title: "Reverse Secularism in India: Hidden Truths", source: "yt" },
-      { id: "8oU1lahqORs", title: "UK Secularism Exposed: Religion & Education", source: "yt" },
-      { id: "E-ZBS62i0Yk", title: "Secularism Explained: India, Turkey & Beyond", source: "yt" },
-      { id: "DOxUl2qiaBm", title: "What Does Secularism Really Mean?", source: "ig" },
-      { id: "B6vyqFy2aYk", title: "Hinduism & Conversion: Why Entry Doors Are Closed", source: "yt" },
-      { id: "wX_51QmUJKA", title: "Why Government Should Not Control Sanatan Seva Nidhi", source: "yt" },
-      { id: "Cf9UAVNuW0M", title: "How Gita Granted Equal Spiritual Justice", source: "yt" },
-      { id: "4nj9_y220JY", title: "Does Constitution Prohibit Gita in Schools?", source: "yt" },
-      { id: "OdvrnIGJwtw", title: "No Caste, Only Varna — Based on Qualities", source: "yt" },
-      { id: "Whh62Nnmn3s", title: "Is the Vedic Branch of Hinduism All-Inclusive?", source: "yt" },
+      { id: "SpoZGJilxM4", title: "Reverse Secularism in India: Hidden Truths" },
+      { id: "8oU1lahqORs", title: "UK Secularism Exposed: Religion & Education" },
+      { id: "E-ZBS62i0Yk", title: "Secularism Explained: India, Turkey & Beyond" },
+      { id: "iWoFYqQcwnU", title: "What Does Secularism Really Mean?" },
+      { id: "B6vyqFy2aYk", title: "Hinduism & Conversion: Why Entry Doors Are Closed" },
+      { id: "wX_51QmUJKA", title: "Why Government Should Not Control Sanatan Seva Nidhi" },
+      { id: "Cf9UAVNuW0M", title: "How Gita Granted Equal Spiritual Justice" },
+      { id: "4nj9_y220JY", title: "Does Constitution Prohibit Gita in Schools?" },
+      { id: "OdvrnIGJwtw", title: "No Caste, Only Varna — Based on Qualities" },
+      { id: "Whh62Nnmn3s", title: "Is the Vedic Branch of Hinduism All-Inclusive?" },
     ],
   },
   {
     title: "Need of the Hour: Rise for Dharma",
     clips: [
-      { id: "WMfUJN01zy4", title: "Why We Need Hindu Missionary Schools", source: "yt" },
-      { id: "DOsMkMmkW7_", title: "Why India Needs Religious Education", source: "ig" },
-      { id: "DOV0EpXESWY", title: "Leadership Lessons from Gita & Ramayana", source: "ig" },
-      { id: "DOK7EB4DNlQ", title: "Conversion to Hinduism Made Simple", source: "ig" },
-      { id: "ZSeZ-01f9vQ", title: "The Ashram Way: Sacrifice Now, Rule Later", source: "yt" },
-      { id: "99ie4rjoEm4", title: "Bhagavad Gita's Message of Equality", source: "yt" },
-      { id: "X_LR2LnIln0", title: "Why Emulate Krishna's Teachings & Rama's Character", source: "yt" },
-      { id: "DQWn54PDD36", title: "Beauty of Chhath Puja in London!", source: "ig" },
-      { id: "aNseMpTtViQ", title: "Different Sects of Hinduism & Bhagavad Dharma", source: "yt" },
-      { id: "klP4gT1PTkk", title: "The Hidden Formula of Success in the Gita", source: "yt" },
+      { id: "WMfUJN01zy4", title: "Why We Need Hindu Missionary Schools" },
+      { id: "EwnN8nFHLlg", title: "Why India Needs Religious Education" },
+      { id: "ZSeZ-01f9vQ", title: "The Ashram Way: Sacrifice Now, Rule Later" },
+      { id: "99ie4rjoEm4", title: "Bhagavad Gita's Message of Equality" },
+      { id: "X_LR2LnIln0", title: "Why Emulate Krishna's Teachings & Rama's Character" },
+      { id: "bBAQtYhPxgE", title: "Beauty of Chhath Puja in London!" },
+      { id: "aNseMpTtViQ", title: "Different Sects of Hinduism & Bhagavad Dharma" },
+      { id: "klP4gT1PTkk", title: "The Hidden Formula of Success in the Gita" },
+      { id: "Ma-rKl3uhas", title: "Conversion to Hinduism Made Simple" },
+      { id: "-CRDm1xPbKM", title: "Four Criteria for Determining Character of a Religion" },
     ],
   },
   {
     title: "Rediscovering Our Roots",
     clips: [
-      { id: "DNx34kk2l5I", title: "God's Names Are Powerful — But Conditions Apply", source: "ig" },
-      { id: "DNvLKAdWm9k", title: "Chanting God's Name at Death: Truths & Myths", source: "ig" },
-      { id: "VdlEcYIEZJY", title: "This One Gita Verse Can Liberate You", source: "yt" },
-      { id: "eKREI5Nrg7Q", title: "You'll Never Be Happy Until You Realize This", source: "yt" },
-      { id: "i76Bmdb3OM8", title: "Live in the World Like Lotus on Water", source: "yt" },
-      { id: "weEaeyCvEc8", title: "Did Krishna Really Promise to Do Everything?", source: "yt" },
-      { id: "LjznaNyQrEs", title: "Are We Truly Masters of Our Actions?", source: "yt" },
-      { id: "ene9IdOC82o", title: "When Life Strikes Hard, the Gita Holds You", source: "yt" },
-      { id: "DOi7AgcANBo", title: "Paying Back the Debt to Our Ancestors", source: "ig" },
-      { id: "bBAQtYhPxgE", title: "Beauty of Chhath Puja in London", source: "yt" },
+      { id: "MwMm46yBN48", title: "God's Names Are Powerful — But Conditions Apply" },
+      { id: "5iFXVAQ039c", title: "Chanting God's Name at Death: Truths & Myths" },
+      { id: "VdlEcYIEZJY", title: "This One Gita Verse Can Liberate You" },
+      { id: "eKREI5Nrg7Q", title: "You'll Never Be Happy Until You Realize This" },
+      { id: "i76Bmdb3OM8", title: "Live in the World Like Lotus on Water" },
+      { id: "weEaeyCvEc8", title: "Did Krishna Really Promise to Do Everything?" },
+      { id: "LjznaNyQrEs", title: "Are We Truly Masters of Our Actions?" },
+      { id: "ene9IdOC82o", title: "When Life Strikes Hard, the Gita Holds You" },
+      { id: "4v22X1hnZq8", title: "What is Shraddha?" },
+      { id: "EPpn8u9inAc", title: "The Gita's Advice on How to Worship" },
     ],
   },
 ];
@@ -108,13 +107,6 @@ function ClipRow({ category }: { category: ClipCategory }) {
     if (!el) return;
     const amount = el.clientWidth * 0.7;
     el.scrollBy({ left: dir === "left" ? -amount : amount, behavior: "smooth" });
-  };
-
-  const getEmbedUrl = (clip: Clip) => {
-    if (clip.source === "ig") {
-      return `https://www.youtube.com/embed/${clip.id}?autoplay=1&rel=0`;
-    }
-    return `https://www.youtube.com/embed/${clip.id}?autoplay=1&rel=0`;
   };
 
   return (
@@ -159,13 +151,6 @@ function ClipRow({ category }: { category: ClipCategory }) {
                       <Play className="w-5 h-5 text-white ml-0.5" fill="white" />
                     </div>
                   </div>
-                  {clip.source === "ig" && (
-                    <div className="absolute top-2 right-2">
-                      <svg className="w-5 h-5 text-white drop-shadow-lg" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
-                      </svg>
-                    </div>
-                  )}
                   <div className="absolute bottom-0 left-0 right-0 p-3">
                     <p className="text-xs text-white font-medium line-clamp-2 leading-snug drop-shadow-lg">
                       {clip.title}
@@ -216,7 +201,7 @@ function ClipRow({ category }: { category: ClipCategory }) {
               </button>
               <div className="aspect-[9/16] rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <iframe
-                  src={getEmbedUrl(activeClip)}
+                  src={`https://www.youtube.com/embed/${activeClip.id}?autoplay=1&rel=0`}
                   title={activeClip.title}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
