@@ -100,51 +100,60 @@ const londonEvents: EventItem[] = [
 const biharEvents: EventItem[] = [
   {
     image: img("event-bihar-1.jpeg"),
-    title: "Bihar Leadership Dialogue on Sanatan Nidhi",
+    title: "Meeting Chief Minister of Bihar",
     description:
-      "Met Chief Minister of Bihar, Samrat Chaudhary, and Trust Board Chairman Ranveer Nandan; discussed Act, temple revival, pilot project, and wider mahant engagement.",
+      "Met Chief Minister of Bihar, Shri Samrat Chaudhary, to present the Sanatan Seva Nidhi Act — a proposed legislation for the protection and empowerment of Sanatan Dharma, already submitted to the Central Government. The Chief Minister listened with keen interest and assured his support for reviewing the Act and advancing it further.",
   },
   {
-    image: img("event-bihar-2.jpeg"),
-    title: "Sanatan Seva Nidhi Bihar Dialogue",
+    image: img("event-bihar-7.jpeg"),
+    title: "Meeting Deputy Chief Minister of Bihar",
     description:
-      "Met Deputy Chief Minister of Bihar, Vijay Kumar Choudhary; discussed Sanatan Seva Nidhi Act, highlighting transparency, temple revival, dharmacharya training, and inclusive strengthening of Sanatan civilisation.",
+      "Met Deputy Chief Minister of Bihar, Shri Vijay Kumar Choudhary, to discuss the Sanatan Seva Nidhi Act. The dialogue covered key provisions including temple revitalisation, training of Adhyatma-Acharyas (spiritual preceptors), and the creation of an organised system of giving for the strengthening of Sanatan Dharma.",
+  },
+  {
+    image: img("event-bihar-5.png"),
+    title: "Trust Board Dialogue, Bihar",
+    description:
+      "Met Shri Ranveer Nandan, Chairman of the Bihar Religious Trust Board, which oversees approximately 4,500 temples and monasteries across the state. Discussed the Sanatan Seva Nidhi Act and the temple empowerment project — revitalising temples as centres of community life and distributing the Bhagavad Gita and Ramkatha to 1,000 Sanatani homes. Shri Nandan offered a temple for the pilot and proposed convening a large assembly of mahants for a formal presentation.",
   },
   {
     image: img("event-bihar-3.jpeg"),
     title: "Punaura Dham Dialogue",
     description:
-      "Meeting at Punaura Dham discusses Hindu unity, shared primary scriptures, and Sanatan Seva Nidhi Act, with consensus emerging and further deliberations planned for final endorsement.",
+      "Met Senior Mahant Shri Kaushal Kishore Das Ji Maharaj and his successor Shri Ramkumar Das Ji at Punaura Dham, the manifestation site of Mother Janaki near Sitamarhi. Discussed adopting the Bhagavad Gita and the Vedas as shared primary scriptures across all sects, and the provisions of the Sanatan Seva Nidhi Act. Preliminary agreement was reached on both subjects.",
   },
   {
-    image: img("event-bihar-4.jpeg"),
-    title: "Janakpur Dialogue on Sanatan Law",
+    image: img("event-bihar-2.jpeg"),
+    title: "Meeting Jagadguru Rambhadracharya",
     description:
-      "Meeting Janaki Mandir mahant in Janakpur, discussed Sanatan Seva Nidhi law; initial resistance noted, but lawyer engagement created a constructive path forward for collaboration.",
-  },
-  {
-    image: img("event-bihar-5.png"),
-    title: "Ram Mandir Priest, Janakpur",
-    description:
-      "Met devoted Ram Mandir priest in Janakpur; discussed devotion and knowledge, encouraged scriptural study, highlighting need for wisdom alongside bhakti for guiding devotees responsibly.",
+      "Met Jagadguru Rambhadracharya in Sitamarhi to discuss the Sanatan Seva Nidhi Act and the need for unity across all sampradayas. Received his encouragement, blessings, and commitment toward the collective strengthening of Dharma.",
   },
   {
     image: img("event-bihar-6.jpeg"),
-    title: "Meeting Jagadguru Rambhadracharya",
-    description:
-      "Met Jagadguru Rambhadracharya in Sitamarhi; discussed Sanatan unity, Act support, and multi-sampradaya collaboration, receiving his encouragement, blessings, and commitment toward collective strengthening of Dharma.",
-  },
-  {
-    image: img("event-bihar-7.jpeg"),
     title: "Ideal 40 Team, Siwan",
     description:
-      "In Siwan, after meeting Jagadguru Rambhadracharya, discussed temple empowerment pilot with Ideal 40 team, aiming outreach to 1000 families and nurture future spiritual volunteers.",
+      "Held an interactive session on spirituality with approximately 40 students — carefully selected Class 9 students from underprivileged backgrounds, including Muslim girls — coached free of cost by Dr Rajneesh Verma's Ideal 40 initiative. Discussed a temple empowerment pilot to distribute curated editions of the Bhagavad Gita and Ramkatha to 1,000 families in the district.",
   },
   {
     image: img("event-bihar-8.png"),
     title: "Siwan Community Mobilisation",
     description:
-      "An evening gathering of citizens and intellectuals in Siwan — including educators, former bankers, and social workers — to build a dedicated volunteer network for the Sanatan Seva Nidhi Act campaign. The draft Act received strong endorsement from all participants.",
+      "A series of engagements with prominent citizens and intellectuals of Siwan — including Dr Rajneesh Verma, Shri Shailendra Singh (former banker), Shri Ravindra Pathak (Professor, DAV College), and Shri Bharat Bhushan (social worker) — to build a dedicated volunteer network for the Sanatan Seva Nidhi Act campaign and the temple empowerment initiative. The draft Act received strong endorsement from all participants.",
+  },
+];
+
+const nepalEvents: EventItem[] = [
+  {
+    image: img("event-nepal-1.png"),
+    title: "Janakpur Dialogue on Sanatan Seva Nidhi Act",
+    description:
+      "Met the chief Mahant of Janaki Mandir in Janakpur, Nepal — the historic seat of King Janak where Mother Sita was raised. Discussed the Sanatan Seva Nidhi Act and its relevance for Nepal. The Mahant engaged thoughtfully, and with the support of lawyer devotees present, a constructive path forward was established for reviewing the draft and deepening collaboration.",
+  },
+  {
+    image: img("event-bihar-4.jpeg"),
+    title: "Ram Mandir Priest, Janakpur",
+    description:
+      "Met the devoted priest of Ram Mandir in Janakpur, whose grandmother had left him at the temple as a child. A moving exchange on devotion and knowledge ensued, underscoring that a temple priest must combine bhakti with scriptural wisdom to guide devotees responsibly — as the Lord declares the wise devotee to be the highest.",
   },
 ];
 
@@ -153,13 +162,13 @@ const vrindavanEvents: EventItem[] = [
     image: img("event-vrindavan-1.png"),
     title: "Saints' Outreach, Vrindavan",
     description:
-      "Meeting with Shri Nagari Das of Shergarh and Shri Dashrath Maharaj of Hanuman Tekri Temple marked the launch of the Sanatan Seva Nidhi Act outreach in Vrindavan. Dashrath Maharaj extended full support, facilitated introductions to broader saint networks, and hosted a gathering of select saints who heard the Act's provisions with keen interest.",
+      "Meeting with Shri Nagari Das of Shergarh and Shri Dashrath Maharaj of Hanuman Tekri Temple marked the launch of the Sanatan Seva Nidhi Act outreach in Vrindavan. Dashrath Maharaj extended full support and facilitated a gathering of select saints who heard the Act's provisions with keen interest, culminating in an invitation to present at a forthcoming Sant Mahasabha.",
   },
   {
     image: img("event-vrindavan-1.png"),
     title: "Spiritual Dialogues, Vrindavan",
     description:
-      "In-depth discussions with renowned Bhagavat Kathakaar Badrish Ji and Shri Govindanand Tirth, one of Vrindavan's most senior and erudite saints, on the provisions of the proposed Sanatan Seva Nidhi Act. Hindi copies of the legislation were shared for review and future written endorsement.",
+      "In-depth discussions with renowned Bhagavat Kathakaar Badrish Ji and Shri Govindanand Tirth, one of Vrindavan's most senior and erudite saints, on the provisions of the Sanatan Seva Nidhi Act. Hindi copies of the Act were shared for review and future written endorsement.",
   },
 ];
 
@@ -297,15 +306,34 @@ export default function EventsPage() {
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
-            India — Bihar &amp; Beyond
+            India — Bihar
           </span>
         </div>
         <SectionHeading
-          title="Events in India, Bihar"
-          subtitle="Dialogues on the Sanatan Seva Nidhi Act with Chief Ministers, Jagadgurus, temple mahants, and community leaders — building consensus for the strengthening of Sanatan Dharma."
+          title="Events in Bihar, India"
+          subtitle="Dialogues on the Sanatan Seva Nidhi Act with the Chief Minister, Jagadgurus, temple mahants, and community leaders — building consensus for the strengthening of Sanatan Dharma."
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {biharEvents.map((event, i) => (
+            <EventCard key={event.title} event={event} index={i} />
+          ))}
+        </div>
+      </section>
+
+      {/* Nepal Events */}
+      <section className="section-padding py-16 md:py-24">
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <MapPin className="w-5 h-5 text-saffron" />
+          <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
+            Nepal — Janakpur
+          </span>
+        </div>
+        <SectionHeading
+          title="Events in Janakpur, Nepal"
+          subtitle="Engaging the spiritual leadership of Janakpur — the historic seat of King Janak and the sacred land where Mother Sita was raised — on the Sanatan Seva Nidhi Act and the timeless bond between devotion and wisdom."
+        />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {nepalEvents.map((event, i) => (
             <EventCard key={event.title} event={event} index={i} />
           ))}
         </div>
@@ -345,8 +373,8 @@ export default function EventsPage() {
               Join Us at Our Next Event
             </h2>
             <p className="mt-5 text-white/80 leading-relaxed">
-              Whether you&apos;re in London or India, there&apos;s a place for
-              you in our community. Connect with like-minded seekers and
+              Whether you&apos;re in London, India, or Nepal, there&apos;s a
+              place for you in our community. Connect with like-minded seekers and
               experience the transformative power of the Gita&apos;s teachings.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
