@@ -140,6 +140,27 @@ const biharEvents: EventItem[] = [
     description:
       "In Siwan, after meeting Jagadguru Rambhadracharya, discussed temple empowerment pilot with Ideal 40 team, aiming outreach to 1000 families and nurture future spiritual volunteers.",
   },
+  {
+    image: img("event-bihar-8.png"),
+    title: "Siwan Community Mobilisation",
+    description:
+      "An evening gathering of citizens and intellectuals in Siwan — including educators, former bankers, and social workers — to build a dedicated volunteer network for the Sanatan Seva Nidhi Act campaign. The draft Act received strong endorsement from all participants.",
+  },
+];
+
+const vrindavanEvents: EventItem[] = [
+  {
+    image: img("event-vrindavan-1.png"),
+    title: "Saints' Outreach, Vrindavan",
+    description:
+      "Meeting with Shri Nagari Das of Shergarh and Shri Dashrath Maharaj of Hanuman Tekri Temple marked the launch of the Sanatan Seva Nidhi Act outreach in Vrindavan. Dashrath Maharaj extended full support, facilitated introductions to broader saint networks, and hosted a gathering of select saints who heard the Act's provisions with keen interest.",
+  },
+  {
+    image: img("event-vrindavan-1.png"),
+    title: "Spiritual Dialogues, Vrindavan",
+    description:
+      "In-depth discussions with renowned Bhagavat Kathakaar Badrish Ji and Shri Govindanand Tirth, one of Vrindavan's most senior and erudite saints, on the provisions of the proposed Sanatan Seva Nidhi Act. Hindi copies of the legislation were shared for review and future written endorsement.",
+  },
 ];
 
 function EventCard({ event, index }: { event: EventItem; index: number }) {
@@ -285,6 +306,25 @@ export default function EventsPage() {
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {biharEvents.map((event, i) => (
+            <EventCard key={event.title} event={event} index={i} />
+          ))}
+        </div>
+      </section>
+
+      {/* Vrindavan Events */}
+      <section className="section-padding py-16 md:py-24">
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <MapPin className="w-5 h-5 text-saffron" />
+          <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
+            India — Vrindavan, Uttar Pradesh
+          </span>
+        </div>
+        <SectionHeading
+          title="Sanatan Seva Nidhi Outreach, Vrindavan"
+          subtitle="Engaging Vrindavan's revered saints and spiritual leaders to build support for the Sanatan Seva Nidhi Act — from temple mahants to renowned Bhagavat narrators and senior acharyas."
+        />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {vrindavanEvents.map((event, i) => (
             <EventCard key={event.title} event={event} index={i} />
           ))}
         </div>
