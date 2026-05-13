@@ -114,16 +114,16 @@ const biharEvents: EventItem[] = [
     image: img("event-bihar-5.png"),
     title: "Trust Board Dialogue, Bihar",
     description:
-      "Met Shri Ranveer Nandan, Chairman of the Bihar Religious Trust Board, which oversees approximately 4,500 temples and monasteries across the state. Discussed the Sanatan Seva Nidhi Act and the temple empowerment project — revitalising temples as centres of community life and distributing the Bhagavad Gita and Ramkatha to 1,000 Sanatani homes. Shri Nandan offered a temple for the pilot and proposed convening a large assembly of mahants for a formal presentation.",
+      "Met Shri Ranveer Nandan, Chairman of the Bihar Religious Trust Board, which oversees approximately 450 temples and monasteries across the state. Discussed the Sanatan Seva Nidhi Act and the temple empowerment project — revitalising temples as centres of community life and distributing the Bhagavad Gita and Ramkatha to 1,000 Sanatani homes. Shri Nandan offered a temple for the pilot and proposed convening a large assembly of mahants for a formal presentation.",
   },
   {
-    image: img("event-bihar-3.jpeg"),
+    image: img("event-bihar-2.jpeg"),
     title: "Punaura Dham Dialogue",
     description:
       "Met Senior Mahant Shri Kaushal Kishore Das Ji Maharaj and his successor Shri Ramkumar Das Ji at Punaura Dham, the manifestation site of Mother Janaki near Sitamarhi. Discussed adopting the Bhagavad Gita and the Vedas as shared primary scriptures across all sects, and the provisions of the Sanatan Seva Nidhi Act. Preliminary agreement was reached on both subjects.",
   },
   {
-    image: img("event-bihar-2.jpeg"),
+    image: img("event-bihar-10.jpeg"),
     title: "Meeting Jagadguru Rambhadracharya",
     description:
       "Met Jagadguru Rambhadracharya in Sitamarhi to discuss the Sanatan Seva Nidhi Act and the need for unity across all sampradayas. Received his encouragement, blessings, and commitment toward the collective strengthening of Dharma.",
@@ -135,7 +135,7 @@ const biharEvents: EventItem[] = [
       "Held an interactive session on spirituality with approximately 40 students — carefully selected Class 9 students from underprivileged backgrounds, including Muslim girls — coached free of cost by Dr Rajneesh Verma's Ideal 40 initiative. Discussed a temple empowerment pilot to distribute curated editions of the Bhagavad Gita and Ramkatha to 1,000 families in the district.",
   },
   {
-    image: img("event-bihar-8.png"),
+    image: img("event-bihar-8.jpeg"),
     title: "Siwan Community Mobilisation",
     description:
       "A series of engagements with prominent citizens and intellectuals of Siwan — including Dr Rajneesh Verma, Shri Shailendra Singh (former banker), Shri Ravindra Pathak (Professor, DAV College), and Shri Bharat Bhushan (social worker) — to build a dedicated volunteer network for the Sanatan Seva Nidhi Act campaign and the temple empowerment initiative. The draft Act received strong endorsement from all participants.",
@@ -144,28 +144,28 @@ const biharEvents: EventItem[] = [
 
 const nepalEvents: EventItem[] = [
   {
-    image: img("event-nepal-1.png"),
+    image: img("event-nepal-1.jpeg"),
     title: "Janakpur Dialogue on Sanatan Seva Nidhi Act",
     description:
-      "Met the chief Mahant of Janaki Mandir in Janakpur, Nepal — the historic seat of King Janak where Mother Sita was raised. Discussed the Sanatan Seva Nidhi Act and its relevance for Nepal. The Mahant engaged thoughtfully, and with the support of lawyer devotees present, a constructive path forward was established for reviewing the draft and deepening collaboration.",
+      "Met the chief Mahant of Janaki Mandir in Janakpur, Nepal — the historic land of King Janak where Mother Sita was raised. Discussed the Sanatan Seva Nidhi Act and its relevance for Nepal. Lawyer devotees present offered to review the draft and facilitate further dialogue, opening a promising path for continued engagement.",
   },
   {
     image: img("event-bihar-4.jpeg"),
     title: "Ram Mandir Priest, Janakpur",
     description:
-      "Met the devoted priest of Ram Mandir in Janakpur, whose grandmother had left him at the temple as a child. A moving exchange on devotion and knowledge ensued, underscoring that a temple priest must combine bhakti with scriptural wisdom to guide devotees responsibly — as the Lord declares the wise devotee to be the highest.",
+      "A moving encounter with the devoted priest of Ram Mandir in Janakpur — a man of overflowing bhakti, raised in the temple since childhood. A heartfelt exchange on devotion and knowledge followed, reflecting the Gita's teaching that the wise devotee stands highest, and that a priest's calling is to guide seekers through both devotion and scriptural wisdom.",
   },
 ];
 
 const vrindavanEvents: EventItem[] = [
   {
-    image: img("event-vrindavan-1.png"),
+    image: img("event-vrindavan-1.jpeg"),
     title: "Saints' Outreach, Vrindavan",
     description:
       "Meeting with Shri Nagari Das of Shergarh and Shri Dashrath Maharaj of Hanuman Tekri Temple marked the launch of the Sanatan Seva Nidhi Act outreach in Vrindavan. Dashrath Maharaj extended full support and facilitated a gathering of select saints who heard the Act's provisions with keen interest, culminating in an invitation to present at a forthcoming Sant Mahasabha.",
   },
   {
-    image: img("event-vrindavan-1.png"),
+    image: img("event-vrindavan-1.jpeg"),
     title: "Spiritual Dialogues, Vrindavan",
     description:
       "In-depth discussions with renowned Bhagavat Kathakaar Badrish Ji and Shri Govindanand Tirth, one of Vrindavan's most senior and erudite saints, on the provisions of the Sanatan Seva Nidhi Act. Hindi copies of the Act were shared for review and future written endorsement.",
