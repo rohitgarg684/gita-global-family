@@ -47,9 +47,9 @@ export const en: ActContent = {
     "For the Protection and Empowerment of Sanatan Dharma — Conceived and drafted by Bhagavad-Dharma Pīthādhiśa Sriyut Brahm Bodhi, President of Gita Global Family Trust.",
   heroNote:
     "The full draft of the Act was sent to the Prime Minister's Office and NITI Aayog on 17 October 2025.",
-  downloadTitle: "Download the Act",
+  downloadTitle: "Download the Complete Act",
   downloadSubtitle:
-    "The concept paper and gist of the Draft Sanatan Seva Nidhi Act is available in both English and Hindi.",
+    "The complete draft of the Sanatan Seva Nidhi Act is available for download in English and Hindi.",
   conceptPaperTitle: "Concept Paper",
   conceptPaperSubtitle: "Challenges to Sanatan Dharma And Their Solutions",
   conceptPaperIntro: [
@@ -234,8 +234,8 @@ export const en: ActContent = {
   essenceParagraphs: [
     "The Sanatan Seva Nidhi Act, 20XX is a historic initiative aimed at the preservation of Bharat's religious and cultural heritage, the moral-spiritual renaissance based on the Bhagavad Gita and Upanishads, and the national and global reorganisation of Sanatan Dharma as a unified, living, and universal tradition. The Indian Constitution does not bar the enactment of such legislation.",
   ],
-  downloadEnglishLabel: "Download English PDF",
-  downloadHindiLabel: "हिंदी PDF डाउनलोड करें",
+  downloadEnglishLabel: "Download Complete Act (English)",
+  downloadHindiLabel: "पूर्ण अधिनियम डाउनलोड करें (हिंदी)",
 };
 
 export const hi: ActContent = {
@@ -245,9 +245,9 @@ export const hi: ActContent = {
     "सनातन धर्म की रक्षा और सशक्तिकरण के लिए — भगवद्-धर्म पीठाधीश श्रीयुत ब्रह्म बोधि, अध्यक्ष, गीता ग्लोबल फ़ैमिली ट्रस्ट द्वारा विचारित एवं प्रारूपित।",
   heroNote:
     "प्रधानमंत्री, भारत और नीति-अयोग को प्रस्तावित कानून का पूरा प्रारूप प्रेषित—17 अक्टूबर, 2025 को।",
-  downloadTitle: "अधिनियम डाउनलोड करें",
+  downloadTitle: "पूर्ण अधिनियम डाउनलोड करें",
   downloadSubtitle:
-    "सनातन सेवा निधि अधिनियम का विचार-पत्र एवं सार-संक्षेप अंग्रेज़ी और हिंदी दोनों में उपलब्ध है।",
+    "सनातन सेवा निधि अधिनियम का पूर्ण प्रारूप अंग्रेज़ी और हिंदी दोनों में डाउनलोड के लिए उपलब्ध है।",
   conceptPaperTitle: "विचार-पत्र",
   conceptPaperSubtitle: "सनातन धर्म के समक्ष चुनौतियाँ एवं उनके समाधान",
   conceptPaperIntro: [
@@ -432,6 +432,6 @@ export const hi: ActContent = {
   essenceParagraphs: [
     "सनातन सेवा निधि अधिनियम, 20XX भारत की धार्मिक और सांस्कृतिक धरोहर के संरक्षण, भगवद्गीता और उपनिषदों पर आधारित नैतिक-आध्यात्मिक पुनर्जागरण, तथा सनातन धर्म को एक एकीकृत, जीवंत और सार्वभौमिक परंपरा के रूप में राष्ट्रीय और वैश्विक स्तर पर संगठित करने की दिशा में एक ऐतिहासिक पहल है। भारतीय संविधान ऐसे विधान के निर्माण में कोई बाधा उत्पन्न नहीं करता।",
   ],
-  downloadEnglishLabel: "Download English PDF",
-  downloadHindiLabel: "हिंदी PDF डाउनलोड करें",
+  downloadEnglishLabel: "Download Complete Act (English)",
+  downloadHindiLabel: "पूर्ण अधिनियम डाउनलोड करें (हिंदी)",
 };

@@ -123,6 +123,16 @@ export default function SanatanSevaNidhiPage() {
             </div>
           </div>
 
+          {/* Download heading */}
+          <div className="text-center mb-6">
+            <h2 className="text-xl md:text-2xl font-bold text-dark-brown">
+              {c.downloadTitle}
+            </h2>
+            <p className="mt-2 text-text-secondary text-sm md:text-base max-w-2xl mx-auto">
+              {c.downloadSubtitle}
+            </p>
+          </div>
+
           {/* Download buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
             <a
