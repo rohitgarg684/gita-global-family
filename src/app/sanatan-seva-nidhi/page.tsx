@@ -134,25 +134,56 @@ export default function SanatanSevaNidhiPage() {
           </div>
 
           {/* Download buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
-            <a
-              href={doc("sewa-nidhi-act-english.pdf")}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-md text-sm"
-            >
-              <Download className="w-4 h-4" />
-              {c.downloadEnglishLabel}
-            </a>
-            <a
-              href={doc("sewa-nidhi-act-hindi.pdf")}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-dark-brown text-white font-semibold rounded-full hover:bg-dark-brown/90 transition-colors shadow-md text-sm"
-            >
-              <Download className="w-4 h-4" />
-              {c.downloadHindiLabel}
-            </a>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-4">
+            {/* Summary PDFs */}
+            <div className="space-y-3">
+              <h3 className="text-sm font-semibold text-text-muted uppercase tracking-wider text-center">
+                {lang === "en" ? "Summary" : "सार-संक्षेप"}
+              </h3>
+              <a
+                href={doc("sewa-nidhi-act-summary-english.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-5 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-md text-sm"
+              >
+                <Download className="w-4 h-4" />
+                {c.downloadSummaryEnglishLabel}
+              </a>
+              <a
+                href={doc("sewa-nidhi-act-summary-hindi.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-5 py-3 bg-dark-brown text-white font-semibold rounded-full hover:bg-dark-brown/90 transition-colors shadow-md text-sm"
+              >
+                <Download className="w-4 h-4" />
+                {c.downloadSummaryHindiLabel}
+              </a>
+            </div>
+
+            {/* Complete Act PDFs */}
+            <div className="space-y-3">
+              <h3 className="text-sm font-semibold text-text-muted uppercase tracking-wider text-center">
+                {lang === "en" ? "Complete Act" : "पूर्ण अधिनियम"}
+              </h3>
+              <a
+                href={doc("sewa-nidhi-act-full-english.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-5 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-md text-sm"
+              >
+                <Download className="w-4 h-4" />
+                {c.downloadFullEnglishLabel}
+              </a>
+              <a
+                href={doc("sewa-nidhi-act-full-hindi.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-5 py-3 bg-dark-brown text-white font-semibold rounded-full hover:bg-dark-brown/90 transition-colors shadow-md text-sm"
+              >
+                <Download className="w-4 h-4" />
+                {c.downloadFullHindiLabel}
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -321,24 +352,42 @@ export default function SanatanSevaNidhiPage() {
             <p className="mt-5 text-white/80 leading-relaxed">
               {c.essenceParagraphs[0]}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-8">
               <a
-                href={doc("sewa-nidhi-act-english.pdf")}
+                href={doc("sewa-nidhi-act-summary-english.pdf")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
+                className="inline-flex items-center justify-center gap-2 px-4 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg text-sm"
               >
                 <Download className="w-4 h-4" />
-                {c.downloadEnglishLabel}
+                {c.downloadSummaryEnglishLabel}
               </a>
               <a
-                href={doc("sewa-nidhi-act-hindi.pdf")}
+                href={doc("sewa-nidhi-act-summary-hindi.pdf")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white/15 text-white font-semibold rounded-full hover:bg-white/25 transition-colors border border-white/30"
+                className="inline-flex items-center justify-center gap-2 px-4 py-3 bg-white/15 text-white font-semibold rounded-full hover:bg-white/25 transition-colors border border-white/30 text-sm"
               >
                 <Download className="w-4 h-4" />
-                {c.downloadHindiLabel}
+                {c.downloadSummaryHindiLabel}
+              </a>
+              <a
+                href={doc("sewa-nidhi-act-full-english.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg text-sm"
+              >
+                <Download className="w-4 h-4" />
+                {c.downloadFullEnglishLabel}
+              </a>
+              <a
+                href={doc("sewa-nidhi-act-full-hindi.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-3 bg-white/15 text-white font-semibold rounded-full hover:bg-white/25 transition-colors border border-white/30 text-sm"
+              >
+                <Download className="w-4 h-4" />
+                {c.downloadFullHindiLabel}
               </a>
             </div>
           </motion.div>

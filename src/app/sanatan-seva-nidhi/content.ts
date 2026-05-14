@@ -36,8 +36,10 @@ export interface ActContent {
   }[];
   essenceTitle: string;
   essenceParagraphs: string[];
-  downloadEnglishLabel: string;
-  downloadHindiLabel: string;
+  downloadSummaryEnglishLabel: string;
+  downloadSummaryHindiLabel: string;
+  downloadFullEnglishLabel: string;
+  downloadFullHindiLabel: string;
 }
 
 export const en: ActContent = {
@@ -234,8 +236,10 @@ export const en: ActContent = {
   essenceParagraphs: [
     "The Sanatan Seva Nidhi Act, 20XX is a historic initiative aimed at the preservation of Bharat's religious and cultural heritage, the moral-spiritual renaissance based on the Bhagavad Gita and Upanishads, and the national and global reorganisation of Sanatan Dharma as a unified, living, and universal tradition. The Indian Constitution does not bar the enactment of such legislation.",
   ],
-  downloadEnglishLabel: "Download Complete Act (English)",
-  downloadHindiLabel: "पूर्ण अधिनियम डाउनलोड करें (हिंदी)",
+  downloadSummaryEnglishLabel: "Summary (English)",
+  downloadSummaryHindiLabel: "सार-संक्षेप (हिंदी)",
+  downloadFullEnglishLabel: "Complete Act (English)",
+  downloadFullHindiLabel: "पूर्ण अधिनियम (हिंदी)",
 };
 
 export const hi: ActContent = {
@@ -432,6 +436,8 @@ export const hi: ActContent = {
   essenceParagraphs: [
     "सनातन सेवा निधि अधिनियम, 20XX भारत की धार्मिक और सांस्कृतिक धरोहर के संरक्षण, भगवद्गीता और उपनिषदों पर आधारित नैतिक-आध्यात्मिक पुनर्जागरण, तथा सनातन धर्म को एक एकीकृत, जीवंत और सार्वभौमिक परंपरा के रूप में राष्ट्रीय और वैश्विक स्तर पर संगठित करने की दिशा में एक ऐतिहासिक पहल है। भारतीय संविधान ऐसे विधान के निर्माण में कोई बाधा उत्पन्न नहीं करता।",
   ],
-  downloadEnglishLabel: "Download Complete Act (English)",
-  downloadHindiLabel: "पूर्ण अधिनियम डाउनलोड करें (हिंदी)",
+  downloadSummaryEnglishLabel: "Summary (English)",
+  downloadSummaryHindiLabel: "सार-संक्षेप (हिंदी)",
+  downloadFullEnglishLabel: "Complete Act (English)",
+  downloadFullHindiLabel: "पूर्ण अधिनियम (हिंदी)",
 };
