@@ -25,13 +25,13 @@ export default function InnerHeartMeditationPage() {
     <>
       <section className="relative py-24 md:py-36 overflow-hidden">
         <Image
-          src={img("banner.jpg")}
+          src={img("inner-heart-meditation-hero.png")}
           alt="Inner Heart Meditation"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/60 to-black/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/75" />
         <div className="relative section-padding text-center">
           <Link
             href="/spirituality"
@@ -257,12 +257,12 @@ export default function InnerHeartMeditationPage() {
 
       <section className="relative py-16 md:py-24 overflow-hidden">
         <Image
-          src={img("banner.jpg")}
+          src={img("inner-heart-meditation-hero.png")}
           alt="Inner Heart Meditation"
           fill
-          className="object-cover"
+          className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-black/65" />
+        <div className="absolute inset-0 bg-black/70" />
         <div className="relative section-padding text-center">
           <motion.div {...fadeInUp} className="max-w-3xl mx-auto">
             <h2 className="text-2xl md:text-4xl font-bold text-white leading-tight">

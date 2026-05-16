@@ -51,7 +51,7 @@ const meditations: Meditation[] = [
     languages: ["English", "हिंदी"],
     available: true,
     href: "/spirituality/inner-heart-meditation",
-    cover: img("banner.jpg"),
+    cover: img("inner-heart-meditation-hero.png"),
     audioUrl: audio("inner-heart-meditation-english.wav"),
   },
 ];
@@ -73,13 +73,13 @@ export default function SpiritualityPage() {
     <>
       <section className="relative py-24 md:py-36 overflow-hidden">
         <Image
-          src={img("banner.jpg")}
+          src={img("inner-heart-meditation-hero.png")}
           alt="Spirituality"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/80" />
         <div className="relative section-padding text-center">
           <motion.span
             initial={{ opacity: 0, y: 10 }}
@@ -139,12 +139,12 @@ export default function SpiritualityPage() {
                       src={m.cover}
                       alt={m.title}
                       fill
-                      className="object-cover"
+                      className="object-cover object-center"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-saffron/40 via-saffron-dark/30 to-dark-brown/60" />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-16 h-16 rounded-full bg-white/95 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-                        <Headphones className="w-7 h-7 text-saffron" />
+                    <div className="absolute inset-0 bg-gradient-to-br from-black/10 via-transparent to-dark-brown/30" />
+                    <div className="absolute bottom-4 left-4">
+                      <div className="w-12 h-12 rounded-full bg-white/95 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                        <Headphones className="w-5 h-5 text-saffron" />
                       </div>
                     </div>
                   </div>
