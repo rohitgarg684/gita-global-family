@@ -8,3 +8,7 @@ export function img(filename: string): string {
 export function doc(filename: string): string {
   return `${GCS_BASE}/documents/${filename}`;
 }
+
+export function audio(filename: string): string {
+  return `${GCS_BASE}/audio/${filename}`;
+}

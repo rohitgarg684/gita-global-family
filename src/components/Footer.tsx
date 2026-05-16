@@ -5,6 +5,7 @@ import { img } from "@/lib/image-url";
 
 const quickLinks = [
   { href: "/about", label: "About" },
+  { href: "/spirituality", label: "Spirituality" },
   { href: "/gita-publications", label: "Publications" },
   { href: "/events", label: "Events" },
   { href: "/blog", label: "Blog" },
