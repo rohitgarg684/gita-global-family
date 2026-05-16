@@ -4,8 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Globe, Download, Headphones, Clock, ArrowLeft } from "lucide-react";
-import { img, doc, audio } from "@/lib/image-url";
+import { Globe, Headphones, Clock, ArrowLeft } from "lucide-react";
+import { img, audio } from "@/lib/image-url";
 import { en, hi, type MeditationContent } from "./content";
 
 const fadeInUp = {
@@ -16,7 +16,6 @@ const fadeInUp = {
 };
 
 const AUDIO_URL = audio("inner-heart-meditation-english.wav");
-const HINDI_PDF_URL = doc("inner-heart-meditation-hindi.pdf");
 
 export default function InnerHeartMeditationPage() {
   const [lang, setLang] = useState<"en" | "hi">("en");
@@ -137,6 +136,7 @@ export default function InnerHeartMeditationPage() {
 
             <audio
               controls
+              controlsList="nodownload"
               preload="metadata"
               className="w-full mt-2"
               src={AUDIO_URL}
@@ -145,27 +145,6 @@ export default function InnerHeartMeditationPage() {
                 ? "Your browser does not support the audio element."
                 : "आपका ब्राउज़र ऑडियो प्लेबैक का समर्थन नहीं करता।"}
             </audio>
-
-            <div className="mt-5 flex flex-wrap gap-3">
-              <a
-                href={AUDIO_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-sm"
-              >
-                <Download className="w-4 h-4" />
-                {c.downloadAudioLabel}
-              </a>
-              <a
-                href={HINDI_PDF_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2.5 bg-dark-brown text-white text-sm font-semibold rounded-full hover:bg-dark-brown/90 transition-colors shadow-sm"
-              >
-                <Download className="w-4 h-4" />
-                {c.downloadHindiPdfLabel}
-              </a>
-            </div>
           </motion.div>
         </div>
       </section>
@@ -297,27 +276,9 @@ export default function InnerHeartMeditationPage() {
                 : "प्रतिदिन कुछ मिनट हृदय में स्थित ईश्वरीय उपस्थिति में लौटना — यह आपके जीने, कार्य करने और संबंधों के ढंग को रूपांतरित कर सकता है।"}
             </p>
             <div className="mt-7 flex flex-wrap justify-center gap-3">
-              <a
-                href={AUDIO_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-md text-sm"
-              >
-                <Download className="w-4 h-4" />
-                {c.downloadAudioLabel}
-              </a>
-              <a
-                href={HINDI_PDF_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-3 bg-white/15 text-white font-semibold rounded-full hover:bg-white/25 transition-colors border border-white/30 text-sm"
-              >
-                <Download className="w-4 h-4" />
-                {c.downloadHindiPdfLabel}
-              </a>
               <Link
                 href="/spirituality"
-                className="inline-flex items-center gap-2 px-5 py-3 bg-white text-dark-brown font-semibold rounded-full hover:bg-cream transition-colors shadow-md text-sm"
+                className="inline-flex items-center gap-2 px-5 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-md text-sm"
               >
                 {lang === "en" ? "More Meditations" : "अन्य ध्यान"}
               </Link>

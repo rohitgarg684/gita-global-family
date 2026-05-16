@@ -9,8 +9,9 @@ import {
   Languages,
   ArrowRight,
   Sparkles,
+  Check,
 } from "lucide-react";
-import { img } from "@/lib/image-url";
+import { img, audio } from "@/lib/image-url";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 24 },
@@ -24,11 +25,13 @@ interface Meditation {
   title: string;
   subtitle: string;
   description: string;
+  benefits: string[];
   duration: string;
   languages: string[];
   available: boolean;
   href?: string;
   cover: string;
+  audioUrl?: string;
 }
 
 const meditations: Meditation[] = [
@@ -38,11 +41,18 @@ const meditations: Meditation[] = [
     subtitle: "Antar-Hriday Dhyan",
     description:
       "A guided meditation rooted in the Bhagavad Gita that helps you connect with the divine presence within your heart, cultivating deep serenity and bliss.",
+    benefits: [
+      "Cultivate deep serenity intertwined with divine bliss",
+      "Purify the mind from distractions and negative emotions",
+      "Connect with the divine light within your own heart",
+      "Suitable for all faiths — saguna, nirguna, and Abrahamic traditions",
+    ],
     duration: "10–15 min",
     languages: ["English", "हिंदी"],
     available: true,
     href: "/spirituality/inner-heart-meditation",
     cover: img("banner.jpg"),
+    audioUrl: audio("inner-heart-meditation-english.wav"),
   },
 ];
 
@@ -111,8 +121,8 @@ export default function SpiritualityPage() {
               Begin your practice
             </h2>
             <p className="mt-3 text-text-secondary max-w-2xl mx-auto leading-relaxed">
-              Start with our first guided meditation. Listen to the audio and
-              follow along in your preferred language.
+              Start with our first guided meditation. Press play below — or open
+              the full page to follow the script in English or Hindi.
             </p>
           </motion.div>
 
@@ -124,7 +134,7 @@ export default function SpiritualityPage() {
                 className="group bg-white rounded-2xl border border-cream-dark/40 shadow-sm hover:shadow-lg transition-shadow overflow-hidden"
               >
                 <div className="grid md:grid-cols-[1fr_2fr]">
-                  <div className="relative h-56 md:h-auto md:min-h-[220px]">
+                  <div className="relative h-56 md:h-auto md:min-h-[320px]">
                     <Image
                       src={m.cover}
                       alt={m.title}
@@ -150,7 +160,19 @@ export default function SpiritualityPage() {
                       {m.description}
                     </p>
 
-                    <div className="mt-5 flex flex-wrap gap-3 text-xs md:text-sm">
+                    <ul className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2.5">
+                      {m.benefits.map((b, i) => (
+                        <li
+                          key={i}
+                          className="flex items-start gap-2 text-text-secondary text-sm leading-relaxed"
+                        >
+                          <Check className="w-4 h-4 text-saffron mt-0.5 shrink-0" />
+                          <span>{b}</span>
+                        </li>
+                      ))}
+                    </ul>
+
+                    <div className="mt-5 flex flex-wrap gap-2 text-xs md:text-sm">
                       <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-cream text-text-secondary">
                         <Clock className="w-3.5 h-3.5 text-saffron" />
                         {m.duration}
@@ -161,13 +183,30 @@ export default function SpiritualityPage() {
                       </span>
                     </div>
 
+                    {m.audioUrl && (
+                      <div className="mt-5 rounded-xl bg-cream/70 border border-cream-dark/40 p-4">
+                        <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-2.5">
+                          Listen now
+                        </p>
+                        <audio
+                          controls
+                          controlsList="nodownload"
+                          preload="none"
+                          className="w-full"
+                          src={m.audioUrl}
+                        >
+                          Your browser does not support the audio element.
+                        </audio>
+                      </div>
+                    )}
+
                     <div className="mt-6">
                       {m.available && m.href ? (
                         <Link
                           href={m.href}
                           className="inline-flex items-center gap-2 px-5 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-sm"
                         >
-                          Listen & Read
+                          Read the Script
                           <ArrowRight className="w-4 h-4" />
                         </Link>
                       ) : (

@@ -11,8 +11,6 @@ export interface MeditationContent {
   duration: string;
   audioLabel: string;
   audioCaption: string;
-  downloadAudioLabel: string;
-  downloadHindiPdfLabel: string;
   purposeTitle: string;
   purposeIntro: string;
   purposePoints: string[];
@@ -37,8 +35,6 @@ export const en: MeditationContent = {
   audioLabel: "Listen — Guided Audio",
   audioCaption:
     "Find a quiet place, sit comfortably, and let the voice gently lead you within.",
-  downloadAudioLabel: "Download audio",
-  downloadHindiPdfLabel: "Hindi script (PDF)",
 
   purposeTitle: "Purpose of this Meditation",
   purposeIntro: "This meditation aims to:",
@@ -151,8 +147,6 @@ export const hi: MeditationContent = {
   audioLabel: "सुनें — निर्देशित ऑडियो",
   audioCaption:
     "एक शांत स्थान पर सुखपूर्वक बैठें और इस वाणी को धीरे-धीरे आपको भीतर ले जाने दें।",
-  downloadAudioLabel: "ऑडियो डाउनलोड करें",
-  downloadHindiPdfLabel: "हिंदी स्क्रिप्ट (PDF)",
 
   purposeTitle: "ध्यान का उद्देश्य",
   purposeIntro: "इस ध्यान-क्रिया के उद्देश्य हैं —",
