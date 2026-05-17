@@ -32,6 +32,7 @@ interface Meditation {
   href?: string;
   cover: string;
   audioUrl?: string;
+  audioUrlHi?: string;
 }
 
 const meditations: Meditation[] = [
@@ -53,6 +54,7 @@ const meditations: Meditation[] = [
     href: "/spirituality/inner-heart-meditation",
     cover: img("inner-heart-meditation-hero.png"),
     audioUrl: audio("inner-heart-meditation-english.wav"),
+    audioUrlHi: audio("inner-heart-meditation-hindi.mp3"),
   },
 ];
 
@@ -183,20 +185,40 @@ export default function SpiritualityPage() {
                       </span>
                     </div>
 
-                    {m.audioUrl && (
+                    {(m.audioUrl || m.audioUrlHi) && (
                       <div className="mt-5 rounded-xl bg-cream/70 border border-cream-dark/40 p-4">
-                        <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-2.5">
-                          Listen now
-                        </p>
-                        <audio
-                          controls
-                          controlsList="nodownload"
-                          preload="none"
-                          className="w-full"
-                          src={m.audioUrl}
-                        >
-                          Your browser does not support the audio element.
-                        </audio>
+                        {m.audioUrl && (
+                          <div>
+                            <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-2.5">
+                              Listen in English
+                            </p>
+                            <audio
+                              controls
+                              controlsList="nodownload"
+                              preload="none"
+                              className="w-full"
+                              src={m.audioUrl}
+                            >
+                              Your browser does not support the audio element.
+                            </audio>
+                          </div>
+                        )}
+                        {m.audioUrlHi && (
+                          <div className={m.audioUrl ? "mt-4 pt-4 border-t border-cream-dark/30" : ""}>
+                            <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-2.5">
+                              हिंदी में सुनें
+                            </p>
+                            <audio
+                              controls
+                              controlsList="nodownload"
+                              preload="none"
+                              className="w-full"
+                              src={m.audioUrlHi}
+                            >
+                              Your browser does not support the audio element.
+                            </audio>
+                          </div>
+                        )}
                       </div>
                     )}
 

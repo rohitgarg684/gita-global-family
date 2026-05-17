@@ -15,7 +15,10 @@ const fadeInUp = {
   transition: { duration: 0.5 },
 };
 
-const AUDIO_URL = audio("inner-heart-meditation-english.wav");
+const AUDIO_URLS = {
+  en: audio("inner-heart-meditation-english.wav"),
+  hi: audio("inner-heart-meditation-hindi.mp3"),
+};
 
 export default function InnerHeartMeditationPage() {
   const [lang, setLang] = useState<"en" | "hi">("en");
@@ -135,11 +138,12 @@ export default function InnerHeartMeditationPage() {
             </div>
 
             <audio
+              key={lang}
               controls
               controlsList="nodownload"
               preload="metadata"
               className="w-full mt-2"
-              src={AUDIO_URL}
+              src={AUDIO_URLS[lang]}
             >
               {lang === "en"
                 ? "Your browser does not support the audio element."
