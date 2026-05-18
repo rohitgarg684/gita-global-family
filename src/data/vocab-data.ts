@@ -16,8 +16,12 @@ export const vocabWords: VocabWord[] =
     "pos": "n",
     "pronunciation": "गॉड",
     "meaningHi": "परमेश्वर",
-    "meaningEn": "the supreme being; the creator",
+    "meaningEn": "the supreme being; a deity",
     "examples": [
+      {
+        "en": "Is God",
+        "hi": "realisation the final goal of human life? - क्ा परमेश्वर की अनुभूति मानव-जीवन का अंतिम लक्ष्य है?"
+      },
       {
         "en": "Is God-realisation the final goal of human life?",
         "hi": "क्ा परमेश्वर की अनुभूति मानव-जीवन का अंतिम लक्ष्य है?"
@@ -29,17 +33,31 @@ export const vocabWords: VocabWord[] =
     "word": "heart",
     "pos": "n",
     "pronunciation": "हेल्थ",
-    "meaningHi": "हृदय; भावनाओं का केंद्र",
-    "meaningEn": "the centre of emotions; the seat of the soul",
+    "meaningHi": "दिल, हृदय",
+    "meaningEn": "the organ that pumps blood; center of emotions",
     "examples": []
   },
   {
     "id": 3,
+    "word": "mind",
+    "pos": "v",
+    "pronunciation": "माइन्ड",
+    "meaningHi": "किसी की बात का बुरा मान लेना 2 ध्ान देना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Please mind your own business",
+        "hi": "कृपया अपने काम पर ध्यान दें, अर्थात कृपया अपने काम से काम रखें।"
+      }
+    ]
+  },
+  {
+    "id": 4,
     "word": "truth",
     "pos": "n",
     "pronunciation": "ट्रूथ",
-    "meaningHi": "सत्य, सच्चाई",
-    "meaningEn": "reality",
+    "meaningHi": "सच्ाई",
+    "meaningEn": "the quality of being true; reality",
     "examples": [
       {
         "en": "Truth has to be spoken, but in an appropriate manner",
@@ -48,7 +66,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "word": "believe",
     "pos": "v",
     "pronunciation": "बिलीव",
@@ -62,21 +80,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "word": "faith",
     "pos": "n",
     "pronunciation": "फ़ेथ",
     "meaningHi": "विश्वास, आस्था, श्रद्धा",
-    "meaningEn": "complete trust; belief in the divine",
+    "meaningEn": "complete trust; belief without proof",
     "examples": []
   },
   {
-    "id": 6,
+    "id": 7,
     "word": "peace",
     "pos": "n",
     "pronunciation": "पीस",
     "meaningHi": "शांति",
-    "meaningEn": "freedom from disturbance; inner calm",
+    "meaningEn": "freedom from disturbance; calm",
     "examples": [
       {
         "en": "There cannot be happiness without peace",
@@ -85,12 +103,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "word": "right",
     "pos": "n",
     "pronunciation": "राइट",
-    "meaningHi": "सही; दाहिना; अधिकार",
-    "meaningEn": "correct",
+    "meaningHi": "अधिकार, हक 2 {राजनीतिक} दक्षिणपंथ",
+    "meaningEn": "",
     "examples": [
       {
         "en": "(fight for your right",
@@ -103,7 +121,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "word": "be",
     "pos": "v",
     "pronunciation": "बी",
@@ -117,12 +135,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "word": "do",
     "pos": "v",
     "pronunciation": "डू",
     "meaningHi": "करना",
-    "meaningEn": "",
+    "meaningEn": "to perform; to carry out",
     "examples": [
       {
         "en": "I will do it",
@@ -131,21 +149,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "word": "heaven",
     "pos": "n",
     "pronunciation": "हेवन",
     "meaningHi": "स्वर्ग",
-    "meaningEn": "the abode of God; paradise",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 11,
+    "id": 12,
     "word": "in",
     "pos": "prep adv",
     "pronunciation": "इन",
-    "meaningHi": "में, अंदर",
-    "meaningEn": "inside; within; during",
+    "meaningHi": "समयावधि में 2 भीतर, अंदर 1 I will do this in two days - मैं इसे दो दिनों की समायावधि में कर दूँगा। 2 He is in the room - वह कमरे के अंदर है। inadequate adj इनऐडिक्वट अपर्याप्त, जो काफी नहीं हो…",
+    "meaningEn": "",
     "examples": [
       {
         "en": "inadequate food",
@@ -153,18 +171,22 @@ export const vocabWords: VocabWord[] =
       },
       {
         "en": "I will do this in two days",
-        "hi": "मैं इसे दो दिनों की समायावधि में कर दूँगा।"
+        "hi": "मैं इसे दो दिनों की समायावधि में कर दूँगा। 2 He is in the room - वह कमरे के अंदर है।"
       }
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "word": "it",
     "pos": "pron det",
     "pronunciation": "इट",
-    "meaningHi": "यह, वह (वस्तु)",
-    "meaningEn": "used to refer to a thing",
+    "meaningHi": "वह, यह",
+    "meaningEn": "",
     "examples": [
+      {
+        "en": "It is a mouse",
+        "hi": "यह एक चूूहा है।"
+      },
       {
         "en": "It is a mouse",
         "hi": "यह एक चूूहा है।"
@@ -172,11 +194,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "word": "not",
     "pos": "adv adj",
     "pronunciation": "नॉट",
-    "meaningHi": "नहीं",
+    "meaningHi": "नहीं (निषेध)",
     "meaningEn": "used to negate",
     "examples": [
       {
@@ -190,12 +212,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "word": "of",
     "pos": "prep",
-    "pronunciation": "",
-    "meaningHi": "का, की, के",
-    "meaningEn": "belonging to; relating to",
+    "pronunciation": "अव, ऑव",
+    "meaningHi": "अव, ऑव का",
+    "meaningEn": "",
     "examples": [
       {
         "en": "life of the Buddha",
@@ -204,12 +226,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "word": "religion",
     "pos": "n",
     "pronunciation": "रिलिजन",
-    "meaningHi": "धर्म",
-    "meaningEn": "a system of faith and worship",
+    "meaningHi": "धर्म रिलिजस धार्मिक on v रिलाइ निर्भर होना, विश्ास करना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Some religions spread love, while certain others spread hatred",
@@ -222,44 +244,40 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "word": "to",
     "pos": "prep",
     "pronunciation": "अकोडिंग  टु",
     "meaningHi": "को, की ओर",
-    "meaningEn": "",
+    "meaningEn": "in the direction of; used with verbs",
     "examples": [
       {
         "en": "According to the Bhagavad-Gita, forgetting our divine nature is the root cause of suffering",
-        "hi": "भगवद्-गीता के अनुसार अपने ईश्वरीय स्वरूप को भूूल जाना हमारे दुखों का मूूल कारण है।"
-      },
-      {
-        "en": "He went to Delhi",
-        "hi": "वह दिल्ी गया।"
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "word": "and",
-    "pos": "conj",
-    "pronunciation": "श्ाम",
-    "meaningHi": "और, तथा",
-    "meaningEn": "used to connect words or clauses",
-    "examples": [
-      {
-        "en": "Ram and Shyam",
-        "hi": "राम और"
+        "hi": "भगवद्-गीता के अनुसार अपने ईश्वरीय स्वरूप को भूूल जाना हमारे दुखों का मूूल कारण है। | 1 की दिशा में 2 (कई अन्य प्रकार से to का प्रयोग किया जाता है) He went to Delhi - वह दिल्ी गया। I want to go - मैं जाना चाहता हँ। To say that he is the best singer is too much - यह कहना कि वह सर्वश्ेष्ठ गायक है, कुछ ज्ादा ही हो गया।"
       }
     ]
   },
   {
     "id": 18,
+    "word": "and",
+    "pos": "conj",
+    "pronunciation": "ऐंंड,  अंड",
+    "meaningHi": "और, तथा",
+    "meaningEn": "used to connect words or clauses",
+    "examples": [
+      {
+        "en": "Ram and Shyam",
+        "hi": "राम और श्ाम"
+      }
+    ]
+  },
+  {
+    "id": 19,
     "word": "family",
     "pos": "n",
     "pronunciation": "फ़ैैमलि",
     "meaningHi": "परिवार",
-    "meaningEn": "parents and children; relatives",
+    "meaningEn": "parents and children",
     "examples": [
       {
         "en": "a large family",
@@ -268,17 +286,13 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "word": "for",
     "pos": "prep",
-    "pronunciation": "फ़ऱ",
+    "pronunciation": "1 के लिए  2 कोंकि",
     "meaningHi": "के लिए; क्योंकि",
-    "meaningEn": "intended for; because",
+    "meaningEn": "intended to belong to; because",
     "examples": [
-      {
-        "en": "I came here for money",
-        "hi": "मैं यहाँ पैसों के लिए आया।"
-      },
       {
         "en": "I cannot go, for I am busy",
         "hi": "मैं नहीं जा सकता क्योंोंकि मैं व्यस्त हँ।"
@@ -286,12 +300,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "word": "forgive",
     "pos": "v",
     "pronunciation": "फ़गिव",
-    "meaningHi": "क्षमा करना",
-    "meaningEn": "to pardon; to let go of resentment",
+    "meaningHi": "माफ करना, क्षमा करना",
+    "meaningEn": "to pardon",
     "examples": [
       {
         "en": "God forgives them who forgive others",
@@ -300,7 +314,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "word": "on",
     "pos": "prep adv",
     "pronunciation": "अॉन",
@@ -318,10 +332,10 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "word": "or",
     "pos": "conj",
-    "pronunciation": "ओर",
+    "pronunciation": "इस मैच में कौन खेलेगा?",
     "meaningHi": "या, अथवा",
     "meaningEn": "used to link alternatives",
     "examples": [
@@ -332,16 +346,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "word": "but",
     "pos": "conj",
     "pronunciation": "बट",
-    "meaningHi": "लेकिन, किंतु",
+    "meaningHi": "लेकिन, किंतु, परंतु",
     "meaningEn": "however; except",
     "examples": [
       {
-        "en": "He is tough-looking but kind-hearted",
-        "hi": "वह सख्त दिखता है मगर उदारहृदय है।"
+        "en": "He is tough",
+        "hi": "looking but kind-hearted - वह सख्त दिखता है मगर उदारहृदय है।"
       },
       {
         "en": "I brought everything but my passport",
@@ -350,10 +364,10 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "word": "her",
     "pos": "pron det",
-    "pronunciation": "हर",
+    "pronunciation": "उसकी कलम खो गई है।",
     "meaningHi": "उसका, उसकी (स्त्री)",
     "meaningEn": "belonging to a female",
     "examples": [
@@ -364,7 +378,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "word": "his",
     "pos": "det pron",
     "pronunciation": "हिज़",
@@ -378,7 +392,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "word": "me",
     "pos": "pron",
     "pronunciation": "मी",
@@ -396,7 +410,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "word": "my",
     "pos": "det",
     "pronunciation": "माइ",
@@ -414,7 +428,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "word": "she",
     "pos": "pron",
     "pronunciation": "शी",
@@ -428,16 +442,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 29,
+    "id": 30,
     "word": "we",
     "pos": "pron",
     "pronunciation": "वी",
     "meaningHi": "हम",
-    "meaningEn": "ourselves",
+    "meaningEn": "used to refer to oneself and others",
     "examples": []
   },
   {
-    "id": 30,
+    "id": 31,
     "word": "you",
     "pos": "pron",
     "pronunciation": "यू",
@@ -446,21 +460,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 31,
+    "id": 32,
     "word": "father",
     "pos": "n",
-    "pronunciation": "फ़ादर",
-    "meaningHi": "पिता",
-    "meaningEn": "a male parent",
+    "pronunciation": "पिता",
+    "meaningHi": "",
+    "meaningEn": "male parent",
     "examples": []
   },
   {
-    "id": 32,
+    "id": 33,
     "word": "friend",
     "pos": "n",
     "pronunciation": "फ्े़न्ड",
-    "meaningHi": "मित्र, दोस्त",
-    "meaningEn": "a person you know and like",
+    "meaningHi": "मित्र, दोस्त फ्े़न्डशिप मित्रता फ्े़न्ड्लि मित्रतापूर्ण, दोस्ताना",
+    "meaningEn": "person you know and like",
     "examples": [
       {
         "en": "We should value friendship",
@@ -473,7 +487,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 33,
+    "id": 34,
     "word": "honest",
     "pos": "adj",
     "pronunciation": "अौनिस्ट",
@@ -487,13 +501,17 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 34,
+    "id": 35,
     "word": "its",
     "pos": "det",
     "pronunciation": "इट्स",
-    "meaningHi": "उसका (वस्तु)",
-    "meaningEn": "belonging to it",
+    "meaningHi": "उसका, इसका",
+    "meaningEn": "",
     "examples": [
+      {
+        "en": "Its price is ten rupees",
+        "hi": "इसकी कीमत दस रुपए है।"
+      },
       {
         "en": "Its price is ten rupees",
         "hi": "इसकी कीमत दस रुपए है।"
@@ -501,22 +519,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 35,
+    "id": 36,
     "word": "mother",
     "pos": "n",
-    "pronunciation": "मदर",
-    "meaningHi": "माँ, माता",
-    "meaningEn": "a female parent",
+    "pronunciation": "माता",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 36,
+    "id": 37,
     "word": "our",
     "pos": "det",
     "pronunciation": "आर",
     "meaningHi": "हमारा",
-    "meaningEn": "belonging to us",
+    "meaningEn": "",
     "examples": [
+      {
+        "en": "He is our friend",
+        "hi": "वह हमारा दोस्त है।"
+      },
       {
         "en": "He is our friend",
         "hi": "वह हमारा दोस्त है।"
@@ -524,43 +546,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 37,
+    "id": 38,
     "word": "still",
     "pos": "adv / adj",
     "pronunciation": "स्टिल",
-    "meaningHi": "अभी भी; शांत",
-    "meaningEn": "yet; motionless",
+    "meaningHi": "अबतक 2 निस्तब्ध, शांत बिना हिले-डुले 1 Is he ? - क्ा वह अभी तक वहाँ बैठा हुआ है? 2",
+    "meaningEn": "",
     "examples": [
       {
         "en": "still waters",
         "hi": "शांत जल"
-      },
-      {
-        "en": "He sat there still for hours",
-        "hi": "वह वहाँ घंटों तक निस्तब्ध (बिना हिले-डुले) बैठा रहा।"
       }
     ]
   },
   {
-    "id": 38,
+    "id": 39,
     "word": "teach",
     "pos": "v",
     "pronunciation": "टीच",
-    "meaningHi": "सिखाना",
-    "meaningEn": "to instruct",
+    "meaningHi": "पढ़ाना, सिखाना 139 196 197 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 39,
+    "id": 40,
     "word": "us",
     "pos": "pron",
     "pronunciation": "अस",
     "meaningHi": "हमें, हमको",
-    "meaningEn": "ourselves",
+    "meaningEn": "used to refer to oneself and others",
     "examples": [
       {
-        "en": "He gave us ten rupees. - उसने हमें दस रुपए दिए। We took the dog with us",
-        "hi": "हम हमारे साथ कुत्ते को ले गए।"
+        "en": "He gave us ten rupees.",
+        "hi": "उसने हमें दस रुपए दिए। We took the dog with us - हम हमारे साथ कुत्ते को ले गए।"
       },
       {
         "en": "We took the dog with us",
@@ -569,34 +587,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 40,
+    "id": 41,
     "word": "world",
     "pos": "n",
     "pronunciation": "वर्ल्ड",
     "meaningHi": "संसार, दुनिया",
-    "meaningEn": "earth",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 41,
+    "id": 42,
     "word": "yours",
     "pos": "pron",
     "pronunciation": "योज़",
-    "meaningHi": "तुम्हारा, आपका",
-    "meaningEn": "belonging to you",
+    "meaningHi": "तेरा, तुम्ारा, आपका Is ? - क्ा वह कार तुम्ारी है? Is he a ? - क्ा वह तुम्ारा दोस्त है?",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It is simple, you can yourself do it",
         "hi": "यह आसान है, तुम खुद ही इसे कर सकते हो"
-      },
-      {
-        "en": "My memory is poor, yours is much better",
-        "hi": "मेरी स्मरणशक्ति कमजोर है, तुम्ारी बेहतर है।"
       }
     ]
   },
   {
-    "id": 42,
+    "id": 43,
     "word": "change",
     "pos": "n / v",
     "pronunciation": "चेंज",
@@ -610,7 +624,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 43,
+    "id": 44,
     "word": "how",
     "pos": "adv",
     "pronunciation": "हाउ",
@@ -620,15 +634,11 @@ export const vocabWords: VocabWord[] =
       {
         "en": "How did you go there?",
         "hi": "आप वहाँ कैसे गए?"
-      },
-      {
-        "en": "However much you try, you will not succeed",
-        "hi": "तुम कितनी भी कोशिश कर लो, सफल नहीं हो पाओगे।"
       }
     ]
   },
   {
-    "id": 44,
+    "id": 45,
     "word": "if",
     "pos": "conj",
     "pronunciation": "इफ़",
@@ -642,25 +652,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 45,
+    "id": 46,
     "word": "prophet",
     "pos": "n",
     "pronunciation": "प्ॉफ़ेट",
     "meaningHi": "पैगंबर ईसाई, यहूदी और इसलाम धर्मों में कथित रूप से ईश्वर का संदेश लाने वाले धर्मशिक्षक",
-    "meaningEn": "divine messenger",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 46,
+    "id": 47,
     "word": "so",
     "pos": "adv conj",
     "pronunciation": "सो",
-    "meaningHi": "इसलिए; इतना",
-    "meaningEn": "therefore; to such a degree",
+    "meaningHi": "इतना 2 इसलिए 3 ताकि",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "so much? - इतना अधिक?; Is it so difficult?",
-        "hi": "क्ा यह इतना कठिन है?"
+        "en": "so much?",
+        "hi": "इतना अधिक?; Is it so difficult? - क्ा यह इतना कठिन है?"
       },
       {
         "en": "There are no taxis, so you will have to walk",
@@ -669,10 +679,10 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 47,
+    "id": 48,
     "word": "there",
     "pos": "adv",
-    "pronunciation": "देअर",
+    "pronunciation": "गए थे।",
     "meaningHi": "वहाँ",
     "meaningEn": "in or at that place",
     "examples": [
@@ -683,12 +693,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 48,
+    "id": 49,
     "word": "which",
     "pos": "pron",
     "pronunciation": "विच",
     "meaningHi": "कौन-सा, जो",
-    "meaningEn": "what one",
+    "meaningEn": "asking about a choice",
     "examples": [
       {
         "en": "Which boy did it?",
@@ -697,12 +707,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 49,
+    "id": 50,
     "word": "who",
     "pos": "pron",
     "pronunciation": "हू",
-    "meaningHi": "कौन, जो",
-    "meaningEn": "which person",
+    "meaningHi": "कौन, जो (व्यक्ति)",
+    "meaningEn": "what person",
     "examples": [
       {
         "en": "Who is there?",
@@ -711,12 +721,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 50,
+    "id": 51,
     "word": "why",
     "pos": "adv",
     "pronunciation": "वाइ",
-    "meaningHi": "क्यों",
-    "meaningEn": "reason",
+    "meaningHi": "कों",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Why did you cry?",
@@ -725,17 +735,13 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 51,
+    "id": 52,
     "word": "about",
     "pos": "adj adv / n",
     "pronunciation": "अबाउट",
-    "meaningHi": "के बारे में; लगभग",
+    "meaningHi": "के बारे में; करीब-करीब, लगभग",
     "meaningEn": "regarding; approximately",
     "examples": [
-      {
-        "en": "Let us talk about something else",
-        "hi": "किसी और चीज के बारे में बातें करें।"
-      },
       {
         "en": "The school is about three kilometres from here",
         "hi": "स्कूल यहाँ से लगभग तीन किलोमीटर है।"
@@ -743,11 +749,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 52,
+    "id": 53,
     "word": "all",
     "pos": "n adj adv",
     "pronunciation": "ओल",
-    "meaningHi": "सभी, सब",
+    "meaningHi": "सभी, सब, समस्त",
     "meaningEn": "every one; the whole of",
     "examples": [
       {
@@ -757,7 +763,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 53,
+    "id": 54,
     "word": "any",
     "pos": "adj det",
     "pronunciation": "एनि",
@@ -775,12 +781,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 54,
+    "id": 55,
     "word": "brave",
     "pos": "adj",
     "pronunciation": "ब्ेव",
-    "meaningHi": "बहादुर, साहसी",
-    "meaningEn": "showing courage; fearless",
+    "meaningHi": "बहादुर",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a brave soldier",
@@ -789,29 +795,29 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 55,
+    "id": 56,
     "word": "character",
     "pos": "n",
     "pronunciation": "कैरक्टर",
-    "meaningHi": "चरित्र; स्वभाव",
-    "meaningEn": "qualities of a person; moral strength",
-    "examples": []
-  },
-  {
-    "id": 56,
-    "word": "child",
-    "pos": "n",
-    "pronunciation": "चाइल्ड",
-    "meaningHi": "बच्चा",
-    "meaningEn": "a young person",
+    "meaningHi": "चरित्र; स्वभाव; अक्षर",
+    "meaningEn": "qualities of a person; a letter",
     "examples": []
   },
   {
     "id": 57,
+    "word": "child",
+    "pos": "n",
+    "pronunciation": "चाइल्ड",
+    "meaningHi": "बच्चा, बालक",
+    "meaningEn": "a young person",
+    "examples": []
+  },
+  {
+    "id": 58,
     "word": "children",
     "pos": "n",
     "pronunciation": "चिल्ड्रन",
-    "meaningHi": "बच्चे",
+    "meaningHi": "बच्चे (बहुवचन)",
     "meaningEn": "plural of child; young people",
     "examples": [
       {
@@ -821,11 +827,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 58,
+    "id": 59,
     "word": "get",
     "pos": "v",
     "pronunciation": "गेट",
-    "meaningHi": "पाना, मिलना",
+    "meaningHi": "पाना, मिलना, प्राप्त करना",
     "meaningEn": "to receive; to obtain",
     "examples": [
       {
@@ -835,7 +841,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 59,
+    "id": 60,
     "word": "go",
     "pos": "v",
     "pronunciation": "गो",
@@ -844,12 +850,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 60,
+    "id": 61,
     "word": "learn",
     "pos": "v",
     "pronunciation": "लर्न",
     "meaningHi": "सीखना",
-    "meaningEn": "to gain knowledge or skill",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Learn humility",
@@ -858,7 +864,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 61,
+    "id": 62,
     "word": "now",
     "pos": "adv",
     "pronunciation": "नाउ",
@@ -867,12 +873,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 62,
+    "id": 63,
     "word": "patience",
     "pos": "n",
     "pronunciation": "पेशन्स",
-    "meaningHi": "धैर्य, सब्र",
-    "meaningEn": "the ability to wait calmly; endurance",
+    "meaningHi": "धीरज, धैर्य",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Don't lose patience!",
@@ -881,12 +887,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 63,
+    "id": 64,
     "word": "say",
     "pos": "v",
     "pronunciation": "से",
     "meaningHi": "कहना, बोलना",
-    "meaningEn": "to speak",
+    "meaningEn": "to speak; to utter words",
     "examples": [
       {
         "en": "she said nothing",
@@ -895,12 +901,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 64,
+    "id": 65,
     "word": "spiritual",
     "pos": "adj",
     "pronunciation": "स्पिरिचुअल",
-    "meaningHi": "आध्यात्मिक",
-    "meaningEn": "relating to the spirit or soul",
+    "meaningHi": "आध्ात्मिक, आत्मा और परमात्मा से संबंधित",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a spiritual life",
@@ -909,16 +915,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 65,
+    "id": 66,
     "word": "spirituality",
     "pos": "n",
-    "pronunciation": "त्मा के ज्ान और भक्ति में लगे रहने",
-    "meaningHi": "आध्यात्मिकता",
-    "meaningEn": "concern with the spirit; inner life",
+    "pronunciation": "का गुण",
+    "meaningHi": "हाइयर स्पिरिचु ऐलिटी उच्चतर आध्ात्मिकता आत्मा और परमात्मा की खोज, ज्ान, ध्ान और भक्ति में लगे रहना -लोअर स्पिरिचु- ऐलिटी निम्न आध्ात्मिकता भूत-प्रेत",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 66,
+    "id": 67,
     "word": "can",
     "pos": "v / n",
     "pronunciation": "कैन",
@@ -932,12 +938,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 67,
+    "id": 68,
     "word": "could",
     "pos": "v",
     "pronunciation": "कुड",
-    "meaningHi": "सकता था; संभावना",
-    "meaningEn": "past tense of can; expressing possibility",
+    "meaningHi": "सकता था; संभावना व्यक्त करना",
+    "meaningEn": "past tense of 'can'; expressing possibility",
     "examples": [
       {
         "en": "She could be famous one day",
@@ -946,30 +952,40 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 68,
+    "id": 69,
     "word": "let",
     "pos": "v",
     "pronunciation": "लेट",
-    "meaningHi": "आज्ञा देना, अनुमति देना",
-    "meaningEn": "to allow; to permit",
+    "meaningHi": "कुछ होने देना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let him go - उसे जाने दो! Let her eat",
         "hi": "उसे खाने दो!"
-      },
-      {
-        "en": "Let him go",
-        "hi": "उसे जाने दो!"
       }
     ]
   },
   {
-    "id": 69,
+    "id": 70,
+    "word": "make",
+    "pos": "v",
+    "pronunciation": "मेक",
+    "meaningHi": "बनाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "His company makes sewing machines",
+        "hi": "उसकी कंपनी सिलाई मशीन बनाती है।"
+      }
+    ]
+  },
+  {
+    "id": 71,
     "word": "respect",
     "pos": "n / v",
     "pronunciation": "रिस्ेक्ट",
-    "meaningHi": "सम्मान, आदर",
-    "meaningEn": "high regard",
+    "meaningHi": "संमान, आदरभावना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Shouldn't we show respect to our elders?",
@@ -982,20 +998,20 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 70,
+    "id": 72,
     "word": "think",
     "pos": "v",
     "pronunciation": "थिंक",
     "meaningHi": "सोचना, विचार करना",
-    "meaningEn": "to reason",
+    "meaningEn": "to believe; to use the mind",
     "examples": []
   },
   {
-    "id": 71,
+    "id": 73,
     "word": "bliss",
     "pos": "n",
     "pronunciation": "ब्लिस",
-    "meaningHi": "परमानंद",
+    "meaningHi": "परम आनंद",
     "meaningEn": "supreme happiness; divine joy",
     "examples": [
       {
@@ -1005,7 +1021,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 72,
+    "id": 74,
+    "word": "come",
+    "pos": "v",
+    "pronunciation": "कम",
+    "meaningHi": "आना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 75,
     "word": "deity",
     "pos": "n",
     "pronunciation": "डेअटि",
@@ -1014,26 +1039,39 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 73,
+    "id": 76,
     "word": "follow",
     "pos": "v",
     "pronunciation": "फ़ॉलो",
-    "meaningHi": "अनुसरण करना",
-    "meaningEn": "to go after; to obey",
-    "examples": [
-      {
-        "en": "When prince Sri Ram left for the jungle, thousands of people followed him",
-        "hi": "जब राजकुमार श्ीराम जंगल जाने लगे तब हजारों लोग उनके पीछे-पीछे चले।"
-      }
-    ]
+    "meaningHi": "पीछे-पीछे चलना, निर्देश के अनुसार कार्य करना 2 समझना 1",
+    "meaningEn": "to go after",
+    "examples": []
   },
   {
-    "id": 74,
+    "id": 77,
+    "word": "give",
+    "pos": "v",
+    "pronunciation": "गिव",
+    "meaningHi": "देना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 78,
+    "word": "good",
+    "pos": "adj",
+    "pronunciation": "गुड",
+    "meaningHi": "अच्ा",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 79,
     "word": "human",
     "pos": "n / adj",
     "pronunciation": "ह्ूमन",
-    "meaningHi": "मानव, मनुष्य",
-    "meaningEn": "relating to people; a person",
+    "meaningHi": "मानव, मनुष्य | मानवीय, मनुष्य से संबंधित ह्ूमैनटि मानवता",
+    "meaningEn": "",
     "examples": [
       {
         "en": "No human has yet reached Mars",
@@ -1046,12 +1084,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 75,
+    "id": 80,
+    "word": "know",
+    "pos": "v",
+    "pronunciation": "नो",
+    "meaningHi": "जानना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "know yourself",
+        "hi": "अपने-आप को जानो"
+      }
+    ]
+  },
+  {
+    "id": 81,
     "word": "peaceful",
     "pos": "adj",
     "pronunciation": "पीसफ़ल",
     "meaningHi": "शांतिपूर्ण",
-    "meaningEn": "calm; without conflict",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a peaceful country",
@@ -1060,12 +1112,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 76,
+    "id": 82,
     "word": "sacred",
     "pos": "adj",
     "pronunciation": "सेक्रिड",
-    "meaningHi": "पवित्र, पूज्य",
-    "meaningEn": "holy",
+    "meaningHi": "पवित्र",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The Vedas are the sacred books of the Hindus",
@@ -1074,21 +1126,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 77,
+    "id": 83,
     "word": "speak",
     "pos": "v",
     "pronunciation": "स्पीक",
     "meaningHi": "बोलना",
-    "meaningEn": "to talk",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 78,
+    "id": 84,
+    "word": "take",
+    "pos": "v",
+    "pronunciation": "टेक",
+    "meaningHi": "लेना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 85,
     "word": "use",
     "pos": "n / v",
     "pronunciation": "यूस",
-    "meaningHi": "उपयोग करना",
-    "meaningEn": "to employ",
+    "meaningHi": "उपयोग करना; प्रयोग",
+    "meaningEn": "to put into service; to employ",
     "examples": [
       {
         "en": "This book is of no use to us",
@@ -1101,7 +1162,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 79,
+    "id": 86,
     "word": "belief",
     "pos": "n",
     "pronunciation": "बिलीफ़",
@@ -1115,7 +1176,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 80,
+    "id": 87,
     "word": "big",
     "pos": "adj",
     "pronunciation": "बिग",
@@ -1129,12 +1190,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 81,
+    "id": 88,
     "word": "contentment",
     "pos": "n",
     "pronunciation": "कंटेंट्मंट",
     "meaningHi": "संतोष",
-    "meaningEn": "a state of satisfaction and inner peace",
+    "meaningEn": "satisfaction and peace",
     "examples": [
       {
         "en": "Contentment is a great virtue",
@@ -1143,7 +1204,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 82,
+    "id": 89,
     "word": "first",
     "pos": "det adj",
     "pronunciation": "फ़स्ट",
@@ -1152,12 +1213,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 83,
+    "id": 90,
     "word": "gratitude",
     "pos": "n",
     "pronunciation": "ग्ैटिट्यूड",
     "meaningHi": "कृतज्ञता",
-    "meaningEn": "thankfulness; appreciation",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Gratitude is among the greatest virtues",
@@ -1166,12 +1227,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 84,
+    "id": 91,
     "word": "honesty",
     "pos": "n",
     "pronunciation": "अौनेस्ी",
     "meaningHi": "ईमानदारी",
-    "meaningEn": "the quality of being truthful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Honesty is a great virtue",
@@ -1180,12 +1241,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 85,
+    "id": 92,
     "word": "kindness",
     "pos": "n",
     "pronunciation": "काइन्ड्नस",
-    "meaningHi": "दयालुता, कृपा",
-    "meaningEn": "being kind",
+    "meaningHi": "दयाभाव",
+    "meaningEn": "",
     "examples": [
       {
         "en": "If you have kindness for others, God will have kindness for you",
@@ -1194,7 +1255,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 86,
+    "id": 93,
     "word": "new",
     "pos": "adj",
     "pronunciation": "न्यू",
@@ -1208,12 +1269,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 87,
+    "id": 94,
     "word": "old",
     "pos": "adj",
     "pronunciation": "ओल्ड",
-    "meaningHi": "पुराना; बूढ़ा",
-    "meaningEn": "having lived long; not new",
+    "meaningHi": "बूढ़ा, वृद्ध 2 पुराना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "an old man",
@@ -1226,7 +1287,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 88,
+    "id": 95,
     "word": "out",
     "pos": "prep adv",
     "pronunciation": "आउट",
@@ -1244,12 +1305,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 89,
+    "id": 96,
     "word": "patient",
     "pos": "adj / n",
     "pronunciation": "पेशंट",
     "meaningHi": "धैर्यशील, धीरज रखने वाला | रोगी, जिसका इलाज चल रहा हो",
-    "meaningEn": "able to wait calmly; a sick person",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a patient person",
@@ -1258,12 +1319,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 90,
+    "id": 97,
     "word": "small",
     "pos": "adj",
     "pronunciation": "स्मोल",
-    "meaningHi": "छोटा",
-    "meaningEn": "little",
+    "meaningHi": "छोटा अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": [
       {
         "en": "small mistake",
@@ -1272,16 +1333,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 91,
+    "id": 98,
     "word": "up",
     "pos": "adv prep",
     "pronunciation": "अप",
-    "meaningHi": "ऊपर",
-    "meaningEn": "",
+    "meaningHi": "ऊपर की ओर",
+    "meaningEn": "toward a higher position",
     "examples": []
   },
   {
-    "id": 92,
+    "id": 99,
     "word": "action",
     "pos": "n",
     "pronunciation": "ऐक्शन",
@@ -1295,17 +1356,13 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 93,
+    "id": 100,
     "word": "after",
     "pos": "adv",
     "pronunciation": "आफ़्टर",
-    "meaningHi": "के बाद",
+    "meaningHi": "के बाद; पीछे",
     "meaningEn": "following in time; behind",
     "examples": [
-      {
-        "en": "Ram came after Shyam",
-        "hi": "राम श्ाम के बाद आया।"
-      },
       {
         "en": "The police are after him",
         "hi": "पुलिस उसके पीछे लगी है।"
@@ -1313,7 +1370,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 94,
+    "id": 101,
     "word": "before",
     "pos": "adv prep",
     "pronunciation": "बिफ़ोर",
@@ -1327,16 +1384,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 95,
+    "id": 102,
     "word": "between",
     "pos": "prep",
     "pronunciation": "बिट्ीन",
-    "meaningHi": "बीच में",
+    "meaningHi": "दो के बीच में",
     "meaningEn": "in the space separating two things",
     "examples": []
   },
   {
-    "id": 96,
+    "id": 103,
     "word": "brother",
     "pos": "n",
     "pronunciation": "ब्रदर",
@@ -1345,16 +1402,16 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 97,
+    "id": 104,
     "word": "control",
     "pos": "n / v",
     "pronunciation": "कन्ट्ोल",
-    "meaningHi": "नियंत्रण",
+    "meaningHi": "नियंत्रण; वश में करना",
     "meaningEn": "to direct; power over something",
     "examples": [
       {
-        "en": "Self-control is especially important for students",
-        "hi": "आत्म-नियंत्रण विद्ार्थियों के लिए विशेष महत्त्वपूर्ण होता है।"
+        "en": "Self",
+        "hi": "control is especially important for students -आत्म-नियंत्रण विद्ार्थियों के लिए विशेष महत्त्वपूर्ण होता है।"
       },
       {
         "en": "Controlling our desires is not easy",
@@ -1363,7 +1420,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 98,
+    "id": 105,
     "word": "day",
     "pos": "n / adv",
     "pronunciation": "डे",
@@ -1377,12 +1434,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 99,
+    "id": 106,
     "word": "every",
     "pos": "det",
     "pronunciation": "एव्ी",
-    "meaningHi": "प्रत्येक, हर",
-    "meaningEn": "each one without exception",
+    "meaningHi": "प्रत्ेक, सब एव्रिवन हर आदमी, सभी",
+    "meaningEn": "each one",
     "examples": [
       {
         "en": "Every soul is divine according to the Bhagavad-Gita",
@@ -1395,12 +1452,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 100,
+    "id": 107,
     "word": "freedom",
     "pos": "n",
     "pronunciation": "फ़्रीडम",
-    "meaningHi": "स्वतंत्रता, आज़ादी",
-    "meaningEn": "the state of being free",
+    "meaningHi": "स्वतंत्रता, आजादी फ़्ी प्रेस आजाद पत्रकारिता",
+    "meaningEn": "state of being free",
     "examples": [
       {
         "en": "freedom from poverty",
@@ -1413,12 +1470,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 101,
+    "id": 108,
     "word": "joy",
     "pos": "n",
     "pronunciation": "जोइ",
-    "meaningHi": "आनंद, खुशी",
-    "meaningEn": "great happiness; delight",
+    "meaningHi": "खुशी",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Boating gives great joy",
@@ -1427,43 +1484,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 102,
+    "id": 109,
     "word": "little",
     "pos": "adj",
-    "pronunciation": "लिटल",
-    "meaningHi": "छोटा; थोड़ा",
-    "meaningEn": "small in size; not much",
-    "examples": [
-      {
-        "en": "Give me a little sugar - मुझे थोड़ी चीनी दो। There is little hope of his survival",
-        "hi": "उसके जीने की आशा कम है।"
-      },
-      {
-        "en": "Give me a little sugar",
-        "hi": "मुझे थोड़ी चीनी दो।"
-      }
-    ]
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 103,
+    "id": 110,
     "word": "off",
     "pos": "adv prep",
-    "pronunciation": "अौफ़",
-    "meaningHi": "बंद; दूर",
-    "meaningEn": "away from; not on",
-    "examples": [
-      {
-        "en": "He turned the light off",
-        "hi": "उसने बत्ती बंद कर दी।"
-      },
-      {
-        "en": "This is an off day",
-        "hi": "आज छुट्ी का दिन है।"
-      }
-    ]
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 104,
+    "id": 111,
     "word": "people",
     "pos": "n",
     "pronunciation": "पीप्ल",
@@ -1477,12 +1516,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 105,
+    "id": 112,
     "word": "put",
     "pos": "v",
     "pronunciation": "पुट",
-    "meaningHi": "रखना",
-    "meaningEn": "to place",
+    "meaningHi": "रखना, डालना 156 157 Q अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She put the clothes in the suitcase",
@@ -1491,21 +1530,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 106,
+    "id": 113,
     "word": "run",
     "pos": "n / v",
     "pronunciation": "रन",
-    "meaningHi": "दौड़ना; चलाना",
-    "meaningEn": "to move fast",
+    "meaningHi": "दौड़ | दौड़ना",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 107,
+    "id": 114,
     "word": "serve",
     "pos": "v",
     "pronunciation": "सर्व",
     "meaningHi": "सेवा करना 2 भोजन परोसना",
-    "meaningEn": "to work for",
+    "meaningEn": "to work for; to provide food",
     "examples": [
       {
         "en": "Serving the poor is a form of worship",
@@ -1518,30 +1557,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 108,
+    "id": 115,
     "word": "too",
     "pos": "adv",
     "pronunciation": "टू",
-    "meaningHi": "भी; अत्यधिक",
-    "meaningEn": "also",
-    "examples": [
-      {
-        "en": "I will come too",
-        "hi": "मैं भी आऊँगा।"
-      },
-      {
-        "en": "This is too sour",
-        "hi": "यह बहुत खट्ा है।"
-      }
-    ]
+    "meaningHi": "भी 2 बहुत 1",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 109,
+    "id": 116,
     "word": "under",
     "pos": "prep",
     "pronunciation": "अन्डर",
-    "meaningHi": "नीचे, के नीचे",
-    "meaningEn": "below",
+    "meaningHi": "नीचे, नीचे से",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He pushed the bag under the bed",
@@ -1550,25 +1580,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 110,
+    "id": 117,
     "word": "way",
     "pos": "n",
     "pronunciation": "वे",
-    "meaningHi": "रास्ता; तरीका",
-    "meaningEn": "method",
+    "meaningHi": "रास्ता; तरीका, ढंग",
+    "meaningEn": "a method; a path or road",
     "examples": []
   },
   {
-    "id": 111,
+    "id": 118,
+    "word": "work",
+    "pos": "n / v",
+    "pronunciation": "वर्क",
+    "meaningHi": "कार्य | कार्य करना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 119,
     "word": "above",
     "pos": "adv",
     "pronunciation": "अबव",
     "meaningHi": "ऊपर",
-    "meaningEn": "in a higher position",
+    "meaningEn": "in a higher position; more than",
     "examples": []
   },
   {
-    "id": 112,
+    "id": 120,
     "word": "again",
     "pos": "adv",
     "pronunciation": "अगेन",
@@ -1582,11 +1621,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 113,
+    "id": 121,
     "word": "already",
     "pos": "adv",
     "pronunciation": "ओलरेडि",
-    "meaningHi": "पहले से",
+    "meaningHi": "पहले से, पहले ही",
     "meaningEn": "before now; by this time",
     "examples": [
       {
@@ -1600,7 +1639,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 114,
+    "id": 122,
     "word": "always",
     "pos": "adv",
     "pronunciation": "ओलवेज़",
@@ -1610,15 +1649,11 @@ export const vocabWords: VocabWord[] =
       {
         "en": "He is always polite",
         "hi": "वह हमेशा विनम्र रहता है।"
-      },
-      {
-        "en": "There are many thieves among them",
-        "hi": "उनलोगों के बीच में अनेक चोर हैं।"
       }
     ]
   },
   {
-    "id": 115,
+    "id": 123,
     "word": "around",
     "pos": "adv",
     "pronunciation": "अराउंड",
@@ -1626,17 +1661,13 @@ export const vocabWords: VocabWord[] =
     "meaningEn": "on every side; approximately",
     "examples": [
       {
-        "en": "He went around the city",
-        "hi": "वह शहर में इधर-उधर घूूमा।"
-      },
-      {
-        "en": "It takes around two and a half hours from Delhi to Vrindavan",
-        "hi": "दिल्ी से वृंदावन जाने में लगभग ढाई घंटे लगते हैं।"
+        "en": "No one is around",
+        "hi": "कोई भी आसपास नहीं है।"
       }
     ]
   },
   {
-    "id": 116,
+    "id": 124,
     "word": "become",
     "pos": "v",
     "pronunciation": "बिकम",
@@ -1650,11 +1681,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 117,
+    "id": 125,
     "word": "behind",
     "pos": "adv",
     "pronunciation": "बिहाइंड",
-    "meaningHi": "पीछे",
+    "meaningHi": "पीछे, पीठ की ओर",
     "meaningEn": "at the back of; after",
     "examples": [
       {
@@ -1664,11 +1695,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 118,
+    "id": 126,
     "word": "below",
     "pos": "prep adv",
-    "pronunciation": "बिलउ",
-    "meaningHi": "नीचे",
+    "pronunciation": "बिलो,",
+    "meaningHi": "नीचे, नीचे की ओर",
     "meaningEn": "under; lower than",
     "examples": [
       {
@@ -1678,7 +1709,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 119,
+    "id": 127,
     "word": "different",
     "pos": "adj",
     "pronunciation": "डिफ़्रन्ट",
@@ -1692,12 +1723,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 120,
+    "id": 128,
     "word": "dignity",
     "pos": "n",
     "pronunciation": "डिग्निटी",
-    "meaningHi": "गरिमा, मान-सम्मान",
-    "meaningEn": "worthiness of respect",
+    "meaningHi": "गरिमा, शालीनता",
+    "meaningEn": "quality of being worthy of respect",
     "examples": [
       {
         "en": "He conducts himself with great dignity",
@@ -1706,7 +1737,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 121,
+    "id": 129,
     "word": "earth",
     "pos": "n",
     "pronunciation": "अर्थ",
@@ -1715,20 +1746,20 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 122,
+    "id": 130,
     "word": "empathy",
     "pos": "n",
     "pronunciation": "एम्पथि",
-    "meaningHi": "सहानुभूति",
-    "meaningEn": "sharing feelings",
+    "meaningHi": "समानुभूति किसी परिस्थिति में कोई दूसरा व्यक्ति कैसा महसूस कर रहा होगा, यह खुद महसूस करना और समझना 66 67 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "sharing others' feelings",
     "examples": []
   },
   {
-    "id": 123,
+    "id": 131,
     "word": "end",
     "pos": "n / v",
     "pronunciation": "एन्ड",
-    "meaningHi": "अंत; समाप्त करना",
+    "meaningHi": "अंत, समाप्ति; समाप्त करना",
     "meaningEn": "the final part; to finish",
     "examples": [
       {
@@ -1742,12 +1773,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 124,
+    "id": 132,
     "word": "ethics",
     "pos": "n",
     "pronunciation": "एथिक्स",
-    "meaningHi": "नैतिकता",
-    "meaningEn": "moral principles governing behaviour",
+    "meaningHi": "नैतिकता, नैतिकतापूर्ण आचार-विचार",
+    "meaningEn": "moral principles",
     "examples": [
       {
         "en": "Ethics should never be neglected in life",
@@ -1756,12 +1787,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 125,
+    "id": 133,
+    "word": "find",
+    "pos": "v",
+    "pronunciation": "फ़ाइन्ड",
+    "meaningHi": "खोजना, पता लगाना 2 पा लेना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "trying to find out",
+        "hi": "पता लगाने की कोशिश कर रहा"
+      },
+      {
+        "en": "I found my lost wallet",
+        "hi": "मैंने अपना खोया बटुआ पा लिया।"
+      }
+    ]
+  },
+  {
+    "id": 134,
     "word": "grateful",
     "pos": "adj",
     "pronunciation": "ग्ेट्फ़ल",
     "meaningHi": "कृतज्ञ, आभारी",
-    "meaningEn": "feeling thankful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let's be grateful to our martyrs",
@@ -1770,20 +1819,20 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 126,
+    "id": 135,
     "word": "great",
     "pos": "adj",
     "pronunciation": "ग्रेट",
-    "meaningHi": "महान; बहुत बड़ा",
-    "meaningEn": "very large or important; excellent",
+    "meaningHi": "महान 2 बहुत बड़ा",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 127,
+    "id": 136,
     "word": "him",
     "pos": "pron",
     "pronunciation": "हिम",
-    "meaningHi": "उसे, उसको (पुरुष)",
+    "meaningHi": "उसको, उसे (पुरुष)",
     "meaningEn": "used to refer to a male",
     "examples": [
       {
@@ -1797,16 +1846,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 128,
+    "id": 137,
     "word": "light",
     "pos": "n / v / adj",
     "pronunciation": "लाइट",
-    "meaningHi": "प्रकाश; हलका",
+    "meaningHi": "प्रकाश, रोशनी",
     "meaningEn": "brightness; not heavy; to illuminate",
     "examples": [
       {
-        "en": "light a cigarette - सिगरेट जलाना; light a candle",
-        "hi": "मोमबत्ती जलाना"
+        "en": "light a cigarette",
+        "hi": "सिगरेट जलाना; light a candle - मोमबत्ती जलाना"
       },
       {
         "en": "light baggage",
@@ -1815,26 +1864,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 129,
-    "word": "never",
-    "pos": "adv",
-    "pronunciation": "नेवर",
-    "meaningHi": "कभी नहीं",
-    "meaningEn": "not at any time; not ever",
+    "id": 138,
+    "word": "long",
+    "pos": "adj / adv",
+    "pronunciation": "लौंग",
+    "meaningHi": "लंबा | लंबे समय तक",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "Never cheat others",
-        "hi": "कभी दूसरों को धोखा न दो"
+        "en": "long distance",
+        "hi": "लंबी दूरी"
+      },
+      {
+        "en": "How long will it take? - कितना समय लगेगा? Long-established traditions",
+        "hi": "लम्े समय से चली आ रही परंपराएं।"
       }
     ]
   },
   {
-    "id": 130,
+    "id": 139,
+    "word": "never",
+    "pos": "adv",
+    "pronunciation": "को धोखा न दो",
+    "meaningHi": "अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ net",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 140,
     "word": "number",
     "pos": "n",
     "pronunciation": "नम्बर र",
-    "meaningHi": "संख्या",
-    "meaningEn": "a numeral",
+    "meaningHi": "संख्ा, अंक अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What is the likely number of people arriving today?",
@@ -1843,12 +1905,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 131,
+    "id": 141,
     "word": "service",
     "pos": "n",
     "pronunciation": "सर्विस",
     "meaningHi": "नौकरी 2 सेवा",
-    "meaningEn": "help",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He has got into government service",
@@ -1857,26 +1919,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 132,
+    "id": 142,
     "word": "since",
     "pos": "prep conj adv",
     "pronunciation": "सिन्स",
-    "meaningHi": "से; क्योंकि",
-    "meaningEn": "from then",
-    "examples": [
-      {
-        "en": "Since he did not come, he did not get the mangoes",
-        "hi": "चूूँकि वह नहीं आया, इसलिए उसे आम नहीं मिले।"
-      }
-    ]
+    "meaningHi": "चूँकि, कोंकि 2 से अतीत में विशिष्ट समयबिंदु से अब तक 1",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 133,
+    "id": 143,
     "word": "whole",
     "pos": "n adj",
     "pronunciation": "होल",
     "meaningHi": "पूरा, सारा होल्ेल र थोकविक्रेक्रेता",
-    "meaningEn": "entire",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The whole class laughed",
@@ -1889,16 +1946,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 134,
+    "id": 144,
     "word": "wrong",
     "pos": "adj",
     "pronunciation": "रौंग",
     "meaningHi": "गलत, असत्य 224 225 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "incorrect",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 135,
+    "id": 145,
     "word": "effort",
     "pos": "n",
     "pronunciation": "एफ़ट",
@@ -1912,12 +1969,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 136,
+    "id": 146,
+    "word": "evil",
+    "pos": "adj / n",
+    "pronunciation": "ईवल",
+    "meaningHi": "बुरा, हानिकारक, दुष्ट | बुराई, दुष्टता ex एक्स भूतपूर्व",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "evil tradition of animal-sacrifice",
+        "hi": "पशुबलि की बुरी परंपरा"
+      },
+      {
+        "en": "fight the evil",
+        "hi": "बुराई से लड़ो"
+      }
+    ]
+  },
+  {
+    "id": 147,
     "word": "happy",
     "pos": "adj",
     "pronunciation": "हैपि",
-    "meaningHi": "खुश, प्रसन्न",
-    "meaningEn": "feeling pleasure; joyful",
+    "meaningHi": "खुश हैपिनस प्रसन्नता, खुशी",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Isn't happiness the main aim of life?",
@@ -1926,12 +2001,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 137,
+    "id": 148,
+    "word": "home",
+    "pos": "n",
+    "pronunciation": "होम",
+    "meaningHi": "गृह घर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "It the family that turns a house into a home",
+        "hi": "यह परिवार है जो एक मकान को एक घर में बदल देता है।"
+      }
+    ]
+  },
+  {
+    "id": 149,
     "word": "money",
     "pos": "n",
     "pronunciation": "मनि",
-    "meaningHi": "धन, पैसा",
-    "meaningEn": "currency; wealth",
+    "meaningHi": "रुपया, पैसा, मुद्रा",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Money is important but not everything",
@@ -1940,12 +2029,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 138,
+    "id": 150,
     "word": "power",
     "pos": "n",
     "pronunciation": "पाउअर",
-    "meaningHi": "शक्ति; अधिकार",
-    "meaningEn": "strength",
+    "meaningHi": "बल, शक्ति 2 बिजली",
+    "meaningEn": "ability to act; strength; authority",
     "examples": [
       {
         "en": "Moral power is greater than physical power",
@@ -1958,30 +2047,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 139,
+    "id": 151,
     "word": "school",
     "pos": "n",
     "pronunciation": "स्ूल",
-    "meaningHi": "विद्यालय",
-    "meaningEn": "learning place",
+    "meaningHi": "पाठशाला, स्ूल",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 140,
+    "id": 152,
     "word": "sister",
     "pos": "n",
     "pronunciation": "सिस्टर",
-    "meaningHi": "बहन",
-    "meaningEn": "female sibling",
+    "meaningHi": "बहन 180 181 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 141,
+    "id": 153,
     "word": "sorrow",
     "pos": "n",
     "pronunciation": "सॉरो",
-    "meaningHi": "दुःख, शोक",
-    "meaningEn": "grief",
+    "meaningHi": "दुःख",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Enlightened detachment is the best medicine for sorrow",
@@ -1990,12 +2079,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 142,
+    "id": 154,
     "word": "voice",
     "pos": "n",
     "pronunciation": "वोइस",
-    "meaningHi": "आवाज़",
-    "meaningEn": "spoken sound",
+    "meaningHi": "मुख से निकलने वाली आवाज या बोली",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a sweet voice",
@@ -2004,30 +2093,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 143,
+    "id": 155,
     "word": "water",
     "pos": "n / v",
-    "pronunciation": "वॉटर",
-    "meaningHi": "पानी, जल",
-    "meaningEn": "liquid",
+    "pronunciation": "पौधों में पानी पटा रही है।",
+    "meaningHi": "वॉटर पानी",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let's save water",
         "hi": "आओ, पानी बचाएँ"
-      },
-      {
-        "en": "She is watering the plants",
-        "hi": "वह पौधों में पानी पटा रही है।"
       }
     ]
   },
   {
-    "id": 144,
+    "id": 156,
     "word": "ask",
     "pos": "v",
     "pronunciation": "आस्क",
     "meaningHi": "पूछना",
-    "meaningEn": "to request; to inquire",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Don't ask too many questions",
@@ -2036,11 +2121,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 145,
+    "id": 157,
     "word": "begin",
     "pos": "v",
     "pronunciation": "बिगिन",
-    "meaningHi": "शुरू करना",
+    "meaningHi": "शुरू होना, शुरू करना",
     "meaningEn": "to start; to commence",
     "examples": [
       {
@@ -2050,12 +2135,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 146,
+    "id": 158,
     "word": "choose",
     "pos": "v",
     "pronunciation": "चूज़",
-    "meaningHi": "चुनना",
-    "meaningEn": "to select; to pick",
+    "meaningHi": "चुनना Christian-",
+    "meaningEn": "to select",
     "examples": [
       {
         "en": "Never choose a bad character as your friend",
@@ -2064,7 +2149,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 147,
+    "id": 159,
     "word": "die",
     "pos": "v",
     "pronunciation": "डाइ",
@@ -2078,7 +2163,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 148,
+    "id": 160,
     "word": "dignified",
     "pos": "adj",
     "pronunciation": "डिग्निफ़ाइड",
@@ -2092,21 +2177,53 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 149,
+    "id": 161,
+    "word": "feel",
+    "pos": "v",
+    "pronunciation": "फ़ील",
+    "meaningHi": "महसूस करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Feel grateful when somebody helps you",
+        "hi": "कृतज्ञ महसूूस करो जब कोई तुम्ारी मदद करे।"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "word": "help",
+    "pos": "n / v",
+    "pronunciation": "हेल्प",
+    "meaningHi": "मदद, सहायता | मदद करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I need some help",
+        "hi": "मुझे थोड़े मदद की जरूरत है।"
+      },
+      {
+        "en": "Let's help the needy and the poor",
+        "hi": "हम जरूरतमंदों और गरीबों की मदद करें।"
+      }
+    ]
+  },
+  {
+    "id": 163,
     "word": "honour",
     "pos": "n",
     "pronunciation": "फ़ैैमलि",
     "meaningHi": "अौनर परिवार की प्रतिष्ा, संमान",
-    "meaningEn": "great respect; integrity",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 150,
+    "id": 164,
     "word": "innocent",
     "pos": "adj",
     "pronunciation": "इनसन्ट",
     "meaningHi": "बेकसूर 2 भोलाभाला",
-    "meaningEn": "not guilty",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The police sometimes harass innocent people",
@@ -2119,12 +2236,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 151,
+    "id": 165,
     "word": "joyful",
     "pos": "adj",
     "pronunciation": "जोयफ़ल",
     "meaningHi": "आनंदपूर्ण, मस्तीभरा",
-    "meaningEn": "happy",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a joyful journey",
@@ -2133,12 +2250,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 152,
+    "id": 166,
     "word": "justice",
     "pos": "n",
     "pronunciation": "जस्टिस",
-    "meaningHi": "न्याय",
-    "meaningEn": "fairness; moral rightness",
+    "meaningHi": "न्याय, इंसाफ 2 जज, न्यायाधीश K अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Justice delayed is justice denied",
@@ -2151,12 +2268,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 153,
+    "id": 167,
+    "word": "keep",
+    "pos": "v",
+    "pronunciation": "कीप",
+    "meaningHi": "रखना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Keep the books in the bookshelf",
+        "hi": "किताबों को बुकशेल्फ में रखो"
+      }
+    ]
+  },
+  {
+    "id": 168,
     "word": "leave",
     "pos": "n / v",
     "pronunciation": "लीव",
-    "meaningHi": "छोड़ना; जाना",
-    "meaningEn": "to go away; to depart",
+    "meaningHi": "छुट्ी, अवकाश | छोड़ देना, किसी व्यक्ति या वस्तु से दूर जाना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I am on leave",
@@ -2169,12 +2300,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 154,
+    "id": 169,
+    "word": "live",
+    "pos": "adv adj",
+    "pronunciation": "लाइव",
+    "meaningHi": "जीवित, सजीव 2 दर्शकों के सामने सजीव रूप में प्रस्तुत जो पहले से रिकॉर्ड किया हुआ नहीं हो, बल्कि अभी चल रहा हो 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "We live in Delhi",
+        "hi": "हम दिल्ी में रहते हैं।"
+      },
+      {
+        "en": "All of us want to live long",
+        "hi": "हम सभी लंबा जीना चाहते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "word": "look",
+    "pos": "v",
+    "pronunciation": "लुक",
+    "meaningHi": "देखना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "look at me",
+        "hi": "मेरी ओर देखो।"
+      }
+    ]
+  },
+  {
+    "id": 171,
     "word": "loyal",
     "pos": "adj",
     "pronunciation": "लोयल",
     "meaningHi": "वफादार, निष्ावान",
-    "meaningEn": "faithful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a loyal servant",
@@ -2183,12 +2346,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 155,
+    "id": 172,
     "word": "loyalty",
     "pos": "n",
     "pronunciation": "लोयल्टि",
     "meaningHi": "वफादारी, निष्ा",
-    "meaningEn": "faithfulness",
+    "meaningEn": "",
     "examples": [
       {
         "en": "His loyalty is beyond doubt",
@@ -2197,12 +2360,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 156,
+    "id": 173,
     "word": "moral",
     "pos": "adj",
     "pronunciation": "मॉरल",
-    "meaningHi": "नैतिक",
-    "meaningEn": "relating to right and wrong; virtuous",
+    "meaningHi": "नैतिक, सदाचारी मॉरल डाइलमा नैतिक दुविधा यानि यह कर्तव्य करें या वह कर्तव्य करें, क्या करें, ऐसी दुविधा मरैलिटी नैतिकता क्ा धर्मपूर्ण या नैतिक है, और",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He has a strong moral character",
@@ -2211,12 +2374,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 157,
+    "id": 174,
+    "word": "move",
+    "pos": "n / v",
+    "pronunciation": "मूव",
+    "meaningHi": "स्ान या स्थिति में परिवर्तन, कदम 2 चाल | 1 हिलना 2 चलना, चलाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "This is a move in the right direction",
+        "hi": "यह सही दिशा में एक कदम है।"
+      },
+      {
+        "en": "Good chess players make well thought out moves",
+        "hi": "शतरंज के अच्े खिलाड़ी अच्छी तरह सोची-समझी चाल चलते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "word": "need",
+    "pos": "n / v",
+    "pronunciation": "नीड",
+    "meaningHi": "जरूरत | जरूरत होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "My needs are limited",
+        "hi": "मेरी जरूरतें थोड़ी हैं।"
+      },
+      {
+        "en": "I need you",
+        "hi": "मुझे तुम्ारी जरूरत है।"
+      }
+    ]
+  },
+  {
+    "id": 176,
     "word": "start",
     "pos": "n / v",
     "pronunciation": "स्टाट",
-    "meaningHi": "शुरू करना",
-    "meaningEn": "to begin",
+    "meaningHi": "शुरुआत | शुरू करना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a good start",
@@ -2229,21 +2428,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 158,
+    "id": 177,
     "word": "strong",
     "pos": "adj",
     "pronunciation": "स्ट्रौंौंग",
-    "meaningHi": "मज़बूत, शक्तिशाली",
-    "meaningEn": "powerful",
+    "meaningHi": "मजबूत, बलवान",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 159,
+    "id": 178,
     "word": "trust",
     "pos": "n / v",
     "pronunciation": "ट्रस्ट",
-    "meaningHi": "विश्वास, भरोसा",
-    "meaningEn": "belief",
+    "meaningHi": "विश्ास",
+    "meaningEn": "firm belief; to have confidence in",
     "examples": [
       {
         "en": "Mutual trust is important in team work",
@@ -2256,12 +2455,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 160,
+    "id": 179,
     "word": "try",
     "pos": "v",
     "pronunciation": "ट्राइ",
-    "meaningHi": "प्रयास करना",
-    "meaningEn": "to attempt",
+    "meaningHi": "प्रयत्न करना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Keep trying, and you will succeed",
@@ -2270,12 +2469,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 161,
+    "id": 180,
     "word": "value",
     "pos": "n / v",
     "pronunciation": "वैल्ू",
-    "meaningHi": "मूल्य, कीमत",
-    "meaningEn": "worth",
+    "meaningHi": "मूल्य, कीमत | किसी व्यक्ति या वस्तु को महत्त्वपूर्ण या मूल्यवान मानना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Value time as it never returns",
@@ -2288,7 +2487,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 162,
+    "id": 181,
+    "word": "want",
+    "pos": "v",
+    "pronunciation": "वॉन्ट",
+    "meaningHi": "चाहना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I want to eat",
+        "hi": "मैं खाना चाहता हँ।"
+      }
+    ]
+  },
+  {
+    "id": 182,
     "word": "accept",
     "pos": "v",
     "pronunciation": "अक्सेप्ट",
@@ -2306,21 +2519,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 163,
-    "word": "bring",
-    "pos": "v",
-    "pronunciation": "ब्रंग",
-    "meaningHi": "लाना",
-    "meaningEn": "to carry toward; to cause",
-    "examples": [
-      {
-        "en": "He always brings chocolates with him",
-        "hi": "वह अपने साथ हमेशा चाॅकलेट लाता है।"
-      }
-    ]
-  },
-  {
-    "id": 164,
+    "id": 183,
     "word": "eat",
     "pos": "v",
     "pronunciation": "ईट",
@@ -2329,12 +2528,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 165,
+    "id": 184,
+    "word": "grow",
+    "pos": "v",
+    "pronunciation": "ग्ो",
+    "meaningHi": "बढ़ना, उगना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 185,
     "word": "happen",
     "pos": "v",
     "pronunciation": "हैपन",
     "meaningHi": "होना, घटित होना",
-    "meaningEn": "to occur; to take place",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What happened?",
@@ -2343,12 +2551,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 166,
+    "id": 186,
+    "word": "hold",
+    "pos": "n / v",
+    "pronunciation": "होल्ड",
+    "meaningHi": "पकड़ | पकड़ना, थामे रहना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The professor has a good hold on his students",
+        "hi": "इस प्राध्यापक की अपने छात्रों पर अच्छी पकड़ है।"
+      },
+      {
+        "en": "Please hold the glass for a moment",
+        "hi": "कृपया एक क्षण के लिए ग्ास को पकड़ो।"
+      }
+    ]
+  },
+  {
+    "id": 187,
     "word": "law",
     "pos": "n",
     "pronunciation": "लो",
     "meaningHi": "कानून",
-    "meaningEn": "a rule; the legal system",
+    "meaningEn": "",
     "examples": [
       {
         "en": "law abiding citizens",
@@ -2357,12 +2583,85 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 167,
+    "id": 188,
+    "word": "lead",
+    "pos": "v",
+    "pronunciation": "लीड",
+    "meaningHi": "नेतृत्व करना 2 किसी व्यक्ति को साथ ले जाना या उसे रास्ता दिखाना, सही दिशा में ले जाना 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 189,
+    "word": "lose",
+    "pos": "v",
+    "pronunciation": "लूज़",
+    "meaningHi": "खो देना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "don't lose patience - धीरज मत खोओ; I lost my wallet",
+        "hi": "मैंने अपना बटुआ खो दिया।"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "word": "love",
+    "pos": "n / v",
+    "pronunciation": "लव",
+    "meaningHi": "प्रेम, प्ार | प्ार करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "love is elixir",
+        "hi": "प्रेम अमृत है।"
+      },
+      {
+        "en": "Let's love all creatures",
+        "hi": "हम सभी जीवों से प्रेम करें।"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "word": "meet",
+    "pos": "v",
+    "pronunciation": "मीट",
+    "meaningHi": "मिलना, भेंट होना, भेंट करना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I met a saint",
+        "hi": "मैं एक संत से मिला।"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "word": "open",
+    "pos": "adj / v",
+    "pronunciation": "ओपन",
+    "meaningHi": "खुला हुआ | खोलना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The door is open",
+        "hi": "दरवाजा खुला है।"
+      },
+      {
+        "en": "Please open the door",
+        "hi": "कृपया दरवाजा खोलें।"
+      }
+    ]
+  },
+  {
+    "id": 193,
     "word": "pay",
     "pos": "n / v",
     "pronunciation": "पे",
-    "meaningHi": "भुगतान करना",
-    "meaningEn": "to give money for; wages",
+    "meaningHi": "वेतन | किसी काम के लिए भुगतान करना या पैसे देना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I receive my pay on the 1st date of every month",
@@ -2375,21 +2674,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 168,
+    "id": 194,
+    "word": "play",
+    "pos": "n / v",
+    "pronunciation": "प्े",
+    "meaningHi": "खेल 2 नाटक | खेलना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Play and studies should coexist",
+        "hi": "खेल और पढ़ाई साथ-साथ रहने चाहिए।"
+      },
+      {
+        "en": "Shakespeare wrote a number of famous plays",
+        "hi": "शेक्सपियर ने कई प्रसिद्ध नाटक लिखे।"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "word": "remember",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 196,
     "word": "sit",
     "pos": "v",
     "pronunciation": "सिट",
     "meaningHi": "बैठना",
-    "meaningEn": "to be seated",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 169,
+    "id": 197,
     "word": "stand",
     "pos": "n / v",
     "pronunciation": "स्ैन्ड",
-    "meaningHi": "खड़ा होना",
-    "meaningEn": "upright",
+    "meaningHi": "स्टैंड, वस्तु को टेकने या टिकाने का साधन | खड़ा होना | समझना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Do you understand?",
@@ -2398,12 +2724,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 170,
+    "id": 198,
+    "word": "stop",
+    "pos": "n / v",
+    "pronunciation": "स्ॉप",
+    "meaningHi": "ठहराव | रोकना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 199,
+    "word": "understand",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 200,
+    "word": "walk",
+    "pos": "n / v",
+    "pronunciation": "वोक",
+    "meaningHi": "पैदल सैर, पैदल भ्रमण | टहलना, चलना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a long walk",
+        "hi": "एक लंबी पैदल सैर"
+      }
+    ]
+  },
+  {
+    "id": 201,
     "word": "watch",
     "pos": "n / v",
     "pronunciation": "वॉच",
-    "meaningHi": "देखना; घड़ी",
-    "meaningEn": "to observe",
+    "meaningHi": "हाथघड़ी 2 निगरानी | ध्ान से देखना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "watchman",
@@ -2416,29 +2774,29 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 171,
+    "id": 202,
     "word": "write",
     "pos": "v",
     "pronunciation": "राइट",
     "meaningHi": "लिखना",
-    "meaningEn": "to compose",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 172,
+    "id": 203,
     "word": "caring",
     "pos": "adj",
     "pronunciation": "केयरिंग",
     "meaningHi": "देखभाल के स्वभाव वाला",
-    "meaningEn": "showing kindness and concern",
+    "meaningEn": "showing kindness",
     "examples": []
   },
   {
-    "id": 173,
+    "id": 204,
     "word": "close",
     "pos": "adj / n / v",
     "pronunciation": "क्ोज़",
-    "meaningHi": "निकट, समीप 2 घनिष्ट | समाप्ति | क्ोज़ बंद करना दरवाज़ा बंद",
+    "meaningHi": "बंद करना; नज़दीक; निकट",
     "meaningEn": "to shut; near; intimate",
     "examples": [
       {
@@ -2452,7 +2810,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 174,
+    "id": 205,
     "word": "courteous",
     "pos": "adj",
     "pronunciation": "कटिअस",
@@ -2466,12 +2824,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 175,
+    "id": 206,
     "word": "courtesy",
     "pos": "n",
     "pronunciation": "कटसी",
     "meaningHi": "शिष्ट या सभ्य व्यवहार",
-    "meaningEn": "polite behaviour; kindness",
+    "meaningEn": "polite behaviour",
     "examples": [
       {
         "en": "It is a common courtesy to say 'thank you' to someone who provides some help",
@@ -2480,13 +2838,17 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 176,
+    "id": 207,
     "word": "create",
     "pos": "v",
     "pronunciation": "क्रिएट",
-    "meaningHi": "रचना करना, बनाना",
-    "meaningEn": "to bring into existence; to make",
+    "meaningHi": "उत्पन्न करना, सृजन करना, कुछ बनाना",
+    "meaningEn": "to bring into existence",
     "examples": [
+      {
+        "en": "Did God create this universe?",
+        "hi": "क्ा ईश्वर ने इस ब्रहांड का सृजन किया?"
+      },
       {
         "en": "Did God create this universe?",
         "hi": "क्ा ईश्वर ने इस ब्रहांड का सृजन किया?"
@@ -2494,7 +2856,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 177,
+    "id": 208,
     "word": "diligent",
     "pos": "adj",
     "pronunciation": "डिलिजन्ट",
@@ -2503,21 +2865,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 178,
+    "id": 209,
     "word": "eye",
     "pos": "n",
     "pronunciation": "आइ",
-    "meaningHi": "आँख",
-    "meaningEn": "the organ of sight",
+    "meaningHi": "नेत्र, आँख 74 75 F अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "organ of sight",
     "examples": []
   },
   {
-    "id": 179,
+    "id": 210,
     "word": "fight",
     "pos": "v",
     "pronunciation": "फ़ाइट",
-    "meaningHi": "लड़ाई; लड़ना",
-    "meaningEn": "to struggle; a battle",
+    "meaningHi": "लड़ना",
+    "meaningEn": "to struggle; battle",
     "examples": [
       {
         "en": "Shouldn't we fight against injustice?",
@@ -2526,21 +2888,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 180,
+    "id": 211,
     "word": "house",
     "pos": "n",
     "pronunciation": "हाउस",
     "meaningHi": "घर",
-    "meaningEn": "a building for living in",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 181,
+    "id": 212,
     "word": "immoral",
     "pos": "n",
     "pronunciation": "इम्मौरल",
     "meaningHi": "अनैतिक, जो नैतिकता के खिलाफ हो",
-    "meaningEn": "wrong",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Cheating a friend is an immoral act",
@@ -2549,39 +2911,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 182,
+    "id": 213,
     "word": "nature",
     "pos": "n",
-    "pronunciation": "नेचर",
-    "meaningHi": "प्रकृति; स्वभाव",
-    "meaningEn": "the natural world",
-    "examples": [
-      {
-        "en": "the beauty of nature",
-        "hi": "प्रकृति का सौंदर्य"
-      },
-      {
-        "en": "He has a friendly nature",
-        "hi": "उसका स्वभाव मित्रतापूर्ण है।"
-      }
-    ]
+    "pronunciation": "उसका स्वभाव मित्रतापूर्ण है।",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 183,
+    "id": 214,
     "word": "night",
     "pos": "n",
     "pronunciation": "नाइट",
     "meaningHi": "रात",
-    "meaningEn": "darkness",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 184,
+    "id": 215,
     "word": "point",
     "pos": "n / v",
     "pronunciation": "पोइन्ट",
     "meaningHi": "बिंदु 2 मुख्य बात 3 दशमलव 4 जगह 5 संख्ा | 1 उंगली दिखाना 2 बतलाना 146 147 अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
-    "meaningEn": "a sharp end; a purpose; a score",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What were the main points of discussion?",
@@ -2594,12 +2947,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 185,
+    "id": 216,
     "word": "polite",
     "pos": "adj",
     "pronunciation": "पलाइट",
     "meaningHi": "नम्र, शिष्ट, भद्र",
-    "meaningEn": "well-mannered",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Being polite is a mark of civilization",
@@ -2608,12 +2961,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 186,
+    "id": 217,
     "word": "protect",
     "pos": "v",
     "pronunciation": "प्रटेक्ट",
-    "meaningHi": "रक्षा करना",
-    "meaningEn": "to guard",
+    "meaningHi": "रक्षा करना, बचाना",
+    "meaningEn": "to keep safe; to guard",
     "examples": [
       {
         "en": "Protect children from bad influences",
@@ -2622,12 +2975,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 187,
+    "id": 218,
     "word": "purpose",
     "pos": "n",
     "pronunciation": "पपस",
     "meaningHi": "उद्ेश्य",
-    "meaningEn": "aim",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What is the purpose of human life?",
@@ -2636,12 +2989,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 188,
+    "id": 219,
     "word": "simple",
     "pos": "adj",
     "pronunciation": "सिम्पल",
-    "meaningHi": "सरल, आसान",
-    "meaningEn": "easy",
+    "meaningHi": "आसान 2 सरल प्रकृति का",
+    "meaningEn": "",
     "examples": [
       {
         "en": "simple math",
@@ -2654,12 +3007,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 189,
+    "id": 220,
     "word": "sympathy",
     "pos": "n",
     "pronunciation": "सिम्पथि",
     "meaningHi": "सहानुभूति",
-    "meaningEn": "compassion",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let us have sympathy for the poor",
@@ -2668,12 +3021,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 190,
+    "id": 221,
     "word": "thought",
     "pos": "n",
     "pronunciation": "थोट",
     "meaningHi": "विचार, चिंतन",
-    "meaningEn": "idea",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A good thought can change life",
@@ -2682,21 +3035,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 191,
+    "id": 222,
     "word": "woman",
     "pos": "n",
     "pronunciation": "वुमन",
     "meaningHi": "महिला, स्त्री",
-    "meaningEn": "female adult",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 192,
+    "id": 223,
     "word": "young",
     "pos": "adj",
     "pronunciation": "यंग",
-    "meaningHi": "युवा, जवान",
-    "meaningEn": "not old",
+    "meaningHi": "कम उम्र वाला, किशोर, जवान",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Yog is for both the young and the old",
@@ -2705,11 +3058,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 193,
+    "id": 224,
     "word": "almost",
     "pos": "adv",
     "pronunciation": "ओलमउस्ट",
-    "meaningHi": "लगभग",
+    "meaningHi": "लगभग, करीब-करीब",
     "meaningEn": "nearly; not quite",
     "examples": [
       {
@@ -2719,12 +3072,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 194,
+    "id": 225,
     "word": "anger",
     "pos": "n",
     "pronunciation": "ऐंंगर",
-    "meaningHi": "क्रोध, गुस्सा",
-    "meaningEn": "a strong feeling of displeasure",
+    "meaningHi": "क्रोध, गुस्ा",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Anger is one of the three doorways to hell",
@@ -2733,7 +3086,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 195,
+    "id": 226,
     "word": "angry",
     "pos": "adj",
     "pronunciation": "ऐंंग्ी",
@@ -2747,12 +3100,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 196,
+    "id": 227,
     "word": "attention",
     "pos": "n",
     "pronunciation": "अटेंशन",
     "meaningHi": "ध्ान",
-    "meaningEn": "notice; concentration of mind",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Pay attention to what your teacher says",
@@ -2761,39 +3114,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 197,
+    "id": 228,
     "word": "Brahm",
     "pos": "n",
     "pronunciation": "ब्रह्म",
     "meaningHi": "निराकार निर्विशेष परमेश्वर जिनका कोई एक निश्चित रूप या आकार नहीं होता। इन्ें 'निर्गुण ब्रह्म' भी कहते हैं।",
-    "meaningEn": "the ultimate reality; the supreme spirit",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 198,
+    "id": 229,
     "word": "Brahma",
     "pos": "n",
     "pronunciation": "ब्रह्ा",
     "meaningHi": "परब्रह्म-परमेश्वर द्ारा बनाए गए एक महादेवता जिन्ें हिंदू-धर्म के अनुसार संसार को रचने का दायित्व दिया गया है।",
-    "meaningEn": "the creator deity in Hinduism",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 199,
+    "id": 230,
     "word": "Dharm",
     "pos": "n",
-    "pronunciation": "आधारग्ंथ के रूप में स्ीकार करता है।  भगवान",
-    "meaningHi": "भगवद्-धर्म यह वह धर्म है जो भगवद्-गीता को एकमात्र श्ीकृष्ण द्ारा दिया गया यह धर्म जातपात पर आधारित वर्णाश्रम धर्म से भिन्न है। कुछ लोग इसे उच्चतर",
-    "meaningEn": "righteousness; moral duty; the right path",
+    "pronunciation": "भगवद्-धर्म",
+    "meaningHi": "यह वह धर्म है जो भगवद्-गीता को एकमात्र आधारग्ंथ के रूप में स्ीकार करता है। भगवान श्ीकृष्ण द्ारा दिया गया यह धर्म जातपात पर आधारित वर्णाश्रम धर्म से",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 200,
+    "id": 231,
     "word": "dhyan",
     "pos": "n",
     "pronunciation": "ध्ान",
-    "meaningHi": "ध्यान — एकाग्र चिंतन",
-    "meaningEn": "meditation; focused contemplation",
+    "meaningHi": "ध्ान, मेडिटेशन",
+    "meaningEn": "",
     "examples": [
       {
         "en": "When attention is constantly pointed on one object, it is called dhyan",
@@ -2802,20 +3155,20 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 201,
+    "id": 232,
     "word": "dhyanyog",
     "pos": "n",
     "pronunciation": "ध्ानयोग",
-    "meaningHi": "ध्यानयोग — ध्यान का मार्ग",
-    "meaningEn": "the yoga of meditation",
+    "meaningHi": "ध्ानयोग ध्ान के माध्यम से अपनी आत्मा के वास्तविक ईश्वरीय स्वरूप का ज्ान",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 202,
+    "id": 233,
     "word": "early",
     "pos": "adj adv",
     "pronunciation": "अर्लीी",
-    "meaningHi": "शीघ्र, जल्द",
+    "meaningHi": "जल्दी, सवेरे",
     "meaningEn": "before the expected time",
     "examples": [
       {
@@ -2825,11 +3178,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 203,
+    "id": 234,
     "word": "enough",
     "pos": "pron",
     "pronunciation": "इनफ़",
-    "meaningHi": "पर्याप्त, काफी",
+    "meaningHi": "पर्याप्त, काफ़ी",
     "meaningEn": "as much as needed; sufficient",
     "examples": [
       {
@@ -2839,12 +3192,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 204,
+    "id": 235,
     "word": "experience",
     "pos": "n / v",
-    "pronunciation": "रिअन्स",
-    "meaningHi": "अनुभव",
-    "meaningEn": "knowledge gained by doing; an event",
+    "pronunciation": "इक्स्पिअ-",
+    "meaningHi": "रिअन्स अनुभव, तजुरबा | अन्स अनुभव करना",
+    "meaningEn": "knowledge gained; event",
     "examples": [
       {
         "en": "experience teaches us more than books",
@@ -2857,12 +3210,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 205,
+    "id": 236,
     "word": "force",
     "pos": "n / v",
     "pronunciation": "फ़ोर्स",
     "meaningHi": "बल, शक्ति 2 सेना, पुलिस | दबाब देना, बाध्य करना",
-    "meaningEn": "strength; power; to compel",
+    "meaningEn": "strength; to compel",
     "examples": [
       {
         "en": "The force of his speech shook people",
@@ -2875,39 +3228,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 206,
+    "id": 237,
     "word": "further",
     "pos": "adj",
     "pronunciation": "",
     "meaningHi": "",
-    "meaningEn": "more; additional; to a greater distance",
+    "meaningEn": "more; additional",
     "examples": []
   },
   {
-    "id": 207,
+    "id": 238,
     "word": "Gita",
     "pos": "n",
-    "pronunciation": "गीता",
-    "meaningHi": "भगवद्- महाभारत के युद्ध के ठीक पहले श्ीकृष्ण के मुख से बोली गई ईश्वर की वाणी जिसे महर्षि वेदव्यास ने कविता का रूप दिया। यह हिंदुओं की कई पवित्र",
-    "meaningEn": "the Bhagavad Gita, sacred Hindu scripture",
+    "pronunciation": "भगवद्-",
+    "meaningHi": "गीता महाभारत के युद्ध के ठीक पहले श्ीकृष्ण के मुख से बोली गई ईश्वर की वाणी जिसे महर्षि वेदव्यास ने कविता का रूप दिया। यह हिंदुओं की कई पवित्र",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 208,
+    "id": 239,
     "word": "Krishn",
     "pos": "n",
     "pronunciation": "कृष्ण",
     "meaningHi": "श्ीकृष्ण श्ीकृष्ण श्ीराम के साथ-साथ हिंदू-धर्म के सबसे आदर्श प्रतिनिधि हैं। ईश्वर के अवतार माने जाने वाले श्ीकृष्ण ने ही भगवद्-गीता का कथन किया था जो",
-    "meaningEn": "an incarnation of Lord Vishnu",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 209,
+    "id": 240,
     "word": "moksha",
     "pos": "n",
     "pronunciation": "मोक्ष",
-    "meaningHi": "मोक्ष — जन्म-मृत्यु के चक्र से मुक्ति",
-    "meaningEn": "liberation from the cycle of rebirth",
+    "meaningHi": "मोक्ष, जन्म-मरण के चक्र से मुक्ति, निर्वाण",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Moksha is said to be the final goal of all humans",
@@ -2916,30 +3269,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 210,
+    "id": 241,
     "word": "nirvana",
     "pos": "n",
     "pronunciation": "निर्वान",
-    "meaningHi": "निर्वाण — परम शांति की अवस्था",
-    "meaningEn": "the state of ultimate peace and liberation",
+    "meaningHi": "निर्वाण, मोक्ष जन्ममृत्ु के चक्र से और सभी दुखों से अंतिम मुक्ति no",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Nirvana is the final goal of life",
         "hi": "निर्वाण जीवन का अंतिम लक्ष्य है।"
-      },
-      {
-        "en": "exclama",
-        "hi": "tion"
       }
     ]
   },
   {
-    "id": 211,
+    "id": 242,
     "word": "often",
     "pos": "adv",
     "pronunciation": "अॉफ़न",
     "meaningHi": "अकसर, प्रायः",
-    "meaningEn": "frequently",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He often visits our place",
@@ -2948,12 +3297,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 212,
+    "id": 243,
     "word": "perhaps",
     "pos": "adv",
     "pronunciation": "पहैप्स",
     "meaningHi": "शायद, कदाचित",
-    "meaningEn": "maybe",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Perhaps he is unwilling",
@@ -2962,12 +3311,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 213,
+    "id": 244,
     "word": "quite",
     "pos": "adv",
     "pronunciation": "क्ाइट",
     "meaningHi": "बिलकुल, नितांत",
-    "meaningEn": "fairly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "quite foolish",
@@ -2976,35 +3325,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 214,
+    "id": 245,
     "word": "Ram",
     "pos": "n",
     "pronunciation": "राम",
     "meaningHi": "श्ी राम अत्ंत प्राचीन काल में अयोध्ा के एक महान राजा थे। इन्ें ईश्वर का अवतार भी मानते हैं। इनके-जैसा सुदर्शन, शीलवान, वीर, परोपकारी, प्रजापालक, और",
-    "meaningEn": "an incarnation of Lord Vishnu; a virtuous king",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 215,
+    "id": 246,
     "word": "rather",
     "pos": "adv",
-    "pronunciation": "रैदर",
-    "meaningHi": "किसी हद तक, थोड़ा",
-    "meaningEn": "preferably",
-    "examples": [
-      {
-        "en": "It’s rather cold today",
-        "hi": "आज थोड़ी ठंढ है।"
-      }
-    ]
+    "pronunciation": "आज थोड़ी ठंढ है।",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 216,
+    "id": 247,
     "word": "really",
     "pos": "adv",
     "pronunciation": "रिअलि",
     "meaningHi": "सचमुच 2 आश्चर्य, रुचि, संदेह आदि व्यक्त करने के लिए प्रश्न-रूप में प्रयुक्त—! अर्थात, क्ा सचमुच?",
-    "meaningEn": "truly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I am really surprised!",
@@ -3013,21 +3357,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 217,
+    "id": 248,
     "word": "samadhi",
     "pos": "n",
     "pronunciation": "समाधि",
-    "meaningHi": "समाधि — गहन ध्यान की अवस्था",
-    "meaningEn": "a state of deep meditative absorption",
+    "meaningHi": "ध्ान की सबसे ऊँची और गंभीर अवस्ा जिसमें पहुँचने पर अपनी आत्मा के ईश्वरीय स्वरूप और परमात्मा के दर्शन हो सकते हैं। S 303 170 171 अंंगरेज़ी शब्द उच्ारण",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 218,
+    "id": 249,
     "word": "sense",
     "pos": "n",
     "pronunciation": "सेन्स",
     "meaningHi": "समझदारी, अच्छी परख या समझ",
-    "meaningEn": "feeling",
+    "meaningEn": "",
     "examples": [
       {
         "en": "dress sense",
@@ -3036,12 +3380,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 219,
+    "id": 250,
     "word": "several",
     "pos": "det pron",
     "pronunciation": "सेवरल",
     "meaningHi": "अनेक, कुछ",
-    "meaningEn": "a few",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There are several colours in a rainbow",
@@ -3050,21 +3394,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 220,
+    "id": 251,
     "word": "Shiv",
     "pos": "n",
     "pronunciation": "शिव",
     "meaningHi": "शिव परब्रह्म-परमेश्वर द्ारा रचे गए एक महादेवता जिन्ें अंत में सृष्टि को समेटने की जिम्ेवारी दी गई है।",
-    "meaningEn": "the destroyer and transformer deity in Hinduism",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 221,
+    "id": 252,
     "word": "smile",
     "pos": "n / v",
     "pronunciation": "स्माइल",
     "meaningHi": "मुस्ान, मुस्कराहट | मुस्कराना",
-    "meaningEn": "happy expression",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A good smile lights up the surroundings",
@@ -3073,12 +3417,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 222,
+    "id": 253,
     "word": "sometimes",
     "pos": "adv",
     "pronunciation": "सम्टाइम्ज़",
     "meaningHi": "कभीकभी अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "occasionally",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Sometimes I am in Delhi",
@@ -3087,12 +3431,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 223,
+    "id": 254,
     "word": "support",
     "pos": "n / v",
     "pronunciation": "सपोट",
     "meaningHi": "समर्थन और प्रोत्ाहन | समर्थन देना",
-    "meaningEn": "to help",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I support the law for population control",
@@ -3101,12 +3445,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 224,
+    "id": 255,
     "word": "though",
     "pos": "conj",
     "pronunciation": "दो",
     "meaningHi": "यद्यपि, हालाँकि",
-    "meaningEn": "although",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Though old, he can still run",
@@ -3115,12 +3459,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 225,
+    "id": 256,
     "word": "together",
     "pos": "adv",
     "pronunciation": "टुगेदर",
     "meaningHi": "साथ-साथ",
-    "meaningEn": "jointly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "They came together",
@@ -3129,12 +3473,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 226,
+    "id": 257,
     "word": "tolerance",
     "pos": "n",
     "pronunciation": "टॉलरन्स",
-    "meaningHi": "सहिष्णुता",
-    "meaningEn": "acceptance of differences",
+    "meaningHi": "सहनशीलता, सहिष्ुता",
+    "meaningEn": "",
     "examples": [
       {
         "en": "religious tolerance",
@@ -3143,48 +3487,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 227,
+    "id": 258,
     "word": "Vishnu",
     "pos": "n",
     "pronunciation": "विष्ु",
     "meaningHi": "महादेवता विष्ु परब्रह्म-परमेश्वर के वह सगुण-साकार रूप हैं जो सृष्टि का पालन करते हैं।",
-    "meaningEn": "the preserver deity in Hinduism",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 228,
+    "id": 259,
     "word": "yet",
     "pos": "adv conj",
     "pronunciation": "येट",
     "meaningHi": "तब तक, अब तक 2 फिरभी",
-    "meaningEn": "still",
-    "examples": [
-      {
-        "en": "I have not yet received my gift",
-        "hi": "मुझे मेरा उपहार अभी तक नहीं मिला।"
-      },
-      {
-        "en": "I gave him all that he wanted, yet he is unhappy",
-        "hi": "जो कुछ वह चाहता था मैंने उसे सब दे दिया, फिरभी वह नाखुश है।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 229,
+    "id": 260,
     "word": "across",
     "pos": "adv",
     "pronunciation": "अक्ॉस",
-    "meaningHi": "आर-पार",
+    "meaningHi": "एक ओर से दूसरी ओर, आर-पार",
     "meaningEn": "from one side to the other",
-    "examples": [
-      {
-        "en": "He walked across the field",
-        "hi": "वह मैदान के एक ओर से दूसरी ओर चल कर गया।"
-      }
-    ]
+    "examples": []
   },
   {
-    "id": 230,
+    "id": 261,
     "word": "age",
     "pos": "n / v",
     "pronunciation": "एज",
@@ -3202,7 +3532,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 231,
+    "id": 262,
     "word": "arm",
     "pos": "n / v",
     "pronunciation": "आम",
@@ -3220,12 +3550,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 232,
+    "id": 263,
     "word": "aware",
     "pos": "adj",
     "pronunciation": "अवेअ",
     "meaningHi": "जागरूक, जानकारी रखने वाला",
-    "meaningEn": "conscious",
+    "meaningEn": "having knowledge of",
     "examples": [
       {
         "en": "The nation needs aware citizens",
@@ -3234,48 +3564,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 233,
+    "id": 264,
     "word": "birth",
     "pos": "n",
     "pronunciation": "बर्थ",
     "meaningHi": "जन्म",
-    "meaningEn": "the process of being born",
+    "meaningEn": "being born",
     "examples": []
   },
   {
-    "id": 234,
+    "id": 265,
     "word": "composed",
     "pos": "adj",
     "pronunciation": "कम्ोज़्ड",
     "meaningHi": "शांतचित्त 2 से निर्मित, से बना हुआ 1",
-    "meaningEn": "calm",
-    "examples": [
-      {
-        "en": "A cool and composed man",
-        "hi": "एक ठंढा और शांतचित्त व्यक्ति।"
-      },
-      {
-        "en": "Air is composed of several gases",
-        "hi": "हवा कई गैसों से बनी हुई होती है।"
-      }
-    ]
+    "meaningEn": "calm; made up of",
+    "examples": []
   },
   {
-    "id": 235,
+    "id": 266,
     "word": "confidence",
     "pos": "n",
     "pronunciation": "भरोसा है।",
-    "meaningHi": "कॉन्फ़िडन्स भरोसा या पक्का विश्ास",
-    "meaningEn": "belief in oneself; trust",
-    "examples": [
-      {
-        "en": "I have full confidence in you",
-        "hi": "मुझे तुम पर पूूरा"
-      }
-    ]
+    "meaningHi": "",
+    "meaningEn": "self-belief",
+    "examples": []
   },
   {
-    "id": 236,
+    "id": 267,
     "word": "corruption",
     "pos": "n",
     "pronunciation": "करपशन",
@@ -3289,12 +3605,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 237,
+    "id": 268,
     "word": "cruelty",
     "pos": "n",
     "pronunciation": "क्ूअल्टि",
     "meaningHi": "क्रूरता, निर्दयता",
-    "meaningEn": "unkindness",
+    "meaningEn": "cruel behaviour",
     "examples": [
       {
         "en": "Cruelty is a demonical trait",
@@ -3303,26 +3619,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 238,
+    "id": 269,
     "word": "culture",
     "pos": "n",
-    "pronunciation": "कलचर",
-    "meaningHi": "संस्कृति",
-    "meaningEn": "customs and beliefs of a group",
-    "examples": [
-      {
-        "en": "Different countries have different cultures",
-        "hi": "अलग-अलग देशों की अलग-अलग संस्कृति होती है।"
-      }
-    ]
+    "pronunciation": "अलग-अलग संस्कृति होती है।",
+    "meaningHi": "",
+    "meaningEn": "customs of a society",
+    "examples": []
   },
   {
-    "id": 239,
+    "id": 270,
     "word": "destroy",
     "pos": "v",
     "pronunciation": "डिस्ट्रोय",
     "meaningHi": "नष्ट करना अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to demolish",
+    "meaningEn": "to ruin completely",
     "examples": [
       {
         "en": "The atom bomb completely destroyed Hiroshima and Nagasaki cities in Japan in 1945",
@@ -3331,11 +3642,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 240,
+    "id": 271,
     "word": "doubt",
     "pos": "n / v",
     "pronunciation": "डाउट",
-    "meaningHi": "संदेह, शक | संदेह करना अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningHi": "संदेह, शक; संदेह करना",
     "meaningEn": "uncertainty; to question",
     "examples": [
       {
@@ -3349,48 +3660,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 241,
+    "id": 272,
     "word": "dream",
     "pos": "n / v",
     "pronunciation": "ड्ीम",
-    "meaningHi": "सपना; स्वप्न",
+    "meaningHi": "सपना; स्वप्न देखना",
     "meaningEn": "images during sleep; an aspiration",
     "examples": []
   },
   {
-    "id": 242,
+    "id": 273,
     "word": "drink",
     "pos": "n / v",
     "pronunciation": "ड्रिंंक",
-    "meaningHi": "पीना; पेय",
-    "meaningEn": "to swallow liquid; a beverage",
+    "meaningHi": "पेय पदार्थ (जैसे, चाय, कोल्ड-ड्रिंंक, शरबत आदि) 2 शराब",
+    "meaningEn": "to swallow liquid",
     "examples": []
   },
   {
-    "id": 243,
+    "id": 274,
     "word": "ear",
     "pos": "n",
-    "pronunciation": "इअर",
+    "pronunciation": "कान",
     "meaningHi": "कान",
     "meaningEn": "the organ of hearing",
     "examples": []
   },
   {
-    "id": 244,
+    "id": 275,
     "word": "education",
     "pos": "n",
     "pronunciation": "एजुकेशन",
     "meaningHi": "शिक्षाक्षा, तालीम",
-    "meaningEn": "the process of learning; instruction",
+    "meaningEn": "process of learning",
     "examples": []
   },
   {
-    "id": 245,
+    "id": 276,
     "word": "equal",
     "pos": "n adj / v",
     "pronunciation": "ईक्वल",
-    "meaningHi": "बराबरी वाला, बराबर | बराबर होना या करना",
-    "meaningEn": "the same in quantity or value; fair",
+    "meaningHi": "बराबरी वाला, बराबर",
+    "meaningEn": "the same in value",
     "examples": [
       {
         "en": "'Equal opportunity for all' is the motto of democracy",
@@ -3403,12 +3714,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 246,
+    "id": 277,
     "word": "feeling",
     "pos": "n",
     "pronunciation": "फ़ीीलिंग",
     "meaningHi": "अहसास, भावना फ़ीीमेल मादा, स्त्री",
-    "meaningEn": "an emotion; a sensation",
+    "meaningEn": "emotion; sensation",
     "examples": [
       {
         "en": "care for others' feelings",
@@ -3421,21 +3732,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 247,
+    "id": 278,
     "word": "finger",
     "pos": "n",
     "pronunciation": "फ़िंंगर",
     "meaningHi": "अंगुली",
-    "meaningEn": "a part of the hand",
+    "meaningEn": "part of hand",
     "examples": []
   },
   {
-    "id": 248,
+    "id": 279,
+    "word": "food",
+    "pos": "n",
+    "pronunciation": "फ़ूड",
+    "meaningHi": "भोजन",
+    "meaningEn": "things eaten",
+    "examples": []
+  },
+  {
+    "id": 280,
     "word": "genuine",
     "pos": "adj",
     "pronunciation": "जेन्युइन",
     "meaningHi": "असली, सचमुच का",
-    "meaningEn": "real",
+    "meaningEn": "",
     "examples": [
       {
         "en": "genuine love",
@@ -3444,12 +3764,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 249,
+    "id": 281,
     "word": "greed",
     "pos": "n",
     "pronunciation": "ग्रीड",
     "meaningHi": "लालच ग्ीन वेज- टबल्स हरी सब््जियाँ",
-    "meaningEn": "excessive desire for wealth",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Too much of greed may land one in trouble",
@@ -3462,30 +3782,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 250,
+    "id": 282,
     "word": "hatred",
     "pos": "n",
     "pronunciation": "हेट्रिड",
     "meaningHi": "घृणा, नफरत हैव किसी के पास कुछ होना साधारणतः इसका प्रयोग सहायक क्रिया के रूप में होता है, जैसे",
-    "meaningEn": "intense dislike",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Hatred cannot lead to God and goodness",
         "hi": "घृणा ईश्वर और अच्ाई की ओर नहीं ले जा सकती।"
-      },
-      {
-        "en": "I have eaten",
-        "hi": "मैंने खा लिया है।"
       }
     ]
   },
   {
-    "id": 251,
+    "id": 283,
     "word": "inspired",
     "pos": "adj",
     "pronunciation": "इन्पाइअड",
     "meaningHi": "प्रेरित, प्रेरणापूर्ण इन्परेशन प्रेरणा",
-    "meaningEn": "motivated",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a politician inspired by Gandhiji",
@@ -3498,12 +3814,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 252,
+    "id": 284,
     "word": "intellect",
     "pos": "n",
     "pronunciation": "इन्टलेक्ट",
     "meaningHi": "प्रज्ा, बुद्धि इन्टलेक्ुअल बौद्धिक व्यक्ति इन्टलेक्ुअल बौद्धिक, बुद्धि से संबंध रखने वाला इंटेलिजन्स बुद्धि, अक्ल",
-    "meaningEn": "mental power",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He is an intellectual",
@@ -3516,21 +3832,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 253,
+    "id": 285,
     "word": "leg",
     "pos": "n",
     "pronunciation": "लेग",
     "meaningHi": "टाँग, पैर",
-    "meaningEn": "lower limb of the body",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 254,
+    "id": 286,
     "word": "misery",
     "pos": "n",
     "pronunciation": "मिज़रि",
     "meaningHi": "दुःख, घोर तकलीफ",
-    "meaningEn": "suffering",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There is no end to their miseries",
@@ -3539,21 +3855,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 255,
+    "id": 287,
     "word": "mouth",
     "pos": "n",
     "pronunciation": "माउथ",
     "meaningHi": "मुँह, मुख",
-    "meaningEn": "face opening",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 256,
+    "id": 288,
     "word": "praise",
     "pos": "n / v",
     "pronunciation": "प्रेज़",
     "meaningHi": "तारीफ, प्रशंसा | प्रशंसा करना",
-    "meaningEn": "approval",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Remain equally composed in praise and blame is the message of the Bhagavad-Gita",
@@ -3566,62 +3882,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 257,
+    "id": 289,
     "word": "principle",
     "pos": "n",
     "pronunciation": "प्रिन्पल",
     "meaningHi": "सिद्धांद्धांत 2 नियम 1",
-    "meaningEn": "rule",
-    "examples": [
-      {
-        "en": "He was a man of high principles",
-        "hi": "वह ऊँचे सिद्धांद्धांतों पर चलने वाला एक व्यक्ति था।"
-      },
-      {
-        "en": "There are certain fundamental principles behind teambuilding",
-        "hi": "टीम बनाने के पीछे कुछ आधारभूूत नियम होते हैं।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 258,
+    "id": 290,
     "word": "shoulder",
     "pos": "n",
     "pronunciation": "शोल्डर",
     "meaningHi": "कंधा",
-    "meaningEn": "body joint",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 259,
+    "id": 291,
     "word": "success",
     "pos": "n",
     "pronunciation": "सक्ेस",
-    "meaningHi": "सफलता",
-    "meaningEn": "achievement",
+    "meaningHi": "सफलता, कामयाबी success-",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 260,
+    "id": 292,
     "word": "suffer",
     "pos": "v",
-    "pronunciation": "सफ़र",
-    "meaningHi": "कष्ट उठाना",
-    "meaningEn": "to endure",
-    "examples": [
-      {
-        "en": "An ordinary citizen has to suffer everyday",
-        "hi": "एक साधारण नागरिक को हर दिन कष्ट उठाना पड़ता है।"
-      }
-    ]
+    "pronunciation": "पड़ता है।",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 261,
+    "id": 293,
     "word": "violence",
     "pos": "n",
     "pronunciation": "वाइअलन्स",
     "meaningHi": "हिंसा",
-    "meaningEn": "physical force",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Violence is not a mark of a developed civilization",
@@ -3630,12 +3932,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 262,
+    "id": 294,
     "word": "afraid",
     "pos": "adj",
     "pronunciation": "अफ्े़ड",
     "meaningHi": "डरा हुआ, भयभीत",
-    "meaningEn": "feeling fear; scared",
+    "meaningEn": "",
     "examples": [
       {
         "en": "afraid of dogs",
@@ -3644,26 +3946,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 263,
+    "id": 295,
     "word": "air",
     "pos": "n",
     "pronunciation": "एअ",
     "meaningHi": "हवा",
-    "meaningEn": "the atmosphere; a manner",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "Let the air be pollution-free",
-        "hi": "हवा को प्रदूषण-मुक्त रहने दो।"
+        "en": "Let the air be pollution",
+        "hi": "free - हवा को प्रदूषण-मुक्त रहने दो।"
       }
     ]
   },
   {
-    "id": 264,
+    "id": 296,
     "word": "avatar",
     "pos": "n",
     "pronunciation": "अवतार",
-    "meaningHi": "अवतार — ईश्वर का पृथ्वी पर अवतरण",
-    "meaningEn": "an incarnation of God on earth",
+    "meaningHi": "ईश्वर का अवतार अवेलबल उपलब्ध ऐवरिज 1 औसत 2 साधारण",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Lord Krishn is said to be an avatar of God",
@@ -3676,12 +3978,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 265,
+    "id": 297,
     "word": "car",
     "pos": "n",
-    "pronunciation": "कार",
-    "meaningHi": "मोटरकार काबोहाइड्रेट भोजन से उपलब्ध एक तत्त्व, जैसे शक्कर, जो शरीर को ऊर्जा प्रदान करता है",
-    "meaningEn": "a motor vehicle",
+    "pronunciation": "मोटरकार",
+    "meaningHi": "काबोहाइड्रेट भोजन से उपलब्ध एक तत्त्व, जैसे शक्कर, जो शरीर को ऊर्जा प्रदान करता है",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Food grains contain much carbohydrate",
@@ -3690,11 +3992,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 266,
+    "id": 298,
     "word": "choice",
     "pos": "n",
     "pronunciation": "चोइस",
-    "meaningHi": "पसंद, चुनाव",
+    "meaningHi": "चुनाव, विकल्प",
     "meaningEn": "an act of selecting; an option",
     "examples": [
       {
@@ -3704,7 +4006,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 267,
+    "id": 299,
     "word": "church",
     "pos": "n",
     "pronunciation": "चर्च",
@@ -3713,11 +4015,11 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 268,
+    "id": 300,
     "word": "clean",
     "pos": "adj / v",
     "pronunciation": "क्ीन",
-    "meaningHi": "साफ-सुथरा | साफ करना",
+    "meaningHi": "साफ़, स्वच्छ; साफ़ करना",
     "meaningEn": "free from dirt; to remove dirt",
     "examples": [
       {
@@ -3731,11 +4033,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 269,
+    "id": 301,
     "word": "country",
     "pos": "n",
     "pronunciation": "कन्ट्रि",
-    "meaningHi": "देश 2 देहात",
+    "meaningHi": "देश; ग्रामीण क्षेत्र",
     "meaningEn": "a nation; rural area",
     "examples": [
       {
@@ -3749,7 +4051,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 270,
+    "id": 302,
+    "word": "door",
+    "pos": "n",
+    "pronunciation": "दरवाजा",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 303,
     "word": "emotion",
     "pos": "n",
     "pronunciation": "इमोशन",
@@ -3767,12 +4078,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 271,
+    "id": 304,
+    "word": "fire",
+    "pos": "n / v",
+    "pronunciation": "दिया।",
+    "meaningHi": "फ़ायर अग्नि, आग",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Fire is given a sacred position in the Vedic religion",
+        "hi": "वैदिक धर्म में अग्नि को एक पवित्र स्थान दिया गया है"
+      }
+    ]
+  },
+  {
+    "id": 305,
     "word": "ground",
     "pos": "n",
     "pronunciation": "ग्ाउन्ड",
     "meaningHi": "भूमि, मैदान 2 किसी बात का आधार",
-    "meaningEn": "the earth's surface; soil",
+    "meaningEn": "",
     "examples": [
       {
         "en": "On what ground are you making the allegations?",
@@ -3781,57 +4106,49 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 272,
+    "id": 306,
     "word": "practice",
     "pos": "n",
     "pronunciation": "प्ैक्टिस",
-    "meaningHi": "अभ्यास",
-    "meaningEn": "repeated doing",
+    "meaningHi": "अभ्यास 2 प्रथा 3 वकालत का काम 1 Players are having hard practice - खिलाड़ियों का अभ्ास जम कर चल रहा है। 2 Animal sacrifice is an old but bad practice - पशुबलि एक पुरानी लेकिन बुरी प्रथा है। 3 He has a…",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Players are having hard practice",
-        "hi": "खिलाड़ियों का अभ्ास जम कर चल रहा है।"
-      },
-      {
-        "en": "Animal sacrifice is an old but bad practice",
-        "hi": "पशुबलि एक पुरानी लेकिन बुरी प्रथा है।"
+        "hi": "खिलाड़ियों का अभ्ास जम कर चल रहा है। 2 Animal sacrifice is an old but bad practice - पशुबलि एक पुरानी लेकिन बुरी प्रथा है। 3 He has a roaring practice - उसकी वकालत खूूब चलती है।"
       }
     ]
   },
   {
-    "id": 273,
+    "id": 307,
     "word": "Prakriti",
     "pos": "n",
     "pronunciation": "परा प्रकृति",
     "meaningHi": "पराप्रकृति परब्रह्म-परमेश्वर की वह शक्ति जिससे मिल कर परब्रह्म-परमेश्वर ब्रह्मांडों, महादेवताओं, देवताओं और अन्य जीवों की रचना करते हैं।",
-    "meaningEn": "nature; the material world",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 274,
+    "id": 308,
     "word": "proud",
     "pos": "adj",
     "pronunciation": "प्राउड",
     "meaningHi": "अभिमानी, गर्वान्वित प्ॉविडेंट फ़न्ड भविष्यनिधि कामकाज करने वालों की कमाई का एक अंश जिस निधि में उनके भविष्य में काम आने के लिए डाल दिया जाता है, उसे",
-    "meaningEn": "self-respecting",
+    "meaningEn": "",
     "examples": [
       {
         "en": "proud parents",
         "hi": "गर्वान्वित माता-पिता"
-      },
-      {
-        "en": "For your future economic security, you must open a Public Provident Fund Account in a bank",
-        "hi": "अपने भविष्य की आर्थिक सुरक्षा के लिए तुम्ें एक बैंक में पब्लिक प्रॉविडेंट फंड का अकाउंट जरूर खोलना चाहिए।"
       }
     ]
   },
   {
-    "id": 275,
+    "id": 309,
     "word": "sorry",
     "pos": "adj",
     "pronunciation": "सॉरि",
     "meaningHi": "खेद है, क्षमा करें खेद व्यक्त करने या माफी माँगने के लिए प्रयोग किया जाने वाला शब्द",
-    "meaningEn": "regretful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Sorry, I hurt you!",
@@ -3840,26 +4157,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 276,
+    "id": 310,
     "word": "sound",
     "pos": "n / v",
     "pronunciation": "साउन्ड",
     "meaningHi": "ध्वनि, आवाज | मालूम पड़ना, जान पड़ना 184 185 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "noise; healthy",
-    "examples": [
-      {
-        "en": "It sounds as if he is always busy",
-        "hi": "ऐसा जान पड़ता है जैसे वह हमेशा व्यस्त रहता है।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 277,
+    "id": 311,
     "word": "street",
     "pos": "n",
     "pronunciation": "स्ट्रीट",
     "meaningHi": "गली 2 पथ, सड़क",
-    "meaningEn": "road",
+    "meaningEn": "",
     "examples": [
       {
         "en": "जैसे, ब्रिटिश प्रधान मंत्री का पता 10, Downing Street",
@@ -3868,12 +4180,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 278,
+    "id": 312,
     "word": "trinity",
     "pos": "n",
     "pronunciation": "ट्रिनिटी",
-    "meaningHi": "त्रिमूर्ति — ब्रह्मा, विष्णु, शिव",
-    "meaningEn": "the three main Hindu deities: Brahma, Vishnu, Shiva",
+    "meaningHi": "त्रिमूर्ति ईसाई धर्म में पिता, पुत्र और पवित्र आत्मा अर्थात फ़ादर, सन एंड होली स्पिरिट के संयोग को ईश्वर कहते हैं 2 किन्हींीं तीन का समूह",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Brahma, Vishnu and Shiva are called the holy trinity in Hinduism",
@@ -3882,12 +4194,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 279,
+    "id": 313,
     "word": "affection",
     "pos": "n",
     "pronunciation": "अफ़ेक्शन",
     "meaningHi": "स्ेह, प्ार अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "love",
+    "meaningEn": "a gentle feeling of love",
     "examples": [
       {
         "en": "Children need affection",
@@ -3896,12 +4208,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 280,
+    "id": 314,
     "word": "answer",
     "pos": "n / v",
     "pronunciation": "आन्सर",
-    "meaningHi": "उत्तर, जवाब",
-    "meaningEn": "a reply; to respond",
+    "meaningHi": "उत्तर, जवाब; उत्तर देना",
+    "meaningEn": "a reply; a response",
     "examples": [
       {
         "en": "Do you have an answer?",
@@ -3914,12 +4226,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 281,
+    "id": 315,
     "word": "ashamed",
     "pos": "adj",
     "pronunciation": "अशेम्ड",
     "meaningHi": "लज््जित",
-    "meaningEn": "shamed",
+    "meaningEn": "feeling shame",
     "examples": [
       {
         "en": "I am ashamed at your conduct",
@@ -3928,12 +4240,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 282,
+    "id": 316,
     "word": "awake",
     "pos": "adj",
     "pronunciation": "अवेक",
     "meaningHi": "जगा हुआ",
-    "meaningEn": "alert",
+    "meaningEn": "not asleep; alert",
     "examples": [
       {
         "en": "Is he awake?",
@@ -3942,7 +4254,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 283,
+    "id": 317,
     "word": "behaviour",
     "pos": "n",
     "pronunciation": "बिहेवियर",
@@ -3956,25 +4268,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 284,
+    "id": 318,
     "word": "cause",
     "pos": "n / v",
     "pronunciation": "कौज़",
-    "meaningHi": "कारण | उत्पन्न करना, कारण बनना",
+    "meaningHi": "कारण; उत्पन्न करना",
     "meaningEn": "a reason; to make happen",
     "examples": [
       {
         "en": "the root cause of the problem",
         "hi": "समस्ा का मूूल कारण"
-      },
-      {
-        "en": "Heavy rains caused traffic jams",
-        "hi": "ज्ादा बारिश ट्रैफिक-जाम का कारण बनी।"
       }
     ]
   },
   {
-    "id": 285,
+    "id": 319,
     "word": "cheat",
     "pos": "n / v",
     "pronunciation": "चीट",
@@ -3992,11 +4300,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 286,
+    "id": 320,
     "word": "class",
     "pos": "n",
     "pronunciation": "क्ास",
-    "meaningHi": "वर्ग, कक्षा",
+    "meaningHi": "कक्षा; वर्ग; श्रेणी",
     "meaningEn": "a group; a lesson; a category",
     "examples": [
       {
@@ -4006,12 +4314,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 287,
+    "id": 321,
     "word": "committed",
     "pos": "adj",
     "pronunciation": "कमिटेड",
     "meaningHi": "प्रतिबद्ध, निष्ावान",
-    "meaningEn": "dedicated; devoted",
+    "meaningEn": "dedicated",
     "examples": [
       {
         "en": "committed to each other",
@@ -4020,12 +4328,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 288,
+    "id": 322,
     "word": "concentrate",
     "pos": "v",
     "pronunciation": "कॉन्सन्ट्रेट",
     "meaningHi": "एकाग्र करना, ध्ान लगाना",
-    "meaningEn": "to focus",
+    "meaningEn": "to focus attention",
     "examples": [
       {
         "en": "You can concentrate better in early hours of morning",
@@ -4034,12 +4342,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 289,
+    "id": 323,
     "word": "conduct",
     "pos": "n / v",
     "pronunciation": "कान्डक्ट",
     "meaningHi": "आचरण, व्यवहार | 1 आचरण करना 2 संचालन करना 44 45 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "behaviour",
+    "meaningEn": "to lead; behaviour",
     "examples": [
       {
         "en": "good conduct",
@@ -4052,7 +4360,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 290,
+    "id": 324,
     "word": "confident",
     "pos": "adj",
     "pronunciation": "कॉन्फ़िडन्ट",
@@ -4066,7 +4374,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 291,
+    "id": 325,
     "word": "cruel",
     "pos": "adj",
     "pronunciation": "क्ूअल",
@@ -4080,12 +4388,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 292,
+    "id": 326,
     "word": "decent",
     "pos": "adj",
     "pronunciation": "डीसन्ट",
     "meaningHi": "शालीन, सुघड़",
-    "meaningEn": "respectable; adequate",
+    "meaningEn": "respectable",
     "examples": [
       {
         "en": "a decent girl",
@@ -4094,12 +4402,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 293,
+    "id": 327,
     "word": "encourage",
     "pos": "v",
     "pronunciation": "इन्करिज",
     "meaningHi": "साहस देना, प्रोत्साहित करना, हिम्मत बढ़ाना",
-    "meaningEn": "to support",
+    "meaningEn": "to give support",
     "examples": [
       {
         "en": "encourage questioning",
@@ -4108,30 +4416,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 294,
+    "id": 328,
     "word": "energy",
     "pos": "n",
     "pronunciation": "एनर्जीी",
-    "meaningHi": "ऊर्जा 2 बहुत सक्रिय रहने की क्षमता, ताकत 1",
-    "meaningEn": "the power to do work; vitality",
+    "meaningHi": "ऊर्जा 2 बहुत सक्रिय रहने की क्षमता, ताकत 1 Light and sound are both forms of energy - प्रकाश और आवाज दोनों ऊर्जा के रूप हैं। 2 After working for ten hours, my energy is exhausted - दस घंटे काम करने…",
+    "meaningEn": "power to do work",
     "examples": [
       {
         "en": "Light and sound are both forms of energy",
-        "hi": "प्रकाश और आवाज दोनों ऊर्जा के रूप हैं।"
-      },
-      {
-        "en": "After working for ten hours, my energy is exhausted",
-        "hi": "दस घंटे काम करने के बाद मेरी सक्रिय रहने की ताकत खत्म हो गई है।"
+        "hi": "प्रकाश और आवाज दोनों ऊर्जा के रूप हैं। 2 After working for ten hours, my energy is exhausted - दस घंटे काम करने के बाद मेरी सक्रिय रहने की ताकत खत्म हो गई है।"
       }
     ]
   },
   {
-    "id": 295,
+    "id": 329,
     "word": "enmity",
     "pos": "n",
     "pronunciation": "एन्मटि",
     "meaningHi": "दुश्मनी, शत्ुता",
-    "meaningEn": "hostility",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Enmity is a negative feeling",
@@ -4140,12 +4444,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 296,
+    "id": 330,
     "word": "example",
     "pos": "n",
     "pronunciation": "इग्ाम्प्ल",
     "meaningHi": "उदाहरण",
-    "meaningEn": "a sample; an instance",
+    "meaningEn": "a sample; instance",
     "examples": [
       {
         "en": "Sri Ram is a perfect example of a noble king",
@@ -4154,12 +4458,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 297,
+    "id": 331,
     "word": "exist",
     "pos": "v",
     "pronunciation": "इग्जि़स्ट",
     "meaningHi": "जीवित रहना, अस्तित्व में होना",
-    "meaningEn": "",
+    "meaningEn": "to be; to live",
     "examples": [
       {
         "en": "Dinosaurs do not exist on earth now",
@@ -4168,7 +4472,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 298,
+    "id": 332,
+    "word": "fact",
+    "pos": "n",
+    "pronunciation": "फ़ैैक्ट",
+    "meaningHi": "सच्ाई 2 तथ्य",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Let's know the facts first",
+        "hi": "हमें पहले तथों को जान लेना चाहिए।"
+      }
+    ]
+  },
+  {
+    "id": 333,
     "word": "failure",
     "pos": "n",
     "pronunciation": "फे़ल्यर",
@@ -4182,12 +4500,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 299,
+    "id": 334,
     "word": "false",
     "pos": "adj",
     "pronunciation": "फ़ॉल्स",
     "meaningHi": "गलत, झूठा, असत्य फ़मिलिअ- र जाना-पहचाना, सुपरिचित",
-    "meaningEn": "untrue",
+    "meaningEn": "not true",
     "examples": [
       {
         "en": "false allegation",
@@ -4200,21 +4518,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 300,
+    "id": 335,
     "word": "focus",
     "pos": "n",
     "pronunciation": "फ़ोकस",
     "meaningHi": "किरण-केंद्र, वह बिंदु जहाँ किरणें एकत्र होती हैं The . . फोटो धुँधले हैं। शायद कैमरे का किरणकेंद्र ठीक नहीं था।",
-    "meaningEn": "to concentrate; a centre of attention",
+    "meaningEn": "to concentrate",
     "examples": []
   },
   {
-    "id": 301,
+    "id": 336,
     "word": "grief",
     "pos": "n",
     "pronunciation": "ग्ीफ़",
     "meaningHi": "गहरा शोक",
-    "meaningEn": "deep sorrow; mourning",
+    "meaningEn": "",
     "examples": [
       {
         "en": "grief-stricken family",
@@ -4223,12 +4541,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 302,
+    "id": 337,
     "word": "group",
     "pos": "n",
     "pronunciation": "ग्ुप",
     "meaningHi": "समूूह",
-    "meaningEn": "a number of things together",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a self-help group of women",
@@ -4237,12 +4555,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 303,
+    "id": 338,
     "word": "guilt",
     "pos": "n",
     "pronunciation": "गिल्ट",
     "meaningHi": "अपराधबोध, दोषभावना 88 89 H अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "the fact of having committed a wrong",
+    "meaningEn": "",
     "examples": [
       {
         "en": "After cheating my friend I developed a feeling of guilt",
@@ -4251,12 +4569,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 304,
+    "id": 339,
     "word": "guilty",
     "pos": "adj",
     "pronunciation": "गिल्टि",
     "meaningHi": "दोषी",
-    "meaningEn": "responsible for a wrong; feeling guilt",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let the guilty be punished",
@@ -4265,12 +4583,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 305,
+    "id": 340,
     "word": "health",
     "pos": "n",
     "pronunciation": "हेल्थ",
     "meaningHi": "स्ास्थ्य, सेहत",
-    "meaningEn": "the state of being well",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A good health is the foundation of a happy life",
@@ -4279,12 +4597,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 306,
+    "id": 341,
     "word": "helpful",
     "pos": "adj",
     "pronunciation": "हेल्पफ़ुल",
     "meaningHi": "मददगार हेल्पफ़ुलनस मदद करने की प्रवृत्ति या क्रिया 92 93 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "useful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a helpful person",
@@ -4297,12 +4615,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 307,
+    "id": 342,
+    "word": "idea",
+    "pos": "n",
+    "pronunciation": "आइडिअ",
+    "meaningHi": "विचार",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "New ideas have changed the world",
+        "hi": "नए विचारों ने दुनिया को बदल दिया है।"
+      }
+    ]
+  },
+  {
+    "id": 343,
     "word": "improve",
     "pos": "v",
     "pronunciation": "इम्प्ूव",
     "meaningHi": "सुधारना, बेहतर बनाना",
-    "meaningEn": "to better",
+    "meaningEn": "",
     "examples": [
       {
         "en": "improve the world around you",
@@ -4311,12 +4643,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 308,
+    "id": 344,
     "word": "judge",
     "pos": "n / v",
     "pronunciation": "जज",
     "meaningHi": "न्यायाधीश | किसी व्यक्ति या वस्तु के विषय में राय बनाना या देना जुडिशरि न्यायपालिका J 16 106 107 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to form an opinion; a legal official",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a judge of the High Court",
@@ -4329,30 +4661,40 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 309,
+    "id": 345,
     "word": "murder",
     "pos": "n / v",
-    "pronunciation": "मडर",
-    "meaningHi": "मानवहत्ा का अपराध | मानवहत्ा करना",
-    "meaningEn": "unlawful killing",
+    "pronunciation": "पत्ी की हत्ा की?",
+    "meaningHi": "मडर मानवहत्ा का अपराध",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Murder is a heinous crime",
         "hi": "मानवहत्ा एक संगीन अपराध है।"
-      },
-      {
-        "en": "Did Stalin himself murder his wife?",
-        "hi": "क्ा स्ालिन ने स्वयं अपनी पत्ी की हत्ा की?"
       }
     ]
   },
   {
-    "id": 310,
+    "id": 346,
+    "word": "part",
+    "pos": "n",
+    "pronunciation": "पाट",
+    "meaningHi": "अंश, भाग, हिस्ा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "parts of the body",
+        "hi": "शरीर के अंग"
+      }
+    ]
+  },
+  {
+    "id": 347,
     "word": "perfect",
     "pos": "adj",
     "pronunciation": "पफे़क्ट",
     "meaningHi": "संपूर्णतः त्रुटिहीन, हर तरह से अच्ा 142 143 अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
-    "meaningEn": "flawless",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Can somebody be absolutely perfect?",
@@ -4361,21 +4703,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 311,
+    "id": 348,
     "word": "person",
     "pos": "n",
     "pronunciation": "पर्सन",
     "meaningHi": "व्यक्ति",
-    "meaningEn": "individual",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 312,
+    "id": 349,
     "word": "positive",
     "pos": "adj",
     "pronunciation": "पॉज़टिव",
     "meaningHi": "सकारात्मक",
-    "meaningEn": "optimistic",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a positive attitude",
@@ -4384,12 +4726,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 313,
+    "id": 350,
     "word": "pride",
     "pos": "n",
     "pronunciation": "प्राइड",
     "meaningHi": "गर्व अच्े अर्थ में",
-    "meaningEn": "self-respect",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Pride and arrogance are widely different things",
@@ -4398,26 +4740,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 314,
+    "id": 351,
     "word": "problem",
     "pos": "n",
     "pronunciation": "प्ॉब्लम",
-    "meaningHi": "समस्या",
-    "meaningEn": "difficulty",
-    "examples": [
-      {
-        "en": "A worker comes with problems, a leader with solutions",
-        "hi": "एक कार्यकर्ता समस्ा लाता है, जबकि एक नेतृत्वकर्ता समाधान ले कर आता है।"
-      }
-    ]
+    "meaningHi": "समस्ा",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 315,
+    "id": 352,
     "word": "promise",
     "pos": "n / v",
     "pronunciation": "प्ॉमिस",
     "meaningHi": "वचन, प्रतिज्ा, वादा | वचन देना, वादा करना अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
-    "meaningEn": "commitment",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A promise must be kept",
@@ -4430,12 +4767,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 316,
+    "id": 353,
     "word": "protection",
     "pos": "n",
     "pronunciation": "प्रटेक्शन",
     "meaningHi": "सुरक्षा, बचाव",
-    "meaningEn": "guarding",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Women need special pro- tection these days",
@@ -4444,12 +4781,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 317,
+    "id": 354,
     "word": "question",
     "pos": "n / v",
     "pronunciation": "क्वेेसचन",
-    "meaningHi": "प्रश्न",
-    "meaningEn": "inquiry",
+    "meaningHi": "प्रश्न, सवाल | किसी चीज के औचित्य पर सवाल उठाना या संदेह व्यक्त करना He ’s उनोंने सरकार के निर्णय पर सवाल उठाए।",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What is your question?",
@@ -4458,30 +4795,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 318,
+    "id": 355,
     "word": "reason",
     "pos": "n",
     "pronunciation": "रीज़न",
-    "meaningHi": "कारण; तर्क",
-    "meaningEn": "cause",
+    "meaningHi": "कारण 2 बुद्धि, तर्कशक्ति 1 ? - दुनिया का तापमान बढ़ने का कारण क्ा है? 2",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There is also a test of reasoning in certain exams",
         "hi": "कुछ परीक्षाओं में तर्कशक्ति की भी जाँच होती है।"
-      },
-      {
-        "en": "Our reason must control our emotions",
-        "hi": "हमारी बुद्धि को हमारी भावनाओं को नियंत्रित करना चाहिए।"
       }
     ]
   },
   {
-    "id": 319,
+    "id": 356,
     "word": "result",
     "pos": "n / v",
     "pronunciation": "रिज़ल्ट",
-    "meaningHi": "परिणाम",
-    "meaningEn": "outcome",
+    "meaningHi": "परिणाम | परिणाम उत्पन्न करना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Heavy rains resulted in floods",
@@ -4490,12 +4823,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 320,
+    "id": 357,
     "word": "shame",
     "pos": "n",
     "pronunciation": "शेम",
     "meaningHi": "लज्जा, शर्म",
-    "meaningEn": "disgrace",
+    "meaningEn": "",
     "examples": [
       {
         "en": "His face was red with shame",
@@ -4504,26 +4837,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 321,
+    "id": 358,
     "word": "share",
     "pos": "n / v",
-    "pronunciation": "शेअर",
-    "meaningHi": "हिस्ा, हक़ ’s पिता की संपत्ति में बेटी का भी एक हिस्ा होता है। | अपनी किसी चीज को दो या अधिक लोगों में बाँटना या साझा करना",
-    "meaningEn": "to divide",
-    "examples": [
-      {
-        "en": "Let us share a part of our income with the poor",
-        "hi": "हम अपनी आमदनी का एक हिस्ा गरीबों के साथ साझा किया करें।"
-      }
-    ]
+    "pronunciation": "हिस्ा, हक़",
+    "meaningHi": "’s पिता की संपत्ति में बेटी का भी एक हिस्ा होता है। | लोगों में बाँटना या साझा करना",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 322,
+    "id": 359,
     "word": "tradition",
     "pos": "n",
     "pronunciation": "ट्रडिशन",
     "meaningHi": "परंपरा",
-    "meaningEn": "custom",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Not all traditions are excellent",
@@ -4532,12 +4860,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 323,
+    "id": 360,
     "word": "violent",
     "pos": "adj",
     "pronunciation": "वाइअलन्ट",
     "meaningHi": "हिंसापूर्ण, हिंसक वाइअ- लन्ट्लि हिंसापूर्वक 214 215 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ वचुअलि करीब-करीब",
-    "meaningEn": "forceful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a violent community",
@@ -4550,12 +4878,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 324,
+    "id": 361,
     "word": "worship",
     "pos": "n",
     "pronunciation": "आइडल",
-    "meaningHi": "पूजा, उपासना, आराधना",
-    "meaningEn": "to show reverence to God; religious devotion",
+    "meaningHi": "वर्शिप देवमूर्तिपूजा",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Idol",
@@ -4564,28 +4892,10 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 325,
-    "word": "able",
-    "pos": "adj",
-    "pronunciation": "एबल",
-    "meaningHi": "योग्य, समर्थ",
-    "meaningEn": "having the power or skill",
-    "examples": [
-      {
-        "en": "able to run fast",
-        "hi": "तेज दौड़ने में समर्थ"
-      },
-      {
-        "en": "a dependable friend",
-        "hi": "एक भरोसे के योग्य मित्र"
-      }
-    ]
-  },
-  {
-    "id": 326,
+    "id": 362,
     "word": "alone",
     "pos": "adj adv",
-    "pronunciation": "अलउन",
+    "pronunciation": "अलोन,",
     "meaningHi": "अकेला",
     "meaningEn": "by oneself; without others",
     "examples": [
@@ -4594,13 +4904,13 @@ export const vocabWords: VocabWord[] =
         "hi": "मैं बिलकुल अकेला हँ।"
       },
       {
-        "en": "Take him along",
-        "hi": "उसे साथ-साथ ले लो।"
+        "en": "There were trees all along the road",
+        "hi": "सड़क के एक सिरे से दूसरे सिरे तक पेड़ लगे हुए थे।"
       }
     ]
   },
   {
-    "id": 327,
+    "id": 363,
     "word": "clear",
     "pos": "adj / v",
     "pronunciation": "आसमान",
@@ -4618,12 +4928,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 328,
+    "id": 364,
     "word": "community",
     "pos": "n",
     "pronunciation": "कम्ूनटि",
     "meaningHi": "समुदाय, समाज",
-    "meaningEn": "a group",
+    "meaningEn": "group of people",
     "examples": [
       {
         "en": "the muslim community",
@@ -4632,30 +4942,90 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 329,
-    "word": "egoistic",
+    "id": 365,
+    "word": "deep",
     "pos": "adj",
-    "pronunciation": "ईगोइस्टिक",
-    "meaningHi": "अहंमानी or ईदर आइदर 1 या-तो-या दो में से कोई एक 2 कोई एक 1",
-    "meaningEn": "excessively self-centred",
+    "pronunciation": "डीप",
+    "meaningHi": "गहरा",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "egoistic attitude",
-        "hi": "अहंमानी रुख"
-      },
-      {
-        "en": "You can either play or study now",
-        "hi": "तुम अभी या तो पढ़ सकते हो या खेल सकते हो।"
+        "en": "deep sea - गहरा समुद्र; in deep meditation",
+        "hi": "गहरे ध्यान में"
       }
     ]
   },
   {
-    "id": 330,
+    "id": 366,
+    "word": "egoistic",
+    "pos": "adj",
+    "pronunciation": "ईगोइस्टिक",
+    "meaningHi": "अहंमानी or",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "egoistic attitude",
+        "hi": "अहंमानी रुख"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "word": "free",
+    "pos": "adj adv",
+    "pronunciation": "फ़्ी",
+    "meaningHi": "स्वतंत्र, आजाद | आजाद होना, छुटकारा दिलाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a free country",
+        "hi": "एक आजाद देश"
+      },
+      {
+        "en": "freed from jail",
+        "hi": "जेल से मुक्त किया गया"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "word": "full",
+    "pos": "adj",
+    "pronunciation": "फ़ुल",
+    "meaningHi": "भरा हुआ, पूरा भरा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The tank is full",
+        "hi": "टंकी भरी हुई है।"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "word": "hard",
+    "pos": "adj adv",
+    "pronunciation": "हाड",
+    "meaningHi": "कड़ा, कठोर, सख्त 2 कठिन",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a hard surface",
+        "hi": "एक कड़ी सतह"
+      },
+      {
+        "en": "a hard decision",
+        "hi": "एक कठिन निर्णय"
+      }
+    ]
+  },
+  {
+    "id": 370,
     "word": "pleasure",
     "pos": "n",
     "pronunciation": "प्ेशज़र",
     "meaningHi": "खुशी",
-    "meaningEn": "enjoyment",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It was a pleasure meeting you",
@@ -4664,12 +5034,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 331,
+    "id": 371,
     "word": "possible",
     "pos": "adj",
     "pronunciation": "पॉसिब्ल",
     "meaningHi": "संभव",
-    "meaningEn": "able to happen",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Isn't it possible to travel at the speed of light?",
@@ -4678,12 +5048,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 332,
+    "id": 372,
     "word": "ready",
     "pos": "adj",
     "pronunciation": "रेडि",
     "meaningHi": "तैयार",
-    "meaningEn": "prepared",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Are you ready to go?",
@@ -4692,12 +5062,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 333,
+    "id": 373,
     "word": "selfishness",
     "pos": "n",
     "pronunciation": "सेल््फि़शनेस",
     "meaningHi": "स्वार्थपरता",
-    "meaningEn": "concern only for oneself",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Selfishness beyond a point is not good",
@@ -4706,16 +5076,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 334,
+    "id": 374,
     "word": "strength",
     "pos": "n",
     "pronunciation": "स्ट्ेंगथ",
-    "meaningHi": "शक्ति, बल",
-    "meaningEn": "power",
+    "meaningHi": "ताकत",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 335,
+    "id": 375,
+    "word": "true",
+    "pos": "adj",
+    "pronunciation": "ट्रू",
+    "meaningHi": "सत्य, सच",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Isn't that true?",
+        "hi": "क्ा वह सच नहीं है?"
+      }
+    ]
+  },
+  {
+    "id": 376,
     "word": "apologize",
     "pos": "v",
     "pronunciation": "",
@@ -4729,12 +5113,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 336,
+    "id": 377,
     "word": "attitude",
     "pos": "n",
     "pronunciation": "ऐटीट्यूड",
     "meaningHi": "रुख, व्यवहार",
-    "meaningEn": "outlook",
+    "meaningEn": "a way of thinking",
     "examples": [
       {
         "en": "He has a racist attitude",
@@ -4743,7 +5127,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 337,
+    "id": 378,
     "word": "beautiful",
     "pos": "adj",
     "pronunciation": "ब्ूटिफ़ल",
@@ -4752,12 +5136,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 338,
+    "id": 379,
     "word": "behave",
     "pos": "v",
     "pronunciation": "बिहेव",
     "meaningHi": "आचरण करना, व्यवहार करना",
-    "meaningEn": "to act in a particular way",
+    "meaningEn": "to act in a way",
     "examples": [
       {
         "en": "Behave like a good boy",
@@ -4766,11 +5150,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 339,
+    "id": 380,
     "word": "better",
     "pos": "adj adv",
     "pronunciation": "बेटर",
-    "meaningHi": "बेहतर, से और अच्ा",
+    "meaningHi": "बेहतर, और अच्छा",
     "meaningEn": "of higher quality; more good",
     "examples": [
       {
@@ -4780,21 +5164,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 340,
+    "id": 381,
     "word": "black",
     "pos": "adj / n",
     "pronunciation": "ब्ैक",
-    "meaningHi": "काला रंग | काला व्यक्ति",
+    "meaningHi": "काला (रंग)",
     "meaningEn": "the darkest color",
     "examples": []
   },
   {
-    "id": 341,
+    "id": 382,
     "word": "blame",
     "pos": "n / v",
     "pronunciation": "ब्ेम",
     "meaningHi": "गलती की जिम्ेदारी, दोषारोपण 26 27 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | दोष देना, आरोप लगाना",
-    "meaningEn": "to hold responsible; fault",
+    "meaningEn": "to hold responsible",
     "examples": [
       {
         "en": "Don't blame others for your failures",
@@ -4803,12 +5187,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 342,
+    "id": 383,
     "word": "breath",
     "pos": "n",
     "pronunciation": "ब्ेथ",
     "meaningHi": "साँस अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "air taken in and out of lungs",
+    "meaningEn": "air in and out of lungs",
     "examples": [
       {
         "en": "Take a deep breath",
@@ -4817,7 +5201,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 343,
+    "id": 384,
     "word": "bright",
     "pos": "adj",
     "pronunciation": "ब्ाइट",
@@ -4831,12 +5215,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 344,
+    "id": 385,
     "word": "cheerful",
     "pos": "adj",
     "pronunciation": "चिअफ़ल",
     "meaningHi": "हँसमुख, प्रसन्न",
-    "meaningEn": "happy and bright",
+    "meaningEn": "happy and optimistic",
     "examples": [
       {
         "en": "a cheerful person",
@@ -4845,31 +5229,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 345,
+    "id": 386,
     "word": "commit",
     "pos": "v",
     "pronunciation": "कमिट",
     "meaningHi": "वचन देना 2 {कोई गलत काम} करना 1",
-    "meaningEn": "to dedicate",
-    "examples": [
-      {
-        "en": "He committed that he would come",
-        "hi": "उसने वचन दिया कि वह आएगा।"
-      },
-      {
-        "en": "He committed a sin",
-        "hi": "उसने एक पाप किया।"
-      }
-    ]
+    "meaningEn": "to carry out; dedicate",
+    "examples": []
   },
   {
-    "id": 346,
+    "id": 387,
     "word": "connect",
     "pos": "v",
     "pronunciation": "कनेक्ट",
     "meaningHi": "जुड़ना, जोड़ना, संबंध स्थापित करना",
-    "meaningEn": "to join; to link together",
+    "meaningEn": "to join together",
     "examples": [
+      {
+        "en": "He is unable to connect with young people",
+        "hi": "वह युवाओं से जुड़ने में असमर्थ रहता है।"
+      },
       {
         "en": "He is unable to connect with young people",
         "hi": "वह युवाओं से जुड़ने में असमर्थ रहता है।"
@@ -4877,7 +5256,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 347,
+    "id": 388,
     "word": "consequence",
     "pos": "n",
     "pronunciation": "कॉन्सिक्ंस",
@@ -4891,12 +5270,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 348,
+    "id": 389,
     "word": "contempt",
     "pos": "n",
     "pronunciation": "कन्टेम्प्ट",
     "meaningHi": "तिरस्ार, नीच भाव 46 47 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "scorn",
+    "meaningEn": "disrespect; scorn",
     "examples": [
       {
         "en": "Contempt for manual labour made India poor",
@@ -4905,7 +5284,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 349,
+    "id": 390,
     "word": "creative",
     "pos": "adj",
     "pronunciation": "क्रिएटिव",
@@ -4914,12 +5293,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 350,
+    "id": 391,
     "word": "creativity",
     "pos": "n",
     "pronunciation": "क्रिएटिवटि",
     "meaningHi": "सृजनात्मकता, नई चीजें सोचने और बनाने की क्षमता",
-    "meaningEn": "inventiveness",
+    "meaningEn": "ability to create",
     "examples": [
       {
         "en": "Children are naturally creative",
@@ -4928,12 +5307,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 351,
+    "id": 392,
     "word": "crime",
     "pos": "n",
     "pronunciation": "क्राइम",
     "meaningHi": "अपराध",
-    "meaningEn": "lawless act",
+    "meaningEn": "an illegal act",
     "examples": [
       {
         "en": "Breaking of the law is crime",
@@ -4942,12 +5321,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 352,
+    "id": 393,
     "word": "enemy",
     "pos": "n",
     "pronunciation": "एनमि",
-    "meaningHi": "शत्ु, दुश्मन",
-    "meaningEn": "a foe",
+    "meaningHi": "शत्रु, दुश्मन",
+    "meaningEn": "a person who is hostile",
     "examples": [
       {
         "en": "Treat no one as an enemy",
@@ -4956,12 +5335,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 353,
+    "id": 394,
     "word": "far",
     "pos": "adj adv",
-    "pronunciation": "फ़ार",
-    "meaningHi": "दूर",
-    "meaningEn": "at a great distance",
+    "pronunciation": "",
+    "meaningHi": "फ़ार दूर",
+    "meaningEn": "at great distance",
     "examples": [
       {
         "en": "very far from here",
@@ -4970,21 +5349,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 354,
+    "id": 395,
     "word": "focused",
     "pos": "adj",
     "pronunciation": "फ़ोकस्ड",
     "meaningHi": "ध्ानकेंद्रित . . छात्राएँ अकसर अधिक ध्यानकेंद्रित होती हैं। इसीलिए वे छात्रों से अधिक नम्बर लाती हैं।",
-    "meaningEn": "concentrated",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 355,
+    "id": 396,
     "word": "general",
     "pos": "adj",
     "pronunciation": "जेनरल",
     "meaningHi": "साधारण 2 सामान्य 1",
-    "meaningEn": "overall; not specific",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Generally he is cool-headed",
@@ -4997,21 +5376,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 356,
+    "id": 397,
     "word": "habit",
     "pos": "n",
     "pronunciation": "हैबिट",
     "meaningHi": "आदत",
-    "meaningEn": "a regular practice; a tendency",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 357,
+    "id": 398,
     "word": "hot",
     "pos": "adj",
     "pronunciation": "हॉट",
     "meaningHi": "गरम",
-    "meaningEn": "having high temperature",
+    "meaningEn": "",
     "examples": [
       {
         "en": "hot tea",
@@ -5020,12 +5399,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 358,
+    "id": 399,
     "word": "influence",
     "pos": "n / v",
     "pronunciation": "इन्फ़्लुलुअन्स",
     "meaningHi": "प्रभाव, व्यक्ति या वस्तु को प्रभावित कर नियंत्रित करने की शक्ति | प्रभावित करना, व्यक्ति या वस्तु में परिवर्तन लाने के लिए उस पर प्रभाव का प्रयोग करना",
-    "meaningEn": "to affect",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Lata Mangeshkar's melody has global influence",
@@ -5038,12 +5417,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 359,
+    "id": 400,
     "word": "large",
     "pos": "adj",
     "pronunciation": "लाज",
     "meaningHi": "बड़ा",
-    "meaningEn": "big; of great size",
+    "meaningEn": "",
     "examples": [
       {
         "en": "elephant's large ears",
@@ -5052,26 +5431,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 360,
+    "id": 401,
     "word": "least",
     "pos": "det adv",
-    "pronunciation": "लीस्ट",
-    "meaningHi": "न्यूनतम, कम-से-कम",
-    "meaningEn": "smallest in amount",
-    "examples": [
-      {
-        "en": "You may have to wait for at least twenty minutes",
-        "hi": "तुम्ें कम- से-कम बीस मिनट इंतजार करना पड़ सकता है।"
-      }
-    ]
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 361,
+    "id": 402,
     "word": "lie",
     "pos": "n / v",
     "pronunciation": "लाइ",
     "meaningHi": "झूठ | 1 लेटना 2 झूठ बोलना",
-    "meaningEn": "to recline; to say something untrue",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It is a lie",
@@ -5084,12 +5458,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 362,
+    "id": 403,
     "word": "likely",
     "pos": "adv",
     "pronunciation": "लाइक्लि",
     "meaningHi": "संभावित या प्रत्याशित जिसके होने की आशा हो",
-    "meaningEn": "probable; expected",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It is likely to rain",
@@ -5098,12 +5472,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 363,
+    "id": 404,
     "word": "listen",
     "pos": "v",
     "pronunciation": "लिसन",
     "meaningHi": "ध्ान से सुनना",
-    "meaningEn": "to pay attention to sound",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Please listen to this song",
@@ -5112,30 +5486,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 364,
+    "id": 405,
     "word": "matter",
     "pos": "n",
-    "pronunciation": "मैटर",
-    "meaningHi": "पदार्थ 2 मामला",
-    "meaningEn": "a subject; to be important",
-    "examples": [
-      {
-        "en": "Matter and energy together constitute the material universe",
-        "hi": "पदार्थ और ऊर्जा मिलकर इस भौतिक संसार का निर्माण करते हैं।"
-      },
-      {
-        "en": "What is the matter?",
-        "hi": "क्ा मामला है?"
-      }
-    ]
+    "pronunciation": "मामला है?",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 365,
+    "id": 406,
     "word": "progress",
     "pos": "n / v",
     "pronunciation": "प्ोग्ेस",
     "meaningHi": "प्रगति किसी काम में आगे या ऊँचे बढ़ने को प्रगति कहते हैं। | प्रगति करना",
-    "meaningEn": "improvement",
+    "meaningEn": "",
     "examples": [
       {
         "en": "How do we measure the prog- ress of a country?",
@@ -5148,12 +5513,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 366,
+    "id": 407,
     "word": "punish",
     "pos": "v",
     "pronunciation": "पनिश",
     "meaningHi": "दंड देना, सजा देना",
-    "meaningEn": "to penalize",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Should children be punished for small mistakes?",
@@ -5162,21 +5527,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 367,
+    "id": 408,
     "word": "Puran",
     "pos": "n",
     "pronunciation": "पुराण",
     "meaningHi": "पुराण हिंदुओं के धर्मग्ंथों में से एक ग्ंथ-वर्ग हैं, जिनमें कथा-कहानियों के माध्यम से धर्म के तत्त्व को समझाया गया है। 18 महापुराण हैं और 18 उपपुराण।",
-    "meaningEn": "ancient Hindu texts of mythology and cosmology",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 368,
+    "id": 409,
     "word": "quick",
     "pos": "adj",
     "pronunciation": "क्विक",
     "meaningHi": "फुरती से किया गया",
-    "meaningEn": "fast",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a quick action",
@@ -5185,12 +5550,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 369,
+    "id": 410,
     "word": "quickly",
     "pos": "adv",
     "pronunciation": "क्विक्लि",
     "meaningHi": "जल्ी से, फुर्तीी के साथ, शीघ्र",
-    "meaningEn": "rapidly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the ambulance came quickly",
@@ -5199,12 +5564,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 370,
+    "id": 411,
     "word": "regret",
     "pos": "n / v",
     "pronunciation": "रिग्ेट",
     "meaningHi": "खेद, पछतावा | पछताना रेग्युलर नियमित रेग्युललि नियमित रूप से",
-    "meaningEn": "to feel sorry",
+    "meaningEn": "",
     "examples": [
       {
         "en": "no regrets!",
@@ -5217,75 +5582,67 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 371,
+    "id": 412,
     "word": "set",
     "pos": "v / n",
     "pronunciation": "सेट",
     "meaningHi": "किसी चीज को किस अन्य चीज में ठीक से लगाना, जड़ना 2 तय करना 1",
-    "meaningEn": "to place",
+    "meaningEn": "",
     "examples": [
       {
         "en": "sofa set",
         "hi": "कई सोफे मिल कर एक सोफासेट बनाते हैं"
-      },
-      {
-        "en": "He has set the furniture in the living room well",
-        "hi": "उसने फर्नीचर को लिविंग रूम में अच्छी तरह लगा दिया है।"
       }
     ]
   },
   {
-    "id": 372,
+    "id": 413,
     "word": "short",
     "pos": "adj",
     "pronunciation": "शॉट",
     "meaningHi": "छोटा शुड चाहिए करना चाहिए के अर्थ में",
-    "meaningEn": "not long",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a short speech",
         "hi": "एक छोटा भाषण"
-      },
-      {
-        "en": "You should eat within limits to avoid being overweight",
-        "hi": "मोटापे से बचने के लिए तुम्ें सीमा के भीतर खाना चाहिए।"
       }
     ]
   },
   {
-    "id": 373,
+    "id": 414,
     "word": "steal",
     "pos": "v",
     "pronunciation": "स्ील",
     "meaningHi": "चुराना",
-    "meaningEn": "to take",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 374,
+    "id": 415,
     "word": "story",
     "pos": "n",
     "pronunciation": "स्ोरी",
     "meaningHi": "कहानी",
-    "meaningEn": "narrative",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 375,
+    "id": 416,
     "word": "succeed",
     "pos": "v",
     "pronunciation": "सक्ीड",
     "meaningHi": "सफल होना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to achieve",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 376,
+    "id": 417,
     "word": "temper",
     "pos": "n",
     "pronunciation": "टेम्पर",
     "meaningHi": "क्रोध 2 क्रोधी स्वभाव",
-    "meaningEn": "mood",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Never lose temper",
@@ -5298,12 +5655,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 377,
+    "id": 418,
     "word": "thank",
     "pos": "v",
     "pronunciation": "थैंक",
-    "meaningHi": "धन्यवाद देना थैंक्स धन्यवाद! थैंक यू आपको धन्यवाद!",
-    "meaningEn": "to appreciate",
+    "meaningHi": "धन्यवाद देना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Thanking people who help us is basic human courtesy",
@@ -5312,12 +5669,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 378,
+    "id": 419,
     "word": "unfair",
     "pos": "adj",
     "pronunciation": "अनफ़ेेअर",
     "meaningHi": "अनुचित, अन्यायपूर्ण",
-    "meaningEn": "unjust",
+    "meaningEn": "",
     "examples": [
       {
         "en": "dowry is an unfair practice",
@@ -5326,12 +5683,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 379,
+    "id": 420,
     "word": "unkind",
     "pos": "adj",
     "pronunciation": "अन्ाइन्ड",
     "meaningHi": "जो दयालु नहीं हो; निर्दयी अन्लोफ़ल गैर-कानूनी",
-    "meaningEn": "not kind",
+    "meaningEn": "",
     "examples": [
       {
         "en": "unkind behaviour towards animals",
@@ -5344,12 +5701,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 380,
+    "id": 421,
     "word": "victory",
     "pos": "n",
     "pronunciation": "विक्टरि",
     "meaningHi": "विजय, जीत",
-    "meaningEn": "triumph",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Victory and defeat are both parts of life",
@@ -5358,35 +5715,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 381,
+    "id": 422,
     "word": "war",
     "pos": "n",
-    "pronunciation": "वोर",
-    "meaningHi": "युद्ध, जंग",
-    "meaningEn": "conflict",
-    "examples": [
-      {
-        "en": "Wars bring suffering to a large number of people",
-        "hi": "युद्ध लोगों की एक बड़ी संख्या के लिए दुःख ले कर आते हैं।"
-      }
-    ]
+    "pronunciation": "के लिए दुःख ले कर आते हैं।",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 382,
+    "id": 423,
     "word": "worry",
     "pos": "n / v",
     "pronunciation": "वरि",
     "meaningHi": "चिंता, फिक्र | चिंता करना वरिड चिंतित",
-    "meaningEn": "anxiety",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 383,
+    "id": 424,
     "word": "arrogance",
     "pos": "n",
     "pronunciation": "ऐरगंस",
     "meaningHi": "घमंड",
-    "meaningEn": "pride",
+    "meaningEn": "excessive pride; conceit",
     "examples": [
       {
         "en": "Arrogance can make you unpopular",
@@ -5395,12 +5747,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 384,
+    "id": 425,
     "word": "balance",
     "pos": "n / v",
     "pronunciation": "बैलंस",
-    "meaningHi": "संतुलन 2 तराजू | संतुलित करना/ संतुलित रखना अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ बैलन्स-शीटकिसी संस्ा की संपत्ति और आय-व्यय संबंधी ब्ोरों का पक्का",
-    "meaningEn": "stability",
+    "meaningHi": "संतुलन 2 तराजू | संतुलित करना/ संतुलित रखना B अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ बैलन्स-शीटकिसी संस्ा की संपत्ति और आय-व्यय संबंधी ब्ोरों का पक्का",
+    "meaningEn": "equal distribution; stability",
     "examples": [
       {
         "en": "work-life balance",
@@ -5413,12 +5765,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 385,
+    "id": 426,
     "word": "beauty",
     "pos": "n",
     "pronunciation": "ब्ूटी",
-    "meaningHi": "सौंदर्य, सुंदरता",
-    "meaningEn": "the quality of being beautiful",
+    "meaningHi": "सुंदरता",
+    "meaningEn": "quality of being beautiful",
     "examples": [
       {
         "en": "Beauty lies in the eyes of the beholder",
@@ -5427,38 +5779,29 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 386,
+    "id": 427,
     "word": "belong",
     "pos": "v",
     "pronunciation": "बिलौंंग",
     "meaningHi": "से होना 2 स्ामित्व रखना 1",
-    "meaningEn": "to be the property of; to be a member",
-    "examples": [
-      {
-        "en": "He belongs to Delhi",
-        "hi": "वह दिल्ी से है।"
-      },
-      {
-        "en": "This book belongs to him",
-        "hi": "यह किताब उसकी है।"
-      }
-    ]
+    "meaningEn": "to be a member of",
+    "examples": []
   },
   {
-    "id": 387,
+    "id": 428,
     "word": "Bible",
     "pos": "n",
     "pronunciation": "बाइबल",
     "meaningHi": "यह ईसाई धर्म का एकमात्र आधारग्ंथ है, जैसे भगवद्- गीता भगवद्-धर्म का एकमात्र आधारग्ंथ है। बाइबिल में कुछ तो ईश्वर की वाणी माने जाने वाले अंश हैं और",
-    "meaningEn": "the sacred scripture of Christianity",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 388,
+    "id": 429,
     "word": "certain",
     "pos": "adj",
     "pronunciation": "सट्न",
-    "meaningHi": "निश्चित, निस्ंदेह",
+    "meaningHi": "निश्चित; कुछ विशेष",
     "meaningEn": "sure; definite; specific",
     "examples": [
       {
@@ -5468,11 +5811,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 389,
+    "id": 430,
     "word": "condition",
     "pos": "n",
     "pronunciation": "कन्डिशन",
-    "meaningHi": "दशा, हालत",
+    "meaningHi": "दशा, हालत; शर्त",
     "meaningEn": "the state of something; a requirement",
     "examples": [
       {
@@ -5482,12 +5825,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 390,
+    "id": 431,
     "word": "connection",
     "pos": "n",
     "pronunciation": "कनेक्शन",
     "meaningHi": "संबंध, संपर्क",
-    "meaningEn": "a link; a relationship",
+    "meaningEn": "a link",
     "examples": [
       {
         "en": "I have no connection with him",
@@ -5496,30 +5839,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 391,
+    "id": 432,
     "word": "course",
     "pos": "n",
     "pronunciation": "कोर्स",
-    "meaningHi": "पाठ्यक्रम, कोर्स 2 रास्ता",
-    "meaningEn": "a path of study; direction",
+    "meaningHi": "पाठ्यक्रम; दिशा; of course - निस्संदेह",
+    "meaningEn": "a path; a series of lessons",
     "examples": [
       {
         "en": "This topic is not in our course",
         "hi": "यह विषय हमारे पाठ्यक्रम में नहीं है।"
       },
       {
-        "en": "course-correction",
-        "hi": "रास्ा या दिशा सुधारना"
+        "en": "course",
+        "hi": "correction - रास्ा या दिशा सुधारना"
       }
     ]
   },
   {
-    "id": 392,
+    "id": 433,
     "word": "interest",
     "pos": "n / v",
     "pronunciation": "इन्ट्रस्ट",
     "meaningHi": "रुचि, दिलचस्पी 2 सूद | रुचि या दिलचस्पी जगाना इन्ट्रस्टिंंग रोचक, दिलचस्प",
-    "meaningEn": "attention; curiosity; a charge for borrowing",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I have no interest in cricket",
@@ -5532,12 +5875,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 393,
+    "id": 434,
     "word": "level",
     "pos": "n / adj / v",
     "pronunciation": "लेवल",
     "meaningHi": "स्तर कितनी ऊँचाई या निचाई पर | समतल, बराबर 112 113 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | समतल करना",
-    "meaningEn": "a height; a stage; flat",
+    "meaningEn": "",
     "examples": [
       {
         "en": "3000 feet above the sea level - समुद्र के स्तर से 3000 फीट ऊपर; What is the level of his knowledge?",
@@ -5550,12 +5893,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 394,
+    "id": 435,
     "word": "order",
     "pos": "n / v",
-    "pronunciation": "ओडर",
-    "meaningHi": "आदेश, हुक्म 2 सुव्यवस्ा | आदेश देना ओडनरि साधारण, मामूली",
-    "meaningEn": "arrangement",
+    "pronunciation": "से आग्रह करना सीखो।",
+    "meaningHi": "ओडर 1 आदेश, हुक्म 2 सुव्यवस्ा | ओडनरि साधारण, मामूली",
+    "meaningEn": "",
     "examples": [
       {
         "en": "In the army, you have to follow all the orders",
@@ -5568,12 +5911,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 395,
+    "id": 436,
     "word": "persistent",
     "pos": "adj",
     "pronunciation": "पसिस्टन्ट",
     "meaningHi": "लगा रहने वाला किसी काम को आसानी से नहीं छोड़ देने वाला",
-    "meaningEn": "continuing firmly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "persistent efforts",
@@ -5582,12 +5925,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 396,
+    "id": 437,
     "word": "position",
     "pos": "n",
     "pronunciation": "पज़िशन",
     "meaningHi": "अवस्ा 2 पद",
-    "meaningEn": "place; view",
+    "meaningEn": "",
     "examples": [
       {
         "en": "His financial position is not good",
@@ -5600,21 +5943,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 397,
+    "id": 438,
     "word": "Quran",
     "pos": "n",
     "pronunciation": "कुरआन",
     "meaningHi": "इसलाम-धर्म का प्रमुख आधारग्ंथ, जिसे मुसलमान अल्ाह यानि ईश्वर की वाणी मानते हैं।",
-    "meaningEn": "the sacred scripture of Islam",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 398,
+    "id": 439,
     "word": "single",
     "pos": "adj n",
     "pronunciation": "सिंंगल",
     "meaningHi": "एक, अकेला 2 अविवाहित",
-    "meaningEn": "one",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I will not give you a single penny",
@@ -5627,12 +5970,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 399,
+    "id": 440,
     "word": "state",
     "pos": "n / v",
     "pronunciation": "स्टेट",
     "meaningHi": "दशा, अवस्ा 2 राज्य, प्रदेश 3 संप्रभु देश 2",
-    "meaningEn": "condition",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the state of our nation",
@@ -5645,39 +5988,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 400,
+    "id": 441,
     "word": "subject",
     "pos": "n",
     "pronunciation": "सब्ेक्ट",
     "meaningHi": "विषय 2 प्रजा",
-    "meaningEn": "topic",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 401,
+    "id": 442,
     "word": "vision",
     "pos": "n",
     "pronunciation": "विशज़न",
     "meaningHi": "दृष्टि 2 दर्शन 3 स्वप्न, कल्पनाशक्ति से बनाई गई कोई उद्ेश्यपूर्ण योजना 1 दृष्टि",
-    "meaningEn": "sight; dream",
-    "examples": [
-      {
-        "en": "He lost his vision",
-        "hi": "उसने अपनी दृष्टि खो दी, अर्थात अंधा हो गया।"
-      },
-      {
-        "en": "Arjun had a vision of the cosmic form of Lord Krishn",
-        "hi": "अर्जुन को श्ीकृष्ण के विश्वरूप के दर्शन हुए।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 402,
+    "id": 443,
     "word": "achieve",
     "pos": "v",
     "pronunciation": "अचीव",
-    "meaningHi": "प्राप्त करना",
-    "meaningEn": "to accomplish a goal",
+    "meaningHi": "प्राप्त करना, उपलब्धि प्राप्त करना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "India achieved independence इन 1947",
@@ -5686,11 +6020,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 403,
+    "id": 444,
     "word": "act",
     "pos": "n / v",
     "pronunciation": "ऐक्ट",
-    "meaningHi": "कर्म; अभिनय करना",
+    "meaningHi": "कर्म, कार्य; अभिनय करना",
     "meaningEn": "to do something; a deed",
     "examples": [
       {
@@ -5704,12 +6038,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 404,
+    "id": 445,
     "word": "alive",
     "pos": "adj",
     "pronunciation": "अलाइव",
     "meaningHi": "जिंदा, जीवित",
-    "meaningEn": "living",
+    "meaningEn": "living; not dead",
     "examples": [
       {
         "en": "My grandfather is still alive",
@@ -5718,12 +6052,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 405,
+    "id": 446,
     "word": "anxiety",
     "pos": "n",
     "pronunciation": "ऐंग्ज़ाइटि",
     "meaningHi": "चिंता",
-    "meaningEn": "worry",
+    "meaningEn": "a feeling of worry",
     "examples": [
       {
         "en": "Prolonged anxiety is not good for mental health",
@@ -5732,12 +6066,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 406,
+    "id": 447,
     "word": "anxious",
     "pos": "adj",
     "pronunciation": "ऐंंक्शस",
     "meaningHi": "चिंतित",
-    "meaningEn": "worried",
+    "meaningEn": "worried; eager",
     "examples": [
       {
         "en": "You look anxious",
@@ -5746,11 +6080,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 407,
+    "id": 448,
     "word": "break",
     "pos": "n / v",
     "pronunciation": "ब्ेक",
-    "meaningHi": "किसी वस्तु में दरार, टूट 2 किसी काम के बीच थोड़ी छुट्ी या अवकाश | तोड़ना",
+    "meaningHi": "तोड़ना; टूटना; अंतराल",
     "meaningEn": "to separate into pieces; a pause",
     "examples": [
       {
@@ -5760,7 +6094,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 408,
+    "id": 449,
     "word": "build",
     "pos": "v",
     "pronunciation": "बिल्ड",
@@ -5774,11 +6108,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 409,
+    "id": 450,
     "word": "buy",
     "pos": "v",
     "pronunciation": "बाइ",
-    "meaningHi": "खरीदना अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningHi": "खरीदना",
     "meaningEn": "to purchase; to acquire",
     "examples": [
       {
@@ -5788,12 +6122,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 410,
+    "id": 451,
     "word": "careless",
     "pos": "adj",
     "pronunciation": "केअलस",
     "meaningHi": "असावधान, लापरवाह अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "not paying attention; negligent",
+    "meaningEn": "negligent",
     "examples": [
       {
         "en": "a careless boy",
@@ -5802,11 +6136,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 411,
+    "id": 452,
     "word": "carry",
     "pos": "v",
     "pronunciation": "कैरि",
-    "meaningHi": "ढोना, ले चलना 2 जारी रखना",
+    "meaningHi": "ले जाना, उठाना",
     "meaningEn": "to transport; to hold",
     "examples": [
       {
@@ -5820,11 +6154,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 412,
+    "id": 453,
     "word": "catch",
     "pos": "v",
     "pronunciation": "कैच",
-    "meaningHi": "पकड़ना",
+    "meaningHi": "पकड़ना",
     "meaningEn": "to capture; to grab",
     "examples": [
       {
@@ -5834,12 +6168,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 413,
+    "id": 454,
     "word": "challenge",
     "pos": "n / v",
     "pronunciation": "चैलिंज",
     "meaningHi": "चुनौती | चुनौती देना",
-    "meaningEn": "a difficult task; to dare",
+    "meaningEn": "a difficult task",
     "examples": [
       {
         "en": "I accept the challenge",
@@ -5852,12 +6186,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 414,
+    "id": 455,
     "word": "concern",
     "pos": "v / n",
     "pronunciation": "कन्सर्न",
-    "meaningHi": "किसी से संबंधित होना अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "worry; to relate to; interest",
+    "meaningHi": "किसी से संबंधित होना अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ This matter does not concern me - यह मामला मुझसे संबंधित नहीं है।",
+    "meaningEn": "worry; interest",
     "examples": [
       {
         "en": "Forced conversions in certain countries are causing concern",
@@ -5865,16 +6199,16 @@ export const vocabWords: VocabWord[] =
       },
       {
         "en": "This matter does not concern me",
-        "hi": "यह मामला मुझसे संबंधित नहीं है।"
+        "hi": "यह मामला मुझसे संबंधित नहीं है। | चिंता, परवाह (Forced conversions in certain countries are causing concern - कुछ देशों में जबरदस्ी धर्मांंतरण चिंता का कारण बन रहा है।"
       }
     ]
   },
   {
-    "id": 415,
+    "id": 456,
     "word": "continue",
     "pos": "v",
     "pronunciation": "कन्टिन्यू",
-    "meaningHi": "जारी रहना",
+    "meaningHi": "जारी रखना",
     "meaningEn": "to go on; to persist",
     "examples": [
       {
@@ -5884,11 +6218,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 416,
+    "id": 457,
     "word": "correct",
     "pos": "adj / v",
     "pronunciation": "करेक्ट",
-    "meaningHi": "सही 48 49 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | सुधारना, ठीक करना",
+    "meaningHi": "सही, ठीक; सुधारना",
     "meaningEn": "right; accurate; to fix",
     "examples": [
       {
@@ -5902,34 +6236,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 417,
+    "id": 458,
     "word": "cover",
     "pos": "n / v",
-    "pronunciation": "कवर",
-    "meaningHi": "आवरण, खोल, ढक्कन | ढँकना",
+    "pronunciation": "ढँक लिया।",
+    "meaningHi": "ढकना; आवरण",
     "meaningEn": "to place over; a protective layer",
     "examples": [
       {
-        "en": "snow -covered the mountain-tops",
-        "hi": "बर्फ ने पर्वतशिखरों को ढँक लिया।"
+        "en": "snow",
+        "hi": "covered the mountain-tops - बर्फ ने पर्वतशिखरों को ढँक लिया।"
       }
     ]
   },
   {
-    "id": 418,
+    "id": 459,
     "word": "creature",
     "pos": "n",
     "pronunciation": "क्रीचर",
     "meaningHi": "जीव, प्राणी",
-    "meaningEn": "a being",
+    "meaningEn": "a living being",
     "examples": []
   },
   {
-    "id": 419,
+    "id": 460,
     "word": "cross",
     "pos": "n / v",
     "pronunciation": "क्रॉस",
-    "meaningHi": "काटने का चिन्ह X 2 सूली, जिसपर चढ़ा कर ईसा मसीह की हत्ा की गई थी। इसे ईसाई धर्म का चिह्न माना जाता है। | पार करना",
+    "meaningHi": "पार करना; क्रॉस का निशान",
     "meaningEn": "to go across; an X shape",
     "examples": [
       {
@@ -5939,11 +6273,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 420,
+    "id": 461,
     "word": "cry",
     "pos": "n / v",
     "pronunciation": "क्राइ",
-    "meaningHi": "रोने की चिल्ाहट, चीख | चिल्ाना, रोना",
+    "meaningHi": "रोना; चिल्लाना",
     "meaningEn": "to weep; to shout",
     "examples": [
       {
@@ -5957,7 +6291,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 421,
+    "id": 462,
     "word": "curiosity",
     "pos": "n",
     "pronunciation": "क्युरिऔसिटी",
@@ -5971,17 +6305,13 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 422,
+    "id": 463,
     "word": "cut",
     "pos": "n / v",
     "pronunciation": "कट",
-    "meaningHi": "कटाव, घाव | काटना",
+    "meaningHi": "काटना",
     "meaningEn": "to divide with a sharp instrument",
     "examples": [
-      {
-        "en": "cut-mark on the chin",
-        "hi": "ठुड्ी पर कटाव का चिह्न"
-      },
       {
         "en": "cut into pieces",
         "hi": "टुकड़े-टुकड़े में काटना"
@@ -5989,12 +6319,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 423,
+    "id": 464,
     "word": "defeat",
     "pos": "n / v",
     "pronunciation": "डिफ़ीीट",
     "meaningHi": "हार, पराजय | हराना, पराजित करना",
-    "meaningEn": "to beat",
+    "meaningEn": "to beat; a loss",
     "examples": [
       {
         "en": "Defeat should not deter you",
@@ -6007,7 +6337,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 424,
+    "id": 465,
     "word": "defend",
     "pos": "v",
     "pronunciation": "डिफ़ेेन्ड",
@@ -6016,12 +6346,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 425,
+    "id": 466,
     "word": "delight",
     "pos": "n / v",
     "pronunciation": "डिलाइट",
     "meaningHi": "अति आनंद, अत्ंत प्रसन्नता | अत्यधिक आनंदित कर देना",
-    "meaningEn": "great joy",
+    "meaningEn": "great pleasure",
     "examples": [
       {
         "en": "It is a de- light to see you here",
@@ -6034,7 +6364,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 426,
+    "id": 467,
     "word": "deserve",
     "pos": "v",
     "pronunciation": "डिज़र्व",
@@ -6048,29 +6378,29 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 427,
+    "id": 468,
     "word": "drive",
     "pos": "n / v",
     "pronunciation": "ड्राइव",
-    "meaningHi": "कार पर सैर 2 मुहिम 3 प्रबल प्रेरणा-शक्ति 1",
-    "meaningEn": "to operate a vehicle",
+    "meaningHi": "गाड़ी चलाना; प्रेरित करना",
+    "meaningEn": "to operate a vehicle; to motivate",
     "examples": [
       {
         "en": "I like to drive",
         "hi": "मैं ड्ाइव करना पसंद करता हँ।"
       },
       {
-        "en": "We went on a long drive",
-        "hi": "हम एक लंबी कार-सैर पर गए।"
+        "en": "The police have launched a helmet checking drive",
+        "hi": "पुलिस ने हेलमेट-जाँच की मुहिम छेड़ रखी है। 3 He is a capable fellow, but he lacks the dirve - वह एक योग्य व्यक्ति है, मगर उसमें प्रबल प्रेरणा-शक्ति की कमी है। | गाड़ी चलाना (I like to drive - मैं ड्ाइव करना पसंद करता हँ।"
       }
     ]
   },
   {
-    "id": 428,
+    "id": 469,
     "word": "enter",
     "pos": "v",
     "pronunciation": "एन्टर",
-    "meaningHi": "प्रवेश पाना, घुसना",
+    "meaningHi": "प्रवेश करना, अंदर जाना",
     "meaningEn": "to go into; to come in",
     "examples": [
       {
@@ -6080,12 +6410,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 429,
+    "id": 470,
     "word": "explain",
     "pos": "v",
     "pronunciation": "एक्सप्ेन",
-    "meaningHi": "समझाना",
-    "meaningEn": "to make clear; to describe",
+    "meaningHi": "व्याख्ा करना, अर्थ स्पष्ट करना",
+    "meaningEn": "to make clear",
     "examples": [
       {
         "en": "Could you please explain the meaning of this poem?",
@@ -6094,12 +6424,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 430,
+    "id": 471,
     "word": "fairly",
     "pos": "adv",
     "pronunciation": "फ़ेअलि",
     "meaningHi": "काफी 2 निष्पक्षता पूर्वक, न्यायपूर्वक",
-    "meaningEn": "justly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "fairly difficult",
@@ -6112,12 +6442,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 431,
+    "id": 472,
     "word": "fault",
     "pos": "n",
     "pronunciation": "फ़ॉल्ट",
     "meaningHi": "दोष, गलती",
-    "meaningEn": "defect",
+    "meaningEn": "a mistake; defect",
     "examples": [
       {
         "en": "whose fault?",
@@ -6126,12 +6456,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 432,
+    "id": 473,
+    "word": "fill",
+    "pos": "v",
+    "pronunciation": "फ़िल",
+    "meaningHi": "भरना, भर जाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "fill the tank",
+        "hi": "टंकी भरना"
+      }
+    ]
+  },
+  {
+    "id": 474,
     "word": "fly",
     "pos": "n / v",
     "pronunciation": "फ़लाइ",
     "meaningHi": "मक्ी | 1 उड़ना 2 विमान में यात्ा करना",
-    "meaningEn": "to move through the air",
+    "meaningEn": "to move through air",
     "examples": [
       {
         "en": "The bird is flying",
@@ -6144,7 +6488,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 433,
+    "id": 475,
     "word": "forget",
     "pos": "v",
     "pronunciation": "फ़गेट",
@@ -6158,12 +6502,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 434,
+    "id": 476,
     "word": "harsh",
     "pos": "adj",
     "pronunciation": "हाश",
     "meaningHi": "कठोर, रूखा",
-    "meaningEn": "severe",
+    "meaningEn": "",
     "examples": [
       {
         "en": "harsh behaviour",
@@ -6172,12 +6516,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 435,
+    "id": 477,
     "word": "include",
     "pos": "v",
     "pronunciation": "इन्क्ूड",
     "meaningHi": "अंतर्गत होना, शामिल करना, साथ में रखना",
-    "meaningEn": "to contain",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Include girls too in the team",
@@ -6186,26 +6530,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 436,
+    "id": 478,
     "word": "manner",
     "pos": "n",
-    "pronunciation": "मैनर",
-    "meaningHi": "ढंग, रीति, तरीका 2 व्यवहार और बातचीत करने की तहजीब और तौर-तरीका 1 A law . एक कानूून को उचित तरीके से लागूू करना चाहिए। 2",
-    "meaningEn": "behaviour",
-    "examples": [
-      {
-        "en": "He doesn't have good manners",
-        "hi": "उसके पास अच्छी तहजीब और तौर-तरीके नहीं हैं।"
-      }
-    ]
+    "pronunciation": "तहजीब और तौर-तरीके नहीं हैं।",
+    "meaningHi": "ड्ेसिंग मैनर्स वस्त्र पहनने के तौर-तरीके -ईटिंग मैनर्स खाने के तौर-तरीके -ग्ीटिंग मैनर्स अभिवादन करने के तौर-तरीके -प्लेटाइम मैनर्सखेलने के समय के",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 437,
+    "id": 479,
     "word": "mistake",
     "pos": "n",
     "pronunciation": "मिस्ेक",
     "meaningHi": "भूल, गलती",
-    "meaningEn": "error",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I made a mistake",
@@ -6214,12 +6553,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 438,
+    "id": 480,
     "word": "mystery",
     "pos": "n",
     "pronunciation": "मिस्टरि",
     "meaningHi": "रहस्य N अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "something unknown",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The mystery of the UFOs has not yet been solved",
@@ -6228,12 +6567,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 439,
+    "id": 481,
     "word": "negative",
     "pos": "adj",
     "pronunciation": "नेगटिव",
     "meaningHi": "नकारात्मक",
-    "meaningEn": "harmful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let's shed negative emotions",
@@ -6242,12 +6581,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 440,
+    "id": 482,
     "word": "neglect",
     "pos": "v",
     "pronunciation": "निग्ेक्ट",
     "meaningHi": "उपेक्षा करना",
-    "meaningEn": "to ignore",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Never neglect your health",
@@ -6256,12 +6595,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 441,
+    "id": 483,
     "word": "orphan",
     "pos": "n",
     "pronunciation": "ओफ़न",
     "meaningHi": "अनाथ",
-    "meaningEn": "parentless child",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The shelter for orphans is called orphanage",
@@ -6270,12 +6609,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 442,
+    "id": 484,
     "word": "poison",
     "pos": "n / v",
     "pronunciation": "पोइज़न",
     "meaningHi": "जहर, विष | विष मिला देना",
-    "meaningEn": "harmful substance",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Some people poison the minds of others",
@@ -6284,12 +6623,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 443,
+    "id": 485,
     "word": "provide",
     "pos": "v",
     "pronunciation": "प्रवाइड",
     "meaningHi": "उपलब्ध कराना",
-    "meaningEn": "to supply",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Parents provide everything to their children",
@@ -6298,12 +6637,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 444,
+    "id": 486,
     "word": "receive",
     "pos": "v",
     "pronunciation": "रिसीव",
     "meaningHi": "प्राप्त या स्ीकार करना",
-    "meaningEn": "to get",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I received a letter today",
@@ -6312,12 +6651,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 445,
+    "id": 487,
     "word": "release",
     "pos": "n / v",
     "pronunciation": "रिलीस",
     "meaningHi": "छुटकारा, मुक्ति | मुक्त करना, खुला छोड़ना रिलाइ- अब्ल भरोसेमंद जिस पर भरोसा किया जा सके",
-    "meaningEn": "to free",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Can we find release from all pain and suffering?",
@@ -6330,12 +6669,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 446,
+    "id": 488,
     "word": "rescue",
     "pos": "n / v",
     "pronunciation": "रेस्क्यू",
     "meaningHi": "बचाव, उद्धार | उद्धार करना, मुक्त कराना",
-    "meaningEn": "to save",
+    "meaningEn": "",
     "examples": [
       {
         "en": "flood rescue operation",
@@ -6348,12 +6687,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 447,
+    "id": 489,
     "word": "return",
     "pos": "n / v",
     "pronunciation": "रिटर्न",
     "meaningHi": "वापसी 2 मुनाफा, लाभ कम मुनाफे वाला निवेश | वापस लौटना रेवरेंस श्रद्धाद्धा, अत्यधिक आदर",
-    "meaningEn": "to come back",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a low",
@@ -6362,12 +6701,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 448,
+    "id": 490,
     "word": "rob",
     "pos": "v",
     "pronunciation": "रॉब",
     "meaningHi": "लूटना",
-    "meaningEn": "to steal",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He was robbed at gunpoint",
@@ -6376,30 +6715,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 449,
+    "id": 491,
     "word": "shelter",
     "pos": "n / v",
     "pronunciation": "शेल्टर",
     "meaningHi": "शरण, आश्रय 2 रहने का ठिकाना 1",
-    "meaningEn": "protection",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Some pol- iticians shelter criminals",
         "hi": "कुछ राजनीतिज्ञ अपराधियों को आश्रय देते हैं।"
-      },
-      {
-        "en": "When the rain started, people ran for shelter",
-        "hi": "बारिश शुरू होने पर लोग आश्रय के लिए दौड़े।"
       }
     ]
   },
   {
-    "id": 450,
+    "id": 492,
     "word": "stable",
     "pos": "adj",
     "pronunciation": "स्ेब्ल",
     "meaningHi": "स्थिर",
-    "meaningEn": "steady",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a stable health",
@@ -6408,12 +6743,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 451,
+    "id": 493,
     "word": "steady",
     "pos": "adj",
     "pronunciation": "स्ेडि",
     "meaningHi": "अविचल",
-    "meaningEn": "firm",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The slow and steady wins the race",
@@ -6422,35 +6757,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 452,
+    "id": 494,
     "word": "strict",
     "pos": "adj",
     "pronunciation": "स्ट्रिक्ट",
     "meaningHi": "काम कराने में सख्त 190 191 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "demanding",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 453,
+    "id": 495,
     "word": "terrorism",
     "pos": "n",
     "pronunciation": "टेररिज़म",
     "meaningHi": "आतंकवाद",
-    "meaningEn": "use of violence for political aims",
-    "examples": [
-      {
-        "en": "Terrorism is destroying world peace",
-        "hi": "आतंकवाद दुनिया की शांति का नाश कर रहा है।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 454,
+    "id": 496,
     "word": "wealth",
     "pos": "n",
     "pronunciation": "वेल्थ",
     "meaningHi": "धन-संपत्ति वेल््थि धनी",
-    "meaningEn": "riches",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Not all wealthy people use their wealth for helping the needy and the poor",
@@ -6459,12 +6789,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 455,
+    "id": 497,
     "word": "willing",
     "pos": "adj",
     "pronunciation": "विलिंग",
     "meaningHi": "इच्ुक",
-    "meaningEn": "ready",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Is he willing to work?",
@@ -6473,29 +6803,29 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 456,
+    "id": 498,
     "word": "wonder",
     "pos": "v",
     "pronunciation": "वन्डर",
     "meaningHi": "आश्चर्यचकित होना",
-    "meaningEn": "amazement",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 457,
+    "id": 499,
     "word": "worth",
     "pos": "n",
     "pronunciation": "वर्थ",
     "meaningHi": "किसी व्यक्ति या वस्तु का महत्त्व 222 223 Y अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "value",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 458,
+    "id": 500,
     "word": "add",
     "pos": "v",
     "pronunciation": "ऐड",
-    "meaningHi": "जोड़ना",
+    "meaningHi": "जोड़ना, मिलाना",
     "meaningEn": "to join; to put together",
     "examples": [
       {
@@ -6505,11 +6835,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 459,
+    "id": 501,
     "word": "agree",
     "pos": "v",
     "pronunciation": "अग्ी",
-    "meaningHi": "सहमत होना",
+    "meaningHi": "सहमत होना, राज़ी होना",
     "meaningEn": "to have the same opinion",
     "examples": [
       {
@@ -6517,17 +6847,17 @@ export const vocabWords: VocabWord[] =
         "hi": "मैं तुमसे सहमत हँ।"
       },
       {
-        "en": "Production of tomato sauce is an agro-industry",
-        "hi": "टमाटर-सौस का उत्ादन एक कृषि-उद्ोग है।"
+        "en": "Production of tomato sauce is an agro",
+        "hi": "industry - टमाटर-सौस का उत्ादन एक कृषि-उद्ोग है।"
       }
     ]
   },
   {
-    "id": 460,
+    "id": 502,
     "word": "allow",
     "pos": "v",
     "pronunciation": "अलाउ",
-    "meaningHi": "अनुमति देना",
+    "meaningHi": "अनुमति देना, आज्ञा देना",
     "meaningEn": "to permit; to let",
     "examples": [
       {
@@ -6537,48 +6867,40 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 461,
+    "id": 503,
     "word": "appear",
     "pos": "v",
     "pronunciation": "अपिअर",
-    "meaningHi": "उपस्थित या हाजिर होना 2 {ऐसा} लगना {जैसे} 1",
+    "meaningHi": "दिखाई देना; प्रतीत होना",
     "meaningEn": "to come into sight; to seem",
     "examples": [
       {
         "en": "He appeared before the court",
-        "hi": "वह अदालत के सामने हाजिर हुआ।"
-      },
-      {
-        "en": "It appears that he is sick",
-        "hi": "ऐसा लगता है जैसे वह बीमार है।"
+        "hi": "वह अदालत के सामने हाजिर हुआ। 2 It appears that he is sick - ऐसा लगता है जैसे वह बीमार है। appearance n अपिअरंस 1 उपस्थिति, हाजिरी 2 रूप-रंग 3 प्रतीति, आभास 1 The judge has ordered his personal appearance in the court - जज ने न्ायालय में उनकी व्यक्तिगत उपस्थिति का आदेश दिया है। 2 She has a pleasant ap- pearance - उनका रूप-रंग मनोहर है। 3 Appearance and reality are not always the same - जैसा आभास होता है और जो सच्चाई है, वे हमेशा एक-जैसे नहीं होते।"
       }
     ]
   },
   {
-    "id": 462,
+    "id": 504,
     "word": "consider",
     "pos": "v",
     "pronunciation": "कन्सिडर",
-    "meaningHi": "विचार करना, सोचना कन्सिडरिंग किसी बात को ध्ान में रखते हुए",
+    "meaningHi": "विचार करना, सोचना",
     "meaningEn": "to think about carefully",
     "examples": [
       {
         "en": "Consider giving me a few of your books",
         "hi": "मुझे अपनी कुछ किताबें देने पर विचार करो।"
-      },
-      {
-        "en": "Considering the expenditure, he dropped the idea of buying a car",
-        "hi": "खर्च को ध्यान में रखते हुए उसने कार खरीदने का विचार छोड़ दिया।"
       }
     ]
   },
   {
-    "id": 463,
+    "id": 505,
     "word": "cooperative",
     "pos": "n / adj",
     "pronunciation": "कोअॉपरटिव",
     "meaningHi": "सहकारी संस्ा | सहयोग करने वाला",
-    "meaningEn": "working together",
+    "meaningEn": "willing to work together",
     "examples": [
       {
         "en": "Amul is a large milk",
@@ -6591,12 +6913,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 464,
+    "id": 506,
     "word": "decide",
     "pos": "v",
     "pronunciation": "डिसाइड",
-    "meaningHi": "निर्णय करना",
-    "meaningEn": "to make a choice",
+    "meaningHi": "निर्णय करना, फ़ैसला करना",
+    "meaningEn": "to make a choice; to resolve",
     "examples": [
       {
         "en": "Let's decide quickly",
@@ -6605,7 +6927,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 465,
+    "id": 507,
     "word": "describe",
     "pos": "v",
     "pronunciation": "डिस्काइब",
@@ -6619,12 +6941,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 466,
+    "id": 508,
     "word": "etiquette",
     "pos": "n",
     "pronunciation": "एटिकेट",
     "meaningHi": "शिष्टाचार के तौर-तरीके",
-    "meaningEn": "polite rules",
+    "meaningEn": "rules of polite behaviour",
     "examples": [
       {
         "en": "We should all know the basic etiquette",
@@ -6633,12 +6955,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 467,
+    "id": 509,
     "word": "expect",
     "pos": "v",
     "pronunciation": "इक्स्ेक्ट",
     "meaningHi": "आशा करना, प्रत्ाशा करना",
-    "meaningEn": "",
+    "meaningEn": "to anticipate",
     "examples": [
       {
         "en": "I expect good results this time",
@@ -6647,12 +6969,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 468,
+    "id": 510,
     "word": "gentle",
     "pos": "adj",
     "pronunciation": "जेन्ट्ल",
     "meaningHi": "सौम्य, कोमल G 52 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "kind and careful; mild",
+    "meaningEn": "",
     "examples": [
       {
         "en": "gentle manners",
@@ -6661,12 +6983,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 469,
+    "id": 511,
     "word": "guide",
     "pos": "n / v",
     "pronunciation": "गाइड",
     "meaningHi": "मार्गदर्शक | रास्ता बताना, मार्गदर्शन करना",
-    "meaningEn": "to lead",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a tourist guide",
@@ -6679,39 +7001,57 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 470,
-    "word": "namaste",
-    "pos": "n",
-    "pronunciation": "नमस्ते",
-    "meaningHi": "नमस्ते — सम्मानपूर्ण अभिवादन",
-    "meaningEn": "a respectful greeting meaning 'I bow to the divine in you'",
-    "examples": []
-  },
-  {
-    "id": 471,
-    "word": "notice",
-    "pos": "n",
-    "pronunciation": "नोटिस",
-    "meaningHi": "सूचना, नोटिस 2 जानकारी 1",
-    "meaningEn": "to observe",
+    "id": 512,
+    "word": "hope",
+    "pos": "n / v",
+    "pronunciation": "होप",
+    "meaningHi": "आशा, उम्ीद | आशा करना 94 95 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "I have received a notice from the municipality",
-        "hi": "मैंने नगरपालिका से एक नोटिस प्राप्त की है।"
+        "en": "Hope is a life-sustaining emotion",
+        "hi": "आशा जीवन को थामे रखने वाली भावना है।"
       },
       {
-        "en": "It has come to my notice that your child has not been going to the school",
-        "hi": "यह मेरी जानकारी में आया है कि आपका बच्चा स्कूल नहीं जाता रहा है।"
+        "en": "I hope he will improve",
+        "hi": "मैं आशा करता हँ, वह सुधरेगा।"
       }
     ]
   },
   {
-    "id": 472,
+    "id": 513,
+    "word": "knowledge",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 514,
+    "word": "namaste",
+    "pos": "n",
+    "pronunciation": "नमस्ते",
+    "meaningHi": "नमस्ते अभिवादन करने की भारतीय पद्धति",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 515,
+    "word": "notice",
+    "pos": "n",
+    "pronunciation": "नोटिस",
+    "meaningHi": "सूचना, नोटिस 2 जानकारी 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 516,
     "word": "powerful",
     "pos": "adj",
     "pronunciation": "पाउअफ़ल",
     "meaningHi": "शक्तिशाली, बलशाली",
-    "meaningEn": "strong",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a powerful man",
@@ -6720,12 +7060,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 473,
+    "id": 517,
     "word": "raise",
     "pos": "v",
     "pronunciation": "रेज़",
     "meaningHi": "ऊपर उठाना 2 पालन-पोषण करके बड़ा करना",
-    "meaningEn": "to lift",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Raise your hands",
@@ -6738,12 +7078,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 474,
+    "id": 518,
     "word": "reach",
     "pos": "v",
     "pronunciation": "रीच",
     "meaningHi": "पहुँचना",
-    "meaningEn": "to arrive at",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She has reached home",
@@ -6752,12 +7092,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 475,
+    "id": 519,
     "word": "remain",
     "pos": "v",
     "pronunciation": "रिमेन",
     "meaningHi": "बने रहना 164 165 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to stay",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Please remain in our team",
@@ -6766,30 +7106,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 476,
+    "id": 520,
     "word": "report",
     "pos": "n / v",
     "pronunciation": "रिपोट",
     "meaningHi": "विवरण 2 अखबार या पत्रिका में छपी कोई खबर | 1 सूचित करना 2 खबर प्रकाशित करना 1 ? - क्ा तुमने पुलिस को सूूचित कर दिया है? 2 Did the ? - क्ा अखबारों ने",
-    "meaningEn": "account",
+    "meaningEn": "",
     "examples": [
       {
         "en": "medical test report",
         "hi": "चिकित्ीय जाँच-विवरण"
-      },
-      {
-        "en": "A lawyer represents the client in the court",
-        "hi": "एक वकील न्ायालय में मुवक्किल का प्रतिनिधित्व करता है।"
       }
     ]
   },
   {
-    "id": 477,
+    "id": 521,
     "word": "silent",
     "pos": "adj",
     "pronunciation": "साइलन्ट",
     "meaningHi": "चुप, खामोश",
-    "meaningEn": "quiet",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a silent protest",
@@ -6798,12 +7134,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 478,
+    "id": 522,
     "word": "sleep",
     "pos": "n / v",
     "pronunciation": "स्ीप",
     "meaningHi": "नींद | सोना",
-    "meaningEn": "to rest",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Did you have enough sleep?",
@@ -6816,12 +7152,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 479,
+    "id": 523,
     "word": "suggest",
     "pos": "v",
     "pronunciation": "सजेस्ट",
     "meaningHi": "सुझाव देना",
-    "meaningEn": "to propose",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Could you suggest some improvements?",
@@ -6830,35 +7166,31 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 480,
+    "id": 524,
     "word": "throw",
     "pos": "v",
     "pronunciation": "थ्ो",
     "meaningHi": "फेंकना",
-    "meaningEn": "to toss",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 481,
+    "id": 525,
     "word": "touch",
     "pos": "n / v",
     "pronunciation": "टच",
     "meaningHi": "छूने की क्रिया, स्पर्श | छूना",
-    "meaningEn": "to contact",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 482,
+    "id": 526,
     "word": "afternoon",
     "pos": "n",
-    "pronunciation": "आफ़्टर",
-    "meaningHi": "आफ़्टरनूनदोपहर में, अपराह्न में वड्ज़ तत्पश्चात, बाद में",
-    "meaningEn": "time after noon",
+    "pronunciation": "'आफ़टरनूून' कहते हैं।",
+    "meaningHi": "आफ़्टर वड्ज़ तत्पश्चात, बाद में",
+    "meaningEn": "time between noon and evening",
     "examples": [
-      {
-        "en": "The time after 12 noon till evening is called afternoon",
-        "hi": "मध्य दिवस 12 बजे के बाद शाम तक के समय को 'आफ़टरनूून' कहते हैं।"
-      },
       {
         "en": "I came first, she came afterwards",
         "hi": "मैं पहले आया, वह बाद में आई।"
@@ -6866,12 +7198,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 483,
+    "id": 527,
     "word": "aim",
     "pos": "n / v",
     "pronunciation": "एम",
     "meaningHi": "उद्ेश्य, लक्ष्य | लक्ष्य उद्ेश्य साधना",
-    "meaningEn": "goal",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What is the aim of human life?",
@@ -6884,12 +7216,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 484,
+    "id": 528,
     "word": "beyond",
     "pos": "adv",
     "pronunciation": "बियोंंड",
     "meaningHi": "के परे, से बाहर",
-    "meaningEn": "on the far side of; more than",
+    "meaningEn": "on the far side of",
     "examples": [
       {
         "en": "What happened was beyond my imagination",
@@ -6898,7 +7230,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 485,
+    "id": 529,
     "word": "blind",
     "pos": "adj",
     "pronunciation": "ब्ाइंड",
@@ -6912,21 +7244,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 486,
+    "id": 530,
     "word": "business",
     "pos": "n",
     "pronunciation": "बिज़्नस",
     "meaningHi": "व्यापार",
-    "meaningEn": "commercial activity; a company",
+    "meaningEn": "commercial activity",
     "examples": []
   },
   {
-    "id": 487,
+    "id": 531,
     "word": "comprehend",
     "pos": "v",
     "pronunciation": "कॉम्प्रिहेंड",
     "meaningHi": "पूरी तरह समझना",
-    "meaningEn": "to understand",
+    "meaningEn": "to understand fully",
     "examples": [
       {
         "en": "unable to comprehend",
@@ -6935,25 +7267,20 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 488,
+    "id": 532,
     "word": "eager",
     "pos": "adj",
-    "pronunciation": "ईगर",
-    "meaningHi": "उत्ुक, इच्ुक",
-    "meaningEn": "enthusiastic",
-    "examples": [
-      {
-        "en": "eager to play",
-        "hi": "खेलने के लिए उत्ुक"
-      }
-    ]
+    "pronunciation": "लिए उत्ुक",
+    "meaningHi": "",
+    "meaningEn": "keen; enthusiastic",
+    "examples": []
   },
   {
-    "id": 489,
+    "id": 533,
     "word": "effect",
     "pos": "n",
     "pronunciation": "इफे़क्ट",
-    "meaningHi": "प्रभाव, परिणाम",
+    "meaningHi": "प्रभाव, असर",
     "meaningEn": "a result; an impression",
     "examples": [
       {
@@ -6963,21 +7290,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 490,
+    "id": 534,
     "word": "evening",
     "pos": "n",
     "pronunciation": "ईवनिंग",
     "meaningHi": "संध्ा, शाम 70 71 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "the period between afternoon and night",
+    "meaningEn": "between afternoon and night",
     "examples": []
   },
   {
-    "id": 491,
+    "id": 535,
     "word": "fierce",
     "pos": "adj",
     "pronunciation": "फि़अस",
     "meaningHi": "भयंकर रूप से उग्र",
-    "meaningEn": "aggressive",
+    "meaningEn": "aggressive; intense",
     "examples": [
       {
         "en": "a fierce animal",
@@ -6986,12 +7313,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 492,
+    "id": 536,
     "word": "future",
     "pos": "n / adj",
     "pronunciation": "फ़यूचर",
-    "meaningHi": "भविष्य",
-    "meaningEn": "the time yet to come",
+    "meaningHi": "भविष्य | भावी, भविष्य का 84 85 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "time yet to come",
     "examples": [
       {
         "en": "an uncertain future",
@@ -7004,12 +7331,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 493,
+    "id": 537,
     "word": "guard",
     "pos": "n / v",
     "pronunciation": "गाड",
     "meaningHi": "सुरक्षा-कर्मचारी 2 सुरक्षा-कवच | रक्षा करना, सुरक्षा प्रदान करना",
-    "meaningEn": "to protect",
+    "meaningEn": "",
     "examples": [
       {
         "en": "जैसे, night",
@@ -7022,12 +7349,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 494,
+    "id": 538,
     "word": "history",
     "pos": "n",
     "pronunciation": "हिस्ट्रि",
     "meaningHi": "इतिहास",
-    "meaningEn": "events of the past; a record",
+    "meaningEn": "",
     "examples": [
       {
         "en": "History is a record of the past events of a society",
@@ -7036,12 +7363,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 495,
+    "id": 539,
     "word": "ignore",
     "pos": "v",
     "pronunciation": "इग्नोर",
     "meaningHi": "उपेक्षा करना, ध्ान नहीं देना",
-    "meaningEn": "to disregard",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let's ignore the small mistakes of others",
@@ -7050,21 +7377,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 496,
+    "id": 540,
     "word": "Islam",
     "pos": "n",
     "pronunciation": "इज़लाम",
     "meaningHi": "इसलाम धर्म पैगंबर मुहम्मद द्ारा स्थापित धर्म",
-    "meaningEn": "the religion founded by Prophet Muhammad",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 497,
+    "id": 541,
     "word": "language",
     "pos": "n",
     "pronunciation": "बॉडि",
     "meaningHi": "लैंग्विज शारीरिक हावभाव",
-    "meaningEn": "a system of communication",
+    "meaningEn": "",
     "examples": [
       {
         "en": "His body language was not friendly",
@@ -7073,12 +7400,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 498,
+    "id": 542,
     "word": "lesson",
     "pos": "n",
     "pronunciation": "लेसन",
     "meaningHi": "पाठ किसी पुस्तक का एक अध्ाय 2 सीख",
-    "meaningEn": "something learned",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Each failure leaves a lesson to learn",
@@ -7087,39 +7414,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 499,
+    "id": 543,
     "word": "lonely",
     "pos": "adj",
     "pronunciation": "लोन्लि",
     "meaningHi": "अकेला 114 115 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ लोन्लिनस एकाकीपन, अकेलापन",
-    "meaningEn": "alone",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Being lonely can be an awful experience",
         "hi": "अकेला रहना एक बुरा अनुभव हो सकता है।"
-      },
-      {
-        "en": "Saint Aurobindo used his loneliness in the prison cell to achieve communion with God",
-        "hi": "महर्षि अरविंद ने जेल के सेल में अपने एकाकीपन का प्रयोग ईश्वर से अंतरंग संपर्क स्थापित करने के लिए किया।"
       }
     ]
   },
   {
-    "id": 500,
+    "id": 544,
     "word": "market",
     "pos": "n",
     "pronunciation": "माकिट",
     "meaningHi": "बाजार, मार्केेट",
-    "meaningEn": "a place for buying and selling",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 501,
+    "id": 545,
     "word": "music",
     "pos": "n",
     "pronunciation": "म्ूज़िक",
     "meaningHi": "संगीत : क्ासिक्ल म्ूज़िक शास्त्रीय संगीत : in- इन्सट्रमेंट्ल म्ूज़िक वाद्यसंगीत 126 127 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ : vo- cal वोकल म्ूज़िक",
-    "meaningEn": "arranged sounds",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Even plants and trees like music",
@@ -7132,12 +7455,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 502,
+    "id": 546,
     "word": "natural",
     "pos": "adj",
     "pronunciation": "नैचरल",
     "meaningHi": "स्ाभाविक, प्राकृतिक नैचरलि स्ाभाविक ढंग से",
-    "meaningEn": "of nature",
+    "meaningEn": "",
     "examples": [
       {
         "en": "natural scenery - प्राकृतिक दृश्य; a natural reaction",
@@ -7150,12 +7473,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 503,
+    "id": 547,
     "word": "pleasant",
     "pos": "adj",
     "pronunciation": "प्ेज़न्ट",
     "meaningHi": "सुखद, आनंददायक प्लीज़ कृपया",
-    "meaningEn": "agreeable",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a pleasant evening",
@@ -7168,12 +7491,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 504,
+    "id": 548,
     "word": "present",
     "pos": "adj / v",
     "pronunciation": "औम्निप्रेज़ंट",
     "meaningHi": "सर्वव्याव्यापी, सभी जगह उपस्थित | 1 उपस्थित होना 2 प्रस्तुत करना 3 उपहार देना | वर्तमान",
-    "meaningEn": "gift; here now",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It is believed that God is omnipresent",
@@ -7186,39 +7509,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 505,
+    "id": 549,
     "word": "price",
     "pos": "n",
     "pronunciation": "प्राइस",
     "meaningHi": "कीमत, दाम, मूल्य",
-    "meaningEn": "cost",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 506,
+    "id": 550,
     "word": "process",
     "pos": "n / v",
     "pronunciation": "प्ोसेस",
     "meaningHi": "प्रक्रिया | 1 प्रक्रिया में डालना",
-    "meaningEn": "steps",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the process of making soap",
         "hi": "साबुन बनाने की प्रक्रिया"
-      },
-      {
-        "en": "Your application is being processed",
-        "hi": "आपका आवेदन प्रकिया में डाल दिया गया है।"
       }
     ]
   },
   {
-    "id": 507,
+    "id": 551,
     "word": "public",
     "pos": "adj / n",
     "pronunciation": "पब्लिक",
     "meaningHi": "सार्वजनिक | जनता",
-    "meaningEn": "for all",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a public library",
@@ -7231,12 +7550,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 508,
+    "id": 552,
     "word": "sadness",
     "pos": "n",
     "pronunciation": "सैड्नेस",
     "meaningHi": "उदासी",
-    "meaningEn": "unhappiness",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Listening to good music may remove all sadness",
@@ -7245,12 +7564,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 509,
+    "id": 553,
     "word": "satisfy",
     "pos": "v",
     "pronunciation": "सैटिस्फ़ाइ",
     "meaningHi": "संतुष्ट करना",
-    "meaningEn": "to fulfil",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Did the hotel food satisfy you?",
@@ -7259,21 +7578,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 510,
+    "id": 554,
     "word": "science",
     "pos": "n",
     "pronunciation": "साइन्स",
     "meaningHi": "विज्ान 172 173 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "study of nature",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 511,
+    "id": 555,
     "word": "shine",
     "pos": "v",
     "pronunciation": "शाइन",
     "meaningHi": "चमकना",
-    "meaningEn": "to glow",
+    "meaningEn": "",
     "examples": [
       {
         "en": "his face shines",
@@ -7282,12 +7601,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 512,
+    "id": 556,
     "word": "situation",
     "pos": "n",
     "pronunciation": "सिचुएशन",
     "meaningHi": "स्थिति",
-    "meaningEn": "circumstances",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a bad situation",
@@ -7296,12 +7615,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 513,
+    "id": 557,
     "word": "survive",
     "pos": "v",
     "pronunciation": "सवाइव",
     "meaningHi": "जीवित बचना, अस्तित्व में रहना",
-    "meaningEn": "to live on",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Will the patient survive?",
@@ -7310,12 +7629,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 514,
+    "id": 558,
     "word": "ability",
     "pos": "n",
     "pronunciation": "अबिलिटी",
     "meaningHi": "योग्यता, क्षमता",
-    "meaningEn": "the power or skill to do something",
+    "meaningEn": "",
     "examples": [
       {
         "en": "ability to memorise",
@@ -7324,12 +7643,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 515,
+    "id": 559,
     "word": "admit",
     "pos": "v",
     "pronunciation": "अडमिट",
     "meaningHi": "आने देना, भरती करना 2 मान लेना",
-    "meaningEn": "to confess",
+    "meaningEn": "",
     "examples": [
       {
         "en": "admitted to the school",
@@ -7342,12 +7661,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 516,
+    "id": 560,
     "word": "advice",
     "pos": "n",
     "pronunciation": "अड्वाइस",
     "meaningHi": "सलाह",
-    "meaningEn": "guidance; a recommendation",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I need your advice",
@@ -7356,12 +7675,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 517,
+    "id": 561,
+    "word": "burn",
+    "pos": "v",
+    "pronunciation": "बर्न",
+    "meaningHi": "आग या ताप से जलना या जलाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Fire burns",
+        "hi": "आग जलाती है।"
+      }
+    ]
+  },
+  {
+    "id": 562,
+    "word": "calm",
+    "pos": "n / adj / v",
+    "pronunciation": "काम",
+    "meaningHi": "शांति | शांत | शांत हो जाना या शांत करना",
+    "meaningEn": "peaceful; not excited",
+    "examples": [
+      {
+        "en": "The calm of a winter morning was disturbed by an explosion",
+        "hi": "जाड़े की सुबह की शांति एक विस्ोट से नष्ट हो गई।"
+      },
+      {
+        "en": "a calm person",
+        "hi": "एक शांत व्यक्ति"
+      }
+    ]
+  },
+  {
+    "id": 563,
     "word": "calmly",
     "pos": "adv",
     "pronunciation": "काम्ी",
     "meaningHi": "शांतिपूर्वक, चुपचाप",
-    "meaningEn": "peacefully",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She keeps working calmly",
@@ -7370,7 +7721,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 518,
+    "id": 564,
     "word": "clever",
     "pos": "adj",
     "pronunciation": "क्लेवर",
@@ -7379,30 +7730,39 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 519,
-    "word": "comfort",
-    "pos": "n / v",
-    "pronunciation": "कम्फ़ट",
-    "meaningHi": "आराम 2 सुख-सुविधा की वस्तुएँ",
-    "meaningEn": "a state of ease; to console",
+    "id": 565,
+    "word": "cold",
+    "pos": "n / adj",
+    "pronunciation": "कोल्ड",
+    "meaningHi": "ठंड | ठंडा अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "A sannyasi has to leave worldly comforts",
-        "hi": "एक संन्ासी को सांसारिक सुख-सुविधाओं को छोड़ना होता है।"
+        "en": "I have got a bad cold",
+        "hi": "मुझे बुरी ठंढ लग गई है।"
       },
       {
-        "en": "The teacher was trying to comfort the failed students",
-        "hi": "शिक्षक असफल छात्रों को सांत्वना देने की कोशिश कर रहे थे।"
+        "en": "cold coffee",
+        "hi": "ठंडी कौफी"
       }
     ]
   },
   {
-    "id": 520,
+    "id": 566,
+    "word": "comfort",
+    "pos": "n / v",
+    "pronunciation": "कम्फ़ट",
+    "meaningHi": "आराम 2 सुख-सुविधा की वस्तुएँ",
+    "meaningEn": "ease; to console",
+    "examples": []
+  },
+  {
+    "id": 567,
     "word": "discover",
     "pos": "v",
     "pronunciation": "डिस्कवर",
-    "meaningHi": "खोज करना",
-    "meaningEn": "to find",
+    "meaningHi": "खोज करना, पता लगाना",
+    "meaningEn": "to find for the first time",
     "examples": [
       {
         "en": "Did Benjamin Franklin discover electricity?",
@@ -7411,7 +7771,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 521,
+    "id": 568,
     "word": "enjoy",
     "pos": "v",
     "pronunciation": "इनजोइ",
@@ -7425,12 +7785,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 522,
+    "id": 569,
     "word": "escape",
     "pos": "n / v",
     "pronunciation": "इस्केप",
-    "meaningHi": "भागना, बच निकलना",
-    "meaningEn": "to get away from; to flee",
+    "meaningHi": "भागने की क्रिया, पलायन",
+    "meaningEn": "to get away from",
     "examples": [
       {
         "en": "The prisoner's escape is causing concern",
@@ -7443,12 +7803,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 523,
+    "id": 570,
+    "word": "fair",
+    "pos": "adj",
+    "pronunciation": "न्ायपूर्ण निर्णय।",
+    "meaningHi": "",
+    "meaningEn": "just; a market",
+    "examples": []
+  },
+  {
+    "id": 571,
     "word": "forever",
     "pos": "adv",
     "pronunciation": "फ़र्एवर",
     "meaningHi": "सदैव, हमेशा के लिए, स्ायी रूप से",
-    "meaningEn": "for all time; eternally",
+    "meaningEn": "for all time",
     "examples": [
       {
         "en": "We have lost him forever",
@@ -7457,30 +7826,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 524,
+    "id": 572,
     "word": "fresh",
     "pos": "adj",
     "pronunciation": "फ्े़श",
     "meaningHi": "ताजा",
-    "meaningEn": "newly made; not stale",
+    "meaningEn": "newly made",
     "examples": []
   },
   {
-    "id": 525,
+    "id": 573,
     "word": "heavy",
     "pos": "adj",
     "pronunciation": "हेवि",
     "meaningHi": "भारी",
-    "meaningEn": "of great weight",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 526,
+    "id": 574,
     "word": "optimist",
     "pos": "n",
     "pronunciation": "अॉप्टिमिस्ट",
     "meaningHi": "आशावादी",
-    "meaningEn": "hopeful person",
+    "meaningEn": "",
     "examples": [
       {
         "en": "An optimist is one who always keeps hopes alive in life",
@@ -7489,12 +7858,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 527,
+    "id": 575,
     "word": "quiet",
     "pos": "adj",
     "pronunciation": "क्वायट",
     "meaningHi": "शांत, खामोश 18 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "calm",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a quiet environment",
@@ -7503,7 +7872,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 528,
+    "id": 576,
     "word": "racist",
     "pos": "adj",
     "pronunciation": "रेसिस्ट",
@@ -7512,12 +7881,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 529,
+    "id": 577,
     "word": "sad",
     "pos": "adj",
     "pronunciation": "सैड",
     "meaningHi": "उदास 2 बुरा, शोकजनक",
-    "meaningEn": "unhappy",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Why is she sad?",
@@ -7530,12 +7899,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 530,
+    "id": 578,
     "word": "sharp",
     "pos": "adj",
     "pronunciation": "शाप",
     "meaningHi": "तेज धार या नोंक वाला अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "keen edge",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a sharp knife - एक तेज धार वाला चाकूू; a sharp mind",
@@ -7544,12 +7913,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 531,
+    "id": 579,
     "word": "smooth",
     "pos": "adj",
     "pronunciation": "स्मूद",
     "meaningHi": "चिकना",
-    "meaningEn": "even surface",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a smooth surface",
@@ -7558,12 +7927,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 532,
+    "id": 580,
     "word": "straight",
     "pos": "adj / adv",
     "pronunciation": "स्ट्रेट",
     "meaningHi": "सीधा | सीधे",
-    "meaningEn": "not curved",
+    "meaningEn": "",
     "examples": [
       {
         "en": "straight line",
@@ -7576,12 +7945,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 533,
+    "id": 581,
     "word": "strange",
     "pos": "adj",
     "pronunciation": "स्ट्ेनज",
     "meaningHi": "अजीब, विचित्र",
-    "meaningEn": "unusual",
+    "meaningEn": "",
     "examples": [
       {
         "en": "strange people",
@@ -7590,21 +7959,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 534,
+    "id": 582,
     "word": "studious",
     "pos": "adj",
     "pronunciation": "स्ूडिअस",
     "meaningHi": "अध्यनशील, पढ़ने-लिखने में रुचि रखने वाला",
-    "meaningEn": "devoted to study",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 535,
+    "id": 583,
     "word": "sweet",
     "pos": "adj",
     "pronunciation": "स्वीट",
     "meaningHi": "मीठा",
-    "meaningEn": "sugary",
+    "meaningEn": "",
     "examples": [
       {
         "en": "sweet memories",
@@ -7613,57 +7982,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 536,
+    "id": 584,
     "word": "tactful",
     "pos": "adj",
     "pronunciation": "टैक्ट्फ़्ल",
     "meaningHi": "चतुराई से काम निकालने वाला अच्े अर्थ में",
-    "meaningEn": "showing sensitivity",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 537,
+    "id": 585,
     "word": "trouble",
     "pos": "n",
     "pronunciation": "ट्र॒बल",
     "meaningHi": "समस्ा, कष्ट",
-    "meaningEn": "difficulty",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 538,
+    "id": 586,
     "word": "youth",
     "pos": "n",
     "pronunciation": "यूथ़",
     "meaningHi": "युवा अवस्ा, यौवन, जवानी 2 जवान 1",
-    "meaningEn": "young age",
-    "examples": [
-      {
-        "en": "a yummy cake",
-        "hi": "एक स्वादिष्ट केक"
-      },
-      {
-        "en": "Youth is a priceless possession not be squandered away for the sake of momentary excitements",
-        "hi": "युवा अवस्था एक अनमोल संपदा है जिसे क्षणिक उत्तेजनाओं के पीछे बर्बाद नहीं कर देना चाहिए।"
-      }
-    ]
-  },
-  {
-    "id": 539,
-    "word": "baptism",
-    "pos": "n",
-    "pronunciation": "बैप्टिज़म",
-    "meaningHi": "बपतिस्मा — ईसाई शुद्धि संस्कार",
-    "meaningEn": "a Christian ceremony of purification with water",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 540,
+    "id": 587,
+    "word": "baptism",
+    "pos": "n",
+    "pronunciation": "बैप्टिज़म",
+    "meaningHi": "ईसाई धर्म में दीक्षा को बैप्टिज़म कहते हैं।",
+    "meaningEn": "religious purification ceremony",
+    "examples": []
+  },
+  {
+    "id": 588,
     "word": "claim",
     "pos": "n / v",
     "pronunciation": "क्ेम",
-    "meaningHi": "दावा अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | 1 दावा करना 2 मृत्ु का कारण बनना",
-    "meaningEn": "to assert; to demand as rightful",
+    "meaningHi": "दावा अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "to assert",
     "examples": [
       {
         "en": "His claim was false",
@@ -7676,12 +8036,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 541,
+    "id": 589,
     "word": "collect",
     "pos": "v",
     "pronunciation": "कलेक्ट",
     "meaningHi": "संग्रह करना, इकट्ा करना",
-    "meaningEn": "to gather; to bring together",
+    "meaningEn": "to gather",
     "examples": [
       {
         "en": "collect coins",
@@ -7690,26 +8050,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 542,
+    "id": 590,
     "word": "compare",
     "pos": "v",
     "pronunciation": "तुलना एक आदमी से नहीं कर सकते।",
-    "meaningHi": "कम्ेअर तुलना करना",
-    "meaningEn": "to examine similarities and differences",
+    "meaningHi": "कम्ेअ(र) तुलना करना (You can't compare an animal with a man - तुम एक जानवर की",
+    "meaningEn": "to examine similarities",
     "examples": [
       {
         "en": "You can't compare an animal with a man",
-        "hi": "तुम एक जानवर की"
+        "hi": "तुम एक जानवर की तुलना एक आदमी से नहीं कर सकते।"
       }
     ]
   },
   {
-    "id": 543,
+    "id": 591,
     "word": "develop",
     "pos": "v",
     "pronunciation": "डिवेलप",
-    "meaningHi": "विकास करना, विकसित होना",
-    "meaningEn": "to grow; to advance",
+    "meaningHi": "विकसित करना/होना",
+    "meaningEn": "to grow; to create over time",
     "examples": [
       {
         "en": "Let us develop our understanding",
@@ -7718,12 +8078,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 544,
+    "id": 592,
     "word": "increase",
     "pos": "n / v",
     "pronunciation": "इनक्रीस",
     "meaningHi": "वृद्धि, बढ़ोत्तरी | बढ़ना, वृद्धि करना",
-    "meaningEn": "to grow",
+    "meaningEn": "",
     "examples": [
       {
         "en": "increase in salary",
@@ -7736,12 +8096,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 545,
+    "id": 593,
     "word": "involve",
     "pos": "v",
     "pronunciation": "इन्वॉल्व",
     "meaningHi": "किसी प्रसंग, कार्यक्रम या गतिविधि में किसी का शामिल होना, या करना",
-    "meaningEn": "to include",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Junior doctors were not involved in this surgery",
@@ -7750,12 +8110,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 546,
+    "id": 594,
     "word": "manage",
     "pos": "v",
     "pronunciation": "मैनिज",
     "meaningHi": "प्रबंध करना, संचालन करना",
-    "meaningEn": "to handle",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Who man- ages this business?",
@@ -7764,12 +8124,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 547,
+    "id": 595,
     "word": "reduce",
     "pos": "v",
     "pronunciation": "रिड्ूस",
     "meaningHi": "आकार, मात्ा आदि की दृष्टि से घटाना, कम करना रिडक्शन कटौती, कमी",
-    "meaningEn": "to lessen",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Reduce your weight",
@@ -7782,12 +8142,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 548,
+    "id": 596,
     "word": "solve",
     "pos": "v",
     "pronunciation": "सॉल्व",
     "meaningHi": "हल करना, किसी समस्ा या प्रश्न का समाधान करना",
-    "meaningEn": "to resolve",
+    "meaningEn": "",
     "examples": [
       {
         "en": "solve a problem",
@@ -7796,26 +8156,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 549,
+    "id": 597,
     "word": "achiever",
     "pos": "n",
     "pronunciation": "अचीवर",
     "meaningHi": "किसी कार्य को मेहनत द्ारा संपन्न कर सफलता प्राप्त करने वाला व्यक्ति; उपलब्धि प्राप्त करने वाला व्यक्ति",
-    "meaningEn": "successful person",
-    "examples": [
-      {
-        "en": "Don Bradman is the all-time great achiever in cricket",
-        "hi": "डॉन ब्ैडमन क्रिकेट के खेल में अब तक के सबसे बड़े उपलब्धिकर्ता हैं।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 550,
+    "id": 598,
     "word": "admire",
     "pos": "v",
     "pronunciation": "अड्मायर",
     "meaningHi": "आदर करना, प्रशंसा करना ऐड्मरेशन आदर, प्रशंसा",
-    "meaningEn": "to respect",
+    "meaningEn": "",
     "examples": [
       {
         "en": "We admire Sachin Tendulkar",
@@ -7828,12 +8183,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 551,
+    "id": 599,
     "word": "assertive",
     "pos": "adj",
     "pronunciation": "असर्िव",
     "meaningHi": "मुखर, अपने विचारों को जोर दे कर बोलने वाला",
-    "meaningEn": "confident",
+    "meaningEn": "confident and direct",
     "examples": [
       {
         "en": "Being assertive is a great quality sometimes",
@@ -7842,21 +8197,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 552,
+    "id": 600,
     "word": "brain",
     "pos": "n",
-    "pronunciation": "",
-    "meaningHi": "ब्ेन, ब्ेइन मस्तिष्क, दिमाग",
-    "meaningEn": "the organ of thinking; intellect",
+    "pronunciation": "ब्ेन, ब्ेइन",
+    "meaningHi": "ब्ेन, ब्ेइन मस्तिष्क, दिमाग brain-",
+    "meaningEn": "organ of thinking",
     "examples": []
   },
   {
-    "id": 553,
+    "id": 601,
     "word": "decision",
     "pos": "n",
     "pronunciation": "डिसिशज़न",
     "meaningHi": "निर्णय, फैसला",
-    "meaningEn": "a choice; a conclusion reached",
+    "meaningEn": "a choice made",
     "examples": [
       {
         "en": "Let's take a decision early",
@@ -7865,12 +8220,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 554,
+    "id": 602,
     "word": "difference",
     "pos": "n",
     "pronunciation": "डिफ़्रन्स",
     "meaningHi": "अंतर, भेद",
-    "meaningEn": "a way things are not the same",
+    "meaningEn": "way things are not same",
     "examples": [
       {
         "en": "What is the difference between the two?",
@@ -7879,7 +8234,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 555,
+    "id": 603,
     "word": "inferiority",
     "pos": "n",
     "pronunciation": "इन््फि़रि",
@@ -7893,12 +8248,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 556,
+    "id": 604,
     "word": "offence",
     "pos": "n",
     "pronunciation": "अफ़ेेन्स",
     "meaningHi": "अपराध, दोष",
-    "meaningEn": "a crime; causing hurt feelings",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Stealing is an offence",
@@ -7907,12 +8262,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 557,
+    "id": 605,
     "word": "offend",
     "pos": "v",
     "pronunciation": "अफ़ेेन्ड",
     "meaningHi": "ठेस पहुँचाना, नाराज कर देना",
-    "meaningEn": "to cause displeasure",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He offends everybody with his rude speech",
@@ -7921,12 +8276,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 558,
+    "id": 606,
     "word": "opinion",
     "pos": "n",
     "pronunciation": "अपिन्यन",
     "meaningHi": "विचार, मत, राय अपोनन्ट प्रतिपक्षी, विरोधी",
-    "meaningEn": "personal view",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What's your opinion?",
@@ -7939,7 +8294,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 559,
+    "id": 607,
     "word": "pessimism",
     "pos": "n",
     "pronunciation": "पेसिमिज़म",
@@ -7953,7 +8308,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 560,
+    "id": 608,
     "word": "pessimist",
     "pos": "adj",
     "pronunciation": "पेसिमिस्ट",
@@ -7967,7 +8322,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 561,
+    "id": 609,
     "word": "poverty",
     "pos": "n",
     "pronunciation": "पॉवटि",
@@ -7976,12 +8331,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 562,
+    "id": 610,
     "word": "sensible",
     "pos": "adj",
     "pronunciation": "सेन्सिबल",
     "meaningHi": "समझदार",
-    "meaningEn": "practical",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He is a sensible boy",
@@ -7990,12 +8345,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 563,
+    "id": 611,
     "word": "sensitive",
     "pos": "adj",
     "pronunciation": "सेन्सिटिव",
     "meaningHi": "संवेदनशील",
-    "meaningEn": "easily affected",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She is too sensitive",
@@ -8004,12 +8359,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 564,
+    "id": 612,
     "word": "smell",
     "pos": "n / v",
     "pronunciation": "स्मेल",
     "meaningHi": "गंध, बू | 1 सूँघना 2 सुगंध फैलाना",
-    "meaningEn": "odour",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Rose smells well",
@@ -8018,12 +8373,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 565,
+    "id": 613,
     "word": "submissive",
     "pos": "adj",
     "pronunciation": "सब्मिसिव",
     "meaningHi": "आज्ाकारी",
-    "meaningEn": "yielding to authority",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a submissive child",
@@ -8032,12 +8387,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 566,
+    "id": 614,
     "word": "accident",
     "pos": "n",
     "pronunciation": "ऐक्सिडन्ट",
-    "meaningHi": "दुर्घटना; संयोग",
-    "meaningEn": "an unexpected harmful event",
+    "meaningHi": "दुर्घटना 2 संयोग ऐक्सिडन्ट इनशोरन्स दुर्घटना बीमा दुर्घटना में मृत्ु होने पर जिसमें परिवार को पैसे मिलते हैं। A 8 9 अंगरेज़ी शब्द उच्ारण हिंंदी में",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He was killed in an acci- dent",
@@ -8050,7 +8405,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 567,
+    "id": 615,
     "word": "address",
     "pos": "n / v",
     "pronunciation": "अड्ेस",
@@ -8059,30 +8414,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 568,
+    "id": 616,
     "word": "amount",
     "pos": "n",
     "pronunciation": "अमाउंट",
     "meaningHi": "पैसा 2 मात्ा 1",
-    "meaningEn": "quantity",
-    "examples": [
-      {
-        "en": "He lost a big amount in gambling",
-        "hi": "उसने जुए में काफी पैसे गँवाए।"
-      },
-      {
-        "en": "A big amount of our time is wasted every day",
-        "hi": "हमारे समय की एक बड़ी मात्रा रोज बरबाद होती है।"
-      }
-    ]
+    "meaningEn": "a quantity; total",
+    "examples": []
   },
   {
-    "id": 569,
+    "id": 617,
     "word": "art",
     "pos": "n",
     "pronunciation": "आट",
     "meaningHi": "कला",
-    "meaningEn": "creative expression; skill",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Art is a creative activity",
@@ -8091,12 +8437,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 570,
+    "id": 618,
     "word": "board",
     "pos": "n / v",
     "pronunciation": "बोर्ड",
-    "meaningHi": "लकड़ी का तख्ा या पटरा 2 परिषद, मंडल | विमान, जहाज, बस आदि में सवार होना अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a flat piece of wood; a committee",
+    "meaningHi": "लकड़ी का तख्ा या पटरा 2 परिषद, मंडल",
+    "meaningEn": "flat wood; a committee",
     "examples": [
       {
         "en": "board of directors",
@@ -8109,7 +8455,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 571,
+    "id": 619,
     "word": "breathe",
     "pos": "v",
     "pronunciation": "ब्ीद",
@@ -8123,22 +8469,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 572,
+    "id": 620,
     "word": "bus",
     "pos": "n",
     "pronunciation": "बस",
-    "meaningHi": "बस यात्रियों के लिए चार या छह पहिए की बड़ी गाड़ी",
-    "meaningEn": "a large vehicle for passengers",
+    "meaningHi": "बस (यात्रियों के लिए चार या छह पहिए की बड़ी गाड़ी)",
+    "meaningEn": "large passenger vehicle",
     "examples": []
   },
   {
-    "id": 573,
+    "id": 621,
     "word": "centre",
     "pos": "n",
     "pronunciation": "सेन्टर",
     "meaningHi": "केंद्र",
-    "meaningEn": "the middle point; a main place",
+    "meaningEn": "the middle point",
     "examples": [
+      {
+        "en": "She was the centre of attraction",
+        "hi": "वह आकर्षण का केंद्र थी।"
+      },
       {
         "en": "She was the centre of attraction",
         "hi": "वह आकर्षण का केंद्र थी।"
@@ -8146,11 +8496,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 574,
+    "id": 622,
     "word": "chance",
     "pos": "n",
     "pronunciation": "चान्स",
-    "meaningHi": "मौका 2 संयोग",
+    "meaningHi": "अवसर; संयोग",
     "meaningEn": "a possibility; an opportunity",
     "examples": [
       {
@@ -8164,21 +8514,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 575,
+    "id": 623,
     "word": "circle",
     "pos": "n",
     "pronunciation": "सर्कल",
-    "meaningHi": "घेरा, वृत्त",
-    "meaningEn": "a round shape; a group",
+    "meaningHi": "घेरा, वृत्त circumst-",
+    "meaningEn": "a round shape",
     "examples": []
   },
   {
-    "id": 576,
+    "id": 624,
     "word": "colour",
     "pos": "n",
-    "pronunciation": "कलर",
-    "meaningHi": "रंग",
-    "meaningEn": "a visual property like red or blue",
+    "pronunciation": "और तृतीयक।",
+    "meaningHi": "रंग combi-",
+    "meaningEn": "a visual property",
     "examples": [
       {
         "en": "Colours are of three kinds— primary, secondary and tertiary",
@@ -8187,12 +8537,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 577,
+    "id": 625,
     "word": "company",
     "pos": "n",
     "pronunciation": "कम्पनि",
-    "meaningHi": "व्यापार करने वाली कंपनी 2 साथ, संग, सन्निधि",
-    "meaningEn": "a business",
+    "meaningHi": "कंपनी; साथ, संगति",
+    "meaningEn": "a business; companionship",
     "examples": [
       {
         "en": "One feels good in his company",
@@ -8201,12 +8551,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 578,
+    "id": 626,
     "word": "complete",
     "pos": "adj / v",
     "pronunciation": "कम्प्ीट",
-    "meaningHi": "पूर्ण 2 पूरा हो चुका हुआ | पूरा करना",
-    "meaningEn": "whole; to finish",
+    "meaningHi": "पूर्ण, पूरा; पूरा करना",
+    "meaningEn": "entire; to finish",
     "examples": [
       {
         "en": "a complete man",
@@ -8219,12 +8569,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 579,
+    "id": 627,
     "word": "contact",
     "pos": "n / v",
     "pronunciation": "कॉन्टैक्ट",
     "meaningHi": "संपर्क 2 व्यक्ति जिससे जान-पहचान हो | संपर्क करना",
-    "meaningEn": "communication; to get in touch",
+    "meaningEn": "to get in touch",
     "examples": [
       {
         "en": "He is an old contact",
@@ -8237,21 +8587,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 580,
+    "id": 628,
     "word": "crowd",
     "pos": "n",
     "pronunciation": "क्ाउड",
     "meaningHi": "भीड़ अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a large group of people",
+    "meaningEn": "large group of people",
     "examples": []
   },
   {
-    "id": 581,
+    "id": 629,
     "word": "danger",
     "pos": "n",
     "pronunciation": "डेनजर",
-    "meaningHi": "खतरा डेनजरस खतरनाक",
-    "meaningEn": "risk of harm",
+    "meaningHi": "ख़तरा",
+    "meaningEn": "a threat; risk of harm",
     "examples": [
       {
         "en": "Lion is a dangerous animal",
@@ -8260,12 +8610,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 582,
+    "id": 630,
     "word": "demand",
     "pos": "n / v",
     "pronunciation": "डिमांंड",
-    "meaningHi": "माँग अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | माँग करना",
-    "meaningEn": "firm request",
+    "meaningHi": "माँग अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "to ask firmly",
     "examples": [
       {
         "en": "Their demand is that they should get free medicines",
@@ -8278,12 +8628,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 583,
+    "id": 631,
     "word": "detail",
     "pos": "n",
     "pronunciation": "डीटेल",
     "meaningHi": "तथ्य या सूचना, ब्ोरा",
-    "meaningEn": "a specific",
+    "meaningEn": "a small particular",
     "examples": [
       {
         "en": "Give me details of your trip",
@@ -8292,11 +8642,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 584,
+    "id": 632,
     "word": "direction",
     "pos": "n",
     "pronunciation": "डरेक्शन",
-    "meaningHi": "डाइरेक्शन 1 दिशा 2 निर्देशन",
+    "meaningHi": "दिशा",
     "meaningEn": "the way something faces or moves",
     "examples": [
       {
@@ -8306,7 +8656,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 585,
+    "id": 633,
     "word": "distance",
     "pos": "n",
     "pronunciation": "डिस्टन्स",
@@ -8315,21 +8665,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 586,
+    "id": 634,
     "word": "doctor",
     "pos": "n",
     "pronunciation": "डॉक्टर",
     "meaningHi": "चिकित्सक 2 स्ातकोत्तर से ऊपर की एक विशेष अकादमिक उपाधि",
-    "meaningEn": "a medical professional; a physician",
+    "meaningEn": "medical professional",
     "examples": []
   },
   {
-    "id": 587,
+    "id": 635,
     "word": "event",
     "pos": "n",
     "pronunciation": "इवेन्ट",
     "meaningHi": "घटना 2 समारोह",
-    "meaningEn": "occurrence",
+    "meaningEn": "something that happens",
     "examples": [
       {
         "en": "a sad event",
@@ -8342,7 +8692,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 588,
+    "id": 636,
     "word": "evidence",
     "pos": "n",
     "pronunciation": "एविडन्स",
@@ -8351,12 +8701,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 589,
+    "id": 637,
     "word": "expression",
     "pos": "n",
     "pronunciation": "इक्स्ेशन",
     "meaningHi": "विचारों या भावनाओं की अभिव्यक्ति",
-    "meaningEn": "a look on the face; a phrase",
+    "meaningEn": "a look; a phrase",
     "examples": [
       {
         "en": "Language is not the only medium of expression of emotions",
@@ -8365,7 +8715,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 590,
+    "id": 638,
     "word": "final",
     "pos": "adj / n",
     "pronunciation": "फ़ाइनल",
@@ -8383,12 +8733,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 591,
+    "id": 639,
     "word": "finish",
     "pos": "v",
     "pronunciation": "फ़िनिश",
     "meaningHi": "समाप्त करना",
-    "meaningEn": "to end",
+    "meaningEn": "to complete",
     "examples": [
       {
         "en": "Please finish your food",
@@ -8397,21 +8747,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 592,
+    "id": 640,
     "word": "floor",
     "pos": "n",
-    "pronunciation": "फ़लोर",
-    "meaningHi": "फ़र्श",
-    "meaningEn": "the bottom surface of a room",
+    "pronunciation": "फ़र्श",
+    "meaningHi": "",
+    "meaningEn": "bottom of room",
     "examples": []
   },
   {
-    "id": 593,
+    "id": 641,
     "word": "foreign",
     "pos": "adj",
     "pronunciation": "फ़ॉरन",
     "meaningHi": "परदेशी, विदेशी, बाहरी",
-    "meaningEn": "of another country; unfamiliar",
+    "meaningEn": "of another country",
     "examples": [
       {
         "en": "foreign goods",
@@ -8420,7 +8770,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 594,
+    "id": 642,
     "word": "formal",
     "pos": "adj",
     "pronunciation": "फ़ोमल",
@@ -8438,30 +8788,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 595,
+    "id": 643,
     "word": "fruit",
     "pos": "n",
     "pronunciation": "फ़्रूट",
     "meaningHi": "फल",
-    "meaningEn": "the product of a plant; a result",
+    "meaningEn": "product of plant",
     "examples": []
   },
   {
-    "id": 596,
+    "id": 644,
     "word": "glass",
     "pos": "n",
     "pronunciation": "ग्ास",
     "meaningHi": "काँच, शीशा 2 पानी पीने का गिलास ग्ोबल वोर्मिंग वैश्विक ऊष्ीकरण कुछ गैसों में वृद्धि के कारण पृथ्ी के वायुमंडल की गरमी में वृद्धि",
-    "meaningEn": "a transparent material; a drinking vessel",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 597,
+    "id": 645,
     "word": "height",
     "pos": "n",
     "pronunciation": "हाइट",
     "meaningHi": "ऊँचाई, लंबाई",
-    "meaningEn": "how tall something is",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What is your height?",
@@ -8470,12 +8820,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 598,
+    "id": 646,
     "word": "hospital",
     "pos": "n",
     "pronunciation": "हॉस्पिट्ल",
     "meaningHi": "अस्पताल",
-    "meaningEn": "a place for treating sick people",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a private hospital",
@@ -8484,12 +8834,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 599,
+    "id": 647,
     "word": "image",
     "pos": "n",
     "pronunciation": "इमिज",
     "meaningHi": "चित्र, छवि 2 मानसिक चित्र, छवि, किसी व्यक्ति या संगठन के विषय में लोगों के दिमाग में सामान्य धारणा, चित्र या कल्पना",
-    "meaningEn": "a picture",
+    "meaningEn": "",
     "examples": [
       {
         "en": "your image in the mirror",
@@ -8502,12 +8852,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 600,
+    "id": 648,
     "word": "imagine",
     "pos": "v",
     "pronunciation": "इमैजिन",
     "meaningHi": "कल्पना करना",
-    "meaningEn": "to picture",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Imagine that you are floating in midair",
@@ -8516,12 +8866,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 601,
+    "id": 649,
     "word": "indeed",
     "pos": "adv",
     "pronunciation": "इन्डीड",
     "meaningHi": "सचमुच, निश्चित रूप से",
-    "meaningEn": "truly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "indeed a good fellow",
@@ -8530,12 +8880,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 602,
+    "id": 650,
     "word": "job",
     "pos": "n",
     "pronunciation": "जॉब",
     "meaningHi": "नौकरी, काम",
-    "meaningEn": "a paid position of work",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I have got a job",
@@ -8544,12 +8894,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 603,
+    "id": 651,
     "word": "journey",
     "pos": "n",
     "pronunciation": "जर्नीी",
     "meaningHi": "यात्ा, सफर",
-    "meaningEn": "a trip; travelling from one place to another",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a tiring journey",
@@ -8558,12 +8908,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 604,
+    "id": 652,
     "word": "limit",
     "pos": "n / v",
     "pronunciation": "लिमिट",
     "meaningHi": "सीमा | सीमित करना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a boundary; to restrict",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It is good to remain within limits",
@@ -8576,12 +8926,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 605,
+    "id": 653,
     "word": "meeting",
     "pos": "n",
     "pronunciation": "मीटिंग",
     "meaningHi": "सभा, गोष्ी 2 भेंट",
-    "meaningEn": "gathering",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I have to go to a meeting",
@@ -8594,12 +8944,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 606,
+    "id": 654,
     "word": "memory",
     "pos": "n",
     "pronunciation": "मेमरि",
     "meaningHi": "स्मृति, याददाश्त",
-    "meaningEn": "recall ability",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Omega 3 acid, which is found in flex seeds, strengthens mem- ory",
@@ -8608,12 +8958,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 607,
+    "id": 655,
     "word": "message",
     "pos": "n",
     "pronunciation": "मेसिज",
     "meaningHi": "संदेश",
-    "meaningEn": "communication",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I have received his message",
@@ -8622,12 +8972,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 608,
+    "id": 656,
     "word": "method",
     "pos": "n",
     "pronunciation": "मेथड",
     "meaningHi": "पद्धति, तरीका",
-    "meaningEn": "a way",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Proper cooking methods can improve nutrition in our meals",
@@ -8636,12 +8986,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 609,
+    "id": 657,
     "word": "middle",
     "pos": "n",
     "pronunciation": "मिड्ल",
     "meaningHi": "मध्य, बीच",
-    "meaningEn": "centre",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He sat in the middle row",
@@ -8650,12 +9000,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 610,
+    "id": 658,
     "word": "moment",
     "pos": "n",
     "pronunciation": "मोमन्ट",
     "meaningHi": "क्षण, पल मोनकि राजतंत्र जहाँ का शासन एक राजा के हाथों में हो",
-    "meaningEn": "brief time",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Live every moment happily",
@@ -8668,12 +9018,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 611,
+    "id": 659,
     "word": "noise",
     "pos": "n",
     "pronunciation": "नोइज़",
     "meaningHi": "शोर, कोलाहल",
-    "meaningEn": "unwanted sound",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Noise is the opposite of music",
@@ -8682,12 +9032,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 612,
+    "id": 660,
     "word": "normal",
     "pos": "n adj",
     "pronunciation": "नोमल",
     "meaningHi": "साधारण, सामान्य",
-    "meaningEn": "usual",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The situation has become normal",
@@ -8696,12 +9046,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 613,
+    "id": 661,
     "word": "object",
     "pos": "n / v",
     "pronunciation": "अॉब्ेक्ट",
     "meaningHi": "पदार्थ, वस्तु | आपत्ति करना, एतराज करना अब्जेक्शन आपत्ति, एतराज",
-    "meaningEn": "thing; to oppose",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The object in the sky looked like a balloon",
@@ -8714,12 +9064,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 614,
+    "id": 662,
     "word": "ocean",
     "pos": "n",
     "pronunciation": "ओशन",
     "meaningHi": "महासागर",
-    "meaningEn": "vast sea",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The Indian Ocean",
@@ -8728,35 +9078,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 615,
+    "id": 663,
     "word": "office",
     "pos": "n",
     "pronunciation": "अॉफ़िस",
     "meaningHi": "कार्यालय अफ़िश्ल सरकारी, शासकीय 134 135 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "workplace",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 616,
+    "id": 664,
     "word": "oil",
     "pos": "n",
     "pronunciation": "अोइल",
-    "meaningHi": "तेल ok ओके ठीक है!",
-    "meaningEn": "liquid fuel",
-    "examples": [
-      {
-        "en": "She is okay now",
-        "hi": "वह अब ठीक है।"
-      }
-    ]
+    "meaningHi": "तेल ok",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 617,
+    "id": 665,
     "word": "partner",
     "pos": "n",
     "pronunciation": "पाट्नर",
     "meaningHi": "साथी, सहयोगी",
-    "meaningEn": "one who shares",
+    "meaningEn": "",
     "examples": [
       {
         "en": "business partner",
@@ -8765,30 +9110,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 618,
+    "id": 666,
     "word": "party",
     "pos": "n",
     "pronunciation": "पाटि",
     "meaningHi": "उत्सव 2 राजनीतिक पार्टीी या दल 3 मंडली 1",
-    "meaningEn": "gathering",
-    "examples": [
-      {
-        "en": "A birthday party",
-        "hi": "जन्मदिन का उत्सव।"
-      },
-      {
-        "en": "China does not allow any political party other than the communist party",
-        "hi": "चीन कम्युनिस्ट पार्टीी के अलावा किसी अन्य राजनीतिक दल की अनुमति नहीं देता।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 619,
+    "id": 667,
     "word": "pattern",
     "pos": "n",
     "pronunciation": "पैटर्न",
     "meaningHi": "नमूना, ढाँचा, डिज़ाइन अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
-    "meaningEn": "repeated design",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The weather pattern is changing",
@@ -8797,12 +9133,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 620,
+    "id": 668,
     "word": "period",
     "pos": "n",
     "pronunciation": "पिअरियड",
     "meaningHi": "अवधि, काल",
-    "meaningEn": "time span",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the ancient period",
@@ -8811,12 +9147,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 621,
+    "id": 669,
     "word": "personal",
     "pos": "adj",
     "pronunciation": "पर्सनल",
     "meaningHi": "व्यक्तिगत",
-    "meaningEn": "private",
+    "meaningEn": "",
     "examples": [
       {
         "en": "my personal views",
@@ -8825,39 +9161,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 622,
+    "id": 670,
     "word": "picture",
     "pos": "n",
     "pronunciation": "पिक्चर",
     "meaningHi": "तसवीर",
-    "meaningEn": "image",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 623,
+    "id": 671,
     "word": "pocket",
     "pos": "n",
     "pronunciation": "पॉकिट",
     "meaningHi": "जेब",
-    "meaningEn": "bag in clothing",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 624,
+    "id": 672,
     "word": "police",
     "pos": "n",
     "pronunciation": "पुलीस",
     "meaningHi": "पुलिस",
-    "meaningEn": "law enforcement",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 625,
+    "id": 673,
     "word": "popular",
     "pos": "adj",
     "pronunciation": "पॉप्ुलर",
     "meaningHi": "लोकप्रिय",
-    "meaningEn": "widely liked",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a popular actor",
@@ -8866,12 +9202,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 626,
+    "id": 674,
     "word": "practise",
     "pos": "v",
     "pronunciation": "प्ैक्टिस",
     "meaningHi": "अभ्यास करना",
-    "meaningEn": "to do regularly; to train",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She is practising yoga these days",
@@ -8880,12 +9216,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 627,
+    "id": 675,
     "word": "proper",
     "pos": "adj",
     "pronunciation": "प्ॉपर",
     "meaningHi": "उचित, उपयुक्त",
-    "meaningEn": "correct",
+    "meaningEn": "",
     "examples": [
       {
         "en": "in proper uniform",
@@ -8894,12 +9230,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 628,
+    "id": 676,
     "word": "quality",
     "pos": "n",
     "pronunciation": "क्वॉलटि",
     "meaningHi": "गुण, गुणवत्ता, विशेषता",
-    "meaningEn": "standard",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Water has one quality, fire has another",
@@ -8908,12 +9244,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 629,
+    "id": 677,
     "word": "range",
     "pos": "n",
     "pronunciation": "रेनज",
     "meaningHi": "एक ही चीज के कई प्रकार, या बहुत सारी अलग- -अलग चीजों का एक विस्तृस्तृत रेंज",
-    "meaningEn": "extent",
+    "meaningEn": "",
     "examples": [
       {
         "en": "This shop has a wide range of dresses",
@@ -8922,12 +9258,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 630,
+    "id": 678,
     "word": "relation",
     "pos": "n",
     "pronunciation": "रिलेशन",
     "meaningHi": "संबंध 2 संबंधी, रिश्तेश्तेदार",
-    "meaningEn": "connection",
+    "meaningEn": "",
     "examples": [
       {
         "en": "My relations with him have soured",
@@ -8940,12 +9276,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 631,
+    "id": 679,
     "word": "remove",
     "pos": "v",
     "pronunciation": "रिमूव",
     "meaningHi": "हटाना",
-    "meaningEn": "to take away",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Would you please remove that chair?",
@@ -8954,12 +9290,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 632,
+    "id": 680,
     "word": "repeat",
     "pos": "v",
     "pronunciation": "रिपीट",
     "meaningHi": "दोहराना, दोबारा कहना या लिखना",
-    "meaningEn": "to redo",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Could you please repeat what you said?",
@@ -8968,12 +9304,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 633,
+    "id": 681,
     "word": "replace",
     "pos": "v",
     "pronunciation": "रिप्ेस",
     "meaningHi": "किसी व्यक्ति या वस्तु का स्ान लेना 2 किसी व्यक्ति या वस्तु का स्ान किसी और को देना",
-    "meaningEn": "to substitute",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I have replaced my old chair with a new one",
@@ -8986,21 +9322,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 634,
+    "id": 682,
     "word": "sea",
     "pos": "n",
     "pronunciation": "सी",
     "meaningHi": "समुद्र",
-    "meaningEn": "salt water body",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 635,
+    "id": 683,
     "word": "search",
     "pos": "v / n",
     "pronunciation": "सर्च",
     "meaningHi": "तलाशना, खोजना | किसी की तलाश सर्च एन्जिन इन्टरनेट पर खोज करने में मदद करने वाले प्रोग्ाम, जैसे गूगल, याहू आदि",
-    "meaningEn": "to look for",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Are you searching for your lost pen?",
@@ -9013,12 +9349,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 636,
+    "id": 684,
     "word": "season",
     "pos": "n",
     "pronunciation": "सीज़न",
     "meaningHi": "मौसम, ऋतु अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "time of year",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There are several seasons in India",
@@ -9027,12 +9363,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 637,
+    "id": 685,
     "word": "secret",
     "pos": "n / adj",
     "pronunciation": "सीक्रेट",
     "meaningHi": "गोपनीय बात, रहस्य | गोपनीय",
-    "meaningEn": "hidden",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I know some of his secrets",
@@ -9045,12 +9381,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 638,
+    "id": 686,
     "word": "section",
     "pos": "n",
     "pronunciation": "सेक्शन",
     "meaningHi": "खंड, भाग",
-    "meaningEn": "part",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He is in section B of class VII",
@@ -9059,12 +9395,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 639,
+    "id": 687,
     "word": "serious",
     "pos": "adj",
     "pronunciation": "सिअरिअस",
     "meaningHi": "गंभीर",
-    "meaningEn": "important",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a serious matter",
@@ -9073,21 +9409,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 640,
+    "id": 688,
     "word": "silver",
     "pos": "n",
     "pronunciation": "सिल्वर",
     "meaningHi": "चाँदी",
-    "meaningEn": "precious metal",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 641,
+    "id": 689,
     "word": "skill",
     "pos": "n",
     "pronunciation": "स््किल",
     "meaningHi": "निपुणता, हुनर, कौशल",
-    "meaningEn": "ability",
+    "meaningEn": "",
     "examples": [
       {
         "en": "cooking skills",
@@ -9096,12 +9432,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 642,
+    "id": 690,
     "word": "space",
     "pos": "n",
     "pronunciation": "स्पेस",
     "meaningHi": "अंतरिक्ष 2 खाली स्ान",
-    "meaningEn": "area",
+    "meaningEn": "",
     "examples": [
       {
         "en": "spacecraft",
@@ -9114,12 +9450,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 643,
+    "id": 691,
     "word": "speed",
     "pos": "n",
     "pronunciation": "स्पीड",
     "meaningHi": "रफ्ार",
-    "meaningEn": "rate",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Speed thrills, but it also kills",
@@ -9128,7 +9464,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 644,
+    "id": 692,
     "word": "sport",
     "pos": "n",
     "pronunciation": "सपोट",
@@ -9137,12 +9473,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 645,
+    "id": 693,
     "word": "square",
     "pos": "adj adv / n",
     "pronunciation": "स्केअर",
     "meaningHi": "वर्गाकार | 1 वर्ग वह आकृति जिसके चारों कोण और चारों रेखाएं बराबर हों 2 चौक",
-    "meaningEn": "four-sided",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a square table",
@@ -9155,12 +9491,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 646,
+    "id": 694,
     "word": "stage",
     "pos": "n",
     "pronunciation": "स्ेज",
     "meaningHi": "मंच",
-    "meaningEn": "phase",
+    "meaningEn": "",
     "examples": [
       {
         "en": "dance stage",
@@ -9169,39 +9505,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 647,
+    "id": 695,
     "word": "standard",
     "pos": "n / adj",
     "pronunciation": "स्ैन्डड",
     "meaningHi": "गुणवत्ता का स्तर 2 कक्षा, क्ास 1",
-    "meaningEn": "level",
+    "meaningEn": "",
     "examples": [
       {
         "en": "standard products",
         "hi": "उत्तम उत्ाद"
-      },
-      {
-        "en": "The standard of education in rural areas is not good",
-        "hi": "ग्रामीण क्षेत्रों में शिक्षाक्षा की गुणवत्ताता का स्तर अच्ा नहीं है।"
       }
     ]
   },
   {
-    "id": 648,
+    "id": 696,
     "word": "stone",
     "pos": "n",
     "pronunciation": "स्ोन",
     "meaningHi": "पत्थर",
-    "meaningEn": "rock",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 649,
+    "id": 697,
     "word": "store",
     "pos": "n / v",
     "pronunciation": "स्ोर",
     "meaningHi": "सामान का भंडार | जमा करना",
-    "meaningEn": "shop",
+    "meaningEn": "",
     "examples": [
       {
         "en": "We have stored enough food grains",
@@ -9210,12 +9542,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 650,
+    "id": 698,
     "word": "surface",
     "pos": "n",
     "pronunciation": "सर्फेेस",
     "meaningHi": "ऊपर की सतह",
-    "meaningEn": "outer layer",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The surface of earth is cooler than its inside",
@@ -9224,12 +9556,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 651,
+    "id": 699,
     "word": "total",
     "pos": "n adj",
     "pronunciation": "टोटल",
     "meaningHi": "पूर्ण, समग्र 2 कुल संख्ा",
-    "meaningEn": "complete",
+    "meaningEn": "",
     "examples": [
       {
         "en": "total revolution",
@@ -9242,12 +9574,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 652,
+    "id": 700,
     "word": "travel",
     "pos": "v",
     "pronunciation": "ट्ैवल",
     "meaningHi": "यात्ा या सफ़र करना",
-    "meaningEn": "to journey",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I travelled to Vietnam the last week",
@@ -9256,21 +9588,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 653,
+    "id": 701,
     "word": "village",
     "pos": "n",
     "pronunciation": "विलिज",
     "meaningHi": "गाँव, ग्ाम",
-    "meaningEn": "small community",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 654,
+    "id": 702,
     "word": "visit",
     "pos": "v",
     "pronunciation": "विज़िट",
     "meaningHi": "किसी स्ान पर जाना, किसी व्यक्ति से मिलने जाना",
-    "meaningEn": "to go see",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I have visited Ladakh",
@@ -9279,21 +9611,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 655,
+    "id": 703,
     "word": "window",
     "pos": "n",
     "pronunciation": "विन्डो",
     "meaningHi": "खिड़की",
-    "meaningEn": "wall opening",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 656,
+    "id": 704,
     "word": "active",
     "pos": "adj",
     "pronunciation": "ऐक्टिव",
     "meaningHi": "सक्रिय",
-    "meaningEn": "engaged in activity; energetic",
+    "meaningEn": "",
     "examples": [
       {
         "en": "an active boy",
@@ -9302,12 +9634,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 657,
+    "id": 705,
     "word": "activity",
     "pos": "n",
     "pronunciation": "ऐक्टिवटी",
-    "meaningHi": "गतिविधि",
-    "meaningEn": "an action; something done",
+    "meaningHi": "गतिविधि, क्रिया",
+    "meaningEn": "",
     "examples": [
       {
         "en": "no activitiy for the last ten days",
@@ -9316,11 +9648,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 658,
+    "id": 706,
     "word": "actually",
     "pos": "adv",
     "pronunciation": "ऐक्ुअलि",
-    "meaningHi": "वास्तव में",
+    "meaningHi": "सचमुच, वास्तव में",
     "meaningEn": "in fact; really",
     "examples": [
       {
@@ -9330,12 +9662,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 659,
+    "id": 707,
     "word": "advantage",
     "pos": "n",
     "pronunciation": "अड्वान्टिज",
     "meaningHi": "सुविधा, फायदा",
-    "meaningEn": "benefit",
+    "meaningEn": "a favorable condition; benefit",
     "examples": [
       {
         "en": "He has the advantage of a library in his neighbourhood",
@@ -9344,12 +9676,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 660,
+    "id": 708,
     "word": "advise",
     "pos": "v",
     "pronunciation": "अड्वाइज़",
     "meaningHi": "सलाह देना",
-    "meaningEn": "to give advice",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I advised him to exercise daily",
@@ -9358,12 +9690,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 661,
+    "id": 709,
     "word": "affect",
     "pos": "v",
     "pronunciation": "अफ़ेक्ट",
     "meaningHi": "प्रभाव डालना",
-    "meaningEn": "to have an effect on",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Pollution affects health",
@@ -9372,12 +9704,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 662,
+    "id": 710,
     "word": "announce",
     "pos": "v",
     "pronunciation": "अनाउंस",
     "meaningHi": "घोषणा करना",
-    "meaningEn": "to declare",
+    "meaningEn": "to make known publicly",
     "examples": [
       {
         "en": "The results have been announced",
@@ -9386,11 +9718,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 663,
+    "id": 711,
     "word": "another",
     "pos": "det",
-    "pronunciation": "अनदर",
-    "meaningHi": "दूसरा",
+    "pronunciation": "कृपया मुझे दूसरी कलम दो।",
+    "meaningHi": "एक और, दूसरा",
     "meaningEn": "one more; a different one",
     "examples": [
       {
@@ -9400,12 +9732,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 664,
+    "id": 712,
     "word": "anyway",
     "pos": "adv",
     "pronunciation": "एनिवे",
     "meaningHi": "किसी-न-किसी प्रकार से एनिवेअ कहीं भी अपाट अलग",
-    "meaningEn": "regardless",
+    "meaningEn": "regardless; in any case",
     "examples": [
       {
         "en": "You won't find such stuff any- where",
@@ -9418,12 +9750,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 665,
+    "id": 713,
     "word": "appeal",
     "pos": "n / v",
     "pronunciation": "अपील",
     "meaningHi": "निवेदन, अपील | निवेदन करना, अपील करना",
-    "meaningEn": "request",
+    "meaningEn": "to make a request; attraction",
     "examples": [
       {
         "en": "The PM has appealed to everybody to maintain peace",
@@ -9432,12 +9764,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 666,
+    "id": 714,
     "word": "apply",
     "pos": "v",
     "pronunciation": "अप्ाइ",
     "meaningHi": "आवेदन देना 2 लागू करना, व्यवहार में लाना",
-    "meaningEn": "to use",
+    "meaningEn": "to put to use; to request",
     "examples": [
       {
         "en": "He applied for a job",
@@ -9450,30 +9782,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 667,
+    "id": 715,
     "word": "approval",
     "pos": "n",
     "pronunciation": "अप्रूवल",
     "meaningHi": "अनुमोदन, स्ीकृति of v अप्रूव 1 अनुमोदित करना 2 समर्थन करना 16 17 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ 1",
-    "meaningEn": "permission",
+    "meaningEn": "agreement; permission",
     "examples": [
       {
         "en": "Approval is awaited",
         "hi": "अनुमोदन का इंतजार है।"
-      },
-      {
-        "en": "My leave has been approved",
-        "hi": "मेरी छुट्ी अनुमोदित हो गई है।"
       }
     ]
   },
   {
-    "id": 668,
+    "id": 716,
     "word": "argue",
     "pos": "v",
     "pronunciation": "आग्यु",
     "meaningHi": "तर्क-वितर्क करना, बहस करना",
-    "meaningEn": "to debate",
+    "meaningEn": "to give reasons for or against",
     "examples": [
       {
         "en": "He argued well in the court",
@@ -9482,12 +9810,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 669,
+    "id": 717,
     "word": "argument",
     "pos": "n",
     "pronunciation": "आग्युमंट",
     "meaningHi": "तर्क, दलील, बहस",
-    "meaningEn": "debate",
+    "meaningEn": "a disagreement; a reason",
     "examples": [
       {
         "en": "There are many arguments in favour of God's existence",
@@ -9496,30 +9824,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 670,
+    "id": 718,
     "word": "arrange",
     "pos": "v",
     "pronunciation": "अरेंज",
     "meaningHi": "व्यवस्थित करना, चीजों को उचित जगह पर लगाना 2 इंतजाम करना 1",
-    "meaningEn": "to organize",
-    "examples": [
-      {
-        "en": "I am arranging my books",
-        "hi": "मैं अपनी किताबें व्यवस्थित कर रहा हँ।"
-      },
-      {
-        "en": "I will arrange for a good dinner",
-        "hi": "मैं एक अच्े रात्रिभोज का इंतजाम करूँगा।"
-      }
-    ]
+    "meaningEn": "to put in order",
+    "examples": []
   },
   {
-    "id": 671,
+    "id": 719,
     "word": "arrival",
     "pos": "n",
     "pronunciation": "अराइवल",
     "meaningHi": "आगमन",
-    "meaningEn": "coming",
+    "meaningEn": "the act of arriving",
     "examples": [
       {
         "en": "The train's arrival time is 6 p.m.",
@@ -9528,12 +9847,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 672,
+    "id": 720,
     "word": "arrive",
     "pos": "v",
     "pronunciation": "अराइव",
-    "meaningHi": "पहुँचना",
-    "meaningEn": "to reach",
+    "meaningHi": "पहुँचना, आ जाना",
+    "meaningEn": "to reach a destination",
     "examples": [
       {
         "en": "The train has arrived",
@@ -9542,30 +9861,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 673,
+    "id": 721,
     "word": "artist",
     "pos": "n",
     "pronunciation": "आटिस्ट",
     "meaningHi": "कलाकार आर्य समाज स्ामी दयानंद द्ारा स्थापित, वेदों पर आधारित हिंदू-धर्म का एक संप्रदाय as ऐज़, अज़ 1 जैसा 2 के जैसा, के समान 3 चूँकि, कोंकि 4 के रूप",
-    "meaningEn": "creator",
+    "meaningEn": "a person who creates art",
     "examples": [
       {
         "en": "Raphael and Leonardo da Vinci were all time great artists",
         "hi": "रैफ़ेअल और लिअनारदो दविन्ी महान सार्वकालिक कलाकार थे।"
-      },
-      {
-        "en": "As you sow, so you reap",
-        "hi": "जैसा बोओगे, वैसा काटोगे।"
       }
     ]
   },
   {
-    "id": 674,
+    "id": 722,
     "word": "attempt",
     "pos": "n / v",
     "pronunciation": "अटेम्ट",
     "meaningHi": "प्रयत्न, प्रयास, कोशिश | प्रयास करना, कोशिश करना",
-    "meaningEn": "try",
+    "meaningEn": "to try; an effort",
     "examples": [
       {
         "en": "a good attempt",
@@ -9578,12 +9893,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 675,
+    "id": 723,
     "word": "attract",
     "pos": "v",
     "pronunciation": "अट्ैक्ट",
     "meaningHi": "आकर्षित करना अट्ैक्टिव आकर्षक",
-    "meaningEn": "to draw",
+    "meaningEn": "to draw toward",
     "examples": [
       {
         "en": "Music attracts me",
@@ -9596,12 +9911,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 676,
+    "id": 724,
     "word": "audience",
     "pos": "n",
     "pronunciation": "ओडियंस",
     "meaningHi": "सुनने वाले, श्ोता",
-    "meaningEn": "spectators",
+    "meaningEn": "people watching or listening",
     "examples": [
       {
         "en": "The Internet provides a worldwide audience",
@@ -9610,30 +9925,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 677,
+    "id": 725,
     "word": "authority",
     "pos": "n",
     "pronunciation": "अथोरटि",
     "meaningHi": "अधिकार 2 अधिकार रखने वाली संस्ा या व्यक्ति 1",
-    "meaningEn": "power",
-    "examples": [
-      {
-        "en": "The police have no authority to hang a criminal",
-        "hi": "पुलिस के पास अपराधी को फाँसी देने का अधिकार नहीं है।"
-      },
-      {
-        "en": "Delhi Development Authority",
-        "hi": "दिल्ी के विकास के लिए जिम्ेदार संस्था।"
-      }
-    ]
+    "meaningEn": "power to command",
+    "examples": []
   },
   {
-    "id": 678,
+    "id": 726,
     "word": "avoid",
     "pos": "v",
     "pronunciation": "अवोइड",
     "meaningHi": "से बचना, दरकिनार करना",
-    "meaningEn": "to evade",
+    "meaningEn": "to stay away from",
     "examples": [
       {
         "en": "Avoid cold water",
@@ -9642,7 +9948,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 679,
+    "id": 727,
     "word": "bad",
     "pos": "adj",
     "pronunciation": "बैड",
@@ -9656,12 +9962,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 680,
+    "id": 728,
     "word": "badly",
     "pos": "adv",
     "pronunciation": "बैड्लि",
     "meaningHi": "बुरी तरह, गंभीर रूप से",
-    "meaningEn": "poorly",
+    "meaningEn": "in a bad manner",
     "examples": [
       {
         "en": "badly injured",
@@ -9670,12 +9976,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 681,
+    "id": 729,
     "word": "bag",
     "pos": "n / v",
     "pronunciation": "बैग",
     "meaningHi": "थैला | हासिल करना",
-    "meaningEn": "container",
+    "meaningEn": "a container for carrying",
     "examples": [
       {
         "en": "Discard polythene bags",
@@ -9688,12 +9994,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 682,
+    "id": 730,
     "word": "bar",
     "pos": "n",
-    "pronunciation": "बार",
-    "meaningHi": "शराबखाना 2 वकीलों का समूह 3 रोक 4 टिकिया 5 डंडा",
-    "meaningEn": "rod; counter",
+    "pronunciation": "",
+    "meaningHi": "बार 1 शराबखाना 2 वकीलों का समूह 3 रोक 4 टिकिया 5 डंडा",
+    "meaningEn": "a rod; a counter",
     "examples": [
       {
         "en": "bar on gatherings",
@@ -9706,12 +10012,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 683,
+    "id": 731,
     "word": "basic",
     "pos": "adj",
-    "pronunciation": "बेइसिक",
-    "meaningHi": "बेसिक, बुनियादी, आधारभूत",
-    "meaningEn": "fundamental",
+    "pronunciation": "बेसिक,",
+    "meaningHi": "बेइसिक बुनियादी, आधारभूत",
+    "meaningEn": "fundamental; essential",
     "examples": [
       {
         "en": "We should all have the basic knowledge of civilised behaviour",
@@ -9720,12 +10026,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 684,
+    "id": 732,
     "word": "basically",
     "pos": "adv",
     "pronunciation": "बेसिक्ी",
     "meaningHi": "मूल रूप से",
-    "meaningEn": "essentially",
+    "meaningEn": "fundamentally",
     "examples": [
       {
         "en": "Man is basically good",
@@ -9734,12 +10040,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 685,
+    "id": 733,
     "word": "basis",
     "pos": "n",
     "pronunciation": "बेसिस",
     "meaningHi": "आधार, नींव",
-    "meaningEn": "foundation",
+    "meaningEn": "foundation; main reason",
     "examples": [
       {
         "en": "What is the basis of your allegation?",
@@ -9748,12 +10054,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 686,
+    "id": 734,
     "word": "bathe",
     "pos": "v",
     "pronunciation": "बेद",
     "meaningHi": "नहाना",
-    "meaningEn": "to wash",
+    "meaningEn": "to wash the body",
     "examples": [
       {
         "en": "Bathing in a river is enjoyable",
@@ -9762,11 +10068,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 687,
+    "id": 735,
     "word": "because",
     "pos": "conj",
     "pronunciation": "बिकॉज़",
-    "meaningHi": "कोंकि",
+    "meaningHi": "क्योंकि",
     "meaningEn": "for the reason that",
     "examples": [
       {
@@ -9776,12 +10082,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 688,
+    "id": 736,
     "word": "beginning",
     "pos": "n",
     "pronunciation": "बिगिनिंग",
     "meaningHi": "आरंभ, शुरुआत",
-    "meaningEn": "the start; the first part",
+    "meaningEn": "the start",
     "examples": [
       {
         "en": "a good beginning",
@@ -9790,7 +10096,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 689,
+    "id": 737,
     "word": "beneath",
     "pos": "prep",
     "pronunciation": "बिनीथ",
@@ -9804,12 +10110,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 690,
+    "id": 738,
     "word": "benefit",
     "pos": "n / v",
     "pronunciation": "बेनफ़िट",
     "meaningHi": "लाभ, फायदा | लाभ उठाना; लाभ प्रदान करना",
-    "meaningEn": "an advantage; to gain from",
+    "meaningEn": "an advantage",
     "examples": [
       {
         "en": "There are immense benefits of a vegetarian diet",
@@ -9822,7 +10128,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 691,
+    "id": 739,
     "word": "beside",
     "pos": "prep",
     "pronunciation": "बिसाइड",
@@ -9836,12 +10142,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 692,
+    "id": 740,
     "word": "bet",
     "pos": "n / v",
     "pronunciation": "बेट",
     "meaningHi": "दाँव, बाजी | शर्त लगाना",
-    "meaningEn": "to risk money on an outcome",
+    "meaningEn": "to risk money on outcome",
     "examples": [
       {
         "en": "Who lost the bet?",
@@ -9854,11 +10160,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 693,
+    "id": 741,
     "word": "bit",
     "pos": "n",
     "pronunciation": "बिट",
-    "meaningHi": "थोड़ा, हलका-सा",
+    "meaningHi": "थोड़ा, ज़रा-सा",
     "meaningEn": "a small piece or amount",
     "examples": [
       {
@@ -9868,12 +10174,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 694,
+    "id": 742,
     "word": "block",
     "pos": "n / v",
     "pronunciation": "ब्ौक",
     "meaningHi": "भवनखंड 2 धातु या पत्थर आदि का बड़ा और भारी खंड | रोकना, बाधित करना",
-    "meaningEn": "to prevent; a solid piece",
+    "meaningEn": "a solid piece; to obstruct",
     "examples": [
       {
         "en": "Huge blocks of ice can be found in the Ganges where the river begins",
@@ -9886,21 +10192,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 695,
+    "id": 743,
     "word": "bored",
     "pos": "adj",
     "pronunciation": "बोड",
     "meaningHi": "ऊबा हुआ",
-    "meaningEn": "feeling weary from lack of interest",
+    "meaningEn": "weary from lack of interest",
     "examples": []
   },
   {
-    "id": 696,
+    "id": 744,
     "word": "boring",
     "pos": "adj",
     "pronunciation": "बोरिंग",
     "meaningHi": "उबाऊ : be",
-    "meaningEn": "not interesting; dull",
+    "meaningEn": "not interesting",
     "examples": [
       {
         "en": "a boring film",
@@ -9909,7 +10215,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 697,
+    "id": 745,
     "word": "borrow",
     "pos": "v",
     "pronunciation": "",
@@ -9923,21 +10229,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 698,
+    "id": 746,
     "word": "bother",
     "pos": "v",
-    "pronunciation": "बौदर",
-    "meaningHi": "परेशान करना 28 29 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to annoy; to make an effort",
-    "examples": [
-      {
-        "en": "He keeps bothering me",
-        "hi": "वह मुझे परेशान करता रहता है।"
-      }
-    ]
+    "pronunciation": "वह मुझे परेशान करता रहता है।",
+    "meaningHi": "अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "to annoy",
+    "examples": []
   },
   {
-    "id": 699,
+    "id": 747,
     "word": "bottom",
     "pos": "n",
     "pronunciation": "बौटम",
@@ -9947,34 +10248,29 @@ export const vocabWords: VocabWord[] =
       {
         "en": "The bottom of the well was visible",
         "hi": "कुआँ का तल दिखाई पड़ रहा था।"
+      },
+      {
+        "en": "The bottom of the well was visible",
+        "hi": "कुआँ का तल दिखाई पड़ रहा था।"
       }
     ]
   },
   {
-    "id": 700,
+    "id": 748,
     "word": "bound",
     "pos": "adj",
     "pronunciation": "बाउंड",
     "meaningHi": "बाध्य होना 2 निश्चित रूप से होना 1",
-    "meaningEn": "heading for; limited by",
-    "examples": [
-      {
-        "en": "Bhishm Pitamah was bound by his promise",
-        "hi": "भीष्म पितामह अपनी प्रतिज्ा से बँधे हुए थे।"
-      },
-      {
-        "en": "One who works hard is bound to succeed",
-        "hi": "वह जो कड़ी मेहनत करता है निश्चित रूप से सफल होता है।"
-      }
-    ]
+    "meaningEn": "tied; heading for",
+    "examples": []
   },
   {
-    "id": 701,
+    "id": 749,
     "word": "branch",
     "pos": "n",
     "pronunciation": "बांच",
     "meaningHi": "टहनी, शाखा",
-    "meaningEn": "a division; a part of a tree",
+    "meaningEn": "part of a tree; a division",
     "examples": [
       {
         "en": "Ethics is a branch of philosophy",
@@ -9983,12 +10279,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 702,
+    "id": 750,
     "word": "breakfast",
     "pos": "n",
     "pronunciation": "ब्ेकफ़स्ट",
     "meaningHi": "सुबह का नाश्ता",
-    "meaningEn": "morning meal",
+    "meaningEn": "first meal of the day",
     "examples": [
       {
         "en": "I had my breakfast just now",
@@ -9997,21 +10293,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 703,
+    "id": 751,
     "word": "bridge",
     "pos": "n",
     "pronunciation": "ब्रिज",
     "meaningHi": "सेतु, पुल",
-    "meaningEn": "a structure crossing a gap",
+    "meaningEn": "structure over a gap",
     "examples": []
   },
   {
-    "id": 704,
+    "id": 752,
     "word": "brief",
     "pos": "adj",
     "pronunciation": "ब्ीफ़",
     "meaningHi": "संक्षिप्त; अल्पकालिक",
-    "meaningEn": "short; lasting a short time",
+    "meaningEn": "short; concise",
     "examples": [
       {
         "en": "a brief meeting",
@@ -10020,12 +10316,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 705,
+    "id": 753,
     "word": "broad",
     "pos": "adj",
     "pronunciation": "ब्रॉड",
     "meaningHi": "चौड़ा 2 सामान्य, संक्षिप्त",
-    "meaningEn": "wide",
+    "meaningEn": "wide; extensive",
     "examples": [
       {
         "en": "a broad description of the event",
@@ -10034,12 +10330,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 706,
+    "id": 754,
     "word": "broken",
     "pos": "adj",
     "pronunciation": "ब्ोकन",
     "meaningHi": "टूटा हुआ",
-    "meaningEn": "damaged; not whole",
+    "meaningEn": "damaged",
     "examples": [
       {
         "en": "a broken glass",
@@ -10048,12 +10344,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 707,
+    "id": 755,
     "word": "brush",
     "pos": "n / v",
     "pronunciation": "ब्रश",
     "meaningHi": "ब्रश, कूची | ब्रश से साफ करना",
-    "meaningEn": "a tool with bristles",
+    "meaningEn": "tool for cleaning",
     "examples": [
       {
         "en": "tooth brush - दाँत साफ करने का ब्रश; painting brush",
@@ -10066,12 +10362,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 708,
+    "id": 756,
     "word": "building",
     "pos": "n",
     "pronunciation": "बिल्ड्डंग",
     "meaningHi": "मकान,भवन",
-    "meaningEn": "a structure with walls and roof",
+    "meaningEn": "a structure with walls",
     "examples": [
       {
         "en": "a big building",
@@ -10080,7 +10376,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 709,
+    "id": 757,
     "word": "burst",
     "pos": "v",
     "pronunciation": "बर्स्ट",
@@ -10094,21 +10390,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 710,
+    "id": 758,
     "word": "butter",
     "pos": "n",
-    "pronunciation": "बटर",
-    "meaningHi": "मक्खन",
-    "meaningEn": "a dairy spread",
+    "pronunciation": "मक्खन",
+    "meaningHi": "",
+    "meaningEn": "dairy spread",
     "examples": []
   },
   {
-    "id": 711,
+    "id": 759,
     "word": "capital",
     "pos": "n / adj",
     "pronunciation": "कैपिटल",
-    "meaningHi": "राजधानी 2 पूँजी धन | 1 बड़े रूप में लिखे गए {अक्षर} 2 सबसे बड़ा",
-    "meaningEn": "chief city; wealth; uppercase letter",
+    "meaningHi": "राजधानी 2 पूँजी (धन)",
+    "meaningEn": "chief city; wealth",
     "examples": [
       {
         "en": "I have no capital to start a business",
@@ -10121,12 +10417,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 712,
+    "id": 760,
     "word": "careful",
     "pos": "adj",
     "pronunciation": "केअफ़ल",
     "meaningHi": "सावधान, सतर्क",
-    "meaningEn": "taking care; cautious",
+    "meaningEn": "taking care",
     "examples": [
       {
         "en": "Be careful",
@@ -10135,12 +10431,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 713,
+    "id": 761,
     "word": "century",
     "pos": "n",
     "pronunciation": "सेन्चरि",
     "meaningHi": "शताब्दी, सदी सौ वर्ष 2 {क्रिकेट में} शतक या सौ रन",
-    "meaningEn": "100 years",
+    "meaningEn": "a period of 100 years",
     "examples": [
       {
         "en": "The 21st century",
@@ -10153,12 +10449,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 714,
+    "id": 762,
     "word": "certainly",
     "pos": "adv",
     "pronunciation": "सट्न्लि",
     "meaningHi": "निश्चित रूप से, जरूर 34 35 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "without doubt; definitely",
+    "meaningEn": "without doubt",
     "examples": [
       {
         "en": "I will certainly come",
@@ -10167,25 +10463,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 715,
+    "id": 763,
     "word": "charge",
     "pos": "n / v",
     "pronunciation": "चाज",
-    "meaningHi": "मूल्य, शुल्क 2 आरोप 3 कार्यभार, जिम्ेदारी 4 विद्युद्युत की मात्ा 1 ? - होटल के इस कमरे का शुल्क क्ा है? 2 ? - उसके खिलाफ आरोप क्ा हैं? 3",
-    "meaningEn": "to ask a price; to accuse",
+    "meaningHi": "मूल्य, शुल्क 2 आरोप 3 कार्यभार, जिम्ेदारी 4 विद्युद्युत की मात्ा 1 What are the charges for this hotel room? - होटल के इस कमरे का शुल्क क्ा है? 2 What are the charges against him? - उसके खिलाफ आरोप…",
+    "meaningEn": "to ask a price",
     "examples": [
       {
         "en": "Every company needs a good chartered accountant for audit of its accounts",
         "hi": "हर कंपनी को लेखा-परीक्षण के लिए एक अच्े चार्टर्ड अकाउंटंट की जरूरत होती है।"
       },
       {
-        "en": "He assumed charge of the Army Chief",
-        "hi": "उनोंने सेनाप्रमुख का कार्यभार सँभाला।"
+        "en": "What are the charges for this hotel room?",
+        "hi": "होटल के इस कमरे का शुल्क क्ा है?"
       }
     ]
   },
   {
-    "id": 716,
+    "id": 764,
     "word": "chase",
     "pos": "v",
     "pronunciation": "चेस",
@@ -10195,29 +10491,25 @@ export const vocabWords: VocabWord[] =
       {
         "en": "The police chased the criminal - पुलिस ने अपराधी का पीछा किया; Great men chase their dreams",
         "hi": "महान लोग अपने सपनों के पीछे लग जाते हैं।"
-      },
-      {
-        "en": "The police chased the criminal",
-        "hi": "पुलिस ने अपराधी का पीछा किया; Great men chase their dreams - महान लोग अपने सपनों के पीछे लग जाते हैं।"
       }
     ]
   },
   {
-    "id": 717,
+    "id": 765,
     "word": "cheap",
     "pos": "adj",
     "pronunciation": "चीप",
     "meaningHi": "सस्ता, कम कीमत का",
-    "meaningEn": "low-priced; inexpensive",
+    "meaningEn": "low in price",
     "examples": []
   },
   {
-    "id": 718,
+    "id": 766,
     "word": "check",
     "pos": "n / v",
     "pronunciation": "चेक",
     "meaningHi": "जाँच, परीक्षण 2 रोकथाम | 1 जाँच करना 2 मालूम करना 3 रोकथाम करना",
-    "meaningEn": "to examine; to verify",
+    "meaningEn": "to examine",
     "examples": [
       {
         "en": "health check up",
@@ -10230,11 +10522,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 719,
+    "id": 767,
     "word": "chief",
     "pos": "n / adj",
     "pronunciation": "चीफ़",
-    "meaningHi": "प्रधान, प्रमुख व्यक्ति | मुख्य",
+    "meaningHi": "प्रधान, प्रमुख व्यक्ति",
     "meaningEn": "leader; most important",
     "examples": [
       {
@@ -10248,21 +10540,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 720,
+    "id": 768,
     "word": "classroom",
     "pos": "n",
     "pronunciation": "क्ासरुम",
     "meaningHi": "कक्षा, क्ासरूम",
-    "meaningEn": "teaching room",
+    "meaningEn": "room for teaching",
     "examples": []
   },
   {
-    "id": 721,
+    "id": 769,
     "word": "climb",
     "pos": "v",
     "pronunciation": "क्ाइम",
     "meaningHi": "ऊपर चढ़ना",
-    "meaningEn": "to go up",
+    "meaningEn": "to go upward",
     "examples": [
       {
         "en": "climb a mountain",
@@ -10271,30 +10563,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 722,
+    "id": 770,
     "word": "clothes",
     "pos": "n",
     "pronunciation": "खरीदना",
-    "meaningHi": "क्ोद्ज़ कपड़े buy new नए कपड़े",
+    "meaningHi": "",
     "meaningEn": "garments",
     "examples": []
   },
   {
-    "id": 723,
+    "id": 771,
     "word": "coffee",
     "pos": "n",
     "pronunciation": "कौफ़ि",
     "meaningHi": "कौफी पीने का एक गरम पेय",
-    "meaningEn": "a beverage",
+    "meaningEn": "a hot beverage",
     "examples": []
   },
   {
-    "id": 724,
+    "id": 772,
     "word": "collection",
     "pos": "n",
     "pronunciation": "कलेक्शन",
     "meaningHi": "संग्रह",
-    "meaningEn": "a gathered group of things",
+    "meaningEn": "gathered group",
     "examples": [
       {
         "en": "a nice collection of books",
@@ -10303,12 +10595,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 725,
+    "id": 773,
     "word": "combine",
     "pos": "v",
     "pronunciation": "कम्ाइन",
     "meaningHi": "दो या अधिक वस्तुओं का जोड़ना या मिलाना/मिलना",
-    "meaningEn": "to merge",
+    "meaningEn": "to join together",
     "examples": [
       {
         "en": "Great achievements are produced by combining planning, patience and hard work",
@@ -10317,29 +10609,29 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 726,
+    "id": 774,
     "word": "command",
     "pos": "n / v",
     "pronunciation": "है।",
-    "meaningHi": "कमान्ड आदेश",
+    "meaningHi": "| कमान्ड आदेश देना",
     "meaningEn": "an order",
     "examples": [
       {
-        "en": "Your wish is like command for me",
-        "hi": "तुम्ारी इच्ा मेरे लिए आदेश-जैसी | कमान्ड आदेश देना (The soldiers were commanded to shoot at sight - सैनिकों"
+        "en": "The soldiers were commanded to shoot at sight",
+        "hi": "सैनिकों को यह आदेश था कि वे देखते ही गोली मार दें।"
       }
     ]
   },
   {
-    "id": 727,
+    "id": 775,
     "word": "comment",
     "pos": "n / v",
     "pronunciation": "की।",
-    "meaningHi": "कौमेन्ट टिप्पणी कमर्शल व्यापारिक",
+    "meaningHi": "| टिप्पणी करना कमर्शल व्यापारिक",
     "meaningEn": "a remark",
     "examples": [
       {
-        "en": "He passed a comment on my dress - उसने मेरी पोशाक पर एक टिप्पणी | टिप्पणी करना (He commented on my new hairstyle",
+        "en": "He commented on my new hairstyle",
         "hi": "उसने मेरे बालों की नई शैली पर टिप्पणी की।"
       },
       {
@@ -10349,12 +10641,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 728,
+    "id": 776,
     "word": "common",
     "pos": "adj",
     "pronunciation": "कॉमन",
-    "meaningHi": "सामान्य एक समूह की सभी वस्तुओं या व्यक्तियों में पाई जाने वाली चीज या गुण 2 साधारण, आम अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "ordinary",
+    "meaningHi": "सामान्य; साझा",
+    "meaningEn": "frequent; shared; ordinary",
     "examples": [
       {
         "en": "common sense",
@@ -10367,7 +10659,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 729,
+    "id": 777,
     "word": "complain",
     "pos": "v",
     "pronunciation": "कम्प्ेन",
@@ -10381,12 +10673,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 730,
+    "id": 778,
     "word": "complaint",
     "pos": "n",
     "pronunciation": "कम्प्ेन्ट",
     "meaningHi": "शिकायत 42 43 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a grievance",
+    "meaningEn": "expression of dissatisfaction",
     "examples": [
       {
         "en": "He lodged a complaint with the police",
@@ -10395,7 +10687,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 731,
+    "id": 779,
     "word": "concept",
     "pos": "n",
     "pronunciation": "कॉन्सेप्ट",
@@ -10409,12 +10701,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 732,
+    "id": 780,
     "word": "conclusion",
     "pos": "n",
     "pronunciation": "कन्क्ूशज़न",
     "meaningHi": "निष्कर्ष",
-    "meaningEn": "the end",
+    "meaningEn": "the end; a decision",
     "examples": [
       {
         "en": "What is the conclusion, then?",
@@ -10423,7 +10715,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 733,
+    "id": 781,
     "word": "confuse",
     "pos": "v",
     "pronunciation": "कन्फ़यूज़",
@@ -10437,7 +10729,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 734,
+    "id": 782,
     "word": "confused",
     "pos": "adj",
     "pronunciation": "कन्फ़यूज़्ड",
@@ -10451,12 +10743,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 735,
+    "id": 783,
     "word": "congratulate",
     "pos": "v",
     "pronunciation": "कन्ग्ैचुलेट",
     "meaningHi": "बधाई देना",
-    "meaningEn": "to express pleasure at success",
+    "meaningEn": "to express joy at success",
     "examples": [
       {
         "en": "I congratulated him on his exam results",
@@ -10465,7 +10757,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 736,
+    "id": 784,
     "word": "connected",
     "pos": "adj",
     "pronunciation": "कनेक़्टिड",
@@ -10479,12 +10771,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 737,
+    "id": 785,
     "word": "constantly",
     "pos": "adv",
     "pronunciation": "कॉन्सटन्ट्लि",
     "meaningHi": "निरंतर, सदा",
-    "meaningEn": "always",
+    "meaningEn": "continuously",
     "examples": [
       {
         "en": "He is constantly under stress",
@@ -10493,12 +10785,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 738,
+    "id": 786,
     "word": "contain",
     "pos": "v",
     "pronunciation": "कन्ेन",
     "meaningHi": "में, अंदर कुछ होना, रहना या रखना",
-    "meaningEn": "to hold",
+    "meaningEn": "to hold within",
     "examples": [
       {
         "en": "This pot contains drinking water",
@@ -10507,12 +10799,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 739,
+    "id": 787,
     "word": "contrast",
     "pos": "n",
     "pronunciation": "कॉन्ट्रास्ट",
     "meaningHi": "भेद, अंतर",
-    "meaningEn": "difference",
+    "meaningEn": "difference; to compare",
     "examples": [
       {
         "en": "There is a sharp contrast between the two sisters",
@@ -10521,12 +10813,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 740,
+    "id": 788,
     "word": "contribute",
     "pos": "v",
     "pronunciation": "कन्ट्रिब्यूट",
     "meaningHi": "सहयोग देना, योगदान देना",
-    "meaningEn": "to add",
+    "meaningEn": "to give; add to",
     "examples": [
       {
         "en": "Good books may immensely contribute to our growth",
@@ -10535,7 +10827,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 741,
+    "id": 789,
     "word": "convenient",
     "pos": "adj",
     "pronunciation": "कनवीनिअन्ट",
@@ -10549,7 +10841,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 742,
+    "id": 790,
     "word": "convince",
     "pos": "v",
     "pronunciation": "कन्विन्स",
@@ -10563,12 +10855,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 743,
+    "id": 791,
     "word": "convinced",
     "pos": "adj",
     "pronunciation": "कन्विन्स्ट",
     "meaningHi": "किसी विषय में पूर्णत: आश्वस्त कि यह ठीक है",
-    "meaningEn": "sure",
+    "meaningEn": "firmly believing",
     "examples": [
       {
         "en": "I am convinced that there is life elsewhere in the universe too",
@@ -10577,26 +10869,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 744,
+    "id": 792,
     "word": "corner",
     "pos": "v",
     "pronunciation": "कॉर्नर",
     "meaningHi": "कोना",
-    "meaningEn": "where edges meet",
+    "meaningEn": "a point where edges meet",
     "examples": [
       {
-        "en": "corner-table",
-        "hi": "कोने का टेबुल"
+        "en": "corner",
+        "hi": "table - कोने का टेबुल"
       }
     ]
   },
   {
-    "id": 745,
+    "id": 793,
     "word": "correction",
     "pos": "n",
     "pronunciation": "करेक्शन",
     "meaningHi": "सुधारकार्य, त्रुटिशोधन",
-    "meaningEn": "a fix",
+    "meaningEn": "fixing an error",
     "examples": [
       {
         "en": "I am making a few corrections in my book",
@@ -10605,12 +10897,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 746,
+    "id": 794,
     "word": "cough",
     "pos": "n / v",
     "pronunciation": "कॉफ़",
     "meaningHi": "खाँसी | खाँसना",
-    "meaningEn": "to expel air from lungs noisily",
+    "meaningEn": "to expel air noisily",
     "examples": [
       {
         "en": "She has got a bad cough",
@@ -10623,12 +10915,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 747,
+    "id": 795,
     "word": "count",
     "pos": "v",
     "pronunciation": "काउन्ट",
-    "meaningHi": "गिनना, गिनती करना",
-    "meaningEn": "to number",
+    "meaningHi": "गिनती करना; मायने रखना",
+    "meaningEn": "to number; to matter",
     "examples": [
       {
         "en": "My child can count up to 10",
@@ -10637,12 +10929,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 748,
+    "id": 796,
     "word": "covered",
     "pos": "adj",
     "pronunciation": "कवड",
     "meaningHi": "ढँका हुआ CPU",
-    "meaningEn": "having a cover; hidden",
+    "meaningEn": "",
     "examples": [
       {
         "en": "snow-covered mountains",
@@ -10651,12 +10943,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 749,
+    "id": 797,
     "word": "crash",
     "pos": "n / v",
     "pronunciation": "क्रैश",
     "meaningHi": "धमाके से गिरने की घटना 2 टक्कर 3 व्यापार या मूल्य में अचानक गिरावट | 1 जोर से टकराना 2 धमाके के साथ गिरना",
-    "meaningEn": "a collision",
+    "meaningEn": "violent collision",
     "examples": [
       {
         "en": "plane",
@@ -10669,12 +10961,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 750,
+    "id": 798,
     "word": "crazy",
     "pos": "adj",
     "pronunciation": "क्ेज़ि",
     "meaningHi": "सनकी, मूर्ख 50 51 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "wild",
+    "meaningEn": "insane; enthusiastic",
     "examples": [
       {
         "en": "What a crazy idea!",
@@ -10683,12 +10975,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 751,
+    "id": 799,
     "word": "crisis",
     "pos": "n",
     "pronunciation": "क्ाइसिस",
     "meaningHi": "गंभीर कमी 2 संकट, विपत्ति क्रिटिकल थिंकिंग आलोचनात्मक चिंतन",
-    "meaningEn": "critical time",
+    "meaningEn": "time of difficulty",
     "examples": [
       {
         "en": "The crisis is over",
@@ -10701,12 +10993,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 752,
+    "id": 800,
     "word": "criticise",
     "pos": "v",
     "pronunciation": "क्रिटिसाइज़",
     "meaningHi": "आलोचना करना, गलतियाँ निकालना",
-    "meaningEn": "to express disapproval",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Understand well before criticising",
@@ -10715,12 +11007,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 753,
+    "id": 801,
     "word": "criticism",
     "pos": "n",
     "pronunciation": "क्रिटिसिज़म",
     "meaningHi": "आलोचना",
-    "meaningEn": "disapproval",
+    "meaningEn": "expression of disapproval",
     "examples": [
       {
         "en": "Tolerating criticism is a mark of democracy",
@@ -10729,7 +11021,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 754,
+    "id": 802,
     "word": "curious",
     "pos": "adj",
     "pronunciation": "क्ुअरिअस",
@@ -10743,12 +11035,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 755,
+    "id": 803,
     "word": "custom",
     "pos": "n",
     "pronunciation": "कस्टम",
     "meaningHi": "प्रथा, रीति-रिवाज़",
-    "meaningEn": "a tradition",
+    "meaningEn": "traditional practice",
     "examples": [
       {
         "en": "Good customs should be followed, bad ones discarded",
@@ -10757,7 +11049,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 756,
+    "id": 804,
     "word": "damage",
     "pos": "n",
     "pronunciation": "डैमिज",
@@ -10771,12 +11063,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 757,
+    "id": 805,
     "word": "dance",
     "pos": "n / v",
     "pronunciation": "डान्स",
     "meaningHi": "नाच, नृत्य | नाचना, नृत्य करना",
-    "meaningEn": "rhythmic movement",
+    "meaningEn": "to move to music",
     "examples": [
       {
         "en": "Dance is a form of art",
@@ -10789,12 +11081,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 758,
+    "id": 806,
     "word": "declaration",
     "pos": "n",
     "pronunciation": "डेक्लरेशन",
     "meaningHi": "घोषणा",
-    "meaningEn": "formal announcement",
+    "meaningEn": "",
     "examples": [
       {
         "en": "declaration of independence",
@@ -10803,12 +11095,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 759,
+    "id": 807,
     "word": "declare",
     "pos": "v",
     "pronunciation": "डिक्ेअर",
     "meaningHi": "सार्वजनिक और आधिकारिक रूप से घोषित करना",
-    "meaningEn": "to announce",
+    "meaningEn": "to announce officially",
     "examples": [
       {
         "en": "India was declared free in 1947",
@@ -10817,25 +11109,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 760,
+    "id": 808,
     "word": "degree",
     "pos": "n",
     "pronunciation": "डिग्ी",
     "meaningHi": "डिग्ी तापमान को मापने की इकाई का स्तर 2 उपाधि 3 स्तर 1 33",
     "meaningEn": "a unit; qualification",
-    "examples": [
-      {
-        "en": "He has got the bachelor's degree",
-        "hi": "उसे स्ातकीय (बी."
-      },
-      {
-        "en": "I have a high degree of regard for him",
-        "hi": "मेरे अंदर उनके लिए ऊँचे स्तर का आदर है।"
-      }
-    ]
+    "examples": []
   },
   {
-    "id": 761,
+    "id": 809,
     "word": "deliberate",
     "pos": "adj",
     "pronunciation": "डिलिबरट",
@@ -10849,7 +11132,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 762,
+    "id": 810,
     "word": "delicate",
     "pos": "adj",
     "pronunciation": "डेलिकट",
@@ -10863,62 +11146,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 763,
+    "id": 811,
     "word": "deliver",
     "pos": "v",
     "pronunciation": "डिलिवर",
     "meaningHi": "निर्दिष्ट ठिकाने या पते पर सामान, पत्र आदि पहुँचाना 2 बच्ा पैदा कर देना 3 कोई निश्चित परिणाम सफलतापूर्वक देना 1",
-    "meaningEn": "to bring",
-    "examples": [
-      {
-        "en": "The letter was delivered at the correct address",
-        "hi": "चिट्ी सही पते पर पहुँचा दी गई ।"
-      },
-      {
-        "en": "She delivered a baby girl",
-        "hi": "उसने एक नन्ही बालिका को जन्म दिया।"
-      }
-    ]
+    "meaningEn": "to bring; hand over",
+    "examples": []
   },
   {
-    "id": 764,
+    "id": 812,
     "word": "democracy",
     "pos": "n",
     "pronunciation": "डिमौक्रसि",
     "meaningHi": "जनतंत्र, लोकतंत्र कि आत्मा है? 2",
-    "meaningEn": "people's government",
+    "meaningEn": "government by the people",
     "examples": [
       {
         "en": "Democracy has spread in most parts of the world. लोकतंत्र दुनिया के अधिकांश हिस्सोंों में फैल गया है। demonstrate v डेमन्सट्रेट 1 प्रमाण देकर सिद्ध करना 2 किसी वस्तु की कार्यपद्धति को प्रदर्शित करना और समझाना 1 Can you demonstrate that soul exists?",
         "hi": "क्ा तुम यह प्रमाणित कर सकते हो (दिखा सकते हो"
-      },
-      {
-        "en": "He demonstrated in the laboratory how hydrogen and oxygen, when combined, produce water",
-        "hi": "उसने प्रयोगशाला में यह प्रदर्शित किया कि कैसे हाइड्ोजन और ऑक्सीजन मिल कर पानी बनाते हैं।"
       }
     ]
   },
   {
-    "id": 765,
+    "id": 813,
     "word": "desert",
     "pos": "n",
-    "pronunciation": "भी रेगिस्ान में तबदील हो रही है।",
-    "meaningHi": "डेज़र्ट, डिज़र्ट रेगिस्तास्तान, मरुभूमि",
-    "meaningEn": "dry land",
-    "examples": [
-      {
-        "en": "Arable lands are also turning into deserts",
-        "hi": "खेती-योग्य भूूमि 56 57 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ"
-      }
-    ]
+    "pronunciation": "अंगरेज़ी शब्द",
+    "meaningHi": "उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "dry barren area; to abandon",
+    "examples": []
   },
   {
-    "id": 766,
+    "id": 814,
     "word": "design",
     "pos": "n / v",
     "pronunciation": "डिज़ाइन",
     "meaningHi": "डिज़ाइन, रूपरेखा | रूपरेखा बनाना से संबंधित कुछ शब्द नीचे दिए जाते हैं–",
-    "meaningEn": "a plan",
+    "meaningEn": "a plan; to create",
     "examples": [
       {
         "en": "Does the design of the human body not indicate that there is an intelligent designer behind it?",
@@ -10931,21 +11196,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 767,
+    "id": 815,
     "word": "desperate",
     "pos": "adj",
     "pronunciation": "डेस्परट",
     "meaningHi": "अत्यधिक निराशा या संकट के कारण दुस्ाहसी और कुछ भी करने को तैयार",
-    "meaningEn": "hopeless",
-    "examples": [
-      {
-        "en": "With food supply cut off, people became desperate",
-        "hi": "अन्न की आपूूर्ति बन्द होने से लोग डेस्परेट हो गए।"
-      }
-    ]
+    "meaningEn": "having little hope",
+    "examples": []
   },
   {
-    "id": 768,
+    "id": 816,
     "word": "detailed",
     "pos": "adj",
     "pronunciation": "डीटेल्ड",
@@ -10963,12 +11223,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 769,
+    "id": 817,
     "word": "difficult",
     "pos": "adj",
     "pronunciation": "डिफ़िकल्ट",
-    "meaningHi": "कठिन, मुश््किल",
-    "meaningEn": "hard",
+    "meaningHi": "कठिन, मुश्किल",
+    "meaningEn": "hard to do; not easy",
     "examples": [
       {
         "en": "a difficult question",
@@ -10977,12 +11237,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 770,
+    "id": 818,
     "word": "difficulty",
     "pos": "n",
     "pronunciation": "डिफ़िकल्टि",
     "meaningHi": "कठिनाई",
-    "meaningEn": "problem",
+    "meaningEn": "a problem",
     "examples": [
       {
         "en": "any difficulty?",
@@ -10991,12 +11251,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 771,
+    "id": 819,
     "word": "dig",
     "pos": "v",
     "pronunciation": "डिग",
     "meaningHi": "खोदना",
-    "meaningEn": "to excavate",
+    "meaningEn": "to break up earth",
     "examples": [
       {
         "en": "Let's dig a soakpit to conserve water",
@@ -11005,21 +11265,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 772,
+    "id": 820,
     "word": "dinner",
     "pos": "n",
-    "pronunciation": "डिनर",
-    "meaningHi": "रात्रिभोज",
-    "meaningEn": "main meal",
+    "pronunciation": "रात्रिभोज",
+    "meaningHi": "रात्रिभोज diploma-",
+    "meaningEn": "main meal of day",
     "examples": []
   },
   {
-    "id": 773,
+    "id": 821,
     "word": "direct",
     "pos": "adj / v",
     "pronunciation": "डरेक्ट",
     "meaningHi": "डाइरेक्ट सीधा, प्रत्यक्ष | डाइरेक्ट निर्देश देना",
-    "meaningEn": "straight",
+    "meaningEn": "straight; to guide",
     "examples": [
       {
         "en": "a direct train to Agra",
@@ -11032,12 +11292,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 774,
+    "id": 822,
     "word": "disagree",
     "pos": "v",
     "pronunciation": "डिसअग्ी",
     "meaningHi": "असहमत होना",
-    "meaningEn": "to differ",
+    "meaningEn": "to differ in opinion",
     "examples": [
       {
         "en": "We disagree with you",
@@ -11046,7 +11306,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 775,
+    "id": 823,
     "word": "disappear",
     "pos": "v",
     "pronunciation": "डिसअपिअ",
@@ -11064,12 +11324,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 776,
+    "id": 824,
     "word": "discovery",
     "pos": "n",
     "pronunciation": "डिस्कवरि",
     "meaningHi": "नई खोज",
-    "meaningEn": "the act of discovering",
+    "meaningEn": "act of discovering",
     "examples": [
       {
         "en": "Was the discovery of America made by Columbus?",
@@ -11078,25 +11338,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 777,
+    "id": 825,
     "word": "discuss",
     "pos": "v",
     "pronunciation": "डिस्कस",
     "meaningHi": "विचार-विमर्श करना",
-    "meaningEn": "to talk about; to consider",
+    "meaningEn": "to talk about",
     "examples": []
   },
   {
-    "id": 778,
+    "id": 826,
     "word": "discussion",
     "pos": "n",
     "pronunciation": "डिस्कशन",
     "meaningHi": "विचार-विमर्श, चर्चा",
-    "meaningEn": "conversation",
+    "meaningEn": "conversation about something",
     "examples": []
   },
   {
-    "id": 779,
+    "id": 827,
     "word": "display",
     "pos": "n / v",
     "pronunciation": "डिस्प्े",
@@ -11114,12 +11374,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 780,
+    "id": 828,
     "word": "distant",
     "pos": "adj",
     "pronunciation": "डिस्टन्ट",
     "meaningHi": "सुदूर, दूर का",
-    "meaningEn": "far",
+    "meaningEn": "far away",
     "examples": [
       {
         "en": "a distant place",
@@ -11128,7 +11388,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 781,
+    "id": 829,
     "word": "disturb",
     "pos": "v",
     "pronunciation": "डिस्टर्ब",
@@ -11142,12 +11402,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 782,
+    "id": 830,
     "word": "divide",
     "pos": "v",
     "pronunciation": "डिवाइड",
     "meaningHi": "विभाजित करना, बाँटना",
-    "meaningEn": "to separate",
+    "meaningEn": "to separate into parts",
     "examples": [
       {
         "en": "The caste system divided the Hindus",
@@ -11156,48 +11416,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 783,
+    "id": 831,
     "word": "division",
     "pos": "n",
     "pronunciation": "डिविशज़न",
     "meaningHi": "बँटवारा, विभाजन 2 गणित में भाग",
-    "meaningEn": "a section",
+    "meaningEn": "act of dividing",
     "examples": [
       {
         "en": "The year 1947 saw the division of India in two parts",
-        "hi": "वर्ष 1947 ने दो भागों में भारत का विभाजन देखा।"
-      },
-      {
-        "en": "India in two parts",
         "hi": "वर्ष 1947 ने दो भागों में भारत का विभाजन देखा।"
       }
     ]
   },
   {
-    "id": 784,
+    "id": 832,
     "word": "divorce",
     "pos": "n / v",
     "pronunciation": "डिवोस",
     "meaningHi": "तलाक पति-पत्नी का कानूनी तौर पर अलग हो जाना | तलाक देना",
-    "meaningEn": "marriage end",
+    "meaningEn": "legal ending of marriage",
     "examples": []
   },
   {
-    "id": 785,
+    "id": 833,
     "word": "drawing",
     "pos": "n",
     "pronunciation": "ड्ोइंग",
     "meaningHi": "रेखाचित्र",
-    "meaningEn": "a sketch",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 786,
+    "id": 834,
     "word": "dress",
     "pos": "n / v",
     "pronunciation": "ड्ेस",
-    "meaningHi": "पोशाक | 1 कपड़े पहनना 2 घाव पर मरहम-पट्ी करना कैशज़ुअल ड्रेसअनौपचारिक वस्त्र जैसे, लुंगी-गंजी फोमल ड्रेस औपचारिक वस्त्र जैसे, कुर्ता-पजामा-बंडी,",
-    "meaningEn": "clothing",
+    "meaningHi": "पोशाक",
+    "meaningEn": "a garment; to clothe",
     "examples": [
       {
         "en": "He dresses shabbily",
@@ -11206,12 +11462,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 787,
+    "id": 835,
     "word": "economics",
     "pos": "n",
     "pronunciation": "ईकनॉमिक्स",
     "meaningHi": "अर्थशास्त्र",
-    "meaningEn": "study of economy",
+    "meaningEn": "study of wealth",
     "examples": [
       {
         "en": "Economics is the study of economic activity of mankind",
@@ -11220,12 +11476,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 788,
+    "id": 836,
     "word": "elderly",
     "pos": "adj",
     "pronunciation": "एल्डलि",
     "meaningHi": "अधेड़, बूढ़ा",
-    "meaningEn": "aged",
+    "meaningEn": "old; aged",
     "examples": [
       {
         "en": "care of the elderly",
@@ -11234,12 +11490,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 789,
+    "id": 837,
     "word": "elect",
     "pos": "v",
     "pronunciation": "इलेक्ट",
     "meaningHi": "चुनाव करना निर्वाचन करना",
-    "meaningEn": "to vote for",
+    "meaningEn": "to choose by voting",
     "examples": [
       {
         "en": "elect the chairman",
@@ -11248,12 +11504,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 790,
+    "id": 838,
     "word": "election",
     "pos": "n",
     "pronunciation": "इलेक्शन",
     "meaningHi": "चुनाव, निर्वाचन",
-    "meaningEn": "voting process",
+    "meaningEn": "choosing by vote",
     "examples": [
       {
         "en": "parliamentary election",
@@ -11262,7 +11518,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 791,
+    "id": 839,
     "word": "electric",
     "pos": "adj",
     "pronunciation": "इलेक्ट्रिक",
@@ -11271,12 +11527,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 792,
+    "id": 840,
     "word": "electrical",
     "pos": "adj",
     "pronunciation": "इलेक्ट्रिक्ल",
     "meaningHi": "बिजली से संबंधित",
-    "meaningEn": "of electricity",
+    "meaningEn": "",
     "examples": [
       {
         "en": "electrical equipment",
@@ -11285,12 +11541,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 793,
+    "id": 841,
     "word": "electricity",
     "pos": "n",
     "pronunciation": "",
     "meaningHi": "इलेक्ट्रिसिटि बिजली, विद्युद्युतशक्ति",
-    "meaningEn": "energy form",
+    "meaningEn": "form of energy",
     "examples": [
       {
         "en": "shortage of elec- tricity",
@@ -11299,16 +11555,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 794,
+    "id": 842,
     "word": "electronic",
     "pos": "adj",
     "pronunciation": "इलेक्ट्रॉनिक",
     "meaningHi": "इलेक्ट्ॉनिक्स पर आधारित",
-    "meaningEn": "using electronics",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 795,
+    "id": 843,
     "word": "element",
     "pos": "n",
     "pronunciation": "एलिमन्ट",
@@ -11317,21 +11573,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 796,
+    "id": 844,
     "word": "email",
     "pos": "n",
     "pronunciation": "ईमेल",
     "meaningHi": "ईमेल",
-    "meaningEn": "electronic message",
+    "meaningEn": "electronic mail",
     "examples": []
   },
   {
-    "id": 797,
+    "id": 845,
     "word": "emphasis",
     "pos": "n",
     "pronunciation": "एम्फ़सिस",
     "meaningHi": "विशेष दबाव या जोर",
-    "meaningEn": "stress",
+    "meaningEn": "special importance",
     "examples": [
       {
         "en": "emphasis on language learning",
@@ -11340,12 +11596,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 798,
+    "id": 846,
     "word": "empty",
     "pos": "adj",
     "pronunciation": "एम्प्टि",
-    "meaningHi": "रिक्त, खाली पात्र या स्ान",
-    "meaningEn": "not full",
+    "meaningHi": "रिक्त, खाली (पात्र या स्ान)",
+    "meaningEn": "containing nothing",
     "examples": [
       {
         "en": "empty box",
@@ -11354,7 +11610,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 799,
+    "id": 847,
     "word": "enable",
     "pos": "v",
     "pronunciation": "इनेबल",
@@ -11368,12 +11624,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 800,
+    "id": 848,
     "word": "encounter",
     "pos": "n / v",
-    "pronunciation": "न्टर",
-    "meaningHi": "इन्ाउ- मुठभेड़, मुकाबला | इन्ाउ- सामना करना",
-    "meaningEn": "to meet",
+    "pronunciation": "इन्ाउ-",
+    "meaningHi": "न्टर मुठभेड़, मुकाबला | न्टर सामना करना",
+    "meaningEn": "to meet unexpectedly",
     "examples": [
       {
         "en": "He was killed in an encounter with the police",
@@ -11386,12 +11642,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 801,
+    "id": 849,
     "word": "entrance",
     "pos": "n",
     "pronunciation": "एन्ट्रन्स",
     "meaningHi": "प्रवेश, दाखिला 2 प्रवेशद्ार",
-    "meaningEn": "way in",
+    "meaningEn": "a way in",
     "examples": [
       {
         "en": "entrance test",
@@ -11404,12 +11660,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 802,
+    "id": 850,
     "word": "entry",
     "pos": "n",
     "pronunciation": "एन्ट्ी",
     "meaningHi": "प्रवेश",
-    "meaningEn": "entering",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Entry of antisocial elements should be prevented",
@@ -11418,12 +11674,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 803,
+    "id": 851,
     "word": "equipment",
     "pos": "n",
     "pronunciation": "इक्विप्मन्ट",
     "meaningHi": "उपकरण, कार्य करने के साधन और यंत्र",
-    "meaningEn": "tools",
+    "meaningEn": "tools needed",
     "examples": [
       {
         "en": "cleaning equipment",
@@ -11432,26 +11688,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 804,
+    "id": 852,
     "word": "error",
     "pos": "n",
-    "pronunciation": "एरर",
-    "meaningHi": "गलती, त्रुटि",
-    "meaningEn": "mistake",
-    "examples": [
-      {
-        "en": "an error-free writing",
-        "hi": "एक त्रुटिरहित लेखन"
-      }
-    ]
+    "pronunciation": "त्रुटिरहित लेखन",
+    "meaningHi": "",
+    "meaningEn": "a mistake",
+    "examples": []
   },
   {
-    "id": 805,
+    "id": 853,
     "word": "estimate",
     "pos": "n / v",
     "pronunciation": "एस्टिमट",
     "meaningHi": "समय, मात्ा, कीमत आदि का अनुमान | प्राक्कलन करना, मूलांकन करना, अनुमान लगाना",
-    "meaningEn": "rough calculation",
+    "meaningEn": "to calculate roughly",
     "examples": [
       {
         "en": "The estimate seems to be high",
@@ -11464,7 +11715,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 806,
+    "id": 854,
     "word": "exact",
     "pos": "adj",
     "pronunciation": "इग्ै़क्ट",
@@ -11478,12 +11729,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 807,
+    "id": 855,
     "word": "excellent",
     "pos": "adj",
     "pronunciation": "एक्सलन्ट",
     "meaningHi": "उत्तम, अतिश्रेष्ट, उत्कृष्ट",
-    "meaningEn": "outstanding",
+    "meaningEn": "extremely good",
     "examples": [
       {
         "en": "An excellent player!",
@@ -11492,12 +11743,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 808,
+    "id": 856,
     "word": "except",
     "pos": "prep",
     "pronunciation": "इक्ेप्ट",
     "meaningHi": "सिवाय {उसके}, {उसके} अलावा",
-    "meaningEn": "excluding",
+    "meaningEn": "not including",
     "examples": [
       {
         "en": "Everybody joined the dinner except him",
@@ -11506,12 +11757,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 809,
+    "id": 857,
     "word": "exchange",
     "pos": "n / v",
     "pronunciation": "इकस्चेंज",
     "meaningHi": "वस्तुविनिमय अदला-बदली 2 विदेशी मुद्रा 3 केंद्र | अदला-बदली करना",
-    "meaningEn": "a swap",
+    "meaningEn": "to swap",
     "examples": [
       {
         "en": "We exchanged our bags",
@@ -11520,12 +11771,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 810,
+    "id": 858,
     "word": "excited",
     "pos": "adj",
     "pronunciation": "इक्ाइटिड",
     "meaningHi": "उत्तेजित, अधीर",
-    "meaningEn": "enthusiastic",
+    "meaningEn": "feeling enthusiasm",
     "examples": [
       {
         "en": "Children are excited at the news of a picnic",
@@ -11534,39 +11785,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 811,
+    "id": 859,
     "word": "exciting",
     "pos": "adj",
     "pronunciation": "",
     "meaningHi": "इक्ाइटिंग उत्तेजक",
-    "meaningEn": "thrilling",
+    "meaningEn": "causing excitement",
     "examples": []
   },
   {
-    "id": 812,
+    "id": 860,
     "word": "excuse",
     "pos": "n / v",
     "pronunciation": "इकस्क्ूज़",
     "meaningHi": "बहाना | 1 माफ करना 2 निवृत्त हो जाना 72 73 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a reason",
+    "meaningEn": "a reason; to forgive",
     "examples": [
       {
         "en": "She had a good excuse for missing the class",
         "hi": "उसके पास क्ास से अनुपस्थित होने का एक अच्ा बहाना था।"
-      },
-      {
-        "en": "Please excuse me",
-        "hi": "कृपया मुझे माफ करें।"
       }
     ]
   },
   {
-    "id": 813,
+    "id": 861,
     "word": "exercise",
     "pos": "n / v",
     "pronunciation": "एक्सर",
     "meaningHi": "साइज़ 1 व्यायाम या कसरत 2 अभ्यास | साइज़ शारीरिक व्यायाम करना",
-    "meaningEn": "activity",
+    "meaningEn": "physical activity",
     "examples": [
       {
         "en": "naval exercise",
@@ -11575,12 +11822,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 814,
+    "id": 862,
     "word": "expensive",
     "pos": "adj",
     "pronunciation": "इक्स्ेन्सिव",
     "meaningHi": "बहुमूल्य, महँगा",
-    "meaningEn": "costly",
+    "meaningEn": "costing a lot",
     "examples": [
       {
         "en": "expensive dresses",
@@ -11589,7 +11836,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 815,
+    "id": 863,
     "word": "extra",
     "pos": "adj adv",
     "pronunciation": "एक्स्ट्रा",
@@ -11603,12 +11850,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 816,
+    "id": 864,
     "word": "favour",
     "pos": "v",
-    "pronunciation": "फ़ेवर",
-    "meaningHi": "किसी पर अनुग्रह या समर्थन करना 2 पसंद करना फ़ेव़रिट अत्ंत प्रिय, पसंदीदा",
-    "meaningEn": "kind act",
+    "pronunciation": "फ़ेव़रिट",
+    "meaningHi": "अत्ंत प्रिय, पसंदीदा",
+    "meaningEn": "act of kindness",
     "examples": [
       {
         "en": "my favourite actor",
@@ -11617,25 +11864,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 817,
+    "id": 865,
     "word": "feature",
     "pos": "n",
     "pronunciation": "फ़ीीचर",
     "meaningHi": "रूप, आकृति 2 विशेषता 1",
-    "meaningEn": "characteristic",
-    "examples": [
-      {
-        "en": "She is a boy with sharp features",
-        "hi": "वह तीखे नाक-नक्श वाला लड़का है।"
-      },
-      {
-        "en": "Equal- ity is a great feature of democracy",
-        "hi": "समता लोकतंत्र की एक महान विशेषता है।"
-      }
-    ]
+    "meaningEn": "a characteristic",
+    "examples": []
   },
   {
-    "id": 818,
+    "id": 866,
     "word": "few",
     "pos": "det adj",
     "pronunciation": "फ़यू",
@@ -11649,12 +11887,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 819,
+    "id": 867,
     "word": "field",
     "pos": "n",
     "pronunciation": "फ़ील्ड",
     "meaningHi": "खेत 2 मैदान",
-    "meaningEn": "an open area of land; a domain",
+    "meaningEn": "open area; domain",
     "examples": [
       {
         "en": "plough the field",
@@ -11667,12 +11905,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 820,
+    "id": 868,
     "word": "fit",
     "pos": "v / adj",
     "pronunciation": "फ़िट",
     "meaningHi": "जरूरत या आकार के हिसाब से सही या उचित बैठना या बैठाना | 1 उपयुक्त 2 हृष्टपुष्ट या स्वस्थ होना",
-    "meaningEn": "suitable; healthy",
+    "meaningEn": "healthy; suitable",
     "examples": [
       {
         "en": "The new dress fits well",
@@ -11685,7 +11923,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 821,
+    "id": 869,
     "word": "fix",
     "pos": "v",
     "pronunciation": "फ़िक्स",
@@ -11699,12 +11937,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 822,
+    "id": 870,
     "word": "flight",
     "pos": "n",
     "pronunciation": "फ़्लालाइट",
     "meaningHi": "उड़ान, विमान यात्ा 2 भागने की क्रिया",
-    "meaningEn": "flying",
+    "meaningEn": "act of flying",
     "examples": [
       {
         "en": "बारिश के कारण My flight was cancelled due to rains",
@@ -11717,7 +11955,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 823,
+    "id": 871,
     "word": "float",
     "pos": "v",
     "pronunciation": "फ़्लोट",
@@ -11731,12 +11969,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 824,
+    "id": 872,
     "word": "flood",
     "pos": "n / v",
     "pronunciation": "फ़्लड",
     "meaningHi": "बाढ़ 2 भरमार | 1 बाढ़ आना 2 किसी स्ान में बड़ी संख्ा में जमा होना, भरमार होना अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "water overflow",
+    "meaningEn": "overflow of water",
     "examples": [
       {
         "en": "There is a flood of Chinese goods in the market",
@@ -11749,12 +11987,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 825,
+    "id": 873,
     "word": "frame",
     "pos": "n / v",
     "pronunciation": "फ्े़म",
     "meaningHi": "ढाँचा, लकड़ी या धातु का चौखटा | 1 फ़्ेम चढ़ाना 2 किसी को झूठा फँसाना",
-    "meaningEn": "structure",
+    "meaningEn": "structure; border",
     "examples": [
       {
         "en": "photo",
@@ -11767,7 +12005,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 826,
+    "id": 874,
     "word": "freeze",
     "pos": "v",
     "pronunciation": "फ़्ीज़",
@@ -11785,7 +12023,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 827,
+    "id": 875,
     "word": "frighten",
     "pos": "v",
     "pronunciation": "फ़्ाइट्न",
@@ -11799,7 +12037,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 828,
+    "id": 876,
     "word": "front",
     "pos": "n",
     "pronunciation": "फ्ं़ट",
@@ -11817,7 +12055,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 829,
+    "id": 877,
     "word": "fun",
     "pos": "n",
     "pronunciation": "फ़न",
@@ -11831,12 +12069,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 830,
+    "id": 878,
     "word": "funny",
     "pos": "adj",
     "pronunciation": "फ़नि",
     "meaningHi": "उपहासास्पद, विचित्र फ़निचर लकड़ी या लोहे का सामान, जैसे कुर्सीी, मेज, पलंग इत्यादि अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "amusing",
+    "meaningEn": "causing laughter",
     "examples": [
       {
         "en": "a funny dress",
@@ -11845,39 +12083,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 831,
+    "id": 879,
     "word": "gap",
     "pos": "n",
     "pronunciation": "गैप",
     "meaningHi": "स्ान के संदर्भ में– बीच का खाली स्ान, दरार; समय के संदर्भ में– अंतराल, बीच का समय",
-    "meaningEn": "space",
-    "examples": [
-      {
-        "en": "There is gap in the wall",
-        "hi": "दीवार में एक दरार है।"
-      },
-      {
-        "en": "There is a long gap between the school time and the dinner time",
-        "hi": "स्कूल के समय और रात्रिभोज के समय में काफी लंबा अंतराल है।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 832,
+    "id": 880,
     "word": "gas",
     "pos": "n",
     "pronunciation": "गैस",
     "meaningHi": "गैस",
-    "meaningEn": "fuel; vapour",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 833,
+    "id": 881,
     "word": "gather",
     "pos": "v",
-    "pronunciation": "गैदर",
-    "meaningHi": "इकट्ा करना, इकट्ा होना",
-    "meaningEn": "to collect",
+    "pronunciation": "",
+    "meaningHi": "गैदर इकट्ा करना, इकट्ा होना",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He gathered some people for a protest मार्च",
@@ -11886,39 +12115,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 834,
+    "id": 882,
     "word": "gesture",
     "pos": "n",
     "pronunciation": "जेसचर",
     "meaningHi": "हावभाव, खास कर हाथों का हावभाव",
-    "meaningEn": "a movement",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 835,
+    "id": 883,
     "word": "greeting",
     "pos": "n",
     "pronunciation": "ग्ीटिंग",
     "meaningHi": "शुभकामना, अभिवादन अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "welcome",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the Indian ways of greeting",
         "hi": "अभिवादन के भारतीय तरीके"
-      },
-      {
-        "en": "Indian ways of greeting",
-        "hi": "अभिवादन के भारतीय तरीके) अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ"
       }
     ]
   },
   {
-    "id": 836,
+    "id": 884,
     "word": "guess",
     "pos": "n / v",
     "pronunciation": "गेस",
     "meaningHi": "अनुमान | अनुमान करना",
-    "meaningEn": "to estimate",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It is a mere guess",
@@ -11931,7 +12156,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 837,
+    "id": 885,
     "word": "hardly",
     "pos": "adv",
     "pronunciation": "हाड्लि",
@@ -11945,21 +12170,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 838,
+    "id": 886,
     "word": "healthy",
     "pos": "adj",
     "pronunciation": "हेल््थि",
     "meaningHi": "निरोग, स्वस्थ",
-    "meaningEn": "well",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 839,
+    "id": 887,
     "word": "hesitant",
     "pos": "adj",
     "pronunciation": "हेज़िटन्ट",
     "meaningHi": "संकोच या दुविधा मे पड़ा हुआ, हिचकिचाता हुआ हेज़िटेनश संकोच, हिचकिचाहट",
-    "meaningEn": "uncertain",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He was at first hesitant to speak",
@@ -11972,12 +12197,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 840,
+    "id": 888,
     "word": "hit",
     "pos": "v",
     "pronunciation": "हिट",
     "meaningHi": "चोट मारना, प्रहार करना 2 टकराना",
-    "meaningEn": "to strike",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She hit the child with a stick",
@@ -11990,12 +12215,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 841,
+    "id": 889,
     "word": "hobby",
     "pos": "n",
     "pronunciation": "हॉबि",
     "meaningHi": "शौक",
-    "meaningEn": "leisure activity",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Stamp collection is my hobby",
@@ -12004,12 +12229,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 842,
+    "id": 890,
     "word": "holiday",
     "pos": "n",
     "pronunciation": "हॉलिडे",
     "meaningHi": "छुट्ी का दिन",
-    "meaningEn": "vacation",
+    "meaningEn": "",
     "examples": [
       {
         "en": "national holidays",
@@ -12018,12 +12243,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 843,
+    "id": 891,
     "word": "hollow",
     "pos": "adj",
     "pronunciation": "हॉलो",
     "meaningHi": "खोखला",
-    "meaningEn": "empty inside",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a hollow tree",
@@ -12032,12 +12257,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 844,
+    "id": 892,
     "word": "hungry",
     "pos": "adj",
     "pronunciation": "हंंग्ी",
     "meaningHi": "भूखा",
-    "meaningEn": "needing food",
+    "meaningEn": "",
     "examples": [
       {
         "en": "11 crore people still sleep hungry in India",
@@ -12046,12 +12271,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 845,
+    "id": 893,
     "word": "hurry",
     "pos": "n / v",
     "pronunciation": "हरि",
     "meaningHi": "जल्दबाजी, हड़बड़ी | शीघ्रता करना, जल्दबाजी करना",
-    "meaningEn": "to rush",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Are you in a hurry?",
@@ -12064,12 +12289,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 846,
+    "id": 894,
     "word": "identify",
     "pos": "v",
     "pronunciation": "",
     "meaningHi": "आइडेंटिफ़ाइ पहचानना",
-    "meaningEn": "to recognize",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Can you identify that person?",
@@ -12078,12 +12303,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 847,
+    "id": 895,
     "word": "illness",
     "pos": "n",
     "pronunciation": "इलनस",
     "meaningHi": "बीमारी",
-    "meaningEn": "disease",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Stale food may cause illness",
@@ -12092,12 +12317,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 848,
+    "id": 896,
     "word": "inquire",
     "pos": "v",
     "pronunciation": "इन्क्वाइअर",
     "meaningHi": "पूछताछ करना, जाँच-पड़ताल करना इन्सेक्टिसाइडकीटनाशक 100 101 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to ask",
+    "meaningEn": "",
     "examples": [
       {
         "en": "en- quire about somebody's health",
@@ -12110,39 +12335,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 849,
+    "id": 897,
     "word": "inside",
     "pos": "n / prep",
     "pronunciation": "इन्साइड",
-    "meaningHi": "भीतरी भाग, अंदर या भीतर | अंदर में, अंदरूनी इन्साइट्फ़ुल अंतर्दृष्टिपूर्ण किसी चीज के भीतरी सत्य को समझने या उजागर करने वाली दृष्टि या व्यक्ति",
-    "meaningEn": "within",
+    "meaningHi": "भीतरी भाग, अंदर या भीतर",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the inside of the box",
         "hi": "बक्से का भीतरी हिस्ा"
-      },
-      {
-        "en": "He went inside the room",
-        "hi": "वह कमरे के भीतर गया।"
       }
     ]
   },
   {
-    "id": 850,
+    "id": 898,
     "word": "instant",
     "pos": "adj",
     "pronunciation": "इन्स्टन्ट",
     "meaningHi": "तुरंत या तत्ाल होनेवाला तुरंत तैयार होने वाली कॉफी; तत्ाल समाधान; तुरंत प्रतिक्रिया",
-    "meaningEn": "immediate",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 851,
+    "id": 899,
     "word": "instantly",
     "pos": "adv",
     "pronunciation": "इन्स्टन्टलि",
     "meaningHi": "तत्ाल, पलभर में, क्षणभर में of इन्स्ेड के स्ान पर, बदले में",
-    "meaningEn": "right away",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She instantly prepared a hot drink",
@@ -12155,12 +12376,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 852,
+    "id": 900,
     "word": "intend",
     "pos": "v",
     "pronunciation": "इंटेन्ड",
     "meaningHi": "इरादा रखना, मन में योजना रखना",
-    "meaningEn": "to plan",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I intend to educate some poor children",
@@ -12169,12 +12390,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 853,
+    "id": 901,
     "word": "interfere",
     "pos": "v",
     "pronunciation": "इन्टफ़िअर",
     "meaningHi": "दखल देना, हस्तक्षेप करना इन्ट्ेस्टिड रुचि रखने वाला 102 103 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to meddle",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Please don't interfere in my work",
@@ -12187,12 +12408,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 854,
+    "id": 902,
     "word": "interrupt",
     "pos": "v",
     "pronunciation": "इन्टरप्ट",
     "meaningHi": "टोकाटोकी करना, रोक देना, बाधा डालना",
-    "meaningEn": "to break in",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He frequently interrupted my speech",
@@ -12201,12 +12422,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 855,
+    "id": 903,
     "word": "interview",
     "pos": "n / v",
     "pronunciation": "इन्टव्यू",
     "meaningHi": "साक्षात्ार प्रश्न पूछकर नौकरी, स्ूल-कॉलेज आदि में प्रवेश के लिए व्यक्ति की योग्यता का पता लगाने की प्रक्रिया | किसी विषय में किसी का इंटरव्यू या",
-    "meaningEn": "questioning",
+    "meaningEn": "",
     "examples": [
       {
         "en": "telephonic interview",
@@ -12219,12 +12440,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 856,
+    "id": 904,
     "word": "invention",
     "pos": "n",
     "pronunciation": "इन्वेनशन",
     "meaningHi": "आविष्ार कोई ऐसी नई चीज बनाना जो पहले से नहीं थी",
-    "meaningEn": "new creation",
+    "meaningEn": "",
     "examples": [
       {
         "en": "invention of aeroplane",
@@ -12233,12 +12454,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 857,
+    "id": 905,
     "word": "invitation",
     "pos": "n",
     "pronunciation": "इनविटेशन",
     "meaningHi": "निमंत्रण, न्यौता",
-    "meaningEn": "request to attend",
+    "meaningEn": "",
     "examples": [
       {
         "en": "marriage invitation",
@@ -12247,12 +12468,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 858,
+    "id": 906,
     "word": "invite",
     "pos": "v",
     "pronunciation": "इन्वाइट",
     "meaningHi": "आमंत्रण देना",
-    "meaningEn": "to ask to attend",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I had invited him to my marriage",
@@ -12261,30 +12482,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 859,
+    "id": 907,
     "word": "issue",
     "pos": "n / v",
-    "pronunciation": "है।",
-    "meaningHi": "इशू, इस्ू चर्चा या मुद्ा का विषय",
-    "meaningEn": "topic; problem",
+    "pronunciation": "इशू, इस्ू",
+    "meaningHi": "चर्चा या मुद्ा का विषय | निर्गत करना, जारी करना",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "Reservation in government jobs is a debatable issue - सरकारी नौकरियों में आरक्षण एक विवादित मुद्ा | इशू, इस्ू निर्गत करना, जारी करना (He issued a statement",
-        "hi": "उसने एक बयान जारी किया।"
+        "en": "Reservation in government jobs is a debatable issue",
+        "hi": "सरकारी नौकरियों में आरक्षण एक विवादित मुद्ा है।"
       },
       {
-        "en": "Reservation in government jobs is a debatable issue",
-        "hi": "सरकारी नौकरियों में आरक्षण एक विवादित मुद्ा | इशू, इस्ू निर्गत करना, जारी करना (He issued a statement - उसने एक बयान जारी किया।"
+        "en": "He issued a statement",
+        "hi": "उसने एक बयान जारी किया।"
       }
     ]
   },
   {
-    "id": 860,
+    "id": 908,
     "word": "juice",
     "pos": "n",
     "pronunciation": "जूस",
     "meaningHi": "रस",
-    "meaningEn": "fruit liquid",
+    "meaningEn": "",
     "examples": [
       {
         "en": "orange juice",
@@ -12293,12 +12514,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 861,
+    "id": 909,
     "word": "key",
     "pos": "n / adj",
     "pronunciation": "की",
     "meaningHi": "कुंजी, चाभी | अत्ंत महत्त्वपूर्ण",
-    "meaningEn": "important; lock opener",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Perseverance is the key to success",
@@ -12311,12 +12532,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 862,
+    "id": 910,
     "word": "knock",
     "pos": "n / v",
     "pronunciation": "नॉक",
     "meaningHi": "खटखटाहट | 1 दरवाजा खटखटाना 2 गिरा दिया जाना 16 108 109 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ नॉलिज ज्ान, जानकारी",
-    "meaningEn": "to tap",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There was a knock on the door",
@@ -12329,12 +12550,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 863,
+    "id": 911,
     "word": "label",
     "pos": "n / v",
     "pronunciation": "लेबल",
     "meaningHi": "नाम की चिप्ी | नाम की चिप्ी लगाना",
-    "meaningEn": "a tag",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Is there a label on the container?",
@@ -12347,12 +12568,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 864,
+    "id": 912,
     "word": "largely",
     "pos": "adv",
     "pronunciation": "लाज्लि",
     "meaningHi": "अधिकांशत:",
-    "meaningEn": "mostly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He is largely dependent on his children",
@@ -12361,12 +12582,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 865,
+    "id": 913,
     "word": "later",
     "pos": "adv adj",
-    "pronunciation": "लेटर",
-    "meaningHi": "बाद में",
-    "meaningEn": "afterwards",
+    "pronunciation": "",
+    "meaningHi": "लेटर बाद में",
+    "meaningEn": "",
     "examples": [
       {
         "en": "We will discuss this issue later",
@@ -12375,12 +12596,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 866,
+    "id": 914,
     "word": "laugh",
     "pos": "v",
     "pronunciation": "लाफ़",
     "meaningHi": "हँसना 85 110 111 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to show amusement",
+    "meaningEn": "",
     "examples": [
       {
         "en": "laugh away the worries",
@@ -12389,12 +12610,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 867,
+    "id": 915,
     "word": "laughter",
     "pos": "n",
     "pronunciation": "लाफ़्टर",
     "meaningHi": "हँसी",
-    "meaningEn": "laughing",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Laughter takes away depression",
@@ -12403,12 +12624,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 868,
+    "id": 916,
     "word": "lawyer",
     "pos": "n",
-    "pronunciation": "लोयर",
-    "meaningHi": "वकील",
-    "meaningEn": "legal professional",
+    "pronunciation": "",
+    "meaningHi": "लोयर वकील",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Lawyers in India don black gown",
@@ -12417,12 +12638,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 869,
+    "id": 917,
     "word": "lay",
     "pos": "v",
     "pronunciation": "ले",
     "meaningHi": "रखना",
-    "meaningEn": "to put down",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He laid his hand on my shoulder",
@@ -12431,12 +12652,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 870,
+    "id": 918,
     "word": "legal",
     "pos": "adj",
     "pronunciation": "लीगल",
     "meaningHi": "वैध, कानूनी लेजिस्ेचर विधानमंडल जो कानून बनाता है",
-    "meaningEn": "lawful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It is not legal to drive a car without a license",
@@ -12449,12 +12670,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 871,
+    "id": 919,
     "word": "loose",
     "pos": "adj",
     "pronunciation": "लूस",
     "meaningHi": "खुला, बंधनमुक्त",
-    "meaningEn": "not tight",
+    "meaningEn": "",
     "examples": [
       {
         "en": "loose tea",
@@ -12463,12 +12684,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 872,
+    "id": 920,
     "word": "low",
     "pos": "adj / n",
     "pronunciation": "लो",
     "meaningHi": "नीचे, निम्न ; | निम्न बिंदु, निम्न स्तर अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "not high",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He spoke in a low voice",
@@ -12481,26 +12702,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 873,
+    "id": 921,
     "word": "lower",
     "pos": "adj",
-    "pronunciation": "लोअर",
-    "meaningHi": "निचला",
-    "meaningEn": "to reduce",
-    "examples": [
-      {
-        "en": "The lower parts of the body",
-        "hi": "शरीर के निचले हिस्े"
-      }
-    ]
+    "pronunciation": "के निचले हिस्े",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 874,
+    "id": 922,
     "word": "lucky",
     "pos": "adj",
     "pronunciation": "लकि",
     "meaningHi": "भाग्यशाली, किस्मत वाला",
-    "meaningEn": "fortunate",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I am lucky that I got parents like you",
@@ -12509,12 +12725,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 875,
+    "id": 923,
     "word": "lunch",
     "pos": "n",
     "pronunciation": "लन्च",
     "meaningHi": "दिन का भोजन, लंच",
-    "meaningEn": "midday meal",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Would you please join me today on lunch? - क्ा आप कृपया आज मेरे साथ दिन के खाने में शामिल होंगे? 116 117 M अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ machine n मशीन यंत्र, मशीन (sewing machine",
@@ -12523,17 +12739,13 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 876,
+    "id": 924,
     "word": "major",
     "pos": "adj",
-    "pronunciation": "मेजर",
-    "meaningHi": "बड़ा, मुख्य मजौरटि अधिकांश, बहुसंख्यक, जो ज्ादा संख्ा में हों",
-    "meaningEn": "important",
+    "pronunciation": "की बड़ी समस्ा है।",
+    "meaningHi": "मजौरटि अधिकांश, बहुसंख्यक, जो ज्ादा संख्ा में हों",
+    "meaningEn": "",
     "examples": [
-      {
-        "en": "Scarcity of water is the major problem in this area",
-        "hi": "पानी की कमी इस क्षेत्र की बड़ी समस्ा है।"
-      },
       {
         "en": "Christians are in majority in Europe",
         "hi": "यूूरोप में बहुसंख्यक लोग ईसाई हैं।"
@@ -12541,12 +12753,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 877,
+    "id": 925,
     "word": "marry",
     "pos": "v",
     "pronunciation": "मैरि",
     "meaningHi": "विवाह करना",
-    "meaningEn": "to wed",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I will not marry till I am employed",
@@ -12555,12 +12767,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 878,
+    "id": 926,
     "word": "match",
     "pos": "n",
     "pronunciation": "मैच",
     "meaningHi": "खेलप्रतियोगिता 2 माचिस 3 जोड़ीदार मटिअरिअल कुछ बनाने के लिए पदार्थ, सामग्ी मटिअरिअल भौतिक न कि आध्ात्मिक या भावनात्मक",
-    "meaningEn": "contest; to fit",
+    "meaningEn": "",
     "examples": [
       {
         "en": "our team won the match",
@@ -12573,30 +12785,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 879,
+    "id": 927,
     "word": "means",
     "pos": "n",
     "pronunciation": "मीनज़",
     "meaningHi": "उपाय, साधन",
-    "meaningEn": "method",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Means and end should both be as pure as possible - लक्ष्य-प्राप्ति के साधन और लक्ष्य, दोनों यथासंभव शुद्ध होने चाहिए; means of communication",
         "hi": "यातायात के साधन"
-      },
-      {
-        "en": "Means and end should both be as pure as possible",
-        "hi": "लक्ष्य-प्राप्ति के साधन और लक्ष्य, दोनों यथासंभव शुद्ध होने चाहिए; means of communication - यातायात के साधन) mean-"
       }
     ]
   },
   {
-    "id": 880,
+    "id": 928,
     "word": "medium",
     "pos": "n",
     "pronunciation": "मीडिअम",
     "meaningHi": "कुछ व्यक्त करने या संप्रेषित करने का माध्यम",
-    "meaningEn": "middle",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Language is a medium of expression",
@@ -12605,12 +12813,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 881,
+    "id": 929,
     "word": "mention",
     "pos": "v",
     "pronunciation": "मेनशन",
     "meaningHi": "उल्ेख करना, जिक्र करना",
-    "meaningEn": "to note",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He mentioned his problem to me",
@@ -12619,21 +12827,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 882,
+    "id": 930,
     "word": "minute",
     "pos": "n",
     "pronunciation": "मिनिट",
     "meaningHi": "मिनट",
-    "meaningEn": "60 seconds",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 883,
+    "id": 931,
     "word": "mix",
     "pos": "v / n",
     "pronunciation": "मिक्स",
     "meaningHi": "मिलना-जुलना 2 कई चीजों को एक साथ मिलाना | विभिन्न प्रकार के लोगों या वस्तुओं का मिश्रण",
-    "meaningEn": "to blend",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He does not mix with common people",
@@ -12646,12 +12854,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 884,
+    "id": 932,
     "word": "mixture",
     "pos": "n",
     "pronunciation": "मिक्सचर",
     "meaningHi": "विभिन्न वस्तुओं का मिश्रण अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a blend",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The new cricket team is a mixture of fresh talent and experienced players",
@@ -12660,12 +12868,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 885,
+    "id": 933,
     "word": "model",
     "pos": "n",
     "pronunciation": "मॉड्ल",
     "meaningHi": "नमूना या प्रतिदर्श 2 मॉडल मॉड्न आधुनिक",
-    "meaningEn": "example",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A small clay-model of the house is ready",
@@ -12678,12 +12886,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 886,
+    "id": 934,
     "word": "motion",
     "pos": "n",
     "pronunciation": "मोशन",
     "meaningHi": "गति",
-    "meaningEn": "movement",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The car was in motion",
@@ -12692,21 +12900,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 887,
+    "id": 935,
     "word": "mouse",
     "pos": "n",
     "pronunciation": "माउस",
     "meaningHi": "चूहा 2 कंप्यूटर का माउस अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "small animal; device",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 888,
+    "id": 936,
     "word": "narrow",
     "pos": "adj",
     "pronunciation": "नैरो",
     "meaningHi": "संकीर्ण, सँकरा, पतला",
-    "meaningEn": "not wide",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a narrow alley - एक पतली गली; a narrow mind",
@@ -12715,12 +12923,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 889,
+    "id": 937,
     "word": "national",
     "pos": "adj",
     "pronunciation": "नैशनल",
     "meaningHi": "राष्ट्ीय",
-    "meaningEn": "of a nation",
+    "meaningEn": "",
     "examples": [
       {
         "en": "national flag - राष्ट्रीीय ध्वज; a national crisis",
@@ -12729,26 +12937,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 890,
+    "id": 938,
     "word": "nearby",
     "pos": "adj",
-    "pronunciation": "निअर",
-    "meaningHi": "निकटस्थित 50 128 129 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "close",
-    "examples": [
-      {
-        "en": "a nearby hotel",
-        "hi": "एक निकटस्थित होटल"
-      }
-    ]
+    "pronunciation": "होटल",
+    "meaningHi": "अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 891,
+    "id": 939,
     "word": "nearly",
     "pos": "adv",
     "pronunciation": "निअलि",
     "meaningHi": "लगभग",
-    "meaningEn": "almost",
+    "meaningEn": "",
     "examples": [
       {
         "en": "nearly ten people came",
@@ -12757,12 +12960,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 892,
+    "id": 940,
     "word": "nervous",
     "pos": "adj",
     "pronunciation": "नर्वस",
     "meaningHi": "चिंतित, घबराया हुआ",
-    "meaningEn": "anxious",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He was nervous before the interview",
@@ -12771,12 +12974,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 893,
+    "id": 941,
     "word": "nobody",
     "pos": "pron",
-    "pronunciation": "बॉडी",
-    "meaningHi": "नो वन, नो कोई नहीं",
-    "meaningEn": "no one",
+    "pronunciation": "नो वन, नो",
+    "meaningHi": "बॉडी कोई नहीं",
+    "meaningEn": "",
     "examples": [
       {
         "en": "No one is happy",
@@ -12785,12 +12988,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 894,
+    "id": 942,
     "word": "noisy",
     "pos": "adj",
     "pronunciation": "नोइज़ि",
     "meaningHi": "शोर मचानेवाला, कोलाहलपूर्ण",
-    "meaningEn": "loud",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a noisy baby",
@@ -12799,12 +13002,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 895,
+    "id": 943,
     "word": "nonsense",
     "pos": "n",
     "pronunciation": "नॉन्सन्स",
     "meaningHi": "निरर्थक, असंगत या अनर्गल नॉनवायलंस अहिंसा 130 131 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ no one →",
-    "meaningEn": "meaningless",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I don't like nonsense",
@@ -12817,12 +13020,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 896,
+    "id": 944,
     "word": "nowhere",
     "pos": "adv",
     "pronunciation": "नोवेअर",
     "meaningHi": "कहीं नहीं",
-    "meaningEn": "no place",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Nowhere you will find such beautiful buildings",
@@ -12831,12 +13034,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 897,
+    "id": 945,
     "word": "nurse",
     "pos": "n",
     "pronunciation": "नर्स",
     "meaningHi": "रोगियों की देखभाल के लिए प्रशिक्षित व्यक्ति 132 133 O अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "healthcare worker",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She is a nurse in a private hospital",
@@ -12845,12 +13048,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 898,
+    "id": 946,
     "word": "odd",
     "pos": "adj",
     "pronunciation": "अॉड",
     "meaningHi": "अजीब, विचित्र 2 Odd विषम संख्ा जो संख्या 2 से विभाजित न हो, जैसे 3,5,7 आदि",
-    "meaningEn": "strange",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It may be odd to speak in English where no one knows English",
@@ -12859,12 +13062,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 899,
+    "id": 947,
     "word": "official",
     "pos": "n",
     "pronunciation": "अफ़िश्ल",
     "meaningHi": "अधिकारी",
-    "meaningEn": "authorized",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Some officials visited us yesterday",
@@ -12873,12 +13076,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 900,
+    "id": 948,
     "word": "operate",
     "pos": "v",
     "pronunciation": "अॉपरेट",
     "meaningHi": "चलाना 2 अॉपरेशन करना अॉपरेशन 1 संचालन 2 शल्ोपचार चीर-फाड़ 3 अभियान",
-    "meaningEn": "to function",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Who operates the machine?",
@@ -12891,12 +13094,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 901,
+    "id": 949,
     "word": "option",
     "pos": "n",
     "pronunciation": "अॉपशन",
     "meaningHi": "विकल्प, सोच-विचार के बाद चयन करने- -योग्य कोई चीज अॉप्टिमिज़म आशावादिता 136 137 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "choice",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What are the options?",
@@ -12909,30 +13112,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 902,
+    "id": 950,
     "word": "paper",
     "pos": "n",
-    "pronunciation": "पेपर",
-    "meaningHi": "कागज",
-    "meaningEn": "writing material",
+    "pronunciation": "कागज",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 903,
+    "id": 951,
     "word": "passage",
     "pos": "n",
     "pronunciation": "पैसिज",
     "meaningHi": "गलियारा, रास्ता",
-    "meaningEn": "corridor",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 904,
+    "id": 952,
     "word": "pause",
     "pos": "n / v",
     "pronunciation": "पॉज़",
     "meaningHi": "विराम, रुकावट, ठहराव | थोड़ी देर के लिए रुकना",
-    "meaningEn": "brief stop",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He paused several times during his speech",
@@ -12941,12 +13144,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 905,
+    "id": 953,
     "word": "payment",
     "pos": "n",
     "pronunciation": "पेमन्ट",
     "meaningHi": "भुगतान, धनराशि",
-    "meaningEn": "money paid",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The payment for the books has been received",
@@ -12955,30 +13158,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 906,
+    "id": 954,
     "word": "pen",
     "pos": "n",
     "pronunciation": "पेन",
     "meaningHi": "कलम",
-    "meaningEn": "writing tool",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 907,
+    "id": 955,
     "word": "pencil",
     "pos": "n",
     "pronunciation": "पेन्ल",
     "meaningHi": "पेंसिल",
-    "meaningEn": "graphite writer",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 908,
+    "id": 956,
     "word": "perform",
     "pos": "v",
     "pronunciation": "पफ़ोम",
     "meaningHi": "कुछ फल देते हुए काम करना, निभाना 2 कार्यक्रम प्रस्तुत करना",
-    "meaningEn": "to do",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She performs her duties well",
@@ -12991,12 +13194,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 909,
+    "id": 957,
     "word": "physical",
     "pos": "adj",
     "pronunciation": "फ़िज़िकल",
     "meaningHi": "शारीरिक",
-    "meaningEn": "bodily",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Isn't physical exercise a necessary part of a good life?",
@@ -13005,21 +13208,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 910,
+    "id": 958,
     "word": "piece",
     "pos": "n",
     "pronunciation": "पीस",
     "meaningHi": "टुकड़ा",
-    "meaningEn": "a part",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 911,
+    "id": 959,
     "word": "plain",
     "pos": "adj / n",
     "pronunciation": "प्ेन",
     "meaningHi": "स्पष्ट, सरल, साफ | बड़ा सपाट मैदान",
-    "meaningEn": "simple",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a plain language सरल भाषा; plain paper",
@@ -13032,12 +13235,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 912,
+    "id": 960,
     "word": "plant",
     "pos": "n / v",
     "pronunciation": "प्ान्ट",
     "meaningHi": "पौधा, वनस्पति 2 फैक्टरी | {पौधे} लगाना",
-    "meaningEn": "living thing",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A small plant grows into a large tree",
@@ -13050,12 +13253,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 913,
+    "id": 961,
     "word": "please",
     "pos": "v",
     "pronunciation": "प्लीज़",
     "meaningHi": "संतुष्ट करना",
-    "meaningEn": "to satisfy",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Can you please everybody?",
@@ -13064,12 +13267,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 914,
+    "id": 962,
     "word": "pleased",
     "pos": "adj",
     "pronunciation": "प्ीज़्ड",
     "meaningHi": "प्रसन्न",
-    "meaningEn": "happy",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I am pleased to inform that my son is getting married soon",
@@ -13078,12 +13281,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 915,
+    "id": 963,
     "word": "plenty",
     "pos": "adv pron",
     "pronunciation": "प्ेन्टि",
     "meaningHi": "प्रचुर, भरपूर, काफी 2 समृद्धि",
-    "meaningEn": "abundance",
+    "meaningEn": "",
     "examples": [
       {
         "en": "We should eat plenty of fruits daily",
@@ -13096,12 +13299,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 916,
+    "id": 964,
     "word": "politics",
     "pos": "n",
     "pronunciation": "पॉलटिक्स",
     "meaningHi": "राजनीति",
-    "meaningEn": "government",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Good politics elevates a nation, bad politics destroys it",
@@ -13110,12 +13313,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 917,
+    "id": 965,
     "word": "pollution",
     "pos": "n",
     "pronunciation": "पलूशन",
     "meaningHi": "प्रदूषण, गंदगी",
-    "meaningEn": "contamination",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Air-pollution may make life on earth difficult",
@@ -13124,12 +13327,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 918,
+    "id": 966,
     "word": "practical",
     "pos": "adj",
     "pronunciation": "प्ैक्टिकल",
     "meaningHi": "व्यावहारिक",
-    "meaningEn": "useful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a practical man",
@@ -13138,12 +13341,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 919,
+    "id": 967,
     "word": "prefer",
     "pos": "v",
     "pronunciation": "प्रिफ़र",
     "meaningHi": "{एक चीज़ की तुलना में किसी दूसरी चीज को अधिक} पसंद करना अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
-    "meaningEn": "to like better",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I prefer mangoes to guava",
@@ -13152,12 +13355,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 920,
+    "id": 968,
     "word": "prepare",
     "pos": "v",
     "pronunciation": "प्रिपेअर",
     "meaningHi": "तैयारी करना 2 बनाना",
-    "meaningEn": "to ready",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Prepare for the exam",
@@ -13170,30 +13373,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 921,
+    "id": 969,
     "word": "press",
     "pos": "n / v",
     "pronunciation": "प्रेस",
     "meaningHi": "पत्रकार 2 कपड़े प्रेस करने वाला उपकरण जिसे आयरन भी कहते हैं 3 छापाखाना | 1 दबाना 2 दबाव देना 1",
-    "meaningEn": "to push",
-    "examples": [
-      {
-        "en": "He pressed my feet",
-        "hi": "उसने मेरे पैर को दबाए।"
-      },
-      {
-        "en": "He is pressing me hard to attend the conference",
-        "hi": "गोष्ी में भाग लेने के लिए वह मुझपर काफी दबाव डाल रहा है।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 922,
+    "id": 970,
     "word": "pressure",
     "pos": "n",
     "pronunciation": "प्ेशर",
     "meaningHi": "दबाव",
-    "meaningEn": "force",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The police often act under pressure from the ministers",
@@ -13202,26 +13396,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 923,
+    "id": 971,
     "word": "pretend",
     "pos": "v",
     "pronunciation": "प्रिटेन्ड",
     "meaningHi": "झूठमूठ का अभिनय करना, दिखावा करना",
-    "meaningEn": "to fake",
-    "examples": [
-      {
-        "en": "He was pretending to be asleep",
-        "hi": "वह सोने का अभिनय कर रहा था।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 924,
+    "id": 972,
     "word": "pretty",
     "pos": "adj",
     "pronunciation": "प्रिटि",
     "meaningHi": "आकर्षक 2 काफी-कुछ",
-    "meaningEn": "attractive",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a pretty girl",
@@ -13234,12 +13423,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 925,
+    "id": 973,
     "word": "previous",
     "pos": "adj",
     "pronunciation": "प्ीविअस",
     "meaningHi": "पहले वाला, पूर्वर्तीी",
-    "meaningEn": "earlier",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the previous year",
@@ -13248,12 +13437,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 926,
+    "id": 974,
     "word": "print",
     "pos": "n / v",
     "pronunciation": "प्रिंट",
     "meaningHi": "छपाई, टाइप, मुद्रण | छापना, मुद्रित करना",
-    "meaningEn": "to reproduce",
+    "meaningEn": "",
     "examples": [
       {
         "en": "she got her book printed",
@@ -13262,53 +13451,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 927,
+    "id": 975,
     "word": "priority",
     "pos": "n",
     "pronunciation": "प्राइअॉरटि",
     "meaningHi": "प्राथमिकता अधिक महत्त्वपूर्ण ; फुटबॉल इस क्षण मेरी प्राथमिकता नहीं है; परीक्षा की तैयारी अभी प्राथमिकता है।",
-    "meaningEn": "main thing",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 928,
+    "id": 976,
     "word": "private",
     "pos": "adj",
     "pronunciation": "प्ाइवट",
     "meaningHi": "निजी, व्यक्तिगत",
-    "meaningEn": "personal",
-    "examples": [
-      {
-        "en": "This car is my private property, not public property",
-        "hi": "यह कार मेरी निजी सम्पत्ति है, सार्वजनिक संपत्ति नहीं।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 929,
+    "id": 977,
     "word": "prize",
     "pos": "n",
     "pronunciation": "प्राइज़",
     "meaningHi": "पुरस्ार, ईनाम",
-    "meaningEn": "reward",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the Nobel Prize",
         "hi": "नोबेल पुरस्ार"
-      },
-      {
-        "en": "Nobel Prize",
-        "hi": "नोबेल पुरस्ार)"
       }
     ]
   },
   {
-    "id": 930,
+    "id": 978,
     "word": "probably",
     "pos": "adv",
     "pronunciation": "प्ॉबब्लि",
     "meaningHi": "शायद, संभवतः",
-    "meaningEn": "most likely",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He will probably come",
@@ -13317,40 +13497,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 931,
+    "id": 979,
     "word": "profit",
     "pos": "n / v",
     "pronunciation": "प्ॉफ़िट",
     "meaningHi": "लाभ, नफा | फ़ायदा मिलना",
-    "meaningEn": "gain",
-    "examples": [
-      {
-        "en": "You may not profit much from business of candle making",
-        "hi": "तुम मोमबत्ती के व्ापार से शायद अधिक लाभ नहीं कमा पाओगे।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 932,
+    "id": 980,
     "word": "project",
     "pos": "n / v",
     "pronunciation": "प्ॉजेक्ट",
     "meaningHi": "परियोजना, प्रकल्प कोई एक विशेष कार्य जिसे योजनाबद्ध तरीके से एक समयसीमा में पूरा करना हो",
-    "meaningEn": "undertaking",
-    "examples": [
-      {
-        "en": "India is working on a project of sending a man on the moon",
-        "hi": "भारत चाँद पर एक इंसान को भेजने के प्रकल्प पर काम कर रहा है।"
-      }
-    ]
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 933,
+    "id": 981,
     "word": "proof",
     "pos": "n",
     "pronunciation": "प्रूफ़",
     "meaningHi": "सबूत",
-    "meaningEn": "evidence",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Do you have any proof that he stole your wallet?",
@@ -13359,12 +13529,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 934,
+    "id": 982,
     "word": "properly",
     "pos": "adv",
     "pronunciation": "प्ॉपलि",
     "meaningHi": "ढंग से, ठीक से",
-    "meaningEn": "correctly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He was dressed properly",
@@ -13373,12 +13543,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 935,
+    "id": 983,
     "word": "protest",
     "pos": "n / v",
     "pronunciation": "प्ॉटेस्ट",
     "meaningHi": "विरोध, प्रतिवाद | विरोध, प्रतिवाद करना",
-    "meaningEn": "objection",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There were protests against the new law",
@@ -13387,12 +13557,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 936,
+    "id": 984,
     "word": "prove",
     "pos": "v",
     "pronunciation": "प्रूव",
     "meaningHi": "सिद्ध करना",
-    "meaningEn": "to show true",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Can you prove that earth is round?",
@@ -13401,21 +13571,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 937,
+    "id": 985,
     "word": "pupil",
     "pos": "n",
     "pronunciation": "प्ूपल",
     "meaningHi": "शिष्य, छात्र",
-    "meaningEn": "student",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 938,
+    "id": 986,
     "word": "quantity",
     "pos": "n",
     "pronunciation": "क्वांंटिटि",
     "meaningHi": "मात्ा, परिमाण",
-    "meaningEn": "amount",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Eating food in small quantities is healthier",
@@ -13424,12 +13594,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 939,
+    "id": 987,
     "word": "quarrel",
     "pos": "n / v",
     "pronunciation": "क्वॉरल",
     "meaningHi": "झगड़ा या विवाद | झगड़ा करना",
-    "meaningEn": "argument",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Why was there a quar- rel between the two friends?",
@@ -13442,12 +13612,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 940,
+    "id": 988,
     "word": "quarter",
     "pos": "n",
     "pronunciation": "क्वॉटर",
     "meaningHi": "एक चौथाई 2 तिमाही 3 आवास मकान",
-    "meaningEn": "one fourth",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a quarter of a litre",
@@ -13460,12 +13630,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 941,
+    "id": 989,
     "word": "queue",
     "pos": "n",
     "pronunciation": "क्यू",
     "meaningHi": "कतार या लाइन",
-    "meaningEn": "line",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Why is there such a long queue?",
@@ -13474,21 +13644,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 942,
+    "id": 990,
     "word": "radio",
     "pos": "n",
     "pronunciation": "रेडिओ",
     "meaningHi": "रेडियो ऐसा यंत्र जिसमें से रेडियो-स्ेशन से प्रसारित ध्वनियाँ निकलती हों।",
-    "meaningEn": "broadcast device",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 943,
+    "id": 991,
     "word": "rarely",
     "pos": "adv",
     "pronunciation": "रेअलि",
     "meaningHi": "कम ही, विरले ही",
-    "meaningEn": "seldom",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He is rarely seen happy",
@@ -13497,12 +13667,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 944,
+    "id": 992,
     "word": "raw",
     "pos": "adj",
     "pronunciation": "रॉ",
     "meaningHi": "कच्ी स्थिति में 2 अनगढ़",
-    "meaningEn": "uncooked",
+    "meaningEn": "",
     "examples": [
       {
         "en": "raw material",
@@ -13515,12 +13685,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 945,
+    "id": 993,
     "word": "react",
     "pos": "v",
     "pronunciation": "रिऐक्ट",
     "meaningHi": "प्रतिक्रिया व्यक्त करना रिऐक्शन प्रतिक्रिया 160 161 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to respond",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Never react without understanding a matter",
@@ -13533,12 +13703,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 946,
+    "id": 994,
     "word": "recent",
     "pos": "adj",
     "pronunciation": "रीसन्ट",
     "meaningHi": "हाल का रीसंटलि हाल ही में अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ रेकग्ाइज़ 1 पहचानना 2 मान्यता देना 1948 - इजराइल को एक स्वतंत्र देश के रूप में 1948 में",
-    "meaningEn": "recent",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a recent incident",
@@ -13551,12 +13721,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 947,
+    "id": 995,
     "word": "record",
     "pos": "n / v",
     "pronunciation": "रेकोड",
     "meaningHi": "अभिलेख, दस्तावेज, कागजात | रिकॉर्ड करना तथ्योंों या घटनाओं को भविष्य में उपयोग के लिए लिपिबद्ध करना या ध्वनि या चित्र अथवा चलचित्र के रूप में अंकित",
-    "meaningEn": "account",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Some records are missing",
@@ -13569,12 +13739,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 948,
+    "id": 996,
     "word": "recover",
     "pos": "v",
-    "pronunciation": "की वसूूली की कोशिश कर रहा है।",
-    "meaningHi": "रिकवर 1 स्ास्थ्य-लाभ करना 2 फिर से वापस प्राप्त करना 3 वसूली करना 1",
-    "meaningEn": "to heal",
+    "pronunciation": "करना  3 वसूली करना",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": [
       {
         "en": "After surgery, he is on way to recovery",
@@ -13587,30 +13757,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 949,
+    "id": 997,
     "word": "refer",
     "pos": "v",
     "pronunciation": "अंंगरेज़ी शब्द",
-    "meaningHi": "रिफ़र 1 उल्ेख या चर्चा करना 2 कहीं भेजना 162 163 उच्ारण हिंंदी में अर्थ 1",
-    "meaningEn": "to mention",
-    "examples": [
-      {
-        "en": "To prove his point, he referred to a passage in the Bible",
-        "hi": "अपनी बात को सिद्ध करने के लिए उसने बाइबिल के एक अंश का उल्ेख किया ।"
-      },
-      {
-        "en": "The patient was referred to a bigger hospital",
-        "hi": "मरीज को एक बड़े अस्पताल में भेजा गया ।"
-      }
-    ]
+    "meaningHi": "उच्ारण हिंंदी में अर्थ 1",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 950,
+    "id": 998,
     "word": "refuse",
     "pos": "v",
     "pronunciation": "रिफ़यूज़",
     "meaningHi": "इनकार करना, मना करना",
-    "meaningEn": "to decline",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He refused to come",
@@ -13619,12 +13780,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 951,
+    "id": 999,
     "word": "region",
     "pos": "n",
     "pronunciation": "रीजन",
     "meaningHi": "क्षेत्र रीजनल क्षेत्ीय",
-    "meaningEn": "area",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the northern region of India",
@@ -13633,12 +13794,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 952,
+    "id": 1000,
     "word": "reject",
     "pos": "v",
     "pronunciation": "रिजेक्ट",
     "meaningHi": "अस्ीकृत कर देना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ to रिलेटिड से संबंधित",
-    "meaningEn": "to refuse",
+    "meaningEn": "",
     "examples": [
       {
         "en": "My proposal was rejected",
@@ -13651,12 +13812,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 953,
+    "id": 1001,
     "word": "relax",
     "pos": "v",
     "pronunciation": "रिलैक्स",
     "meaningHi": "विश्ाम करना",
-    "meaningEn": "to rest",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let us relax for some time",
@@ -13665,12 +13826,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 954,
+    "id": 1002,
     "word": "relief",
     "pos": "n",
     "pronunciation": "रिलीफ़",
     "meaningHi": "राहत या चैन",
-    "meaningEn": "comfort",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The rain gave relief to the farmers",
@@ -13679,12 +13840,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 955,
+    "id": 1003,
     "word": "remark",
     "pos": "n / v",
     "pronunciation": "रिमाक",
     "meaningHi": "टिप्पणी, कथन | टिप्पणी करना",
-    "meaningEn": "comment",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He made bad remarks about the food in the hostel",
@@ -13697,17 +13858,13 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 956,
+    "id": 1004,
     "word": "repair",
     "pos": "n / v",
     "pronunciation": "मरम्मत में है।",
-    "meaningHi": "रिपेअर मरम्मत मरम्मत करना",
-    "meaningEn": "to fix",
+    "meaningHi": "| रिपेअर मरम्मत करना",
+    "meaningEn": "",
     "examples": [
-      {
-        "en": "My house is under repair",
-        "hi": "मेरा घर | रिपेअ(र"
-      },
       {
         "en": "Did you get your car repaired?",
         "hi": "क्ा तुमने अपनी कार मरम्मत कराई?"
@@ -13715,12 +13872,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 957,
+    "id": 1005,
     "word": "reply",
     "pos": "n / v",
     "pronunciation": "रिप्ाइ",
     "meaningHi": "जवाब, उत्तर | जवाब या उत्तर देना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to answer",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He gave no reply to my questions",
@@ -13733,12 +13890,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 958,
+    "id": 1006,
     "word": "rid",
     "pos": "v",
     "pronunciation": "रिड",
     "meaningHi": "मुक्त करना, पीछा छुड़ाना",
-    "meaningEn": "to free from",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Rid yourself of worries",
@@ -13747,12 +13904,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 959,
+    "id": 1007,
     "word": "rough",
     "pos": "adj",
     "pronunciation": "रफ़",
     "meaningHi": "वस्तु के लिए खुरदरा 2 व्यक्ति के लिए रुक्ष रूखे व्यव- हार वाला 168 169 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "uneven",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a rough surface",
@@ -13765,30 +13922,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 960,
+    "id": 1008,
     "word": "round",
     "pos": "adj / n",
     "pronunciation": "राउन्ड",
     "meaningHi": "गोल | 1 फेरा, गश्त, चक्कर 2 बारी 1",
-    "meaningEn": "circular",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a round plate",
         "hi": "एक गोल प्ेट"
-      },
-      {
-        "en": "He took a round of the village and came back",
-        "hi": "उसने गाँव का एक चक्कर लगाया और आ गया।"
       }
     ]
   },
   {
-    "id": 961,
+    "id": 1009,
     "word": "row",
     "pos": "n",
     "pronunciation": "रो",
     "meaningHi": "कतार, पंक्ति 2 झगड़ा",
-    "meaningEn": "a line",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He sat in the front row",
@@ -13801,21 +13954,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 962,
+    "id": 1010,
     "word": "rub",
     "pos": "v",
     "pronunciation": "रब",
     "meaningHi": "रगड़ना रबिश कूड़ा-करकट, बेकार की चीजें",
-    "meaningEn": "to move against",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 963,
+    "id": 1011,
     "word": "safety",
     "pos": "n",
     "pronunciation": "सेफ़्टि",
     "meaningHi": "सुरक्षा",
-    "meaningEn": "security",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The police are there to ensure the safety of citizens",
@@ -13824,12 +13977,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 964,
+    "id": 1012,
     "word": "satisfied",
     "pos": "adj",
     "pronunciation": "सैटिसफ़ाइड",
     "meaningHi": "संतुष्ट",
-    "meaningEn": "content",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Are you satisfied with the coaching?",
@@ -13838,12 +13991,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 965,
+    "id": 1013,
     "word": "saving",
     "pos": "n",
     "pronunciation": "सेविंग",
     "meaningHi": "बचत 2 जमापूँजी",
-    "meaningEn": "kept money",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Saving is a good habit",
@@ -13856,12 +14009,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 966,
+    "id": 1014,
     "word": "scale",
     "pos": "n",
     "pronunciation": "स्ेल",
     "meaningHi": "पैमाना 2 रूलर 3 तराजू, पलड़ा",
-    "meaningEn": "range",
+    "meaningEn": "",
     "examples": [
       {
         "en": "large scale cheating at the exam",
@@ -13874,12 +14027,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 967,
+    "id": 1015,
     "word": "scare",
     "pos": "n / v",
     "pronunciation": "स्ेअर",
     "meaningHi": "डर, भय | डरा देना",
-    "meaningEn": "to frighten",
+    "meaningEn": "",
     "examples": [
       {
         "en": "scare of wild animals",
@@ -13892,21 +14045,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 968,
+    "id": 1016,
     "word": "scared",
     "pos": "adj",
     "pronunciation": "स्ेअड",
     "meaningHi": "भयभीत",
-    "meaningEn": "afraid",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 969,
+    "id": 1017,
     "word": "scene",
     "pos": "n",
     "pronunciation": "सीन",
     "meaningHi": "दृश्य",
-    "meaningEn": "a view",
+    "meaningEn": "",
     "examples": [
       {
         "en": "what a scene!",
@@ -13915,21 +14068,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 970,
+    "id": 1018,
     "word": "schedule",
     "pos": "n / v",
     "pronunciation": "शेड्ूल",
     "meaningHi": "समय-सहित कार्य-योजना | किसी बात की समय-सारणी तय करना Did you ? - क्ा अपने परिवार से मशविरा करके तुमने अपनी यात्रा की समय-सारणी तय की?",
-    "meaningEn": "timetable",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 971,
+    "id": 1019,
     "word": "scheme",
     "pos": "n",
     "pronunciation": "स्ीम",
     "meaningHi": "योजना खास कर सरकारी योजना या प्रणाली",
-    "meaningEn": "plan",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The government has started a new scheme for blind students",
@@ -13938,48 +14091,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 972,
+    "id": 1020,
     "word": "score",
     "pos": "n / v",
-    "pronunciation": "स्ोर",
-    "meaningHi": "खिलाड़ी आदि के प्राप्त अंक का लेखा | 1 खेल में स्ोर करना 2 परीक्षा में अंक लाना 1",
-    "meaningEn": "points",
+    "pronunciation": "खिलाड़ी आदि के प्राप्त अंक का",
+    "meaningHi": "लेखा | 1",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What is the score?",
         "hi": "स्ोर क्ा है?"
-      },
-      {
-        "en": "Virat Kohli scored the highest runs",
-        "hi": "विराट कोहली ने सबसे अधिक रन बनाए।"
       }
     ]
   },
   {
-    "id": 973,
+    "id": 1021,
     "word": "second",
     "pos": "det adv",
-    "pronunciation": "सेकण्ड",
-    "meaningHi": "n v 1 क्रम में दूसरा 2 मिनट का साठवाँ भाग",
-    "meaningEn": "after first",
-    "examples": [
-      {
-        "en": "We sat in the second row",
-        "hi": "हम दूसरी पंक्ति में बैठे"
-      },
-      {
-        "en": "Please wait for a few seconds",
-        "hi": "कृपया कुछ क्षणों के लिए प्रतीक्षा करें।"
-      }
-    ]
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 974,
+    "id": 1022,
     "word": "sentence",
     "pos": "n",
     "pronunciation": "सेन्टन्स",
     "meaningHi": "वाक्य",
-    "meaningEn": "words; punishment",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A sentence is made of several words",
@@ -13988,12 +14128,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 975,
+    "id": 1023,
     "word": "separate",
     "pos": "adj / v",
     "pronunciation": "सेपरट",
     "meaningHi": "पृथक, अलग | अलग हो जाना",
-    "meaningEn": "to divide",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Pakistan and Bangladesh are now two separate countries",
@@ -14006,21 +14146,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 976,
+    "id": 1024,
     "word": "seriously",
     "pos": "adv",
     "pronunciation": "गंभीर रूप से घायल",
-    "meaningHi": "सिअरिअस््लि गंभीर रूप से",
-    "meaningEn": "earnestly",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 977,
+    "id": 1025,
     "word": "settle",
     "pos": "v",
     "pronunciation": "सेट्ल",
     "meaningHi": "बहस या विवाद को सुलझा देना",
-    "meaningEn": "to resolve",
+    "meaningEn": "",
     "examples": [
       {
         "en": "settle a dispute - एक विवाद को सुलझाना 2 कहीं बस जाना (settle abroad",
@@ -14029,12 +14169,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 978,
+    "id": 1026,
     "word": "shade",
     "pos": "n",
     "pronunciation": "शेड",
     "meaningHi": "साया, छायादार क्षेत्र 2 रंग का एक रूप 176 177 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "partial dark",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Pink is a shade of red",
@@ -14043,12 +14183,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 979,
+    "id": 1027,
     "word": "shadow",
     "pos": "n",
     "pronunciation": "शैडो",
     "meaningHi": "छाया, परछाई",
-    "meaningEn": "dark image",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He stood in the shadow of a tree",
@@ -14057,12 +14197,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 980,
+    "id": 1028,
     "word": "shake",
     "pos": "v",
     "pronunciation": "शेक",
     "meaningHi": "हिलना 2 हिलाना शैल भविष्यत काल की सहायक क्रिया",
-    "meaningEn": "to tremble",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The tree was shaking",
@@ -14075,12 +14215,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 981,
+    "id": 1029,
     "word": "shock",
     "pos": "n / v",
     "pronunciation": "शॉक",
     "meaningHi": "आघात, सदमा",
-    "meaningEn": "sudden upset",
+    "meaningEn": "",
     "examples": [
       {
         "en": "His rude behaviour shocked me",
@@ -14089,12 +14229,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 982,
+    "id": 1030,
     "word": "shoot",
     "pos": "v",
     "pronunciation": "शूट",
     "meaningHi": "गोली मारना 2 फोटो या विडियो खींचना",
-    "meaningEn": "to fire",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The criminal was shot",
@@ -14107,12 +14247,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 983,
+    "id": 1031,
     "word": "shout",
     "pos": "n / v",
     "pronunciation": "शाउट",
     "meaningHi": "चिल्ाहट | चिल्ाना, बहुत जोर से बोलना",
-    "meaningEn": "to yell",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Ci- vilised people rarely shout",
@@ -14121,12 +14261,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 984,
+    "id": 1032,
     "word": "sight",
     "pos": "n",
     "pronunciation": "साइट",
     "meaningHi": "दृष्टि 2 दृश्य",
-    "meaningEn": "vision",
+    "meaningEn": "",
     "examples": [
       {
         "en": "test of eye sight",
@@ -14139,12 +14279,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 985,
+    "id": 1033,
     "word": "similar",
     "pos": "adj",
     "pronunciation": "सिमिलर",
     "meaningHi": "मिलता-जुलता",
-    "meaningEn": "alike",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a similar face",
@@ -14153,48 +14293,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 986,
+    "id": 1034,
     "word": "sky",
     "pos": "n",
     "pronunciation": "स्ाई",
     "meaningHi": "आकाश",
-    "meaningEn": "atmosphere",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 987,
+    "id": 1035,
     "word": "slide",
     "pos": "v",
     "pronunciation": "स्ाइड",
     "meaningHi": "फिसलना, खिसकना",
-    "meaningEn": "to glide",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 988,
+    "id": 1036,
     "word": "slowly",
     "pos": "adv",
     "pronunciation": "स्ोलि",
     "meaningHi": "धीरे-धीरे",
-    "meaningEn": "not fast",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 989,
+    "id": 1037,
     "word": "smart",
     "pos": "adj",
     "pronunciation": "स्माट",
     "meaningHi": "तेजतर्रार 2 आकर्षक",
-    "meaningEn": "clever",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 990,
+    "id": 1038,
     "word": "smoke",
     "pos": "n / v",
     "pronunciation": "स्मोक",
     "meaningHi": "धुँआ | सिगरेट पीना",
-    "meaningEn": "fire gas",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Smoking may cause cancer",
@@ -14203,12 +14343,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 991,
+    "id": 1039,
     "word": "social",
     "pos": "adj",
     "pronunciation": "सोशल",
     "meaningHi": "सामाजिक",
-    "meaningEn": "of society",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a social worker",
@@ -14217,12 +14357,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 992,
+    "id": 1040,
     "word": "somebody",
     "pos": "pron",
     "pronunciation": "सम्बडि",
     "meaningHi": "कोई व्यक्ति",
-    "meaningEn": "someone",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Somebody came",
@@ -14231,12 +14371,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 993,
+    "id": 1041,
     "word": "somehow",
     "pos": "adv",
     "pronunciation": "सम्ाउ",
     "meaningHi": "किसी तरह से",
-    "meaningEn": "in some way",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Somehow I came",
@@ -14245,12 +14385,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 994,
+    "id": 1042,
     "word": "someone",
     "pos": "pron",
     "pronunciation": "सम्वन",
     "meaningHi": "कोई व्यक्ति",
-    "meaningEn": "a person",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Someone came",
@@ -14259,12 +14399,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 995,
+    "id": 1043,
     "word": "something",
     "pos": "pron",
     "pronunciation": "सम्थंग",
     "meaningHi": "कुछ",
-    "meaningEn": "a thing",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Something is wrong",
@@ -14273,12 +14413,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 996,
+    "id": 1044,
     "word": "somewhat",
     "pos": "adv",
     "pronunciation": "सम्वॉट",
     "meaningHi": "कुछ-कुछ, किसी हद तक",
-    "meaningEn": "a bit",
+    "meaningEn": "",
     "examples": [
       {
         "en": "some- what hesitant",
@@ -14287,12 +14427,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 997,
+    "id": 1045,
     "word": "somewhere",
     "pos": "adv",
     "pronunciation": "सम्ेअर",
     "meaningHi": "कहीं",
-    "meaningEn": "some place",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He has gone somewhere",
@@ -14301,12 +14441,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 998,
+    "id": 1046,
     "word": "special",
     "pos": "adj",
     "pronunciation": "स्ेशल",
     "meaningHi": "विशिष्ट, खास",
-    "meaningEn": "unique",
+    "meaningEn": "",
     "examples": [
       {
         "en": "special guests",
@@ -14315,12 +14455,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 999,
+    "id": 1047,
     "word": "speech",
     "pos": "n",
     "pronunciation": "स्पीच",
     "meaningHi": "भाषण",
-    "meaningEn": "speaking",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a great speech",
@@ -14329,12 +14469,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1000,
+    "id": 1048,
     "word": "spend",
     "pos": "v",
     "pronunciation": "स्पेन्ड",
     "meaningHi": "खर्च करना",
-    "meaningEn": "to use",
+    "meaningEn": "",
     "examples": [
       {
         "en": "spend your energy on good things",
@@ -14343,12 +14483,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1001,
+    "id": 1049,
     "word": "spread",
     "pos": "v",
     "pronunciation": "स्प्रेड",
     "meaningHi": "फैलाना",
-    "meaningEn": "to extend",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Spread peace, not hatred",
@@ -14357,35 +14497,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1002,
+    "id": 1050,
     "word": "spring",
     "pos": "n / v",
     "pronunciation": "स्प्ंग",
-    "meaningHi": "वसंत ऋतु 186 187 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ SQ n एस क्यू स्पिरिचुअल कोशंट आध्ात्मिक लब्धि आध्ात्मिक उपल- ब्धि कितनी हुई है, यह जानने का",
-    "meaningEn": "season; to jump",
+    "meaningHi": "वसंत ऋतु 186 187 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ SQ",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "He sprang to his feet",
+        "en": "Spiritual | तेजी से उछलना (He sprang to his feet",
         "hi": "वह उछल कर अपने पैरों पर खड़ा हो गया।"
       }
     ]
   },
   {
-    "id": 1003,
+    "id": 1051,
     "word": "stare",
     "pos": "v",
     "pronunciation": "स्ेअर",
     "meaningHi": "देखते रहना, घूरना",
-    "meaningEn": "to gaze",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1004,
+    "id": 1052,
     "word": "statement",
     "pos": "n",
     "pronunciation": "स्ेट्मन्ट",
     "meaningHi": "कथन, बयान",
-    "meaningEn": "declaration",
+    "meaningEn": "",
     "examples": [
       {
         "en": "statement of the victim",
@@ -14394,7 +14534,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1005,
+    "id": 1053,
     "word": "stick",
     "pos": "n / v",
     "pronunciation": "स्टिक",
@@ -14408,30 +14548,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1006,
+    "id": 1054,
     "word": "storm",
     "pos": "n",
     "pronunciation": "स्ोम",
     "meaningHi": "आँधी, तूफान",
-    "meaningEn": "bad weather",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1007,
+    "id": 1055,
     "word": "stranger",
     "pos": "n",
     "pronunciation": "स्ट्रेनजर",
     "meaningHi": "अजनबी जिससे कभी कोई जान-पहचान नहीं हुई हो",
-    "meaningEn": "unknown person",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1008,
+    "id": 1056,
     "word": "stretch",
     "pos": "v",
     "pronunciation": "स्ट्ेच",
     "meaningHi": "खींच कर लंबा करना",
-    "meaningEn": "to extend",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Elastic can be stretched",
@@ -14440,12 +14580,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1009,
+    "id": 1057,
     "word": "strike",
     "pos": "n / v",
     "pronunciation": "स्ट्ाइक",
     "meaningHi": "हड़ताल 2 हमला | 1 मारना 2 दिमाग में कोई बात आना 3 हड़ताल करना 4 हटाना 1",
-    "meaningEn": "to hit",
+    "meaningEn": "",
     "examples": [
       {
         "en": "workers' strike",
@@ -14458,12 +14598,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1010,
+    "id": 1058,
     "word": "study",
     "pos": "n / v",
     "pronunciation": "स्टडि",
     "meaningHi": "अध्यन, पढ़ाई 2 अध्यन का कमरा | अध्यन करना",
-    "meaningEn": "to learn",
+    "meaningEn": "",
     "examples": [
       {
         "en": "study history",
@@ -14472,21 +14612,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1011,
+    "id": 1059,
     "word": "stupid",
     "pos": "adj",
     "pronunciation": "स्ट्ूपिड",
     "meaningHi": "नासमझ",
-    "meaningEn": "foolish",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1012,
+    "id": 1060,
     "word": "substance",
     "pos": "n",
     "pronunciation": "सब्सटन्स",
     "meaningHi": "पदार्थ, वस्तु 2 सत्य",
-    "meaningEn": "material",
+    "meaningEn": "",
     "examples": [
       {
         "en": "What substance is this?",
@@ -14499,12 +14639,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1013,
+    "id": 1061,
     "word": "sudden",
     "pos": "adj",
     "pronunciation": "सड्न",
     "meaningHi": "अचानक होने वाला",
-    "meaningEn": "unexpected",
+    "meaningEn": "",
     "examples": [
       {
         "en": "sudden death",
@@ -14513,12 +14653,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1014,
+    "id": 1062,
     "word": "suddenly",
     "pos": "adv",
     "pronunciation": "सडन्लि",
     "meaningHi": "अचानक",
-    "meaningEn": "abruptly",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She suddenly started crying",
@@ -14527,21 +14667,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1015,
+    "id": 1063,
     "word": "summer",
     "pos": "n",
-    "pronunciation": "समर",
-    "meaningHi": "ग्ीष्म ऋतु, गरमी का मौसम",
-    "meaningEn": "warm season",
+    "pronunciation": "ग्ीष्म ऋतु, गरमी का मौसम",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1016,
+    "id": 1064,
     "word": "supply",
     "pos": "n / v",
     "pronunciation": "सप्ाइ",
     "meaningHi": "आपूर्ति | आपूर्ति करना, प्रदान करना",
-    "meaningEn": "to provide",
+    "meaningEn": "",
     "examples": [
       {
         "en": "जैसे, water supply",
@@ -14554,12 +14694,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1017,
+    "id": 1065,
     "word": "surprise",
     "pos": "n / v",
     "pronunciation": "सप्ाइज़",
     "meaningHi": "आश्चर्य, ताज्जुब | किसी को आश्चर्यचकित करना",
-    "meaningEn": "unexpected",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She surprised everybody by scoring the highest marks",
@@ -14568,12 +14708,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1018,
+    "id": 1066,
     "word": "swallow",
     "pos": "v",
     "pronunciation": "स्ॉलो",
     "meaningHi": "निगलना",
-    "meaningEn": "to ingest",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Swallow the pill",
@@ -14582,12 +14722,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1019,
+    "id": 1067,
     "word": "sweep",
     "pos": "v",
     "pronunciation": "स्ीप",
     "meaningHi": "झाड़ू या ब्रश से फ़र्श साफ करना",
-    "meaningEn": "to clean",
+    "meaningEn": "",
     "examples": [
       {
         "en": "sweep the floor",
@@ -14596,12 +14736,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1020,
+    "id": 1068,
     "word": "swimming",
     "pos": "n",
     "pronunciation": "स्विमिंग",
     "meaningHi": "तैरना",
-    "meaningEn": "water sport",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Swimming is the best exercise",
@@ -14610,12 +14750,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1021,
+    "id": 1069,
     "word": "swing",
     "pos": "n / v",
     "pronunciation": "स्विंंग",
     "meaningHi": "झूला | झूलना, झुलाना",
-    "meaningEn": "to sway",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There are no swings in my school",
@@ -14628,21 +14768,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1022,
+    "id": 1070,
     "word": "switch",
     "pos": "n",
     "pronunciation": "स्विच",
     "meaningHi": "बिजली का स्विच",
-    "meaningEn": "to change",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1023,
+    "id": 1071,
     "word": "system",
     "pos": "n",
     "pronunciation": "सिस्टम",
     "meaningHi": "तंत्र, व्यवस्ा 194 195 T अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "organized set",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The system of schooling needs a change",
@@ -14651,21 +14791,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1024,
+    "id": 1072,
     "word": "target",
     "pos": "n",
     "pronunciation": "टागिट",
     "meaningHi": "लक्ष्य, निशाना",
-    "meaningEn": "goal",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1025,
+    "id": 1073,
     "word": "taste",
     "pos": "n / v",
     "pronunciation": "टेस्ट",
     "meaningHi": "स्ाद 2 अभिरुचि, पसंद 2",
-    "meaningEn": "flavour sense",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Honey tastes well",
@@ -14678,12 +14818,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1026,
+    "id": 1074,
     "word": "terrible",
     "pos": "adj",
     "pronunciation": "टेरब्ल",
     "meaningHi": "भयानक",
-    "meaningEn": "awful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a terrible creature",
@@ -14692,12 +14832,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1027,
+    "id": 1075,
     "word": "thick",
     "pos": "adj",
     "pronunciation": "थिक",
     "meaningHi": "मोटा 2 गाढ़ा",
-    "meaningEn": "dense",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a thick wall",
@@ -14710,12 +14850,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1028,
+    "id": 1076,
     "word": "thirsty",
     "pos": "adj",
     "pronunciation": "थस्टि",
     "meaningHi": "प्ासा",
-    "meaningEn": "needing water",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a thirsty crow",
@@ -14724,25 +14864,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1029,
+    "id": 1077,
     "word": "threaten",
     "pos": "v",
     "pronunciation": "थ्ेट्न",
     "meaningHi": "धमकी देना थ्ू 1 के माध्यम से, के द्ारा 2 आर-पार 3 आरंभ से अंत तक 1",
-    "meaningEn": "to warn",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Who is threatening you?",
         "hi": "तुम्ें कौन धमकी दे रहा है?"
-      },
-      {
-        "en": "The thief entered through the window",
-        "hi": "चोर खिड़की के माध्यम से आया।"
       }
     ]
   },
   {
-    "id": 1030,
+    "id": 1078,
     "word": "ticket",
     "pos": "n",
     "pronunciation": "टिकिट",
@@ -14751,7 +14887,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1031,
+    "id": 1079,
     "word": "tie",
     "pos": "n / v",
     "pronunciation": "टाइ",
@@ -14760,12 +14896,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1032,
+    "id": 1080,
     "word": "tight",
     "pos": "adj adv",
     "pronunciation": "टाइट",
     "meaningHi": "कसा हुआ ढीला का उलटा",
-    "meaningEn": "not loose",
+    "meaningEn": "",
     "examples": [
       {
         "en": "tight shoes - कसे हुए जूूते, जिन्हेंें पहन कर चलने में दिक्कत हो सकती है; tight schedule",
@@ -14774,12 +14910,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1033,
+    "id": 1081,
     "word": "tip",
     "pos": "n",
     "pronunciation": "टिप",
     "meaningHi": "सिरा, ऊपर का नुकीला हिस्ा 2 रेस्तराँ आदि में बैरे को दी जाने वाली बख्ीश 3 छोटी-छोटी सीख",
-    "meaningEn": "end; advice",
+    "meaningEn": "",
     "examples": [
       {
         "en": "tip of the pencil",
@@ -14792,21 +14928,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1034,
+    "id": 1082,
     "word": "tired",
     "pos": "adj",
     "pronunciation": "टायड",
     "meaningHi": "थका हुआ",
-    "meaningEn": "weary",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1035,
+    "id": 1083,
     "word": "today",
     "pos": "n adv",
     "pronunciation": "टुडे",
     "meaningHi": "आज",
-    "meaningEn": "this day",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Enjoy today, but save for tomorrow",
@@ -14815,30 +14951,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1036,
+    "id": 1084,
     "word": "tongue",
     "pos": "n",
     "pronunciation": "टंग",
     "meaningHi": "जीभ",
-    "meaningEn": "organ of taste",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1037,
+    "id": 1085,
     "word": "tonight",
     "pos": "n",
     "pronunciation": "टुनाइट",
     "meaningHi": "आज रात",
-    "meaningEn": "this night",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1038,
+    "id": 1086,
     "word": "top",
     "pos": "n / adj / v",
     "pronunciation": "टॉप",
     "meaningHi": "चोटी, शिखर | शीर्षस्थ, सर्वोपरि | 1 प्रथम आना 2 भोजन की किसी चीज के ऊपर कुछ और लगाना",
-    "meaningEn": "highest",
+    "meaningEn": "",
     "examples": [
       {
         "en": "hill top",
@@ -14851,12 +14987,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1039,
+    "id": 1087,
     "word": "tough",
     "pos": "adj",
     "pronunciation": "टफ़",
     "meaningHi": "सख्त 2 कठिन",
-    "meaningEn": "strong",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a tough officer",
@@ -14869,12 +15005,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1040,
+    "id": 1088,
     "word": "track",
     "pos": "n / v",
     "pronunciation": "ट्रैक",
     "meaningHi": "चलते रहने से बना रास्ता | पता लगाना, पीछा करना",
-    "meaningEn": "path",
+    "meaningEn": "",
     "examples": [
       {
         "en": "mountain tracks",
@@ -14887,12 +15023,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1041,
+    "id": 1089,
     "word": "trade",
     "pos": "n / v",
     "pronunciation": "ट्रेड",
     "meaningHi": "व्यापार 202 203 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | व्यापार करना",
-    "meaningEn": "commerce",
+    "meaningEn": "",
     "examples": [
       {
         "en": "silk trade",
@@ -14905,12 +15041,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1042,
+    "id": 1090,
     "word": "traffic",
     "pos": "n",
     "pronunciation": "ट्ैफ़िक",
     "meaningHi": "यातायात",
-    "meaningEn": "road vehicles",
+    "meaningEn": "",
     "examples": [
       {
         "en": "heavy traffic",
@@ -14919,12 +15055,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1043,
+    "id": 1091,
     "word": "tragedy",
     "pos": "n",
     "pronunciation": "ट्ैजडि",
     "meaningHi": "त्ासदी, अत्ंत दुखद घटना",
-    "meaningEn": "a very sad event",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The Latur earthquake was a big tragedy",
@@ -14933,12 +15069,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1044,
+    "id": 1092,
     "word": "train",
     "pos": "n / v",
     "pronunciation": "ट्रेन",
     "meaningHi": "ट्रेन, रेल | प्रशिक्षण देना",
-    "meaningEn": "to teach; vehicle",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Elephants can be trained even to paint",
@@ -14947,12 +15083,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1045,
+    "id": 1093,
     "word": "treat",
     "pos": "n / v",
     "pronunciation": "ट्रीट",
     "meaningHi": "दावत | व्यवहार-विशेष करना",
-    "meaningEn": "to handle",
+    "meaningEn": "",
     "examples": [
       {
         "en": "as birthday treat",
@@ -14965,12 +15101,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1046,
+    "id": 1094,
     "word": "treatment",
     "pos": "n",
     "pronunciation": "ट्ीटमन्ट",
     "meaningHi": "इलाज",
-    "meaningEn": "care",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He is under treatment for tuberculosis",
@@ -14979,12 +15115,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1047,
+    "id": 1095,
     "word": "trial",
     "pos": "n",
     "pronunciation": "ट्ायल",
     "meaningHi": "परीक्षण, आजमाइश 2 मुकदमा, मुकदमे की सुनवाई",
-    "meaningEn": "test",
+    "meaningEn": "",
     "examples": [
       {
         "en": "trial run of a car",
@@ -14997,12 +15133,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1048,
+    "id": 1096,
     "word": "trick",
     "pos": "n",
     "pronunciation": "ट्रिक",
     "meaningHi": "करतब, करामात, हाथ की सफाई 2 तरकीब, दाँवपेंच 3 शरारत",
-    "meaningEn": "a cunning act",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a magician's tricks",
@@ -15015,12 +15151,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1049,
+    "id": 1097,
     "word": "twist",
     "pos": "n / v",
     "pronunciation": "ट्विस्ट",
     "meaningHi": "मरोड़ने की क्रिया, मोड़, घुमाव | मरोड़ने की क्रिया",
-    "meaningEn": "to turn",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a new twist in the story",
@@ -15033,30 +15169,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1050,
+    "id": 1098,
     "word": "typical",
     "pos": "adj",
     "pronunciation": "टिपिक्ल",
     "meaningHi": "प्रातिनिधिक, आदर्शभूत, ठेठ 206 207 U अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "characteristic",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a typical Indian fellow - एक ठेठ भारतीय जन; typical American accent",
         "hi": "एक आदर्शभूूत अमेरिकन उच्चारण"
-      },
-      {
-        "en": "Indian fellow",
-        "hi": "एक ठेठ भारतीय जन; typical American accent - एक आदर्शभूूत अमेरिकन उच्चारण) 206 207 U अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ"
       }
     ]
   },
   {
-    "id": 1051,
+    "id": 1099,
     "word": "unable",
     "pos": "adj",
     "pronunciation": "अनेबल",
     "meaningHi": "{कुछ करने में} असमर्थ, अक्षम अनसर्टन अनिश्चित",
-    "meaningEn": "not capable",
+    "meaningEn": "",
     "examples": [
       {
         "en": "unable to eat more",
@@ -15069,21 +15201,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1052,
+    "id": 1100,
     "word": "uniform",
     "pos": "n",
     "pronunciation": "यूनिफ़ोम",
     "meaningHi": "वर्दीी, गणवेश यूनिफ़ोम एक जैसा, जो बदलता नहीं ? - क्ा निजी और सरकारी शिक्षकों के लिए एक-जैसा वेतन होना चाहिए?",
-    "meaningEn": "standard clothing",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1053,
+    "id": 1101,
     "word": "union",
     "pos": "n",
     "pronunciation": "यूनिअन",
     "meaningHi": "मिलन 2 एक हो जाना 3 संघ",
-    "meaningEn": "joining together",
+    "meaningEn": "",
     "examples": [
       {
         "en": "reunion of the schoolmates",
@@ -15096,12 +15228,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1054,
+    "id": 1102,
     "word": "unite",
     "pos": "v",
     "pronunciation": "युनाइट",
     "meaningHi": "एक होना 2 जोड़ना",
-    "meaningEn": "to combine",
+    "meaningEn": "",
     "examples": [
       {
         "en": "My parents have reunited",
@@ -15114,12 +15246,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1055,
+    "id": 1103,
     "word": "united",
     "pos": "adj",
     "pronunciation": "युनाइटिड",
     "meaningHi": "एकसाथ, संयुक्त",
-    "meaningEn": "joined",
+    "meaningEn": "",
     "examples": [
       {
         "en": "United you win, divided you lose",
@@ -15128,12 +15260,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1056,
+    "id": 1104,
     "word": "unlock",
     "pos": "v",
     "pronunciation": "अनलॉक",
     "meaningHi": "ताला खोलना अनलकी अभागा, बदकिस्मत un- अन्प्ेज़्न्ट अप्रिय",
-    "meaningEn": "to open",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She unlocked the door",
@@ -15146,12 +15278,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1057,
+    "id": 1105,
     "word": "upper",
     "pos": "adj",
-    "pronunciation": "अपर",
-    "meaningHi": "ऊपरी",
-    "meaningEn": "higher",
+    "pronunciation": "",
+    "meaningHi": "अपर ऊपरी",
+    "meaningEn": "",
     "examples": [
       {
         "en": "upper berth",
@@ -15160,12 +15292,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1058,
+    "id": 1106,
     "word": "upset",
     "pos": "v / adj",
     "pronunciation": "अप्ेट",
-    "meaningHi": "परेशान कर देना | चिंतित और परेशान अप्ेटिंग परेशान कर देने वाला अप्स्ेअज़ ऊपरी मंजिल पर / का अपवड्ज़ ऊपर की ओर अपवड ऊपर की ओर वाला",
-    "meaningEn": "disturbed",
+    "meaningHi": "परेशान कर देना | चिंतित और परेशान अप्ेटिंग परेशान कर देने वाला",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He upset me - उसने मुझे परेशान कर दिया 2 अस्तव्यस्त, उलटपलट कर देना (He upset my plans",
@@ -15178,12 +15310,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1059,
+    "id": 1107,
     "word": "urban",
     "pos": "adj",
     "pronunciation": "अर्बन",
     "meaningHi": "शहरी",
-    "meaningEn": "of a city",
+    "meaningEn": "",
     "examples": [
       {
         "en": "urban culture",
@@ -15192,12 +15324,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1060,
+    "id": 1108,
     "word": "urgent",
     "pos": "adj",
     "pronunciation": "अजन्ट",
     "meaningHi": "तुरंत जरूरी",
-    "meaningEn": "needing action now",
+    "meaningEn": "",
     "examples": [
       {
         "en": "urgent work",
@@ -15206,12 +15338,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1061,
+    "id": 1109,
     "word": "useful",
     "pos": "adj",
     "pronunciation": "यूस्फ़्ल",
     "meaningHi": "उपयोगी",
-    "meaningEn": "helpful",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a useful man",
@@ -15220,12 +15352,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1062,
+    "id": 1110,
     "word": "useless",
     "pos": "adj",
     "pronunciation": "यूस्लस",
     "meaningHi": "बेकार",
-    "meaningEn": "pointless",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a useless fellow",
@@ -15234,12 +15366,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1063,
+    "id": 1111,
     "word": "usual",
     "pos": "adj",
     "pronunciation": "यूशज़ुअल",
     "meaningHi": "सामान्य, हमेशा-जैसा",
-    "meaningEn": "normal",
+    "meaningEn": "",
     "examples": [
       {
         "en": "his usual dress",
@@ -15248,12 +15380,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1064,
+    "id": 1112,
     "word": "usually",
     "pos": "adv",
     "pronunciation": "यूशज़ुअलि",
     "meaningHi": "सामान्यत:, अकसर अन्-यूशज़ुअलि असाधारण तरीके से V अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "normally",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The doctor usually sits from 6 p.m. to 8 p.m.",
@@ -15266,12 +15398,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1065,
+    "id": 1113,
     "word": "valid",
     "pos": "adj",
     "pronunciation": "वैलिड",
     "meaningHi": "सही, वैध, मान्य",
-    "meaningEn": "legitimate",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a valid passport",
@@ -15280,12 +15412,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1066,
+    "id": 1114,
     "word": "valley",
     "pos": "n",
     "pronunciation": "वैलि",
     "meaningHi": "घाटी दो पहाड़ियों या पहाड़ों के बीच की नीची जमीन जहाँ से सामान्यतः कोई नदी प्रवाहित होती है। वैल्ुअबल बहुमूल्य, कीमती",
-    "meaningEn": "low ground",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Indus Valley Civilization",
@@ -15298,12 +15430,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1067,
+    "id": 1115,
     "word": "variation",
     "pos": "n",
     "pronunciation": "वेअरिएशन",
     "meaningHi": "भिन्नता, परिवर्तन की मात्ा",
-    "meaningEn": "change",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The uniform must be the same for all, and no varia",
@@ -15312,12 +15444,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1068,
+    "id": 1116,
     "word": "varied",
     "pos": "adj",
     "pronunciation": "वेअरिड",
     "meaningHi": "अलग-अलग तरह के",
-    "meaningEn": "diverse",
+    "meaningEn": "",
     "examples": [
       {
         "en": "varied opinion",
@@ -15326,12 +15458,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1069,
+    "id": 1117,
     "word": "variety",
     "pos": "n",
     "pronunciation": "वराइअटि",
     "meaningHi": "विविधता",
-    "meaningEn": "range",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A variety of clothes are available in this shop",
@@ -15340,12 +15472,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1070,
+    "id": 1118,
     "word": "various",
     "pos": "adj",
     "pronunciation": "वेअरिअस",
     "meaningHi": "विभिन्न, विविध",
-    "meaningEn": "different",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There are various paths that lead to God",
@@ -15354,21 +15486,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1071,
+    "id": 1119,
     "word": "vehicle",
     "pos": "n",
     "pronunciation": "वीअकल",
     "meaningHi": "वाहन, गाड़ी",
-    "meaningEn": "transport",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1072,
+    "id": 1120,
     "word": "victim",
     "pos": "n",
     "pronunciation": "विक्टिम",
     "meaningHi": "पीड़ित, शिकार",
-    "meaningEn": "sufferer",
+    "meaningEn": "",
     "examples": [
       {
         "en": "crime victim",
@@ -15377,12 +15509,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1073,
+    "id": 1121,
     "word": "visible",
     "pos": "adj",
     "pronunciation": "विजि़ब्ल",
     "meaningHi": "दृष्टिगोचर, जो दिखाई पड़ता हो",
-    "meaningEn": "can be seen",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The visible side of the moon",
@@ -15391,12 +15523,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1074,
+    "id": 1122,
     "word": "vital",
     "pos": "adj",
     "pronunciation": "वाइट्ल",
     "meaningHi": "अतिमहत्त्वपूर्ण",
-    "meaningEn": "essential",
+    "meaningEn": "",
     "examples": [
       {
         "en": "oxygen is vital for life",
@@ -15405,12 +15537,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1075,
+    "id": 1123,
     "word": "volume",
     "pos": "n",
     "pronunciation": "वॉल्ूम",
     "meaningHi": "आयतन, मात्ा 2 कई खंडों वाली पुस्तक का कोई एक खंड",
-    "meaningEn": "amount; loudness",
+    "meaningEn": "",
     "examples": [
       {
         "en": "increasing volume of traffic",
@@ -15423,12 +15555,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1076,
+    "id": 1124,
     "word": "wander",
     "pos": "v",
     "pronunciation": "वॉन्डर",
     "meaningHi": "बिना उद्ेश्य घूमना",
-    "meaningEn": "to roam",
+    "meaningEn": "",
     "examples": [
       {
         "en": "That poet was often seen wandering the streets",
@@ -15437,12 +15569,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1077,
+    "id": 1125,
     "word": "waste",
     "pos": "n / v",
     "pronunciation": "वेस्ट",
     "meaningHi": "कचड़ा, बचाखुचा बिना काम का पदार्थ W 94 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | बर्बाद करना",
-    "meaningEn": "to squander",
+    "meaningEn": "",
     "examples": [
       {
         "en": "waste bin",
@@ -15455,21 +15587,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1078,
+    "id": 1126,
     "word": "weather",
     "pos": "n",
-    "pronunciation": "वेदर",
-    "meaningHi": "मौसम",
-    "meaningEn": "climate",
+    "pronunciation": "मौसम",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1079,
+    "id": 1127,
     "word": "weight",
     "pos": "n",
     "pronunciation": "वेट",
     "meaningHi": "वजन, भार वेल्कम स्ागत करना वेल्कम स्ागतयोग्य, हर्षप्रद ! वेल्कम आपका स्ागत!",
-    "meaningEn": "heaviness",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He welcomed the guests",
@@ -15482,12 +15614,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1080,
+    "id": 1128,
     "word": "wet",
     "pos": "adj",
     "pronunciation": "वेट",
     "meaningHi": "गीला",
-    "meaningEn": "moist",
+    "meaningEn": "",
     "examples": [
       {
         "en": "wet clothes",
@@ -15496,12 +15628,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1081,
+    "id": 1129,
     "word": "wheel",
     "pos": "n",
     "pronunciation": "वील",
     "meaningHi": "पहिया",
-    "meaningEn": "circular object",
+    "meaningEn": "",
     "examples": [
       {
         "en": "wheels of a car",
@@ -15510,12 +15642,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1082,
+    "id": 1130,
     "word": "whisper",
     "pos": "n / v",
     "pronunciation": "विस्पर",
     "meaningHi": "फुसफुसाहट कान में धीरे-से कुछ बोलने की क्रिया | फुसफुसाना बहुत धीमे से बोलना",
-    "meaningEn": "soft speech",
+    "meaningEn": "",
     "examples": [
       {
         "en": "whisper campaign",
@@ -15528,39 +15660,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1083,
+    "id": 1131,
     "word": "winner",
     "pos": "n",
-    "pronunciation": "विनर",
-    "meaningHi": "विजेता",
-    "meaningEn": "victor",
+    "pronunciation": "विजेता",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1084,
+    "id": 1132,
     "word": "winter",
     "pos": "n",
     "pronunciation": "विंंटर",
     "meaningHi": "जाड़े का मौसम, शरद ऋतु",
-    "meaningEn": "cold season",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1085,
+    "id": 1133,
     "word": "yellow",
     "pos": "n",
     "pronunciation": "येलो",
     "meaningHi": "पीला yes येस हाँ",
-    "meaningEn": "bright colour",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1086,
+    "id": 1134,
     "word": "zebra",
     "pos": "n",
     "pronunciation": "ज़ेब्ा",
     "meaningHi": "जेबरा ज़िरो शून्य",
-    "meaningEn": "striped animal",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Zebra is found in Africa",
@@ -15573,21 +15705,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1087,
+    "id": 1135,
     "word": "zoo",
     "pos": "n",
     "pronunciation": "ज़ू",
     "meaningHi": "चिड़ियाघर",
-    "meaningEn": "animal park",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1088,
+    "id": 1136,
     "word": "alert",
     "pos": "adj",
     "pronunciation": "अलर्ट",
     "meaningHi": "सतर्क",
-    "meaningEn": "watchful",
+    "meaningEn": "watchful; a warning",
     "examples": [
       {
         "en": "Always remain alert",
@@ -15596,12 +15728,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1089,
+    "id": 1137,
     "word": "abort",
     "pos": "v",
     "pronunciation": "अबॉट",
     "meaningHi": "गर्भ में स्थित बच्े के भ्ूण को गिरा कर नष्ट कर देना 2 किसी योजना या कार्य को शुरू होने या पूरा होने से पहले समाप्त कर देना।",
-    "meaningEn": "to end prematurely",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The plan has been aborted",
@@ -15610,12 +15742,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1090,
+    "id": 1138,
+    "word": "about adj adv",
+    "pos": "prep",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1139,
+    "word": "above adv",
+    "pos": "prep",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1140,
     "word": "abroad",
     "pos": "adv",
     "pronunciation": "अब्ॉड",
     "meaningHi": "विदेश में, देश के बाहर ऐब्सलूट्ली पूरी तरह, बिलकुल",
-    "meaningEn": "in a foreign country",
+    "meaningEn": "",
     "examples": [
       {
         "en": "My son lives abroad",
@@ -15628,12 +15778,57 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1091,
+    "id": 1141,
+    "word": "absolutely",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1142,
+    "word": "acceptable",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1143,
+    "word": "accidental",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1144,
+    "word": "accidentally",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "by chance; unintentionally",
+    "examples": []
+  },
+  {
+    "id": 1145,
+    "word": "accommodation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "a place to live or stay",
+    "examples": []
+  },
+  {
+    "id": 1146,
     "word": "account",
     "pos": "n",
     "pronunciation": "अकाउंट",
     "meaningHi": "हिसाब-किताब अकाउंट हिसाब-किताब देना, जवाब देना",
-    "meaningEn": "bank record",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Everyone has to account for all his deeds",
@@ -15642,12 +15837,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1092,
+    "id": 1147,
+    "word": "ache",
+    "pos": "n",
+    "pronunciation": "एक",
+    "meaningHi": "ऐसा दर्द जो देर तक रहे",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "backache",
+        "hi": "पीठ का दर्द"
+      }
+    ]
+  },
+  {
+    "id": 1148,
+    "word": "achievement",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "something accomplished",
+    "examples": []
+  },
+  {
+    "id": 1149,
+    "word": "across adv",
+    "pos": "prep",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1150,
     "word": "actor",
     "pos": "n",
     "pronunciation": "ऐक्टर",
     "meaningHi": "अभिनेता",
-    "meaningEn": "performer",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a great actor",
@@ -15656,12 +15883,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1093,
+    "id": 1151,
     "word": "actress",
     "pos": "n",
     "pronunciation": "ऐक्ट्ेस",
     "meaningHi": "अभिनेत्ी",
-    "meaningEn": "female performer",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a great actress",
@@ -15670,12 +15897,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1094,
+    "id": 1152,
     "word": "addition",
     "pos": "n",
     "pronunciation": "ऐडिशन",
     "meaningHi": "जोड़ in to इन ऐडिशन टु इसके अलावा, इसके साथ-साथ",
-    "meaningEn": "something added; the process of adding",
+    "meaningEn": "something added; the act of adding",
     "examples": [
       {
         "en": "Addition is easier than multipli- cation",
@@ -15688,12 +15915,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1095,
+    "id": 1153,
     "word": "adjective",
     "pos": "n",
     "pronunciation": "ऐजक्टिव",
     "meaningHi": "विशेषण 10 11 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "describing word",
+    "meaningEn": "a word describing a noun",
     "examples": [
       {
         "en": "'Good' is an adjective",
@@ -15702,12 +15929,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1096,
+    "id": 1154,
+    "word": "admiration",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1155,
     "word": "adult",
     "pos": "adj n",
     "pronunciation": "ऐडल्ट",
     "meaningHi": "बालिग ; जो अब बच्ा नहीं रहा, बड़ा हो गया हो अड्वान्स्ट 1 उन्नत 2 आगे बढ़ा हुआ",
-    "meaningEn": "grown person",
+    "meaningEn": "a fully grown person",
     "examples": [
       {
         "en": "adult films",
@@ -15720,12 +15956,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1097,
+    "id": 1156,
+    "word": "advanced",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1157,
     "word": "aerobics",
     "pos": "n",
     "pronunciation": "एअरोबिक्स",
     "meaningHi": "संगीत की लय पर किया जाने वाला शारीरिक व्यायाम",
-    "meaningEn": "fitness exercise",
+    "meaningEn": "physical fitness exercises",
     "examples": [
       {
         "en": "I am practising aerobics",
@@ -15734,12 +15979,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1098,
+    "id": 1158,
     "word": "afford",
     "pos": "v",
     "pronunciation": "अफ़ोड",
     "meaningHi": "खर्च वहन करना, सामर्थ्य रखना",
-    "meaningEn": "to have means",
+    "meaningEn": "to have enough money for",
     "examples": [
       {
         "en": "We can't afford a car",
@@ -15748,29 +15993,43 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1099,
+    "id": 1159,
+    "word": "afterwards",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1160,
     "word": "against",
     "pos": "prep",
     "pronunciation": "अगेन्स्ट",
-    "meaningHi": "विरुद्ध, खिलाफ 2 का सहारा ले कर 1",
-    "meaningEn": "in opposition to",
+    "meaningHi": "विरुद्ध, खिलाफ 2 का सहारा ले कर 1 Everybody in the class was against him - क्ास में सभी उसके खिलाफ थे। 2 He stood leaning against the wall - वह दीवार के सहारे खड़ा था।",
+    "meaningEn": "in opposition to; touching",
     "examples": [
       {
         "en": "Everybody in the class was against him",
-        "hi": "क्ास में सभी उसके खिलाफ थे।"
-      },
-      {
-        "en": "He stood leaning against the wall",
-        "hi": "वह दीवार के सहारे खड़ा था।"
+        "hi": "क्ास में सभी उसके खिलाफ थे। 2 He stood leaning against the wall - वह दीवार के सहारे खड़ा था।"
       }
     ]
   },
   {
-    "id": 1100,
+    "id": 1161,
+    "word": "aggressive",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1162,
     "word": "ago",
     "pos": "adv",
     "pronunciation": "",
-    "meaningHi": "पहले",
+    "meaningHi": "पहले, पूर्व में",
     "meaningEn": "in the past; before now",
     "examples": [
       {
@@ -15780,7 +16039,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1101,
+    "id": 1163,
+    "word": "agriculture",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1164,
     "word": "ahead",
     "pos": "adv",
     "pronunciation": "अहेड",
@@ -15794,7 +16062,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1102,
+    "id": 1165,
+    "word": "airs",
+    "pos": "adv adj",
+    "pronunciation": "डाउन्सेअज़",
+    "meaningHi": "सीढ़ियों से नीचे, निचली मंजिल पर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "My wife is downstairs in the kitchen",
+        "hi": "मेरी पत्ी नीचे रसोई में है।"
+      }
+    ]
+  },
+  {
+    "id": 1166,
+    "word": "all n adj adv",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1167,
+    "word": "although",
+    "pos": "conj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1168,
+    "word": "amongst)",
+    "pos": "prep",
+    "pronunciation": "अमंंग",
+    "meaningHi": "दो से अधिक लोगों या चीजों के बीच में",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1169,
     "word": "amuse",
     "pos": "v",
     "pronunciation": "अम्ूज़",
@@ -15808,26 +16117,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1103,
+    "id": 1170,
     "word": "amused",
     "pos": "adj",
     "pronunciation": "अम्ूज़्ड",
     "meaningHi": "व्यंग्यपूर्ण तरीके से आनंदित 2 हँसी आने-जैसा",
-    "meaningEn": "entertained",
-    "examples": [
-      {
-        "en": "I was amused to see his deep red dress",
-        "hi": "उसके गहरे लाल वस्त्र को देख कर मैं हँसी आने-जैसा हुआ।"
-      }
-    ]
+    "meaningEn": "finding something funny",
+    "examples": []
   },
   {
-    "id": 1104,
+    "id": 1171,
     "word": "amusing",
     "pos": "adj",
     "pronunciation": "अम्ूज़िंग",
     "meaningHi": "मनोरंजक, उपहासास्पद an a ऐन, अन एक यह वाउअल साउंड्स के पहले a के बदले आता है",
-    "meaningEn": "funny",
+    "meaningEn": "funny; entertaining",
     "examples": [
       {
         "en": "amusing manners",
@@ -15840,12 +16144,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1105,
+    "id": 1172,
     "word": "analyse",
     "pos": "v",
     "pronunciation": "ऐनलाइज़",
     "meaningHi": "विश्ेषण करना; किसी वस्तु या विचार के अंगों को अलग-अलग कर समझना 14 15 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to examine",
+    "meaningEn": "to examine in detail",
     "examples": [
       {
         "en": "An- layse the causes of war",
@@ -15854,12 +16158,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1106,
+    "id": 1173,
     "word": "analysis",
     "pos": "n",
     "pronunciation": "अनैलसिस",
     "meaningHi": "विश्ेषण",
-    "meaningEn": "examination",
+    "meaningEn": "detailed examination",
     "examples": [
       {
         "en": "analysis of the reasons of price rise",
@@ -15868,7 +16172,88 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1107,
+    "id": 1174,
+    "word": "another det",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1175,
+    "word": "any adj det",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1176,
+    "word": "anybody",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1177,
+    "word": "anybody)",
+    "pos": "pron",
+    "pronunciation": "एनिवन",
+    "meaningHi": "कोई भी व्यक्ति एनिथिंग कोई भी वस्तु अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Anyone can do it",
+        "hi": "कोई भी व्यक्ति यह कर सकता है।"
+      },
+      {
+        "en": "I am hungry, give me anything to eat",
+        "hi": "मैं भूूखा हँ, मुझे कुछभी खाने को दो।"
+      }
+    ]
+  },
+  {
+    "id": 1178,
+    "word": "anything",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1179,
+    "word": "anywhere",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1180,
+    "word": "appearance",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1181,
+    "word": "approximately",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "close to; nearly",
+    "examples": []
+  },
+  {
+    "id": 1182,
     "word": "April",
     "pos": "n",
     "pronunciation": "एप्रिल",
@@ -15877,7 +16262,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1108,
+    "id": 1183,
     "word": "Arab",
     "pos": "n adj",
     "pronunciation": "ऐरब",
@@ -15886,30 +16271,85 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1109,
-    "word": "athletics",
+    "id": 1184,
+    "word": "area",
     "pos": "n",
-    "pronunciation": "ऐथ्लेटिक्स",
-    "meaningHi": "दौड़ने-कूदने आदि का खेल",
-    "meaningEn": "sports and physical exercises",
-    "examples": []
+    "pronunciation": "एरिया,",
+    "meaningHi": "एअरिअ क्षेत्र, इलाका",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a clean area",
+        "hi": "एक साफ-सुथरा इलाका"
+      }
+    ]
   },
   {
-    "id": 1110,
-    "word": "ATM card",
-    "pos": "n",
-    "pronunciation": "काड",
-    "meaningHi": "ए.टी.एम. एटीएम मशीन से पैसे की निकासी के लिए बना प्ास्टिक कार्ड",
+    "id": 1185,
+    "word": "around adv",
+    "pos": "prep",
+    "pronunciation": "",
+    "meaningHi": "",
     "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1111,
+    "id": 1186,
+    "word": "arrangement",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "organized setup",
+    "examples": []
+  },
+  {
+    "id": 1187,
+    "word": "at",
+    "pos": "prep",
+    "pronunciation": "ऐट, अट",
+    "meaningHi": "पर, के पास 18 19 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ ATM एटीएम मशीन एक ऐसी मशीन जिसमें एक विशेष प्ास्टिक कार्ड डालने पर धारक के बैंक- -खाते से पैसे",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The letter is lying at the door",
+        "hi": "चिट्ी दरवाजे के पास पड़ी है।"
+      }
+    ]
+  },
+  {
+    "id": 1188,
+    "word": "athletics",
+    "pos": "n",
+    "pronunciation": "ऐथ्लेटिक्स",
+    "meaningHi": "दौड़ने-कूदने आदि का खेल",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1189,
+    "word": "ATM card",
+    "pos": "n",
+    "pronunciation": "काड",
+    "meaningHi": "एटीएम मशीन से पैसे की निकासी के लिए बना प्ास्टिक कार्ड",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1190,
+    "word": "ATM machine",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1191,
     "word": "attach",
     "pos": "v",
     "pronunciation": "अटैच",
     "meaningHi": "जोड़ना",
-    "meaningEn": "to fasten",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The wagon was attached to the engine",
@@ -15918,16 +16358,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1112,
+    "id": 1192,
+    "word": "attractive",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1193,
     "word": "audit",
     "pos": "n v",
     "pronunciation": "अॉडिट",
     "meaningHi": "लेखा-परीक्षण आमदनी और खर्च तथा हानि- -लाभ का हिसाब-किताब; लेखा-परीक्षण करना",
-    "meaningEn": "an official examination",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1113,
+    "id": 1194,
     "word": "August",
     "pos": "n",
     "pronunciation": "ओगस्ट",
@@ -15936,21 +16385,62 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1114,
+    "id": 1195,
     "word": "autumn",
     "pos": "n",
     "pronunciation": "ओटम",
     "meaningHi": "पतझड़ का मौसम",
-    "meaningEn": "fall",
+    "meaningEn": "season between summer and winter",
     "examples": []
   },
   {
-    "id": 1115,
+    "id": 1196,
+    "word": "away",
+    "pos": "adv",
+    "pronunciation": "अवे",
+    "meaningHi": "दूर, दूरस्थ 20 21 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Go away",
+        "hi": "दूर हट जाओ।"
+      }
+    ]
+  },
+  {
+    "id": 1197,
+    "word": "baby",
+    "pos": "n",
+    "pronunciation": "बेबि",
+    "meaningHi": "शिशु या बहुत छोटा बच्ा",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1198,
+    "word": "back",
+    "pos": "adv adj / n",
+    "pronunciation": "बैक",
+    "meaningHi": "पीछे की ओर ; | 1 पीठ 2 पीछे | 1 पीछे हटना/करना 2 समर्थन करना 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I stepped back",
+        "hi": "मैंने कदम पीछे रखा।"
+      },
+      {
+        "en": "back row",
+        "hi": "पिछली कतार"
+      }
+    ]
+  },
+  {
+    "id": 1199,
     "word": "backward",
     "pos": "adv",
     "pronunciation": "बैकवड",
     "meaningHi": "पीछे की ओर 2 पिछड़ा हुआ बैकवड्ज़ पीछे {की ओर}",
-    "meaningEn": "reversed",
+    "meaningEn": "toward the back",
     "examples": [
       {
         "en": "She bent backward",
@@ -15963,52 +16453,399 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1116,
+    "id": 1200,
+    "word": "backward adv",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1201,
+    "word": "backwards",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1202,
+    "word": "bad breath",
+    "pos": "n",
+    "pronunciation": "बैड ब्ेथ",
+    "meaningHi": "दुर्गंधपूर्ण साँस",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Brushing the teeth twice or thrice a day can prevent bad breath",
+        "hi": "प्रतिदिन दो या तीन बार ब्रश करने से दुर्गंधपूर्ण साँस रुक सकती है।"
+      }
+    ]
+  },
+  {
+    "id": 1203,
+    "word": "bake",
+    "pos": "v",
+    "pronunciation": "बेक",
+    "meaningHi": "अवन में पकाना या सेंकना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1204,
+    "word": "balance sheet",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1205,
+    "word": "ball",
+    "pos": "n",
+    "pronunciation": "बौल",
+    "meaningHi": "गेंद",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1206,
+    "word": "band",
+    "pos": "n",
+    "pronunciation": "बैंड",
+    "meaningHi": "मंडली 2 छल्ा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "music band",
+        "hi": "संगीत मंडली"
+      }
+    ]
+  },
+  {
+    "id": 1207,
+    "word": "bang",
+    "pos": "n / v",
+    "pronunciation": "बैंग",
+    "meaningHi": "धड़ाके की आवाज़ | पीटना, टकरा जाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The ceiling fan fell with a bang",
+        "hi": "सीलिंग फैन धमाके की आवाज के साथ गिरा।"
+      },
+      {
+        "en": "She started banging on the door",
+        "hi": "उसने दरवाजा पीटना शुरू किया।"
+      }
+    ]
+  },
+  {
+    "id": 1208,
+    "word": "bank",
+    "pos": "n / v",
+    "pronunciation": "बैंक",
+    "meaningHi": "किनारा, तट 2 बैंक जहाँ अपने खाते में पैसे सुरक्षित रखे जाते हैं | निर्भर करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "riverbank",
+        "hi": "नदी-तट"
+      }
+    ]
+  },
+  {
+    "id": 1209,
     "word": "barber",
     "pos": "n",
     "pronunciation": "बार्बर",
     "meaningHi": "नाई या हज्जाम",
-    "meaningEn": "hair cutter",
+    "meaningEn": "one who cuts hair",
     "examples": []
   },
   {
-    "id": 1117,
+    "id": 1210,
+    "word": "bark",
+    "pos": "n / v",
+    "pronunciation": "बार्क",
+    "meaningHi": "पेड़ की छाल | भौंकना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1211,
+    "word": "base",
+    "pos": "n / v",
+    "pronunciation": "बेस, बेइस",
+    "meaningHi": "आधार, नींव | उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Base must be strong",
+        "hi": "नींव जरूर मजबूूत होनी चाहिए।"
+      }
+    ]
+  },
+  {
+    "id": 1212,
     "word": "bat",
     "pos": "n",
     "pronunciation": "बैट",
     "meaningHi": ". चमगादड़ 2 क्रिकेट या बेसबॉल का बल्ा",
-    "meaningEn": "hitting stick; flying mammal",
+    "meaningEn": "stick for hitting; flying animal",
     "examples": []
   },
   {
-    "id": 1118,
+    "id": 1213,
+    "word": "bath",
+    "pos": "n",
+    "pronunciation": "बाथ",
+    "meaningHi": "स्ान",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He takes bath daily",
+        "hi": "वह रोज नहाता है।"
+      }
+    ]
+  },
+  {
+    "id": 1214,
     "word": "battery",
     "pos": "n",
     "pronunciation": "बैटरी",
     "meaningHi": "बैटरी बिजली को जमा करने और बिजली की धारा उत्पन्न करने वाला यंत्र।",
-    "meaningEn": "energy device",
+    "meaningEn": "device storing energy",
     "examples": []
   },
   {
-    "id": 1119,
+    "id": 1215,
+    "word": "bear",
+    "pos": "v",
+    "pronunciation": "बेअ",
+    "meaningHi": "सहन करना, बर्दाश्त करना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1216,
+    "word": "beat",
+    "pos": "n / v",
+    "pronunciation": "बीट",
+    "meaningHi": "धड़कन | 1 पीटना 2 दिल का धड़कना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "heartbeat",
+        "hi": "दिल की धड़कन"
+      }
+    ]
+  },
+  {
+    "id": 1217,
+    "word": "behind adv",
+    "pos": "prep n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1218,
+    "word": "bend",
+    "pos": "n / v",
+    "pronunciation": "बेंड",
+    "meaningHi": "मोड़ 24 25 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | झुकना, झुकाना, मोड़ना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "There is a sharp bend in the road ahead",
+        "hi": "आगे सड़क में एक तीव्र मोड़ है।"
+      },
+      {
+        "en": "He had to bend to pick up the pen",
+        "hi": "उसे कलम उठाने के लिए झुकना पड़ा।"
+      }
+    ]
+  },
+  {
+    "id": 1219,
+    "word": "beneath prep",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1220,
+    "word": "best",
+    "pos": "adj adv",
+    "pronunciation": "बेस्ट",
+    "meaningHi": "सबसे उत्तम, सबसे अच्ा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "She is the best in the class",
+        "hi": "वह कक्षा में सबसे अच्छी है।"
+      }
+    ]
+  },
+  {
+    "id": 1221,
+    "word": "between prep",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1222,
+    "word": "bill",
+    "pos": "n",
+    "pronunciation": "बिल",
+    "meaningHi": "रसीद, पुरजा, लेखा 2 कानून का प्रारूप जिसे संसद या विधान-सभाओं में पेश किया जाता है। बहुमत से पास हो जाने पर यह कानून बन जाता है।",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1223,
     "word": "birthday",
     "pos": "n",
     "pronunciation": "बर्थडे",
     "meaningHi": "जन्मदिन",
-    "meaningEn": "birth anniversary",
+    "meaningEn": "anniversary of birth",
     "examples": []
   },
   {
-    "id": 1120,
+    "id": 1224,
+    "word": "bite",
+    "pos": "n / v",
+    "pronunciation": "बाइट",
+    "meaningHi": "काटने से बना घाव 2 भोजन का एक टुकड़ा | दाँत से काटना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "dog bite",
+        "hi": "कुत्ते के काटने से बना घाव"
+      },
+      {
+        "en": "Give me a bite too",
+        "hi": "मुझे भी एक दुकड़ा दो।"
+      }
+    ]
+  },
+  {
+    "id": 1225,
     "word": "blink",
     "pos": "v",
     "pronunciation": "ब्लंक",
     "meaningHi": "आँखें झपकाना या मीचना",
-    "meaningEn": "quick eye closure",
+    "meaningEn": "to close and open eyes quickly",
     "examples": []
   },
   {
-    "id": 1121,
+    "id": 1226,
+    "word": "blow",
+    "pos": "n / v",
+    "pronunciation": "ब्ो,",
+    "meaningHi": "ब्लउ घूँसा, प्रहार, आघात | ब्लउ 1 बहना हवा का 2 फूँकना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a big blow to our efforts",
+        "hi": "हमारे प्रयासों पर एक बड़ा आधात"
+      },
+      {
+        "en": "blow the whistle",
+        "hi": "सीटी फूूँक कर बजाना"
+      }
+    ]
+  },
+  {
+    "id": 1227,
+    "word": "blue",
+    "pos": "adj",
+    "pronunciation": "ब्ू",
+    "meaningHi": "नीला",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1228,
+    "word": "blur",
+    "pos": "v",
+    "pronunciation": "ब्लर",
+    "meaningHi": "धुंधला बना देना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The mist blurred our vision",
+        "hi": "कुहासे ने हमारी दृष्टि को धुंधला कर दिया।"
+      }
+    ]
+  },
+  {
+    "id": 1229,
+    "word": "boardgazing",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "the practice of gazing meditation",
+    "examples": []
+  },
+  {
+    "id": 1230,
+    "word": "boat",
+    "pos": "n",
+    "pronunciation": "बोट",
+    "meaningHi": "नाव",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1231,
+    "word": "body",
+    "pos": "n / pron",
+    "pronunciation": "बॉडी",
+    "meaningHi": "शरीर | प्रत्ेक व्यक्ति, सभी लोग",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Everybody is not bad",
+        "hi": "हर आदमी बुरा नहीं होता।"
+      }
+    ]
+  },
+  {
+    "id": 1232,
+    "word": "boil",
+    "pos": "v",
+    "pronunciation": "बोइल",
+    "meaningHi": "उबलना, उबालना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1233,
+    "word": "book",
+    "pos": "n / v",
+    "pronunciation": "बुक",
+    "meaningHi": "किताब | 1 टिकट या कमरा आदि बुक करना 2 दंडित करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Please book a room in the hotel for me",
+        "hi": "कृपया होटल में मेरे लिए एक कमरा बुक करो।"
+      }
+    ]
+  },
+  {
+    "id": 1234,
     "word": "boredom",
     "pos": "n",
     "pronunciation": "बोरडम",
@@ -16022,7 +16859,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1122,
+    "id": 1235,
+    "word": "born",
+    "pos": "v",
+    "pronunciation": "बोन",
+    "meaningHi": "जन्म होना, जन्म लेना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "A baby girl was born",
+        "hi": "एक लड़की पैदा हुई।"
+      }
+    ]
+  },
+  {
+    "id": 1236,
+    "word": "both",
+    "pos": "det pron",
+    "pronunciation": "बोथ, बउथ़",
+    "meaningHi": "दोनों",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Both of my brothers are rich",
+        "hi": "मेरे दोनों भाई अमीर हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1237,
+    "word": "brainstorming",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "generating ideas in a group",
+    "examples": []
+  },
+  {
+    "id": 1238,
     "word": "brown",
     "pos": "adj",
     "pronunciation": "ब्ाउन",
@@ -16031,12 +16905,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1123,
+    "id": 1239,
     "word": "budget",
     "pos": "n",
     "pronunciation": "बजिट",
     "meaningHi": "आने वाले खर्च का अनुमानित लेखा-जोखा",
-    "meaningEn": "financial plan",
+    "meaningEn": "a financial plan",
     "examples": [
       {
         "en": "The government presents its annual budget in the parliament",
@@ -16045,21 +16919,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1124,
+    "id": 1240,
     "word": "buffalo",
     "pos": "n",
     "pronunciation": "बफ़लो",
     "meaningHi": "भैंस 30 31 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "large animal",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1125,
+    "id": 1241,
     "word": "bunch",
     "pos": "n",
     "pronunciation": "बंच",
     "meaningHi": "समूह, गुच्ा",
-    "meaningEn": "a cluster",
+    "meaningEn": "a group together",
     "examples": [
       {
         "en": "a bunch of flowers",
@@ -16068,12 +16942,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1126,
+    "id": 1242,
     "word": "burnt",
     "pos": "adj",
     "pronunciation": "बर्न्ट",
     "meaningHi": "जला हुआ",
-    "meaningEn": "damaged by fire",
+    "meaningEn": "",
     "examples": [
       {
         "en": "burnt clothes",
@@ -16082,30 +16956,85 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1127,
+    "id": 1243,
+    "word": "bury",
+    "pos": "v",
+    "pronunciation": "बरी",
+    "meaningHi": "गाड़ना, दफनाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The Christians bury their dead",
+        "hi": "ईसाई अपने मृतकों को जमीन में दफन कर देते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1244,
+    "word": "bush",
+    "pos": "n",
+    "pronunciation": "बुश",
+    "meaningHi": "झाड़ी",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1245,
+    "word": "busy",
+    "pos": "adj",
+    "pronunciation": "बिज़ी",
+    "meaningHi": "कार्यरत, व्यस्त",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He leads a busy life",
+        "hi": "वह एक व्यस्त जीवन जीता है।"
+      }
+    ]
+  },
+  {
+    "id": 1246,
     "word": "cabin",
     "pos": "n",
     "pronunciation": "कैबिन",
     "meaningHi": "छोटा कक्ष",
-    "meaningEn": "small shelter",
+    "meaningEn": "a small house",
     "examples": []
   },
   {
-    "id": 1128,
+    "id": 1247,
     "word": "calculative",
     "pos": "adj",
     "pronunciation": "कैल्कुलटिव",
     "meaningHi": "अपने फायदे-नुकसान की गिनती करके हर काम करने वाला स्वार्थी व्यक्ति",
-    "meaningEn": "self-interested",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1129,
+    "id": 1248,
+    "word": "call",
+    "pos": "n / v",
+    "pronunciation": "कॉल",
+    "meaningHi": "बुलावा 2 फोन करने या फोन पर बात करने की क्रिया 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Please call the nurse",
+        "hi": "कृपया नर्स को बुलाएं।"
+      },
+      {
+        "en": "She called me today",
+        "hi": "उसने आज मुझे फोन किया।"
+      }
+    ]
+  },
+  {
+    "id": 1249,
     "word": "calories",
     "pos": "n",
     "pronunciation": "कैलरीस",
     "meaningHi": "भोजन से प्राप्त ऊर्जा की इकाई",
-    "meaningEn": "energy units",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Don't consume too many calories",
@@ -16114,48 +17043,121 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1130,
+    "id": 1250,
     "word": "cancer",
     "pos": "n",
     "pronunciation": "कैंसर",
     "meaningHi": "कर्क रोग एक गंभीर बीमारी जिसमें शरीर के किसी भाग की कोशिकाओं की संख्ा असामान्य रूप से बढ़ने लगती है।",
-    "meaningEn": "serious disease",
+    "meaningEn": "a serious disease",
     "examples": []
   },
   {
-    "id": 1131,
+    "id": 1251,
+    "word": "cap",
+    "pos": "n",
+    "pronunciation": "कैप",
+    "meaningHi": "टोपी c 32 33 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1252,
     "word": "capitalism",
     "pos": "n",
     "pronunciation": "कैपिटलिज़म",
     "meaningHi": "पूँजीवाद वह सिद्धांद्धांत जो यह मानता है कि बाजार की शक्तियों पर कोई सरकारी नियंत्रण नहीं होना चाहिए, व्यापार करने और व्यक्तिगत धन-संपत्ति अर्जित",
-    "meaningEn": "economic system",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1132,
+    "id": 1253,
+    "word": "carbo-hydrate",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1254,
+    "word": "card",
+    "pos": "n",
+    "pronunciation": "काड, कार्ड",
+    "meaningHi": "गत्ता, थोड़े मजबूत कागज का टुकड़ा 2 ताश का पत्ता | कार्ड विजिटिंग-कार्ड जिसपर नाम, पदनाम, पता, फोननम्बर आदि लिखे रहते हैं।",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He is playing cards",
+        "hi": "वह ताश खेल रहा है।"
+      }
+    ]
+  },
+  {
+    "id": 1255,
+    "word": "care",
+    "pos": "n / v",
+    "pronunciation": "1 सावधानी  2 देखभाल",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1256,
+    "word": "case",
+    "pos": "n",
+    "pronunciation": "केस",
+    "meaningHi": "मामला 2 विशेष डब्ा 3 मुकदमा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Your case is different",
+        "hi": "तुम्ारा मामला अलग है।"
+      },
+      {
+        "en": "A case has been filed against him",
+        "hi": "उसके खिलाफ एक मुकदमा दर्ज किया गया है।"
+      }
+    ]
+  },
+  {
+    "id": 1257,
     "word": "cataract",
     "pos": "n",
     "pronunciation": "कैटरैक्ट",
     "meaningHi": "मोतियाबिंद आँखों की एक बीमारी जिसमें कम दिखने लगता है।",
-    "meaningEn": "eye condition",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1133,
+    "id": 1258,
+    "word": "cate",
+    "pos": "v",
+    "pronunciation": "कम्ूनिकेट",
+    "meaningHi": "सूचित करना, संप्रेषित करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Communicate a bad news gradually and gently",
+        "hi": "एक बुरे समाचार को क्रमशः और मृदुता से सूूचित करो।"
+      }
+    ]
+  },
+  {
+    "id": 1259,
     "word": "centimetre",
     "pos": "n",
     "pronunciation": "सेन्टिमीटर",
     "meaningHi": "मीटर का सौवाँ भाग",
-    "meaningEn": "unit of length",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1134,
+    "id": 1260,
     "word": "central",
     "pos": "adj",
     "pronunciation": "सेन्ट्रल",
     "meaningHi": "केंद्रीय 2 मुख्य",
-    "meaningEn": "in the centre; main",
+    "meaningEn": "in the centre",
     "examples": [
       {
         "en": "the central government",
@@ -16168,21 +17170,71 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1135,
+    "id": 1261,
+    "word": "changemakers",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "people who bring positive change",
+    "examples": []
+  },
+  {
+    "id": 1262,
+    "word": "characteristic",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "a feature; quality",
+    "examples": []
+  },
+  {
+    "id": 1263,
+    "word": "chat",
+    "pos": "n / v",
+    "pronunciation": "चैट",
+    "meaningHi": "बातचीत, गपशप | गपशप करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Chatting with friends wastes a lot of time of students",
+        "hi": "गपशप विद्ार्थियों का काफी समय नष्ट करती है।"
+      }
+    ]
+  },
+  {
+    "id": 1264,
     "word": "cheek",
     "pos": "n",
     "pronunciation": "चीक",
     "meaningHi": "गाल 36 37 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "the side of the face",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1136,
+    "id": 1265,
+    "word": "chin",
+    "pos": "n",
+    "pronunciation": "चिन",
+    "meaningHi": "ठुड्ी चेहरे के नीचे का नुकीला भाग",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1266,
+    "word": "Christianity",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1267,
     "word": "cigarette",
     "pos": "n",
     "pronunciation": "सिगरेट",
     "meaningHi": "सिगरेट",
-    "meaningEn": "a roll of tobacco for smoking",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Cigarette may cause cancer",
@@ -16191,39 +17243,53 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1137,
+    "id": 1268,
     "word": "cinema",
     "pos": "n",
     "pronunciation": "सिनमा",
     "meaningHi": "सिनेमा",
-    "meaningEn": "movie theatre",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1138,
+    "id": 1269,
+    "word": "circumstance",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "situation; condition",
+    "examples": []
+  },
+  {
+    "id": 1270,
+    "word": "city",
+    "pos": "n",
+    "pronunciation": "सिटि",
+    "meaningHi": "शहर",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1271,
     "word": "classic",
     "pos": "n / adj",
     "pronunciation": "क्ैसिक",
     "meaningHi": "अत्ंत बढ़िया या याद किया जाने-योग्य श्ेण्य ग्ंथ | 1 उत्कृष्ट 2 प्रातिनिधिक 1",
-    "meaningEn": "of lasting quality; traditional",
+    "meaningEn": "of lasting quality",
     "examples": [
       {
         "en": "The Ramcharitmanas is a literary classic",
         "hi": "रामचरितमानस एक न भूूलने-योग्य साहित्यिक कृति है।"
-      },
-      {
-        "en": "She prefers classic furniture designs",
-        "hi": "वह उत्कृष्ट फर्नीचर डिज़ाइन पसंद करती है।"
       }
     ]
   },
   {
-    "id": 1139,
+    "id": 1272,
     "word": "clearly",
     "pos": "adv",
     "pronunciation": "",
     "meaningHi": "क्लिअलि स्पष्ट रूप से, साफ तौर से",
-    "meaningEn": "in a clear manner; obviously",
+    "meaningEn": "obviously",
     "examples": [
       {
         "en": "clearly visible",
@@ -16232,7 +17298,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1140,
+    "id": 1273,
     "word": "clerk",
     "pos": "n",
     "pronunciation": "क्ाक",
@@ -16241,12 +17307,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1141,
+    "id": 1274,
     "word": "closed",
     "pos": "adj",
     "pronunciation": "क्ोज़्ड",
     "meaningHi": "बंद",
-    "meaningEn": "not open; shut",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a closed mind",
@@ -16255,30 +17321,130 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1142,
+    "id": 1275,
     "word": "closely",
     "pos": "adv",
     "pronunciation": "देखना",
-    "meaningHi": "क्ोज़्लि नजदीक से नजदीकी से",
-    "meaningEn": "in a close manner; carefully",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1143,
+    "id": 1276,
     "word": "closet",
     "pos": "n",
     "pronunciation": "क्ोज़िट",
     "meaningHi": "कमरे में लगी बड़ी अलमारी",
-    "meaningEn": "a small room for storing things",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1144,
+    "id": 1277,
+    "word": "club",
+    "pos": "n",
+    "pronunciation": "क्लब",
+    "meaningHi": "सभा, क्लब 2 गदा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Club was the favourite weapon of Bhim",
+        "hi": "गदा भीम का पसंदीदा शस्त्र थी।"
+      }
+    ]
+  },
+  {
+    "id": 1278,
+    "word": "clue",
+    "pos": "n",
+    "pronunciation": "क्ू",
+    "meaningHi": "सूत्र, सुराग अपराध या समस्ा की गुत्ी सुलझाने, प्रश्न का उत्तर पाने आदि का सूूत्र, सुराग",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The police could not find any clue",
+        "hi": "पुलिस को कोई सुराग नहीं मिला।"
+      }
+    ]
+  },
+  {
+    "id": 1279,
+    "word": "coat",
+    "pos": "n",
+    "pronunciation": "कोट",
+    "meaningHi": "पहनने वाला कोट 2 परत",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1280,
+    "word": "combination",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "mixture; blend",
+    "examples": []
+  },
+  {
+    "id": 1281,
+    "word": "comfortable",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "providing comfort",
+    "examples": []
+  },
+  {
+    "id": 1282,
+    "word": "comfortably",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1283,
+    "word": "commitment",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "dedication",
+    "examples": []
+  },
+  {
+    "id": 1284,
+    "word": "communicate",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "to share information",
+    "examples": []
+  },
+  {
+    "id": 1285,
+    "word": "communication",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "sharing information",
+    "examples": []
+  },
+  {
+    "id": 1286,
+    "word": "communicative",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "talkative; expressive",
+    "examples": []
+  },
+  {
+    "id": 1287,
     "word": "compete",
     "pos": "v",
     "pronunciation": "कम्ीट",
     "meaningHi": "प्रतियोगिता में भाग लेना, प्रतिस्पर्धा करना",
-    "meaningEn": "to try to win against others",
+    "meaningEn": "to try to win",
     "examples": [
       {
         "en": "We are ready to compete with the best in the world",
@@ -16287,12 +17453,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1145,
+    "id": 1288,
     "word": "completely",
     "pos": "adv",
     "pronunciation": "कम्प्ीट्लि",
     "meaningHi": "पूरी तरह All . सारी प्राचीन सभ्यताएं नष्ट कर दी गई ं, लेकिन भारतीय सभ्यता जीवित रही। कॉम्प्लिकेटिड उलझा हुआ, जटिल",
-    "meaningEn": "totally; entirely",
+    "meaningEn": "totally",
     "examples": [
       {
         "en": "a complicated problem",
@@ -16301,34 +17467,66 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1146,
+    "id": 1289,
+    "word": "complicated",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1290,
+    "word": "comprehension",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "understanding",
+    "examples": []
+  },
+  {
+    "id": 1291,
     "word": "computer",
     "pos": "n",
     "pronunciation": "कम्प्ूटर",
     "meaningHi": "कंप्यूटर",
-    "meaningEn": "an electronic device for processing data",
+    "meaningEn": "electronic processing device",
     "examples": []
   },
   {
-    "id": 1147,
+    "id": 1292,
+    "word": "concentration",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "focused attention",
+    "examples": []
+  },
+  {
+    "id": 1293,
+    "word": "conceptualise",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "to form a concept or idea",
+    "examples": []
+  },
+  {
+    "id": 1294,
     "word": "concerned",
     "pos": "adj",
     "pronunciation": "कन्सन्ड",
     "meaningHi": "संबंधित 2 चिंतित 1",
-    "meaningEn": "worried; involved",
+    "meaningEn": "worried",
     "examples": [
       {
         "en": "The police often receive calls concerning lost pets",
         "hi": "पुलिस खोए हुए पालतूू जानवरों के विषय में अकसर फोन कौल प्राप्त करती रहती है।"
-      },
-      {
-        "en": "Call the concerned person",
-        "hi": "संबंधित व्यक्ति को बुलाओ।"
       }
     ]
   },
   {
-    "id": 1148,
+    "id": 1295,
     "word": "confusing",
     "pos": "adj",
     "pronunciation": "कऩ््यूज़िंंग",
@@ -16342,7 +17540,43 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1149,
+    "id": 1296,
+    "word": "congratulations",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "expression of joy",
+    "examples": []
+  },
+  {
+    "id": 1297,
+    "word": "conj",
+    "pos": "prep / adv",
+    "pronunciation": "अन्टिल",
+    "meaningHi": "निर्दिष्ट समय या घटना के होने तक अन्यूशज़ुअल असामान्य | किसी भी समय, कभी भी अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | जहाँ कहीं, कहीं भी वेदर 1 चाहे..या",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "wait until / till he comes",
+        "hi": "उसके आने तक इंतज़ार करो"
+      },
+      {
+        "en": "unusual price rise",
+        "hi": "असामान्य मूूल्यवृद्धि"
+      }
+    ]
+  },
+  {
+    "id": 1298,
+    "word": "considering",
+    "pos": "prep conj adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1299,
     "word": "consist of",
     "pos": "v",
     "pronunciation": "कन्सिस्ट अॉव",
@@ -16356,7 +17590,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1150,
+    "id": 1300,
     "word": "consult",
     "pos": "v",
     "pronunciation": "कन्सल्ट",
@@ -16370,16 +17604,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1151,
+    "id": 1301,
     "word": "container",
     "pos": "n",
     "pronunciation": "कन्ेनर",
     "meaningHi": "बड़ा बर्तन जिसमें कुछ रखा जा सके",
-    "meaningEn": "a holder",
+    "meaningEn": "something that holds things",
     "examples": []
   },
   {
-    "id": 1152,
+    "id": 1302,
     "word": "content(s)",
     "pos": "n",
     "pronunciation": "कॉन्टेन्ट्स",
@@ -16397,7 +17631,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1153,
+    "id": 1303,
     "word": "contractor",
     "pos": "n",
     "pronunciation": "कन्ट्रैक्टर",
@@ -16406,12 +17640,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1154,
+    "id": 1304,
+    "word": "conversation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "a discussion",
+    "examples": []
+  },
+  {
+    "id": 1305,
     "word": "convincing",
     "pos": "adj",
     "pronunciation": "कन्विन्सिंंग",
     "meaningHi": "आश्वस्त करने वाला, यकीन दिलाने वाला कि कोई बात सही है",
-    "meaningEn": "persuasive",
+    "meaningEn": "able to persuade",
     "examples": [
       {
         "en": "He gave convincing arguments",
@@ -16420,7 +17663,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1155,
+    "id": 1306,
+    "word": "cook",
+    "pos": "n / v",
+    "pronunciation": "कुक",
+    "meaningHi": "रसोइया, बावर्चीी | खाना पकाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "She cooks well",
+        "hi": "वह अच्ा खाना पकाती है।"
+      }
+    ]
+  },
+  {
+    "id": 1307,
+    "word": "cool",
+    "pos": "adj / v",
+    "pronunciation": "कूल",
+    "meaningHi": "शीतल | शीतल करना या होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Cool winds were blowing",
+        "hi": "शीतल हवाएं चल रही थीं।"
+      },
+      {
+        "en": "Please cool down",
+        "hi": "कृपया ठंढे हो जाओ।"
+      }
+    ]
+  },
+  {
+    "id": 1308,
     "word": "cope (with)",
     "pos": "v",
     "pronunciation": "कोप",
@@ -16434,12 +17709,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1156,
+    "id": 1309,
+    "word": "copy",
+    "pos": "n / v",
+    "pronunciation": "कॉपी",
+    "meaningHi": "प्रतिलिपि | नकल करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Give me a copy of the letter",
+        "hi": "मुझे चिट्ी की एक प्रतिलिपि दो।"
+      },
+      {
+        "en": "Please do not copy from my notes",
+        "hi": "कृपया नेरे नोट्स से कॉपी न करें।"
+      }
+    ]
+  },
+  {
+    "id": 1310,
+    "word": "cost",
+    "pos": "n / v",
+    "pronunciation": "कॉस्ट",
+    "meaningHi": "मूल्य, कीमत | खर्च होना, कीमत या दाम होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "What will be the cost of this car?",
+        "hi": "इस कार की कीमत क्ा होगी?"
+      },
+      {
+        "en": "It costs two hundred rupees",
+        "hi": "इसमें दो सौ रुपए खर्च होते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1311,
     "word": "couple",
     "pos": "n",
     "pronunciation": "कप्ल",
     "meaningHi": "पति-पत्नी का जोड़ा 2 जोड़ा अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a pair",
+    "meaningEn": "two; a pair",
     "examples": [
       {
         "en": "a beautiful couple",
@@ -16452,12 +17763,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1157,
+    "id": 1312,
     "word": "crowded",
     "pos": "adj",
     "pronunciation": "क्ाउडिड",
     "meaningHi": "भीड़-भाड़ से भरा हुआ",
-    "meaningEn": "full of people",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a crowded market",
@@ -16466,12 +17777,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1158,
+    "id": 1313,
     "word": "currency",
     "pos": "n",
     "pronunciation": "करन्सि",
     "meaningHi": "मुद्रा",
-    "meaningEn": "money",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Dollar is the currency of the USA",
@@ -16480,16 +17791,57 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1159,
-    "word": "cyber café",
-    "pos": "n",
-    "pronunciation": "साइबर कैफ़े",
-    "meaningHi": "साइबर कैफ़े पैसे भुगतान कर कंप्यूटर के प्रयोग की सुविधा देने वाली दुकान 52 53 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "id": 1314,
+    "word": "damp",
+    "pos": "adj",
+    "pronunciation": "डैम्प",
+    "meaningHi": "नम, भींगा हुआ, सीलनपूर्ण",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a damp house",
+        "hi": "एक सीलनपूर्ण घर"
+      }
+    ]
+  },
+  {
+    "id": 1315,
+    "word": "dare",
+    "pos": "v",
+    "pronunciation": "तुम्ारी हिम्मत कैसे हुई?",
+    "meaningHi": "",
     "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1160,
+    "id": 1316,
+    "word": "dark",
+    "pos": "adj",
+    "pronunciation": "डाक",
+    "meaningHi": "अँधेरा 2 गहरा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a dark room",
+        "hi": "एक अँधेरा कमरा"
+      },
+      {
+        "en": "dark colours",
+        "hi": "गहरे रंग"
+      }
+    ]
+  },
+  {
+    "id": 1317,
+    "word": "das (plural)",
+    "pos": "n",
+    "pronunciation": "वेद, वेदाज़",
+    "meaningHi": "वेद दुनिया की पहली किताबें है। ये हिंदुओं के पवित्र मूल ग्ंथ हैं। इन्ें ईश्वर की वाणी या ईश्वरप्रेरित वाणी मानते हैं। ये चार हैं - ऋग्ेद, सामवेद,",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1318,
     "word": "database",
     "pos": "n",
     "pronunciation": "डेटबेस",
@@ -16503,12 +17855,81 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1161,
+    "id": 1319,
+    "word": "date",
+    "pos": "n",
+    "pronunciation": "डेट",
+    "meaningHi": "तिथि, तारीख",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1320,
+    "word": "dead",
+    "pos": "adj",
+    "pronunciation": "डेड",
+    "meaningHi": "मृत, मरा हुआ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a dead animal",
+        "hi": "एक मरा हुआ जानवर"
+      }
+    ]
+  },
+  {
+    "id": 1321,
+    "word": "deaf",
+    "pos": "adj",
+    "pronunciation": "डेफ़",
+    "meaningHi": "बहरा D 128 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1322,
+    "word": "deal",
+    "pos": "n / v",
+    "pronunciation": "डील",
+    "meaningHi": "व्यापारिक समझौता, सौदा | 1 बर्ताव करना 2 खरीद-बिक्रीक्री करना 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The deal has been clinched",
+        "hi": "सौदा तय हो गया है।"
+      }
+    ]
+  },
+  {
+    "id": 1323,
+    "word": "dear",
+    "pos": "adj",
+    "pronunciation": "दोस्त",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1324,
+    "word": "debt",
+    "pos": "n",
+    "pronunciation": "डेट",
+    "meaningHi": "कर्ज़",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "India's foreign debt has been rising",
+        "hi": "भारत का विदेश से लिया हुआ कर्ज़ बढ़ता रहा है।"
+      }
+    ]
+  },
+  {
+    "id": 1325,
     "word": "definite",
     "pos": "adj",
     "pronunciation": "डेफ़िनट",
     "meaningHi": "निश्चित, सटीक, स्पष्ट",
-    "meaningEn": "clear; certain",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He gave no definite answer",
@@ -16517,7 +17938,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1162,
+    "id": 1326,
+    "word": "deliberately",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "on purpose",
+    "examples": []
+  },
+  {
+    "id": 1327,
+    "word": "demonstrate",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1328,
+    "word": "dent",
+    "pos": "adj",
+    "pronunciation": "इन्डिपेन्डन्ट",
+    "meaningHi": "स्ंतत्र, आजाद, स्ाधीन अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "an independent nation",
+        "hi": "एक स्वतंत्र राष्ट्र"
+      }
+    ]
+  },
+  {
+    "id": 1329,
     "word": "depend (on)",
     "pos": "v",
     "pronunciation": "डिपेन्ड",
@@ -16531,7 +17984,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1163,
+    "id": 1330,
+    "word": "dependable",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "reliable",
+    "examples": []
+  },
+  {
+    "id": 1331,
     "word": "deposit",
     "pos": "v",
     "pronunciation": "डिपॉजिट",
@@ -16545,21 +18007,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1164,
+    "id": 1332,
+    "word": "description",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "account; depiction",
+    "examples": []
+  },
+  {
+    "id": 1333,
+    "word": "determined",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1334,
+    "word": "development",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "growth; advancement",
+    "examples": []
+  },
+  {
+    "id": 1335,
     "word": "diabetes",
     "pos": "n",
     "pronunciation": "डाइअबीटीज़",
     "meaningHi": "मधुमेह चीनी की बीमारी",
-    "meaningEn": "a disease affecting blood sugar",
+    "meaningEn": "disease affecting blood sugar",
     "examples": []
   },
   {
-    "id": 1165,
+    "id": 1336,
     "word": "dictator",
     "pos": "n",
     "pronunciation": "डिक्टेटर",
     "meaningHi": "तानाशाह डिक्टेटरशिप तानाशाही, अधिनायकत्व",
-    "meaningEn": "a ruler with total power",
+    "meaningEn": "ruler with total power",
     "examples": [
       {
         "en": "Hitler was a dictator",
@@ -16572,7 +18061,70 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1166,
+    "id": 1337,
+    "word": "diplomatic",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "tactful",
+    "examples": []
+  },
+  {
+    "id": 1338,
+    "word": "disappointed",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1339,
+    "word": "disarmament",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "reducing weapons",
+    "examples": []
+  },
+  {
+    "id": 1340,
+    "word": "discontentment",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "unhappiness",
+    "examples": []
+  },
+  {
+    "id": 1341,
+    "word": "dish",
+    "pos": "n",
+    "pronunciation": "डिश",
+    "meaningHi": "पकवान 2 तश्तरी, गहरी प्लेट",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1342,
+    "word": "dissatisfaction",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "displeasure",
+    "examples": []
+  },
+  {
+    "id": 1343,
+    "word": "disturbing",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1344,
     "word": "docile",
     "pos": "adj",
     "pronunciation": "डोसाइल",
@@ -16581,7 +18133,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1167,
+    "id": 1345,
+    "word": "down",
+    "pos": "adv prep",
+    "pronunciation": "डाउन",
+    "meaningHi": "नीचे की ओर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I went down the stairs",
+        "hi": "मैं सीढ़ियों से नीचे गया।"
+      }
+    ]
+  },
+  {
+    "id": 1346,
     "word": "download",
     "pos": "v",
     "pronunciation": "डाउनलोड",
@@ -16595,7 +18161,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1168,
+    "id": 1347,
+    "word": "downstairs",
+    "pos": "adv adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1348,
+    "word": "draw",
+    "pos": "v",
+    "pronunciation": "ड्रो",
+    "meaningHi": "खींचना 2 मैच बराबर कर देना 3 एक तसवीर बनाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "draw water from the well",
+        "hi": "कुँए से पानी खींचो"
+      },
+      {
+        "en": "India drew with Bangladesh 1-1 in the Hockey semifinal",
+        "hi": "भारत ने बांग्ादेश के साथ हॉकी सेमीफाइनल में 1-1 से मैच बराबर कर दिया।"
+      }
+    ]
+  },
+  {
+    "id": 1349,
     "word": "dress sense",
     "pos": "n",
     "pronunciation": "ड्ेस्ेन्स",
@@ -16609,7 +18202,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1169,
+    "id": 1350,
     "word": "driving",
     "pos": "n",
     "pronunciation": "ड्ाइविंग",
@@ -16623,7 +18216,67 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1170,
+    "id": 1351,
+    "word": "dull",
+    "pos": "n",
+    "pronunciation": "डल",
+    "meaningHi": "मंदबुद्धि 2 चमक-दमक से रहित 3 नीरस 1 He is a not a ’t वह मंदबुद्धि विद्यार्थीी नहीं है, मगर वह अधिक पढ़ता नहीं है। 2",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1352,
+    "word": "each",
+    "pos": "pron det",
+    "pronunciation": "ईच",
+    "meaningHi": "प्रत्ेक, हर एक",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "each one teach one",
+        "hi": "हर एक पढ़ाए एक को"
+      }
+    ]
+  },
+  {
+    "id": 1353,
+    "word": "earn",
+    "pos": "v",
+    "pronunciation": "अर्न",
+    "meaningHi": "पैसे कमाना 2 उपार्जन करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "earn a good name",
+        "hi": "अच्ा नाम कमाना"
+      }
+    ]
+  },
+  {
+    "id": 1354,
+    "word": "easy",
+    "pos": "adj",
+    "pronunciation": "ईज़ि",
+    "meaningHi": "सुगम, आसान",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1355,
+    "word": "edge",
+    "pos": "n",
+    "pronunciation": "एज",
+    "meaningHi": "किसी समतल वस्तु का किनारा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "She sat on the edge of the bed",
+        "hi": "वह बिस्तर के किनारे पर बैठी।"
+      }
+    ]
+  },
+  {
+    "id": 1356,
     "word": "elbow",
     "pos": "n",
     "pronunciation": "एल्ो",
@@ -16632,7 +18285,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1171,
+    "id": 1357,
     "word": "elegant",
     "pos": "adj",
     "pronunciation": "एलिगन्ट",
@@ -16641,7 +18294,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1172,
+    "id": 1358,
     "word": "elevator",
     "pos": "n",
     "pronunciation": "एलिवेटर",
@@ -16650,7 +18303,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1173,
+    "id": 1359,
     "word": "eloquent",
     "pos": "adj",
     "pronunciation": "एलक्वन्ट",
@@ -16668,7 +18321,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1174,
+    "id": 1360,
+    "word": "else",
+    "pos": "adv",
+    "pronunciation": "एल्स",
+    "meaningHi": "अन्य और भिन्न व्यक्ति, वस्तु या स्ान 2 वरना, नहीं तो 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1361,
+    "word": "embarrassed",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1362,
+    "word": "embarrassing",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1363,
     "word": "emerge",
     "pos": "v",
     "pronunciation": "इमर्ज",
@@ -16682,7 +18362,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1175,
+    "id": 1364,
+    "word": "emergency",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1365,
+    "word": "emotional",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1366,
     "word": "emphasise",
     "pos": "v",
     "pronunciation": "एम्फ़साइज़",
@@ -16696,7 +18394,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1176,
+    "id": 1367,
+    "word": "employment",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1368,
+    "word": "encouragement",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1369,
+    "word": "encyclopedia",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1370,
     "word": "enjoyable",
     "pos": "adj",
     "pronunciation": "",
@@ -16710,12 +18435,57 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1177,
+    "id": 1371,
+    "word": "enough pron",
+    "pos": "det adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1372,
+    "word": "enterprising",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1373,
+    "word": "entertainment",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1374,
+    "word": "enthusiastic",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1375,
+    "word": "environment",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1376,
     "word": "equivalent",
     "pos": "n",
     "pronunciation": "इक्विवलन्ट",
     "meaningHi": "समकक्ष, समवस्तु इक्विवलन्ट समान मूल्य का, समकक्ष अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "equal",
+    "meaningEn": "",
     "examples": [
       {
         "en": "'Sari' has no equivalent word in English",
@@ -16728,7 +18498,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1178,
+    "id": 1377,
     "word": "erratic",
     "pos": "adj",
     "pronunciation": "इरैटिक",
@@ -16742,7 +18512,80 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1179,
+    "id": 1378,
+    "word": "even",
+    "pos": "adj / adv",
+    "pronunciation": "ईवन",
+    "meaningHi": "बराबर, समतल, सपाट | भी वस्ुओं या व्यक्तियों की तुलना के लिए प्रयु- क्त",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "an even surface",
+        "hi": "एक समतल सतह"
+      }
+    ]
+  },
+  {
+    "id": 1379,
+    "word": "eventually",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1380,
+    "word": "ever",
+    "pos": "adv / pron",
+    "pronunciation": "विचेवर",
+    "meaningHi": "एवर 1 सर्वदा, हमेशा 2 किसी भी समय, कभी 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Get out of there, whoever you are",
+        "hi": "तुम जो भी हो, वहाँ से बाहर आ जाओ।"
+      }
+    ]
+  },
+  {
+    "id": 1381,
+    "word": "ever pron",
+    "pos": "det",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1382,
+    "word": "everybody",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1383,
+    "word": "everything",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1384,
+    "word": "everywhere",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1385,
     "word": "exactly",
     "pos": "adv",
     "pronunciation": "इग्ै़क्ट्लि",
@@ -16756,7 +18599,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1180,
+    "id": 1386,
     "word": "exaggerate",
     "pos": "v",
     "pronunciation": "इग्ै़जरेट",
@@ -16770,7 +18613,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1181,
+    "id": 1387,
+    "word": "exam",
+    "pos": "n",
+    "pronunciation": "इगज़ैम",
+    "meaningHi": "परीक्षा",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1388,
+    "word": "except prep",
+    "pos": "conj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1389,
     "word": "executive",
     "pos": "n",
     "pronunciation": "इगज़ेक्युटिव",
@@ -16779,12 +18640,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1182,
+    "id": 1390,
     "word": "exhibition",
     "pos": "n",
     "pronunciation": "एक्सिबिशन",
     "meaningHi": "प्रदर्शनी, नुमाइश",
-    "meaningEn": "display",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a book-exhibition",
@@ -16793,7 +18654,43 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1183,
+    "id": 1391,
+    "word": "experiment",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1392,
+    "word": "explanation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1393,
+    "word": "exploration",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1394,
+    "word": "extraordinary",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1395,
     "word": "extrovert",
     "pos": "adj",
     "pronunciation": "एक्स्ट्रवर्ट",
@@ -16807,16 +18704,70 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1184,
+    "id": 1396,
+    "word": "face",
+    "pos": "n / v",
+    "pronunciation": "फ़ेस",
+    "meaningHi": "चेहरा | 1 सामना करना 2 सामने होना 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1397,
+    "word": "Facebook",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1398,
     "word": "factory",
     "pos": "n",
     "pronunciation": "फै़क्ट्रि",
     "meaningHi": "कारखाना",
-    "meaningEn": "a building for manufacturing",
+    "meaningEn": "manufacturing building",
     "examples": []
   },
   {
-    "id": 1185,
+    "id": 1399,
+    "word": "fail",
+    "pos": "v",
+    "pronunciation": "फे़ल",
+    "meaningHi": "असफल होना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1400,
+    "word": "fall",
+    "pos": "n / v",
+    "pronunciation": "फ़ॉल",
+    "meaningHi": "नीचे गिरने की क्रिया, गिरावट | गिरना 120 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "A fall in the standard of education",
+        "hi": "शिक्षाक्षा के स्तर में गिरावट।"
+      },
+      {
+        "en": "He fell from the tree",
+        "hi": "वह पेड़ से गिर गया।"
+      }
+    ]
+  },
+  {
+    "id": 1401,
+    "word": "familiar",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1402,
     "word": "famous",
     "pos": "adj",
     "pronunciation": "फ़ेमस",
@@ -16830,7 +18781,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1186,
+    "id": 1403,
+    "word": "fast",
+    "pos": "adj adv",
+    "pronunciation": "फ़ास्ट",
+    "meaningHi": "तेज, तेज गति से | उपवास करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a fast runner",
+        "hi": "एक तेज दौड़ने वाला"
+      },
+      {
+        "en": "He fasts every Ekadashi",
+        "hi": "वह हर एकादशी को उपवास रखता है।"
+      }
+    ]
+  },
+  {
+    "id": 1404,
     "word": "fasten",
     "pos": "v",
     "pronunciation": "फ़ासन",
@@ -16844,7 +18813,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1187,
+    "id": 1405,
     "word": "fat",
     "pos": "adj / n",
     "pronunciation": "फ़ैट",
@@ -16862,16 +18831,48 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1188,
+    "id": 1406,
+    "word": "favourite",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1407,
+    "word": "fear",
+    "pos": "n / v",
+    "pronunciation": "भय, डर",
+    "meaningHi": "| 76 77 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1408,
+    "word": "feed",
+    "pos": "v",
+    "pronunciation": "फ़ीड",
+    "meaningHi": "भोजन देना, खिलाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Feed the poor and the needy",
+        "hi": "गरीब और जरूरतमंद को खिलाओ।"
+      }
+    ]
+  },
+  {
+    "id": 1409,
     "word": "fence",
     "pos": "n",
     "pronunciation": "फ़ेेन्स",
     "meaningHi": "चारदीवारी, लकड़ी या धातु का बना घेरा, बाड़",
-    "meaningEn": "barrier",
+    "meaningEn": "barrier around space",
     "examples": []
   },
   {
-    "id": 1189,
+    "id": 1410,
     "word": "fetch",
     "pos": "v",
     "pronunciation": "फ़ेच",
@@ -16885,7 +18886,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1190,
+    "id": 1411,
     "word": "fibre",
     "pos": "n",
     "pronunciation": "फ़ाइबर",
@@ -16899,25 +18900,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1191,
+    "id": 1412,
     "word": "figure",
     "pos": "n",
-    "pronunciation": "फ़िगर",
-    "meaningHi": "चित्र 2 संख्ा 3 शरीर की आकृति अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a number; a shape; a person",
-    "examples": [
-      {
-        "en": "draw a figure",
-        "hi": "एक चित्र उकेरना"
-      },
-      {
-        "en": "population figures",
-        "hi": "जनसंख्या के आँकड़े"
-      }
-    ]
+    "pronunciation": "पाई है।",
+    "meaningHi": "अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "number; shape; person",
+    "examples": []
   },
   {
-    "id": 1192,
+    "id": 1413,
+    "word": "file",
+    "pos": "n",
+    "pronunciation": "फ़ाइल",
+    "meaningHi": "कागज़ात रखने हेतु कागज के गत्ते या प्ा- स्टिक का आवरण",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1414,
+    "word": "film",
+    "pos": "n",
+    "pronunciation": "फ़िल्म",
+    "meaningHi": "सिनेमा, चलचित्र 2 झिल्ी",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1415,
     "word": "finally",
     "pos": "adv",
     "pronunciation": "फ़ाइन्लि",
@@ -16931,21 +18941,280 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1193,
-    "word": "flavour",
-    "pos": "n  v",
-    "pronunciation": "खाने का स्ाद और सुगंध",
-    "meaningHi": "फ़लेवर सुगंध, खुशबू, स्ाद the",
+    "id": 1416,
+    "word": "fine",
+    "pos": "n adj",
+    "pronunciation": "फ़ाइन",
+    "meaningHi": "दंड या जुर्माना 2 काफी ठीक, बढ़िया 3 सूक्ष्म, बारीक",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a fine of rs 1000",
+        "hi": "1000 रु का दंड"
+      },
+      {
+        "en": "a fine dress",
+        "hi": "एक बढ़िया पोशाक"
+      }
+    ]
+  },
+  {
+    "id": 1417,
+    "word": "firm",
+    "pos": "adj / n",
+    "pronunciation": "फर्म",
+    "meaningHi": "सख्त, सुदृढ़, काफी कड़ा | व्यापारिक प्रतिष्ान 78 79 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "firm grip",
+        "hi": "हाथ की सख्त पकड़"
+      },
+      {
+        "en": "I have set up a new firm",
+        "hi": "मैंने एक नए फर्म की स्थापना की है।"
+      }
+    ]
+  },
+  {
+    "id": 1418,
+    "word": "first det adj",
+    "pos": "adv n",
+    "pronunciation": "",
+    "meaningHi": "",
     "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1194,
+    "id": 1419,
+    "word": "flat",
+    "pos": "n / adj",
+    "pronunciation": "फ़्लैट",
+    "meaningHi": "अपार्टमेन्ट | समतल, सपाट",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The earth is not flat, it is round",
+        "hi": "धरती सपाट नहीं, गोल है।"
+      }
+    ]
+  },
+  {
+    "id": 1420,
+    "word": "flavour",
+    "pos": "n  v",
+    "pronunciation": "खाने का स्ाद और सुगंध",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1421,
+    "word": "flow",
+    "pos": "n / v",
+    "pronunciation": "फ़लो",
+    "meaningHi": "बहाव, प्रवाह | बहना, प्रवाहित होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "the flow of water from the broken pipe",
+        "hi": "टूूटे नलके से पानी का प्रवाह"
+      },
+      {
+        "en": "a gently flowing river",
+        "hi": "एक शांति से बहती नदी।"
+      }
+    ]
+  },
+  {
+    "id": 1422,
+    "word": "fold",
+    "pos": "n / v",
+    "pronunciation": "फ़ोल्ड",
+    "meaningHi": "चुन्नट, शिकन 2 तह | तह लगाना, लपेटना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He folded the clothes",
+        "hi": "उसने कपड़ों को तह लगाया।"
+      }
+    ]
+  },
+  {
+    "id": 1423,
+    "word": "fond",
+    "pos": "adj",
+    "pronunciation": "फ़ौन्ड",
+    "meaningHi": "किसी व्यक्ति, वस्तु या काम को पसंद करने वाला, शौकीन होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "fond of sweets",
+        "hi": "मिठाइयों का शौकीन"
+      }
+    ]
+  },
+  {
+    "id": 1424,
+    "word": "foot",
+    "pos": "n",
+    "pronunciation": "फु़ट",
+    "meaningHi": "पैर, पाँव 80 81 अंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1425,
+    "word": "forgiveness",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1426,
+    "word": "fork",
+    "pos": "n",
+    "pronunciation": "फ़ोक",
+    "meaningHi": "भोजन करने वाला काँटा 2 सड़क या नदी की दो शाखाओं में विभक्त होने की स्थिति",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1427,
+    "word": "form",
+    "pos": "n / v",
+    "pronunciation": "फौम",
+    "meaningHi": "आकृति, रूपाकार 2 प्रकार 3 फॉर्म या प्रपत्र 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "admission-form",
+        "hi": "प्रवेश-प्रपत्र"
+      }
+    ]
+  },
+  {
+    "id": 1428,
+    "word": "fortunate",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1429,
+    "word": "fortunately",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1430,
+    "word": "forward",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1431,
+    "word": "frequent",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1432,
+    "word": "friendship",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1433,
+    "word": "frightened",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1434,
+    "word": "from",
+    "pos": "prep",
+    "pronunciation": "फ़्ॉम, फ़्र्रम",
+    "meaningHi": "से अलग होने के अर्थ में",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1435,
+    "word": "further adj",
+    "pos": "adv v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1436,
+    "word": "game",
+    "pos": "n",
+    "pronunciation": "गेम",
+    "meaningHi": "खेल, जिसके नियम होते है",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Football is a popular game",
+        "hi": "फुटबॉल एक लोकप्रिय खेल है।"
+      }
+    ]
+  },
+  {
+    "id": 1437,
+    "word": "gate",
+    "pos": "n",
+    "pronunciation": "गेट",
+    "meaningHi": "फाटक, द्ार",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1438,
+    "word": "generally",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1439,
+    "word": "generous",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1440,
     "word": "genius",
     "pos": "adj",
     "pronunciation": "जीनिअस",
     "meaningHi": "असाधारण रूप से मेधावी और सृजनशील, अति महान",
-    "meaningEn": "exceptional intelligence",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Einstein was a genious",
@@ -16954,7 +19223,104 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1195,
+    "id": 1441,
+    "word": "gent",
+    "pos": "adj",
+    "pronunciation": "इंटेलिजन्ट",
+    "meaningHi": "बुद्धिमान, समझदार, चतुर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "an intelligent girl",
+        "hi": "एक बुद्धिमान लड़की"
+      }
+    ]
+  },
+  {
+    "id": 1442,
+    "word": "gift",
+    "pos": "n",
+    "pronunciation": "गिफ़्ट",
+    "meaningHi": "उपहार, तोहफा",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1443,
+    "word": "glad",
+    "pos": "adj",
+    "pronunciation": "ग्लैड",
+    "meaningHi": "प्रसन्न",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I am glad",
+        "hi": "मैं प्रसन्न हँ।"
+      }
+    ]
+  },
+  {
+    "id": 1444,
+    "word": "globalisation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1445,
+    "word": "goal",
+    "pos": "n",
+    "pronunciation": "गोल",
+    "meaningHi": "लक्ष्य",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "What is the final goal of human life?",
+        "hi": "मानवजीवन का अंतिम लक्ष्य क्ा है?"
+      }
+    ]
+  },
+  {
+    "id": 1446,
+    "word": "god-fearing",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1447,
+    "word": "gods",
+    "pos": "n",
+    "pronunciation": "गॉड्स",
+    "meaningHi": "देवी-देवता god-गॉड फिअरिंग ईश्वर से डरने वाला",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "There may be many gods, but God is one",
+        "hi": "देवता अनेक हो सकते हैं, मगर ईश्वर एक है।"
+      }
+    ]
+  },
+  {
+    "id": 1448,
+    "word": "gold",
+    "pos": "n",
+    "pronunciation": "गोल्ड",
+    "meaningHi": "सोना 86 87 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Gold is very valuable, but less than love",
+        "hi": "सोना बहुत मूूल्यवान है, मगर प्रेम से कम।"
+      }
+    ]
+  },
+  {
+    "id": 1449,
     "word": "good bye",
     "pos": "n",
     "pronunciation": "गुड्बाइ",
@@ -16963,12 +19329,21 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1196,
+    "id": 1450,
+    "word": "government",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1451,
     "word": "grade",
     "pos": "n / v",
     "pronunciation": "ग्रेड",
     "meaningHi": "श्ेणी, वर्ग | वर्गीीकरण करना, श्ेणी निर्धारित करना ग्ैजुअलि क्रमशः, धीरे-धीरे एकाएक नहीं",
-    "meaningEn": "level",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a second-grade school",
@@ -16981,12 +19356,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1197,
+    "id": 1452,
+    "word": "gradually",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1453,
     "word": "grand",
     "pos": "adj",
     "pronunciation": "ग्ैन्ड",
     "meaningHi": "शानदार",
-    "meaningEn": "impressive",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a grand programme",
@@ -16995,12 +19379,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1198,
+    "id": 1454,
+    "word": "hair",
+    "pos": "n",
+    "pronunciation": "बाल",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1455,
+    "word": "half",
+    "pos": "n adj adv",
+    "pronunciation": "हाफ़",
+    "meaningHi": "आधा",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1456,
+    "word": "hand",
+    "pos": "n / v",
+    "pronunciation": "हैन्ड",
+    "meaningHi": "हाथ | किसी को कुछ देना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He handed me an envelope",
+        "hi": "उसने मुझे एक लिफाफा हाथ में दिया।"
+      }
+    ]
+  },
+  {
+    "id": 1457,
     "word": "handle",
     "pos": "n / v",
     "pronunciation": "हैन्ड्ल",
     "meaningHi": "हत्ा | सँभालना",
-    "meaningEn": "to manage",
+    "meaningEn": "",
     "examples": [
       {
         "en": "handle a situation",
@@ -17009,7 +19425,157 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1199,
+    "id": 1458,
+    "word": "hang",
+    "pos": "v",
+    "pronunciation": "हैंग",
+    "meaningHi": "लटकाना, टाँगना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He hung his shirt on a hook - उसने अपनी कमीज एक हुक पर टाँग दी। 2 फाँसी लगाना (He hanged himself",
+        "hi": "उसने फाँसी लगा ली।"
+      }
+    ]
+  },
+  {
+    "id": 1459,
+    "word": "happiness",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1460,
+    "word": "hardworking",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1461,
+    "word": "harm",
+    "pos": "n / v",
+    "pronunciation": "हाम",
+    "meaningHi": "नुकसान, हानि या चोट | नुकसान पहुँचाना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1462,
+    "word": "hate",
+    "pos": "n / v",
+    "pronunciation": "हेट",
+    "meaningHi": "घृणा, नफरत | घृणा नफरत करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Hate is a destructive emotion",
+        "hi": "नफरत एक विध्ंसात्मक भावना है।"
+      },
+      {
+        "en": "A religion that teaches hate can't be God's religion",
+        "hi": "एक धर्म जो नफरत सिखाए, ईश्वर का धर्म नहीं हो सकता।"
+      }
+    ]
+  },
+  {
+    "id": 1463,
+    "word": "head",
+    "pos": "n / v",
+    "pronunciation": "हेड",
+    "meaningHi": "सिर 2 शीर्ष 3 प्रधान, मुखिया अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | 1 निर्दिष्ट दिशा में आगे बढ़ना 2 किसी संस्ा के प्रमुख का पद धारण करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "They are heading towards the jungle",
+        "hi": "वे जंगल की ओर बढ़ रहे हैं।"
+      },
+      {
+        "en": "She heads the municipal corporation",
+        "hi": "वह नगरपालिका के प्रमुख का पद धारण करती है।"
+      }
+    ]
+  },
+  {
+    "id": 1464,
+    "word": "hear",
+    "pos": "v",
+    "pronunciation": "सुनना",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1465,
+    "word": "heat",
+    "pos": "n / v",
+    "pronunciation": "हीट",
+    "meaningHi": "ताप, गरमी | गरम करना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1466,
+    "word": "hell",
+    "pos": "n",
+    "pronunciation": "हेल",
+    "meaningHi": "नरक",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1467,
+    "word": "helpfulness",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1468,
+    "word": "here",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "हिअर यहाँ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Come here",
+        "hi": "यहाँ आओ।"
+      }
+    ]
+  },
+  {
+    "id": 1469,
+    "word": "hers",
+    "pos": "pron",
+    "pronunciation": "हज़",
+    "meaningHi": "उसकी उस स्त्री की",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Talent like hers is rare in a slum-child",
+        "hi": "उसके जैसी प्रतिभा एक झुग्ी-झोपड़ी की लड़की में विरल है।"
+      }
+    ]
+  },
+  {
+    "id": 1470,
+    "word": "hers pron",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1471,
     "word": "herself",
     "pos": "pron",
     "pronunciation": "हसेलफ़",
@@ -17023,7 +19589,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1200,
+    "id": 1472,
     "word": "hesitancy",
     "pos": "n",
     "pronunciation": "हेज़िटन्सीन्सी",
@@ -17037,7 +19603,116 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1201,
+    "id": 1473,
+    "word": "hesitation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1474,
+    "word": "hide",
+    "pos": "v",
+    "pronunciation": "हाइड",
+    "meaningHi": "छिपना, छिपाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "She hid behind the sofa",
+        "hi": "वह सोफे के पीछे छुप गई।"
+      }
+    ]
+  },
+  {
+    "id": 1475,
+    "word": "high",
+    "pos": "adj",
+    "pronunciation": "हाइ",
+    "meaningHi": "ऊँचा अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a high mountain",
+        "hi": "एक ऊँचा पर्वत"
+      }
+    ]
+  },
+  {
+    "id": 1476,
+    "word": "Hinduism",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1477,
+    "word": "hole",
+    "pos": "n",
+    "pronunciation": "होल",
+    "meaningHi": "छेद, सुराख़",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1478,
+    "word": "hour",
+    "pos": "n",
+    "pronunciation": "हैं।",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1479,
+    "word": "however",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1480,
+    "word": "humanity",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1481,
+    "word": "humiliation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1482,
+    "word": "hurt",
+    "pos": "n / v / adj",
+    "pronunciation": "हर्ट",
+    "meaningHi": "चोट, तकलीफ अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | चोट पहुँचाना, तकलीफ देना | चोटग्रस्त, घायल",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Let's not cause hurt to anybody's feelings",
+        "hi": "हम किसी की भावनाओं को चोट न पहुँचाएँ।"
+      },
+      {
+        "en": "It hurts",
+        "hi": "इससे दुःख होता है।"
+      }
+    ]
+  },
+  {
+    "id": 1483,
     "word": "hygiene",
     "pos": "n",
     "pronunciation": "हाइजीन",
@@ -17051,12 +19726,184 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1202,
+    "id": 1484,
+    "word": "hypertension",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1485,
+    "word": "idol",
+    "pos": "n",
+    "pronunciation": "आइडल",
+    "meaningHi": "देवमूर्ति",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Idols remind us of God and the deities",
+        "hi": "देवमूूर्तियाँ हमें ईश्वर और देवताओं का स्मरण कराती हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1486,
+    "word": "idolworship",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1487,
+    "word": "ill",
+    "pos": "adj",
+    "pronunciation": "इल",
+    "meaningHi": "बीमार, अस्वस्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He is ill",
+        "hi": "वह बीमार है।"
+      }
+    ]
+  },
+  {
+    "id": 1488,
+    "word": "imagination",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1489,
+    "word": "imaginative",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1490,
+    "word": "immediate",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1491,
+    "word": "immediately",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1492,
+    "word": "immor-  ality",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1493,
+    "word": "importance",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1494,
+    "word": "important",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1495,
+    "word": "impossible",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1496,
+    "word": "impressed",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1497,
+    "word": "impressive",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1498,
+    "word": "improvement",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1499,
+    "word": "inadequate",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1500,
+    "word": "inappropriate",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1501,
+    "word": "independent",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1502,
     "word": "infection",
     "pos": "n",
     "pronunciation": "इनफ़ेक्शन",
     "meaningHi": "रोगसंचार, बीमारी लग जाना",
-    "meaningEn": "disease",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I've caught a viral infection",
@@ -17065,12 +19912,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1203,
+    "id": 1503,
     "word": "inform",
     "pos": "v",
     "pronunciation": "इन्फ़ौम",
     "meaningHi": "सूचना देना, सूचित करना",
-    "meaningEn": "to tell",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Did you inform the police?",
@@ -17079,12 +19926,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1204,
+    "id": 1504,
+    "word": "information",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1505,
     "word": "injury",
     "pos": "n",
     "pronunciation": "इनजरि",
     "meaningHi": "शरीर या अंग पर लगी चोट",
-    "meaningEn": "harm",
+    "meaningEn": "",
     "examples": [
       {
         "en": "got an injury while playing",
@@ -17093,7 +19949,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1205,
+    "id": 1506,
+    "word": "insecti- cide",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1507,
+    "word": "inside prep",
+    "pos": "adv adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1508,
     "word": "insist (on)",
     "pos": "v",
     "pronunciation": "इन्सिस्ट",
@@ -17107,7 +19981,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1206,
+    "id": 1509,
+    "word": "inspiration",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1510,
     "word": "institute",
     "pos": "n",
     "pronunciation": "इन्स्टिट्यूट",
@@ -17121,12 +20004,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1207,
+    "id": 1511,
+    "word": "instruction",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1512,
+    "word": "instrument",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1513,
     "word": "insurance",
     "pos": "n",
     "pronunciation": "इन्शौरन्स",
     "meaningHi": "बीमा",
-    "meaningEn": "risk protection",
+    "meaningEn": "",
     "examples": [
       {
         "en": "health insurance",
@@ -17135,34 +20036,102 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1208,
+    "id": 1514,
+    "word": "intellect-ual",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1515,
+    "word": "intellig-ence",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1516,
+    "word": "intelligent",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1517,
+    "word": "interest- ing",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1518,
     "word": "Internet",
     "pos": "n",
     "pronunciation": "इन्टनेट",
     "meaningHi": "इन्टरनेट, अंतर्राष्ट्ीय कंप्यूटर प्रणाली",
-    "meaningEn": "global network",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1209,
+    "id": 1519,
+    "word": "interruption",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1520,
+    "word": "into",
+    "pos": "prep",
+    "pronunciation": "इन्टु",
+    "meaningHi": "में, के भीतर में 2 बारे में 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Religious intolerance is growing",
+        "hi": "धार्मिक असहिष्णुष्णुता बढ़ रही है।"
+      }
+    ]
+  },
+  {
+    "id": 1521,
+    "word": "intolerance",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1522,
     "word": "introduce",
     "pos": "v",
     "pronunciation": "इन्ट्रड्ूस",
     "meaningHi": "से परिचय कराना 2 पहली बार प्रयोग में लाना 1",
     "meaningEn": "",
-    "examples": [
-      {
-        "en": "I introduced him to a good lawyer",
-        "hi": "मैंने उसका परिचय एक अच्े वकील से कराया।"
-      },
-      {
-        "en": "Biometric attendance is being introduced in many offices",
-        "hi": "अनेक कार्यालयों में बायोमेट्रिक उपस्थिति का नया प्रयोग शुरू किया जा रहा है।"
-      }
-    ]
+    "examples": []
   },
   {
-    "id": 1210,
+    "id": 1523,
+    "word": "introduction",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1524,
     "word": "introvert",
     "pos": "adj",
     "pronunciation": "इन्ट्रवट",
@@ -17176,12 +20145,40 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1211,
+    "id": 1525,
+    "word": "ion skills",
+    "pos": "n",
+    "pronunciation": "इगज़ैमिनेशन",
+    "meaningHi": "स््किल्स परीक्षा-कौशल",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "For doing well at the exams, one has to learn examination skills",
+        "hi": "परीक्षा में अच्ा करने के लिए परीक्षा- कौशल सीखना होता है।"
+      }
+    ]
+  },
+  {
+    "id": 1526,
+    "word": "ions",
+    "pos": "n",
+    "pronunciation": "क्ग्ैचुलेशनज़",
+    "meaningHi": "बधाइयाँ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "many congratulations!",
+        "hi": "ढेरों बधाइयाँ!"
+      }
+    ]
+  },
+  {
+    "id": 1527,
     "word": "itself",
     "pos": "pron",
     "pronunciation": "इट्सेल्फ़",
     "meaningHi": "स्वयं, खुद ही 104 105 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ जेलसी ईर्ष्या किसी दूसरे की अच्ाई या प्रगति देख कर मन में होने वाली जलन",
-    "meaningEn": "it and nothing else",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The washing machine switches itself off when washing is complete",
@@ -17194,7 +20191,75 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1212,
+    "id": 1528,
+    "word": "join",
+    "pos": "v",
+    "pronunciation": "जोइन",
+    "meaningHi": "जुड़ जाना, प्रवेश करना 2 पदभार ग्रहण करना 3 जोड़ना 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1529,
+    "word": "joke",
+    "pos": "n / v",
+    "pronunciation": "जोक",
+    "meaningHi": "मजाक, परिहास | मजाक करना, चुटकुले सुनाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Jokes should not hurt anyone's feelings",
+        "hi": "मजाक किसी की भावनाओं को चोट पहुँचाने वाले नहीं होने चाहिए।"
+      },
+      {
+        "en": "I was just joking",
+        "hi": "मैं तो सिर्फ मजाक कर रहा था।"
+      }
+    ]
+  },
+  {
+    "id": 1530,
+    "word": "judiciary",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1531,
+    "word": "jump",
+    "pos": "n / v",
+    "pronunciation": "जम्प",
+    "meaningHi": "छलांग, कूद | कूदना, छलांग मारना जस्ट 1 अभी-अभी 2 बस, सिर्फ 3 न्यायी, ठीक-ठाक 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "long jump",
+        "hi": "लंबी कूूद"
+      },
+      {
+        "en": "He jumped from the boat into the river",
+        "hi": "वह नाव से नदी में कूूद गया।"
+      }
+    ]
+  },
+  {
+    "id": 1532,
+    "word": "keen",
+    "pos": "adj",
+    "pronunciation": "कीन",
+    "meaningHi": "उत्ुक, किसी बात में बहुत रुचि लेने वाला",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He is a keen student",
+        "hi": "वह पढ़ाई में बहुत रुचि रखने वाला विद्यार्थीी है।"
+      }
+    ]
+  },
+  {
+    "id": 1533,
     "word": "keyboard",
     "pos": "n",
     "pronunciation": "कीीबोड",
@@ -17203,7 +20268,61 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1213,
+    "id": 1534,
+    "word": "kick",
+    "pos": "v",
+    "pronunciation": "किक",
+    "meaningHi": "ठोकर या लात मारना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1535,
+    "word": "kill",
+    "pos": "v",
+    "pronunciation": "किल",
+    "meaningHi": "मार डालना, हत्ा करना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1536,
+    "word": "kind",
+    "pos": "adj / n",
+    "pronunciation": "काइन्ड",
+    "meaningHi": "उदार, दयालु | प्रकार",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a kind person",
+        "hi": "एक उदार व्यक्ति"
+      },
+      {
+        "en": "The electric car is a car of a new kind",
+        "hi": "बिजली से चलने वाली कार एक नए प्रकार की कार है।"
+      }
+    ]
+  },
+  {
+    "id": 1537,
+    "word": "land",
+    "pos": "n / v",
+    "pronunciation": "लैन्ड",
+    "meaningHi": "जमीन | उतरना या उतारना लैंग्ेज भाषा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a piece of land",
+        "hi": "जमीन का एक टुकड़ा"
+      },
+      {
+        "en": "The plane landed",
+        "hi": "हवाई जहाज उतर गया"
+      }
+    ]
+  },
+  {
+    "id": 1538,
     "word": "laptop",
     "pos": "n",
     "pronunciation": "लैपटॉप",
@@ -17212,7 +20331,140 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1214,
+    "id": 1539,
+    "word": "lary",
+    "pos": "n",
+    "pronunciation": "वकैब्यलरि",
+    "meaningHi": "शब्दावली, शब्दभंडार",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "You need a large vocabulary to write a book",
+        "hi": "किताब लिखने के लिए तुम्ें एक बड़े शब्दभंडार की जरूरत होती है।"
+      }
+    ]
+  },
+  {
+    "id": 1540,
+    "word": "last",
+    "pos": "adv adj",
+    "pronunciation": "लास्ट",
+    "meaningHi": "अंत का, अंतिम | कुछ समय तक बने रहना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "last rites",
+        "hi": "अंतिम संस्ार"
+      },
+      {
+        "en": "What lasts long is your reputation",
+        "hi": "जो लम्े समय तक बनी रहती है वह है आपकी कीर्ति।"
+      }
+    ]
+  },
+  {
+    "id": 1541,
+    "word": "late",
+    "pos": "adv adj",
+    "pronunciation": "लेट",
+    "meaningHi": "विलंब से, देरी से 2 स्वर्गीीय",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The train is running late",
+        "hi": "ट्ेन विलंब से चल रही है।"
+      }
+    ]
+  },
+  {
+    "id": 1542,
+    "word": "lazy",
+    "pos": "adj",
+    "pronunciation": "लेज़ी",
+    "meaningHi": "आलसी",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The lazy lose",
+        "hi": "आलसी लोग हार जाते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1543,
+    "word": "leadership",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1544,
+    "word": "lean",
+    "pos": "v",
+    "pronunciation": "लीन",
+    "meaningHi": "झुकना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He leaned forward and kissed the child",
+        "hi": "वह आगे झुका और बच्चे को चूूम लिया।"
+      }
+    ]
+  },
+  {
+    "id": 1545,
+    "word": "least det adv",
+    "pos": "pron adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1546,
+    "word": "lectureship",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1547,
+    "word": "left",
+    "pos": "adj adv n",
+    "pronunciation": "लेफ़्ट",
+    "meaningHi": "बाकी 2 बायीं तरफ का 3 वामपंथ, वामपंथी, कम्ुनिस्ट 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1548,
+    "word": "legislature",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1549,
+    "word": "lend",
+    "pos": "v",
+    "pronunciation": "लेन्ड",
+    "meaningHi": "उधार देना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Please lend me some money",
+        "hi": "कृपया मुझे कुछ पैसे उधार दो।"
+      }
+    ]
+  },
+  {
+    "id": 1550,
     "word": "length",
     "pos": "n",
     "pronunciation": "लेंगथ",
@@ -17221,7 +20473,16 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1215,
+    "id": 1551,
+    "word": "less adv pron",
+    "pos": "prep adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1552,
     "word": "lessen",
     "pos": "v",
     "pronunciation": "लेसन",
@@ -17235,16 +20496,349 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1216,
+    "id": 1553,
     "word": "letter",
     "pos": "n",
-    "pronunciation": "लेटर",
-    "meaningHi": "पत्र, चिट्ी 2 अक्षर जैसे, a, b, c आदि",
-    "meaningEn": "a written message; a character of the alphabet",
+    "pronunciation": "",
+    "meaningHi": "लेटर 1 पत्र, चिट्ी 2 अक्षर जैसे, a, b, c आदि",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1217,
+    "id": 1554,
+    "word": "life",
+    "pos": "n",
+    "pronunciation": "लाइफ़",
+    "meaningHi": "जिंदगी, जीवन",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "All forms of life on earth are precious",
+        "hi": "धरती पर जीवन के सारे रूप मूूल्यवान हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1555,
+    "word": "lift",
+    "pos": "n / v",
+    "pronunciation": "लिफ़्ट",
+    "meaningHi": "लिफ्ट मशीन जो किसी ऊँचे भवन में ऊपर के तल पर ले जाती है 2 कार आदि में मुफ्त की सवारी | ऊपर उठाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I want a lift up to the bus stand",
+        "hi": "बस पड़ाव तक एक मैं लिफ्ट चाहता हँ, यानी बस स्ैंड तक आपकी गाड़ी में जाना चाहता हँ।"
+      },
+      {
+        "en": "Lift your hands, please",
+        "hi": "अपने हाथों को कृपया ऊपर उठाएं।"
+      }
+    ]
+  },
+  {
+    "id": 1556,
+    "word": "like",
+    "pos": "prep conj / v",
+    "pronunciation": "लाइक",
+    "meaningHi": "| पसंद करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I like Chinese food",
+        "hi": "मैं चाइनीज़ खाना पसन्द करता हँ।"
+      }
+    ]
+  },
+  {
+    "id": 1557,
+    "word": "like prep conj",
+    "pos": "n adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1558,
+    "word": "likely adv",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1559,
+    "word": "line",
+    "pos": "n",
+    "pronunciation": "लाइन",
+    "meaningHi": "रेखा, लकीर 2 कतार, पंक्ति",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a long line",
+        "hi": "एक लंबी कतार"
+      }
+    ]
+  },
+  {
+    "id": 1560,
+    "word": "lise",
+    "pos": "v",
+    "pronunciation": "अवधारण करना",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1561,
+    "word": "lism",
+    "pos": "n",
+    "pronunciation": "मटिअरिअ-",
+    "meaningHi": "लिज़म पदार्थवाद, भौतिकतावाद वह सिद्धांद्धांत जिसके अनुसार जगत सिर्फ भौतिक पदार्थोंों से बना है, तथा आत्मा और ईश्वर का अस्तित्व नहीं हैं।",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1562,
+    "word": "list",
+    "pos": "n",
+    "pronunciation": "लिस्ट",
+    "meaningHi": "सूची",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "list of items to be bought",
+        "hi": "खरीदी जाने वाली चीजों की सूूची"
+      }
+    ]
+  },
+  {
+    "id": 1563,
+    "word": "little adj",
+    "pos": "pron adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1564,
+    "word": "load",
+    "pos": "n / v",
+    "pronunciation": "लोड",
+    "meaningHi": "भार, बोझ | लादना, लदान होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The load of books on children is increasing",
+        "hi": "बचों पर किताबों का बोझ बढ़ता जा रहा है।"
+      },
+      {
+        "en": "a truck loaded with cattle",
+        "hi": "जानवरों से लदा हुआ एक ट्रक"
+      }
+    ]
+  },
+  {
+    "id": 1565,
+    "word": "loan",
+    "pos": "n",
+    "pronunciation": "लोन",
+    "meaningHi": "कर्ज, ऋण",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Every loan ought to be paid back",
+        "hi": "हर कर्ज को चुका देना चाहिए।"
+      }
+    ]
+  },
+  {
+    "id": 1566,
+    "word": "lock",
+    "pos": "n / v",
+    "pronunciation": "लॉक",
+    "meaningHi": "ताला | ताला लगाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He was locked into a room",
+        "hi": "उसे एक कमरे में बंद कर दिया गया।"
+      }
+    ]
+  },
+  {
+    "id": 1567,
+    "word": "loneliness",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1568,
+    "word": "loss",
+    "pos": "n",
+    "pronunciation": "लॉस",
+    "meaningHi": "नुकसान, हानि, घाटा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I suffered losses",
+        "hi": "मुझे घाटे हुए"
+      }
+    ]
+  },
+  {
+    "id": 1569,
+    "word": "lost",
+    "pos": "adj",
+    "pronunciation": "लॉस्ट",
+    "meaningHi": "खोया हुआ 2 गुमसुम, खोया-खोया lot: a lot of लॉट काफी, अत्यधिक",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a lost friend",
+        "hi": "एक खोया हुआ दोस्त"
+      },
+      {
+        "en": "He looked lost",
+        "hi": "वह खोयाखोया दिख रहा था।"
+      }
+    ]
+  },
+  {
+    "id": 1570,
+    "word": "loud",
+    "pos": "adv adj",
+    "pronunciation": "लाउड",
+    "meaningHi": "बहुत आवाज करता हुआ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a loud voice",
+        "hi": "एक उँची आवाज"
+      }
+    ]
+  },
+  {
+    "id": 1571,
+    "word": "luck",
+    "pos": "n",
+    "pronunciation": "लक",
+    "meaningHi": "भाग्य, किस्मत, नसीब",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Luck is one of the several factors in our successes",
+        "hi": "भाग्य हमारी सफलताओं के कई कारणों में से एक है।"
+      }
+    ]
+  },
+  {
+    "id": 1572,
+    "word": "mad",
+    "pos": "adj",
+    "pronunciation": "मैड",
+    "meaningHi": "पागल, विक्षिप्त",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1573,
+    "word": "mail",
+    "pos": "n / v",
+    "pronunciation": "मेल",
+    "meaningHi": "डाक 2 ईमेल | 1 डाक से कुछ भेजना 2 ईमेल से कुछ संदेश भेजना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "the letter has been mailed",
+        "hi": "चिठ्ी डाक से भेज दी गई है।"
+      },
+      {
+        "en": "the letter has been emailed",
+        "hi": "चिट्ी ईमेल से भेज दी गई है।"
+      }
+    ]
+  },
+  {
+    "id": 1574,
+    "word": "main",
+    "pos": "adj",
+    "pronunciation": "मेन",
+    "meaningHi": "मुख्य, प्रमुख मेन्लि प्रधानत:, मुख्य रूप से मेन्टेन 1 बनाए रखना 2 देखभाल करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "main examination",
+        "hi": "मुख्य परीक्षा"
+      },
+      {
+        "en": "Tibet is mainly inhabited by Buddhists",
+        "hi": "तिब्बत में मुख्य रूप से बौद्ध रहते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1575,
+    "word": "maintain",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1576,
+    "word": "majority",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1577,
+    "word": "male",
+    "pos": "adj",
+    "pronunciation": "मेल",
+    "meaningHi": "पुरुष, मर्द",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1578,
+    "word": "man",
+    "pos": "n",
+    "pronunciation": "मैन",
+    "meaningHi": "मनुष्य, मानव 2 मर्द, पुरुष 116 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1579,
+    "word": "many",
+    "pos": "det",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1580,
+    "word": "many det",
+    "pos": "pron adj n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1581,
     "word": "March",
     "pos": "n / v",
     "pronunciation": "माच",
@@ -17262,21 +20856,161 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1218,
-    "word": "mation)",
-    "pos": "n",
+    "id": 1582,
+    "word": "mark",
+    "pos": "n / v",
+    "pronunciation": "माक",
+    "meaningHi": "निशान 2 नंबर 3 दाग 4 स्मरणीय प्रभाव | निशान लगाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a cut-mark on the chin",
+        "hi": "ठुड्ी पर कटने का एक चिह्न"
+      },
+      {
+        "en": "high marks",
+        "hi": "ऊँचे नंबर"
+      }
+    ]
+  },
+  {
+    "id": 1583,
+    "word": "married",
+    "pos": "adj",
     "pronunciation": "",
-    "meaningHi": "हलो, हलउ हलो अभिवादन, नमस्ते",
+    "meaningHi": "",
     "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1219,
+    "id": 1584,
+    "word": "mass",
+    "pos": "n adj",
+    "pronunciation": "मैस",
+    "meaningHi": "जनसाधारण 2 पिंड अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The masses had revolted at the time of the French revolution",
+        "hi": "जनसाधारण ने फांसीसी क्रांति के समय विद्रोह कर दिया था।"
+      },
+      {
+        "en": "A human being is not just a mass of flesh and blood",
+        "hi": "मनुष्य केवल रक्त और मांस का पिंड नहीं है।"
+      }
+    ]
+  },
+  {
+    "id": 1585,
+    "word": "material",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1586,
+    "word": "materialism",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1587,
+    "word": "mation adj",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1588,
+    "word": "mation)",
+    "pos": "n",
+    "pronunciation": "हलो, हलउ",
+    "meaningHi": "हलो अभिवादन, नमस्ते",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1589,
+    "word": "maximum",
+    "pos": "n adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1590,
+    "word": "may modal",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1591,
+    "word": "maya",
+    "pos": "n",
+    "pronunciation": "माया",
+    "meaningHi": "माया परब्रह्म-परमेश्वर की वह शक्ति जिससे वे समस्त सृष्टि की रचना करते हैं, और जिसके कारण जीव अपने ईश्वरीय स्वरूप को भूल जाता है।",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1592,
+    "word": "meal",
+    "pos": "n",
+    "pronunciation": "मील",
+    "meaningHi": "भोजन 120 121 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Why is it that some people can't afford two meals a day?",
+        "hi": "ऐसा क्योंों है कि कुछ लोग रोज दो शाम का भोजन का खर्च भी नहीं वहन कर सकते?"
+      }
+    ]
+  },
+  {
+    "id": 1593,
+    "word": "mean",
+    "pos": "adj / v",
+    "pronunciation": "मीन",
+    "meaningHi": "संकीर्ण बुद्धि वाला, क्षुद्र | मतलब या अर्थ व्यक्त करना मीनिंग अर्थ, मतलब",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a mean fellow",
+        "hi": "एक क्षुद्र व्यक्ति"
+      },
+      {
+        "en": "Water means ‘paani’ - ‘वाटर’ का अर्थ होता है ‘पानी’; I did not mean insult to any religion",
+        "hi": "मेरा मतलब किसी धर्म का अपमान करना नहीं था।"
+      }
+    ]
+  },
+  {
+    "id": 1594,
+    "word": "meanwhile",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1595,
     "word": "measure",
     "pos": "v",
     "pronunciation": "मेशज़र",
     "meaningHi": "नापना मीडिअम मध्यम बीच-बीच का",
-    "meaningEn": "to find the size of; a step taken",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Can we measure the sky?",
@@ -17289,7 +21023,111 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1220,
+    "id": 1596,
+    "word": "mend",
+    "pos": "v",
+    "pronunciation": "मेन्ड",
+    "meaningHi": "मरम्मत करना, सुधारना | अनुशंसा करना, सिफारिश करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "mend your shoes - अपने जूूतों की मरम्मत करो; mend your habits",
+        "hi": "अपनी आदतें सुधारो"
+      },
+      {
+        "en": "Doctors recommend regular exercise for maintaining good health",
+        "hi": "डॉक्टर अच्े स्ास्थ्य के लिए नियमित व्ायाम की सिफारिश करते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1597,
+    "word": "mess",
+    "pos": "n",
+    "pronunciation": "मेस",
+    "meaningHi": "अस्तव्यस्तता 2 भोजनकक्ष",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "the room was in a mess",
+        "hi": "कमरा अस्तव्यस्त था"
+      }
+    ]
+  },
+  {
+    "id": 1598,
+    "word": "mine",
+    "pos": "pron",
+    "pronunciation": "माइन",
+    "meaningHi": "मेरा 122 123 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ | खान, खदान",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "This book is mine",
+        "hi": "यह पुस्तक मेरी है।"
+      },
+      {
+        "en": "coal mines",
+        "hi": "कोयले की खदानें"
+      }
+    ]
+  },
+  {
+    "id": 1599,
+    "word": "minimum",
+    "pos": "adj n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1600,
+    "word": "minority",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1601,
+    "word": "miss",
+    "pos": "adj / v",
+    "pronunciation": "मिस",
+    "meaningHi": "अविवाहित स्त्री के नाम से पहले लगाई जाने वाली उपाधि | 1 चूक जाना 2 निशाना चूकना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Miss Manjula",
+        "hi": "सुश्ी मंजुला"
+      },
+      {
+        "en": "I missed the flight",
+        "hi": "मेरी जहाज छूूट गई"
+      }
+    ]
+  },
+  {
+    "id": 1602,
+    "word": "modern",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1603,
+    "word": "monarchy",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1604,
     "word": "monitor",
     "pos": "n / v",
     "pronunciation": "मॉनिटर",
@@ -17303,16 +21141,129 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1221,
+    "id": 1605,
+    "word": "monotheism",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1606,
     "word": "month",
     "pos": "n",
     "pronunciation": "मन्थ",
     "meaningHi": "महीना, माह",
-    "meaningEn": "yearly division",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1222,
+    "id": 1607,
+    "word": "mood",
+    "pos": "n",
+    "pronunciation": "मूड",
+    "meaningHi": "मनोदशा, मिजाज",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "His mood is upset at the moment",
+        "hi": "उसकी मनोदशा अभी ठीक नहीं है।"
+      }
+    ]
+  },
+  {
+    "id": 1608,
+    "word": "moon",
+    "pos": "n",
+    "pronunciation": "मून",
+    "meaningHi": "चंद्रमा 124 125 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1609,
+    "word": "more",
+    "pos": "det",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1610,
+    "word": "more det",
+    "pos": "pron adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1611,
+    "word": "most",
+    "pos": "det / adv",
+    "pronunciation": "मोस्ट",
+    "meaningHi": "अधिकांश, ज्ादातर | ज्ादातर, अधिकांश",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Most people will agree with this",
+        "hi": "इससे अधिकांश लोग सहमत होंगे"
+      },
+      {
+        "en": "I like it most",
+        "hi": "मैं इसे सबसे अधिक पसंद करता हँ।"
+      }
+    ]
+  },
+  {
+    "id": 1612,
+    "word": "most det",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1613,
+    "word": "motivated",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1614,
+    "word": "motivation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1615,
+    "word": "movement",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1616,
+    "word": "mugging",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1617,
     "word": "muscle",
     "pos": "n",
     "pronunciation": "मसल",
@@ -17326,12 +21277,135 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1223,
+    "id": 1618,
+    "word": "must",
+    "pos": "n",
+    "pronunciation": "मस्ट",
+    "meaningHi": "अनिवार्य",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Woolen clothes are a must in winters",
+        "hi": "ऊनी कपड़े जाड़ों में अनिवार्य होते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1619,
+    "word": "mysterious",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1620,
+    "word": "nail- biting",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1621,
+    "word": "name",
+    "pos": "n / v",
+    "pronunciation": "नेम",
+    "meaningHi": "नाम | 1 नामकरण करना 2 नाम बताना 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The match had a nail-biting finish",
+        "hi": "मैच का अंत अति उत्ुकतापूर्ण था।"
+      }
+    ]
+  },
+  {
+    "id": 1622,
+    "word": "naturally",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1623,
+    "word": "near",
+    "pos": "adv adj",
+    "pronunciation": "रहे थे।",
+    "meaningHi": "निअर निकट, पास का",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I live near the city-centre",
+        "hi": "मैं सिटी-सेंटर के नजदीक रहता हँ।"
+      }
+    ]
+  },
+  {
+    "id": 1624,
+    "word": "near adv adj",
+    "pos": "prep",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1625,
+    "word": "nearby adj",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1626,
+    "word": "neat",
+    "pos": "adj",
+    "pronunciation": "नीट",
+    "meaningHi": "साफसुथरा नेससरि आवश्यक, जरूरी",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a neatly done work - एक साफसुथरे ढंग से किया गया कार्य; a neat handwriting",
+        "hi": "एक साफसुथरी हस्तलिपि"
+      },
+      {
+        "en": "Is it necessary to go there?",
+        "hi": "क्ा वहाँ जाना जरूरी है?"
+      }
+    ]
+  },
+  {
+    "id": 1627,
+    "word": "neath prep",
+    "pos": "adv n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1628,
+    "word": "neck",
+    "pos": "n",
+    "pronunciation": "नेक",
+    "meaningHi": "गर्दन",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1629,
     "word": "nerve",
     "pos": "n",
     "pronunciation": "नर्व",
     "meaningHi": "स्ायु ये शरीर के भीतर महीन धागों-जैसे होते हैं जो दिमाग और शरीर के अन्य हिस्सोंों के बीच संदेश ले जाते हैं। 2 साहस",
-    "meaningEn": "body fibre",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Only he has the nerve to do it",
@@ -17340,7 +21414,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1224,
+    "id": 1630,
+    "word": "networking",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1631,
+    "word": "news",
+    "pos": "n",
+    "pronunciation": "न्यूज़",
+    "meaningHi": "समाचार",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "the morning news on the TV TV",
+        "hi": "टी. वी. पर सुबह का समाचार"
+      }
+    ]
+  },
+  {
+    "id": 1632,
+    "word": "next",
+    "pos": "adj adv",
+    "pronunciation": "नेक्स्ट",
+    "meaningHi": "अगला, आगामी",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "next elections",
+        "hi": "अगले चुनाव"
+      }
+    ]
+  },
+  {
+    "id": 1633,
     "word": "next to",
     "pos": "prep",
     "pronunciation": "नेक्स्ट",
@@ -17354,11 +21465,71 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1225,
+    "id": 1634,
+    "word": "nice",
+    "pos": "adj",
+    "pronunciation": "नाइस",
+    "meaningHi": "बढ़िया, सुंदर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a nice person",
+        "hi": "एक अच्ा व्यक्ति"
+      }
+    ]
+  },
+  {
+    "id": 1635,
+    "word": "nity",
+    "pos": "n",
+    "pronunciation": "अॉपट्ूनटि",
+    "meaningHi": "मौका, अवसर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Make the best use of opportunities",
+        "hi": "अवसरों का अच्ा-से-अच्ा उपयोग करो।"
+      }
+    ]
+  },
+  {
+    "id": 1636,
+    "word": "nobody pron",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1637,
+    "word": "none",
+    "pos": "pron",
+    "pronunciation": "नन",
+    "meaningHi": "कोई नहीं, किसी से नहीं",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "None of us could do it",
+        "hi": "यह हममें से कोई नहीं कर पाया।"
+      }
+    ]
+  },
+  {
+    "id": 1638,
+    "word": "nonviolence",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1639,
     "word": "nor",
     "pos": "det pron / conj adv",
-    "pronunciation": "नीदर नौर",
-    "meaningHi": "नाइदर 1 न तो, न 2 दोनों में से कोई नहीं | ..और न ही",
+    "pronunciation": "नाइदर",
+    "meaningHi": "न तो, न 2 दोनों में से कोई नहीं",
     "meaningEn": "",
     "examples": [
       {
@@ -17372,12 +21543,94 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1226,
+    "id": 1640,
+    "word": "nor det pron",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1641,
+    "word": "nose",
+    "pos": "n",
+    "pronunciation": "नोज़",
+    "meaningHi": "नाक",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1642,
+    "word": "note",
+    "pos": "v",
+    "pronunciation": "नोट",
+    "meaningHi": "लिखना 2 किसी बात पर गौर करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I have noted the recipe",
+        "hi": "मैंने पाकविधि को लिख लिया है।"
+      },
+      {
+        "en": "I have noted the difference in his behaviour",
+        "hi": "उसके व्यवहार में फर्क को मैंने गौर किया है।"
+      }
+    ]
+  },
+  {
+    "id": 1643,
+    "word": "nowhere adv",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1644,
+    "word": "oath",
+    "pos": "n",
+    "pronunciation": "ओथ",
+    "meaningHi": "शपथ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I will not break my oath",
+        "hi": "मैं अपनी शपथ नहीं तोडूूँगा।"
+      }
+    ]
+  },
+  {
+    "id": 1645,
+    "word": "obey",
+    "pos": "v",
+    "pronunciation": "अबे",
+    "meaningHi": "आज्ा का पालन करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Let us obey our teachers",
+        "hi": "हम अपने शिक्षकों की आज्ा का पालन करें।"
+      }
+    ]
+  },
+  {
+    "id": 1646,
+    "word": "objection",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1647,
     "word": "obtain",
     "pos": "v",
     "pronunciation": "अब्टेन",
     "meaningHi": "प्राप्त करना अॉब््वि़अस स्पष्ट, प्रत्यक्ष अकेशज़न अवसर, मौका",
-    "meaningEn": "to get",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She has obtained good marks",
@@ -17390,57 +21643,216 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1227,
+    "id": 1648,
+    "word": "obvious",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1649,
+    "word": "occasional",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1650,
     "word": "occupy",
     "pos": "v",
     "pronunciation": "अॉक्युपाइ",
     "meaningHi": "समय या जगह घेरना 2 स्ान ग्रहण करना 3 रहना 1",
     "meaningEn": "",
-    "examples": [
-      {
-        "en": "This small sofa won't occupy much space in your room",
-        "hi": "यह छोटा सोफा आपके कमरे में ज्ादा जगह नहीं घेरेगा।"
-      },
-      {
-        "en": "He occupied his seat",
-        "hi": "उसने अपना स्थान ग्रहण किया।"
-      }
-    ]
+    "examples": []
   },
   {
-    "id": 1228,
+    "id": 1651,
     "word": "occur",
     "pos": "v",
-    "pronunciation": "अकर",
-    "meaningHi": "होना, घटित होना 70 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "to happen",
-    "examples": [
-      {
-        "en": "This incident occurred around 9 a.m.",
-        "hi": "यह घटना नौ बजे सुबह के करीब घटित हुई।"
-      }
-    ]
+    "pronunciation": "घटित हुई।",
+    "meaningHi": "अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
   },
   {
-    "id": 1229,
+    "id": 1652,
+    "word": "off adv prep",
+    "pos": "adj n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1653,
     "word": "offer",
     "pos": "n / v",
-    "pronunciation": "अॉफ़र",
-    "meaningHi": "प्रस्ताव | 1 प्रस्ताव देना 2 भेंट देना",
-    "meaningEn": "to present for acceptance; a proposal",
+    "pronunciation": "स्ीकार नहीं किया।",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1654,
+    "word": "okay) exclamation",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1655,
+    "word": "omnipotent",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1656,
+    "word": "omniscient",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1657,
+    "word": "once",
+    "pos": "adv",
+    "pronunciation": "वन्स",
+    "meaningHi": "एक बार one",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "I did not accept his offer of a job",
-        "hi": "मैंने उनके द्ारा दिए गए नौकरी के प्रस्ताव को स्ीकार नहीं किया।"
-      },
-      {
-        "en": "The company offered him a job",
-        "hi": "कंपनी ने उसे एक नौकरी का प्रस्ताव दिया"
+        "en": "Try once",
+        "hi": "एक बार प्रयास करो।"
       }
     ]
   },
   {
-    "id": 1230,
+    "id": 1658,
+    "word": "once adv",
+    "pos": "conj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1659,
+    "word": "one number",
+    "pos": "det pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1660,
+    "word": "only",
+    "pos": "adj adv",
+    "pronunciation": "ओन्लि",
+    "meaningHi": "केवल",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Only one person can travel on one ticket",
+        "hi": "एक टिकट पर केवल एक आदमी सफर कर सकता है।"
+      }
+    ]
+  },
+  {
+    "id": 1661,
+    "word": "only adj adv",
+    "pos": "conj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1662,
+    "word": "onto",
+    "pos": "prep",
+    "pronunciation": "अॉन्टु",
+    "meaningHi": "पर अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The book fell onto the floor",
+        "hi": "किताब फर्श पर गिर गई।"
+      }
+    ]
+  },
+  {
+    "id": 1663,
+    "word": "operation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1664,
+    "word": "opponent",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1665,
+    "word": "opportunity",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1666,
+    "word": "opposite",
+    "pos": "adj adv prep n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1667,
+    "word": "optimism",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1668,
+    "word": "oral",
+    "pos": "adj",
+    "pronunciation": "ओरल",
+    "meaningHi": "मौखिक",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "oral orders",
+        "hi": "मौखिक आदेश"
+      }
+    ]
+  },
+  {
+    "id": 1669,
     "word": "oratory",
     "pos": "n",
     "pronunciation": "ओरट्री",
@@ -17454,12 +21866,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1231,
+    "id": 1670,
+    "word": "ordinary",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1671,
     "word": "organ",
     "pos": "n",
     "pronunciation": "ओगन",
     "meaningHi": "शरीर का अंग ओगनाइज़्ड व्यवस्थित, संगठित, आयोजित",
-    "meaningEn": "body part",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Brain is the most important organ of the body",
@@ -17472,29 +21893,52 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1232,
+    "id": 1672,
+    "word": "organisation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1673,
     "word": "organise",
     "pos": "v",
     "pronunciation": "ओगनाइज़",
-    "meaningHi": "संगठित करना, आयोजित करना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ अरिजनल मूल, मौलिक नकल नहीं",
-    "meaningEn": "to arrange",
+    "meaningHi": "संगठित करना, आयोजित करना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
     "examples": [
       {
         "en": "We organ- ised a painting competition",
         "hi": "हम लोगों ने एक चित्रकला-प्रतिस्पर्धा-कार्यक्रम आयोजित किया।"
-      },
-      {
-        "en": "The court wants original documents, not photocopies",
-        "hi": "न्ायालय मूूल दस्तावेज चाहता है, फोटोकॉपी नहीं।"
       }
     ]
   },
   {
-    "id": 1233,
+    "id": 1674,
+    "word": "organised",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1675,
+    "word": "original",
+    "pos": "adj n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1676,
     "word": "other",
     "pos": "adj",
-    "pronunciation": "अदर",
-    "meaningHi": "दूसरा, अन्य अदरवाइज़ 1 अन्यथा 2 नहीं तो, वरना ओट टु चाहिए",
+    "pronunciation": "अदरवाइज़",
+    "meaningHi": "दूसरा, अन्य",
     "meaningEn": "different; additional",
     "examples": [
       {
@@ -17508,12 +21952,98 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1234,
+    "id": 1677,
+    "word": "other adj",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1678,
+    "word": "otherwise",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1679,
+    "word": "ours",
+    "pos": "pron",
+    "pronunciation": "आउअज़",
+    "meaningHi": "हमारा आसेलवज़ 1 हम खुद 2 अपने-आप को",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He is a friend of ours",
+        "hi": "वह हम लोगों का दोस्त है।"
+      },
+      {
+        "en": "We ourselves pitched our tents",
+        "hi": "हम लोगों ने खुद ही अपने टेंट लगाए"
+      }
+    ]
+  },
+  {
+    "id": 1680,
+    "word": "ourselves",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1681,
+    "word": "out prep adv",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1682,
+    "word": "over",
+    "pos": "adv",
+    "pronunciation": "फेंकीं।",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1683,
+    "word": "over adv",
+    "pos": "prep",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1684,
+    "word": "owe",
+    "pos": "v",
+    "pronunciation": "ओ",
+    "meaningHi": "देनदार होना, आभारी होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I owe fifty rupees to him",
+        "hi": "मैं उसका 50 रुपयों का देनदार हँ।"
+      }
+    ]
+  },
+  {
+    "id": 1685,
     "word": "own",
     "pos": "adj / v",
     "pronunciation": "अउन",
     "meaningHi": "अपना, निजी | किसी वस्तु का स्ामी होना अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
-    "meaningEn": "belonging to oneself; to possess",
+    "meaningEn": "",
     "examples": [
       {
         "en": "It is my own car",
@@ -17526,12 +22056,35 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1235,
+    "id": 1686,
+    "word": "own adj",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1687,
+    "word": "pain",
+    "pos": "n",
+    "pronunciation": "पेन",
+    "meaningHi": "तकलीफ, दर्द",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "No pain, no gain",
+        "hi": "कोई तकलीफ नहीं तो कोई उपलब्धि भी नहीं।"
+      }
+    ]
+  },
+  {
+    "id": 1688,
     "word": "paint",
     "pos": "n / v",
     "pronunciation": "पेंट",
     "meaningHi": "रंग | 1 रंगना 1 रंगचित्र बनाना",
-    "meaningEn": "to colour",
+    "meaningEn": "",
     "examples": [
       {
         "en": "We painted the walls",
@@ -17544,7 +22097,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1236,
+    "id": 1689,
+    "word": "pair",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "पेअर जोड़ा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a pair of shoes",
+        "hi": "एक जोड़े जूूते"
+      }
+    ]
+  },
+  {
+    "id": 1690,
     "word": "parliament",
     "pos": "n",
     "pronunciation": "पालमन्ट",
@@ -17554,19 +22121,15 @@ export const vocabWords: VocabWord[] =
       {
         "en": "the Indian parliament",
         "hi": "भारत की संसद"
-      },
-      {
-        "en": "Indian parliament",
-        "hi": "भारत की संसद)"
       }
     ]
   },
   {
-    "id": 1237,
+    "id": 1691,
     "word": "partnership",
     "pos": "n",
     "pronunciation": "शिप",
-    "meaningHi": "पार्टनर- साझेदारी, मिल-जुल कर काम करने की क्रिया",
+    "meaningHi": "साझेदारी, मिल-जुल कर काम करने की क्रिया",
     "meaningEn": "",
     "examples": [
       {
@@ -17576,12 +22139,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1238,
+    "id": 1692,
+    "word": "pass",
+    "pos": "n / v",
+    "pronunciation": "पास",
+    "meaningHi": "किसी विशेष स्ान में प्रवेश करने की अनुमति का कागज़ 2 पर्वतों के बीच से तंग रास्ता, घाटी, दर्रा | 1 परीक्षा में सफल होना 2 गुजरना 3 किसी को कुछ आगे बढ़ा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "cinema pass",
+        "hi": "सिमेना हॉल में निःशुल्क प्रवेश करने की अनुमति का कागज"
+      },
+      {
+        "en": "The Muslim invaders like Mahmud Ghaznavi, Muhammad Ghori and the Turkic-Mongols invaded India coming through the Khyber Pass",
+        "hi": "महमूूद गजनवी मोहम्मद गोरी तथा तुर्क-मंगोल आक्रमणकारियों ने खैबर दर्रेे से ही घुस कर भारत पर आक्रमण किया"
+      }
+    ]
+  },
+  {
+    "id": 1693,
     "word": "passenger",
     "pos": "n",
     "pronunciation": "पैसिनजर",
     "meaningHi": "यात्ी",
-    "meaningEn": "traveller",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a bus passenger",
@@ -17590,12 +22171,58 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1239,
+    "id": 1694,
+    "word": "past",
+    "pos": "adj",
+    "pronunciation": "पास्ट",
+    "meaningHi": "भूतकाल का जो हो चुका हो",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a past incident",
+        "hi": "भूूतकाल की एक घटना"
+      }
+    ]
+  },
+  {
+    "id": 1695,
+    "word": "path",
+    "pos": "n",
+    "pronunciation": "पाथ",
+    "meaningHi": "रास्ता",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The holy Bhagavad-Gita lays down several paths to liberation",
+        "hi": "पवित्र भगवद्-गीता मुक्ति के कई रास्े प्रतिपादित करती है।"
+      }
+    ]
+  },
+  {
+    "id": 1696,
+    "word": "performance",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1697,
+    "word": "permission",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1698,
     "word": "persuade",
     "pos": "v",
     "pronunciation": "पस्ेड",
     "meaningHi": "राजी करना, मनाना",
-    "meaningEn": "to convince",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Could you persuade him to sing a song?",
@@ -17604,7 +22231,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1240,
+    "id": 1699,
     "word": "persuasive",
     "pos": "adj",
     "pronunciation": "पस्ेसिव",
@@ -17618,7 +22245,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1241,
+    "id": 1700,
     "word": "petrol",
     "pos": "n",
     "pronunciation": "पेट्रल",
@@ -17632,12 +22259,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1242,
+    "id": 1701,
+    "word": "philanthropy",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1702,
     "word": "phone",
     "pos": "n / v",
     "pronunciation": "फ़ोन",
     "meaningHi": "फोन, दूरभाष | फ़ोन करना",
-    "meaningEn": "telephone",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Did you phone her?",
@@ -17646,7 +22282,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1243,
+    "id": 1703,
+    "word": "pick",
+    "pos": "v",
+    "pronunciation": "पिक",
+    "meaningHi": "चुनना 2 किसी व्यक्ति को किसी जगह से साथ ले लेना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "She picked an expensive dress",
+        "hi": "उसने एक महँगा वस्त्र चुना"
+      }
+    ]
+  },
+  {
+    "id": 1704,
+    "word": "pile",
+    "pos": "n / v",
+    "pronunciation": "पाइल",
+    "meaningHi": "वस्तुओं का अंबार एककेऊपरएक | वस्तुओं का ढेर बना देना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1705,
     "word": "pin",
     "pos": "n",
     "pronunciation": "पिन",
@@ -17655,7 +22314,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1244,
+    "id": 1706,
     "word": "pinch",
     "pos": "v",
     "pronunciation": "पिन्च",
@@ -17664,16 +22323,57 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1245,
+    "id": 1707,
+    "word": "pipe",
+    "pos": "n",
+    "pronunciation": "पाइप",
+    "meaningHi": "नली 144 145 अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1708,
+    "word": "pity",
+    "pos": "n",
+    "pronunciation": "पिटि",
+    "meaningHi": "दया, करुणा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "have pity on the poor",
+        "hi": "गरीबों पर करुणा रखना"
+      }
+    ]
+  },
+  {
+    "id": 1709,
     "word": "place",
     "pos": "n",
     "pronunciation": "प्ेस",
     "meaningHi": "जगह, स्ान",
-    "meaningEn": "location",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1246,
+    "id": 1710,
+    "word": "plan",
+    "pos": "n / v",
+    "pronunciation": "प्ैन",
+    "meaningHi": "योजना | योजना बनाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a five-year plan",
+        "hi": "एक पंचवर्षीीय योजना"
+      },
+      {
+        "en": "plan for a secure future",
+        "hi": "एक सुरक्षित जीवन के लिए योजना बनाना"
+      }
+    ]
+  },
+  {
+    "id": 1711,
     "word": "plane",
     "pos": "n",
     "pronunciation": "प्ेन",
@@ -17687,12 +22387,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1247,
+    "id": 1712,
     "word": "plastic",
     "pos": "n",
     "pronunciation": "प्ैस्टिक",
     "meaningHi": "प्ास्टिक",
-    "meaningEn": "synthetic material",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Isn't plastic damaging the environment?",
@@ -17701,21 +22401,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1248,
+    "id": 1713,
     "word": "plate",
     "pos": "n",
     "pronunciation": "प्लेट",
     "meaningHi": "तश्तरी",
-    "meaningEn": "flat dish",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1249,
+    "id": 1714,
     "word": "platform",
     "pos": "n",
     "pronunciation": "प्ैट्फोम",
     "meaningHi": "चबूतरा, मंच 2 रेलवे स्ेशन का प्लैटफौर्म अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
-    "meaningEn": "raised surface",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He was speaking from a political platform",
@@ -17724,12 +22424,71 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1250,
+    "id": 1715,
+    "word": "plenty adv pron",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1716,
+    "word": "poisonous",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1717,
+    "word": "polytheism",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1718,
+    "word": "pool",
+    "pos": "n",
+    "pronunciation": "पूल",
+    "meaningHi": "छोटा तालाब 2 स्विमिंग पूल",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1719,
+    "word": "poor",
+    "pos": "adj",
+    "pronunciation": "पुअ",
+    "meaningHi": "गरीब 2 खराब",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "poor health - बुरा स्ास्थ्य; poor eyesight - खराब दृष्टि; poor performance",
+        "hi": "बुरा प्रदर्शन"
+      }
+    ]
+  },
+  {
+    "id": 1720,
+    "word": "port",
+    "pos": "n",
+    "pronunciation": "पोर्ट",
+    "meaningHi": "बंदरगाह, पत्तन अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1721,
     "word": "possess",
     "pos": "v",
     "pronunciation": "पज़ेस",
     "meaningHi": "अपने पास कुछ होना",
-    "meaningEn": "to own",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I possess a house",
@@ -17738,12 +22497,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1251,
+    "id": 1722,
+    "word": "possession",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1723,
     "word": "possibility",
     "pos": "n",
     "pronunciation": "पॉसिबिलटि",
     "meaningHi": "संभावना",
-    "meaningEn": "potential",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There is no possibility of rains today",
@@ -17752,12 +22520,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1252,
+    "id": 1724,
     "word": "possibly",
     "pos": "adv",
     "pronunciation": "पॉसिब्लि",
     "meaningHi": "शायद",
-    "meaningEn": "maybe",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She may possibly come today",
@@ -17766,12 +22534,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1253,
+    "id": 1725,
+    "word": "post",
+    "pos": "n / v",
+    "pronunciation": "पोस्ट",
+    "meaningHi": "पद 2 खंभा 3 छोटा लेख | पत्र डाक से भेजना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Major General is a high post in the Army",
+        "hi": "मेजर जेनरल थलसेना का एक ऊँचा पद है।"
+      },
+      {
+        "en": "lamp-post",
+        "hi": "बिजली का खंभा"
+      }
+    ]
+  },
+  {
+    "id": 1726,
     "word": "posture",
     "pos": "n",
     "pronunciation": "पॉसचर",
     "meaningHi": "बैठने या खड़े होने की मुद्रा या तरीका",
-    "meaningEn": "body position",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Bad posture can lead to back pain",
@@ -17780,21 +22566,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1254,
+    "id": 1727,
     "word": "pot",
     "pos": "n",
     "pronunciation": "",
     "meaningHi": "पॉट कटोरा, बरतन",
-    "meaningEn": "a container",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1255,
+    "id": 1728,
+    "word": "pour",
+    "pos": "v",
+    "pronunciation": "बर्रतन में उड़ेला।",
+    "meaningHi": "अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1729,
     "word": "precise",
     "pos": "adj",
     "pronunciation": "प्रिसाइस",
     "meaningHi": "सटीक, स्पष्ट और जितनी जरूरत हो ठीक उतने ही शब्दों में कहा हुआ",
-    "meaningEn": "exact",
+    "meaningEn": "",
     "examples": [
       {
         "en": "He never gives a clear and precise answer",
@@ -17803,12 +22598,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1256,
+    "id": 1730,
+    "word": "prep",
+    "pos": "n / conj adv",
+    "pronunciation": "बिहाइंड",
+    "meaningHi": "पीछे, पीठ की ओर | किसी बात को ध्ान में रखते हुए",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "My house is behind the movie theatre",
+        "hi": "मेरा घर सिनेमा हॉल के पीछे है।"
+      },
+      {
+        "en": "let us eat less salt",
+        "hi": "हम कम नमक खाएँ"
+      }
+    ]
+  },
+  {
+    "id": 1731,
+    "word": "preparation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1732,
     "word": "principal",
     "pos": "n / adj",
     "pronunciation": "प्रिन्पल",
     "meaningHi": "किसी स्ूल या कॉलेज का प्राचार्य | मुख्य, प्रधान",
-    "meaningEn": "head",
+    "meaningEn": "",
     "examples": [
       {
         "en": "the principal cities of India",
@@ -17817,11 +22639,11 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1257,
+    "id": 1733,
     "word": "prioritise",
     "pos": "v",
-    "pronunciation": "इज़",
-    "meaningHi": "प्राइअॉरटा- प्राथमिकता तय करना कौन काम कब अधिक और पहले जरूरी है, यह तय करना अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
+    "pronunciation": "प्राइअॉरटा-",
+    "meaningHi": "इज़ प्राथमिकता तय करना कौन काम कब अधिक और पहले जरूरी है, यह तय करना अंंगरेज़ी शब्द उच्ारण हिंदी में अर्थ",
     "meaningEn": "",
     "examples": [
       {
@@ -17831,12 +22653,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1258,
+    "id": 1734,
     "word": "probable",
     "pos": "adj",
     "pronunciation": "प्ॉबब्ल",
     "meaningHi": "संभावित जिसकी अधिक संभावना हो",
-    "meaningEn": "likely",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a probable consequence",
@@ -17845,12 +22667,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1259,
+    "id": 1735,
+    "word": "procrastination",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1736,
     "word": "produce",
     "pos": "v",
     "pronunciation": "प्रड्ूस",
     "meaningHi": "उत्पादन करना, कुछ बनाना",
-    "meaningEn": "to make",
+    "meaningEn": "",
     "examples": [
       {
         "en": "produce milk products",
@@ -17859,21 +22690,52 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1260,
+    "id": 1737,
+    "word": "production",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1738,
     "word": "professional",
     "pos": "n",
     "pronunciation": "प्रफ़ेेशनल",
     "meaningHi": "प्रोफे़शनल, पेशेवर",
-    "meaningEn": "skilled",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1739,
+    "word": "programme",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1740,
+    "word": "pron",
+    "pos": "det adv conj / adj / adj n",
+    "pronunciation": "एक",
+    "meaningHi": "",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "She is a fashion-designing professional",
-        "hi": "वह एक फैशनडिजाईन पेशेवर है।"
+        "en": "You may have to wait for at least twenty minutes",
+        "hi": "तुम्ें कम- से-कम बीस मिनट इंतजार करना पड़ सकता है।"
+      },
+      {
+        "en": "Give me a little sugar - मुझे थोड़ी चीनी दो। There is little hope of his survival",
+        "hi": "उसके जीने की आशा कम है।"
       }
     ]
   },
   {
-    "id": 1261,
+    "id": 1741,
     "word": "pronounce",
     "pos": "v",
     "pronunciation": "प्रनाउन्स",
@@ -17887,7 +22749,89 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1262,
+    "id": 1742,
+    "word": "pronunciation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1743,
+    "word": "pull",
+    "pos": "v",
+    "pronunciation": "पुल",
+    "meaningHi": "खींचना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "She pulled the chain to stop the train",
+        "hi": "ट्ेन रोकने के लिए उसने जंजीर खींची।"
+      }
+    ]
+  },
+  {
+    "id": 1744,
+    "word": "pump",
+    "pos": "v",
+    "pronunciation": "पम्प",
+    "meaningHi": "पंप करना, प्रवाहित करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The heart continuously pumps blood into the whole body",
+        "hi": "ह्रदय सारे शरीर में लगातार खूून प्रवाहित करता रहता है।"
+      }
+    ]
+  },
+  {
+    "id": 1745,
+    "word": "punishment",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1746,
+    "word": "pure",
+    "pos": "adj",
+    "pronunciation": "प्ुअर",
+    "meaningHi": "शुद्ध",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1747,
+    "word": "push",
+    "pos": "n / v",
+    "pronunciation": "पुश",
+    "meaningHi": "धक्का, ठेल | ठेलना, धकेलना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "She gave him a push",
+        "hi": "उसने उसे एक धक्ा दिया।"
+      },
+      {
+        "en": "They pushed the car to start it",
+        "hi": "उनोंने कार को स्टार्ट करने के लिए धकेला।"
+      }
+    ]
+  },
+  {
+    "id": 1748,
+    "word": "quarrelsome",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1749,
     "word": "quilt",
     "pos": "n",
     "pronunciation": "क्विल्ट",
@@ -17896,7 +22840,35 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1263,
+    "id": 1750,
+    "word": "quit",
+    "pos": "v",
+    "pronunciation": "क्विट",
+    "meaningHi": "कोई नौकरी या स्ान छोड़ना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He quit his job",
+        "hi": "उसने नौकरी छोड़ दी ।"
+      }
+    ]
+  },
+  {
+    "id": 1751,
+    "word": "quiz",
+    "pos": "n",
+    "pronunciation": "क्विज़",
+    "meaningHi": "प्रश्न-उत्तर का खेल",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a quiz competition",
+        "hi": "एक क्विज़ प्रतियोगिता"
+      }
+    ]
+  },
+  {
+    "id": 1752,
     "word": "quote",
     "pos": "v",
     "pronunciation": "क्वोट",
@@ -17910,44 +22882,279 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1264,
+    "id": 1753,
     "word": "Quotient)",
     "pos": "n",
     "pronunciation": "ई क्यू",
-    "meaningHi": "इमोशनल कोशंट भावनात्मक लब्धि भावनात्मक विकास मापने का पैमाना",
+    "meaningHi": "इमोशनल कोशंट भावनात्मक लब्धि भावनात्मक विकास मापने का पैमाना | कोशंट बुद्धिलब्धि बुद्धि का विकास मापने का पैमाना | स्पिरिचुअल कोशंट आध्ात्मिक लब्धि",
     "meaningEn": "",
     "examples": [
       {
         "en": "EQ has been found more important than IQ for success in life",
         "hi": "जीवन में सफल होने के लिए बुद्धिलब्धि से अधिक भावनात्मक लब्धि को महत्त्वपूर्ण पाया गया है।"
+      },
+      {
+        "en": "A child with a very high IQ",
+        "hi": "बहुत ऊँची बुद्धि -लब्धि वाला बच्चा।"
       }
     ]
   },
   {
-    "id": 1265,
+    "id": 1754,
+    "word": "race",
+    "pos": "n / v",
+    "pronunciation": "रेस",
+    "meaningHi": "नस्ल 2 दौड़ | तेज दौड़ना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The Chinese belong to the mongoloid race",
+        "hi": "चीनी मोंगोलोइड नस्ल के होते हैं।"
+      },
+      {
+        "en": "He won the race",
+        "hi": "वह दौड़ जीत गया।"
+      }
+    ]
+  },
+  {
+    "id": 1755,
+    "word": "rain",
+    "pos": "n / v",
+    "pronunciation": "रेन",
+    "meaningHi": "वर्षा | 1 वर्षा होना 2 वर्षा करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "It's raining",
+        "hi": "बारिश हो रही है।"
+      },
+      {
+        "en": "The USA rained missiles on Afghanistan to destroy terrorist camps",
+        "hi": "आतंकियों के शिविर नष्ट करने के लिए अमेरिका ने अफ़ग़ा- निस्ान पर मिसाइलों की वर्षा की ।"
+      }
+    ]
+  },
+  {
+    "id": 1756,
+    "word": "Ramayan",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1757,
+    "word": "rank",
+    "pos": "n / v",
+    "pronunciation": "रैंक",
+    "meaningHi": "पद, श्ेणी | श्ेणी अथवा स्ान प्राप्त या प्रदान करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a colonel rank officer",
+        "hi": "एक कर्नल श्ेणी का अधिकारी"
+      },
+      {
+        "en": "He was ranked third in the competition",
+        "hi": "उसे प्रतिस्पर्धा में तीसरा स्थान प्राप्त हुआ।"
+      }
+    ]
+  },
+  {
+    "id": 1758,
+    "word": "rare",
+    "pos": "adj",
+    "pronunciation": "- एक विरल संमान",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1759,
+    "word": "rate",
+    "pos": "n / v",
+    "pronunciation": "रेट",
+    "meaningHi": "दर, मूल्य | आँकना, व्यक्ति या वस्तु का मूलांकन होना या करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "At what rate did you buy it?",
+        "hi": "तुमने इसे किस मूूल्य पर खरीदा?"
+      },
+      {
+        "en": "The IITs are rated as good engineer- ing training institutes",
+        "hi": "आइ आइ टी को अच्े अभियंत्रण प्रशिक्षण संस्थानों के रूप में आँका जाता है।"
+      }
+    ]
+  },
+  {
+    "id": 1760,
+    "word": "read",
+    "pos": "v",
+    "pronunciation": "रीड",
+    "meaningHi": "पढ़ना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "It is a good habit to read some book for a few minutes before going to sleep",
+        "hi": "सोने से पहले बिस्तर में कोई किताब कुछ देर के लिए पढ़ना एक अच्छी आदत है।"
+      }
+    ]
+  },
+  {
+    "id": 1761,
+    "word": "real",
+    "pos": "adj",
+    "pronunciation": "रीअल",
+    "meaningHi": "वास्तविक, सचमुच का",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Is it a soft toy or a real doggy?",
+        "hi": "क्ा यह एक सॉफ्ट खिलौना है या एक वास्तविक कुत्ता?"
+      }
+    ]
+  },
+  {
+    "id": 1762,
+    "word": "reasonable",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1763,
+    "word": "reasoning",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1764,
+    "word": "rebellious",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1765,
+    "word": "recently",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1766,
+    "word": "recognise",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1767,
+    "word": "recommend",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1768,
+    "word": "recovery",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1769,
+    "word": "reduction",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1770,
     "word": "regard",
     "pos": "n / v",
     "pronunciation": "रिगाड",
     "meaningHi": "आदर | 1 आदर देना 2 के रूप में मान्यता देना 1",
-    "meaningEn": "to consider",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I have great regards for her",
         "hi": "मेरा उनके लिए बड़ा आदर है।"
-      },
-      {
-        "en": "Her work is well regarded",
-        "hi": "उसका कार्य काफी आदर-प्राप्त है।"
       }
     ]
   },
   {
-    "id": 1266,
+    "id": 1771,
+    "word": "regional",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1772,
+    "word": "regular",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1773,
+    "word": "regularly",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1774,
+    "word": "reincarnation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1775,
+    "word": "relationship",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1776,
     "word": "relative",
     "pos": "n",
     "pronunciation": "रेलटिव",
     "meaningHi": "रिश्तेश्तेदार, संबंधी",
-    "meaningEn": "family member",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She is a close relative",
@@ -17956,12 +23163,57 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1267,
+    "id": 1777,
+    "word": "reliable",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1778,
+    "word": "religious",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1779,
+    "word": "rent",
+    "pos": "n / v",
+    "pronunciation": "रेन्ट",
+    "meaningHi": "किराया | किराया पर देना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "What is the rent of this flat?",
+        "hi": "इस फ्ैट का किराया क्ा है?"
+      },
+      {
+        "en": "He rents rooms in his house to students",
+        "hi": "वह अपने घर के कमरे विद्ार्थियों को किराये पर देता है।"
+      }
+    ]
+  },
+  {
+    "id": 1780,
+    "word": "represent",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1781,
     "word": "reserve",
     "pos": "v",
     "pronunciation": "रिज़र्व",
     "meaningHi": "आरक्षित या सुरक्षित रखना रिज़व्ड 1 संकोची, अपने-आप में रहने वाला 2 आरक्षित",
-    "meaningEn": "to book",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Please reserve a seat for me",
@@ -17970,7 +23222,298 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1268,
+    "id": 1782,
+    "word": "reserved",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1783,
+    "word": "responsibility",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1784,
+    "word": "rest",
+    "pos": "n / v",
+    "pronunciation": "रेस्ट",
+    "meaningHi": "आराम 2 बाकी लोग, शेष भाग | आराम करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "take rest",
+        "hi": "आराम करो"
+      },
+      {
+        "en": "two stayed, the rest went away",
+        "hi": "दो रुके, बाकी चले गए"
+      }
+    ]
+  },
+  {
+    "id": 1785,
+    "word": "reverence",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1786,
+    "word": "rich",
+    "pos": "adj",
+    "pronunciation": "रिच",
+    "meaningHi": "धनवान, अमीर 2 तेल-घी से भरा हुआ भोजन",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a rich man",
+        "hi": "एक अमीर आदमी"
+      }
+    ]
+  },
+  {
+    "id": 1787,
+    "word": "ride",
+    "pos": "n / v",
+    "pronunciation": "राइड",
+    "meaningHi": "घोड़ा, साइकिल, कार, बस आदि की सवारी | 1 घुड़सवारी करना 2 सवारी करना राइट 1 उचित 2 दाहिना 3 सही, सटीक अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "an elephant ride",
+        "hi": "हाथी की सवारी"
+      },
+      {
+        "en": "riding a motorbike",
+        "hi": "मोटरबाइक की सवारी करता हुआ"
+      }
+    ]
+  },
+  {
+    "id": 1788,
+    "word": "ring",
+    "pos": "n / v",
+    "pronunciation": "रिंग",
+    "meaningHi": "अँगूठी | 1 बजना 2 बजाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "the bell rang",
+        "hi": "घंटी बजी"
+      },
+      {
+        "en": "he rang the bell",
+        "hi": "उसने घंटी बजाई"
+      }
+    ]
+  },
+  {
+    "id": 1789,
+    "word": "rise",
+    "pos": "n / v",
+    "pronunciation": "राइज़",
+    "meaningHi": "वृद्धि 2 उदय | 1 ऊपर उठना, खड़ा होना 2 जगना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "price rise मूूल्य",
+        "hi": "वृद्धि"
+      },
+      {
+        "en": "the rise of Bill Gates",
+        "hi": "बिल गेट्स का उदय"
+      }
+    ]
+  },
+  {
+    "id": 1790,
+    "word": "risk",
+    "pos": "n / v",
+    "pronunciation": "रिस्क",
+    "meaningHi": "जोखिम, खतरा | जोखिम या खतरा मोल लेना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Soldiers risk their life for the country",
+        "hi": "सैनिक देश के लिए अपने जीवन का खतरा मोल लेते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1791,
+    "word": "road",
+    "pos": "n",
+    "pronunciation": "रोड",
+    "meaningHi": "सड़क",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1792,
+    "word": "roll",
+    "pos": "n / v",
+    "pronunciation": "रोल",
+    "meaningHi": "बेलन के आकार में लपेटी हुई वस्तु | गोल-गोल लुढ़कते हुए जाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "paneer roll",
+        "hi": "पनीर रोल"
+      },
+      {
+        "en": "The stone rolled down the mountain",
+        "hi": "पत्थर पहाड़ से लुढ़कता हुआ नीचे चला गया।"
+      }
+    ]
+  },
+  {
+    "id": 1793,
+    "word": "roof",
+    "pos": "n",
+    "pronunciation": "रूफ़",
+    "meaningHi": "छत",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1794,
+    "word": "room",
+    "pos": "n",
+    "pronunciation": "रूम",
+    "meaningHi": "कमरा 2 जगह, स्ान",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "My bag is full, and It has no room for anything else",
+        "hi": "मेरा थैला भरा हुआ है, और इसमें किसी अन्य चीज के लिए जगह नहीं है।"
+      }
+    ]
+  },
+  {
+    "id": 1795,
+    "word": "roundabout",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1796,
+    "word": "rude",
+    "pos": "adj",
+    "pronunciation": "रूड",
+    "meaningHi": "अशिष्ट, रुखा, उजड्ड",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "rude behaviour",
+        "hi": "रूखा व्यवहार"
+      }
+    ]
+  },
+  {
+    "id": 1797,
+    "word": "rule",
+    "pos": "n / v",
+    "pronunciation": "रूल",
+    "meaningHi": "नियम 2 शासन | देश, जनता आदि पर शासन करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "rules of the game",
+        "hi": "खेल के नियम"
+      },
+      {
+        "en": "The British rule in India",
+        "hi": "भारत में ब्रिटिश शासन।"
+      }
+    ]
+  },
+  {
+    "id": 1798,
+    "word": "rush",
+    "pos": "n / v",
+    "pronunciation": "रश",
+    "meaningHi": "भीड़ | 1 झपट कर तेजी से बढ़ना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "rush in the cinema halls",
+        "hi": "सिनेमा हॉल में भीड़"
+      },
+      {
+        "en": "He rushed to the hospital",
+        "hi": "वह तेजी से अस्पताल पहुँचा।"
+      }
+    ]
+  },
+  {
+    "id": 1799,
+    "word": "safe",
+    "pos": "adj / n",
+    "pronunciation": "सेफ़",
+    "meaningHi": "सुरक्षित | मूल्यवान वस्तुएँ सुरक्षित रखने का लोहे का विशेष बक्सा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a safe place",
+        "hi": "एक सुरक्षित जगह"
+      },
+      {
+        "en": "Money kept in the safe was stolen",
+        "hi": "सेफ में रखा पैसा चोरी हो गया।"
+      }
+    ]
+  },
+  {
+    "id": 1800,
+    "word": "sail",
+    "pos": "v",
+    "pronunciation": "सेल",
+    "meaningHi": "नदी या समुद्र के जल में यात्ा करना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1801,
+    "word": "sale",
+    "pos": "n",
+    "pronunciation": "सेल",
+    "meaningHi": "बिक्रीक्री",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Sale of liquor in this area is prohibited",
+        "hi": "इस क्षेत्र में शराब की बिक्री मना है।"
+      }
+    ]
+  },
+  {
+    "id": 1802,
+    "word": "same",
+    "pos": "adj pron adv",
+    "pronunciation": "सेम",
+    "meaningHi": "वैसा ही, एक-जैसा सनातन धर्म हिंदू-धर्म का मूल नाम",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Both of them have the same problem",
+        "hi": "दोनों की एक ही समस्ा है।"
+      }
+    ]
+  },
+  {
+    "id": 1803,
     "word": "sanitation",
     "pos": "n",
     "pronunciation": "सैनिटेशन",
@@ -17984,7 +23527,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1269,
+    "id": 1804,
+    "word": "satisfactory",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1805,
+    "word": "save",
+    "pos": "v",
+    "pronunciation": "सेव",
+    "meaningHi": "रक्षा करना, बचाना 2 बचत करना, पैसे बचाना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The police saved me from the goons",
+        "hi": "पुलिस ने गुंडों से मेरी रक्षा की।"
+      },
+      {
+        "en": "He saves some money every month",
+        "hi": "वह हर महीने कुछ पैसों की बचत करता है।"
+      }
+    ]
+  },
+  {
+    "id": 1806,
     "word": "scrap",
     "pos": "n",
     "pronunciation": "स्कैप",
@@ -17998,7 +23568,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1270,
+    "id": 1807,
     "word": "scrape",
     "pos": "v",
     "pronunciation": "स्केप",
@@ -18012,7 +23582,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1271,
+    "id": 1808,
     "word": "scream",
     "pos": "n / v",
     "pronunciation": "स्कीम",
@@ -18030,12 +23600,72 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1272,
+    "id": 1809,
+    "word": "seat",
+    "pos": "n",
+    "pronunciation": "सीट",
+    "meaningHi": "बैठने का आसन",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1810,
+    "word": "second det adv",
+    "pos": "adj n v",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1811,
+    "word": "sect",
+    "pos": "n",
+    "pronunciation": "सेक्ट",
+    "meaningHi": "संप्रदाय किसी धर्म की एक शाखा, जैसे वैष्णव संप्रदाय, शैव संप्रदाय, शाक्त संप्र- दाय, आदि",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The Hindu religion is divided in countless sects",
+        "hi": "हिंदू- धर्म असंख्य संप्रदायों में बँटा हुआ है।"
+      }
+    ]
+  },
+  {
+    "id": 1812,
+    "word": "seem",
+    "pos": "v",
+    "pronunciation": "सीम",
+    "meaningHi": "प्रतीत होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "It seems he is not happy",
+        "hi": "ऐसा प्रतीत होता है कि वह खुश नहीं है।"
+      }
+    ]
+  },
+  {
+    "id": 1813,
+    "word": "sell",
+    "pos": "v",
+    "pronunciation": "सेल",
+    "meaningHi": "बेचना 174 175 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Companies often lie in order to sell their products",
+        "hi": "अपने माल को बेचने के लिए कम्पनियाँ अकसर झूठ बोलती हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1814,
     "word": "seller",
     "pos": "n",
     "pronunciation": "सेलर",
     "meaningHi": "विक्रेक्रेता",
-    "meaningEn": "one who sells",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Sellers and buyers both should be happy",
@@ -18044,7 +23674,39 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1273,
+    "id": 1815,
+    "word": "send",
+    "pos": "v",
+    "pronunciation": "सेन्ड",
+    "meaningHi": "भेजना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He sent me a nice gift",
+        "hi": "उसने मुझे एक अच्ा उपहार भेजा।"
+      }
+    ]
+  },
+  {
+    "id": 1816,
+    "word": "separated",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1817,
+    "word": "separately",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1818,
     "word": "separation",
     "pos": "n",
     "pronunciation": "सेपरेशन",
@@ -18058,7 +23720,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1274,
+    "id": 1819,
     "word": "September",
     "pos": "n",
     "pronunciation": "सेप्ेम्बर",
@@ -18067,12 +23729,12 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1275,
+    "id": 1820,
     "word": "series",
     "pos": "n",
     "pronunciation": "सीअरीज़",
     "meaningHi": "श्रृंृंखला एक-के-बाद-एक कई खंडों में जो हो या चले",
-    "meaningEn": "sequence",
+    "meaningEn": "",
     "examples": [
       {
         "en": "cricket test series",
@@ -18081,12 +23743,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1276,
+    "id": 1821,
+    "word": "several det pron",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1822,
     "word": "shallow",
     "pos": "adj",
     "pronunciation": "शैलो",
     "meaningHi": "छिछला, गहरा नहीं",
-    "meaningEn": "not deep",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a shallow pond - एक छिछला तालाब; shallow knowledge",
@@ -18095,7 +23766,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1277,
+    "id": 1823,
+    "word": "ship",
+    "pos": "n",
+    "pronunciation": "लीडरशिप",
+    "meaningHi": "नेतृत्व | लेक्चरशिप, कॉलेज में पढ़ाने की एक पेशा | न्शिप संबंध, रिश्ताश्ता",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "leadership qualities",
+        "hi": "नेतृत्व के गुण"
+      },
+      {
+        "en": "I have no relationship with him",
+        "hi": "मेरा उनसे कोई रिश्ताश्ता नहीं है।"
+      }
+    ]
+  },
+  {
+    "id": 1824,
     "word": "shoes",
     "pos": "n",
     "pronunciation": "शूज़",
@@ -18104,7 +23793,16 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1278,
+    "id": 1825,
+    "word": "shop",
+    "pos": "n / v",
+    "pronunciation": "शॉप",
+    "meaningHi": "दुकान | खरीददारी करना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1826,
     "word": "shopping",
     "pos": "n",
     "pronunciation": "शॉपिंग",
@@ -18113,7 +23811,25 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1279,
+    "id": 1827,
+    "word": "show",
+    "pos": "n / v",
+    "pronunciation": "शो",
+    "meaningHi": "कार्यक्रम, तमाशा | दिखाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a magic show",
+        "hi": "एक जादू का तमाशा"
+      },
+      {
+        "en": "Show your teeth",
+        "hi": "अपने दाँत दिखाओ"
+      }
+    ]
+  },
+  {
+    "id": 1828,
     "word": "shrink",
     "pos": "v",
     "pronunciation": "श्रिंंक",
@@ -18122,7 +23838,30 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1280,
+    "id": 1829,
+    "word": "shut",
+    "pos": "v",
+    "pronunciation": "शट",
+    "meaningHi": "बंद करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Never shut the doors of your mind",
+        "hi": "अपने दिमाग के दरवाजे कभी बंद नहीं करना।"
+      }
+    ]
+  },
+  {
+    "id": 1830,
+    "word": "sick",
+    "pos": "adj",
+    "pronunciation": "सिक",
+    "meaningHi": "बीमार",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1831,
     "word": "sickness",
     "pos": "n",
     "pronunciation": "सिकनेस",
@@ -18131,7 +23870,75 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1281,
+    "id": 1832,
+    "word": "side",
+    "pos": "n / v",
+    "pronunciation": "साइड",
+    "meaningHi": "बगल 2 पक्ष 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1833,
+    "word": "sign",
+    "pos": "n / v",
+    "pronunciation": "साइन",
+    "meaningHi": "चिह्न 2 संकेत | हस्ताक्षर करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "traffic sign",
+        "hi": "ट्रैफिक चिह्न"
+      },
+      {
+        "en": "a good sign",
+        "hi": "एक अच्ा संकेत"
+      }
+    ]
+  },
+  {
+    "id": 1834,
+    "word": "sing",
+    "pos": "v",
+    "pronunciation": "सिंग",
+    "meaningHi": "गीत गाना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1835,
+    "word": "sink",
+    "pos": "v",
+    "pronunciation": "सिंक",
+    "meaningHi": "डूबना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1836,
+    "word": "size",
+    "pos": "n",
+    "pronunciation": "साइज़",
+    "meaningHi": "आकार कितना बड़ा या छोटा | आकार",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The elephant has a big size",
+        "hi": "हाथी का आकार बड़ा होता है।"
+      }
+    ]
+  },
+  {
+    "id": 1837,
+    "word": "skin",
+    "pos": "n",
+    "pronunciation": "स््किन",
+    "meaningHi": "त्वचा, चमड़ी",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1838,
     "word": "skirt",
     "pos": "n",
     "pronunciation": "स्कर्ट",
@@ -18140,7 +23947,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1282,
+    "id": 1839,
     "word": "slice",
     "pos": "n / v",
     "pronunciation": "स्ाइस",
@@ -18158,12 +23965,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1283,
+    "id": 1840,
     "word": "slight",
     "pos": "adj",
     "pronunciation": "स्ाइट",
     "meaningHi": "थोड़ा-सा, मामूली",
-    "meaningEn": "minor",
+    "meaningEn": "",
     "examples": [
       {
         "en": "slight injury",
@@ -18172,12 +23979,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1284,
+    "id": 1841,
     "word": "slightly",
     "pos": "adv",
     "pronunciation": "स्ाइटलि",
     "meaningHi": "थोड़ा-सा, जरा-सा",
-    "meaningEn": "a bit",
+    "meaningEn": "",
     "examples": [
       {
         "en": "slightly sour",
@@ -18186,7 +23993,57 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1285,
+    "id": 1842,
+    "word": "slip",
+    "pos": "v",
+    "pronunciation": "स््लिप",
+    "meaningHi": "फिसलना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1843,
+    "word": "slow",
+    "pos": "adj",
+    "pronunciation": "स्ो",
+    "meaningHi": "धीमा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "slow motion",
+        "hi": "धीमी चाल"
+      }
+    ]
+  },
+  {
+    "id": 1844,
+    "word": "snow",
+    "pos": "n / v",
+    "pronunciation": "स्ो",
+    "meaningHi": "बर्फ | आसमान से बर्फ गिरना, हिमपात होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "snowfall",
+        "hi": "बर्फबारी"
+      },
+      {
+        "en": "It snows in winters",
+        "hi": "जाड़ों में हिमपात होता है।"
+      }
+    ]
+  },
+  {
+    "id": 1845,
+    "word": "soak",
+    "pos": "v",
+    "pronunciation": "सोक",
+    "meaningHi": "भिगो देना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1846,
     "word": "socialism",
     "pos": "n",
     "pronunciation": "सोशलिज़म",
@@ -18200,7 +24057,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1286,
+    "id": 1847,
     "word": "socks",
     "pos": "n",
     "pronunciation": "सॉक्स",
@@ -18214,21 +24071,136 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1287,
+    "id": 1848,
+    "word": "soft",
+    "pos": "adj",
+    "pronunciation": "सॉफ़्ट",
+    "meaningHi": "मुलायम",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "soft-spoken",
+        "hi": "मृदुभाषी"
+      }
+    ]
+  },
+  {
+    "id": 1849,
     "word": "software",
     "pos": "n",
     "pronunciation": "सॉफ़्टवेअ",
     "meaningHi": "र प्रोग्ाम जिससे कंप्यूटर पर कार्य होता है, जैसे माइक्रो सॉफ़ट वर्ड एक भाषा लिखने का सॉफ्टवेअर है",
-    "meaningEn": "computer programs",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1288,
+    "id": 1850,
+    "word": "soil",
+    "pos": "n",
+    "pronunciation": "सोइल",
+    "meaningHi": "मिट्ी",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1851,
+    "word": "some",
+    "pos": "adj / det pron adv",
+    "pronunciation": "क्वॉरल्सम",
+    "meaningHi": "झगड़ालूू | कुछ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a quarrelsome boy",
+        "hi": "एक झगड़ालूू लड़का"
+      },
+      {
+        "en": "some people",
+        "hi": "कुछ लोग"
+      }
+    ]
+  },
+  {
+    "id": 1852,
+    "word": "song",
+    "pos": "n",
+    "pronunciation": "सौंग",
+    "meaningHi": "गीत",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "lovely song!",
+        "hi": "प्ारा गीत!"
+      }
+    ]
+  },
+  {
+    "id": 1853,
+    "word": "soon",
+    "pos": "adv",
+    "pronunciation": "सून",
+    "meaningHi": "जल्ी",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Come soon!",
+        "hi": "जल्ी आओ!"
+      }
+    ]
+  },
+  {
+    "id": 1854,
+    "word": "sore",
+    "pos": "adj",
+    "pronunciation": "सोर",
+    "meaningHi": "दर्दीीला, दुखता हुआ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "sore throat",
+        "hi": "दुखता हुआ गला"
+      }
+    ]
+  },
+  {
+    "id": 1855,
+    "word": "sort",
+    "pos": "n / v",
+    "pronunciation": "सॉट",
+    "meaningHi": "प्रकार या किस्म 2 एक प्रकार से, किसी हद तक | अलग-अलग प्रकार की चीजों को अलग और व्यवस्थित करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He has all sorts of problems",
+        "hi": "उसके पास हर तरह की समस्ा है।"
+      },
+      {
+        "en": "It’s sort of silly",
+        "hi": "यह एक प्रकार से मूर्खतापूर्ण है।"
+      }
+    ]
+  },
+  {
+    "id": 1856,
+    "word": "soul",
+    "pos": "n",
+    "pronunciation": "सोल",
+    "meaningHi": "आत्मा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "body dies, not the soul",
+        "hi": "शरीर मरता है, आत्मा नहीं।"
+      }
+    ]
+  },
+  {
+    "id": 1857,
     "word": "spare",
     "pos": "adj / v",
     "pronunciation": "स्पेअर",
     "meaningHi": "अतिरिक्त, फाजिल",
-    "meaningEn": "extra",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Please spare a couple of hours for me today",
@@ -18241,7 +24213,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1289,
+    "id": 1858,
     "word": "spelling",
     "pos": "n",
     "pronunciation": "स्ेलिंग",
@@ -18250,7 +24222,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1290,
+    "id": 1859,
     "word": "spill",
     "pos": "v",
     "pronunciation": "स्पिल",
@@ -18259,21 +24231,30 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1291,
+    "id": 1860,
+    "word": "spin",
+    "pos": "v",
+    "pronunciation": "स्पिन",
+    "meaningHi": "चक्कर खाते हुए घूमना या घुमाना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Earth spins on its axis",
+        "hi": "धरती अपनी धुरी पर घूूमती है।"
+      }
+    ]
+  },
+  {
+    "id": 1861,
     "word": "split",
     "pos": "v",
     "pronunciation": "स्प्लिट",
     "meaningHi": "तोड़ना, विभक्त करना",
     "meaningEn": "",
-    "examples": [
-      {
-        "en": "Scientists split the atom to produce nuclear energy",
-        "hi": "वैज्ञानिकों ने अणु को तोड़ कर नाभिकीय ऊर्जा पैदा की।"
-      }
-    ]
+    "examples": []
   },
   {
-    "id": 1292,
+    "id": 1862,
     "word": "spoil",
     "pos": "v",
     "pronunciation": "स्पोइल",
@@ -18287,21 +24268,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1293,
+    "id": 1863,
+    "word": "spot",
+    "pos": "n",
+    "pronunciation": "स्पॉट",
+    "meaningHi": "दाग, धब्ा 2 खास जगह",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a black spot on his shirt",
+        "hi": "उसकी शर्ट पर एक धब्ा"
+      },
+      {
+        "en": "tourist spot",
+        "hi": "पर्यटन-स्थल"
+      }
+    ]
+  },
+  {
+    "id": 1864,
     "word": "spray",
     "pos": "v",
     "pronunciation": "स्पे",
     "meaningHi": "फुहार छोड़ना",
     "meaningEn": "",
-    "examples": [
-      {
-        "en": "Terrorists sprayed bullets on innocent people",
-        "hi": "आतंकवादियों ने निर्दोोष लोगों पर गोलियों की फुहार छोड़ी।"
-      }
-    ]
+    "examples": []
   },
   {
-    "id": 1294,
+    "id": 1865,
     "word": "squeeze",
     "pos": "v",
     "pronunciation": "स्क्वीज़",
@@ -18315,12 +24309,26 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1295,
+    "id": 1866,
+    "word": "ssed",
+    "pos": "adj",
+    "pronunciation": "इम्ैरस्ट",
+    "meaningHi": "लज््जित, झेंपा हुआ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "an embarrassed father",
+        "hi": "एक लज््जित पिता"
+      }
+    ]
+  },
+  {
+    "id": 1867,
     "word": "stammer",
     "pos": "v",
     "pronunciation": "स्ैमर",
     "meaningHi": "हकलाना",
-    "meaningEn": "to stutter",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Stammering is curable",
@@ -18329,12 +24337,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1296,
+    "id": 1868,
     "word": "stamp",
     "pos": "n / v",
     "pronunciation": "स्ैम्प",
     "meaningHi": "मुहर 2 डाक टिकट | 1 मुहर लगाना 2 पैर पटकना",
-    "meaningEn": "postage; to step",
+    "meaningEn": "",
     "examples": [
       {
         "en": "stamp collector",
@@ -18343,7 +24351,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1297,
+    "id": 1869,
+    "word": "star",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "स्ार 1 तारा 2 प्रसिद्ध और अत्ंत लोक- प्रिय व्यक्ति",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1870,
+    "word": "stay",
+    "pos": "n / v",
+    "pronunciation": "स्े",
+    "meaningHi": "रुकने की अवधि | ठहरना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "My stay in France was pleasant",
+        "hi": "फांस में मेरा रुकना सुखद रहा"
+      },
+      {
+        "en": "stay in my house",
+        "hi": "मेरे घर में रुको"
+      }
+    ]
+  },
+  {
+    "id": 1871,
     "word": "steam",
     "pos": "n",
     "pronunciation": "स्ीम",
@@ -18352,7 +24387,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1298,
+    "id": 1872,
     "word": "steep",
     "pos": "adj",
     "pronunciation": "स्ीप",
@@ -18366,25 +24401,44 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1299,
+    "id": 1873,
     "word": "steer",
     "pos": "v",
     "pronunciation": "स्टिअर",
     "meaningHi": "गाड़ी चलाना, परिचालन करना 2 स्थिति को अपने नियंत्रण में कर उसकी दिशा और गति को निर्देशित करना 1",
     "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1874,
+    "word": "step",
+    "pos": "n / v",
+    "pronunciation": "स्ेप",
+    "meaningHi": "कदम 2 सीढ़ी का एक स्ेप | कदम रखना, डग भरना",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "He steered the car into the parking area",
-        "hi": "वह कार को पार्किंग क्षेत्र में ले गया।"
-      },
-      {
-        "en": "He steered the team to victory",
-        "hi": "वह टीम को जीत की ओर ले गया।"
+        "en": "He stepped into the room",
+        "hi": "उसने कमरे में कदम रखे"
       }
     ]
   },
   {
-    "id": 1300,
+    "id": 1875,
+    "word": "stic",
+    "pos": "adj",
+    "pronunciation": "इन्थूज़िए-",
+    "meaningHi": "स्टिक उत्ाही, उत्ाहपूर्ण 68 69 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "an enthusiastic response",
+        "hi": "एक उत्ाहपूर्ण प्रतिक्रिया"
+      }
+    ]
+  },
+  {
+    "id": 1876,
     "word": "sticky",
     "pos": "adj",
     "pronunciation": "स्टिकि",
@@ -18393,7 +24447,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1301,
+    "id": 1877,
     "word": "stiff",
     "pos": "adj",
     "pronunciation": "स्टिफ़",
@@ -18407,7 +24461,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1302,
+    "id": 1878,
     "word": "sting",
     "pos": "n / v",
     "pronunciation": "स्टिंंग",
@@ -18416,7 +24470,16 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1303,
+    "id": 1879,
+    "word": "stir",
+    "pos": "v",
+    "pronunciation": "1 चम्मच आदि से विलोड़ना,",
+    "meaningHi": "हिलाना, चलाना 2 भावनात्मक रूप से हिलाना, जगाना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1880,
     "word": "string",
     "pos": "n",
     "pronunciation": "स्ट्रिंंग",
@@ -18425,7 +24488,43 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1304,
+    "id": 1881,
+    "word": "successful",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1882,
+    "word": "such",
+    "pos": "det pron",
+    "pronunciation": "सच",
+    "meaningHi": "ऐसा 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1883,
+    "word": "suggestion",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1884,
+    "word": "suit",
+    "pos": "n / v",
+    "pronunciation": "सूट",
+    "meaningHi": "पहनने वाला सूट | शोभा देना, स्ीकार्य होना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1885,
     "word": "superior",
     "pos": "adj",
     "pronunciation": "सुपिअरियर",
@@ -18434,16 +24533,16 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1305,
+    "id": 1886,
     "word": "superiority",
     "pos": "n",
     "pronunciation": "सुपिअरिअॉ",
     "meaningHi": "रटि किसी अन्य की अपेक्षा श्रेष्टता 192 193 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "being higher in rank",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1306,
+    "id": 1887,
     "word": "supplier",
     "pos": "n",
     "pronunciation": "सप्ाइअर",
@@ -18457,12 +24556,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1307,
+    "id": 1888,
     "word": "suppose",
     "pos": "v",
     "pronunciation": "सपोज़",
     "meaningHi": "कल्पना करना, मान लो",
-    "meaningEn": "to assume",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Suppose the sun does not rise tomorrow",
@@ -18471,7 +24570,25 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1308,
+    "id": 1889,
+    "word": "sure",
+    "pos": "adj adv",
+    "pronunciation": "शुर, शुअ",
+    "meaningHi": "निश्चित, बेशक",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1890,
+    "word": "surprised",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1891,
     "word": "sweets",
     "pos": "n",
     "pronunciation": "स्वीट",
@@ -18480,7 +24597,163 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1309,
+    "id": 1892,
+    "word": "swim",
+    "pos": "v",
+    "pronunciation": "स्विम",
+    "meaningHi": "तैरना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1893,
+    "word": "talk",
+    "pos": "n / v",
+    "pronunciation": "टोक",
+    "meaningHi": "बातचीत | बातचीत करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Many problems can be sorted out by talking",
+        "hi": "बात करने से बहुत-सी समस्ाएँ सुलझाई जा सकती हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1894,
+    "word": "tall",
+    "pos": "adj",
+    "pronunciation": "टोल",
+    "meaningHi": "लंबा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a tall man",
+        "hi": "एक लंबा आदमी"
+      }
+    ]
+  },
+  {
+    "id": 1895,
+    "word": "tap",
+    "pos": "n / v",
+    "pronunciation": "टैप",
+    "meaningHi": "नल, नल की टोंटी | किसी को थपकी देना या हलके से मारना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He tapped on my shoulder",
+        "hi": "उसने मेरे कंधे पर थपथपाया।"
+      }
+    ]
+  },
+  {
+    "id": 1896,
+    "word": "tape",
+    "pos": "n",
+    "pronunciation": "टेप",
+    "meaningHi": "फीता",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "measuring tape",
+        "hi": "नापने का फीता"
+      }
+    ]
+  },
+  {
+    "id": 1897,
+    "word": "task",
+    "pos": "n",
+    "pronunciation": "टास्क",
+    "meaningHi": "जो कार्य दिया गया हो",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1898,
+    "word": "tax",
+    "pos": "n / v",
+    "pronunciation": "टैक्स",
+    "meaningHi": "कर | 1 कर लगाना 2 अधिक जोर लगाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Tax the rich",
+        "hi": "अमीरों पर कर लगाओ।"
+      },
+      {
+        "en": "tax the brain",
+        "hi": "दिमाग पर जोर डालना"
+      }
+    ]
+  },
+  {
+    "id": 1899,
+    "word": "team",
+    "pos": "n",
+    "pronunciation": "टीम",
+    "meaningHi": "खिलाड़ियों का दल 2 एक मकसद से जुड़े हुए कई लोगों का समूह जो मिल कर काम करते हों",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1900,
+    "word": "tear",
+    "pos": "n / v",
+    "pronunciation": "आँसू",
+    "meaningHi": "| टेलिफ़ोन दूरभाष, टेलीफोन टेलिफ़ोन टेलीफोन करना टेलिविशज़न टी.वी., टेलिविजन",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "She telephoned me",
+        "hi": "उसने मुझे टेलीफोन किया।"
+      }
+    ]
+  },
+  {
+    "id": 1901,
+    "word": "tell",
+    "pos": "v",
+    "pronunciation": "टेल",
+    "meaningHi": "बोलना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1902,
+    "word": "tely",
+    "pos": "adv",
+    "pronunciation": "डिलिबरट्लि",
+    "meaningHi": "जानबूझ कर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He deliberately drove the car slowly",
+        "hi": "उसने जानबूूझ कर कार को धीमी गति से चलाया।"
+      }
+    ]
+  },
+  {
+    "id": 1903,
+    "word": "temperature",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1904,
+    "word": "tend",
+    "pos": "v",
+    "pronunciation": "टेन्ड",
+    "meaningHi": "प्रवृति या झुकाव होना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1905,
     "word": "tense",
     "pos": "adj / n",
     "pronunciation": "टेन्स",
@@ -18494,7 +24767,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1310,
+    "id": 1906,
     "word": "tension",
     "pos": "n",
     "pronunciation": "हाइपर",
@@ -18503,11 +24776,65 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1311,
+    "id": 1907,
+    "word": "term",
+    "pos": "n",
+    "pronunciation": "टर्म",
+    "meaningHi": "अवधि, समय 2 कार्यकाल 3 शर्त अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ 1",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1908,
+    "word": "test",
+    "pos": "n / v",
+    "pronunciation": "टेस्ट",
+    "meaningHi": "जाँच | जाँच या परीक्षा करना दैन / दन से",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He passed the IQ test",
+        "hi": "वह बुद्धि की जाँच में पास कर गया।"
+      },
+      {
+        "en": "Don't test my patience",
+        "hi": "मेरे धीरज की परीक्षा न करो।"
+      }
+    ]
+  },
+  {
+    "id": 1909,
+    "word": "thanks exclamation",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1910,
+    "word": "that",
+    "pos": "adv pron",
+    "pronunciation": "दैट",
+    "meaningHi": "वह 2 कि",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1911,
+    "word": "that adv pron",
+    "pos": "conj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1912,
     "word": "their",
     "pos": "det",
-    "pronunciation": "देअर",
-    "meaningHi": "उनका 198 199 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "pronunciation": "फुटबौल उनका चहेता खेल है।",
+    "meaningHi": "उनका",
     "meaningEn": "belonging to them",
     "examples": [
       {
@@ -18517,7 +24844,7 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1312,
+    "id": 1913,
     "word": "theirs",
     "pos": "pron",
     "pronunciation": "देअज़",
@@ -18531,12 +24858,62 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1313,
+    "id": 1914,
+    "word": "them",
+    "pos": "pron",
+    "pronunciation": "देम / दम",
+    "meaningHi": "उन्ें देम्ेलवज़ वे खुद, उन्ें खुद",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1915,
+    "word": "themselves",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1916,
+    "word": "then",
+    "pos": "adv",
+    "pronunciation": "देन",
+    "meaningHi": "तब, उसके बाद 2 उस समय",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1917,
+    "word": "they",
+    "pos": "pron",
+    "pronunciation": "दे",
+    "meaningHi": "वे",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1918,
+    "word": "thin",
+    "pos": "adj",
+    "pronunciation": "थिन",
+    "meaningHi": "पतला",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "thin fingers",
+        "hi": "पतली उँगलियाँ"
+      }
+    ]
+  },
+  {
+    "id": 1919,
     "word": "thinker",
     "pos": "adj",
     "pronunciation": "थिंकर",
     "meaningHi": "चिंतक",
-    "meaningEn": "one who thinks deeply",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Bertrand Russell was a thinker",
@@ -18545,12 +24922,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1314,
+    "id": 1920,
     "word": "thinking",
     "pos": "n",
     "pronunciation": "थिंकिंग",
     "meaningHi": "चिंतन, सोचने की क्रिया थरो, थॉरो परिपूर्ण, विस्तृस्तृत अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "the process of thought",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Technology grew due to creative thinking",
@@ -18563,7 +24940,52 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1315,
+    "id": 1921,
+    "word": "this",
+    "pos": "det pron",
+    "pronunciation": "दिस",
+    "meaningHi": "यह",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1922,
+    "word": "this det pron",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1923,
+    "word": "thorough",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1924,
+    "word": "though conj",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1925,
+    "word": "throughout",
+    "pos": "prep adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1926,
     "word": "thumb",
     "pos": "n",
     "pronunciation": "थम",
@@ -18572,16 +24994,130 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1316,
+    "id": 1927,
+    "word": "tidy",
+    "pos": "v / adj",
+    "pronunciation": "टाइडि",
+    "meaningHi": "सुव्यवस्थित करना | ठीकठाक, सुव्यवस्थित",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1928,
+    "word": "time",
+    "pos": "n",
+    "pronunciation": "टाइम",
+    "meaningHi": "समय",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Let us learn time management",
+        "hi": "हम समय का अच्े से प्रयोग करना सीखें।"
+      }
+    ]
+  },
+  {
+    "id": 1929,
+    "word": "tion)",
+    "pos": "det",
+    "pronunciation": "नो",
+    "meaningHi": "नहीं 2 कोई भी नहीं",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "No, I will not go",
+        "hi": "नहीं, मैं नहीं जाऊँगा"
+      },
+      {
+        "en": "No one will go",
+        "hi": "कोई भी नहीं जाएगा।"
+      }
+    ]
+  },
+  {
+    "id": 1930,
+    "word": "tomorrow",
+    "pos": "n adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1931,
+    "word": "tone",
+    "pos": "n",
+    "pronunciation": "टोन",
+    "meaningHi": "स्वरशैली 2 रंग",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "friendly tone",
+        "hi": "दोस्ाना स्वरशैली"
+      },
+      {
+        "en": "dark tones",
+        "hi": "गहरे रंग"
+      }
+    ]
+  },
+  {
+    "id": 1932,
+    "word": "tool",
+    "pos": "n",
+    "pronunciation": "टूल",
+    "meaningHi": "औजार",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "plumbing tools",
+        "hi": "नलसाजी के औजार"
+      }
+    ]
+  },
+  {
+    "id": 1933,
     "word": "tooth",
     "pos": "n",
     "pronunciation": "टूथ",
     "meaningHi": "दाँत",
-    "meaningEn": "mouth structure",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1317,
+    "id": 1934,
+    "word": "tory",
+    "pos": "adj",
+    "pronunciation": "जवाब नहीं दिया।",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1935,
+    "word": "tour",
+    "pos": "n / v",
+    "pronunciation": "भ्रमण करना, दौरा करना",
+    "meaningHi": "टुअर भ्रमण, सैर, दौरा | टुवड्ज़ 1 की ओर 2 के प्रति 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "world tour",
+        "hi": "दुनिया की सैर"
+      }
+    ]
+  },
+  {
+    "id": 1936,
+    "word": "town",
+    "pos": "n",
+    "pronunciation": "टाउन",
+    "meaningHi": "शहर",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1937,
     "word": "trading",
     "pos": "n",
     "pronunciation": "ट्ेडिंग",
@@ -18595,12 +25131,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1318,
+    "id": 1938,
     "word": "training",
     "pos": "n",
     "pronunciation": "ट्रेनिंग",
     "meaningHi": "प्रशिक्षण",
-    "meaningEn": "teaching skills",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Training can transform anybody",
@@ -18609,21 +25145,30 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1319,
+    "id": 1939,
     "word": "translate",
     "pos": "v",
     "pronunciation": "ट्रैन्सलेट",
     "meaningHi": "अनुवाद करना",
-    "meaningEn": "to convert between languages",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1320,
+    "id": 1940,
+    "word": "transparent",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1941,
     "word": "transport",
     "pos": "n / v",
     "pronunciation": "ट्ैन्सपोर्ट",
     "meaningHi": "परिवहन गाड़ी-घोड़ा आदि, जिनसे व्यक्ति या माल ढोए जाते हों। | लोगों या माल को ढोना, ले जाना",
-    "meaningEn": "to carry from place to place",
+    "meaningEn": "",
     "examples": [
       {
         "en": "My baggage was transported to Delhi by truck",
@@ -18632,16 +25177,34 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1321,
+    "id": 1942,
+    "word": "trap",
+    "pos": "n / v",
+    "pronunciation": "ट्रैप",
+    "meaningHi": "फँसा कर पकड़ने का साधन | फँसा कर पकड़ना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "mouse trap",
+        "hi": "चूूहे पकड़ने का उपकरण।"
+      },
+      {
+        "en": "The police trapped the criminal",
+        "hi": "पुलिस ने अपराधी को फँसा कर पकड़ लिया।"
+      }
+    ]
+  },
+  {
+    "id": 1943,
     "word": "traveller",
     "pos": "n",
     "pronunciation": "ट्ैवलर",
     "meaningHi": "यात्ी",
-    "meaningEn": "one who travels",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1322,
+    "id": 1944,
     "word": "tread",
     "pos": "v",
     "pronunciation": "ट्रेड",
@@ -18655,16 +25218,66 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1323,
+    "id": 1945,
+    "word": "trip",
+    "pos": "n / v",
+    "pronunciation": "ट्रिप",
+    "meaningHi": "सैर, दौरा | गिरने लगना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a short trip to Simla",
+        "hi": "शिमला का एक संक्षिप्त दौरा"
+      },
+      {
+        "en": "You may trip over that cable",
+        "hi": "तुम उस तार से फँस कर गिर सकते हो।"
+      }
+    ]
+  },
+  {
+    "id": 1946,
     "word": "trousers",
     "pos": "n",
     "pronunciation": "ट्ाउज़ज़",
     "meaningHi": "पतलून, पाजामा 204 205 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "leg garments",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1324,
+    "id": 1947,
+    "word": "tune",
+    "pos": "n / v",
+    "pronunciation": "ट्ून",
+    "meaningHi": "संगीत की कोई धुन, राग | वाद्ययंत्र के सुर मिलाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "What a lovely tune!",
+        "hi": "क्ा प्ारी धुन!"
+      },
+      {
+        "en": "tune the guitar",
+        "hi": "गिटार के तारों को कसते हुए उनके सुर मिलाना"
+      }
+    ]
+  },
+  {
+    "id": 1948,
+    "word": "turn",
+    "pos": "n",
+    "pronunciation": "टर्न",
+    "meaningHi": "मोड़",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "left turn",
+        "hi": "बायाँ मोड़"
+      }
+    ]
+  },
+  {
+    "id": 1949,
     "word": "Twitter",
     "pos": "n",
     "pronunciation": "ट्विटर",
@@ -18673,7 +25286,34 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1325,
+    "id": 1950,
+    "word": "type",
+    "pos": "n / v",
+    "pronunciation": "टाइप",
+    "meaningHi": "प्रकार | टाइप करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "two types of dress",
+        "hi": "दो प्रकार के वस्त्र"
+      },
+      {
+        "en": "She types fast",
+        "hi": "वह तेजी से टाइप करती है।"
+      }
+    ]
+  },
+  {
+    "id": 1951,
+    "word": "ugly",
+    "pos": "adj",
+    "pronunciation": "अग््लि",
+    "meaningHi": "कुरूप, बदसूूरत",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1952,
     "word": "ulcer",
     "pos": "n",
     "pronunciation": "अल्सर",
@@ -18682,7 +25322,7 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1326,
+    "id": 1953,
     "word": "umpire",
     "pos": "n",
     "pronunciation": "अम्ाइअर",
@@ -18691,7 +25331,88 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1327,
+    "id": 1954,
+    "word": "uncertain",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1955,
+    "word": "uncomfortable",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1956,
+    "word": "under prep",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1957,
+    "word": "underneath",
+    "pos": "prep",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1958,
+    "word": "undo",
+    "pos": "v",
+    "pronunciation": "अनडू",
+    "meaningHi": "किए हुए को बिगाड़ देना, फिर से पुराने हाल में ला देना अनएथिकल अनैतिक 57 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Can you undo this damage?",
+        "hi": "क्ा तुम इस नुकसान को ठीक कर सकते हो?"
+      },
+      {
+        "en": "Not taking care of parents in their old age is unethical",
+        "hi": "माता-पिता की वृद्ध अवस्था में उनका ख्याल नहीं रखना एक अनैतिक काम है।"
+      }
+    ]
+  },
+  {
+    "id": 1959,
+    "word": "unethical",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1960,
+    "word": "unfortunate",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1961,
+    "word": "unhappy",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1962,
     "word": "unhurt",
     "pos": "adj",
     "pronunciation": "अन्हर्ट",
@@ -18705,43 +25426,107 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1328,
+    "id": 1963,
+    "word": "unit",
+    "pos": "n",
+    "pronunciation": "यूनिट",
+    "meaningHi": "इकाई",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1964,
+    "word": "Unit)",
+    "pos": "n",
+    "pronunciation": "यू. सेंट्रल",
+    "meaningHi": "प्रोसेसिंग यूनिट कंप्यूटर का केंद्रीय प्रचालन-तंत्र",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1965,
+    "word": "university",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1966,
+    "word": "unlawful",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1967,
     "word": "unless",
     "pos": "conj",
     "pronunciation": "अन्लेस",
     "meaningHi": "जबतक..तबतक",
-    "meaningEn": "except if",
+    "meaningEn": "",
     "examples": [
       {
         "en": "an unlikely event",
         "hi": "एक ऐसी घटना जिसकी संभावना नहीं थी।"
-      },
-      {
-        "en": "Unless he apologises, I will not go to him",
-        "hi": "जबतक वह क्षमा नहीं माँगता, तबतक मैं उसके पास नहीं जाऊँगा।"
       }
     ]
   },
   {
-    "id": 1329,
+    "id": 1968,
+    "word": "unlikely",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1969,
+    "word": "unlucky",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1970,
     "word": "unrest",
     "pos": "n",
     "pronunciation": "अनरेस्ट",
-    "meaningHi": "अशांति, बेचैनी / अन्टिल निर्दिष्ट समय या घटना के होने तक अन्यूशज़ुअल असामान्य",
-    "meaningEn": "disturbance",
+    "meaningHi": "अशांति, बेचैनी /",
+    "meaningEn": "",
     "examples": [
       {
         "en": "widespread unrest due to price rise",
         "hi": "मूूल्य वृद्धि के कारण व्ापक बेचैनी"
-      },
-      {
-        "en": "wait until / till he comes",
-        "hi": "उसके आने तक इंतज़ार करो"
       }
     ]
   },
   {
-    "id": 1330,
+    "id": 1971,
+    "word": "unusual",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1972,
+    "word": "unusually",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1973,
     "word": "upload",
     "pos": "v",
     "pronunciation": "अपलोड",
@@ -18750,12 +25535,102 @@ export const vocabWords: VocabWord[] =
     "examples": []
   },
   {
-    "id": 1331,
+    "id": 1974,
+    "word": "upon",
+    "pos": "prep",
+    "pronunciation": "अपॉन",
+    "meaningHi": "के ऊपर 2 पर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "upon the table",
+        "hi": "टेबुल पर"
+      },
+      {
+        "en": "based upon my experience",
+        "hi": "मेरे अनुभव पर आधारित"
+      }
+    ]
+  },
+  {
+    "id": 1975,
+    "word": "upsetting",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1976,
+    "word": "upstairs",
+    "pos": "adv n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1977,
+    "word": "upwards",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1978,
+    "word": "urge",
+    "pos": "n / v",
+    "pronunciation": "अर्ज",
+    "meaningHi": "तीव्र इच्ा | आग्रह करना, प्रेरित करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "an urge to go home",
+        "hi": "घर जाने की तीव्र इच्ा"
+      },
+      {
+        "en": "He was urged to donate",
+        "hi": "उससे दान देने के लिए आग्रह किया गया।"
+      }
+    ]
+  },
+  {
+    "id": 1979,
+    "word": "used",
+    "pos": "adj",
+    "pronunciation": "यूज़्ड",
+    "meaningHi": "पुराना, इस्तेमाल किया हुआ यूस्ट टु अभ्यस्त",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a used car",
+        "hi": "एक इस्ेमाल की हुई कार"
+      },
+      {
+        "en": "She is used to swimming",
+        "hi": "वह तैरने की अभ्यस्त है।"
+      }
+    ]
+  },
+  {
+    "id": 1980,
+    "word": "user",
+    "pos": "n",
+    "pronunciation": "करने वाला कौन है?",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1981,
     "word": "vacancy",
     "pos": "n",
     "pronunciation": "वेकन्सि",
     "meaningHi": "रिक्ति",
-    "meaningEn": "empty position",
+    "meaningEn": "",
     "examples": [
       {
         "en": "There is no vacancy for the post of typist",
@@ -18764,12 +25639,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1332,
+    "id": 1982,
     "word": "vacant",
     "pos": "adj",
     "pronunciation": "वेकन्ट",
     "meaningHi": "रिक्त, खाली",
-    "meaningEn": "empty",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Our house is vacant",
@@ -18778,12 +25653,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1333,
+    "id": 1983,
     "word": "vacation",
     "pos": "n",
     "pronunciation": "वकेशन",
     "meaningHi": "लंबा अवकाश",
-    "meaningEn": "holiday",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I spent my summer vacation at Simla",
@@ -18792,12 +25667,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1334,
+    "id": 1984,
     "word": "vaccine",
     "pos": "n",
     "pronunciation": "वैक्सीन",
     "meaningHi": "टीके की दवा",
-    "meaningEn": "immunizing substance",
+    "meaningEn": "",
     "examples": [
       {
         "en": "A vaccine prevents a disease",
@@ -18806,12 +25681,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1335,
+    "id": 1985,
     "word": "vague",
     "pos": "adj",
     "pronunciation": "वेग",
     "meaningHi": "अस्पष्ट",
-    "meaningEn": "unclear",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a vague statement",
@@ -18820,7 +25695,16 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1336,
+    "id": 1986,
+    "word": "valuable",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1987,
     "word": "value(s)",
     "pos": "n",
     "pronunciation": "वैल्ूज़",
@@ -18834,30 +25718,67 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1337,
+    "id": 1988,
+    "word": "vary",
+    "pos": "v",
+    "pronunciation": "वेअरि",
+    "meaningHi": "आकार या शक्ति में अलग होना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Uniforms vary from school to school",
+        "hi": "गणवेश भिन्न- भिन्न स्कूलों में भिन्न-भिन्न होते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 1989,
+    "word": "vast",
+    "pos": "adj",
+    "pronunciation": "वास्ट",
+    "meaningHi": "विशाल Ved / Ve",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a vast ground",
+        "hi": "एक विशाल मैदान"
+      }
+    ]
+  },
+  {
+    "id": 1990,
+    "word": "vegetable",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 1991,
     "word": "velvet",
     "pos": "n",
     "pronunciation": "वेलविट",
     "meaningHi": "मखमल",
-    "meaningEn": "soft fabric",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1338,
+    "id": 1992,
     "word": "venom",
     "pos": "n",
     "pronunciation": "वेनम",
     "meaningHi": "साँप का विष, जहर",
-    "meaningEn": "poison from animals",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1339,
+    "id": 1993,
     "word": "venture",
     "pos": "n",
     "pronunciation": "वेन्चर",
     "meaningHi": "नई और कुछ जोखिम भरी परियोजना",
-    "meaningEn": "a risky undertaking",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Making iron-ropes is my new venture",
@@ -18866,21 +25787,21 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1340,
+    "id": 1994,
     "word": "venus",
     "pos": "n",
     "pronunciation": "वीनस",
     "meaningHi": "शुक्रग्रह अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "a planet; goddess of love",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1341,
+    "id": 1995,
     "word": "version",
     "pos": "n",
     "pronunciation": "वर्शन",
     "meaningHi": "रूपांतर, संस्करण, पाठांतर",
-    "meaningEn": "a form of something",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Many versions of the Valmiki Ramayan are found",
@@ -18889,12 +25810,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1342,
+    "id": 1996,
     "word": "vertical",
     "pos": "adj",
     "pronunciation": "वर्िकल",
     "meaningHi": "सीधा-खड़ा",
-    "meaningEn": "upright",
+    "meaningEn": "",
     "examples": [
       {
         "en": "She drew some vertical lines on the paper",
@@ -18903,12 +25824,40 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1343,
+    "id": 1997,
+    "word": "very",
+    "pos": "adv",
+    "pronunciation": "वेरि",
+    "meaningHi": "बहुत",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "very good",
+        "hi": "बहुत अच्ा"
+      }
+    ]
+  },
+  {
+    "id": 1998,
+    "word": "via",
+    "pos": "prep",
+    "pronunciation": "वाइअ",
+    "meaningHi": "के रास्ते, से हो कर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "He came from Delhi via Agra",
+        "hi": "वह दिल्ी से आगरा होता हुआ आया।"
+      }
+    ]
+  },
+  {
+    "id": 1999,
     "word": "vibrant",
     "pos": "adj",
     "pronunciation": "वाइब्रंट",
     "meaningHi": "जीवंत और उत्ाहपूर्ण",
-    "meaningEn": "full of energy",
+    "meaningEn": "",
     "examples": [
       {
         "en": "a vibrant person",
@@ -18917,30 +25866,71 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1344,
+    "id": 2000,
     "word": "video",
     "pos": "n",
     "pronunciation": "विडिओ",
     "meaningHi": "विडिओ, चित्रमुद्रण",
-    "meaningEn": "visual recording",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1345,
+    "id": 2001,
+    "word": "view",
+    "pos": "n / v",
+    "pronunciation": "व्यू",
+    "meaningHi": "दृश्य 2 दृष्टि 3 विचार 1",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "viewing a movie",
+        "hi": "फिल्म देख रहा"
+      }
+    ]
+  },
+  {
+    "id": 2002,
+    "word": "violently",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2003,
+    "word": "virtually",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2004,
     "word": "virus",
     "pos": "n",
     "pronunciation": "वाइरस",
     "meaningHi": "विषाणु शरीर में ज्ादातर इन्ेक्शन या रोग बैक्टी- रिया या वायरस के शरीर में प्रवेश करने से होते हैं।",
-    "meaningEn": "an infectious agent",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1346,
+    "id": 2005,
+    "word": "visionary",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2006,
     "word": "visitor",
     "pos": "n",
     "pronunciation": "विज़िटर",
     "meaningHi": "मुलाकाती, आगंतुक",
-    "meaningEn": "guest",
+    "meaningEn": "",
     "examples": [
       {
         "en": "The Taj attracts thousands of visitors",
@@ -18949,12 +25939,12 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1347,
+    "id": 2007,
     "word": "vitamins",
     "pos": "n",
     "pronunciation": "विटमिंस",
     "meaningHi": "विटामिन शरीर के स्ास्थ्य के लिए एक प्रकार के आवश्यक तत्त्व अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
-    "meaningEn": "essential nutrients",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Vitamins are found in fruits and vegetables",
@@ -18963,21 +25953,203 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1348,
+    "id": 2008,
+    "word": "vocabulary",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2009,
+    "word": "vote",
+    "pos": "n / v",
+    "pronunciation": "वोट",
+    "meaningHi": "चुनाव में दिया गया मत | चुनाव में मत देना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Your vote is important",
+        "hi": "तुम्ारा मत महत्त्वपूर्ण है।"
+      },
+      {
+        "en": "Vote for an honest candidate",
+        "hi": "एक ईमानदार उम्ीदवार के लिए वोट करो।"
+      }
+    ]
+  },
+  {
+    "id": 2010,
+    "word": "vow",
+    "pos": "v",
+    "pronunciation": "वाउ",
+    "meaningHi": "प्रतिज्ा करना और कसम खाना 216 217 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Bhishm vowed to remain a celibate for the whole life",
+        "hi": "भीष्म ने आजीवन ब्रह्मचारी रहने की प्रतिज्ा की।"
+      }
+    ]
+  },
+  {
+    "id": 2011,
+    "word": "wait",
+    "pos": "n / v",
+    "pronunciation": "वेट",
+    "meaningHi": "प्रतीक्षा, इंतजार | इंतजार करना up v वेकप उठना, जगना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The wait ends now",
+        "hi": "इंतजार अब खत्म होता है।"
+      },
+      {
+        "en": "Please wait",
+        "hi": "कृपया इंतज़ार करें।"
+      }
+    ]
+  },
+  {
+    "id": 2012,
+    "word": "wall",
+    "pos": "n",
+    "pronunciation": "वॉल",
+    "meaningHi": "दीवार",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2013,
+    "word": "warm",
+    "pos": "adj",
+    "pronunciation": "वोम",
+    "meaningHi": "हल्का गर्म 2 स्ेहपूर्ण",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "warm water",
+        "hi": "हल्का गर्म पानी"
+      },
+      {
+        "en": "a warm welcome",
+        "hi": "एक स्ेहपूर्ण स्ागत"
+      }
+    ]
+  },
+  {
+    "id": 2014,
+    "word": "warn",
+    "pos": "v",
+    "pronunciation": "वोन",
+    "meaningHi": "चेतावनी देना वोनिंग चेतावनी",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Didn't we warn you?",
+        "hi": "क्ा हमने आपको चेतावनी नहीं दी थी?"
+      },
+      {
+        "en": "Our warning was not heeded",
+        "hi": "हमारी चेतावनी पर ध्यान नहीं दिया गया।"
+      }
+    ]
+  },
+  {
+    "id": 2015,
+    "word": "wash",
+    "pos": "v",
+    "pronunciation": "वोश",
+    "meaningHi": "धोना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Shouldn't we wash our hands before each meal?",
+        "hi": "क्ा हमें हर भोजन के पहले हाथ नहीं धोना चाहिए?"
+      }
+    ]
+  },
+  {
+    "id": 2016,
+    "word": "wave",
+    "pos": "n / v",
+    "pronunciation": "वेव",
+    "meaningHi": "तरंग, लहर | किसी व्यक्ति या व्यक्तियों को लक्ष्य कर हाथ हिलाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "sea waves",
+        "hi": "समुद्र की लहरें"
+      },
+      {
+        "en": "The Prime Minister was waving to the crowd",
+        "hi": "प्रधानमंत्री भीड़ को हाथ हिला रहे थे।"
+      }
+    ]
+  },
+  {
+    "id": 2017,
+    "word": "weak",
+    "pos": "adj",
+    "pronunciation": "वीक",
+    "meaningHi": "कमजोर",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Isn't exploiting the weak a sin?",
+        "hi": "कमजोर का शोषण करना क्ा एक पाप नहीं है?"
+      }
+    ]
+  },
+  {
+    "id": 2018,
+    "word": "wealthy",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2019,
+    "word": "wear",
+    "pos": "v",
+    "pronunciation": "",
+    "meaningHi": "वेअर पहनना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Wearing a helmet while driving a motorbike can save life",
+        "hi": "मोटर बाइक चलाते वक्त हेलमेट पहनना जीवन को बचा सकता है।"
+      }
+    ]
+  },
+  {
+    "id": 2020,
     "word": "website",
     "pos": "n",
     "pronunciation": "वेब्साइट",
     "meaningHi": "इन्टरनेट पर किसी व्यक्ति, संस्ा या कंपनी का सूचनाकेंद्र",
-    "meaningEn": "web pages",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1349,
+    "id": 2021,
+    "word": "week",
+    "pos": "n",
+    "pronunciation": "वीक",
+    "meaningHi": "सप्ताह 218 219 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ वीकेंड सप्ताह के अंत में छुट्ी के दिन शनिवार-रविवार",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2022,
     "word": "weigh",
     "pos": "v",
     "pronunciation": "वे",
     "meaningHi": "वजन करना, तौलना",
-    "meaningEn": "to measure weight",
+    "meaningEn": "",
     "examples": [
       {
         "en": "I am weighing vegetables",
@@ -18986,30 +26158,244 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1350,
-    "word": "whistle",
-    "pos": "n / v",
-    "pronunciation": "विस्ल",
-    "meaningHi": "सीटी | मुँह से सिटी बजाना",
-    "meaningEn": "to make a shrill sound",
+    "id": 2023,
+    "word": "welcome",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2024,
+    "word": "well",
+    "pos": "adj / adv / n",
+    "pronunciation": "वेल",
+    "meaningHi": "अच्ा, स्वस्थ | भलीभाँति, अच्छी तरह | कुआँ",
+    "meaningEn": "",
     "examples": [
       {
-        "en": "The policeman blew the whistle",
-        "hi": "पुलिस वाले ने सीटी बजाई।"
+        "en": "He is well",
+        "hi": "वह स्वस्थ है।"
       },
       {
-        "en": "He was whistling a tune",
-        "hi": "वह होठों से सीटी बजाकर एक धुन निकाल रहा था।"
+        "en": "I know him well - मैं उसे अच्छी तरह जानता हँ। He is doing well",
+        "hi": "वह अच्ा कर रहा है।"
       }
     ]
   },
   {
-    "id": 1351,
+    "id": 2025,
+    "word": "what",
+    "pos": "det",
+    "pronunciation": "वॉट",
+    "meaningHi": "क्या, किस",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "What is this",
+        "hi": "यह क्ा है?"
+      }
+    ]
+  },
+  {
+    "id": 2026,
+    "word": "what det",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2027,
+    "word": "whatever",
+    "pos": "det pron adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2028,
+    "word": "when",
+    "pos": "adv",
+    "pronunciation": "वेन",
+    "meaningHi": "कब, किस समय 2 जब कोंकि 1 ? - वह कब आयेगा? 2",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2029,
+    "word": "when adv",
+    "pos": "conj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2030,
+    "word": "whenever",
+    "pos": "conj adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2031,
+    "word": "where adv",
+    "pos": "conj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2032,
+    "word": "wherever",
+    "pos": "conj adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2033,
+    "word": "whether",
+    "pos": "conj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2034,
+    "word": "which pron",
+    "pos": "det",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2035,
+    "word": "whichever",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2036,
+    "word": "while conj",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2037,
+    "word": "whistle",
+    "pos": "n / v",
+    "pronunciation": "विस्ल",
+    "meaningHi": "सीटी | मुँह से सिटी बजाना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The policeman blew the whistle",
+        "hi": "पुलिस वाले ने सीटी बजाई।"
+      }
+    ]
+  },
+  {
+    "id": 2038,
+    "word": "whoever",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2039,
+    "word": "whom",
+    "pos": "pron",
+    "pronunciation": "हूम",
+    "meaningHi": "किसको",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "To whom did they write? - उनोंने किसके पास पत्र लिखा? Whom did they invite?",
+        "hi": "उनोंने किसको आमंत्रित किया?"
+      }
+    ]
+  },
+  {
+    "id": 2040,
+    "word": "wide",
+    "pos": "adj",
+    "pronunciation": "वाइड",
+    "meaningHi": "चौड़ा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "a wide river - एक चौड़ी नदी; a wide range of clothes",
+        "hi": "वस्त्रोंस्त्रों का एक विस्ृत रेंज"
+      }
+    ]
+  },
+  {
+    "id": 2041,
+    "word": "wild",
+    "pos": "adj",
+    "pronunciation": "वाइल्ड",
+    "meaningHi": "जंगली विल भविष्यकाल बनाने में प्रयुक्त",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "wild animals - जंगली जीव; wild manners",
+        "hi": "जंगली तौर-तरीके"
+      },
+      {
+        "en": "She will go",
+        "hi": "वह जाएगी"
+      }
+    ]
+  },
+  {
+    "id": 2042,
+    "word": "will",
+    "pos": "n",
+    "pronunciation": "विल",
+    "meaningHi": "इच्ाशक्ति 2 वसीयत",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2043,
+    "word": "wind",
+    "pos": "n",
+    "pronunciation": "विन्ड",
+    "meaningHi": "हवा",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "The wind is blowing",
+        "hi": "हवा बह रही है।"
+      }
+    ]
+  },
+  {
+    "id": 2044,
     "word": "wind up",
     "pos": "v",
     "pronunciation": "वाइंडप",
     "meaningHi": "खत्म करना, विराम देना",
-    "meaningEn": "to end up; to conclude",
+    "meaningEn": "",
     "examples": [
       {
         "en": "Let’s wind up the discussion",
@@ -19018,39 +26404,300 @@ export const vocabWords: VocabWord[] =
     ]
   },
   {
-    "id": 1352,
-    "word": "Gyan yog",
+    "id": 2045,
+    "word": "wing",
     "pos": "n",
-    "pronunciation": "आत्मा के वास्तविक स्वरूप के ज्ान के माध्यम से मोक्ष",
-    "meaningHi": "ज्ान योग ज्ानयोग, the की प्राप्ति कराने वाला मार्ग 90 91 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ हाड्वेअर कंप्यूटर की मशीनरी",
-    "meaningEn": "the yoga of knowledge and wisdom",
+    "pronunciation": "विंग",
+    "meaningHi": "पंख",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1353,
+    "id": 2046,
+    "word": "wipe",
+    "pos": "v",
+    "pronunciation": "वाइप",
+    "meaningHi": "पोंछना अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "wipe her tears",
+        "hi": "उसके आँसूू पोंछो"
+      }
+    ]
+  },
+  {
+    "id": 2047,
+    "word": "wire",
+    "pos": "n",
+    "pronunciation": "2 टेलीग्ाम",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2048,
+    "word": "wise",
+    "pos": "adj",
+    "pronunciation": "वाइज़",
+    "meaningHi": "विवेकशील",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "An intelligent man is not always a wise man",
+        "hi": "एक तेज दिमाग वाला व्यक्ति हमेशा एक विवेकशील व्यक्ति नहीं होता।"
+      }
+    ]
+  },
+  {
+    "id": 2049,
+    "word": "wish",
+    "pos": "n / v",
+    "pronunciation": "विश",
+    "meaningHi": "अभिलाषा, चाह, इच्ा | चाह रखना, इच्ा करना",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "last wish",
+        "hi": "अंतिम इच्ा"
+      }
+    ]
+  },
+  {
+    "id": 2050,
+    "word": "with",
+    "pos": "prep",
+    "pronunciation": "विद, विथ",
+    "meaningHi": "साथ",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2051,
+    "word": "within",
+    "pos": "prep adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2052,
+    "word": "without",
+    "pos": "prep adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2053,
+    "word": "word",
+    "pos": "n",
+    "pronunciation": "वर्ड",
+    "meaningHi": "शब्द 2 वचन",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "honour your word",
+        "hi": "अपने वचन का पालन करो।"
+      }
+    ]
+  },
+  {
+    "id": 2054,
+    "word": "worried",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2055,
+    "word": "wrap",
+    "pos": "v",
+    "pronunciation": "रैप",
+    "meaningHi": "लपेटना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2056,
+    "word": "wrong adj",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2057,
+    "word": "yard",
+    "pos": "n",
+    "pronunciation": "याड",
+    "meaningHi": "प्रांगण, आँगन, आहाता 2 गज",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "backyard",
+        "hi": "मकान के पीछे का आँगन"
+      },
+      {
+        "en": "two yards wide",
+        "hi": "दो गज चौड़ा"
+      }
+    ]
+  },
+  {
+    "id": 2058,
+    "word": "yawn",
+    "pos": "n / v",
+    "pronunciation": "यॉन",
+    "meaningHi": "जँभाई, उबासी | जँभाई लेना येअ हाँ!",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Covering the mouth with hands while yawning is considered a good habit",
+        "hi": "जँभाई लेते वक्त मुख को हाथों से ढँक लेना एक अच्छी आदत मानते हैं।"
+      }
+    ]
+  },
+  {
+    "id": 2059,
+    "word": "year",
+    "pos": "n",
+    "pronunciation": "",
+    "meaningHi": "यिअर साल, वर्ष",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "What is the year of your birth?",
+        "hi": "तुम्ारे जन्म का साल क्ा है?"
+      }
+    ]
+  },
+  {
+    "id": 2060,
+    "word": "yellow n",
+    "pos": "adj",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2061,
+    "word": "yesterday",
+    "pos": "adv",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2062,
+    "word": "your",
+    "pos": "det",
+    "pronunciation": "",
+    "meaningHi": "योर तुम्ारा, आपका",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "your book",
+        "hi": "तुम्ारी किताब"
+      }
+    ]
+  },
+  {
+    "id": 2063,
+    "word": "yourself",
+    "pos": "pron",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2064,
+    "word": "yummy",
+    "pos": "adj n",
+    "pronunciation": "",
+    "meaningHi": "",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2065,
+    "word": "zeal",
+    "pos": "n",
+    "pronunciation": "ज़ील",
+    "meaningHi": "अत्यधिक उर्जा या उत्ाह",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "I appreciate his zeal",
+        "hi": "मैं उसके उत्ाह और ऊर्जा की सराहना करता हँ।"
+      }
+    ]
+  },
+  {
+    "id": 2066,
+    "word": "zone",
+    "pos": "n",
+    "pronunciation": "ज़ोन",
+    "meaningHi": "क्षेत्र",
+    "meaningEn": "",
+    "examples": [
+      {
+        "en": "Delhi is located in earthquake prone zone",
+        "hi": "दिल्ी भूूकम्प-संभावित क्षेत्र में स्थित है।"
+      }
+    ]
+  },
+  {
+    "id": 2067,
+    "word": "zoom",
+    "pos": "v",
+    "pronunciation": "ज़ूम",
+    "meaningHi": "बहुत तेजी से जाना या गुज़रना",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2068,
+    "word": "Gyan yog",
+    "pos": "n",
+    "pronunciation": "की प्राप्ति",
+    "meaningHi": "कराने वाला मार्ग 90 91 अंंगरेज़ी शब्द उच्ारण हिंंदी में अर्थ हाड्वेअर कंप्यूटर की मशीनरी",
+    "meaningEn": "",
+    "examples": []
+  },
+  {
+    "id": 2069,
     "word": "Hath yog",
     "pos": "n",
     "pronunciation": "हठ योग",
     "meaningHi": "हठयोग ध्ानयोग, अष्टांांगयोग का एक रूप",
-    "meaningEn": "the yoga of physical postures and breath",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1354,
+    "id": 2070,
     "word": "Kriya yog",
     "pos": "n",
     "pronunciation": "क्रियायोग",
     "meaningHi": "ध्ानयोग का एक रूप 'क्रियायोग' शब्द ध्ानयोगी श्यामा चरण लाहिड़ी महाशय और उनके शिषों योगानन्द आदि द्ारा विशेष रूप से लोकप्रिय किया गया L अंंगरेज़ी शब्द",
-    "meaningEn": "the yoga of action and purification",
+    "meaningEn": "",
     "examples": []
   },
   {
-    "id": 1355,
+    "id": 2071,
     "word": "theism",
     "pos": "n",
     "pronunciation": "मॉनथीइज़म",
-    "meaningHi": "ईश्वरवाद — ईश्वर के अस्तित्व में विश्वास",
-    "meaningEn": "belief in the existence of God",
+    "meaningHi": "एकेश्वरवाद | ईश्वरवाद",
+    "meaningEn": "",
     "examples": []
   }
 ];
