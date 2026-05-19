@@ -1,9 +1,13 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Image from "next/image";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, BookOpen, ChevronDown, ChevronUp, X } from "lucide-react";
+import { Search, BookOpen, ChevronDown, ChevronUp, X, Sparkles, ArrowRight } from "lucide-react";
 import { vocabWords, type VocabWord } from "@/data/vocab-data";
+import { stories } from "@/data/stories";
+import { img } from "@/lib/image-url";
 
 const POS_LABELS: Record<string, string> = {
   n: "noun",
@@ -222,6 +226,46 @@ export default function WordsPage() {
 
       <main className="section-padding py-6 md:py-10">
         <div className="max-w-4xl mx-auto">
+          {!search && stories.length > 0 && (
+            <div className="mb-8">
+              <div className="flex items-center gap-2 mb-4">
+                <Sparkles className="w-4 h-4 text-saffron" />
+                <h2 className="text-sm font-bold text-dark-brown uppercase tracking-wider">
+                  Power Words Stories
+                </h2>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {stories.map((story) => (
+                  <Link
+                    key={story.slug}
+                    href={`/words/stories/${story.slug}`}
+                    className="group flex gap-4 bg-white rounded-2xl border border-cream-dark/50 shadow-sm hover:shadow-md hover:border-saffron/20 transition-all p-4"
+                  >
+                    <div className="shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gradient-to-br from-saffron/10 to-gold/10 relative">
+                      <Image
+                        src={img(`stories/${story.coverImage}`)}
+                        alt={story.title}
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <h3 className="text-sm font-bold text-dark-brown leading-snug group-hover:text-saffron transition-colors">
+                        {story.title}
+                      </h3>
+                      <p className="text-xs text-text-muted mt-1">
+                        {story.gradeLevel} · {story.powerWords.length} power words
+                      </p>
+                      <span className="inline-flex items-center gap-1 text-xs text-saffron font-semibold mt-2">
+                        Read story <ArrowRight className="w-3 h-3" />
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
           {!search && (
             <p className="text-sm text-text-secondary mb-6 leading-relaxed">
               Tap any card to reveal its meaning in English and Hindi.
