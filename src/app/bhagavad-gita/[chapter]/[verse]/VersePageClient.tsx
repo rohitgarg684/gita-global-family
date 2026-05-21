@@ -23,7 +23,7 @@ interface VersePageClientProps {
   nextVerse: { chapter: number; verse: string } | null;
 }
 
-type Lang = "english" | "hindi" | "both";
+type Lang = "english" | "hindi" | "tamil" | "malayalam" | "telugu" | "both";
 
 export default function VersePageClient({
   verse,
@@ -37,6 +37,19 @@ export default function VersePageClient({
 
   const showHindi = lang === "hindi" || lang === "both";
   const showEnglish = lang === "english" || lang === "both";
+  const showTamil = lang === "tamil";
+  const showMalayalam = lang === "malayalam";
+  const showTelugu = lang === "telugu";
+  const showSingleLang = showTamil || showMalayalam || showTelugu;
+
+  const LANG_LABELS: Record<string, string> = {
+    hindi: "Hindi",
+    english: "English",
+    tamil: "தமிழ்",
+    malayalam: "മലയാളം",
+    telugu: "తెలుగు",
+    both: "Both",
+  };
 
   return (
     <>
@@ -86,12 +99,12 @@ export default function VersePageClient({
       <section className="section-padding py-8 md:py-12">
         <div className="max-w-4xl mx-auto">
           {/* Language Toggle */}
-          <div className="flex items-center justify-end gap-1 mb-8 p-1 bg-cream rounded-xl w-fit ml-auto">
-            {(["hindi", "english", "both"] as Lang[]).map((option) => (
+          <div className="flex items-center justify-end gap-1 mb-8 p-1 bg-cream rounded-xl w-fit ml-auto flex-wrap">
+            {(["hindi", "english", "tamil", "malayalam", "telugu", "both"] as Lang[]).map((option) => (
               <button
                 key={option}
                 onClick={() => setLang(option)}
-                className={`px-4 py-2 text-xs font-medium rounded-lg transition-colors capitalize ${
+                className={`px-3 py-2 text-xs font-medium rounded-lg transition-colors ${
                   lang === option
                     ? "bg-saffron text-white shadow-sm"
                     : "text-text-secondary hover:text-dark-brown"
@@ -99,10 +112,10 @@ export default function VersePageClient({
               >
                 {option === "both" ? (
                   <span className="flex items-center gap-1">
-                    <Languages className="w-3.5 h-3.5" /> Both
+                    <Languages className="w-3.5 h-3.5" /> All
                   </span>
                 ) : (
-                  option
+                  LANG_LABELS[option]
                 )}
               </button>
             ))}
@@ -199,12 +212,61 @@ export default function VersePageClient({
                   </p>
                 </div>
               )}
+              {(showTamil || lang === "both") && verse.tamilMeaning && (
+                <>
+                  {lang === "both" && <hr className="border-cream-dark/30" />}
+                  <div>
+                    {lang === "both" && (
+                      <p className="text-xs font-semibold text-text-muted mb-1.5 uppercase tracking-wider">
+                        தமிழ்
+                      </p>
+                    )}
+                    <p className="text-sm md:text-base text-text-primary leading-relaxed">
+                      {verse.tamilMeaning}
+                    </p>
+                  </div>
+                </>
+              )}
+              {(showMalayalam || lang === "both") && verse.malayalamMeaning && (
+                <>
+                  {lang === "both" && <hr className="border-cream-dark/30" />}
+                  <div>
+                    {lang === "both" && (
+                      <p className="text-xs font-semibold text-text-muted mb-1.5 uppercase tracking-wider">
+                        മലയാളം
+                      </p>
+                    )}
+                    <p className="text-sm md:text-base text-text-primary leading-relaxed">
+                      {verse.malayalamMeaning}
+                    </p>
+                  </div>
+                </>
+              )}
+              {(showTelugu || lang === "both") && verse.teluguMeaning && (
+                <>
+                  {lang === "both" && <hr className="border-cream-dark/30" />}
+                  <div>
+                    {lang === "both" && (
+                      <p className="text-xs font-semibold text-text-muted mb-1.5 uppercase tracking-wider">
+                        తెలుగు
+                      </p>
+                    )}
+                    <p className="text-sm md:text-base text-text-primary leading-relaxed">
+                      {verse.teluguMeaning}
+                    </p>
+                  </div>
+                </>
+              )}
             </div>
           </motion.div>
 
           {/* Commentary */}
           {((showHindi && verse.hindiCommentary) ||
-            (showEnglish && verse.englishCommentary)) && (
+            (showEnglish && verse.englishCommentary) ||
+            (showTamil && verse.tamilCommentary) ||
+            (showMalayalam && verse.malayalamCommentary) ||
+            (showTelugu && verse.teluguCommentary) ||
+            (lang === "both" && (verse.hindiCommentary || verse.englishCommentary || verse.tamilCommentary || verse.malayalamCommentary || verse.teluguCommentary))) && (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -243,13 +305,62 @@ export default function VersePageClient({
                     </p>
                   </div>
                 )}
+                {(showTamil || lang === "both") && verse.tamilCommentary && (
+                  <>
+                    {lang === "both" && <hr className="border-cream-dark/40" />}
+                    <div>
+                      {lang === "both" && (
+                        <p className="text-xs font-semibold text-text-muted mb-1.5 uppercase tracking-wider">
+                          தமிழ்
+                        </p>
+                      )}
+                      <p className="text-sm text-text-secondary leading-relaxed whitespace-pre-line">
+                        {verse.tamilCommentary}
+                      </p>
+                    </div>
+                  </>
+                )}
+                {(showMalayalam || lang === "both") && verse.malayalamCommentary && (
+                  <>
+                    {lang === "both" && <hr className="border-cream-dark/40" />}
+                    <div>
+                      {lang === "both" && (
+                        <p className="text-xs font-semibold text-text-muted mb-1.5 uppercase tracking-wider">
+                          മലയാളം
+                        </p>
+                      )}
+                      <p className="text-sm text-text-secondary leading-relaxed whitespace-pre-line">
+                        {verse.malayalamCommentary}
+                      </p>
+                    </div>
+                  </>
+                )}
+                {(showTelugu || lang === "both") && verse.teluguCommentary && (
+                  <>
+                    {lang === "both" && <hr className="border-cream-dark/40" />}
+                    <div>
+                      {lang === "both" && (
+                        <p className="text-xs font-semibold text-text-muted mb-1.5 uppercase tracking-wider">
+                          తెలుగు
+                        </p>
+                      )}
+                      <p className="text-sm text-text-secondary leading-relaxed whitespace-pre-line">
+                        {verse.teluguCommentary}
+                      </p>
+                    </div>
+                  </>
+                )}
               </div>
             </motion.div>
           )}
 
           {/* Footnotes */}
           {((showHindi && verse.hindiFootnote) ||
-            (showEnglish && verse.englishFootnote)) && (
+            (showEnglish && verse.englishFootnote) ||
+            (showTamil && verse.tamilFootnote) ||
+            (showMalayalam && verse.malayalamFootnote) ||
+            (showTelugu && verse.teluguFootnote) ||
+            (lang === "both" && (verse.hindiFootnote || verse.englishFootnote || verse.tamilFootnote || verse.malayalamFootnote || verse.teluguFootnote))) && (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -269,6 +380,21 @@ export default function VersePageClient({
                 {showEnglish && verse.englishFootnote && (
                   <p className="text-xs text-text-muted leading-relaxed whitespace-pre-line">
                     {verse.englishFootnote}
+                  </p>
+                )}
+                {(showTamil || lang === "both") && verse.tamilFootnote && (
+                  <p className="text-xs text-text-muted leading-relaxed whitespace-pre-line">
+                    {verse.tamilFootnote}
+                  </p>
+                )}
+                {(showMalayalam || lang === "both") && verse.malayalamFootnote && (
+                  <p className="text-xs text-text-muted leading-relaxed whitespace-pre-line">
+                    {verse.malayalamFootnote}
+                  </p>
+                )}
+                {(showTelugu || lang === "both") && verse.teluguFootnote && (
+                  <p className="text-xs text-text-muted leading-relaxed whitespace-pre-line">
+                    {verse.teluguFootnote}
                   </p>
                 )}
               </div>

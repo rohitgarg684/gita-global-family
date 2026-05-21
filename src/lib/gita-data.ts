@@ -13,6 +13,15 @@ export interface Verse {
   englishCommentary: string;
   hindiFootnote: string;
   englishFootnote: string;
+  tamilMeaning?: string;
+  tamilCommentary?: string;
+  tamilFootnote?: string;
+  malayalamMeaning?: string;
+  malayalamCommentary?: string;
+  malayalamFootnote?: string;
+  teluguMeaning?: string;
+  teluguCommentary?: string;
+  teluguFootnote?: string;
 }
 
 export interface ChapterData {
