@@ -119,4 +119,206 @@ export const qaItems: QAItem[] = [
       },
     ],
   },
+  {
+    id: "is-god-formless-or-with-form",
+    question:
+      "Is the Supreme God with form (sākāra), or formless (nirākāra), or both, or beyond both?",
+    preview:
+      "The Supreme Reality is originally formless, unmanifest, and beyond the three qualities of material nature. Yet when He creates the universe, He reveals Himself in a personal, manifest form — and at times even descends in human form to protect dharma.",
+    answer: [
+      {
+        type: "p",
+        text: "The Supreme Reality is originally formless, unmanifest, and beyond the three qualities of material nature. In its primordial state, He alone exists; there is no second entity beside Him. That aspect of the Supreme is called Brahman.",
+      },
+      {
+        type: "quote",
+        text: "Ekam eva advitīyam.",
+        cite: "Chandogya Upanishad 6.2.1",
+      },
+      {
+        type: "p",
+        text: "Meaning: \u201CHe alone existed, without a second.\u201D",
+      },
+      {
+        type: "p",
+        text: "However, when the Supreme creates the manifested universe, He reveals Himself in a personal and manifest form as Narayana.",
+      },
+      {
+        type: "p",
+        text: "Not only this, at times He also descends in human form to protect dharma, destroy adharma\u2026",
+      },
+    ],
+  },
+  {
+    id: "uniform-ritual-code-sanatan-dharma",
+    question:
+      "Can a Uniform Ritual Code be developed for all Indic faiths, and how can Sanatan Dharma cultivate real civilizational unity?",
+    preview:
+      "Bringing all Indic faiths onto one platform is a noble idea, but a Uniform Ritual Code for all of them — including Sikhs, Buddhists, Jains, and the many streams of Sanatan Dharma — may not presently be practical. A more attainable beginning is to agree upon shared guiding scriptures, with the Bhagavad Gita and the Vedas as a natural civilizational centre of gravity.",
+    answer: [
+      {
+        type: "p",
+        text: "Context: Bharat Sant Mahaa Sabha conference on Uniform Ritual Code for all Indic religions, 18 May 2026.",
+      },
+      {
+        type: "p",
+        text: "It is a noble and constructive idea to bring together all faiths of Indic origin onto one platform. However, developing a Uniform Ritual Code (URC) for all of them alike, including the Sikhs, Buddhists, Jains, and the diverse streams of Sanatan Dharma, though an inspiring dream, may not presently be a practically realizable one. A more attainable beginning could be to persuade the various sects and denominations within the broad fold of Sanatan Dharma itself, including the Arya Samaj, to evolve a common URC.",
+      },
+      {
+        type: "p",
+        text: "For this, a concrete working proposal must first be drafted and made public, or at least circulated among the principal leaders and acharyas of the various Sanatani sects. After preliminary consultations and parleys, there should eventually be a full-scale Sanatan Council session to deliberate upon the proposal collectively.",
+      },
+      {
+        type: "p",
+        text: "Yet, even before attempting such an ambitious exercise, certain foundational commonalities must first be agreed upon in order to cultivate a genuine sense of unity and oneness among the numerous splintered streams of Sanatan Dharma. This is not about manufacturing an artificial appearance of unity, but about gradually building real civilizational cohesion among Hindus and Hindu sects.",
+      },
+      {
+        type: "h",
+        text: "Begin with shared scriptures",
+      },
+      {
+        type: "p",
+        text: "The first step toward such unity could be to persuade all major sects to agree upon one, or a small set of, common guiding scriptures for all Sanatanis. Only when temples, mathas, institutions, and ordinary followers across sectarian boundaries begin to keep, honour, study, and teach such shared scriptures can a deeper unity of thought and emotion begin to emerge.",
+      },
+      {
+        type: "p",
+        text: "If the sects agree in principle to adopt one \u201Cshared\u201D scripture, or a set of shared scriptures, then they should also agree beforehand to abide by the majority decision regarding their selection. Each denomination would, of course, remain fully free to continue according equal reverence to its own Guru-given or sect-specific scripture.",
+      },
+      {
+        type: "p",
+        text: "If such a consultative process and voting were ever undertaken, it is likely that the Bhagavad Gita would emerge as the foremost shared scripture, with the Vedas occupying the next position. To begin with, therefore, the Bhagavad Gita and the Vedas, along with the sect\u2019s own Guru-given scripture, may together constitute a kind of \u201CGranth-Trayi\u201D for each sect, collectively accepted as guiding lights of Sanatan Dharma.",
+      },
+      {
+        type: "p",
+        text: "Consider, for example, the spiritual stream of Anukul Chandra Thakur, with a following running into millions. Many among them primarily follow the sayings of Anukul Thakur alone. Similarly, the Vihangam Yoga tradition, with its vast following, centres itself around the \u201CSwaraveda\u201D, containing the teachings of its Guru. If such streams begin accepting the Gita, and perhaps the Vedas as well, as shared civilizational scriptures alongside their own, they would naturally begin integrating more consciously into the broader mainstream of Sanatan Dharma while still preserving their distinct identities.",
+      },
+      {
+        type: "p",
+        text: "It must be clearly understood that without a common scripture, or at least a shared set of primary scriptures, Sanatan Dharma cannot fully develop a common worldview and emotional solidarity, both of which are essential for enduring unity and collective strength.",
+      },
+      {
+        type: "h",
+        text: "An alternative path: scripture in every home",
+      },
+      {
+        type: "p",
+        text: "Moreover, many of these sectarian conglomerates are themselves only loosely knit bodies. Their followers are often not doctrinally trained or ideologically consolidated in the way followers of more centralized faith traditions frequently are. Therefore, even if certain sect leaders hesitate to formally accept the idea of shared scriptures, another path still remains open.",
+      },
+      {
+        type: "p",
+        text: "Let the Bhagavad Gita, along with a carefully curated pictorial Ramayana, be distributed free of cost to all 23 crore Hindu households. Children, youth, and ordinary families will gradually begin reading them. Over time, a shared civilizational worldview will begin taking root naturally in millions of minds, thereby preparing the ground for a later formal acceptance of shared scriptures and deeper unity.",
+      },
+      {
+        type: "h",
+        text: "A civilizational centre of gravity",
+      },
+      {
+        type: "p",
+        text: "The existence of a single shared scripture, or a clearly recognised set of scriptures, gives Christians, Muslims, and Sikhs a strong sense of collective identity, emotional bonding, and unity. Sanatan Dharma too requires some comparable civilizational centre of gravity.",
+      },
+      {
+        type: "p",
+        text: "For this purpose, a Universal Hindu Faith Council representing all major streams of Sanatan Dharma, including Arya Samaj, may eventually need to be constituted, perhaps with rotational leadership. The ancient Christian Councils provide an instructive historical example in this regard. At present, instead of one broadly representative civilizational council, Hindu society has numerous disconnected sabhas, councils, and organizations operating independently under different names and traditions. Such a fragmented institutional architecture ultimately weakens the possibility of collective deliberation and coordinated civilizational action.",
+      },
+    ],
+  },
+  {
+    id: "how-to-install-and-worship-shaligram",
+    question: "How should one respectfully install and worship a Shaligram?",
+    preview:
+      "In many Vaishnava traditions, the Shaligram is regarded as self-manifested (svayambhu) and eternally worshipful — so a formal prana-pratishtha is not considered essential. What matters most are devotion, purity, and regular worship. Here is a simple, sattvic method.",
+    answer: [
+      {
+        type: "p",
+        text: "The tradition of \u201Cinstalling\u201D a Shaligram Shila is considered somewhat different from the installation of ordinary idols. In many Vaishnava traditions, the Shaligram is regarded as self-manifested (svayambhu) and eternally worshipful; therefore, a formal consecration ritual (prana-pratishtha) is not considered essential for it. The main things are devotion, purity, and regular worship.",
+      },
+      {
+        type: "p",
+        text: "In brief, a simple and sattvic method:",
+      },
+      {
+        type: "h",
+        text: "1. Choosing the Place",
+      },
+      {
+        type: "p",
+        text: "Prepare a clean and elevated place in the house by spreading a yellow or clean cloth. If possible, place the Shaligram near an image or deity form of Lord Vishnu, Shri Krishna, or Shri Rama.",
+      },
+      {
+        type: "h",
+        text: "2. Purification",
+      },
+      {
+        type: "ul",
+        items: [
+          "Take a bath yourself and clean the place.",
+          "Bathe the Shaligram with Ganga water or clean water. According to tradition, you may also perform a Panchamrit bath.",
+        ],
+      },
+      {
+        type: "h",
+        text: "3. Importance of Tulsi",
+      },
+      {
+        type: "p",
+        text: "Tulsi is considered extremely important in the worship of Shaligram. Tulsi leaves should be offered.",
+      },
+      {
+        type: "h",
+        text: "4. The Spirit of Installation",
+      },
+      {
+        type: "p",
+        text: "With both hands, respectfully place the Shaligram on the seat and pray with simple devotion:",
+      },
+      {
+        type: "quote",
+        text: "O Shri Hari! Kindly reside in my home and bless me with righteousness, devotion, and noble wisdom.",
+      },
+      {
+        type: "h",
+        text: "5. Worship",
+      },
+      {
+        type: "p",
+        text: "Offer sandalwood paste, akshata (unbroken rice), flowers, Tulsi, incense, and lamp. Then chant Vishnu mantras, verses from the Gita, Vishnu Sahasranama, or simply repeat:",
+      },
+      {
+        type: "quote",
+        text: "Om Namo Bhagavate Vasudevaya.",
+      },
+      {
+        type: "h",
+        text: "6. Offering of Food",
+      },
+      {
+        type: "p",
+        text: "Offer sattvic food, fruits, sweets, etc., with devotion.",
+      },
+      {
+        type: "h",
+        text: "7. Daily Service",
+      },
+      {
+        type: "p",
+        text: "At the very least, offer water, Tulsi, and pranam daily. More important than grandeur is regular devotion and a pure way of life.",
+      },
+      {
+        type: "h",
+        text: "Traditional precautions",
+      },
+      {
+        type: "ul",
+        items: [
+          "Do not place the Shaligram directly on the ground.",
+          "Do not touch it in an impure state.",
+          "Avoid an atmosphere of excessive quarrel, alcohol, or meat in the home.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Above all, however, devotion is paramount. God does not manifest in stone, but in faith. Sometimes a single Tulsi leaf and one pure tear are dearer to Him than elaborate Vedic rituals.",
+      },
+    ],
+  },
 ];
