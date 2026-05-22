@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
+import PasswordGate from "@/components/PasswordGate";
 
 export const metadata: Metadata = {
   title: "Allegations Against Hinduism",
   description:
     "A dispassionate examination of common allegations made against Sanatan Dharma (Hinduism) by other world religions, alongside considered responses grounded in Hindu philosophical traditions.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function AllegationsLayout({
@@ -11,5 +16,14 @@ export default function AllegationsLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <PasswordGate
+      storageKey="allegations-gate-v1"
+      password="save-hinduism"
+      title="Allegations Against Hinduism"
+      description="This section contains a candid, comparative-religion examination of sensitive material. Please enter the access passphrase to continue."
+    >
+      {children}
+    </PasswordGate>
+  );
 }
