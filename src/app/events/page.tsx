@@ -517,23 +517,8 @@ export default function EventsPage() {
         <EventGrid events={londonEvents} />
       </section>
 
-      {/* Delhi Events */}
-      <section className="section-padding py-16 md:py-24 bg-cream">
-        <div className="flex items-center justify-center gap-2 mb-2">
-          <MapPin className="w-5 h-5 text-saffron" />
-          <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
-            India — Delhi
-          </span>
-        </div>
-        <SectionHeading
-          title="Events in Delhi, India"
-          subtitle="Engagements with national-level gatherings of saints and spiritual leaders, building bridges across sampradayas for the cause of a unified, contemporary Sanatan Dharma."
-        />
-        <EventGrid events={delhiEvents} />
-      </section>
-
       {/* Bihar / India Events */}
-      <section className="section-padding py-16 md:py-24">
+      <section className="section-padding py-16 md:py-24 bg-cream">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
@@ -548,7 +533,7 @@ export default function EventsPage() {
       </section>
 
       {/* Nepal Events */}
-      <section className="section-padding py-16 md:py-24 bg-cream">
+      <section className="section-padding py-16 md:py-24">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
@@ -563,7 +548,7 @@ export default function EventsPage() {
       </section>
 
       {/* Vrindavan Events */}
-      <section className="section-padding py-16 md:py-24">
+      <section className="section-padding py-16 md:py-24 bg-cream">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
@@ -575,6 +560,21 @@ export default function EventsPage() {
           subtitle="Engaging Vrindavan's revered saints and spiritual leaders to build support for the Sanatan Seva Nidhi Act — from temple mahants to renowned Bhagavat narrators and senior acharyas."
         />
         <EventGrid events={vrindavanEvents} />
+      </section>
+
+      {/* Delhi Events */}
+      <section className="section-padding py-16 md:py-24">
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <MapPin className="w-5 h-5 text-saffron" />
+          <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
+            India — Delhi
+          </span>
+        </div>
+        <SectionHeading
+          title="Events in Delhi, India"
+          subtitle="Engagements with national-level gatherings of saints and spiritual leaders, building bridges across sampradayas for the cause of a unified, contemporary Sanatan Dharma."
+        />
+        <EventGrid events={delhiEvents} />
       </section>
 
       {/* CTA */}
