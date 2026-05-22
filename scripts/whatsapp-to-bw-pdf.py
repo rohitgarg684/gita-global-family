@@ -26,18 +26,53 @@ MARGIN_PX = 75            # ~0.25 inch margin
 
 
 def _paper_mask(gray: Image.Image) -> Image.Image:
-    """Return a binary mask (mode 'L', 0/255) marking the bright paper region.
+    """Return a binary mask (mode 'L', 0/255) marking the worksheet region.
 
-    Operates on the *original* photo (before any contrast tweaks) so that
-    the wooden desk (~dark) vs the paper (~bright) separation is reliable.
+    Works for any background colour (wooden desk, beige tablecloth, etc.)
+    because instead of assuming the paper is the brightest region, we
+    locate it by where the *dark printed content* lives.
+
+    Strategy:
+      1. Threshold for dark ink (table lines, digits) - everything notably
+         darker than mid-gray.
+      2. Heavily blur that ink mask. The result is bright wherever ink is
+         dense (i.e. on the worksheet) and dark elsewhere (background).
+      3. Threshold the blurred ink-density map to produce the final mask.
+      4. Take the bounding box and slightly inflate it so we keep the
+         paper border, not just the printed area.
     """
-    # Strong blur to wash out fine detail (numbers, banners) so we are
-    # mostly detecting "bright big region" = the paper.
-    blurred = gray.filter(ImageFilter.GaussianBlur(radius=20))
-    # Threshold: paper photographed under normal light is well above 130;
-    # the wooden desk is below 110. 130 is a safe middle ground.
-    mask = blurred.point(lambda v: 255 if v >= 130 else 0)
-    # Smooth the edges so we don't get jagged borders, then re-binarize.
+    w, h = gray.size
+
+    # Step 1: dark-ink mask. Pixels at most 130/255 are "dark enough".
+    ink = gray.point(lambda v: 255 if v <= 130 else 0)
+
+    # Step 2: blur to get an "ink density" heatmap.
+    density = ink.filter(ImageFilter.GaussianBlur(radius=40))
+
+    # Step 3: threshold the heatmap. The paper has high density; the
+    # background has zero density.
+    paper_core = density.point(lambda v: 255 if v >= 18 else 0)
+
+    # Step 4: compute bounding box of the ink-dense area and inflate it
+    # by ~6% of the image size so we capture the paper margins (which
+    # have no ink) and the page edges.
+    bbox = paper_core.getbbox()
+    if not bbox:
+        # Fallback: assume the entire frame is paper.
+        return Image.new("L", gray.size, color=255)
+
+    margin = max(int(0.05 * min(w, h)), 30)
+    x0, y0, x1, y1 = bbox
+    x0 = max(0, x0 - margin)
+    y0 = max(0, y0 - margin)
+    x1 = min(w, x1 + margin)
+    y1 = min(h, y1 + margin)
+
+    mask = Image.new("L", gray.size, color=0)
+    # Use a white rectangle for the paper region.
+    from PIL import ImageDraw
+    ImageDraw.Draw(mask).rectangle((x0, y0, x1, y1), fill=255)
+    # Soften the edges slightly so the transition to white is invisible.
     mask = mask.filter(ImageFilter.GaussianBlur(radius=8))
     return mask.point(lambda v: 255 if v >= 128 else 0)
 
