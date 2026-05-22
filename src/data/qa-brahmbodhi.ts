@@ -125,7 +125,7 @@ export const qaItems: QAItem[] = [
     question:
       "Is the Supreme God with form (sākāra), or formless (nirākāra), or both, or beyond both?",
     preview:
-      "The Supreme Reality is originally formless, unmanifest, and beyond the three qualities of material nature. Yet when He creates the universe, He reveals Himself in a personal, manifest form — and at times even descends in human form to protect dharma.",
+      "The Supreme Reality is originally formless, unmanifest, and beyond the three qualities of material nature. Yet when He creates the universe, He reveals Himself in a personal, manifest form — and at times even descends in human form to protect dharma. These are not two different Gods, but two aspects of the same Supreme Being.",
     answer: [
       {
         type: "p",
@@ -146,7 +146,54 @@ export const qaItems: QAItem[] = [
       },
       {
         type: "p",
-        text: "Not only this, at times He also descends in human form to protect dharma, destroy adharma\u2026",
+        text: "Not only this, at times He also descends in human form to protect dharma, destroy adharma, and delight His devotees.",
+      },
+      {
+        type: "p",
+        text: "In the Bhagavad Gita, Bhagawan Krishna says:",
+      },
+      {
+        type: "quote",
+        text: "Avyakta\u1E41 vyaktim \u0101panna\u1E41 manyante m\u0101m abuddhaya\u1E25\nPara\u1E41 bh\u0101vam aj\u0101nanto mam\u0101vyayam anuttamam.",
+        cite: "Bhagavad Gita 7.24",
+      },
+      {
+        type: "p",
+        text: "Meaning: \u201CThe unintelligent think of Me, the unmanifest and supreme reality, as having merely assumed a manifest form. They do not know My highest, imperishable, and unsurpassed nature.\u201D",
+      },
+      {
+        type: "p",
+        text: "The Lord further says:",
+      },
+      {
+        type: "quote",
+        text: "Ajo\u2019pi sann avyay\u0101tm\u0101 bh\u016Bt\u0101n\u0101m \u012B\u015Bvaro\u2019pi san\nPrak\u1E5Bti\u1E41 sv\u0101m adhi\u1E63\u1E6Dh\u0101ya sambhav\u0101my \u0101tma-m\u0101yay\u0101.",
+        cite: "Bhagavad Gita 4.6",
+      },
+      {
+        type: "p",
+        text: "Meaning: \u201CAlthough unborn and imperishable, and though I am the Lord of all beings, I manifest Myself through My divine power.\u201D",
+      },
+      {
+        type: "p",
+        text: "And when people mistake this divine embodied form of God for an ordinary human being, the Lord says:",
+      },
+      {
+        type: "quote",
+        text: "Avaj\u0101nanti m\u0101\u1E41 m\u016B\u1E0Dh\u0101 m\u0101nu\u1E63\u012B\u1E41 tanum \u0101\u015Brita\u1E41\nPara\u1E41 bh\u0101vam aj\u0101nanto mama bh\u016Bta-mahe\u015Bvaram.",
+        cite: "Bhagavad Gita 9.11",
+      },
+      {
+        type: "p",
+        text: "Meaning: \u201CFoolish people disregard Me when I appear in human form. They do not understand My higher divine nature as the Supreme Lord of all beings.\u201D",
+      },
+      {
+        type: "p",
+        text: "Thus, in the Gita, the Lord Himself describes both aspects of His reality: the unmanifest and the manifest, the attributeless and the qualified, the formless and the personal.",
+      },
+      {
+        type: "p",
+        text: "These are not two different Gods, but two aspects of the same Supreme Being.",
       },
     ],
   },
@@ -370,6 +417,32 @@ export const qaItems: QAItem[] = [
       {
         type: "p",
         text: "However, everyone\u2019s financial condition is not the same. Therefore, each person should donate according to his circumstances, while taking into account family responsibilities, children\u2019s education, health, and future needs. Still, if possible, it is highly desirable to cultivate the habit of donating at least ten percent of one\u2019s income. Such giving not only benefits society, but also helps make the human heart and conscience more pure and elevated.",
+      },
+    ],
+  },
+  {
+    id: "miracle-or-mind-power",
+    question: "Miracle or mind power — what did BrahmBodhi personally witness?",
+    preview:
+      "Do miracles really happen, or are they stories we choose to believe? In this video, BrahmBodhi shares a real-life experience where thoughts were known even before they were spoken — an event that logic struggles to explain.",
+    answer: [
+      {
+        type: "p",
+        text: "Do miracles really happen \u2014 or are they just stories we choose to believe?",
+      },
+      {
+        type: "p",
+        text: "Many people dismiss such events simply because they have never experienced them. But what happens when something occurs that logic struggles to explain?",
+      },
+      {
+        type: "p",
+        text: "In this video, BrahmBodhi shares a real-life experience where thoughts were known even before they were spoken. Is it coincidence, mind power, or something deeper? What you are about to hear might challenge everything you believe about reality.",
+      },
+      {
+        type: "video",
+        videoId: "i1Y2ZyJlxk0",
+        title: "Miracle or Mind Power? What I Personally Witnessed!",
+        caption: "Watch BrahmBodhi share the experience in his own words",
       },
     ],
   },

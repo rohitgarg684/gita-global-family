@@ -2,12 +2,82 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronDown, Share2, Quote } from "lucide-react";
+import { ChevronDown, Share2, Quote, Play, Video } from "lucide-react";
 import type { QAItem, QABlock } from "@/data/qa-brahmbodhi";
 
 interface QACardProps {
   item: QAItem;
   index: number;
+}
+
+function YouTubeEmbed({
+  videoId,
+  title,
+  caption,
+}: {
+  videoId: string;
+  title: string;
+  caption?: string;
+}) {
+  const [active, setActive] = useState(false);
+  const thumbnail = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+  const watchUrl = `https://youtu.be/${videoId}`;
+
+  return (
+    <figure className="my-2">
+      <div className="relative w-full aspect-video rounded-xl overflow-hidden bg-black shadow-md">
+        {active ? (
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`}
+            title={title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="absolute inset-0 w-full h-full border-0"
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={() => setActive(true)}
+            aria-label={`Play video: ${title}`}
+            className="group absolute inset-0 w-full h-full"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={thumbnail}
+              alt={title}
+              loading="lazy"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-red-600 group-hover:bg-red-700 shadow-2xl transition-colors">
+                <Play
+                  className="w-7 h-7 md:w-9 md:h-9 text-white ml-1"
+                  fill="currentColor"
+                />
+              </span>
+            </div>
+            <div className="absolute bottom-0 left-0 right-0 p-4 text-left">
+              <p className="text-white font-semibold text-sm md:text-base leading-snug line-clamp-2">
+                {title}
+              </p>
+            </div>
+          </button>
+        )}
+      </div>
+      <figcaption className="mt-2 flex items-center justify-between gap-3 text-sm text-text-muted">
+        <span>{caption ?? title}</span>
+        <a
+          href={watchUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-saffron hover:text-saffron-dark font-semibold whitespace-nowrap"
+        >
+          Open on YouTube ↗
+        </a>
+      </figcaption>
+    </figure>
+  );
 }
 
 function renderBlock(block: QABlock, key: number) {
@@ -81,11 +151,21 @@ function renderBlock(block: QABlock, key: number) {
           ))}
         </ul>
       );
+    case "video":
+      return (
+        <YouTubeEmbed
+          key={key}
+          videoId={block.videoId}
+          title={block.title}
+          caption={block.caption}
+        />
+      );
   }
 }
 
 export default function QACard({ item, index }: QACardProps) {
   const [open, setOpen] = useState(false);
+  const hasVideo = item.answer.some((b) => b.type === "video");
 
   const handleShare = async (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -126,6 +206,12 @@ export default function QACard({ item, index }: QACardProps) {
           <h3 className="text-lg md:text-xl font-semibold text-dark-brown leading-snug">
             {item.question}
           </h3>
+          {hasVideo && (
+            <span className="mt-2 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-red-50 text-red-600 text-xs font-semibold">
+              <Video className="w-3.5 h-3.5" />
+              Includes video
+            </span>
+          )}
         </div>
         <button
           onClick={handleShare}
