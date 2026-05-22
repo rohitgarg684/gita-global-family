@@ -11,7 +11,8 @@ export type QABlock =
   | { type: "h"; text: string }
   | { type: "quote"; text: string; cite?: string }
   | { type: "ul"; items: string[] }
-  | { type: "ol"; items: string[] };
+  | { type: "ol"; items: string[] }
+  | { type: "video"; videoId: string; title: string; caption?: string };
 
 export interface QAItem {
   id: string;
@@ -318,6 +319,57 @@ export const qaItems: QAItem[] = [
       {
         type: "p",
         text: "Above all, however, devotion is paramount. God does not manifest in stone, but in faith. Sometimes a single Tulsi leaf and one pure tear are dearer to Him than elaborate Vedic rituals.",
+      },
+    ],
+  },
+  {
+    id: "how-to-spend-earnings-wisely",
+    question:
+      "How should we use our earnings in a way that benefits both ourselves and society — and how much should we give in charity?",
+    preview:
+      "Earning is necessary for sustaining life, but donating a portion of that wealth is equally important. Charity is not only to help others — it purifies one's own mind and heart, and is essential for the inner purity the Gita describes. While Sanatan Dharma prescribes no fixed percentage, cultivating the habit of giving at least ten percent of one's income is highly desirable.",
+    answer: [
+      {
+        type: "p",
+        text: "Earning wealth is necessary for sustaining life. However, it is equally important to donate a portion of that wealth. In the Bhagavad Gita, Lord Krishna says:",
+      },
+      {
+        type: "quote",
+        text: "\u092F\u091C\u094D\u091E\u0926\u093E\u0928\u0924\u092A\u0903\u0915\u0930\u094D\u092E \u0928 \u0924\u094D\u092F\u093E\u091C\u094D\u092F\u0902 \u0915\u093E\u0930\u094D\u092F\u092E\u0947\u0935 \u0924\u0924\u094D \u0964\n\u092F\u091C\u094D\u091E\u094B \u0926\u093E\u0928\u0902 \u0924\u092A\u0936\u094D\u091A\u0948\u0935 \u092A\u093E\u0935\u0928\u093E\u0928\u093F \u092E\u0928\u0940\u0937\u093F\u0923\u093E\u092E\u094D \u0965",
+        cite: "Bhagavad Gita 18.5",
+      },
+      {
+        type: "p",
+        text: "Meaning: Yajña (spiritual pursuits), charity (dāna), and austerity (tapa) should not be abandoned; they must indeed be performed, for sacrifice, charity, and austerity are purifying for the wise.",
+      },
+      {
+        type: "p",
+        text: "It must be understood that the purpose of charity is not merely to help others. One of its deeper purposes is to purify one\u2019s own mind and heart. Until the mind becomes pure, true realization of God and liberation (moksha) remain difficult to attain. In the Ramcharitmanas, Lord Rama says:",
+      },
+      {
+        type: "quote",
+        text: "Only the person of pure mind attains Me; deceit, hypocrisy, and crookedness do not please Me.",
+        cite: "Ramcharitmanas",
+      },
+      {
+        type: "p",
+        text: "If we wish to move toward the \u201Cpurification of emotions\u201D (bh\u0101va-sa\u1E41\u015Buddhi) and \u201Cpurity of inner being\u201D (sattva-sa\u1E41\u015Buddhi) described in the Gita, then charity becomes an extremely important means. It prevents a person from remaining confined to selfishness and gradually leads him toward selflessness and higher welfare.",
+      },
+      {
+        type: "h",
+        text: "How much should one donate?",
+      },
+      {
+        type: "p",
+        text: "In Islam, the institution of zakat generally prescribes donating around two-and-a-half percent of one\u2019s movable and immovable wealth. In many Christian traditions, there is also the practice of giving approximately ten percent of one\u2019s income as a \u201Ctithe.\u201D In Sanatan Dharma, no single universal percentage for charity has been prescribed, yet charity has always been regarded as an extremely important religious and moral duty.",
+      },
+      {
+        type: "p",
+        text: "I have seen many people who donate a very large portion of their income. One acquaintance of mine receives a monthly pension of about one lakh rupees, out of which he distributes medicines worth nearly fifty thousand rupees among people living in slums. His reasoning is that two individuals (husband and wife) do not require more than the remaining amount for a simple life.",
+      },
+      {
+        type: "p",
+        text: "However, everyone\u2019s financial condition is not the same. Therefore, each person should donate according to his circumstances, while taking into account family responsibilities, children\u2019s education, health, and future needs. Still, if possible, it is highly desirable to cultivate the habit of donating at least ten percent of one\u2019s income. Such giving not only benefits society, but also helps make the human heart and conscience more pure and elevated.",
       },
     ],
   },

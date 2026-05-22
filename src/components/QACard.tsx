@@ -30,23 +30,35 @@ function renderBlock(block: QABlock, key: number) {
           {block.text}
         </h4>
       );
-    case "quote":
+    case "quote": {
+      const isMultiline = block.text.includes("\n");
       return (
         <figure
           key={key}
           className="relative pl-5 md:pl-6 border-l-4 border-saffron bg-cream/50 rounded-r-xl py-4 pr-4 my-2"
         >
           <Quote className="absolute -top-2 -left-3 w-5 h-5 text-saffron bg-white rounded-full p-0.5 hidden md:block" />
-          <blockquote className="text-dark-brown italic leading-relaxed text-base md:text-[17px]">
-            &ldquo;{block.text}&rdquo;
+          <blockquote
+            className={`text-dark-brown leading-relaxed text-base md:text-[17px] ${
+              isMultiline
+                ? "whitespace-pre-line text-center font-medium"
+                : "italic"
+            }`}
+          >
+            {isMultiline ? block.text : <>&ldquo;{block.text}&rdquo;</>}
           </blockquote>
           {block.cite && (
-            <figcaption className="mt-2 text-sm font-semibold text-saffron-dark not-italic">
+            <figcaption
+              className={`mt-2 text-sm font-semibold text-saffron-dark not-italic ${
+                isMultiline ? "text-center" : ""
+              }`}
+            >
               — {block.cite}
             </figcaption>
           )}
         </figure>
       );
+    }
     case "ol":
       return (
         <ol
