@@ -10,6 +10,7 @@ import { img } from "@/lib/image-url";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/spirituality", label: "Spirituality" },
+  { href: "/projects", label: "Projects" },
   { href: "/gita-publications", label: "Publications" },
   { href: "/events", label: "Events" },
   { href: "/blog", label: "Blogs" },
