@@ -18,8 +18,8 @@ export default function AllegationsLayout({
 }) {
   return (
     <PasswordGate
-      storageKey="allegations-gate-v1"
-      password="save-hinduism"
+      statusEndpoint="/api/allegations/status/"
+      loginEndpoint="/api/allegations/login/"
       title="Allegations Against Hinduism"
       description="This section contains a candid, comparative-religion examination of sensitive material. Please enter the access passphrase to continue."
     >

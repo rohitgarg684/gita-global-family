@@ -1,5 +1,3 @@
-import sections from "@/data/islam-essay.json";
-
 export interface EssaySection {
   id: string;
   title_hi: string;
@@ -8,11 +6,16 @@ export interface EssaySection {
   body_en: string;
 }
 
-export function getIslamEssaySections(): EssaySection[] {
-  return sections as EssaySection[];
+export interface EssayMeta {
+  titleHi: string;
+  titleEn: string;
+  subtitleHi: string;
+  subtitleEn: string;
+  sourceHi: string;
+  sourceEn: string;
 }
 
-export function getEssayMetadata() {
+export function getEssayMetadata(): EssayMeta {
   return {
     titleHi: "इस्लाम पर निबंध",
     titleEn: "An Essay on Islam",
@@ -21,5 +24,5 @@ export function getEssayMetadata() {
       "A Review of Islam — Doctrine and Practice from a Sanatan Perspective",
     sourceHi: "भगवद्धर्म प्रकाश",
     sourceEn: "Bhagavad Dharma Prakash",
-  } as const;
+  };
 }

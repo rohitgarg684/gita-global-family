@@ -5,3 +5,29 @@ runConfig:
   memoryMiB: 512
   minInstances: 0
   maxInstances: 2
+
+# Secrets for the password-gated "Allegations Against Hinduism" section.
+# These are pulled from Google Cloud Secret Manager at deploy time.
+#
+# Provision them once with:
+#   echo -n "save-hinduism" | gcloud secrets create allegations-password \
+#     --project=gita-gloval-family --replication-policy=automatic --data-file=-
+#   python3 -c "import secrets; print(secrets.token_urlsafe(48))" \
+#     | tr -d '\n' \
+#     | gcloud secrets create allegations-session-secret \
+#         --project=gita-gloval-family --replication-policy=automatic --data-file=-
+#
+# Then grant the App Hosting service account read access:
+#   firebase apphosting:secrets:grantaccess allegations-password \
+#     --project=gita-global-family
+#   firebase apphosting:secrets:grantaccess allegations-session-secret \
+#     --project=gita-global-family
+env:
+  - variable: ALLEGATIONS_PASSWORD
+    secret: allegations-password
+    availability:
+      - RUNTIME
+  - variable: ALLEGATIONS_SESSION_SECRET
+    secret: allegations-session-secret
+    availability:
+      - RUNTIME
