@@ -1,41 +1,33 @@
+import "server-only";
 import { createHmac, timingSafeEqual, randomBytes } from "node:crypto";
+import { allegationsConfig } from "@server/allegations-config";
 
 /**
  * Stateless, server-side auth for the "Allegations Against Hinduism" section.
  *
  * Design:
  *   1. The user POSTs the passphrase to /api/allegations/login.
- *   2. We compare against ALLEGATIONS_PASSWORD via timingSafeEqual.
+ *   2. We compare against allegationsConfig.password via timingSafeEqual.
  *   3. On success we set an HttpOnly cookie containing a token of the form:
- *        `<expiry>.<hmac-sha256(expiry, SECRET)>`
- *   4. Subsequent requests to gated route handlers call requireAuth(req),
+ *        `<expiry>.<nonce>.<hmac-sha256(payload, SECRET)>`
+ *   4. Subsequent requests to gated route handlers call verifySessionCookie,
  *      which re-verifies the HMAC and the expiry.
  *
- * Nothing about the gated content is bundled to the client. The only way to
- * obtain a valid cookie is to authenticate against the server.
+ * Nothing about the gated content (or the password / secret) is bundled to
+ * the client: this file is marked `server-only` and the config it imports is
+ * also `server-only`. A client import of either will fail the build.
  */
 
 const COOKIE_NAME = "allegations_session";
-const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 30; // 30 days
-
-function getPassword(): string {
-  const pw = process.env.ALLEGATIONS_PASSWORD;
-  if (!pw) {
-    throw new Error(
-      "ALLEGATIONS_PASSWORD env var is not set. Configure it in apphosting.yaml or .env.local."
-    );
-  }
-  return pw;
-}
 
 function getSecret(): Buffer {
-  const secret = process.env.ALLEGATIONS_SESSION_SECRET;
-  if (!secret || secret.length < 32) {
+  const s = allegationsConfig.sessionSecret;
+  if (!s || s.length < 32) {
     throw new Error(
-      "ALLEGATIONS_SESSION_SECRET env var must be set and at least 32 characters long."
+      "allegationsConfig.sessionSecret must be at least 32 characters long."
     );
   }
-  return Buffer.from(secret, "utf8");
+  return Buffer.from(s, "utf8");
 }
 
 function sign(payload: string): string {
@@ -51,7 +43,10 @@ function safeEq(a: string, b: string): boolean {
 
 export function verifyPassword(submitted: string): boolean {
   if (typeof submitted !== "string") return false;
-  return safeEq(submitted.trim().toLowerCase(), getPassword().trim().toLowerCase());
+  return safeEq(
+    submitted.trim().toLowerCase(),
+    allegationsConfig.password.trim().toLowerCase()
+  );
 }
 
 export interface IssuedToken {
@@ -61,15 +56,15 @@ export interface IssuedToken {
 }
 
 export function issueSessionToken(): IssuedToken {
-  const expiry = Date.now() + SESSION_TTL_MS;
-  // 16-byte nonce so even within the same millisecond two tokens differ.
+  const ttl = allegationsConfig.sessionTtlMs;
+  const expiry = Date.now() + ttl;
   const nonce = randomBytes(8).toString("hex");
   const payload = `${expiry}.${nonce}`;
   const mac = sign(payload);
   return {
     cookieName: COOKIE_NAME,
     value: `${payload}.${mac}`,
-    maxAgeSeconds: Math.floor(SESSION_TTL_MS / 1000),
+    maxAgeSeconds: Math.floor(ttl / 1000),
   };
 }
 
