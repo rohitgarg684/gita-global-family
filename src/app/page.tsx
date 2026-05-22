@@ -9,6 +9,8 @@ import {
   HandHeart,
   ArrowRight,
   Globe,
+  MessageCircleQuestion,
+  Sparkles,
 } from "lucide-react";
 import HeroCarousel from "@/components/HeroCarousel";
 import SectionHeading from "@/components/SectionHeading";
@@ -90,6 +92,24 @@ const articles = {
   ],
 };
 
+const featuredQuestions = [
+  {
+    id: "chanting-destroy-sorrow",
+    question:
+      "Can chanting destroy sorrow? Why do bad people appear happy while good people suffer?",
+  },
+  {
+    id: "is-god-formless-or-with-form",
+    question:
+      "Is the Supreme God with form, formless, both, or beyond both?",
+  },
+  {
+    id: "how-to-spend-earnings-wisely",
+    question:
+      "How should we use our earnings — and how much should we give in charity?",
+  },
+];
+
 const waysWeHelp = [
   {
     icon: BookOpen,
@@ -152,6 +172,118 @@ export default function HomePage() {
               </Link>
             </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* Q&A with BrahmBodhi — Discovery */}
+      <section className="relative section-padding py-16 md:py-24 bg-gradient-to-br from-cream via-white to-saffron/5 overflow-hidden">
+        {/* Decorative dharmic glow */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -top-24 -right-24 w-80 h-80 rounded-full bg-saffron/10 blur-3xl"
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -bottom-32 -left-20 w-96 h-96 rounded-full bg-gold/10 blur-3xl"
+        />
+
+        <div className="relative max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+            {/* Left: pitch */}
+            <motion.div {...fadeInUp}>
+              <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-saffron/10 border border-saffron/25 text-saffron-dark text-xs font-semibold uppercase tracking-wider">
+                <Sparkles className="w-3.5 h-3.5" />
+                New &middot; Q&amp;A with BrahmBodhi
+              </span>
+
+              <h2 className="mt-5 text-3xl md:text-4xl lg:text-5xl font-bold text-dark-brown leading-tight">
+                Seek &mdash; and the Gita shall answer.
+              </h2>
+
+              {/* Sanskrit shloka */}
+              <figure className="mt-6 pl-5 border-l-4 border-saffron bg-white/60 rounded-r-xl py-4 pr-4 backdrop-blur-sm">
+                <blockquote className="text-dark-brown font-medium text-base md:text-lg leading-relaxed whitespace-pre-line">
+                  {"तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया।\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः॥"}
+                </blockquote>
+                <figcaption className="mt-3 text-sm text-text-secondary italic">
+                  &ldquo;Approach the wise with humility, inquire from them
+                  sincerely, and serve them — the seers of truth will impart
+                  knowledge unto you.&rdquo;
+                  <span className="block mt-1 not-italic font-semibold text-saffron-dark">
+                    — Bhagavad Gita 4.34
+                  </span>
+                </figcaption>
+              </figure>
+
+              <p className="mt-6 text-text-secondary leading-relaxed text-base md:text-lg">
+                Life&apos;s deepest questions deserve timeless answers. Real
+                seekers ask — Sriyut BrahmBodhi responds with the living wisdom
+                of the Bhagavad Gita. From sorrow and karma to dharma and the
+                nature of the Supreme — find clarity for your journey.
+              </p>
+
+              <div className="mt-7 flex flex-wrap items-center gap-3">
+                <Link
+                  href="/qa-with-brahmbodhi"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg shadow-saffron/20"
+                >
+                  <MessageCircleQuestion className="w-4 h-4" />
+                  Explore Q&amp;A
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 px-6 py-3 border-2 border-saffron/40 text-saffron-dark font-semibold rounded-full hover:bg-saffron/10 transition-colors"
+                >
+                  Ask Your Own Question
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* Right: featured question cards */}
+            <motion.div
+              {...fadeInUp}
+              transition={{ duration: 0.5, delay: 0.15 }}
+              className="space-y-3"
+            >
+              <p className="text-xs font-semibold uppercase tracking-wider text-text-muted mb-2">
+                Trending questions answered
+              </p>
+              {featuredQuestions.map((q, i) => (
+                <motion.div
+                  key={q.id}
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: 0.1 + i * 0.08 }}
+                >
+                  <Link
+                    href={`/qa-with-brahmbodhi#${q.id}`}
+                    className="group flex items-start gap-4 p-4 md:p-5 bg-white rounded-2xl border border-cream-dark/40 hover:border-saffron/40 hover:shadow-md transition-all"
+                  >
+                    <div className="shrink-0 w-10 h-10 rounded-full bg-saffron/10 text-saffron group-hover:bg-saffron group-hover:text-white flex items-center justify-center font-bold transition-colors">
+                      Q
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm md:text-base font-medium text-dark-brown leading-snug group-hover:text-saffron-dark transition-colors">
+                        {q.question}
+                      </p>
+                      <span className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-saffron">
+                        Read the answer
+                        <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
+                      </span>
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
+              <Link
+                href="/qa-with-brahmbodhi"
+                className="block text-center text-sm font-semibold text-saffron hover:text-saffron-dark pt-2"
+              >
+                View all questions &rarr;
+              </Link>
+            </motion.div>
+          </div>
         </div>
       </section>
 
