@@ -20,6 +20,7 @@ const navLinks = [
     children: [
       { href: "/about", label: "About" },
       { href: "/brahmabodhi", label: "BrahmBodhi" },
+      { href: "/qa-with-brahmbodhi", label: "Q&A with BrahmBodhi" },
       { href: "/gita-gurukul", label: "Gita Gurukul" },
       { href: "/bhagavad-gita", label: "Bhagavad Gita" },
       {
