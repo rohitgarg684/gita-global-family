@@ -10,7 +10,6 @@ import { img } from "@/lib/image-url";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/spirituality", label: "Spirituality" },
-  { href: "/projects", label: "Projects" },
   { href: "/gita-publications", label: "Publications" },
   { href: "/events", label: "Events" },
   { href: "/blog", label: "Blogs" },
@@ -22,6 +21,7 @@ const navLinks = [
       { href: "/about", label: "About" },
       { href: "/brahmabodhi", label: "BrahmBodhi" },
       { href: "/qa-with-brahmbodhi", label: "Q&A with BrahmBodhi" },
+      { href: "/projects", label: "Projects" },
       { href: "/gita-gurukul", label: "Gita Gurukul" },
       { href: "/bhagavad-gita", label: "Bhagavad Gita" },
       {
@@ -41,22 +41,25 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-cream-dark/50">
-      <div className="section-padding">
-        <div className="flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="flex items-center gap-3">
+      <div className="px-4 sm:px-6 xl:px-8 2xl:px-12">
+        <div className="flex items-center justify-between gap-4 h-16 md:h-20">
+          <Link
+            href="/"
+            className="flex items-center gap-2 md:gap-3 shrink-0 min-w-0"
+          >
             <Image
               src={img("logo-icon.png")}
               alt="Gita Global Family"
               width={56}
               height={56}
-              className="w-11 h-11 md:w-14 md:h-14 rounded-lg"
+              className="w-10 h-10 md:w-12 md:h-12 xl:w-14 xl:h-14 rounded-lg"
             />
-            <span className="font-semibold text-lg md:text-xl text-dark-brown hidden sm:block">
+            <span className="font-semibold text-base xl:text-xl text-dark-brown hidden sm:block whitespace-nowrap">
               Gita Global Family
             </span>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden xl:flex items-center gap-0.5 2xl:gap-1 min-w-0">
             {navLinks.map((link) =>
               link.children ? (
                 <div
@@ -65,7 +68,7 @@ export default function Header() {
                   onMouseEnter={() => setDropdownOpen(true)}
                   onMouseLeave={() => setDropdownOpen(false)}
                 >
-                  <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-text-secondary hover:text-saffron transition-colors rounded-lg hover:bg-cream/50">
+                  <button className="flex items-center gap-1 px-2.5 2xl:px-3 py-2 text-sm font-medium text-text-secondary hover:text-saffron transition-colors rounded-lg hover:bg-cream/50 whitespace-nowrap">
                     {link.label}
                     <ChevronDown className="w-3.5 h-3.5" />
                   </button>
@@ -76,7 +79,7 @@ export default function Header() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 8 }}
                         transition={{ duration: 0.15 }}
-                        className="absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-lg border border-cream-dark/30 py-2 overflow-hidden"
+                        className="absolute top-full right-0 mt-1 w-64 bg-white rounded-xl shadow-lg border border-cream-dark/30 py-2 overflow-hidden"
                       >
                         {link.children.map((child) => (
                           <Link
@@ -95,7 +98,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href!}
-                  className="px-3 py-2 text-sm font-medium text-text-secondary hover:text-saffron transition-colors rounded-lg hover:bg-cream/50"
+                  className="px-2.5 2xl:px-3 py-2 text-sm font-medium text-text-secondary hover:text-saffron transition-colors rounded-lg hover:bg-cream/50 whitespace-nowrap"
                 >
                   {link.label}
                 </Link>
@@ -103,14 +106,14 @@ export default function Header() {
             )}
             <Link
               href="/join-us#donations"
-              className="ml-2 px-5 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-sm"
+              className="ml-2 px-4 2xl:px-5 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-sm whitespace-nowrap"
             >
               Support Us
             </Link>
           </nav>
 
           <button
-            className="lg:hidden p-2 text-text-secondary hover:text-saffron transition-colors"
+            className="xl:hidden p-2 text-text-secondary hover:text-saffron transition-colors shrink-0"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
@@ -126,9 +129,9 @@ export default function Header() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="lg:hidden overflow-hidden bg-white border-t border-cream-dark/30"
+            className="xl:hidden overflow-hidden bg-white border-t border-cream-dark/30"
           >
-            <nav className="section-padding py-4 space-y-1">
+            <nav className="px-4 sm:px-6 py-4 space-y-1">
               {navLinks.map((link) =>
                 link.children ? (
                   <div key={link.label}>

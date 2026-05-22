@@ -113,7 +113,18 @@ python3 scripts/upload-to-gcs.py \
 
 The script auto-categorizes files into `assets/images/`, `assets/icons/`, `assets/audio/`, `assets/documents/`, `assets/other/`. It skips files that already exist in the bucket.
 
+**By default, local files are deleted after a successful upload** (verified by a second `blob.exists()` check), and any now-empty subdirectories are pruned. Files referenced directly by the app/runtime — `manifest.json`, `favicon.ico`, `robots.txt`, `sitemap.xml` — are kept locally. Pass `--keep-local` to disable deletion.
+
 The bucket name is configurable via `--bucket` flag or `GCS_BUCKET` in `.env.local`.
+
+To retroactively make existing GCS objects publicly readable (e.g. if `make_public()` failed silently during a past upload):
+
+```bash
+python3 scripts/make-public.py \
+  --bucket gita-gloval-family.firebasestorage.app \
+  --prefix assets/ \
+  --credentials service-account-key.json
+```
 
 ## Bhagavad Gita Data
 

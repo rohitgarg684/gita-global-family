@@ -350,7 +350,6 @@ export default function ProjectsPage() {
         <div className="space-y-16 md:space-y-24 max-w-6xl mx-auto">
           {projects.map((p, i) => {
             const reverse = i % 2 === 1;
-            const Icon = p.icon;
             return (
               <motion.article
                 key={p.id}
@@ -371,10 +370,6 @@ export default function ProjectsPage() {
                       fill
                       className="object-cover"
                     />
-                    <div className="absolute top-4 left-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-saffron text-white text-xs font-bold uppercase tracking-wider shadow-lg">
-                      <Icon className="w-3.5 h-3.5" />
-                      {p.step}
-                    </div>
                   </div>
 
                   {/* Content */}
@@ -398,11 +393,12 @@ export default function ProjectsPage() {
                         {p.highlights.map((h) => (
                           <li
                             key={h}
-                            className="flex items-start gap-2 text-sm md:text-base text-text-secondary"
+                            className="flex items-start gap-3 text-sm md:text-base text-text-secondary leading-relaxed"
                           >
-                            <span className="text-saffron mt-1.5 shrink-0">
-                              &#9679;
-                            </span>
+                            <span
+                              aria-hidden
+                              className="mt-2 md:mt-2.5 w-1.5 h-1.5 rounded-full bg-saffron shrink-0"
+                            />
                             <span>{h}</span>
                           </li>
                         ))}
