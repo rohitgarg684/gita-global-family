@@ -22,6 +22,10 @@ const navLinks = [
       { href: "/brahmabodhi", label: "BrahmBodhi" },
       { href: "/gita-gurukul", label: "Gita Gurukul" },
       { href: "/bhagavad-gita", label: "Bhagavad Gita" },
+      {
+        href: "/allegations-against-hinduism",
+        label: "Allegations Against Hinduism",
+      },
       { href: "/networking", label: "Network" },
       { href: "/gallery", label: "Gallery" },
     ],
@@ -70,7 +74,7 @@ export default function Header() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 8 }}
                         transition={{ duration: 0.15 }}
-                        className="absolute top-full left-0 mt-1 w-48 bg-white rounded-xl shadow-lg border border-cream-dark/30 py-2 overflow-hidden"
+                        className="absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-lg border border-cream-dark/30 py-2 overflow-hidden"
                       >
                         {link.children.map((child) => (
                           <Link
