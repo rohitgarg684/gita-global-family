@@ -151,10 +151,10 @@ export default function QAWithBrahmBodhiPage() {
                           </span>
                         )}
                         <h3 className="text-base md:text-lg font-semibold text-dark-brown leading-snug group-hover:text-saffron transition-colors line-clamp-3">
-                          {item.hi ? item.hi.question : item.question}
+                          {item.question}
                         </h3>
                         <p className="mt-2 text-sm text-text-secondary leading-relaxed line-clamp-2">
-                          {item.preview || item.hi?.preview || ""}
+                          {item.preview}
                         </p>
                         <span className="mt-3 inline-flex items-center gap-1.5 text-sm text-saffron font-semibold">
                           Read answer <ArrowRight className="w-3.5 h-3.5" />
