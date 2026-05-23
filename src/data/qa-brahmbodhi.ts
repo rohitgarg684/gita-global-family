@@ -441,6 +441,214 @@ export const qaItems: QAItem[] = [
     ],
   },
   {
+    id: "how-to-overcome-acute-despondency",
+    question:
+      "How to overcome acute despondency — just as Arjuna did on the battlefield?",
+    preview:
+      "Just as Arjuna's despondency made him cast aside his bow, we too sometimes become overwhelmed by deep sorrow. The Gita's wisdom builds an armor of detachment, equanimity, and knowledge that protects the mind from despair.",
+    image: {
+      en: "qa-acute-despondency-en.jpeg",
+      hi: "qa-acute-despondency-hi.jpeg",
+      alt: { en: "How to overcome acute despondency", hi: "गहन विषाद से मुक्ति कैसे मिले?" },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "Your question has three parts. The first part is not really a question, but rather an observation or statement. You have said that in a state of despair Arjuna laid down his bow, declaring, \"I shall not fight,\" and sat down, while no reasoning seemed capable of bringing him out of that depression.",
+      },
+      {
+        type: "p",
+        text: "The second part is your actual question: Sometimes such deep sorrow and despondency fill the mind that no motivation, no reasoning, and no effort seem able to remove it. At such a time, what should we do so that the mind may emerge from that dreadful psychological condition?",
+      },
+      {
+        type: "p",
+        text: "The third question is this: how can the soul, bound by the deluding power of material nature, become free from bodily bondage and once again guide \"it\" toward the right direction?",
+      },
+      { type: "h", text: "Part One: Arjuna's Liberation from Despair" },
+      {
+        type: "p",
+        text: "Arjuna certainly fell into despair, but he also emerged completely out of it. Through the teachings of Lord Krishna, he attained a knowledge that utterly destroyed his despondency. Toward the end of the Gita, this is clearly stated:",
+      },
+      {
+        type: "quote",
+        text: "Naṣṭo mohaḥ smṛtir labdhā tvat-prasādān mayācyuta;\nSthito'smi gata-sandehaḥ kariṣye vacanaṁ tava.",
+        cite: "Bhagavad Gita 18.73",
+      },
+      {
+        type: "p",
+        text: "Meaning: \"O Achyuta! By Your grace my delusion has been destroyed, my memory has been restored, I now stand free from doubt, and I shall act according to Your word.\"",
+      },
+      {
+        type: "p",
+        text: "This itself contains the answer to your question. Just as Arjuna became free from despair through the wisdom of the Gita, so too can any human being free himself from despondency by listening to, understanding, and assimilating the teachings of the Bhagavad Gita. This freedom is not merely a temporary relief from one isolated sorrow. Gradually, it generates within a person such mental and spiritual strength that he begins to rise above all forms of despair in life.",
+      },
+      {
+        type: "p",
+        text: "That is why the wisdom of the Gita is not merely something to be read, but something to be deeply internalized. Read the Gita daily. Reflect upon its meaning. Slowly you will experience that your mind begins to move beyond sorrow and wander in inner spiritual bliss.",
+      },
+      { type: "h", text: "Part Two: The Soul, the Subtle Body, and the Source of Despair" },
+      {
+        type: "p",
+        text: "It is important to understand that the soul itself does not actively \"lead\" the mind anywhere. The soul is fundamentally a witness. The active elements are the mind, intellect, and ego. These think, decide, desire, and experience pleasure and pain.",
+      },
+      {
+        type: "p",
+        text: "Together, the mind, intellect, and ego constitute the subtle body. All three belong to material nature. In modern language, they form what may be called our \"empirical self\" or psychological personality.",
+      },
+      { type: "p", text: "The soul itself neither thinks, nor acts, nor experiences pleasure and pain. In the Gita, Lord Krishna says:" },
+      {
+        type: "quote",
+        text: "Prakṛiteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ;\nAhaṅkāra-vimūḍhātmā kartāham iti manyate.",
+        cite: "Bhagavad Gita 3.27",
+      },
+      {
+        type: "p",
+        text: "Meaning: \"All actions are performed by the qualities of material nature, but one whose mind is deluded by ego imagines himself to be the doer.\"",
+      },
+      {
+        type: "p",
+        text: "Hence, if despair is to be destroyed, its treatment must also occur at the level of mind, intellect, and ego. This is precisely what the Bhagavad Gita does. It reconstructs our consciousness. It reorganizes our mental structure.",
+      },
+      {
+        type: "p",
+        text: "Gradually, the wisdom of the Gita builds within a person an armor against despair. That armor consists of:",
+      },
+      {
+        type: "ul",
+        items: [
+          "The armor of detachment",
+          "The armor of equanimity",
+          "The armor of wisdom",
+        ],
+      },
+      {
+        type: "p",
+        text: "Then, when the arrows of sorrow, insult, loss, fear, and failure strike the mind, they collide with this armor of knowledge and slide away harmlessly. The Gita itself calls this equanimity Yoga:",
+      },
+      {
+        type: "quote",
+        text: "Samatvaṁ yoga ucyate.",
+        cite: "Bhagavad Gita 2.48",
+      },
+      {
+        type: "p",
+        text: "Therefore, daily study of the Gita is like adding one more layer to this protective armor every day. Slowly, the armor becomes so strong that the individual becomes inwardly secure. Then he may continue to live amidst sorrows, yet he no longer remains sorrow-stricken.",
+      },
+      { type: "h", text: "Part Three: Moksha — Liberation" },
+      {
+        type: "p",
+        text: "Perhaps unintentionally, you touched upon a very profound spiritual truth when you spoke of the soul becoming free from bodily bondage. This is what is called Moksha, liberation.",
+      },
+      {
+        type: "p",
+        text: "When the soul becomes free not only from the gross physical body but also from the subtle body, namely the mind, intellect, and ego, then it abides in its original nature and attains the divine abode of God, the very realm from which it once came before becoming entangled in the cycle of rebirth within this world.",
+      },
+      {
+        type: "p",
+        text: "The Bhagavad Gita also imparts the knowledge of this path of liberation and teaches by what means one may transcend the cycle of birth and death. However, that perhaps was not the principal subject of your question.",
+      },
+    ],
+    hi: {
+      question:
+        "गहन विषाद से मुक्ति कैसे मिले — जैसे अर्जुन का विषाद योग ने उसे धनुष रखकर बैठा दिया?",
+      preview:
+        "जैसे अर्जुन का विषाद योग ने उसे धनुष रखकर बैठा दिया, वैसे ही हमें भी कभी ऐसा विषाद भर जाता है। गीता का ज्ञान मनुष्य के भीतर अनासक्ति, समत्व और ज्ञान का कवच निर्मित करता है।",
+      answer: [
+        {
+          type: "p",
+          text: "आपके प्रश्न के तीन खंड हैं। पहला खंड वास्तव में प्रश्न नहीं, बल्कि एक विचार या कथन है। आपने कहा है कि विषाद की अवस्था में अर्जुन ने यह कहकर कि \"मैं युद्ध नहीं करूँगा\", अपना धनुष भूमि पर रख दिया और बैठ गया, तथा कोई भी कारण उसे उस डिप्रेशन से बाहर नहीं निकाल सका।",
+        },
+        {
+          type: "p",
+          text: "दूसरा खंड आपका वास्तविक प्रश्न है : कभी-कभी मन में ऐसा विषाद भर जाता है कि कोई प्रेरणा, कोई तर्क, कोई प्रयास उसे दूर नहीं कर पाता। उस समय हमें क्या करना चाहिए जिससे मन उस भयानक मनःस्थिति से बाहर निकल आए?",
+        },
+        {
+          type: "p",
+          text: "तीसरा प्रश्न यह है कि प्रकृति की माया की शक्ति से बँधी हुई आत्मा शरीर के बंधन से मुक्त होकर स्वतंत्र बने और पुनः \"उसे\" सही दिशा में ले जाए।",
+        },
+        { type: "h", text: "भाग एक : अर्जुन का विषाद-मुक्ति" },
+        {
+          type: "p",
+          text: "अर्जुन विषाद में अवश्य आ गया था, किंतु वह उस विषाद से पूर्णतः बाहर भी निकल गया। भगवान श्रीकृष्ण के उपदेशों से उसे ऐसा ज्ञान प्राप्त हुआ जिसने उसके विषाद का पूर्ण अंत कर दिया। गीता के अंत में यह बात स्पष्ट रूप से कही भी गई है :",
+        },
+        {
+          type: "quote",
+          text: "नष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत ।\nस्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव ॥",
+          cite: "भगवद्गीता 18.73",
+        },
+        {
+          type: "p",
+          text: "अर्थात् : \"हे अच्युत! आपका अनुग्रह प्राप्त होने से मेरा मोह नष्ट हो गया है, मेरी स्मृति लौट आई है, मैं अब संशयरहित होकर स्थित हूँ और आपके वचनों का पालन करूँगा।\"",
+        },
+        {
+          type: "p",
+          text: "यही आपके प्रश्न का भी उत्तर है। जिस प्रकार अर्जुन गीता के ज्ञान से विषादमुक्त हुआ, उसी प्रकार कोई भी मनुष्य गीता के वचनों को सुनकर, समझकर और आत्मसात करके विषाद से मुक्त हो सकता है। और यह मुक्ति केवल किसी एक दुःख से क्षणिक राहत नहीं देती, बल्कि धीरे-धीरे मनुष्य के भीतर ऐसी मानसिक और आध्यात्मिक शक्ति उत्पन्न करती है कि वह जीवन के समस्त विषादों के ऊपर उठने लगता है।",
+        },
+        {
+          type: "p",
+          text: "इसीलिए गीता का ज्ञान केवल पढ़ने की वस्तु नहीं, बल्कि हृदयंगम करने की वस्तु है। गीता को प्रतिदिन पढ़िए, उसके अर्थ पर मनन कीजिए। धीरे-धीरे आप अनुभव करेंगे कि आपका मन विषादों से मुक्त होकर आत्मानंद में विचरण करने लगा है।",
+        },
+        { type: "h", text: "भाग दो : आत्मा, सूक्ष्म शरीर और विषाद का स्रोत" },
+        {
+          type: "p",
+          text: "यह समझना आवश्यक है कि आत्मा स्वयं मन को कहीं \"ले\" नहीं जाती। आत्मा मूलतः साक्षीस्वरूप है। सक्रिय तत्व मन, बुद्धि और अहंकार हैं। यही सोचते हैं, निर्णय लेते हैं, इच्छाएँ करते हैं, दुख-सुख अनुभव करते हैं।",
+        },
+        {
+          type: "p",
+          text: "मन, बुद्धि और अहंकार मिलकर सूक्ष्म शरीर का निर्माण करते हैं। ये तीनों प्रकृति के तत्व हैं। आधुनिक भाषा में कहें तो यही हमारा \"empirical self\" या व्यवहारिक व्यक्तित्व बनाते हैं।",
+        },
+        { type: "p", text: "आत्मा स्वयं न सोचती है, न कर्म करती है, न दुख-सुख भोगती है। गीता में भगवान कहते हैं :" },
+        {
+          type: "quote",
+          text: "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः ।\nअहङ्कारविमूढात्मा कर्ताहमिति मन्यते ॥",
+          cite: "भगवद्गीता 3.27",
+        },
+        {
+          type: "p",
+          text: "अर्थात् : \"सारे कर्म प्रकृति के गुणों द्वारा संपन्न होते हैं, किंतु अहंकार से मोहित मनुष्य स्वयं को कर्ता मान बैठता है।\"",
+        },
+        {
+          type: "p",
+          text: "अतः यदि विषाद को नष्ट करना है, तो उसका उपचार भी मन, बुद्धि और अहंकार के स्तर पर ही करना होगा। यही कार्य भगवद्गीता करती है। वह हमारे चित्त का पुनर्निर्माण करती है। धीरे-धीरे गीता का ज्ञान मनुष्य के भीतर एक विषाद-रोधी कवच निर्मित करता है :",
+        },
+        {
+          type: "ul",
+          items: [
+            "अनासक्ति का कवच",
+            "समत्व का कवच",
+            "ज्ञान का कवच",
+          ],
+        },
+        {
+          type: "p",
+          text: "फिर जीवन के दुःख, अपमान, हानि, भय और असफलताओं के बाण जब उस मन पर आघात करते हैं, तो वे इस ज्ञान-कवच से टकराकर टूट जाते हैं। गीता स्वयं इसी समत्व को योग कहती है :",
+        },
+        {
+          type: "quote",
+          text: "समत्वं योग उच्यते",
+          cite: "भगवद्गीता 2.48",
+        },
+        {
+          type: "p",
+          text: "अतः प्रतिदिन गीता का अध्ययन ऐसा है मानो प्रतिदिन इस कवच की एक नई परत अपने ऊपर चढ़ाना। धीरे-धीरे यह कवच इतना सुदृढ़ हो जाता है कि मनुष्य भीतर से सुरक्षित हो जाता है। तब वह विषादों के बीच रहते हुए भी विषादग्रस्त नहीं रहता।",
+        },
+        { type: "h", text: "भाग तीन : मोक्ष — मुक्ति" },
+        {
+          type: "p",
+          text: "आपने अनायास ही एक अत्यंत गहरे आध्यात्मिक सत्य को छू लिया। आपने कहा कि आत्मा शरीर के बंधन से निकलकर स्वतंत्र हो जाए। वास्तव में इसी को मोक्ष कहते हैं।",
+        },
+        {
+          type: "p",
+          text: "जब आत्मा केवल स्थूल शरीर से ही नहीं, बल्कि सूक्ष्म शरीर अर्थात् मन, बुद्धि और अहंकार से भी मुक्त हो जाती है, तब वह अपने मूल स्वरूप में स्थित होकर परमात्मा के धाम को प्राप्त होती है।",
+        },
+        {
+          type: "p",
+          text: "भगवद्गीता इसी मोक्षमार्ग का भी ज्ञान देती है कि मनुष्य किन उपायों से जन्म-मृत्यु के चक्र से ऊपर उठ सकता है। किंतु संभवतः वह आपके प्रश्न का मुख्य विषय नहीं था।",
+        },
+      ],
+    },
+  },
+  {
     id: "miracle-or-mind-power",
     question: "Miracle or mind power — what did BrahmBodhi personally witness?",
     preview:

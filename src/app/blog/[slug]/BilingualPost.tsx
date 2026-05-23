@@ -166,12 +166,13 @@ export default function BilingualPost({ post }: { post: BilingualBlogPost }) {
 
       {image && (
         <div className="section-padding pb-0">
-          <div className="relative w-full max-w-4xl h-64 md:h-96 rounded-2xl overflow-hidden">
+          <div className="relative w-full max-w-4xl rounded-2xl overflow-hidden bg-cream">
             <Image
               src={image}
               alt={title}
-              fill
-              className="object-cover"
+              width={1200}
+              height={800}
+              className="w-full h-auto"
               priority
             />
           </div>
