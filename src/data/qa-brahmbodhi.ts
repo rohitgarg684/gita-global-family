@@ -40,7 +40,7 @@ export interface QAItem extends QATranslation {
 export const qaItems: QAItem[] = [
   {
     id: "chanting-destroy-sorrow",
-    coverImage: "qa-chanting-destroy-sorrow.svg",
+    coverImage: "qa-chanting-destroy-sorrow.jpg",
     question:
       "Can chanting (japa) destroy sorrow? Why do bad people appear happy while good people suffer?",
     preview:
