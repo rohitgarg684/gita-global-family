@@ -387,7 +387,7 @@ export const qaItems: QAItem[] = [
   },
   {
     id: "how-to-spend-earnings-wisely",
-    coverImage: "qa-earnings-charity.svg",
+    coverImage: "qa-earnings-charity.png",
     question:
       "How should we use our earnings in a way that benefits both ourselves and society — and how much should we give in charity?",
     preview:
