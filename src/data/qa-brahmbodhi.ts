@@ -671,4 +671,306 @@ export const qaItems: QAItem[] = [
       },
     ],
   },
+  {
+    id: "one-god-or-many-deities",
+    coverImage: "qa-one-god-or-many.png",
+    question:
+      "Should one worship One God or many deities?",
+    preview:
+      "According to the Gita, God is One alone. Deities grant temporary results, but exclusive devotion to the Supreme Lord is the path to moksha. Respect all deities, but make the Supreme your final refuge.",
+    answer: [
+      {
+        type: "p",
+        text: "This is one of the greatest confusions among followers of Sanatan Dharma. For this reason, many scholars describe Hinduism as a \"polytheistic\" religion, where many gods and deities are worshipped.",
+      },
+      {
+        type: "p",
+        text: "Therefore, it is extremely important to resolve this question properly.",
+      },
+      {
+        type: "p",
+        text: "You know that Sanatan Dharma has many scriptures, and they often speak in different voices. However, if we must arrive at a final conclusion, then it is only proper to give primary importance to that scripture which is not merely the voice of a sage, saint, or philosopher, but the direct voice of God Himself. For while the knowledge of saints and sages may be profound, it can still be limited, whereas God is omniscient.",
+      },
+      {
+        type: "p",
+        text: "Such a scripture is the Bhagavad Gita. It should also be remembered that not every verse of the Gita is spoken directly by God. Only those verses spoken by Lord Krishna Himself may be regarded as the direct speech of the Divine.",
+      },
+      {
+        type: "p",
+        text: "According to the Gita, God is One alone. In His essential nature, He is the unmanifest, formless, attributeless Brahman. Yet, when creation manifests, that same Supreme Reality reveals Himself in personal form as Narayana or Vishnu. At times, He also incarnates in human form, such as Sri Rama and Sri Krishna.",
+      },
+      {
+        type: "p",
+        text: "Therefore, the unmanifest Brahman, Lord Vishnu, and the incarnations Sri Rama and Sri Krishna are not separate realities. They are different manifestations of the same Supreme Truth.",
+      },
+      { type: "h", text: "Should one not worship any other deity?" },
+      {
+        type: "p",
+        text: "On this subject, the Gita is very clear. Lord Krishna says that those who seek fulfillment of worldly desires worship various deities, because such deities grant material results quickly:",
+      },
+      {
+        type: "quote",
+        text: "Kāmais tais tair hṛta-jñānāḥ prapadyante 'nya-devatāḥ,\ntaṁ taṁ niyamam āsthāya prakṛtyā niyatāḥ svayā.",
+        cite: "Bhagavad Gita 7.20",
+      },
+      { type: "p", text: "And further He says:" },
+      {
+        type: "quote",
+        text: "Antavat tu phalaṁ teṣāṁ tad bhavaty alpa-medhasām,\ndevān deva-yajo yānti mad-bhaktā yānti mām api.",
+        cite: "Bhagavad Gita 7.23",
+      },
+      {
+        type: "p",
+        text: "That is, the fruits obtained through the worship of deities are temporary and perishable. The worshippers of deities attain the worlds of those deities, whereas My devotees attain Me.",
+      },
+      {
+        type: "p",
+        text: "The Lord clarifies the same point elsewhere:",
+      },
+      {
+        type: "quote",
+        text: "Kāṅkṣantaḥ karmaṇāṁ siddhiṁ yajanta iha devatāḥ,\nkṣipraṁ hi mānuṣe loke siddhir bhavati karma-jā.",
+        cite: "Bhagavad Gita 4.12",
+      },
+      {
+        type: "p",
+        text: "Meaning: those who desire success in worldly actions worship the deities, because material success comes quickly in the human world through such worship.",
+      },
+      {
+        type: "p",
+        text: "The implication is also this: deities often grant the fulfillment of desires without necessarily judging whether those desires will ultimately benefit or harm the devotee. But God sees with a far wider vision. He grants only that which is ultimately beneficial for both the individual and the world.",
+      },
+      { type: "h", text: "Why worship God instead of deities?" },
+      {
+        type: "p",
+        text: "The answer is that all worldly pleasures are temporary. Eternal and everlasting happiness comes only through moksha, liberation from the cycle of rebirth. Lord Krishna says:",
+      },
+      {
+        type: "quote",
+        text: "Mām upetya punar janma duḥkhālayam aśāśvatam,\nnāpnuvanti mahātmānaḥ saṁsiddhiṁ paramāṁ gatāḥ.",
+        cite: "Bhagavad Gita 8.15",
+      },
+      {
+        type: "p",
+        text: "Meaning: having attained Me, the great souls do not return again to this temporary world, which is a dwelling place of suffering.",
+      },
+      {
+        type: "p",
+        text: "When the soul attains God, it becomes free from rebirth and reaches the Supreme Abode:",
+      },
+      {
+        type: "quote",
+        text: "Yad gatvā na nivartante tad dhāma paramaṁ mama.",
+        cite: "Bhagavad Gita 15.6",
+      },
+      { type: "h", text: "The necessity of exclusive devotion" },
+      {
+        type: "p",
+        text: "Now the most important point is this: realization of God comes only through exclusive surrender. If the mind remains divided among many deities, then it cannot be called complete self-surrender. The Lord says:",
+      },
+      {
+        type: "quote",
+        text: "Ananyāś cintayanto māṁ ye janāḥ paryupāsate,\nteṣāṁ nityābhiyuktānāṁ yoga-kṣemaṁ vahāmy aham.",
+        cite: "Bhagavad Gita 9.22",
+      },
+      {
+        type: "p",
+        text: "Meaning: those who worship Me alone with undivided devotion, I Myself take care of their welfare and needs.",
+      },
+      { type: "h", text: "The difference between reverence and surrender" },
+      {
+        type: "p",
+        text: "Now you may ask: if exclusive devotion is supreme, then why does the Gita speak about honoring gods, teachers, scholars, and the learned?",
+      },
+      {
+        type: "quote",
+        text: "Deva-dvija-guru-prājña-pūjanaṁ śaucam ārjavam,\nbrahmacaryam ahiṁsā ca śārīraṁ tapa ucyate.",
+        cite: "Bhagavad Gita 17.14",
+      },
+      {
+        type: "p",
+        text: "Here it is necessary to understand the distinction between \"pūjan\" and \"upāsanā.\" \"Pūjan\" means respect, honor, and reverence. \"Upāsanā\" means devotional self-surrender. One should certainly respect deities, teachers, scholars, and the wise. But one's complete inner surrender should belong only to the Supreme God.",
+      },
+      {
+        type: "p",
+        text: "Therefore, if according to tradition or social custom you respectfully bow before your family deity, village deity, Goddess Saraswati, or Goddess Durga, and offer flowers and leaves, there is no fault in it. It is an expression of reverence and cultural propriety.",
+      },
+      {
+        type: "p",
+        text: "However, to seek ultimate refuge in them, to make worldly demands from them, or to treat them as the highest spiritual destination, is not presented in the Gita as the supreme path.",
+      },
+      { type: "h", text: "An analogy to understand" },
+      {
+        type: "p",
+        text: "A married man has a unique and exclusive loyalty toward his wife. This does not mean he insults or disrespects other women. He will still treat them respectfully and courteously. But emotional and marital surrender belongs only to his wife.",
+      },
+      {
+        type: "p",
+        text: "Similarly, once you have accepted God as your chosen Deity, whether in the form of Sri Rama, Sri Krishna, Lord Narayana, or the formless Brahman, then your complete inner surrender should belong to Him alone.",
+      },
+      {
+        type: "p",
+        text: "Respect other deities. Bow before them. Offer flowers if needed. But do not build relationships of desire and dependence upon them.",
+      },
+      {
+        type: "p",
+        text: "If you must pray to them, then pray like this: \"May I receive unwavering devotion toward my Lord.\" That is enough. The rest of your genuine needs will be taken care of by God Himself. That is His promise.",
+      },
+      { type: "h", text: "The message of the Gita" },
+      {
+        type: "p",
+        text: "Ultimately, the message of the Gita is this: There is only one Supreme God. Exclusive devotion to Him is the path to liberation. Respect all deities, but make the Supreme Lord alone your final refuge.",
+      },
+    ],
+    hi: {
+      question:
+        "एक की पूजा करें या अनेक देवताओं की?",
+      preview:
+        "गीता के अनुसार परमात्मा एक ही है। देवताओं की पूजा से नश्वर फल प्राप्त होते हैं, किंतु ईश्वर की अनन्य भक्ति ही मोक्ष का मार्ग है। अन्य देवताओं का सम्मान करें, किंतु अंतिम आश्रय केवल परमात्मा को बनाएँ।",
+      answer: [
+        {
+          type: "p",
+          text: "सनातन धर्म के अनुयायियों की सबसे बड़ी उलझनों में से एक यही है। इसी कारण अनेक विद्वान हिंदू धर्म को \"पॉलीथीस्टिक\" अर्थात् बहुदेववादी धर्म कहते हैं, जहाँ अनेक देवताओं की पूजा की जाती है।",
+        },
+        {
+          type: "p",
+          text: "इस प्रश्न का समाधान अत्यंत आवश्यक है।",
+        },
+        {
+          type: "p",
+          text: "आप जानते हैं कि सनातन धर्म में अनेक शास्त्र हैं और वे अनेक प्रकार की बातें करते हैं। किंतु यदि हमें अंतिम निर्णय करना हो, तो उचित यही होगा कि हम उस ग्रंथ को प्राथमिकता दें जो किसी ऋषि, संत या दार्शनिक की वाणी नहीं, बल्कि स्वयं भगवान की वाणी है। क्योंकि ऋषियों और संतों का ज्ञान महान होते हुए भी सीमित हो सकता है, जबकि ईश्वर सर्वज्ञ हैं।",
+        },
+        {
+          type: "p",
+          text: "ऐसा ग्रंथ है भगवद्गीता। ध्यान रहे कि गीता के सभी श्लोक भगवान के वचन नहीं हैं। केवल वे श्लोक जो श्रीकृष्ण ने कहे हैं, वही प्रत्यक्ष ईश्वर-वाणी माने जा सकते हैं।",
+        },
+        {
+          type: "p",
+          text: "गीता के अनुसार परमात्मा एक ही है। वे मूलतः अव्यक्त, निराकार और निर्गुण ब्रह्म हैं। किंतु सृष्टि की रचना करते समय वही परमात्मा साकार ईश्वर रूप में प्रकट होते हैं, जिन्हें हम नारायण या विष्णु कहते हैं। वही समय-समय पर मनुष्य रूप में अवतार भी ग्रहण करते हैं, जैसे श्रीराम और श्रीकृष्ण।",
+        },
+        {
+          type: "p",
+          text: "अतः अव्यक्त ब्रह्म, साकार भगवान विष्णु, तथा अवतार रूप श्रीराम और श्रीकृष्ण, ये अलग-अलग सत्ता नहीं हैं। ये एक ही परम सत्य के विविध प्राकट्य हैं।",
+        },
+        { type: "h", text: "क्या अन्य देवताओं की पूजा नहीं करनी चाहिए?" },
+        {
+          type: "p",
+          text: "इस विषय में गीता का दृष्टिकोण अत्यंत स्पष्ट है। भगवान कहते हैं कि जो लोग सांसारिक कामनाओं की पूर्ति चाहते हैं, वे देवताओं की उपासना करते हैं, क्योंकि देवता शीघ्र फल प्रदान करते हैं :",
+        },
+        {
+          type: "quote",
+          text: "कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः।\nतं तं नियममास्थाय प्रकृत्या नियताः स्वया॥",
+          cite: "भगवद्गीता 7.20",
+        },
+        { type: "p", text: "और आगे भगवान कहते हैं :" },
+        {
+          type: "quote",
+          text: "अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम्।\nदेवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि॥",
+          cite: "भगवद्गीता 7.23",
+        },
+        {
+          type: "p",
+          text: "अर्थात् देवताओं की पूजा से प्राप्त होने वाले फल नश्वर होते हैं। देवताओं के उपासक देवलोक को प्राप्त होते हैं, जबकि मेरे भक्त मुझे प्राप्त होते हैं।",
+        },
+        {
+          type: "p",
+          text: "इसी भाव को भगवान एक अन्य स्थान पर और भी स्पष्ट करते हैं :",
+        },
+        {
+          type: "quote",
+          text: "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः।\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा॥",
+          cite: "भगवद्गीता 4.12",
+        },
+        {
+          type: "p",
+          text: "अर्थात् जो लोग कर्मों की सिद्धि चाहते हैं, वे देवताओं की पूजा करते हैं, क्योंकि उनसे मनुष्यलोक में कर्मजन्य सिद्धि शीघ्र प्राप्त होती है।",
+        },
+        {
+          type: "p",
+          text: "इसका निहितार्थ यह भी है कि देवता प्रायः केवल कामना की पूर्ति करते हैं। वे यह आवश्यक नहीं देखते कि वह कामना अंततः आपके हित में है या अहित में। किंतु ईश्वर व्यापक दृष्टि से देखते हैं। वे वही देते हैं जो अंततः आपके और संसार के कल्याण में हो।",
+        },
+        { type: "h", text: "देवताओं के बजाय ईश्वर की उपासना क्यों?" },
+        {
+          type: "p",
+          text: "उत्तर यह है कि संसार के सारे सुख अस्थायी हैं। स्थायी और शाश्वत सुख केवल मोक्ष से मिलता है। और मोक्ष का अर्थ है पुनर्जन्म के चक्र से मुक्ति। भगवान कहते हैं :",
+        },
+        {
+          type: "quote",
+          text: "मामुपेत्य पुनर्जन्म दुःखालयमशाश्वतम्।\nनाप्नुवन्ति महात्मानः संसिद्धिं परमां गताः॥",
+          cite: "भगवद्गीता 8.15",
+        },
+        {
+          type: "p",
+          text: "अर्थात् मुझे प्राप्त होकर महात्मा पुनः इस दुःखरूप और अनित्य संसार में जन्म नहीं लेते।",
+        },
+        {
+          type: "p",
+          text: "जब आत्मा ईश्वर को प्राप्त कर लेती है, तब वह पुनर्जन्म से मुक्त होकर परम धाम को प्राप्त होती है :",
+        },
+        {
+          type: "quote",
+          text: "यद्गत्वा न निवर्तन्ते तद्धाम परमं मम॥",
+          cite: "भगवद्गीता 15.6",
+        },
+        { type: "h", text: "अनन्य भक्ति की आवश्यकता" },
+        {
+          type: "p",
+          text: "अब महत्वपूर्ण बात यह है कि ईश्वर-प्राप्ति केवल अनन्य समर्पण से होती है। यदि मन अनेक देवताओं में बँटा रहेगा, तो वह पूर्ण आत्मसमर्पण नहीं कहलाएगा। भगवान कहते हैं :",
+        },
+        {
+          type: "quote",
+          text: "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्॥",
+          cite: "भगवद्गीता 9.22",
+        },
+        {
+          type: "p",
+          text: "अर्थात् जो लोग केवल मेरा ही चिंतन और उपासना करते हैं, उनके योगक्षेम का भार मैं स्वयं उठाता हूँ।",
+        },
+        { type: "h", text: "पूजन और उपासना में अंतर" },
+        {
+          type: "p",
+          text: "अब आप पूछ सकते हैं : यदि एकनिष्ठ भक्ति ही सर्वोच्च है, तो फिर गीता में \"देव, द्विज, गुरु और प्राज्ञ\" के पूजन की बात क्यों कही गई?",
+        },
+        {
+          type: "quote",
+          text: "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम्।\nब्रह्मचर्यमहिंसा च शारीरं तप उच्यते॥",
+          cite: "भगवद्गीता 17.14",
+        },
+        {
+          type: "p",
+          text: "यहाँ \"पूजन\" और \"उपासना\" में अंतर समझना आवश्यक है। \"पूजन\" का अर्थ है आदर, सम्मान, सत्कार। \"उपासना\" का अर्थ है भक्ति-पूर्ण आत्मसमर्पण। देवताओं, गुरुजनों, विद्वानों और द्विजों का सम्मान अवश्य करना चाहिए। किंतु अपने हृदय का पूर्ण आत्मसमर्पण केवल परमेश्वर को करना चाहिए।",
+        },
+        {
+          type: "p",
+          text: "अतः यदि आप परंपरा या लोकाचार के अनुसार समयानुसार कुलदेवी, ग्रामदेवता, भगवती सरस्वती या दुर्गा देवी को प्रणाम करते हैं, पत्र-पुष्प अर्पित करते हैं, तो इसमें कोई दोष नहीं है। यह सम्मान और सांस्कृतिक मर्यादा का पालन है।",
+        },
+        {
+          type: "p",
+          text: "किन्तु उनसे सांसारिक याचनाएँ करना, उनसे जीवन का अंतिम आश्रय माँगना, या उन्हें ही परम लक्ष्य मान लेना, गीता के अनुसार सर्वोच्च मार्ग नहीं है।",
+        },
+        { type: "h", text: "एक उदाहरण से समझिए" },
+        {
+          type: "p",
+          text: "एक विवाहित पुरुष अपनी पत्नी के प्रति जिस प्रकार की अनन्य निष्ठा रखता है, वैसी निष्ठा वह संसार की अन्य स्त्रियों के प्रति नहीं रख सकता। इसका अर्थ यह नहीं कि वह अन्य स्त्रियों का अपमान करे। वह उनका सम्मान करेगा, शिष्टाचार निभाएगा, किंतु भावनात्मक और दांपत्य-प्रकार का समर्पण केवल अपनी पत्नी के प्रति रखेगा।",
+        },
+        {
+          type: "p",
+          text: "इसी प्रकार, यदि आपने ईश्वर को अपना इष्ट मान लिया, चाहे श्रीराम के रूप में, श्रीकृष्ण के रूप में, भगवान नारायण के रूप में अथवा निराकार ब्रह्म के रूप में, तो आपके हृदय का पूर्ण आत्मसमर्पण उन्हीं के प्रति होना चाहिए।",
+        },
+        {
+          type: "p",
+          text: "अन्य देवताओं का आदर करें, प्रणाम करें, पत्र-पुष्प अर्पित करें, किंतु उनसे याचनाओं का संबंध न बनाएँ।",
+        },
+        {
+          type: "p",
+          text: "यदि प्रार्थना करनी ही हो, तो यह करें : \"हे देवता/देवी मेरे भीतर मेरे प्रभु के प्रति अनन्य भक्ति उत्पन्न कीजिए।\" बस। शेष आवश्यकताओं का भार भगवान स्वयं उठाएँगे। यही उनकी प्रतिज्ञा है।",
+        },
+        { type: "h", text: "गीता का संदेश" },
+        {
+          type: "p",
+          text: "अंततः गीता का संदेश यही है : एक ही परमेश्वर है। उसी की अनन्य भक्ति मोक्ष का मार्ग है। अन्य देवताओं का सम्मान करें, किंतु अंतिम आश्रय केवल परमात्मा को बनाएँ।",
+        },
+      ],
+    },
+  },
 ];
