@@ -3,11 +3,34 @@ import Image from "next/image";
 import { ArrowLeft, Calendar } from "lucide-react";
 import type { Metadata } from "next";
 import { img } from "@/lib/image-url";
+import BilingualPost from "./BilingualPost";
 
-const blogPosts: Record<
-  string,
-  { title: string; date?: string; image?: string; content: string[] }
-> = {
+interface SimpleBlogPost {
+  title: string;
+  date?: string;
+  image?: string;
+  content: string[];
+}
+
+export interface BilingualBlogPost {
+  bilingual: true;
+  titleEn: string;
+  titleHi: string;
+  date?: string;
+  imageEn?: string;
+  imageHi?: string;
+  youtubeUrl?: string;
+  contentEn: string[];
+  contentHi: string[];
+}
+
+type BlogPost = SimpleBlogPost | BilingualBlogPost;
+
+function isBilingual(post: BlogPost): post is BilingualBlogPost {
+  return "bilingual" in post && post.bilingual === true;
+}
+
+const blogPosts: Record<string, BlogPost> = {
   "the-benefits-of-yoga-for-mental-health": {
     title: "Does Bhagavad Gita Support the Hindu Caste System?",
     date: "Jan 5, 2025",
@@ -109,6 +132,86 @@ const blogPosts: Record<
         "\u0907\u0928 \u0935\u093f\u0915\u093e\u0930\u094b\u0902 \u0915\u094b \u0926\u0942\u0930 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0906\u0924\u094d\u092e-\u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923, \u0927\u094d\u092f\u093e\u0928, \u0914\u0930 \u0938\u0924\u094d\u0938\u0902\u0917 \u0906\u0935\u0936\u094d\u092f\u0915 \u0939\u0948\u0964 \u091c\u092c \u0939\u092e \u0905\u092a\u0928\u0947 \u092e\u0928 \u0915\u094b \u0936\u0941\u0926\u094d\u0927 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902, \u0924\u092c \u0908\u0936\u094d\u0935\u0930 \u0926\u0930\u094d\u0936\u0928 \u0938\u0902\u092d\u0935 \u0939\u094b\u0924\u093e \u0939\u0948\u0964",
       ],
     },
+  "how-to-overcome-acute-despondency": {
+    bilingual: true,
+    titleEn: "How to Overcome Acute Despondency",
+    titleHi: "गहन विषाद से मुक्ति कैसे मिले?",
+    date: "May 23, 2026",
+    imageEn: img("qa-acute-despondency-en.jpeg"),
+    imageHi: img("qa-acute-despondency-hi.jpeg"),
+    contentEn: [
+      "@@question@@Just as Arjuna's despondency in the Yoga of Despair made him say, \"I shall not fight,\" causing him to cast aside his bow and sit down on the battlefield, and no argument seemed capable of bringing him out of that depression, similarly we too sometimes become overwhelmed by such deep sorrow and dejection that no inspiration to act remains within us. At such a time, what should we do so that the mind may emerge from that most terrible mental state, and the soul, bound by the deluding power of material nature, may become free from the bondage of the body and lead it back toward the right direction?",
+      "@@answer@@Your question has three parts.",
+      "The first part is not really a question, but rather an observation or statement. You have said that in a state of despair Arjuna laid down his bow, declaring, \"I shall not fight,\" and sat down, while no reasoning seemed capable of bringing him out of that depression.",
+      "The second part is your actual question:\nSometimes such deep sorrow and despondency fill the mind that no motivation, no reasoning, and no effort seem able to remove it. At such a time, what should we do so that the mind may emerge from that dreadful psychological condition?",
+      "The third question is this: how can the soul, bound by the deluding power of material nature, become free from bodily bondage and once again guide \"it\" toward the right direction?",
+      "@@section@@Let us begin with the first part.",
+      "Arjuna certainly fell into despair, but he also emerged completely out of it. Through the teachings of Lord Krishna, he attained a knowledge that utterly destroyed his despondency. Toward the end of the Gita, this is clearly stated:",
+      "@@shloka@@Naṣṭo mohaḥ smṛtir labdhā tvat-prasādān mayācyuta;\nSthito'smi gata-sandehaḥ kariṣye vacanaṁ tava.\n(Bhagavad Gita 18.73)",
+      "@@meaning@@\"O Achyuta! By Your grace my delusion has been destroyed, my memory has been restored, I now stand free from doubt, and I shall act according to Your word.\"",
+      "This itself contains the answer to your question.",
+      "Just as Arjuna became free from despair through the wisdom of the Gita, so too can any human being free himself from despondency by listening to, understanding, and assimilating the teachings of the Bhagavad Gita. This freedom is not merely a temporary relief from one isolated sorrow. Gradually, it generates within a person such mental and spiritual strength that he begins to rise above all forms of despair in life.",
+      "Even if despondency arises again due to some special circumstance, contemplation upon the Gita restores balance once more.",
+      "That is why the wisdom of the Gita is not merely something to be read, but something to be deeply internalized. Read the Gita daily. Reflect upon its meaning. Slowly you will experience that your mind begins to move beyond sorrow and wander in inner spiritual bliss.",
+      "@@section@@Now let us come to your third question.",
+      "Your question has been expressed somewhat roughly. You said that the soul should become free from bodily bondage and then guide \"it\" in the right direction. The question naturally arises: whom do you mean by \"it\"? The mind? The sorrow-stricken personality?",
+      "If that is your meaning, then it is important to understand that the soul itself does not actively \"lead\" the mind anywhere. The soul is fundamentally a witness. The active elements are the mind, intellect, and ego. These think, decide, desire, and experience pleasure and pain.",
+      "Together, the mind, intellect, and ego constitute the subtle body. All three belong to material nature. In modern language, they form what may be called our \"empirical self\" or psychological personality.",
+      "The soul itself neither thinks, nor acts, nor experiences pleasure and pain. In the Gita, Lord Krishna says:",
+      "@@shloka@@Prakṛiteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ;\nAhaṅkāra-vimūḍhātmā kartāham iti manyate.\n(Bhagavad Gita 3.27)",
+      "@@meaning@@\"All actions are performed by the qualities of material nature, but one whose mind is deluded by ego imagines himself to be the doer.\"",
+      "Our soul remains attached, as if glued by Maya, to this personality made of mind, intellect, and ego. Therefore, we begin to mistake ourselves for what is in reality merely an instrument of material nature.",
+      "Hence, if despair is to be destroyed, its treatment must also occur at the level of mind, intellect, and ego. This is precisely what the Bhagavad Gita does. It reconstructs our consciousness. It reorganizes our mental structure.",
+      "Gradually, the wisdom of the Gita builds within a person an armor against despair.",
+      "@@list@@the armor of detachment,\nthe armor of equanimity,\nthe armor of wisdom.",
+      "Then, when the arrows of sorrow, insult, loss, fear, and failure strike the mind, they collide with this armor of knowledge and slide away harmlessly.",
+      "The Gita itself calls this equanimity Yoga:",
+      "@@shloka@@Samatvaṁ yoga ucyate.\n(Bhagavad Gita 2.48)",
+      "Therefore, daily study of the Gita is like adding one more layer to this protective armor every day. Slowly, the armor becomes so strong that the individual becomes inwardly secure. Then he may continue to live amidst sorrows, yet he no longer remains sorrow-stricken.",
+      "@@section@@Now finally, there is a fourth point.",
+      "Perhaps unintentionally, you touched upon a very profound spiritual truth when you spoke of the soul becoming free from bodily bondage.",
+      "This is what is called Moksha, liberation.",
+      "When the soul becomes free not only from the gross physical body but also from the subtle body, namely the mind, intellect, and ego, then it abides in its original nature and attains the divine abode of God, the very realm from which it once came before becoming entangled in the cycle of rebirth within this world.",
+      "The Bhagavad Gita also imparts the knowledge of this path of liberation and teaches by what means one may transcend the cycle of birth and death.",
+      "However, that perhaps was not the principal subject of your question.",
+    ],
+    contentHi: [
+      "@@question@@जैसे अर्जुन का विषाद योग ने उसे \"मैं युद्ध नहीं करूँगा\" कहकर धनुष ज़मीन पर रख कर नीचे बैठा दिया। कोई भी कारण उसे अपने डिप्रेशन से बाहर नहीं निकाल सका वैसे ही हमें भी कभी कभी ऐसा विषाद मन में भर जाता है और कुछ कर सकने की कोई प्रेरणा काम नहीं करती। उस समय हमें क्या करना चाहिए जिससे मन उस सबसे भयानक मनोस्थिति से बाहर निकल आये और प्रकृति की माया की शक्ति के द्वारा जकड़ी हुई आत्मा शरीर के बंधन से निकल कर स्वतंत्र होकर वापिस उसे सही दिशा में ले आये।",
+      "@@answer@@आपके प्रश्न के तीन खंड हैं।",
+      "पहला खंड वास्तव में प्रश्न नहीं, बल्कि एक विचार या कथन है। आपने कहा है कि विषाद की अवस्था में अर्जुन ने यह कहकर कि \"मैं युद्ध नहीं करूँगा\", अपना धनुष भूमि पर रख दिया और बैठ गया, तथा कोई भी कारण उसे उस डिप्रेशन से बाहर नहीं निकाल सका।",
+      "दूसरा खंड आपका वास्तविक प्रश्न है :\nकभी-कभी मन में ऐसा विषाद भर जाता है कि कोई प्रेरणा, कोई तर्क, कोई प्रयास उसे दूर नहीं कर पाता। उस समय हमें क्या करना चाहिए जिससे मन उस भयानक मनःस्थिति से बाहर निकल आए?",
+      "तीसरा प्रश्न यह है कि प्रकृति की माया की शक्ति से बँधी हुई आत्मा शरीर के बंधन से मुक्त होकर स्वतंत्र बने और पुनः \"उसे\" सही दिशा में ले जाए।",
+      "@@section@@अब हम पहले खंड से आरंभ करते हैं।",
+      "अर्जुन विषाद में अवश्य आ गया था, किंतु वह उस विषाद से पूर्णतः बाहर भी निकल गया। भगवान श्रीकृष्ण के उपदेशों से उसे ऐसा ज्ञान प्राप्त हुआ जिसने उसके विषाद का पूर्ण अंत कर दिया। गीता के अंत में यह बात स्पष्ट रूप से कही भी गई है :",
+      "@@shloka@@नष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत ।\nस्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव ॥\n(भगवद्गीता 18.73)",
+      "@@meaning@@\"हे अच्युत! आपका अनुग्रह प्राप्त होने से मेरा मोह नष्ट हो गया है, मेरी स्मृति लौट आई है, मैं अब संशयरहित होकर स्थित हूँ और आपके वचनों का पालन करूँगा।\"",
+      "यही आपके प्रश्न का भी उत्तर है।",
+      "जिस प्रकार अर्जुन गीता के ज्ञान से विषादमुक्त हुआ, उसी प्रकार कोई भी मनुष्य गीता के वचनों को सुनकर, समझकर और आत्मसात करके विषाद से मुक्त हो सकता है। और यह मुक्ति केवल किसी एक दुःख से क्षणिक राहत नहीं देती, बल्कि धीरे-धीरे मनुष्य के भीतर ऐसी मानसिक और आध्यात्मिक शक्ति उत्पन्न करती है कि वह जीवन के समस्त विषादों के ऊपर उठने लगता है।",
+      "यदि कभी किसी विशेष कारण से पुनः विषाद उत्पन्न भी हो जाए, तो गीता का चिंतन उसे पुनः संतुलन प्रदान कर देता है।",
+      "इसीलिए गीता का ज्ञान केवल पढ़ने की वस्तु नहीं, बल्कि हृदयंगम करने की वस्तु है। गीता को प्रतिदिन पढ़िए, उसके अर्थ पर मनन कीजिए। धीरे-धीरे आप अनुभव करेंगे कि आपका मन विषादों से मुक्त होकर आत्मानंद में विचरण करने लगा है।",
+      "@@section@@अब आपके तीसरे प्रश्न पर आते हैं।",
+      "आपका प्रश्न थोड़ा अनगढ़ रूप में व्यक्त हुआ है। आपने कहा कि आत्मा शरीर के बंधन से निकलकर स्वतंत्र होकर \"उसे\" सही दिशा में ले जाए। यहाँ प्रश्न उठता है कि \"उसे\" से आपका अभिप्राय किससे है? मन से? विषादग्रस्त व्यक्तित्व से?",
+      "यदि यही आपका आशय है, तो यह समझना आवश्यक है कि आत्मा स्वयं मन को कहीं \"ले\" नहीं जाती। आत्मा मूलतः साक्षीस्वरूप है। सक्रिय तत्व मन, बुद्धि और अहंकार हैं। यही सोचते हैं, निर्णय लेते हैं, इच्छाएँ करते हैं, दुख-सुख अनुभव करते हैं।",
+      "मन, बुद्धि और अहंकार मिलकर सूक्ष्म शरीर का निर्माण करते हैं। ये तीनों प्रकृति के तत्व हैं। आधुनिक भाषा में कहें तो यही हमारा \"empirical self\" या व्यवहारिक व्यक्तित्व बनाते हैं।",
+      "आत्मा स्वयं न सोचती है, न कर्म करती है, न दुख-सुख भोगती है। गीता में भगवान कहते हैं :",
+      "@@shloka@@प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः ।\nअहङ्कारविमूढात्मा कर्ताहमिति मन्यते ॥\n(भगवद्गीता 3.27)",
+      "@@meaning@@\"सारे कर्म प्रकृति के गुणों द्वारा संपन्न होते हैं, किंतु अहंकार से मोहित मनुष्य स्वयं को कर्ता मान बैठता है।\"",
+      "हमारी आत्मा इस मन-बुद्धि-अहंकार से बने व्यक्तित्व के साथ माया के गोंद से चिपकी रहती है। इसी कारण हम स्वयं को वही मानने लगते हैं जो वास्तव में केवल प्रकृति का एक उपकरण है।",
+      "अतः यदि विषाद को नष्ट करना है, तो उसका उपचार भी मन, बुद्धि और अहंकार के स्तर पर ही करना होगा। यही कार्य भगवद्गीता करती है। वह हमारे चित्त का पुनर्निर्माण करती है। वह हमारी मानसिक संरचना को पुनः संयोजित करती है।",
+      "धीरे-धीरे गीता का ज्ञान मनुष्य के भीतर एक विषाद-रोधी कवच निर्मित करता है।",
+      "@@list@@अनासक्ति का कवच\nसमत्व का कवच\nज्ञान का कवच",
+      "फिर जीवन के दुःख, अपमान, हानि, भय और असफलताओं के बाण जब उस मन पर आघात करते हैं, तो वे इस ज्ञान-कवच से टकराकर टूट जाते हैं, या फिसलकर निष्प्रभावी हो जाते हैं।",
+      "गीता स्वयं इसी समत्व को योग कहती है :",
+      "@@shloka@@समत्वं योग उच्यते\n(भगवद्गीता 2.48)",
+      "अतः प्रतिदिन गीता का अध्ययन ऐसा है मानो प्रतिदिन इस कवच की एक नई परत अपने ऊपर चढ़ाना। धीरे-धीरे यह कवच इतना सुदृढ़ हो जाता है कि मनुष्य भीतर से सुरक्षित हो जाता है। तब वह विषादों के बीच रहते हुए भी विषादग्रस्त नहीं रहता।",
+      "@@section@@अब अंत में एक चौथी बात।",
+      "आपने अनायास ही एक अत्यंत गहरे आध्यात्मिक सत्य को छू लिया। आपने कहा कि आत्मा शरीर के बंधन से निकलकर स्वतंत्र हो जाए।",
+      "वास्तव में इसी को मोक्ष कहते हैं।",
+      "जब आत्मा केवल स्थूल शरीर से ही नहीं, बल्कि सूक्ष्म शरीर अर्थात् मन, बुद्धि और अहंकार से भी मुक्त हो जाती है, तब वह अपने मूल स्वरूप में स्थित होकर परमात्मा के धाम को प्राप्त होती है। वही धाम जहाँ से वह इस संसार में आई थी और पुनर्जन्म के चक्र में बँध गई थी।",
+      "भगवद्गीता इसी मोक्षमार्ग का भी ज्ञान देती है कि मनुष्य किन उपायों से जन्म-मृत्यु के चक्र से ऊपर उठ सकता है।",
+      "किंतु संभवतः वह आपके प्रश्न का मुख्य विषय नहीं था।",
+    ],
+  },
 };
 
 export function generateStaticParams() {
@@ -120,9 +223,9 @@ export async function generateMetadata(props: {
 }): Promise<Metadata> {
   const { slug } = await props.params;
   const post = blogPosts[decodeURIComponent(slug)];
-  return {
-    title: post?.title ?? "Blog Post",
-  };
+  if (!post) return { title: "Blog Post" };
+  const title = isBilingual(post) ? post.titleEn : post.title;
+  return { title };
 }
 
 export default async function BlogPost(props: {
@@ -144,6 +247,10 @@ export default async function BlogPost(props: {
         </Link>
       </section>
     );
+  }
+
+  if (isBilingual(post)) {
+    return <BilingualPost post={post} />;
   }
 
   return (

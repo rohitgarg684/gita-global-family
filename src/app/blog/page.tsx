@@ -8,6 +8,14 @@ import { img } from "@/lib/image-url";
 
 const englishArticles = [
   {
+    title: "Q&A: How to Overcome Acute Despondency",
+    excerpt:
+      "Just as Arjuna’s despondency made him cast aside his bow, we too sometimes become overwhelmed by deep sorrow. What should we do? The answer lies in the wisdom of the Bhagavad Gita.",
+    date: "May 23, 2026",
+    slug: "how-to-overcome-acute-despondency",
+    image: img("qa-acute-despondency-en.jpeg"),
+  },
+  {
     title: "Does Bhagavad Gita Support the Hindu Caste System?",
     excerpt:
       "Hindu\u2019s have a caste system which is only of its kind in the world. A \u2018caste\u2019 is a community to which entry is based on birth in that community. Hindu society is divided into hundreds of castes. Most traditional Hindu scriptures and Hindu scholars justify the birth based caste system. The big question is whether the Bhagavad Gita also supports this system?",
@@ -47,6 +55,14 @@ const gitaVerses = [
 ];
 
 const hindiArticles = [
+  {
+    title: "प्रश्न : गहन विषाद से मुक्ति कैसे मिले?",
+    excerpt:
+      "जैसे अर्जुन का विषाद योग ने उसे धनुष रखकर बैठा दिया, वैसे ही हमें भी कभी ऐसा विषाद भर जाता है। गीता के ज्ञान से इसका समाधान कैसे हो — यह जानिए।",
+    date: "May 23, 2026",
+    slug: "how-to-overcome-acute-despondency",
+    image: img("qa-acute-despondency-hi.jpeg"),
+  },
   {
     title: "\u0906\u0924\u094d\u092e-\u091c\u093e\u0917\u0930\u0942\u0915\u0924\u093e \u0938\u0947 \u091c\u0917\u093e\u090f\u0902 \u0905\u092a\u0928\u0940 \u0905\u0902\u0926\u0930\u0942\u0928\u0940 \u0938\u0941\u092a\u0930\u092a\u093e\u0935\u0930",
     excerpt:

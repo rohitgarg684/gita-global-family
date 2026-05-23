@@ -4,7 +4,13 @@
  * Each answer is composed of an ordered list of content blocks so that we can
  * render rich, semantically meaningful content (paragraphs, Gita verse
  * blockquotes, ordered/unordered lists) instead of a single flat string.
+ *
+ * Items default to English. Provide a `hi` block to make an item bilingual; the
+ * page-level language toggle will swap in the Hindi question, preview and
+ * answer when selected. Items can also provide per-language images.
  */
+
+export type QALang = "en" | "hi";
 
 export type QABlock =
   | { type: "p"; text: string }
@@ -14,15 +20,29 @@ export type QABlock =
   | { type: "ol"; items: string[] }
   | { type: "video"; videoId: string; title: string; caption?: string };
 
-export interface QAItem {
-  id: string;
+export interface QATranslation {
   question: string;
-  /**
-   * Short, plain-text teaser shown in the collapsed state. Keep this to ~2-3
-   * lines so it works well on mobile.
-   */
   preview: string;
   answer: QABlock[];
+}
+
+export interface QAItem extends QATranslation {
+  id: string;
+  /**
+   * Optional Hindi translation. When the page is in Hindi mode and this is
+   * present, these fields replace the default English content. If absent, the
+   * item is shown in its default (English) language.
+   */
+  hi?: QATranslation;
+  /**
+   * Optional hero image rendered above the answer when expanded. Provide a
+   * per-language entry to display a language-specific poster.
+   */
+  image?: {
+    en?: string;
+    hi?: string;
+    alt?: { en: string; hi?: string };
+  };
 }
 
 export const qaItems: QAItem[] = [
