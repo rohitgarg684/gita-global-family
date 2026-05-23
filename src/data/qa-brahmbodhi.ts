@@ -287,7 +287,7 @@ export const qaItems: QAItem[] = [
   },
   {
     id: "how-to-install-and-worship-shaligram",
-    coverImage: "qa-shaligram-worship.svg",
+    coverImage: "qa-shaligram-worship.png",
     question: "How should one respectfully install and worship a Shaligram?",
     preview:
       "In many Vaishnava traditions, the Shaligram is regarded as self-manifested (svayambhu) and eternally worshipful — so a formal prana-pratishtha is not considered essential. What matters most are devotion, purity, and regular worship. Here is a simple, sattvic method.",
