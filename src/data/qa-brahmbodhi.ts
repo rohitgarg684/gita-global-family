@@ -30,6 +30,7 @@ export interface QAItem extends QATranslation {
   id: string;
   hi?: QATranslation;
   coverImage?: string;
+  tag?: string;
   image?: {
     en?: string;
     hi?: string;

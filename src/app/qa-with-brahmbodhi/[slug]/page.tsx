@@ -17,7 +17,10 @@ import {
   Video,
 } from "lucide-react";
 import { qaItems, type QAItem, type QABlock, type QALang } from "@/data/qa-brahmbodhi";
+import { bhagavadDharmaQA } from "@/data/qa-bhagavad-dharma";
 import { img } from "@/lib/image-url";
+
+const allItems = [...qaItems, ...bhagavadDharmaQA];
 
 function YouTubeEmbed({
   videoId,
@@ -126,7 +129,7 @@ function renderBlock(block: QABlock, key: number) {
 export default function QADetailPage() {
   const params = useParams();
   const slug = params.slug as string;
-  const item = qaItems.find((q) => q.id === slug);
+  const item = allItems.find((q) => q.id === slug);
   const hasBilingual = !!item?.hi;
   const [lang, setLang] = useState<QALang>("en");
 

@@ -7,14 +7,17 @@ import { motion } from "framer-motion";
 import { Search, MessageCircleQuestion, ArrowRight, Video } from "lucide-react";
 import { img } from "@/lib/image-url";
 import { qaItems } from "@/data/qa-brahmbodhi";
+import { bhagavadDharmaQA } from "@/data/qa-bhagavad-dharma";
 
 export default function QAWithBrahmBodhiPage() {
   const [query, setQuery] = useState("");
 
+  const allItems = useMemo(() => [...qaItems, ...bhagavadDharmaQA], []);
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return qaItems;
-    return qaItems.filter((item) => {
+    if (!q) return allItems;
+    return allItems.filter((item) => {
       if (item.question.toLowerCase().includes(q)) return true;
       if (item.preview.toLowerCase().includes(q)) return true;
       return item.answer.some((b) => {
@@ -142,11 +145,16 @@ export default function QAWithBrahmBodhiPage() {
                         </div>
                       )}
                       <div className="p-5">
+                        {item.tag && (
+                          <span className="inline-block mb-2 px-2.5 py-0.5 rounded-full bg-maroon/10 text-maroon text-[10px] font-bold uppercase tracking-wider">
+                            {item.tag}
+                          </span>
+                        )}
                         <h3 className="text-base md:text-lg font-semibold text-dark-brown leading-snug group-hover:text-saffron transition-colors line-clamp-3">
-                          {item.question}
+                          {item.hi ? item.hi.question : item.question}
                         </h3>
                         <p className="mt-2 text-sm text-text-secondary leading-relaxed line-clamp-2">
-                          {item.preview}
+                          {item.preview || item.hi?.preview || ""}
                         </p>
                         <span className="mt-3 inline-flex items-center gap-1.5 text-sm text-saffron font-semibold">
                           Read answer <ArrowRight className="w-3.5 h-3.5" />
