@@ -28,16 +28,8 @@ export interface QATranslation {
 
 export interface QAItem extends QATranslation {
   id: string;
-  /**
-   * Optional Hindi translation. When the page is in Hindi mode and this is
-   * present, these fields replace the default English content. If absent, the
-   * item is shown in its default (English) language.
-   */
   hi?: QATranslation;
-  /**
-   * Optional hero image rendered above the answer when expanded. Provide a
-   * per-language entry to display a language-specific poster.
-   */
+  coverImage?: string;
   image?: {
     en?: string;
     hi?: string;
@@ -48,6 +40,7 @@ export interface QAItem extends QATranslation {
 export const qaItems: QAItem[] = [
   {
     id: "chanting-destroy-sorrow",
+    coverImage: "qa-chanting-destroy-sorrow.svg",
     question:
       "Can chanting (japa) destroy sorrow? Why do bad people appear happy while good people suffer?",
     preview:
@@ -142,6 +135,7 @@ export const qaItems: QAItem[] = [
   },
   {
     id: "is-god-formless-or-with-form",
+    coverImage: "qa-god-formless-or-form.svg",
     question:
       "Is the Supreme God with form (sākāra), or formless (nirākāra), or both, or beyond both?",
     preview:
@@ -219,6 +213,7 @@ export const qaItems: QAItem[] = [
   },
   {
     id: "uniform-ritual-code-sanatan-dharma",
+    coverImage: "qa-uniform-ritual-code.svg",
     question:
       "Can a Uniform Ritual Code be developed for all Indic faiths, and how can Sanatan Dharma cultivate real civilizational unity?",
     preview:
@@ -292,6 +287,7 @@ export const qaItems: QAItem[] = [
   },
   {
     id: "how-to-install-and-worship-shaligram",
+    coverImage: "qa-shaligram-worship.svg",
     question: "How should one respectfully install and worship a Shaligram?",
     preview:
       "In many Vaishnava traditions, the Shaligram is regarded as self-manifested (svayambhu) and eternally worshipful — so a formal prana-pratishtha is not considered essential. What matters most are devotion, purity, and regular worship. Here is a simple, sattvic method.",
@@ -391,6 +387,7 @@ export const qaItems: QAItem[] = [
   },
   {
     id: "how-to-spend-earnings-wisely",
+    coverImage: "qa-earnings-charity.svg",
     question:
       "How should we use our earnings in a way that benefits both ourselves and society — and how much should we give in charity?",
     preview:
