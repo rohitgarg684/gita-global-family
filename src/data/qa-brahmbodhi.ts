@@ -213,7 +213,7 @@ export const qaItems: QAItem[] = [
   },
   {
     id: "uniform-ritual-code-sanatan-dharma",
-    coverImage: "qa-uniform-ritual-code.svg",
+    coverImage: "qa-uniform-ritual-code.png",
     question:
       "Can a Uniform Ritual Code be developed for all Indic faiths, and how can Sanatan Dharma cultivate real civilizational unity?",
     preview:
