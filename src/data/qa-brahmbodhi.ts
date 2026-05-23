@@ -135,7 +135,7 @@ export const qaItems: QAItem[] = [
   },
   {
     id: "is-god-formless-or-with-form",
-    coverImage: "qa-god-formless-or-form.svg",
+    coverImage: "qa-god-formless-or-form.png",
     question:
       "Is the Supreme God with form (sākāra), or formless (nirākāra), or both, or beyond both?",
     preview:
