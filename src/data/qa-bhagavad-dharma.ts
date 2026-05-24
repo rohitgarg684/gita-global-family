@@ -1193,6 +1193,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-jnana-karma-bhakti-yoga-which-path",
+    coverImage: "qa-bd-jnana-karma-bhakti-yoga-which-path.png",
     tag: "Bhagavad Dharma",
     question: "Which path to choose — Jnana Yoga, Karma Yoga, or Bhakti Yoga?",
     preview: "The Lord has divided all spiritual paths in the Bhagavad Gita into two principal categories — the path of Pravritti (the householder's 'Yoga' path, the",
@@ -1237,6 +1238,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-unanswered-question-on-devotion",
+    coverImage: "qa-bd-unanswered-question-on-devotion.png",
     tag: "Bhagavad Dharma",
     question: "A follow-up question on the path of devotion and spiritual practice",
     preview: "As far as I know, your complete bio-data had not arrived on that number. Either it was received but those people did not present it before me, or perh",
@@ -1266,6 +1268,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-types-of-god-realization",
+    coverImage: "qa-bd-types-of-god-realization.png",
     tag: "Bhagavad Dharma",
     question: "What are the different types of God-realization (Ishvar Darshan)?",
     preview: "(Five Stages of Divine Realization) A seeker walking the path of spiritual practice experiences many kinds of spiritual realizations. Among them, one ",
@@ -1310,6 +1313,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-discussion-on-bhakti-yoga",
+    coverImage: "qa-bd-discussion-on-bhakti-yoga.png",
     tag: "Bhagavad Dharma",
     question: "A discussion on Bhakti Yoga — the path of loving devotion",
     preview: "When Arjuna asked, the Lord discussed in the twelfth chapter of the Gita the distinction between the worship of the Nirguna-Nirakara God (Brahman) an",
@@ -1333,6 +1337,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-cutting-a-fruit-bearing-thorny-tree",
+    coverImage: "qa-bd-cutting-a-fruit-bearing-thorny-tree.png",
     tag: "Bhagavad Dharma",
     question: "Can one cut a thorny tree even if it bears fruit and causes harm?",
     preview: "Every tree is a manifestation of life. It is a living being. The ber (jujube) tree, moreover, is a fruit-bearing tree. What serious harm it could poss",
@@ -1349,6 +1354,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-building-strong-character",
+    coverImage: "qa-bd-building-strong-character.png",
     tag: "Bhagavad Dharma",
     question: "What essential values build a strong human character?",
     preview: "Building Human Character\n\nDear devotee,\n\nYou had asked two questions — the first being: what are the essential elements for building a strong human c",
@@ -1381,6 +1387,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-what-kind-of-charity-should-one-give",
+    coverImage: "qa-bd-what-kind-of-charity-should-one-give.png",
     tag: "Bhagavad Dharma",
     question: "What kind of charity should a Bhagavad Dharmi give and how to serve society?",
     preview: "Charity (dana) is an exceedingly serious subject, and why one should give, what to give, how to give, and to whom to give — all these are important as",
@@ -1427,6 +1434,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-can-bhakti-change-prarabdha-karma",
+    coverImage: "qa-bd-can-bhakti-change-prarabdha-karma.png",
     tag: "Bhagavad Dharma",
     question: "Can Bhakti or present actions change Prarabdha (destiny)?",
     preview: "To understand the correct answer to this question, we must first understand the structure of the universe and the laws governing its operation.\n\nThe Lo",
@@ -1470,6 +1478,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-doubt-about-atman-and-body",
+    coverImage: "qa-bd-doubt-about-atman-and-body.png",
     tag: "Bhagavad Dharma",
     question: "A doubt about the relationship between Atman and the body",
     preview: "In the 56th verse of the 18th chapter and in several subsequent verses, the Lord is speaking in the 'first person singular' — in the 'I' voice. There",
@@ -1488,6 +1497,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-self-control-and-inner-discipline-today",
+    coverImage: "qa-bd-self-control-and-inner-discipline-today.png",
     tag: "Bhagavad Dharma",
     question: "How to practice self-control and inner discipline in today's world?",
     preview: "Gita: Self-Control or Self-Mortification?\n\nWhen the Gita speaks of self-control (atma-samyam), it does not refer to any harsh penance, punishment,",
@@ -1531,6 +1541,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-modern-management-and-gita-wisdom",
+    coverImage: "qa-bd-modern-management-and-gita-wisdom.png",
     tag: "Bhagavad Dharma",
     question: "How does modern management theory align with Gita's wisdom?",
     preview: "Modern management theory holds that clear goal-setting and well-planned execution are essential for the success of any project. At first glance, it ma",
@@ -1568,6 +1579,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-is-external-ritual-necessary-for-worship",
+    coverImage: "qa-bd-is-external-ritual-necessary-for-worship.png",
     tag: "Bhagavad Dharma",
     question: "Are incense, lamps, and rituals necessary for worshipping God?",
     preview: "Worship of the Lord is performed in many ways, and people worship for many reasons. Once these reasons are understood, the question of whether incense",
@@ -1605,6 +1617,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-criticism-vs-excellence-for-proving-supremacy",
+    coverImage: "qa-bd-criticism-vs-excellence-for-proving-supremacy.png",
     tag: "Bhagavad Dharma",
     question: "Should one criticize others or excel oneself to prove supremacy?",
     preview: "No message in the Shrimad Bhagavad Gita suggests that the purpose of any of our actions should be to prove ourselves 'the best.' However, certain sp",
@@ -1632,6 +1645,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-fake-sadhus-and-temple-donation-fraud",
+    coverImage: "qa-bd-fake-sadhus-and-temple-donation-fraud.png",
     tag: "Bhagavad Dharma",
     question: "How to deal with fake sadhus who collect money in the name of temple construction?",
     preview: "According to the Shrimad Bhagavad Gita, giving charity is not an optional social activity but a compulsory sacred duty. Charity purifies the inner co",
@@ -1684,6 +1698,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-world-meditation-day-and-gita-meditation",
+    coverImage: "qa-bd-world-meditation-day-and-gita-meditation.png",
     tag: "Bhagavad Dharma",
     question: "What does the Gita teach about meditation on World Meditation Day?",
     preview: "Meditation Day: Right Perspective and Right Choice\n\nToday is Meditation Day. It is certainly a matter of joy that, on India's initiative, the United N",
@@ -1736,6 +1751,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-all-yogas-karma-bhakti-jnana-explained",
+    coverImage: "qa-bd-all-yogas-karma-bhakti-jnana-explained.png",
     tag: "Bhagavad Dharma",
     question: "Explain all the yogas — Karma, Bhakti, Jnana, Japa, and their relationships",
     preview: "All Yogas: Paths to Moksha\n\nAll the yogas mentioned here are paths to moksha (liberation). Moksha means complete freedom from the cycle of birth and d",
@@ -1783,6 +1799,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-gita-3-3-two-paths-explained",
+    coverImage: "qa-bd-gita-3-3-two-paths-explained.png",
     tag: "Bhagavad Dharma",
     question: "What are the two paths mentioned in Gita Chapter 3, Verse 3?",
     preview: "If the term \"Sankhya Yogi\" is taken in the narrow sense, it refers to a practitioner who follows the Sankhya philosophy of Sage Kapila. Sankhya Darsha",
@@ -1803,6 +1820,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-gross-subtle-causal-body-and-soul",
+    coverImage: "qa-bd-gross-subtle-causal-body-and-soul.png",
     tag: "Bhagavad Dharma",
     question: "What are the gross, subtle, and causal bodies? How does the soul relate to them?",
     preview: "The gross body (sthula sharira) is that body in which the hands, feet, heart, lungs, brain, and other organs exist in their gross, physical form. In o",
@@ -1839,6 +1857,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-foreign-trip-and-spiritual-practice",
+    coverImage: "qa-bd-foreign-trip-and-spiritual-practice.png",
     tag: "Bhagavad Dharma",
     question: "How to maintain spiritual practice while traveling abroad?",
     preview: "The description of the order of creation in your letter broadly corresponds to the process described in Sankhya, the Upanishads, and the Puranas. The",
@@ -1875,6 +1894,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-human-qualities-and-flaws-love-compassion",
+    coverImage: "qa-bd-human-qualities-and-flaws-love-compassion.png",
     tag: "Bhagavad Dharma",
     question: "What are the key human qualities — love, compassion, and humility?",
     preview: "Hari Sharanam. Today we shall reflect upon three subjects that appear different on the surface, but are in truth three facets of a single reality — hu",
@@ -1910,6 +1930,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-can-laddu-gopal-be-offered-garlic-onion",
+    coverImage: "qa-bd-can-laddu-gopal-be-offered-garlic-onion.png",
     tag: "Bhagavad Dharma",
     question: "Can Laddu Gopal be offered garlic and onion? What about leather items near deities?",
     preview: "Answer (Brahm Bodhi): First and foremost, it is essential to understand what holds the greatest importance in the worship of God. In the path of devot",
@@ -1955,6 +1976,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-fasting-for-body-and-mind",
+    coverImage: "qa-bd-fasting-for-body-and-mind.png",
     tag: "Bhagavad Dharma",
     question: "Is fasting necessary for both body and mind? What does the Gita say?",
     preview: "Answer (Brahm Bodhi): A detailed discussion on the Ekadashi vrata has already been conducted in this group, with scriptural references included. Kindl",
@@ -2016,6 +2038,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-does-kundali-guide-or-mislead",
+    coverImage: "qa-bd-does-kundali-guide-or-mislead.png",
     tag: "Bhagavad Dharma",
     question: "Does a horoscope (Kundali) guide us or mislead us?",
     preview: "(By Brahm Bodhi) How accurate are predictions made on the basis of a horoscope (kundali)? This is a debatable subject. Experience shows that a horosco",
@@ -2085,6 +2108,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-purpose-of-human-birth",
+    coverImage: "qa-bd-purpose-of-human-birth.png",
     tag: "Bhagavad Dharma",
     question: "What is the purpose of human birth?",
     preview: "To live a sattvic, joyful life while maintaining a proper balance among Dharma, Artha, Kama, and Moksha — these four Purusharthas. Happiness is the pr",
@@ -2102,6 +2126,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-personal-story-of-spiritual-awakening",
+    coverImage: "qa-bd-personal-story-of-spiritual-awakening.png",
     tag: "Bhagavad Dharma",
     question: "A personal story of spiritual awakening and transformation",
     preview: "The Bhagavad Gita clearly explains who is responsible for the difficult circumstances of a human being.\n\nSome circumstances arise from destiny, and th",
@@ -2131,6 +2156,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-mind-is-lame-needs-crutch-of-god",
+    coverImage: "qa-bd-mind-is-lame-needs-crutch-of-god.png",
     tag: "Bhagavad Dharma",
     question: "The mind is lame — it cannot walk without the crutch of God's name",
     preview: "Joshi Ji, regarding your question, you have asked for references from the Gita and similar scriptures. Therefore, I shall first provide you with some ",
@@ -2177,6 +2203,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-mental-stress-healing-through-gita",
+    coverImage: "qa-bd-mental-stress-healing-through-gita.png",
     tag: "Bhagavad Dharma",
     question: "How can mental stress be healed through Gita's wisdom?",
     preview: "Dubey Ji, the answer I gave you earlier may have caused you some hurt, but it must have also provoked some reflection.\n\nYou are surrounded by multiple",
@@ -2229,6 +2256,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-bhagavad-dharma-vs-bhagavat-dharma",
+    coverImage: "qa-bd-bhagavad-dharma-vs-bhagavat-dharma.png",
     tag: "Bhagavad Dharma",
     question: "Is Bhagavad Dharma and Bhagavat Dharma the same or different?",
     preview: "In my answer to your previous question, I clarified how the two are different. Please take the trouble to read it once.\n\nIn brief, Bhagavat Dharma is ",
@@ -2251,6 +2279,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-obstacles-on-spiritual-path",
+    coverImage: "qa-bd-obstacles-on-spiritual-path.png",
     tag: "Bhagavad Dharma",
     question: "What obstacles arise on the spiritual path and how to overcome them?",
     preview: "The Bhagavad Gita is a scripture of liberation in the midst of duty. It is a text of synthesis (samanvaya-shastra).\n\nThe Ashtavakra Gita is a scriptur",
@@ -2284,6 +2313,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-difference-between-daya-karuna-kripa",
+    coverImage: "qa-bd-difference-between-daya-karuna-kripa.png",
     tag: "Bhagavad Dharma",
     question: "What is the difference between Daya (mercy), Karuna (compassion), and Kripa (grace)?",
     preview: "Daya (mercy) and Karuna (compassion) are emotions. It is not necessary that action accompanies them. For example, you are going somewhere and you see a",
@@ -2302,6 +2332,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-can-god-appear-in-physical-form",
+    coverImage: "qa-bd-can-god-appear-in-physical-form.png",
     tag: "Bhagavad Dharma",
     question: "Can God appear in a physical body? Is avatar a real phenomenon?",
     preview: "The word \"Bhagavan\" is used quite loosely in Hindu Dharma. Sometimes it is used for Ishvara (God), sometimes for Devatas (celestial beings), and sometim",
@@ -2328,6 +2359,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-significance-of-deerskin-in-meditation",
+    coverImage: "qa-bd-significance-of-deerskin-in-meditation.png",
     tag: "Bhagavad Dharma",
     question: "Why is deerskin (Mrigachhal) mentioned for meditation in scriptures?",
     preview: "In the Shastras (scriptures), the mention of Mrigachhala (deerskin) is generally found in the context of the seating of Rishis (sages), not of kings. K",
