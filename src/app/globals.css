@@ -36,13 +36,20 @@
   --color-text-primary: var(--color-text-primary);
   --color-text-secondary: var(--color-text-secondary);
   --color-text-muted: var(--color-text-muted);
-  --font-sans: var(--font-dm-sans);
+  --font-sans: var(--font-dm-sans), var(--font-devanagari);
 }
 
 body {
   background: #ffffff;
   color: var(--color-text-primary);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family:
+    var(--font-dm-sans), var(--font-devanagari), system-ui, sans-serif;
+}
+
+:lang(hi),
+[lang="hi"] {
+  font-family:
+    var(--font-devanagari), var(--font-dm-sans), system-ui, sans-serif;
 }
 
 html {
