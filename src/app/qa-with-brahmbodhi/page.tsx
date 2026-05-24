@@ -44,7 +44,8 @@ export default function QAWithBrahmBodhiPage() {
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/55 to-black/65" />
-        <div className="relative section-padding text-center max-w-3xl mx-auto">
+        <div className="relative section-padding text-center">
+          <div className="max-w-3xl mx-auto">
           <motion.span
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -72,6 +73,7 @@ export default function QAWithBrahmBodhiPage() {
             drawn from the Bhagavad Gita and the lived experience of Sriyut
             BrahmBodhi.
           </motion.p>
+          </div>
         </div>
       </section>
 

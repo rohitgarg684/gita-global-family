@@ -3,6 +3,7 @@ import type { QAItem } from "./qa-brahmbodhi";
 export const bhagavadDharmaQA: QAItem[] = [
   {
     id: "bd-auspicious-days-for-shaving-and-worship-timing",
+    coverImage: "qa-bd-auspicious-days-for-shaving-and-worship-timing.png",
     tag: "Bhagavad Dharma",
     question: "On which days should a Bhagavad Dharmi get a haircut, and what is the best time for worship?",
     preview: "A Bhagavad Dharmi is not a devotee of any particular deity but a devotee of the Supreme Lord Himself. Therefore, he need not worry about auspicious hou",
@@ -41,6 +42,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-does-the-soul-take-birth-and-die",
+    coverImage: "qa-bd-does-the-soul-take-birth-and-die.png",
     tag: "Bhagavad Dharma",
     question: "Does the soul take birth and die? If the soul is eternal, what does 'liberation' mean?",
     preview: "Your question is of great significance.\n\nTruth has many layers, and spiritual truth is deeply mysterious. The same truth is seen and described diffe",
@@ -95,6 +97,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-what-happens-to-soul-after-death",
+    coverImage: "qa-bd-what-happens-to-soul-after-death.png",
     tag: "Bhagavad Dharma",
     question: "What happens to the soul after death? Is heaven and hell on earth itself?",
     preview: "When we say that heaven and hell are on earth itself, what we are really saying is that one can experience heavenly happiness on earth and one can also ex",
@@ -170,6 +173,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-can-one-chant-without-a-guru",
+    coverImage: "qa-bd-can-one-chant-without-a-guru.png",
     tag: "Bhagavad Dharma",
     question: "Can one chant God's name without initiation from a Guru?",
     preview: "A student has both options available. He may either enroll in a school and pursue his studies there, or he may acquire knowledge through self-study with",
@@ -204,6 +208,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-doing-things-for-others-happiness",
+    coverImage: "qa-bd-doing-things-for-others-happiness.png",
     tag: "Bhagavad Dharma",
     question: "Is it right to do things for others' happiness even when it brings no joy to oneself?",
     preview: "The primary purpose of life is to attain happiness. If one can attain divine happiness, that is even better! When a person is eating and an extremely hu",
@@ -245,6 +250,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-god-tests-me-repeatedly",
+    coverImage: "qa-bd-god-tests-me-repeatedly.png",
     tag: "Bhagavad Dharma",
     question: "God keeps testing me with hardships — how should I cope?",
     preview: "Although this question was asked by a devotee regarding his personal problem, my answer is addressed to all the devotees present in this group, not jus",
@@ -310,6 +316,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-qualities-needed-for-diksha",
+    coverImage: "qa-bd-qualities-needed-for-diksha.png",
     tag: "Bhagavad Dharma",
     question: "What qualities should a Bhagavad Dharmi have to receive Diksha (initiation)?",
     preview: "The purpose of giving Diksha (initiation) in Bhagavad Dharma is to make the life of the initiate free from suffering, and to guide the soul after death",
@@ -352,6 +359,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-bhav-samshuddhi-and-sattva-samshuddhi",
+    coverImage: "qa-bd-bhav-samshuddhi-and-sattva-samshuddhi.png",
     tag: "Bhagavad Dharma",
     question: "What is Bhav Samshuddhi and Sattva Samshuddhi, and how to achieve them?",
     preview: "If grime has accumulated on a mirror, if dust has gathered on it, you cannot see your own face in it — or at least not clearly. In the same way, when im",
@@ -419,6 +427,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-how-to-attain-god-realization",
+    coverImage: "qa-bd-how-to-attain-god-realization.png",
     tag: "Bhagavad Dharma",
     question: "How does one attain God-realization (Bhagavat Prapti)?",
     preview: "God-realization occurs in many ways; there are multiple paths to it. Primarily, there are two kinds of approaches.\n\nThe Bhagavad Gita states that some",
@@ -463,6 +472,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-how-to-avoid-attachment-to-duty",
+    coverImage: "qa-bd-how-to-avoid-attachment-to-duty.png",
     tag: "Bhagavad Dharma",
     question: "How to perform duty without attachment? What if we help someone and they betray us?",
     preview: "It is a matter of great joy that at such a young age, these matters are attracting your attention. This is evidence of growing introspection — in Engli",
@@ -541,6 +551,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-silver-foil-on-hanuman-idol",
+    coverImage: "qa-bd-silver-foil-on-hanuman-idol.png",
     tag: "Bhagavad Dharma",
     question: "Should silver foil or sindoor be used when offering chola to Hanuman?",
     preview: "Silver foil (vark) is mostly associated with non-vegetarian sources. Buffalo intestines and similar materials are used in its preparation. Vegetarian si",
@@ -562,6 +573,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-gayatri-mantra-for-all",
+    coverImage: "qa-bd-gayatri-mantra-for-all.png",
     tag: "Bhagavad Dharma",
     question: "Can the Gayatri Mantra be chanted by everyone, or is it restricted to Brahmins?",
     preview: "The question of what method of sadhana one should follow must be determined from ancient and authoritative scriptures alone. That alone is safe.\n\nThere",
@@ -643,6 +655,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-no-interest-in-god-or-worship",
+    coverImage: "qa-bd-no-interest-in-god-or-worship.png",
     tag: "Bhagavad Dharma",
     question: "I have absolutely no interest in God or worship — what should I do?",
     preview: "You do have an inclination toward God. It is clear from your very question that you are not an atheist and that you wish to move toward God. You have alr",
@@ -807,6 +820,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-prarabdha-sanchit-kriyaman-karma",
+    coverImage: "qa-bd-prarabdha-sanchit-kriyaman-karma.png",
     tag: "Bhagavad Dharma",
     question: "What is Prarabdha, Sanchit, and Kriyaman Karma? How do they affect our lives?",
     preview: "Sanchita Karma and Prarabdha Karma are parts of the doctrine of Karma itself. The doctrine of Karma states that whatever actions we perform, good or bad",
@@ -900,6 +914,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-family-weekly-gita-reading",
+    coverImage: "qa-bd-family-weekly-gita-reading.png",
     tag: "Bhagavad Dharma",
     question: "Our family reads the Gita together every Saturday — is there a specific method?",
     preview: "First of all, heartfelt blessings and good wishes to you and your brothers and sisters for conducting regular satsanga. The glory of satsanga is truly w",
@@ -950,6 +965,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-balancing-spirituality-in-household-life",
+    coverImage: "qa-bd-balancing-spirituality-in-household-life.png",
     tag: "Bhagavad Dharma",
     question: "How to balance spirituality with household responsibilities?",
     preview: "Embedded in your very first sentence is an independent question -- how does one carve out even half an hour or an hour for the worship of God amid hous",
@@ -1015,6 +1031,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-spirituality-amid-family-duties",
+    coverImage: "qa-bd-spirituality-amid-family-duties.png",
     tag: "Bhagavad Dharma",
     question: "How to pursue spirituality alongside family duties and a job?",
     preview: "You have asked about Manasa Puja, or mental worship. Just as mental japa is considered superior to vocal japa and even whispered (upamshu) japa, so too",
@@ -1051,6 +1068,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-how-to-focus-mind-on-god",
+    coverImage: "qa-bd-how-to-focus-mind-on-god.png",
     tag: "Bhagavad Dharma",
     question: "How to focus the mind on God's remembrance and mantra chanting?",
     preview: "I have previously written at length on how to engage the mind in the remembrance of God. This time I am presenting the same subject in a somewhat diffe",
@@ -1163,6 +1181,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-description-of-vaikuntha",
+    coverImage: "qa-bd-description-of-vaikuntha.png",
     tag: "Bhagavad Dharma",
     question: "Please describe Vaikuntha — what is the Lord's supreme abode like?",
     preview: "The Bhagavata Purana presents the following depiction of Vaikuntha. I shall explain later how this can be transformed into a Vaikuntha meditation.\n\n(In",
@@ -1217,6 +1236,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-gems-and-beauties-in-vaikuntha",
+    coverImage: "qa-bd-gems-and-beauties-in-vaikuntha.png",
     tag: "Bhagavad Dharma",
     question: "What is the purpose of gems and celestial beauties in Vaikuntha?",
     preview: "There are two types of Moksha: Saguna Moksha and Nirguna Moksha. In both, liberation from birth, death, and all suffering is attained. Saguna Moksha is ",
@@ -1251,6 +1271,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-balancing-career-and-bhagavad-dharma",
+    coverImage: "qa-bd-balancing-career-and-bhagavad-dharma.png",
     tag: "Bhagavad Dharma",
     question: "How to balance professional career with Bhagavad Dharma practice?",
     preview: "Nama, mantra japa, bhajana, kirtana, etc. are also means of spiritual practice, but they are not the sole means. In a previous post, I had clarified th",
@@ -1287,6 +1308,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-devotee-of-shiva-but-attracted-to-krishna",
+    coverImage: "qa-bd-devotee-of-shiva-but-attracted-to-krishna.png",
     tag: "Bhagavad Dharma",
     question: "I am a devotee of Mahadev but feel drawn to Krishna — what should I do?",
     preview: "Bhakti is of two types: one is polytheistic bhakti, i.e., devotion to multiple deities simultaneously. But in the Gita, the Lord's recommendation is di",
@@ -1368,6 +1390,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-untimely-death-of-father-and-rituals",
+    coverImage: "qa-bd-untimely-death-of-father-and-rituals.png",
     tag: "Bhagavad Dharma",
     question: "My father passed away untimely — what rituals should be performed?",
     preview: "This is a deeply sorrowful incident. The son on whose account this tragedy occurred — if indeed he was at fault in this matter, causing the father to ab",
@@ -1411,6 +1434,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-purpose-of-human-life-and-spiritual-path",
+    coverImage: "qa-bd-purpose-of-human-life-and-spiritual-path.png",
     tag: "Bhagavad Dharma",
     question: "What is the purpose of human life and how to walk the spiritual path?",
     preview: "First of all, let us understand that the Lord has prescribed three types of actions that are obligatory for everyone because they purify a person. Withou",
@@ -1494,6 +1518,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-soul-choosing-next-birth",
+    coverImage: "qa-bd-soul-choosing-next-birth.png",
     tag: "Bhagavad Dharma",
     question: "Can a soul choose its next birth? What determines where it goes?",
     preview: "When the atma (soul) leaves its gross body (sthula sharira), the subtle body (sukshma sharira) exits along with it, enveloping the soul. The subtle bod",
@@ -1542,6 +1567,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-overcoming-lust-and-temptation",
+    coverImage: "qa-bd-overcoming-lust-and-temptation.png",
     tag: "Bhagavad Dharma",
     question: "My mind is constantly consumed by lust — how to overcome this?",
     preview: "Atman, I have noted your problem. You are not alone in suffering from this problem — in the present age, a large number of people are afflicted by this",
@@ -1616,6 +1642,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-lunar-eclipse-and-worship-rules",
+    coverImage: "qa-bd-lunar-eclipse-and-worship-rules.png",
     tag: "Bhagavad Dharma",
     question: "Are there specific rules for worship during a lunar eclipse?",
     preview: "Do nothing special. Abandon fear and apprehension. We must always take the Lord's Name. Continue doing so today as well, just as before. Such apprehen",
@@ -1652,6 +1679,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-chanting-without-mental-focus",
+    coverImage: "qa-bd-chanting-without-mental-focus.png",
     tag: "Bhagavad Dharma",
     question: "I chant but my mind wanders elsewhere — is such chanting effective?",
     preview: "Household Life and Spiritual Practice: The Householder's Responsibilities and Nama Japa. In the grihastha-ashrama (householder stage), there are numero",
@@ -1727,6 +1755,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-maya-and-soul-both-from-brahman",
+    coverImage: "qa-bd-maya-and-soul-both-from-brahman.png",
     tag: "Bhagavad Dharma",
     question: "If both Maya and the soul come from Brahman, how are they different?",
     preview: "From Brahma-Jijnasa to the Journey of Moksha. You have raised a very profound question! When the inquiry into Brahman (Brahma-jijnasa) arises in one's ",
@@ -1795,6 +1824,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-difference-between-veda-and-vedanta",
+    coverImage: "qa-bd-difference-between-veda-and-vedanta.png",
     tag: "Bhagavad Dharma",
     question: "What is the difference between Veda and Vedanta?",
     preview: "The Rig Veda, Sama Veda, Yajur Veda, and Atharva Veda — these are the four Vedas. They are also called Samhitas. They are filled with mantras. Most o",
@@ -1828,6 +1858,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-how-to-know-if-god-accepts-our-chanting",
+    coverImage: "qa-bd-how-to-know-if-god-accepts-our-chanting.png",
     tag: "Bhagavad Dharma",
     question: "How do we know if God accepts and is pleased with our chanting?",
     preview: "Chanting of the Divine Name (Nama Japa) can be undertaken with two purposes. The first is simply for one's own spiritual growth, for self-purif",
@@ -1882,6 +1913,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-importance-of-yajna-in-gita",
+    coverImage: "qa-bd-importance-of-yajna-in-gita.png",
     tag: "Bhagavad Dharma",
     question: "Why is Yajna important in human life according to the Gita?",
     preview: "The word Yajna means worship or adoration. However, its specific traditional meaning is to worship or propitiate the Devas by offering oblations",
@@ -1929,6 +1961,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-gita-as-foundation-of-all-answers",
+    coverImage: "qa-bd-gita-as-foundation-of-all-answers.png",
     tag: "Bhagavad Dharma",
     question: "The Gita seems to be the foundation for resolving all spiritual queries — is this so?",
     preview: "You have spoken the truth. In reality, such individuals do not need to go to the forest and take formal sannyasa; rather, they need to become sann",
@@ -1971,6 +2004,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-how-to-assess-spiritual-progress",
+    coverImage: "qa-bd-how-to-assess-spiritual-progress.png",
     tag: "Bhagavad Dharma",
     question: "How should a Bhagavad Dharmi assess their own spiritual progress?",
     preview: "We find that although Hindu Dharma has also been called 'Varna-Ashrama-Dharma,' in practice it is largely only the Varna-Dharma that has been fol",
@@ -2027,6 +2061,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-difference-between-upanishad-and-vedanta",
+    coverImage: "qa-bd-difference-between-upanishad-and-vedanta.png",
     tag: "Bhagavad Dharma",
     question: "What is the difference between Upanishads and Vedanta?",
     preview: "The primary difference between Vedanta and Neo-Vedanta lies in their historical and ideological development. Vedanta is an ancient tradition. As",
@@ -2057,6 +2092,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-govardhan-parikrama-rules",
+    coverImage: "qa-bd-govardhan-parikrama-rules.png",
     tag: "Bhagavad Dharma",
     question: "What are the rules for doing Govardhan Parikrama in Vrindavan?",
     preview: "This is a definite sign of your spiritual progress. The Bhagavad Gita speaks clearly on this matter, stating that worship must be marked by compl",
@@ -2091,6 +2127,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-belief-in-rebirth-without-proof",
+    coverImage: "qa-bd-belief-in-rebirth-without-proof.png",
     tag: "Bhagavad Dharma",
     question: "Belief in rebirth seems difficult without direct proof — how to develop faith?",
     preview: "In the scriptures of Dharma and spirituality, there are many things that cannot be physically verified. Some things are also stated whose experie",
@@ -2128,6 +2165,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-is-lying-for-others-good-acceptable",
+    coverImage: "qa-bd-is-lying-for-others-good-acceptable.png",
     tag: "Bhagavad Dharma",
     question: "Is it acceptable to lie for the welfare of others?",
     preview: "There is a very ancient tradition in Sanatan Dharma of speaking the truth and honoring truth, and truth has been given a place among the highest ",
@@ -2199,6 +2237,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-chanting-while-walking-and-working",
+    coverImage: "qa-bd-chanting-while-walking-and-working.png",
     tag: "Bhagavad Dharma",
     question: "Is chanting while walking, working, or using a counter valid?",
     preview: "Spirituality is a serious subject — an exceedingly serious subject. In truth, life itself is a very serious matter; yet very few people comprehen",
@@ -2243,6 +2282,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-difference-between-dharma-and-spirituality",
+    coverImage: "qa-bd-difference-between-dharma-and-spirituality.png",
     tag: "Bhagavad Dharma",
     question: "What is the difference between Dharma and Adhyatma (spirituality)?",
     preview: "People often ask what the difference between Dharma and Adhyatma (spirituality) is. We can understand this through the analogy of an orange. An",
@@ -2273,6 +2313,7 @@ export const bhagavadDharmaQA: QAItem[] = [
   },
   {
     id: "bd-decline-of-hindu-society-and-religious-leadership",
+    coverImage: "qa-bd-decline-of-hindu-society-and-religious-leadership.png",
     tag: "Bhagavad Dharma",
     question: "Why has Hindu society declined and what role does religious leadership play?",
     preview: "The compassion found in the scriptures of Hindu Dharma is rare indeed. Then why is it that this compassion is not visible in the conduct of Hindus? Go",
