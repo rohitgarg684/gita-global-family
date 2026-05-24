@@ -46,3 +46,8 @@ service-account-key.json
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python tooling for hindi PDF re-extraction (see scripts/extract-pdf-hindi.py)
+.venv-pdf/
+scripts/__pycache__/
+scripts/pdf-hindi-extracted.json
