@@ -7,7 +7,7 @@ import { img } from "@/lib/image-url";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
-  subsets: ["latin"],
+  subsets: ["latin", "devanagari"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
