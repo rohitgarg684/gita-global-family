@@ -51,3 +51,4 @@ next-env.d.ts
 .venv-pdf/
 scripts/__pycache__/
 scripts/pdf-hindi-extracted.json
+.env.local
