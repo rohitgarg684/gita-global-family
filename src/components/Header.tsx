@@ -46,7 +46,7 @@ const navLinksBase: NavLink[] = [
       },
       { href: "/networking", label: "Network" },
       { href: "/gallery", label: "Gallery" },
-      { href: "/admin", label: "Mailing List", adminOnly: true },
+      { href: "/mailing-list", label: "Mailing List", adminOnly: true },
     ],
   },
   { href: "/contact", label: "Contact" },
