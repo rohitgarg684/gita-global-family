@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { signInWithPopup, onAuthStateChanged, signOut as fbSignOut, type User } from "firebase/auth";
-import { auth, googleProvider } from "@/lib/firebase";
+import { collection, getDocs } from "firebase/firestore";
+import { auth, db, googleProvider } from "@/lib/firebase";
 import {
   LogOut,
   Search,
@@ -12,25 +13,26 @@ import {
   ExternalLink,
   Phone,
   Mail,
+  Loader2,
 } from "lucide-react";
-import directoryData from "@/data/admin-directories.json";
 
 const ALLOWED_EMAILS = [
   "rohitgarg684@gmail.com",
   "brahmbodhi@gmail.com",
 ];
 
-type DirectoryData = Record<
-  string,
-  Record<string, { headers: string[]; records: Record<string, string>[]; count: number }>
->;
+interface SheetData {
+  directory: string;
+  sheet: string;
+  headers: string[];
+  records: Record<string, string>[];
+  count: number;
+}
 
-const data = directoryData as DirectoryData;
-
-const DIRECTORY_META: Record<string, { label: string; icon: typeof Users; color: string }> = {
-  akharas: { label: "Akhara Directory", icon: Shield, color: "text-maroon" },
-  saints: { label: "Influential Saints", icon: Users, color: "text-saffron" },
-  institutions: { label: "Religious Institutions", icon: Building2, color: "text-sage" },
+const DIRECTORY_META: Record<string, { label: string; icon: typeof Users }> = {
+  akharas: { label: "Akhara Directory", icon: Shield },
+  saints: { label: "Influential Saints", icon: Users },
+  institutions: { label: "Religious Institutions", icon: Building2 },
 };
 
 function DirectoryTable({
@@ -55,11 +57,7 @@ function DirectoryTable({
   );
 
   if (filtered.length === 0) {
-    return (
-      <p className="text-center py-8 text-text-muted">
-        No records match your search.
-      </p>
-    );
+    return <p className="text-center py-8 text-text-muted">No records match your search.</p>;
   }
 
   return (
@@ -68,10 +66,7 @@ function DirectoryTable({
         <thead>
           <tr className="bg-cream">
             {displayHeaders.map((h) => (
-              <th
-                key={h}
-                className="px-3 py-3 text-left font-semibold text-dark-brown text-xs uppercase tracking-wider whitespace-nowrap border-b border-cream-dark/30"
-              >
+              <th key={h} className="px-3 py-3 text-left font-semibold text-dark-brown text-xs uppercase tracking-wider whitespace-nowrap border-b border-cream-dark/30">
                 {h}
               </th>
             ))}
@@ -79,16 +74,12 @@ function DirectoryTable({
         </thead>
         <tbody>
           {filtered.map((record, i) => (
-            <tr
-              key={i}
-              className="border-b border-cream-dark/20 hover:bg-cream/50 transition-colors"
-            >
+            <tr key={i} className="border-b border-cream-dark/20 hover:bg-cream/50 transition-colors">
               {displayHeaders.map((h) => {
                 const val = record[h] || "";
                 const isUrl = val.startsWith("http");
                 const isEmail = val.includes("@") && !val.includes(" ");
                 const isPhone = /^\+?\d[\d\s\-/;]+$/.test(val.trim());
-
                 return (
                   <td key={h} className="px-3 py-2.5 text-text-secondary max-w-[280px] align-top">
                     {isUrl ? (
@@ -103,8 +94,7 @@ function DirectoryTable({
                       </a>
                     ) : isPhone ? (
                       <span className="inline-flex items-center gap-1 text-text-secondary">
-                        <Phone className="w-3 h-3 shrink-0 text-text-muted" />
-                        {val}
+                        <Phone className="w-3 h-3 shrink-0 text-text-muted" />{val}
                       </span>
                     ) : (
                       <span className="line-clamp-3">{val}</span>
@@ -122,8 +112,12 @@ function DirectoryTable({
 
 export default function AdminPage() {
   const [user, setUser] = useState<User | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [authLoading, setAuthLoading] = useState(true);
   const [error, setError] = useState("");
+
+  const [allSheets, setAllSheets] = useState<SheetData[]>([]);
+  const [dataLoading, setDataLoading] = useState(false);
+
   const [activeDir, setActiveDir] = useState("akharas");
   const [activeSheet, setActiveSheet] = useState("");
   const [search, setSearch] = useState("");
@@ -140,10 +134,43 @@ export default function AdminPage() {
       } else {
         setUser(null);
       }
-      setLoading(false);
+      setAuthLoading(false);
     });
     return unsubscribe;
   }, []);
+
+  useEffect(() => {
+    if (!user) return;
+    setDataLoading(true);
+    getDocs(collection(db, "admin_directories"))
+      .then((snapshot) => {
+        const sheets: SheetData[] = [];
+        snapshot.forEach((doc) => {
+          sheets.push(doc.data() as SheetData);
+        });
+        setAllSheets(sheets);
+      })
+      .catch((err) => {
+        console.error("Firestore error:", err);
+        setError("Failed to load data from database.");
+      })
+      .finally(() => setDataLoading(false));
+  }, [user]);
+
+  const dirSheets = useMemo(
+    () => allSheets.filter((s) => s.directory === activeDir),
+    [allSheets, activeDir],
+  );
+
+  const sheetNames = useMemo(() => dirSheets.map((s) => s.sheet), [dirSheets]);
+
+  const currentSheet = activeSheet && dirSheets.find((s) => s.sheet === activeSheet)
+    ? activeSheet
+    : sheetNames[0] || "";
+
+  const sheetData = dirSheets.find((s) => s.sheet === currentSheet);
+
+  const totalRecords = allSheets.reduce((sum, s) => sum + s.count, 0);
 
   const handleSignIn = async () => {
     setError("");
@@ -158,7 +185,7 @@ export default function AdminPage() {
     }
   };
 
-  if (loading) {
+  if (authLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-cream">
         <div className="text-center">
@@ -182,9 +209,7 @@ export default function AdminPage() {
             in with your authorized Google account.
           </p>
           {error && (
-            <p className="mt-4 text-sm text-red-600 bg-red-50 rounded-lg px-4 py-2">
-              {error}
-            </p>
+            <p className="mt-4 text-sm text-red-600 bg-red-50 rounded-lg px-4 py-2">{error}</p>
           )}
           <button
             onClick={handleSignIn}
@@ -198,23 +223,11 @@ export default function AdminPage() {
             </svg>
             Sign in with Google
           </button>
-          <p className="mt-4 text-xs text-text-muted">
-            Only authorized accounts can access this page.
-          </p>
+          <p className="mt-4 text-xs text-text-muted">Only authorized accounts can access this page.</p>
         </div>
       </div>
     );
   }
-
-  const currentDir = data[activeDir];
-  const sheets = currentDir ? Object.keys(currentDir) : [];
-  const currentSheet = activeSheet && currentDir?.[activeSheet] ? activeSheet : sheets[0] || "";
-  const sheetData = currentDir?.[currentSheet];
-
-  const totalRecords = Object.values(data).reduce(
-    (sum, dir) => sum + Object.values(dir).reduce((s, sheet) => s + sheet.count, 0),
-    0,
-  );
 
   return (
     <div className="min-h-screen bg-warm-gray">
@@ -227,80 +240,89 @@ export default function AdminPage() {
               </div>
               <div>
                 <h1 className="text-lg font-bold text-dark-brown">Admin Portal</h1>
-                <p className="text-xs text-text-muted">
-                  {user.email} · {totalRecords} records
-                </p>
+                <p className="text-xs text-text-muted">{user.email} · {totalRecords} records</p>
               </div>
             </div>
             <button
               onClick={() => fbSignOut(auth)}
               className="inline-flex items-center gap-2 px-4 py-2 text-sm text-text-secondary hover:text-dark-brown border border-cream-dark/40 rounded-lg hover:bg-cream transition-colors cursor-pointer"
             >
-              <LogOut className="w-4 h-4" />
-              Sign out
+              <LogOut className="w-4 h-4" /> Sign out
             </button>
           </div>
         </div>
       </header>
 
       <div className="section-padding py-6">
-        <div className="flex flex-wrap gap-3 mb-6">
-          {Object.entries(DIRECTORY_META).map(([key, meta]) => {
-            const Icon = meta.icon;
-            const dirSheets = data[key];
-            const count = dirSheets ? Object.values(dirSheets).reduce((s, sh) => s + sh.count, 0) : 0;
-            return (
-              <button
-                key={key}
-                onClick={() => { setActiveDir(key); setActiveSheet(""); setSearch(""); }}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all cursor-pointer ${
-                  activeDir === key
-                    ? "bg-saffron text-white shadow-sm"
-                    : "bg-white text-text-secondary border border-cream-dark/40 hover:border-saffron/30"
-                }`}
-              >
-                <Icon className="w-4 h-4" />
-                {meta.label}
-                <span className={`text-xs px-1.5 py-0.5 rounded-full ${activeDir === key ? "bg-white/20" : "bg-cream text-text-muted"}`}>
-                  {count}
-                </span>
-              </button>
-            );
-          })}
-        </div>
-
-        {sheets.length > 1 && (
-          <div className="flex flex-wrap gap-2 mb-4">
-            {sheets.map((sheet) => (
-              <button
-                key={sheet}
-                onClick={() => { setActiveSheet(sheet); setSearch(""); }}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors cursor-pointer ${
-                  currentSheet === sheet
-                    ? "bg-maroon/10 text-maroon border border-maroon/20"
-                    : "bg-white text-text-muted border border-cream-dark/30 hover:text-dark-brown"
-                }`}
-              >
-                {sheet}
-                <span className="ml-1 opacity-60">({currentDir?.[sheet]?.count || 0})</span>
-              </button>
-            ))}
+        {dataLoading ? (
+          <div className="text-center py-16">
+            <Loader2 className="w-8 h-8 text-saffron animate-spin mx-auto" />
+            <p className="mt-4 text-text-muted text-sm">Loading data from Firestore...</p>
           </div>
-        )}
+        ) : (
+          <>
+            <div className="flex flex-wrap gap-3 mb-6">
+              {Object.entries(DIRECTORY_META).map(([key, meta]) => {
+                const Icon = meta.icon;
+                const count = allSheets.filter((s) => s.directory === key).reduce((sum, s) => sum + s.count, 0);
+                return (
+                  <button
+                    key={key}
+                    onClick={() => { setActiveDir(key); setActiveSheet(""); setSearch(""); }}
+                    className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all cursor-pointer ${
+                      activeDir === key
+                        ? "bg-saffron text-white shadow-sm"
+                        : "bg-white text-text-secondary border border-cream-dark/40 hover:border-saffron/30"
+                    }`}
+                  >
+                    <Icon className="w-4 h-4" />
+                    {meta.label}
+                    <span className={`text-xs px-1.5 py-0.5 rounded-full ${activeDir === key ? "bg-white/20" : "bg-cream text-text-muted"}`}>
+                      {count}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
 
-        <div className="relative mb-4">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
-          <input
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search records..."
-            className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-cream-dark/40 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-saffron/30 focus:border-saffron/40"
-          />
-        </div>
+            {sheetNames.length > 1 && (
+              <div className="flex flex-wrap gap-2 mb-4">
+                {sheetNames.map((sheet) => {
+                  const count = dirSheets.find((s) => s.sheet === sheet)?.count || 0;
+                  return (
+                    <button
+                      key={sheet}
+                      onClick={() => { setActiveSheet(sheet); setSearch(""); }}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors cursor-pointer ${
+                        currentSheet === sheet
+                          ? "bg-maroon/10 text-maroon border border-maroon/20"
+                          : "bg-white text-text-muted border border-cream-dark/30 hover:text-dark-brown"
+                      }`}
+                    >
+                      {sheet} <span className="ml-1 opacity-60">({count})</span>
+                    </button>
+                  );
+                })}
+              </div>
+            )}
 
-        {sheetData && (
-          <DirectoryTable headers={sheetData.headers} records={sheetData.records} search={search} />
+            <div className="relative mb-4">
+              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
+              <input
+                type="text"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Search records..."
+                className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-cream-dark/40 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-saffron/30 focus:border-saffron/40"
+              />
+            </div>
+
+            {sheetData && (
+              <DirectoryTable headers={sheetData.headers} records={sheetData.records} search={search} />
+            )}
+
+            {error && <p className="mt-4 text-sm text-red-600">{error}</p>}
+          </>
         )}
       </div>
     </div>
