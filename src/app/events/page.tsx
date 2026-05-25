@@ -54,6 +54,10 @@ interface EventItem {
   images: string[];
   title: string;
   description: string;
+  hi?: {
+    title: string;
+    description: string;
+  };
 }
 
 const londonEvents: EventItem[] = [
@@ -102,6 +106,22 @@ const londonEvents: EventItem[] = [
 ];
 
 const delhiEvents: EventItem[] = [
+  {
+    images: [
+      img("event-delhi-vhp-meeting.jpeg"),
+      img("event-delhi-sarvapriya-gita.jpeg"),
+    ],
+    title:
+      "Sanatan Seva Nidhi Law: Discussion with VHP International President",
+    description:
+      "A substantive and enriching discussion was held with Shri Alok Kumar, the International President of the Vishva Hindu Parishad, on the pressing need for enacting the Sanatan Seva Nidhi Law for the strengthening of Hindu Dharma.\n\nShri Alok Kumar, who is also a Senior Advocate of the Supreme Court and a person of deep knowledge of Hindu Dharma, proved to be as courteous and well-informed as one would expect of a leader of his stature.\n\nPrinted copies of the draft Sanatan Seva Nidhi Law were presented to him, and its key provisions were explained in detail. He assured that he would carefully study the entire Act, hold further discussions, and take whatever action may be necessary from his side.\n\nAmong the pilot projects that Gita Global Family is planning to launch — aimed at re-establishing temples as centres of village life — one key initiative involves distributing the following materials free of cost to 1,000 selected households in chosen villages:\n\n• A non-sectarian commentary on the Bhagavad Gita\n• A concise illustrated edition of the Ramcharitmanas\n• An anti-conversion capsule course (booklet)\n• A religious literacy module\n• \"Gita Navneet\" — a book of 51 selected shlokas for students\n\nBefore the project begins, a baseline assessment of the religious literacy of Hindu residents will be conducted. After the one-year project, a fresh review will evaluate progress — not only in Dharma knowledge, but also in the conduct and way of life of the participants.\n\nShri Alok Kumar was also briefed on this initiative, and the very first copy of the newly released 400-page Sarvapriya Gita commentary edition — printed today from Sai Printers Pack Press — was presented to him as a gift.\n\nIt was a pleasant and truly enriching experience to discuss the future of Hindu Dharma with Shri Alok Kumar.",
+    hi: {
+      title:
+        "सनातन सेवा निधि कानून: विश्व हिंदू परिषद के अंतरराष्ट्रीय अध्यक्ष से विमर्श",
+      description:
+        "आज विश्व हिंदू परिषद के अंतरराष्ट्रीय अध्यक्ष श्री आलोक कुमार से हिंदू धर्म और इसके सुदृढ़ीकरण के लिए सनातन सेवा निधि कानून बनाने की आवश्यकता के बारे में गंभीर और सार्थक विमर्श हुआ।\n\nवे सुप्रीम कोर्ट के सीनियर एडवोकेट भी हैं और हिंदू धर्म का गहन ज्ञान रखते हैं। जैसी कि उनसे आशा थी, वह एक अत्यंत भद्र और विद्वान व्यक्ति निकले।\n\nमैंने उन्हें सनातन सेवा निधि कानून के ड्राफ्ट की मुद्रित प्रतियाँ भेंट कीं और उन्हें इसके प्रमुख प्रावधानों से विस्तार से अवगत कराया। उन्होंने पूरा एक्ट ध्यानपूर्वक पढ़कर पुनः चर्चा करने और अपनी ओर से आवश्यक कार्रवाई करने का आश्वासन दिया।\n\nमंदिरों को ग्राम्य जीवन के केंद्र में पुनः स्थापित करने के लिए गीता वैश्विक परिवार द्वारा जो पायलट प्रोजेक्ट शुरू किए जा रहे हैं, उनमें से एक महत्वपूर्ण पहल है — चयनित गाँवों के 1000 परिवारों को निःशुल्क निम्नलिखित सामग्री उपलब्ध कराना:\n\n• संप्रदाय-निरपेक्ष भगवद्गीता टीका\n• रामचरितमानस का संक्षिप्त रंगीन संस्करण\n• धर्मांतरण-निरोधी कैप्सूल कोर्स (पुस्तिका)\n• धार्मिक साक्षरता मॉड्यूल\n• विद्यार्थियों के लिए 51 श्लोकों की \"गीता नवनीत\" पुस्तक\n\nप्रोजेक्ट प्रारंभ करने से पूर्व गाँव के हिंदुओं की धार्मिक साक्षरता का आधारभूत मूल्यांकन किया जाएगा। एक वर्ष के प्रोजेक्ट की समाप्ति पर पुनः उनकी प्रगति की समीक्षा होगी — न केवल धर्म-ज्ञान बल्कि आचरण में हुए परिवर्तन भी आँके जाएँगे।\n\nश्री आलोक कुमार को इस पहल के बारे में भी अवगत कराया गया और आज ही साई प्रिंटर्स पैक प्रेस से छपकर आई 400 पृष्ठों की सर्वप्रिय गीता टीका संस्करण की सर्वप्रथम प्रति उन्हें भेंट की गई।\n\nश्री आलोक कुमार के साथ हिंदू धर्म के भविष्य पर चर्चा करना एक सुखद और अत्यंत समृद्ध अनुभव रहा।",
+    },
+  },
   {
     images: [img("event-delhi-hindu-mahasabha-1.jpeg")],
     title: "Dialogue with the Akhil Bharat Hindu Mahasabha",
