@@ -1,23 +1,24 @@
 "use client";
 
-import { useSession, signIn, signOut } from "next-auth/react";
-import { useState, useMemo } from "react";
-import { motion } from "framer-motion";
+import { useState, useEffect, useMemo } from "react";
+import { signInWithPopup, onAuthStateChanged, signOut as fbSignOut, type User } from "firebase/auth";
+import { auth, googleProvider } from "@/lib/firebase";
 import {
-  LogIn,
   LogOut,
   Search,
   Shield,
-  BookOpen,
   Users,
   Building2,
-  ChevronDown,
   ExternalLink,
   Phone,
   Mail,
-  MapPin,
 } from "lucide-react";
 import directoryData from "@/data/admin-directories.json";
+
+const ALLOWED_EMAILS = [
+  "rohitgarg684@gmail.com",
+  "brahmbodhi@gmail.com",
+];
 
 type DirectoryData = Record<
   string,
@@ -89,27 +90,14 @@ function DirectoryTable({
                 const isPhone = /^\+?\d[\d\s\-/;]+$/.test(val.trim());
 
                 return (
-                  <td
-                    key={h}
-                    className="px-3 py-2.5 text-text-secondary max-w-[280px] align-top"
-                  >
+                  <td key={h} className="px-3 py-2.5 text-text-secondary max-w-[280px] align-top">
                     {isUrl ? (
-                      <a
-                        href={val.split(";")[0].trim()}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-saffron hover:underline inline-flex items-center gap-1"
-                      >
+                      <a href={val.split(";")[0].trim()} target="_blank" rel="noopener noreferrer" className="text-saffron hover:underline inline-flex items-center gap-1">
                         <ExternalLink className="w-3 h-3 shrink-0" />
-                        <span className="truncate max-w-[200px]">
-                          {val.replace(/https?:\/\//, "").split("/")[0]}
-                        </span>
+                        <span className="truncate max-w-[200px]">{val.replace(/https?:\/\//, "").split("/")[0]}</span>
                       </a>
                     ) : isEmail ? (
-                      <a
-                        href={`mailto:${val}`}
-                        className="text-saffron hover:underline inline-flex items-center gap-1"
-                      >
+                      <a href={`mailto:${val}`} className="text-saffron hover:underline inline-flex items-center gap-1">
                         <Mail className="w-3 h-3 shrink-0" />
                         <span className="truncate max-w-[200px]">{val}</span>
                       </a>
@@ -133,12 +121,44 @@ function DirectoryTable({
 }
 
 export default function AdminPage() {
-  const { data: session, status } = useSession();
-  const [activeDir, setActiveDir] = useState<string>("akharas");
-  const [activeSheet, setActiveSheet] = useState<string>("");
+  const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+  const [activeDir, setActiveDir] = useState("akharas");
+  const [activeSheet, setActiveSheet] = useState("");
   const [search, setSearch] = useState("");
 
-  if (status === "loading") {
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (u) => {
+      if (u && ALLOWED_EMAILS.includes(u.email ?? "")) {
+        setUser(u);
+        setError("");
+      } else if (u) {
+        fbSignOut(auth);
+        setUser(null);
+        setError("Access denied. This account is not authorized.");
+      } else {
+        setUser(null);
+      }
+      setLoading(false);
+    });
+    return unsubscribe;
+  }, []);
+
+  const handleSignIn = async () => {
+    setError("");
+    try {
+      const result = await signInWithPopup(auth, googleProvider);
+      if (!ALLOWED_EMAILS.includes(result.user.email ?? "")) {
+        await fbSignOut(auth);
+        setError("Access denied. This account is not authorized.");
+      }
+    } catch {
+      setError("Sign-in was cancelled or failed. Please try again.");
+    }
+  };
+
+  if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-cream">
         <div className="text-center">
@@ -149,50 +169,39 @@ export default function AdminPage() {
     );
   }
 
-  if (!session) {
+  if (!user) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-cream">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="bg-white rounded-2xl border border-cream-dark/40 shadow-lg p-8 md:p-12 max-w-md w-full mx-4 text-center"
-        >
+        <div className="bg-white rounded-2xl border border-cream-dark/40 shadow-lg p-8 md:p-12 max-w-md w-full mx-4 text-center">
           <div className="w-16 h-16 rounded-2xl bg-saffron/10 flex items-center justify-center mx-auto mb-6">
             <Shield className="w-8 h-8 text-saffron" />
           </div>
           <h1 className="text-2xl font-bold text-dark-brown">Admin Access</h1>
           <p className="mt-3 text-text-secondary text-sm leading-relaxed">
             This section is restricted to authorized personnel only. Please sign
-            in with your authorized Google account to continue.
+            in with your authorized Google account.
           </p>
+          {error && (
+            <p className="mt-4 text-sm text-red-600 bg-red-50 rounded-lg px-4 py-2">
+              {error}
+            </p>
+          )}
           <button
-            onClick={() => signIn("google")}
-            className="mt-8 w-full inline-flex items-center justify-center gap-3 px-6 py-3.5 bg-white border-2 border-cream-dark/50 rounded-xl text-dark-brown font-semibold hover:border-saffron/40 hover:shadow-md transition-all"
+            onClick={handleSignIn}
+            className="mt-8 w-full inline-flex items-center justify-center gap-3 px-6 py-3.5 bg-white border-2 border-cream-dark/50 rounded-xl text-dark-brown font-semibold hover:border-saffron/40 hover:shadow-md transition-all cursor-pointer"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24">
-              <path
-                d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                fill="#4285F4"
-              />
-              <path
-                d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                fill="#34A853"
-              />
-              <path
-                d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                fill="#FBBC05"
-              />
-              <path
-                d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                fill="#EA4335"
-              />
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4" />
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853" />
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05" />
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335" />
             </svg>
             Sign in with Google
           </button>
           <p className="mt-4 text-xs text-text-muted">
             Only authorized accounts can access this page.
           </p>
-        </motion.div>
+        </div>
       </div>
     );
   }
@@ -203,8 +212,7 @@ export default function AdminPage() {
   const sheetData = currentDir?.[currentSheet];
 
   const totalRecords = Object.values(data).reduce(
-    (sum, dir) =>
-      sum + Object.values(dir).reduce((s, sheet) => s + sheet.count, 0),
+    (sum, dir) => sum + Object.values(dir).reduce((s, sheet) => s + sheet.count, 0),
     0,
   );
 
@@ -218,17 +226,15 @@ export default function AdminPage() {
                 <Shield className="w-5 h-5 text-saffron" />
               </div>
               <div>
-                <h1 className="text-lg font-bold text-dark-brown">
-                  Admin Portal
-                </h1>
+                <h1 className="text-lg font-bold text-dark-brown">Admin Portal</h1>
                 <p className="text-xs text-text-muted">
-                  {session.user?.email} · {totalRecords} records
+                  {user.email} · {totalRecords} records
                 </p>
               </div>
             </div>
             <button
-              onClick={() => signOut()}
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm text-text-secondary hover:text-dark-brown border border-cream-dark/40 rounded-lg hover:bg-cream transition-colors"
+              onClick={() => fbSignOut(auth)}
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm text-text-secondary hover:text-dark-brown border border-cream-dark/40 rounded-lg hover:bg-cream transition-colors cursor-pointer"
             >
               <LogOut className="w-4 h-4" />
               Sign out
@@ -242,19 +248,12 @@ export default function AdminPage() {
           {Object.entries(DIRECTORY_META).map(([key, meta]) => {
             const Icon = meta.icon;
             const dirSheets = data[key];
-            const count = dirSheets
-              ? Object.values(dirSheets).reduce((s, sh) => s + sh.count, 0)
-              : 0;
-
+            const count = dirSheets ? Object.values(dirSheets).reduce((s, sh) => s + sh.count, 0) : 0;
             return (
               <button
                 key={key}
-                onClick={() => {
-                  setActiveDir(key);
-                  setActiveSheet("");
-                  setSearch("");
-                }}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${
+                onClick={() => { setActiveDir(key); setActiveSheet(""); setSearch(""); }}
+                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all cursor-pointer ${
                   activeDir === key
                     ? "bg-saffron text-white shadow-sm"
                     : "bg-white text-text-secondary border border-cream-dark/40 hover:border-saffron/30"
@@ -262,13 +261,7 @@ export default function AdminPage() {
               >
                 <Icon className="w-4 h-4" />
                 {meta.label}
-                <span
-                  className={`text-xs px-1.5 py-0.5 rounded-full ${
-                    activeDir === key
-                      ? "bg-white/20"
-                      : "bg-cream text-text-muted"
-                  }`}
-                >
+                <span className={`text-xs px-1.5 py-0.5 rounded-full ${activeDir === key ? "bg-white/20" : "bg-cream text-text-muted"}`}>
                   {count}
                 </span>
               </button>
@@ -281,20 +274,15 @@ export default function AdminPage() {
             {sheets.map((sheet) => (
               <button
                 key={sheet}
-                onClick={() => {
-                  setActiveSheet(sheet);
-                  setSearch("");
-                }}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                onClick={() => { setActiveSheet(sheet); setSearch(""); }}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors cursor-pointer ${
                   currentSheet === sheet
                     ? "bg-maroon/10 text-maroon border border-maroon/20"
                     : "bg-white text-text-muted border border-cream-dark/30 hover:text-dark-brown"
                 }`}
               >
                 {sheet}
-                <span className="ml-1 opacity-60">
-                  ({currentDir?.[sheet]?.count || 0})
-                </span>
+                <span className="ml-1 opacity-60">({currentDir?.[sheet]?.count || 0})</span>
               </button>
             ))}
           </div>
@@ -312,11 +300,7 @@ export default function AdminPage() {
         </div>
 
         {sheetData && (
-          <DirectoryTable
-            headers={sheetData.headers}
-            records={sheetData.records}
-            search={search}
-          />
+          <DirectoryTable headers={sheetData.headers} records={sheetData.records} search={search} />
         )}
       </div>
     </div>

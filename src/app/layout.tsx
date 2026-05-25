@@ -3,7 +3,6 @@ import { DM_Sans, Tiro_Devanagari_Hindi } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Providers from "./providers";
 import { img } from "@/lib/image-url";
 
 const dmSans = DM_Sans({
@@ -81,11 +80,9 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col">
-        <Providers>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </Providers>
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );
