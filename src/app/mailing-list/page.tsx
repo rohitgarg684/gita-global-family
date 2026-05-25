@@ -2,8 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { signInWithPopup, onAuthStateChanged, signOut as fbSignOut, type User } from "firebase/auth";
-import { collection, getDocs } from "firebase/firestore";
-import { auth, db, googleProvider } from "@/lib/firebase";
+import { auth, googleProvider } from "@/lib/firebase";
 import {
   LogOut,
   Search,
@@ -142,17 +141,21 @@ export default function AdminPage() {
   useEffect(() => {
     if (!user) return;
     setDataLoading(true);
-    getDocs(collection(db, "admin_directories"))
-      .then((snapshot) => {
-        const sheets: SheetData[] = [];
-        snapshot.forEach((doc) => {
-          sheets.push(doc.data() as SheetData);
-        });
-        setAllSheets(sheets);
+    user
+      .getIdToken()
+      .then((token) =>
+        fetch("/api/directories", {
+          headers: { Authorization: `Bearer ${token}` },
+        }),
+      )
+      .then(async (res) => {
+        if (!res.ok) throw new Error(`Server returned ${res.status}`);
+        const json = await res.json();
+        setAllSheets(json.sheets as SheetData[]);
       })
       .catch((err) => {
-        console.error("Firestore error:", err);
-        setError("Failed to load data from database.");
+        console.error("API error:", err);
+        setError("Failed to load data.");
       })
       .finally(() => setDataLoading(false));
   }, [user]);
