@@ -12,6 +12,7 @@ import {
   ChevronLeft,
   ChevronRight,
   X,
+  Globe,
 } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import { img } from "@/lib/image-url";
@@ -299,8 +300,12 @@ function EventModal({
   onClose: () => void;
 }) {
   const [photoIndex, setPhotoIndex] = useState(0);
+  const [lang, setLang] = useState<"en" | "hi">("en");
   const total = event.images.length;
   const hasMultiple = total > 1;
+  const hasBilingual = !!event.hi;
+  const title = lang === "hi" && event.hi ? event.hi.title : event.title;
+  const description = lang === "hi" && event.hi ? event.hi.description : event.description;
 
   const next = useCallback(() => {
     setPhotoIndex((i) => (i + 1) % total);
@@ -399,11 +404,36 @@ function EventModal({
         </div>
 
         <div className="md:w-2/5 p-6 md:p-8 overflow-y-auto">
+          {hasBilingual && (
+            <div className="flex items-center gap-1 mb-4 p-1 bg-cream rounded-lg w-fit">
+              <Globe className="w-3.5 h-3.5 text-text-muted ml-1.5" />
+              <button
+                onClick={() => setLang("en")}
+                className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-colors ${
+                  lang === "en"
+                    ? "bg-saffron text-white shadow-sm"
+                    : "text-text-secondary hover:text-dark-brown"
+                }`}
+              >
+                English
+              </button>
+              <button
+                onClick={() => setLang("hi")}
+                className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-colors ${
+                  lang === "hi"
+                    ? "bg-saffron text-white shadow-sm"
+                    : "text-text-secondary hover:text-dark-brown"
+                }`}
+              >
+                हिंदी
+              </button>
+            </div>
+          )}
           <h3 className="text-xl md:text-2xl font-bold text-dark-brown leading-snug pr-8">
-            {event.title}
+            {title}
           </h3>
           <div className="mt-4 space-y-3 text-sm md:text-[15px] text-text-secondary leading-relaxed">
-            {event.description.split("\n").map((para, i) =>
+            {description.split("\n").map((para, i) =>
               para.trim() === "" ? null : (
                 <p key={i}>{para}</p>
               ),
