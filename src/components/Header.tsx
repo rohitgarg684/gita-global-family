@@ -2,12 +2,28 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { onAuthStateChanged, type User } from "firebase/auth";
+import { auth } from "@/lib/firebase";
 import { img } from "@/lib/image-url";
 
-const navLinks = [
+const ALLOWED_EMAILS = ["rohitgarg684@gmail.com", "brahmbodhi@gmail.com"];
+
+interface NavChild {
+  href: string;
+  label: string;
+  adminOnly?: boolean;
+}
+
+interface NavLink {
+  href?: string;
+  label: string;
+  children?: NavChild[];
+}
+
+const navLinksBase: NavLink[] = [
   { href: "/", label: "Home" },
   { href: "/spirituality", label: "Spirituality" },
   { href: "/gita-publications", label: "Publications" },
@@ -30,6 +46,7 @@ const navLinks = [
       },
       { href: "/networking", label: "Network" },
       { href: "/gallery", label: "Gallery" },
+      { href: "/admin", label: "Mailing List", adminOnly: true },
     ],
   },
   { href: "/contact", label: "Contact" },
@@ -38,6 +55,22 @@ const navLinks = [
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (u: User | null) => {
+      setIsAdmin(!!u && ALLOWED_EMAILS.includes(u.email ?? ""));
+    });
+    return unsubscribe;
+  }, []);
+
+  const navLinks = navLinksBase.map((link) => {
+    if (!link.children) return link;
+    return {
+      ...link,
+      children: link.children.filter((c) => !c.adminOnly || isAdmin),
+    };
+  });
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-cream-dark/50">
