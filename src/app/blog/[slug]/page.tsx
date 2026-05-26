@@ -28,40 +28,40 @@ const blogPosts: Record<string, BlogPost> = {
     videoId: "26a27V0xtNY",
     videoUrl: "https://youtu.be/26a27V0xtNY",
     intro:
-      "A political voice has once again called to \u201ceradicate Sanatan.\u201d This video answers that call \u2014 not with anger, but with history. It argues that Sanatan Dharma is, in fact, one of the most inclusive and non\u2011divisive civilizational traditions the world has ever known, especially when held up against the violent religious record of medieval Christian Europe.",
+      "A political voice has once again called to \u201ceradicate Sanatan.\u201d In this video, BrahmBodhi answers that call \u2014 not with anger, but with history. He shows that Sanatan Dharma is, in fact, one of the most inclusive and non\u2011divisive civilizational traditions the world has ever known, especially when held up against the violent religious record of medieval Christian Europe.",
     content: [],
     sections: [
       {
-        heading: "Context and main target",
-        body: "The speaker addresses a Christian Indian politician who has repeatedly said that Sanatan Dharma / Hinduism must be eradicated. He observes that such a statement in many Islamic countries could easily invite violent retaliation. In India, despite Hindus being a vast majority, the politician faces no physical threat \u2014 precisely because the Sanatan civilization is, at its core, tolerant.",
+        heading: "The context",
+        body: "BrahmBodhi is responding to a Christian Indian politician who has repeatedly said that Sanatan Dharma \u2014 Hinduism \u2014 must be eradicated. He gently points out that the very same statement, made in many Islamic countries, could easily invite violent retaliation. In India, despite Hindus being a vast majority, the politician faces no physical threat at all. Why? Because the Sanatan civilization is, at its core, tolerant.",
       },
       {
         heading: "What \u201cdivisive\u201d really means",
-        body: "He carefully separates \u201cdivision\u201d from \u201cdivisive.\u201d Division \u2014 the existence of many religions, sects, ideologies, and parties \u2014 is natural and universal. \u201cDivisive,\u201d however, is when disagreements are not tolerated, and instead spill into bloodshed, wars, killings, and exterminations. By that definition, Sanatan Dharma simply does not qualify.",
+        body: "BrahmBodhi carefully separates \u201cdivision\u201d from \u201cdivisive.\u201d Division \u2014 the existence of many religions, sects, ideologies, and parties \u2014 is natural and universal. Every society has it. \u201cDivisive,\u201d however, is something far more serious: it is when disagreements are not tolerated, and instead spill into bloodshed, wars, killings, and exterminations. By that honest definition, Sanatan Dharma simply does not qualify.",
       },
       {
-        heading: "A historical critique of Christianity",
-        body: "Drawing on medieval European history, he argues that Christianity has been \u201cthe most divisive religion\u201d in terms of intra\u2011religious violence. He cites the Great Schism, the wars between Western and Eastern churches, Catholic\u2013Protestant conflicts, the Inquisitions (especially the Spanish Inquisition), and the Crusades \u2014 events in which millions died. He describes streets that flowed \u201clike drains of blood,\u201d referencing figures such as 32,000 executions and thousands burnt alive.",
+        heading: "A historical look at Christianity",
+        body: "Turning to medieval European history, BrahmBodhi argues that Christianity has been \u201cthe most divisive religion\u201d in terms of intra\u2011religious violence. He walks through the Great Schism, the wars between Western and Eastern churches, the Catholic\u2013Protestant conflicts, the Inquisitions (especially the Spanish Inquisition), and the Crusades \u2014 events in which millions died. He describes streets that flowed \u201clike drains of blood,\u201d citing figures such as 32,000 executions and thousands burnt alive.",
       },
       {
-        heading: "Internal religious persecution",
-        body: "He emphasizes that Christians historically persecuted not only other Christians, but also Jews and Muslims \u2014 not merely converting them, but policing their practice and executing those suspected of secretly holding onto their old beliefs. He contrasts this with the near\u2011absence of comparable, large\u2011scale, recorded massacres between Hindu sects, or of Hindu \u201ccrusades\u201d against other religions.",
+        heading: "Persecution from within",
+        body: "BrahmBodhi emphasizes that Christians historically persecuted not only other Christians, but also Jews and Muslims \u2014 not merely converting them, but policing their practice and executing those suspected of secretly holding onto their old beliefs. He contrasts this with the near\u2011absence of comparable, large\u2011scale, recorded massacres between Hindu sects, or of Hindu \u201ccrusades\u201d launched against people of other faiths.",
       },
       {
-        heading: "Sanatan Dharma and its astonishing internal diversity",
-        body: "He lists the many living streams of Dharmic thought \u2014 Vaishnavas, Shaivas, Shaktas, Vaisheshikas, Sikhs, Jains, Buddhists \u2014 and points out that despite such enormous diversity, there are no documented large\u2011scale sectarian massacres among them. There were no Hindu or Buddhist crusades on the scale of those launched in the name of other faiths. Claims to the contrary, he argues, lack solid historical documentation.",
+        heading: "The astonishing internal diversity of Sanatan Dharma",
+        body: "He then lists the many living streams of Dharmic thought \u2014 Vaishnavas, Shaivas, Shaktas, Vaisheshikas, Sikhs, Jains, Buddhists \u2014 and points out that despite such enormous diversity, there are no documented large\u2011scale sectarian massacres among them. There were no Hindu or Buddhist crusades on the scale of those launched in the name of other faiths. Claims to the contrary, BrahmBodhi says, simply do not stand up to serious historical scrutiny.",
       },
       {
-        heading: "Caste, scriptures, and the ongoing reform",
-        body: "He does not whitewash caste discrimination. He acknowledges it openly \u2014 but argues that it is not rooted in the core teachings of the Vedas or the Bhagavad Gita, which he calls the top\u2011tier scriptures of Hindu thought. Caste oppression, he says, is a historical deviation that Sanatan society has been actively correcting through legal and social reform over the last eight decades. His prediction: caste\u2011based discrimination will largely disappear in the coming centuries.",
+        heading: "Caste, scriptures, and an ongoing reform",
+        body: "BrahmBodhi does not whitewash caste discrimination. He acknowledges it openly \u2014 but he is clear that it is not rooted in the core teachings of the Vedas or the Bhagavad Gita, which he holds as the top\u2011tier scriptures of Hindu thought. Caste oppression, in his reading, is a historical deviation that Sanatan society has been actively correcting through legal and social reform over the last eight decades. His prediction: caste\u2011based discrimination will largely disappear in the coming centuries.",
       },
       {
         heading: "India as a refuge of civilizations",
-        body: "To reinforce the case for Sanatan inclusiveness, he points to India as a \u201crefuge of civilizations\u201d \u2014 a land where persecuted Parsis and Jews found safety and were allowed to flourish. He contrasts the drastic decline of the Hindu population in Pakistan since Partition with the robust growth of the Muslim population in India \u2014 a fact that, he argues, decisively undermines the charge that Sanatan Dharma is inherently divisive or oppressive toward minorities.",
+        body: "To reinforce the case for Sanatan inclusiveness, BrahmBodhi points to India as a \u201crefuge of civilizations\u201d \u2014 a land where persecuted Parsis and Jews found safety and were allowed to flourish. He contrasts the drastic decline of the Hindu population in Pakistan since Partition with the robust growth of the Muslim population in India \u2014 a fact that, he argues, decisively undermines the charge that Sanatan Dharma is inherently divisive or oppressive toward minorities.",
       },
       {
-        heading: "Closing challenge \u2014 and a warning",
-        body: "He concludes by urging the politician to \u201ceradicate ignorance\u201d \u2014 by actually studying history \u2014 rather than attacking Sanatan Dharma. While reassuring him that Hindus will not physically harm him, he predicts that he and his party may be electorally \u201cwiped out\u201d if they persist in their current stance against Sanatan Dharma. The message is firm, but the tone remains, unmistakably, Dharmic.",
+        heading: "A closing challenge \u2014 and a warning",
+        body: "BrahmBodhi closes by urging the politician to \u201ceradicate ignorance\u201d \u2014 by actually studying history \u2014 rather than attacking Sanatan Dharma. He reassures him that Hindus will not physically harm him. But he also offers a frank political prediction: he and his party may be electorally \u201cwiped out\u201d if they persist in their current stance against Sanatan Dharma. The message is firm, the tone remains \u2014 unmistakably \u2014 Dharmic.",
       },
     ],
   },

@@ -19,7 +19,7 @@ const englishArticles: {
     title:
       "Is Sanatan Dharma Really \u201cDivisive\u201d? A Historical Reality Check",
     excerpt:
-      "A response to political calls to \u201ceradicate Sanatan.\u201d Drawing on medieval European history\u2014the Crusades, Inquisitions, Catholic\u2013Protestant wars\u2014and on India\u2019s long record as a refuge for persecuted peoples, this video argues that Sanatan Dharma is one of the most inclusive and non\u2011divisive civilizations the world has ever known.",
+      "BrahmBodhi responds to political calls to \u201ceradicate Sanatan.\u201d Drawing on medieval European history\u2014the Crusades, the Inquisitions, the Catholic\u2013Protestant wars\u2014and on India\u2019s long record as a refuge for persecuted peoples, he shows that Sanatan Dharma is, in truth, one of the most inclusive and non\u2011divisive civilizations the world has ever known.",
     date: "May 26, 2026",
     slug: "is-sanatan-dharma-divisive-a-historical-reality-check",
     image: "https://img.youtube.com/vi/26a27V0xtNY/maxresdefault.jpg",
