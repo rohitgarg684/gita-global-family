@@ -1,12 +1,70 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, Calendar } from "lucide-react";
+import { ArrowLeft, Calendar, ExternalLink } from "lucide-react";
 import type { Metadata } from "next";
 import { img } from "@/lib/image-url";
-const blogPosts: Record<
-  string,
-  { title: string; date?: string; image?: string; content: string[] }
-> = {
+
+interface BlogSection {
+  heading: string;
+  body: string;
+}
+
+interface BlogPost {
+  title: string;
+  date?: string;
+  image?: string;
+  videoId?: string;
+  videoUrl?: string;
+  intro?: string;
+  content: string[];
+  sections?: BlogSection[];
+}
+
+const blogPosts: Record<string, BlogPost> = {
+  "is-sanatan-dharma-divisive-a-historical-reality-check": {
+    title:
+      "Is Sanatan Dharma Really \u201cDivisive\u201d? A Historical Reality Check",
+    date: "May 26, 2026",
+    videoId: "26a27V0xtNY",
+    videoUrl: "https://youtu.be/26a27V0xtNY",
+    intro:
+      "A political voice has once again called to \u201ceradicate Sanatan.\u201d This video answers that call \u2014 not with anger, but with history. It argues that Sanatan Dharma is, in fact, one of the most inclusive and non\u2011divisive civilizational traditions the world has ever known, especially when held up against the violent religious record of medieval Christian Europe.",
+    content: [],
+    sections: [
+      {
+        heading: "Context and main target",
+        body: "The speaker addresses a Christian Indian politician who has repeatedly said that Sanatan Dharma / Hinduism must be eradicated. He observes that such a statement in many Islamic countries could easily invite violent retaliation. In India, despite Hindus being a vast majority, the politician faces no physical threat \u2014 precisely because the Sanatan civilization is, at its core, tolerant.",
+      },
+      {
+        heading: "What \u201cdivisive\u201d really means",
+        body: "He carefully separates \u201cdivision\u201d from \u201cdivisive.\u201d Division \u2014 the existence of many religions, sects, ideologies, and parties \u2014 is natural and universal. \u201cDivisive,\u201d however, is when disagreements are not tolerated, and instead spill into bloodshed, wars, killings, and exterminations. By that definition, Sanatan Dharma simply does not qualify.",
+      },
+      {
+        heading: "A historical critique of Christianity",
+        body: "Drawing on medieval European history, he argues that Christianity has been \u201cthe most divisive religion\u201d in terms of intra\u2011religious violence. He cites the Great Schism, the wars between Western and Eastern churches, Catholic\u2013Protestant conflicts, the Inquisitions (especially the Spanish Inquisition), and the Crusades \u2014 events in which millions died. He describes streets that flowed \u201clike drains of blood,\u201d referencing figures such as 32,000 executions and thousands burnt alive.",
+      },
+      {
+        heading: "Internal religious persecution",
+        body: "He emphasizes that Christians historically persecuted not only other Christians, but also Jews and Muslims \u2014 not merely converting them, but policing their practice and executing those suspected of secretly holding onto their old beliefs. He contrasts this with the near\u2011absence of comparable, large\u2011scale, recorded massacres between Hindu sects, or of Hindu \u201ccrusades\u201d against other religions.",
+      },
+      {
+        heading: "Sanatan Dharma and its astonishing internal diversity",
+        body: "He lists the many living streams of Dharmic thought \u2014 Vaishnavas, Shaivas, Shaktas, Vaisheshikas, Sikhs, Jains, Buddhists \u2014 and points out that despite such enormous diversity, there are no documented large\u2011scale sectarian massacres among them. There were no Hindu or Buddhist crusades on the scale of those launched in the name of other faiths. Claims to the contrary, he argues, lack solid historical documentation.",
+      },
+      {
+        heading: "Caste, scriptures, and the ongoing reform",
+        body: "He does not whitewash caste discrimination. He acknowledges it openly \u2014 but argues that it is not rooted in the core teachings of the Vedas or the Bhagavad Gita, which he calls the top\u2011tier scriptures of Hindu thought. Caste oppression, he says, is a historical deviation that Sanatan society has been actively correcting through legal and social reform over the last eight decades. His prediction: caste\u2011based discrimination will largely disappear in the coming centuries.",
+      },
+      {
+        heading: "India as a refuge of civilizations",
+        body: "To reinforce the case for Sanatan inclusiveness, he points to India as a \u201crefuge of civilizations\u201d \u2014 a land where persecuted Parsis and Jews found safety and were allowed to flourish. He contrasts the drastic decline of the Hindu population in Pakistan since Partition with the robust growth of the Muslim population in India \u2014 a fact that, he argues, decisively undermines the charge that Sanatan Dharma is inherently divisive or oppressive toward minorities.",
+      },
+      {
+        heading: "Closing challenge \u2014 and a warning",
+        body: "He concludes by urging the politician to \u201ceradicate ignorance\u201d \u2014 by actually studying history \u2014 rather than attacking Sanatan Dharma. While reassuring him that Hindus will not physically harm him, he predicts that he and his party may be electorally \u201cwiped out\u201d if they persist in their current stance against Sanatan Dharma. The message is firm, but the tone remains, unmistakably, Dharmic.",
+      },
+    ],
+  },
   "the-benefits-of-yoga-for-mental-health": {
     title: "Does Bhagavad Gita Support the Hindu Caste System?",
     date: "Jan 5, 2025",
@@ -168,24 +226,67 @@ export default async function BlogPost(props: {
         )}
       </section>
 
-      {post.image && (
+      {post.videoId ? (
         <div className="section-padding pb-0">
-          <div className="relative w-full max-w-4xl h-64 md:h-96 rounded-2xl overflow-hidden">
-            <Image
-              src={post.image}
-              alt={post.title}
-              fill
-              className="object-cover"
-              priority
+          <div className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${post.videoId}?rel=0&modestbranding=1`}
+              title={post.title}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full"
             />
           </div>
+          {post.videoUrl && (
+            <div className="max-w-4xl mt-3">
+              <a
+                href={post.videoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-saffron hover:text-saffron-dark transition-colors"
+              >
+                Watch on YouTube
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
+          )}
         </div>
+      ) : (
+        post.image && (
+          <div className="section-padding pb-0">
+            <div className="relative w-full max-w-4xl h-64 md:h-96 rounded-2xl overflow-hidden">
+              <Image
+                src={post.image}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+        )
       )}
 
       <section className="section-padding py-12 md:py-16">
         <article className="prose prose-lg max-w-4xl text-text-secondary leading-relaxed space-y-6">
+          {post.intro && (
+            <p className="text-lg md:text-xl text-dark-brown/90 font-medium leading-relaxed border-l-4 border-saffron pl-5">
+              {post.intro}
+            </p>
+          )}
+
           {post.content.map((paragraph, i) => (
             <p key={i}>{paragraph}</p>
+          ))}
+
+          {post.sections?.map((section, i) => (
+            <div key={i} className="pt-2">
+              <h2 className="text-xl md:text-2xl font-bold text-dark-brown mt-8 mb-3 leading-snug">
+                {section.heading}
+              </h2>
+              <p className="leading-relaxed">{section.body}</p>
+            </div>
           ))}
         </article>
       </section>

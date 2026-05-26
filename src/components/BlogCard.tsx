@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { Play } from "lucide-react";
 
 interface BlogCardProps {
   title: string;
@@ -11,6 +12,8 @@ interface BlogCardProps {
   slug: string;
   image?: string;
   index?: number;
+  isVideo?: boolean;
+  badge?: string;
 }
 
 export default function BlogCard({
@@ -20,6 +23,8 @@ export default function BlogCard({
   slug,
   image,
   index = 0,
+  isVideo = false,
+  badge,
 }: BlogCardProps) {
   return (
     <motion.article
@@ -37,6 +42,24 @@ export default function BlogCard({
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-500"
           />
+          {isVideo && (
+            <>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-14 h-14 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:bg-saffron transition-all duration-300">
+                  <Play
+                    className="w-6 h-6 text-saffron group-hover:text-white fill-current ml-1 transition-colors"
+                    strokeWidth={1.5}
+                  />
+                </div>
+              </div>
+            </>
+          )}
+          {badge && (
+            <span className="absolute top-3 left-3 inline-flex items-center gap-1 rounded-full bg-saffron text-white text-[11px] font-semibold uppercase tracking-wide px-2.5 py-1 shadow">
+              {badge}
+            </span>
+          )}
         </div>
       )}
       <div className="p-6">
