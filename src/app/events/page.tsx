@@ -108,6 +108,19 @@ const londonEvents: EventItem[] = [
 
 const delhiEvents: EventItem[] = [
   {
+    images: [img("event-delhi-lokesh-muni.jpeg")],
+    title:
+      "Discussion with Acharya Lokesh Muni",
+    description:
+      "A meeting was held today with Acharya Lokesh Muni, a leading saint of Jainism, followed by a meaningful discussion of about half an hour on various subjects of religion and philosophy. Key principles of Jain Dharma were also discussed. The conversation also touched upon the need to bring all faiths of Indian origin — which share common life values such as non-violence — onto a common platform.\n\nA copy of the draft Sanatan Seva Nidhi Law and the newly published 'Sarvapriya' Gita — designed for the general public — were presented to him.\n\nAcharya Lokesh Muni has been an active participant in interfaith dialogue and has been honoured with numerous awards and recognitions both in India and abroad.\n\nDuring the discussion, certain principles of the Bhagavad Gita were briefly highlighted that bear a striking resemblance to some of the core tenets of Jain philosophy — for example, the doctrine of karma, agency, and individual responsibility for the fruits of action. In the Bhagavad Gita, the Lord says:\n\n\"Na kartritvam na karmani lokasya srijati prabhuh...\" (Gita 5.14)\n\nThis means that God does not create the actions, the sense of doership, or the fruits of action for human beings — the responsibility lies entirely with the individual. Jain philosophy similarly places the responsibility of karma and its consequences squarely upon the individual, not upon God.\n\nAcharya Lokesh Muni has ashrams in Karol Bagh and Gurugram. This discussion took place at his Karol Bagh ashram.",
+    hi: {
+      title:
+        "आचार्य लोकेश मुनि से चर्चा",
+      description:
+        "आज जैन धर्म के अग्रणी संत आचार्य लोकेश मुनि से भेंट हुई तथा लगभग आधे घंटे तक धर्म और दर्शन के विभिन्न विषयों पर सार्थक चर्चा हुई। जैन धर्म के कुछ प्रमुख सिद्धांतों पर भी विचार-विमर्श हुआ। साथ ही सभी भारतीय मूल के धर्मों, जो अहिंसा आदि एक प्रकार के जीवन मूल्यों को साझा करते हैं, को एक मंच पर लाने की आवश्यकता पर भी बात हुई।\n\nमैंने उन्हें \"सनातन सेवा निधि\" कानून के प्रारूप तथा जनसामान्य के लिए नवप्रकाशित \"सर्वप्रिय\" गीता की एक प्रति भेंट की।\n\nआचार्य लोकेश मुनि अंतरधार्मिक संवाद (Interfaith Dialogue) में सक्रिय रूप से सहभागी होते रहे हैं तथा देश-विदेश में अनेक सम्मानों और पुरस्कारों से अलंकृत किए जा चुके हैं।\n\nचर्चा के दौरान मैंने उन्हें भगवद्गीता के कुछ ऐसे सिद्धांतों की ओर संक्षेप में संकेत किया, जो जैन दर्शन के कुछ मूल तत्त्वों से अत्यंत निकटता रखते हैं। उदाहरणार्थ, कर्म, कर्तृत्व और कर्मफल के उत्तरदायित्व का सिद्धांत। भगवद्गीता में भगवान कहते हैं :\n\n\"न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः...\" (गीता 5.14)\n\nअर्थात् ईश्वर मनुष्यों के कर्मों, कर्तृत्व अथवा कर्मफल का निर्माण नहीं करते; इनका उत्तरदायित्व स्वयं व्यक्ति पर ही है। जैन दर्शन भी इसी प्रकार कर्म और उसके फल का दायित्व व्यक्ति के ऊपर ही स्थापित करता है, न कि ईश्वर के ऊपर।\n\nआचार्य लोकेश मुनि का एक आश्रम करोल बाग में तथा दूसरा गुड़गाँव में स्थित है। यह चर्चा करोल बाग स्थित आश्रम में हुई।",
+    },
+  },
+  {
     images: [
       img("event-delhi-vhp-meeting.jpeg"),
       img("event-delhi-sarvapriya-gita.jpeg"),
