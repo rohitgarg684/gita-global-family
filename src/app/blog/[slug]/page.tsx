@@ -1,67 +1,167 @@
-import Link from "next/link";
-import Image from "next/image";
-import { ArrowLeft, Calendar, ExternalLink } from "lucide-react";
 import type { Metadata } from "next";
 import { img } from "@/lib/image-url";
-
-interface BlogSection {
-  heading: string;
-  body: string;
-}
-
-interface BlogPost {
-  title: string;
-  date?: string;
-  image?: string;
-  videoId?: string;
-  videoUrl?: string;
-  intro?: string;
-  content: string[];
-  sections?: BlogSection[];
-}
+import BlogPostView, { type BlogPost } from "./BlogPostView";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 const blogPosts: Record<string, BlogPost> = {
+  "removing-spiritual-poverty-building-a-new-india": {
+    title: "Removing Spiritual Poverty: The Missing Pillar of a New India",
+    date: "May 26, 2026",
+    videoId: "knKDmQ7d-3c",
+    videoUrl: "https://www.youtube.com/watch?v=knKDmQ7d-3c",
+    intro:
+      "Roads, factories, and GDP are necessary — but they are not sufficient. A truly new India is built on a second, quieter foundation: the inner formation of the human being. In this address at a “Building a New India” summit, I wish to share why removing spiritual poverty (आध्यात्मिक निर्धनता) is just as urgent as removing economic poverty — and how the Bhagavad Gita gives us the blueprint to do both together.",
+    content: [],
+    sections: [
+      {
+        heading: "Opening with the Gita",
+        body: "I begin with a simple shloka of the Gita: dedicate every action, every austerity, every offering to the Lord. The one who sees God in all beings, and all beings in God, never falls out of His sight. This is the vision from which I wish to speak today — a vision of seeing the Divine in everyone we meet, and in every task we touch.\n\nIt moves me that a “Building a New India” summit chose to open with a glimpse of Bharatiya culture and a reflection on the Gita. Whoever conceived of this had very deep vision. Because nation‑building, in its truest sense, cannot begin anywhere else.",
+      },
+      {
+        heading: "True nation‑building is the building of the human being",
+        body: "Yes, building India means building roads, factories, hospitals, infrastructure, the health sector. None of this is to be dismissed. But beneath all of this lies something more fundamental: manushya ka nirman — the formation of the human being.\n\nLook honestly at the world today. Duraachaar, balaatkaar, bhrashtaachaar — immorality, violence against women, corruption — these are not just legal failures. They are symptoms of a civilization that has forgotten how to build the human being. A corrupt engineer can still misuse a perfectly good highway. So if we build the road but not the person who walks it, we have built only half of India.",
+      },
+      {
+        heading: "Poverty has more than one dimension",
+        body: "I deeply respect the current efforts of our government to remove poverty — especially what the United Nations calls absolute poverty: those who do not receive even two meals a day. So long as this class remains poor, we cannot, in honesty, call ourselves a fully developed nation — no matter how grand our celebrations or how impressive our statistics.\n\nAny national sankalp — any genuine resolve — must explicitly include this most deprived section, and must work for both their physical and spiritual upliftment. Because poverty, in the Gita’s vision, is never only of the stomach. It is also of the heart.",
+      },
+      {
+        heading: "Daivi Sampada: the wealth that no one can steal",
+        body: "Under our Gita Dhama / Gita Global Family project, every Garibi Nivaran Kendra — every poverty‑removal centre — works on both economic and spiritual poverty together. We do not separate the two.\n\nThere is a chapter in the Gita on Daivi Sampada — the “divine wealth.” There, Bhagavan Himself defines what spiritual poverty and spiritual wealth actually are. He calls our inner qualities sampada — wealth, property of the soul. When qualities such as freedom from hatred, universal friendliness, compassion, humility, and a balanced mind enter our inner being, then — and only then — are we spiritually rich. A man with crores in the bank but envy and rage in his heart is, in the Gita’s eyes, deeply poor.",
+      },
+      {
+        heading: "Why removing poverty is so hard without karma‑yoga",
+        body: "Let me share honestly. Our early experiments in poverty alleviation left us, at times, disappointed. Many people did not wish to work. They wanted everything for free, even when they knew that what was being given was not enough for a dignified life. People kept visiting astrologers, kept waiting for government schemes, but avoided sustained effort.\n\nThis is why I say with conviction: removing poverty is extremely hard unless people are educated and trained in the karma‑yoga of the Gita. Religion and dharma — especially as taught in the Vedas and the Gita — can contribute enormously to prosperity, because they create a value system of prosperity. In our Vedas, asking the devatas for wealth, for cattle, for resources was never seen as shameful. It was part of a healthy, dharmic ideal of life.",
+      },
+      {
+        heading: "From the world’s richest civilization — to mass poverty",
+        body: "Our Vedic rishis prayed openly for dhan, dhaanya, gau, and prosperity. That value system carried us a long way. According to modern economic historians, India held the world’s highest — or near‑highest — GDP from roughly the first century all the way to the seventeenth century.\n\nJeffrey Sachs, in his book The End of Poverty, openly acknowledges this: India held the top position in world GDP until the seventeenth century. China then took the first position in the eighteenth century, and India became second. After that, both our wealth and our value systems were systematically destroyed — and widespread poverty followed.\n\nThe collapse, please understand, was not only economic. It was, more deeply, a collapse of the value system that had sustained our dharmic prosperity for centuries.",
+      },
+      {
+        heading: "Wealth as trusteeship, not as guilt",
+        body: "In certain interpretations of the Bible, and in some Islamic traditions, the rich man is portrayed as nearly incapable of entering heaven — it is famously said that it is easier for a camel to pass through the eye of a needle. The poor, in such a reading, are almost the default citizens of heaven.\n\nThe Gita does not speak in this way. Bhagavan Krishna does not demonize wealth. His message is clear: wealth is not a barrier to liberation, if it is used as King Janaka used it — as a trustee for the welfare of others. The Gita therefore encourages prosperity combined with responsibility. One can be wealthy and yet walk firmly on the spiritual path — provided that wealth is placed in the service of society and of dharma.",
+      },
+      {
+        heading: "Karma‑yogi, not just karmi",
+        body: "A great misunderstanding I must correct: the Gita does not turn people into sannyasis who refuse to work. “Sannyasaḥ karma‑yogaś ca…” — both renunciation and karma‑yoga are effective paths, but karma‑yoga is more suitable, and more special, for most of us.\n\nThe distinction between a mere karmi (worker) and a karma‑yogi looks small from outside. From inside, it is enormous. Two simple shifts turn ordinary work into yoga.\n\nFirst: anasakti — work with non‑attachment. Yes, desire outcomes — success, growth, prosperity — but do not cling to them. If a business fails, a karma‑yogi does not drown in sorrow. He rises and begins again, trusting that if his swadharma is performed properly, success will, in time, come.",
+      },
+      {
+        heading: "The two pillars of karma‑yoga",
+        body: "The first pillar, then, is non‑attachment to results — anasakti — which gives equanimity in gain and loss, victory and defeat, success and failure. Siddhi‑asiddhi sama bhutva.\n\nThe second pillar is ishvara‑arpana — the dedication of every action to God. Whatever you do — your eating, your work, your worship, your charity — offer it to the Divine. Then, the Gita promises, your sins and inner impurities are washed away. Action itself becomes a path of purification, and not of bondage.\n\nTogether, these two — anasakti and ishvara‑arpana — transform daily work into spiritual practice. There is no need to run away from wealth, jobs, or business. There is only the need to align them with dharma.",
+      },
+      {
+        heading: "Gita for students, youth, and social equality",
+        body: "Our campaign is simple: ghar‑ghar mein Gita, man‑man mein Gita. The Gita in every home, and the Gita in every mind. We have published several commentaries in English and Hindi, including a student‑friendly book called Cream of the Bhagavad Gita / Gita Navneet, which presents fifty‑one selected shlokas as a concise gateway into the Gita’s philosophy of life.\n\nNow let me speak plainly about one of the most painful issues of our time — social equality, and the question of caste. Among all the texts of Sanatana Dharma, the Bhagavad Gita is uniquely and unambiguously pro‑equality — between castes, between men and women, and across social classes.\n\nThe Gita itself declares: vidyā‑vinaya‑sampanne brāhmaṇe gavi hastini śuni chaiva śva‑pāke cha paṇḍitāḥ sama‑darśinaḥ. The truly wise sees a learned brahmin, a cow, an elephant, a dog, and an outcaste with equal vision. If we wish to heal the wounds of caste in our society, we must bring the Gita forward — ahead of other texts — and let its vision lead the way.",
+      },
+      {
+        heading: "When the world listens to the Gita",
+        body: "The Gita is not the property of Hindus alone. Some of the greatest minds of the West and of the Jewish tradition have spoken of it with awe.\n\nT. S. Eliot, one of the most respected literary critics of the English language, compared the great Western philosophers — from Plato down to the modern thinkers — and said that, when seen against the Gita, they appear like schoolboys. J. Robert Oppenheimer, the father of the atomic age, would quote verses from the Gita and personally distribute copies to others — such was its hold on him.\n\nThese examples remind us that the Gita’s profundity is recognized far beyond our borders. Its message is not for one religion or one nation. It is for the whole of humanity.",
+      },
+      {
+        heading: "A new India needs daivi sampada",
+        body: "So let me close with the heart of our mission. We wish to place the Gita in every home and in every mind — as a practical guide for living, not merely a ritual book on the shelf.\n\nFor a truly new India, it is not enough to remove economic poverty. We must simultaneously remove spiritual poverty — by cultivating daivi sampada, by practising karma‑yoga, and by establishing a social equality rooted in genuine spiritual vision.\n\nI invite you to take a copy of the Gita — we have made them available free at this event — in English or in Hindi, and to place its teachings before our youth. Then the next generation will grow up materially capable and spiritually grounded. That — and not GDP alone — is the New India we must build together.",
+      },
+    ],
+    hi: {
+      title:
+        "आध्यात्मिक निर्धनता का निवारण: नए भारत का वह अनदेखा स्तम्भ",
+      intro:
+        "सड़कें, कारख़ाने और GDP — ये सब आवश्यक हैं, परंतु पर्याप्त नहीं हैं। सच्चे अर्थों में नया भारत एक दूसरी, मौन नींव पर खड़ा होता है — मनुष्य के अंतःकरण का निर्माण। “Building a New India” सम्मेलन में दिए गए इस उद्बोधन में मैं यह स्पष्ट करना चाहता हूँ कि आर्थिक निर्धनता हटाने जितनी ही आवश्यक है आध्यात्मिक निर्धनता को हटाना — और भगवद् गीता हमें इन दोनों को एक साथ साधने का स्पष्ट मार्ग देती है।",
+      content: [],
+      sections: [
+        {
+          heading: "गीता से आरम्भ",
+          body: "मैं एक सरल गीता-श्लोक के भाव से आरम्भ करता हूँ — हर कर्म, हर तप, हर आहुति को भगवान को अर्पित कर दो। जो साधक सभी प्राणियों में परमात्मा को देखता है और परमात्मा में सभी प्राणियों को, वह भगवान की दृष्टि से कभी ओझल नहीं होता। यही दृष्टि — कि हर व्यक्ति में और हर कार्य में दिव्यता का दर्शन हो — मेरे आज के वक्तव्य का आधार है।\n\nमुझे यह देखकर गहरी प्रसन्नता हुई कि “Building a New India” सम्मेलन का शुभारम्भ भारतीय संस्कृति की झलक और गीता के चिंतन से किया गया। जिसने भी यह विचार दिया, उसकी दृष्टि बहुत गहरी है — क्योंकि सच्चे राष्ट्र-निर्माण का प्रारम्भ इसी से होता है, अन्यत्र कहीं से नहीं।",
+        },
+        {
+          heading: "सच्चा राष्ट्र-निर्माण है — मनुष्य का निर्माण",
+          body: "हाँ, भारत-निर्माण का अर्थ है सड़कें, कारख़ाने, अस्पताल, बुनियादी ढाँचा, स्वास्थ्य-क्षेत्र — इन सभी का विकास। इनकी उपेक्षा नहीं की जा सकती। परंतु इन सबके मूल में एक और गहन कार्य है — मनुष्य का निर्माण।\n\nआज विश्व की स्थिति को ईमानदारी से देखिए। दुराचार, बलात्कार, भ्रष्टाचार — ये केवल क़ानूनी विफलताएँ नहीं हैं। ये उस सभ्यता के लक्षण हैं जो मनुष्य के निर्माण को भूल चुकी है। एक भ्रष्ट इंजीनियर एक अच्छी-भली सड़क का भी दुरुपयोग कर सकता है। अतः यदि हमने सड़क तो बना दी पर उस पर चलने वाले मनुष्य को नहीं बनाया, तो हमने केवल आधा भारत ही बनाया है।",
+        },
+        {
+          heading: "निर्धनता एक नहीं, अनेक आयामों वाली है",
+          body: "हमारी सरकार के निर्धनता-निवारण के प्रयासों का मैं हृदय से आदर करता हूँ — विशेष रूप से उस वर्ग के लिए जिसे संयुक्त राष्ट्र “absolute poverty” कहता है — जिन्हें दो जून का भोजन भी नहीं मिलता। जब तक यह वर्ग निर्धन है, तब तक — चाहे हमारे उत्सव कितने ही भव्य हों, चाहे आँकड़े कितने ही प्रभावशाली — हम स्वयं को पूर्ण विकसित राष्ट्र नहीं कह सकते।\n\nहर राष्ट्रीय संकल्प में इस सबसे वंचित वर्ग का स्पष्ट उल्लेख होना चाहिए, और उसके भौतिक तथा आध्यात्मिक — दोनों उत्थान के लिए कार्य होना चाहिए। क्योंकि गीता की दृष्टि में निर्धनता केवल पेट की नहीं है — वह हृदय की भी है।",
+        },
+        {
+          heading: "दैवी सम्पदा — वह धन जिसे कोई चुरा नहीं सकता",
+          body: "हमारी “गीता धाम / Gita Global Family” परियोजना के अंतर्गत प्रत्येक “ग़रीबी निवारण केंद्र” आर्थिक और आध्यात्मिक निर्धनता — दोनों पर एक साथ कार्य करता है। हम इन दोनों को अलग नहीं करते।\n\nगीता में एक अध्याय है — “दैवासुर-सम्पद्-विभाग योग” — जो दैवी सम्पदा का विवेचन करता है। वहाँ स्वयं भगवान बताते हैं कि आध्यात्मिक निर्धनता और आध्यात्मिक धन वास्तव में क्या हैं। वे हमारे आंतरिक गुणों को “सम्पदा” कहते हैं — आत्मा का धन, आत्मा की सम्पत्ति। जब अद्वेष, सर्व-मैत्री, करुणा, विनम्रता और समचित्तता जैसे गुण हमारे अंतःकरण में प्रवेश करते हैं — तभी, और केवल तभी, हम आध्यात्मिक दृष्टि से धनवान कहलाते हैं। बैंक में करोड़ों रखने वाला परंतु हृदय में ईर्ष्या और क्रोध से भरा व्यक्ति, गीता की दृष्टि में, गहरा निर्धन है।",
+        },
+        {
+          heading: "कर्म-योग के बिना निर्धनता हटाना इतना कठिन क्यों है",
+          body: "मैं स्पष्ट कहूँगा — हमारे प्रारम्भिक निर्धनता-निवारण के प्रयोग कभी-कभी निराशाजनक रहे। अनेक लोग परिश्रम नहीं करना चाहते थे। वे सब कुछ निःशुल्क चाहते थे — यह जानते हुए भी कि जो दिया जा रहा है वह सम्मानजनक जीवन के लिए पर्याप्त नहीं है। लोग ज्योतिषियों के पास जाते रहे, सरकारी योजनाओं की प्रतीक्षा करते रहे, परंतु निरंतर परिश्रम से बचते रहे।\n\nइसीलिए मैं दृढ़ता से कहता हूँ — जब तक लोगों को गीता के कर्म-योग की शिक्षा और प्रशिक्षण नहीं दिया जाता, तब तक निर्धनता हटाना अत्यंत कठिन है। धर्म — विशेषकर वेद और गीता में सिखाया गया धर्म — समृद्धि में बहुत बड़ा योगदान कर सकता है, क्योंकि वह एक “समृद्धि की मूल्य-व्यवस्था” रचता है। हमारे वेदों में देवताओं से धन, गौ, अन्न और साधन माँगना कभी लज्जा का विषय नहीं था — वह एक स्वस्थ, धार्मिक जीवन-आदर्श का अंग था।",
+        },
+        {
+          heading: "विश्व की सबसे समृद्ध सभ्यता से — सामूहिक निर्धनता तक",
+          body: "हमारे वैदिक ऋषियों ने खुले मन से धन, धान्य, गौ और समृद्धि की प्रार्थना की। उसी मूल्य-व्यवस्था ने हमें बहुत दूर तक पहुँचाया। आधुनिक आर्थिक इतिहासकारों के अनुसार, लगभग पहली शताब्दी से सत्रहवीं शताब्दी तक भारत का GDP विश्व में सर्वोच्च — या लगभग सर्वोच्च — रहा।\n\nJeffrey Sachs ने अपनी पुस्तक The End of Poverty में इसे खुलकर स्वीकार किया है — सत्रहवीं शताब्दी तक विश्व GDP में भारत का प्रथम स्थान था। फिर अठारहवीं शताब्दी में चीन ने पहला स्थान लिया और भारत दूसरे स्थान पर आया। उसके बाद हमारी सम्पत्ति और हमारी मूल्य-व्यवस्था — दोनों को व्यवस्थित रूप से नष्ट किया गया, और व्यापक निर्धनता का जन्म हुआ।\n\nकृपया समझें — यह पतन केवल आर्थिक नहीं था। यह उससे भी गहरे स्तर पर — उस मूल्य-व्यवस्था का पतन था जिसने सदियों तक हमारी धार्मिक समृद्धि को धारण किया था।",
+        },
+        {
+          heading: "धन — अपराध-बोध नहीं, ट्रस्टीशिप",
+          body: "बाइबिल की कुछ व्याख्याओं में, और इस्लामी परम्परा के कुछ रूपों में, धनी व्यक्ति को स्वर्ग में प्रवेश के लिए लगभग अयोग्य माना जाता है — प्रसिद्ध उक्ति है कि किसी धनवान का स्वर्ग में प्रवेश करना उससे भी कठिन है जितना ऊँट का सूई के छेद से निकल जाना। उस दृष्टि में निर्धन ही स्वर्ग के स्वाभाविक नागरिक हैं।\n\nगीता इस प्रकार नहीं बोलती। भगवान श्रीकृष्ण धन को कलंकित नहीं करते। उनका संदेश स्पष्ट है — धन मोक्ष का बाधक नहीं है, यदि उसका प्रयोग वैसा हो जैसा राजा जनक ने किया — दूसरों के कल्याण के लिए एक ट्रस्टी के रूप में। अतः गीता समृद्धि को उत्तरदायित्व के साथ जोड़कर प्रोत्साहित करती है। मनुष्य धनवान भी हो सकता है और आध्यात्मिक मार्ग पर दृढ़ता से चल भी सकता है — बशर्ते वह धन समाज और धर्म की सेवा में लगे।",
+        },
+        {
+          heading: "केवल कर्मी नहीं — कर्म-योगी बनें",
+          body: "एक बड़ा भ्रम मुझे यहाँ स्पष्ट करना है — गीता लोगों को कर्म-त्यागी संन्यासी नहीं बनाती। “संन्यासः कर्म-योगश्च…” — संन्यास और कर्म-योग दोनों कल्याण के मार्ग हैं, परंतु कर्म-योग अधिकांश व्यक्तियों के लिए अधिक उपयुक्त और श्रेष्ठ है।\n\nएक साधारण “कर्मी” (worker) और एक “कर्म-योगी” में अंतर बाहर से बहुत छोटा दिखता है — परंतु भीतर से वह विशाल है। केवल दो छोटे परिवर्तन साधारण कार्य को योग में बदल देते हैं।\n\nपहला: अनासक्ति — निरासक्त भाव से कार्य। हाँ, फल की इच्छा रखो — सफलता, उन्नति, समृद्धि की — परंतु उससे चिपको मत। यदि कोई व्यवसाय असफल हो जाए, तो कर्म-योगी शोक में डूबता नहीं है। वह पुनः उठता है, यह विश्वास रखते हुए कि यदि स्वधर्म का यथार्थ पालन हो रहा है, तो समय आने पर सफलता निश्चित मिलेगी।",
+        },
+        {
+          heading: "कर्म-योग के दो स्तम्भ",
+          body: "तो पहला स्तम्भ है — फल के प्रति अनासक्ति, जिससे लाभ-हानि, जय-पराजय, सफलता-असफलता में समभाव आता है। “सिद्धि-असिद्धि समो भूत्वा।”\n\nदूसरा स्तम्भ है — ईश्वर-अर्पण, अर्थात् हर कर्म को भगवान को अर्पित कर देना। तुम जो भी करो — भोजन, कार्य, पूजा, दान — सब कुछ परमात्मा को अर्पित कर दो। गीता आश्वासन देती है — तभी तुम्हारे पाप और अंतःकरण की अशुद्धियाँ धुल जाती हैं। कर्म स्वयं बंधन का नहीं, शुद्धि का मार्ग बन जाता है।\n\nये दोनों मिलकर — अनासक्ति और ईश्वर-अर्पण — दैनिक कार्य को आध्यात्मिक साधना में रूपांतरित कर देते हैं। धन से, नौकरी से, व्यवसाय से भागने की कोई आवश्यकता नहीं है। आवश्यकता है केवल इस बात की कि उन्हें धर्म के साथ संरेखित किया जाए।",
+        },
+        {
+          heading: "गीता — विद्यार्थियों, युवाओं और सामाजिक समानता के लिए",
+          body: "हमारा अभियान सरल है — घर-घर में गीता, मन-मन में गीता। हर घर में गीता पहुँचे, और हर मन में गीता बसे। हमने अंग्रेज़ी और हिंदी — दोनों में अनेक टीकाएँ प्रकाशित की हैं, जिनमें विद्यार्थियों के लिए विशेष रूप से तैयार पुस्तक “Cream of the Bhagavad Gita / गीता-नवनीत” सम्मिलित है, जिसमें इक्यावन चयनित श्लोकों के माध्यम से गीता के जीवन-दर्शन का संक्षिप्त परिचय दिया गया है।\n\nअब मैं अपने युग की एक अत्यंत पीड़ादायी समस्या पर स्पष्टता से बोलना चाहता हूँ — सामाजिक समानता और जाति का प्रश्न। समस्त सनातन ग्रंथों में, भगवद् गीता — समानता के पक्ष में — अद्वितीय और असंदिग्ध है। वर्णों के बीच, स्त्री-पुरुष के बीच, और सामाजिक वर्गों के बीच — गीता समानता का जो स्वर बुलंद करती है, वह अनुपम है।\n\nगीता स्वयं घोषणा करती है — “विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि। शुनि चैव श्वपाके च पण्डिताः समदर्शिनः॥” — सच्चा ज्ञानी विद्वान ब्राह्मण को, गाय को, हाथी को, कुत्ते को, और श्व-पाक (चाण्डाल) को — सभी को समान दृष्टि से देखता है। यदि हमें अपने समाज की जाति-व्यवस्था के घावों को भरना है, तो हमें अन्य ग्रंथों से पहले गीता को आगे लाना होगा — और उसकी दृष्टि को मार्गदर्शक बनाना होगा।",
+        },
+        {
+          heading: "जब विश्व गीता को सुनता है",
+          body: "गीता केवल हिंदुओं की सम्पत्ति नहीं है। पश्चिम और यहूदी परम्परा के कई महान विचारकों ने इसके प्रति श्रद्धा से नतमस्तक होकर बात की है।\n\nT. S. Eliot — अंग्रेज़ी साहित्य के सर्वाधिक सम्मानित आलोचकों में से एक — ने पाश्चात्य दार्शनिकों की प्लेटो से लेकर आधुनिक चिंतकों तक तुलना की, और कहा कि गीता के सामने ये सब विद्यार्थी (schoolboys) प्रतीत होते हैं। J. Robert Oppenheimer — परमाणु युग के जनक — गीता के श्लोक उद्धृत किया करते थे और स्वयं दूसरों को गीता की प्रतियाँ वितरित करते थे — गीता का उन पर ऐसा प्रभाव था।\n\nये उदाहरण हमें स्मरण कराते हैं कि गीता की गहराई हमारी सीमाओं से बहुत आगे तक मान्य है। उसका संदेश किसी एक धर्म या एक राष्ट्र के लिए नहीं — सम्पूर्ण मानवता के लिए है।",
+        },
+        {
+          heading: "नए भारत को चाहिए — दैवी सम्पदा",
+          body: "तो अंत में मैं अपने मिशन के हृदय की बात कहता हूँ। हमारी आकांक्षा है कि गीता हर घर में और हर मन में स्थापित हो — एक जीवंत मार्गदर्शिका के रूप में, न कि अलमारी पर रखी कोई पूजा-पुस्तक मात्र।\n\nसच्चे अर्थों में नए भारत के लिए केवल आर्थिक निर्धनता हटाना पर्याप्त नहीं है। हमें साथ-साथ आध्यात्मिक निर्धनता भी हटानी होगी — दैवी सम्पदा का संवर्धन करके, कर्म-योग का अभ्यास करके, और सच्ची आध्यात्मिक दृष्टि से प्रेरित सामाजिक समानता की स्थापना करके।\n\nमैं आप सबको आमंत्रित करता हूँ — गीता की एक प्रति लीजिए (इस आयोजन में हमने निःशुल्क उपलब्ध कराई है) — अंग्रेज़ी में अथवा हिंदी में — और इन शिक्षाओं को हमारे युवाओं तक पहुँचाइए। तब आने वाली पीढ़ी भौतिक रूप से समर्थ और आध्यात्मिक रूप से सुदृढ़ — दोनों होगी। यही — और केवल GDP नहीं — वह नया भारत है, जिसे हमें मिलकर बनाना है।",
+        },
+      ],
+    },
+  },
   "is-sanatan-dharma-divisive-a-historical-reality-check": {
     title:
-      "Is Sanatan Dharma Really \u201cDivisive\u201d? A Historical Reality Check",
+      "Is Sanatan Dharma Really “Divisive”? A Historical Reality Check",
     date: "May 26, 2026",
     videoId: "26a27V0xtNY",
     videoUrl: "https://youtu.be/26a27V0xtNY",
     intro:
-      "A political voice has once again called to \u201ceradicate Sanatan.\u201d In this video, BrahmBodhi answers that call \u2014 not with anger, but with history. He shows that Sanatan Dharma is, in fact, one of the most inclusive and non\u2011divisive civilizational traditions the world has ever known, especially when held up against the violent religious record of medieval Christian Europe.",
+      "A political voice has once again called to “eradicate Sanatan.” In this video, BrahmBodhi answers that call — not with anger, but with history. He shows that Sanatan Dharma is, in fact, one of the most inclusive and non‑divisive civilizational traditions the world has ever known, especially when held up against the violent religious record of medieval Christian Europe.",
     content: [],
     sections: [
       {
         heading: "The context",
-        body: "BrahmBodhi is responding to a Christian Indian politician who has repeatedly said that Sanatan Dharma \u2014 Hinduism \u2014 must be eradicated. He gently points out that the very same statement, made in many Islamic countries, could easily invite violent retaliation. In India, despite Hindus being a vast majority, the politician faces no physical threat at all. Why? Because the Sanatan civilization is, at its core, tolerant.",
+        body: "BrahmBodhi is responding to a Christian Indian politician who has repeatedly said that Sanatan Dharma — Hinduism — must be eradicated. He gently points out that the very same statement, made in many Islamic countries, could easily invite violent retaliation. In India, despite Hindus being a vast majority, the politician faces no physical threat at all. Why? Because the Sanatan civilization is, at its core, tolerant.",
       },
       {
-        heading: "What \u201cdivisive\u201d really means",
-        body: "BrahmBodhi carefully separates \u201cdivision\u201d from \u201cdivisive.\u201d Division \u2014 the existence of many religions, sects, ideologies, and parties \u2014 is natural and universal. Every society has it. \u201cDivisive,\u201d however, is something far more serious: it is when disagreements are not tolerated, and instead spill into bloodshed, wars, killings, and exterminations. By that honest definition, Sanatan Dharma simply does not qualify.",
+        heading: "What “divisive” really means",
+        body: "BrahmBodhi carefully separates “division” from “divisive.” Division — the existence of many religions, sects, ideologies, and parties — is natural and universal. Every society has it. “Divisive,” however, is something far more serious: it is when disagreements are not tolerated, and instead spill into bloodshed, wars, killings, and exterminations. By that honest definition, Sanatan Dharma simply does not qualify.",
       },
       {
         heading: "A historical look at Christianity",
-        body: "Turning to medieval European history, BrahmBodhi argues that Christianity has been \u201cthe most divisive religion\u201d in terms of intra\u2011religious violence. He walks through the Great Schism, the wars between Western and Eastern churches, the Catholic\u2013Protestant conflicts, the Inquisitions (especially the Spanish Inquisition), and the Crusades \u2014 events in which millions died. He describes streets that flowed \u201clike drains of blood,\u201d citing figures such as 32,000 executions and thousands burnt alive.",
+        body: "Turning to medieval European history, BrahmBodhi argues that Christianity has been “the most divisive religion” in terms of intra‑religious violence. He walks through the Great Schism, the wars between Western and Eastern churches, the Catholic–Protestant conflicts, the Inquisitions (especially the Spanish Inquisition), and the Crusades — events in which millions died. He describes streets that flowed “like drains of blood,” citing figures such as 32,000 executions and thousands burnt alive.",
       },
       {
         heading: "Persecution from within",
-        body: "BrahmBodhi emphasizes that Christians historically persecuted not only other Christians, but also Jews and Muslims \u2014 not merely converting them, but policing their practice and executing those suspected of secretly holding onto their old beliefs. He contrasts this with the near\u2011absence of comparable, large\u2011scale, recorded massacres between Hindu sects, or of Hindu \u201ccrusades\u201d launched against people of other faiths.",
+        body: "BrahmBodhi emphasizes that Christians historically persecuted not only other Christians, but also Jews and Muslims — not merely converting them, but policing their practice and executing those suspected of secretly holding onto their old beliefs. He contrasts this with the near‑absence of comparable, large‑scale, recorded massacres between Hindu sects, or of Hindu “crusades” launched against people of other faiths.",
       },
       {
         heading: "The astonishing internal diversity of Sanatan Dharma",
-        body: "He then lists the many living streams of Dharmic thought \u2014 Vaishnavas, Shaivas, Shaktas, Vaisheshikas, Sikhs, Jains, Buddhists \u2014 and points out that despite such enormous diversity, there are no documented large\u2011scale sectarian massacres among them. There were no Hindu or Buddhist crusades on the scale of those launched in the name of other faiths. Claims to the contrary, BrahmBodhi says, simply do not stand up to serious historical scrutiny.",
+        body: "He then lists the many living streams of Dharmic thought — Vaishnavas, Shaivas, Shaktas, Vaisheshikas, Sikhs, Jains, Buddhists — and points out that despite such enormous diversity, there are no documented large‑scale sectarian massacres among them. There were no Hindu or Buddhist crusades on the scale of those launched in the name of other faiths. Claims to the contrary, BrahmBodhi says, simply do not stand up to serious historical scrutiny.",
       },
       {
         heading: "Caste, scriptures, and an ongoing reform",
-        body: "BrahmBodhi does not whitewash caste discrimination. He acknowledges it openly \u2014 but he is clear that it is not rooted in the core teachings of the Vedas or the Bhagavad Gita, which he holds as the top\u2011tier scriptures of Hindu thought. Caste oppression, in his reading, is a historical deviation that Sanatan society has been actively correcting through legal and social reform over the last eight decades. His prediction: caste\u2011based discrimination will largely disappear in the coming centuries.",
+        body: "BrahmBodhi does not whitewash caste discrimination. He acknowledges it openly — but he is clear that it is not rooted in the core teachings of the Vedas or the Bhagavad Gita, which he holds as the top‑tier scriptures of Hindu thought. Caste oppression, in his reading, is a historical deviation that Sanatan society has been actively correcting through legal and social reform over the last eight decades. His prediction: caste‑based discrimination will largely disappear in the coming centuries.",
       },
       {
         heading: "India as a refuge of civilizations",
-        body: "To reinforce the case for Sanatan inclusiveness, BrahmBodhi points to India as a \u201crefuge of civilizations\u201d \u2014 a land where persecuted Parsis and Jews found safety and were allowed to flourish. He contrasts the drastic decline of the Hindu population in Pakistan since Partition with the robust growth of the Muslim population in India \u2014 a fact that, he argues, decisively undermines the charge that Sanatan Dharma is inherently divisive or oppressive toward minorities.",
+        body: "To reinforce the case for Sanatan inclusiveness, BrahmBodhi points to India as a “refuge of civilizations” — a land where persecuted Parsis and Jews found safety and were allowed to flourish. He contrasts the drastic decline of the Hindu population in Pakistan since Partition with the robust growth of the Muslim population in India — a fact that, he argues, decisively undermines the charge that Sanatan Dharma is inherently divisive or oppressive toward minorities.",
       },
       {
-        heading: "A closing challenge \u2014 and a warning",
-        body: "BrahmBodhi closes by urging the politician to \u201ceradicate ignorance\u201d \u2014 by actually studying history \u2014 rather than attacking Sanatan Dharma. He reassures him that Hindus will not physically harm him. But he also offers a frank political prediction: he and his party may be electorally \u201cwiped out\u201d if they persist in their current stance against Sanatan Dharma. The message is firm, the tone remains \u2014 unmistakably \u2014 Dharmic.",
+        heading: "A closing challenge — and a warning",
+        body: "BrahmBodhi closes by urging the politician to “eradicate ignorance” — by actually studying history — rather than attacking Sanatan Dharma. He reassures him that Hindus will not physically harm him. But he also offers a frank political prediction: he and his party may be electorally “wiped out” if they persist in their current stance against Sanatan Dharma. The message is firm, the tone remains — unmistakably — Dharmic.",
       },
     ],
   },
@@ -70,11 +170,11 @@ const blogPosts: Record<string, BlogPost> = {
     date: "Jan 5, 2025",
     image: img("blog-caste-system.webp"),
     content: [
-      "Hindu\u2019s have a caste system which is only of its kind in the world. A \u2018caste\u2019 is a community to which entry is based on birth in that community. Hindu society is divided into hundreds of castes. Marriages used to take place earlier only within the members of the same caste.",
-      "The different castes were arranged hierarchically, with some being called \u201chigher castes\u201d and some being called \u201clower castes\u201d in terms of social status. This system has been broken quite a bit during the last 100 years, yet it continues in some form or the other.",
+      "Hindu’s have a caste system which is only of its kind in the world. A ‘caste’ is a community to which entry is based on birth in that community. Hindu society is divided into hundreds of castes. Marriages used to take place earlier only within the members of the same caste.",
+      "The different castes were arranged hierarchically, with some being called “higher castes” and some being called “lower castes” in terms of social status. This system has been broken quite a bit during the last 100 years, yet it continues in some form or the other.",
       "Most traditional Hindu scriptures and Hindu scholars justify the birth based caste system. The big question is whether the Bhagavad Gita also supports this system?",
-      "The Bhagavad Gita presents the concept of Varna, which is fundamentally different from the rigid caste system. In Chapter 4, Verse 13, Lord Krishna says: \u201cch\u0101tur-var\u1e47ya\u1e43 may\u0101 s\u1e5b\u1e63\u1e6da\u1e43 gu\u1e47a-karma-vibh\u0101ga\u015ba\u1e25\u201d \u2014 the four divisions of human society were created by Me according to differences in quality and work, not birth.",
-      "This is a revolutionary declaration. The Gita classifies people based on their qualities (gunas) and actions (karma), not their birth. A person\u2019s Varna is determined by their nature and the work they do, making it a dynamic and merit-based system rather than a hereditary one.",
+      "The Bhagavad Gita presents the concept of Varna, which is fundamentally different from the rigid caste system. In Chapter 4, Verse 13, Lord Krishna says: “chātur-varṇyaṃ mayā sṛṣṭaṃ guṇa-karma-vibhāgaśaḥ” — the four divisions of human society were created by Me according to differences in quality and work, not birth.",
+      "This is a revolutionary declaration. The Gita classifies people based on their qualities (gunas) and actions (karma), not their birth. A person’s Varna is determined by their nature and the work they do, making it a dynamic and merit-based system rather than a hereditary one.",
     ],
   },
   "question-(rajesh-k-dubey)-how-can-mental-stress-be-healed-through-spirituality":
@@ -84,10 +184,10 @@ const blogPosts: Record<string, BlogPost> = {
       date: "Jun 16, 2025",
       image: img("blog-mental-stress-en.png"),
       content: [
-        "Stress and depression have become like a pandemic. How to deal with them, and what is their permanent solution \u2014 the answer lies in this discussion.",
+        "Stress and depression have become like a pandemic. How to deal with them, and what is their permanent solution — the answer lies in this discussion.",
         "Mental stress arises when the mind is overwhelmed by desires, fears, and attachments. The Bhagavad Gita offers a comprehensive framework for addressing this through spiritual practice.",
         "Lord Krishna teaches in Chapter 2 that equanimity (samatvam) is the key to mental peace. When we remain balanced in success and failure, pleasure and pain, we transcend the cycles of stress.",
-        "The practice of Nishkama Karma \u2014 performing one\u2019s duty without attachment to results \u2014 frees the mind from anxiety about outcomes. This is the essence of stress-free living as taught in the Gita.",
+        "The practice of Nishkama Karma — performing one’s duty without attachment to results — frees the mind from anxiety about outcomes. This is the essence of stress-free living as taught in the Gita.",
         "Regular meditation, self-reflection, and surrendering to the divine will are practical tools from the Gita that can heal mental stress at its root, rather than merely treating its symptoms.",
       ],
     },
@@ -98,11 +198,11 @@ const blogPosts: Record<string, BlogPost> = {
       date: "Jul 31, 2025",
       image: img("blog-chanting-guru.png"),
       content: [
-        "Chanting God\u2019s name can lead to progress, but guidance deepens devotion and ensures true attainment.",
-        "The Bhagavad Gita emphasizes the importance of a guru in spiritual development. In Chapter 4, Verse 34, Lord Krishna advises: \u201cApproach a wise teacher, inquire from him submissively and render service unto him. The self-realized soul can impart knowledge unto you because he has seen the truth.\u201d",
+        "Chanting God’s name can lead to progress, but guidance deepens devotion and ensures true attainment.",
+        "The Bhagavad Gita emphasizes the importance of a guru in spiritual development. In Chapter 4, Verse 34, Lord Krishna advises: “Approach a wise teacher, inquire from him submissively and render service unto him. The self-realized soul can impart knowledge unto you because he has seen the truth.”",
         "While chanting the divine name (Nama Japa) is a powerful spiritual practice that purifies the mind and heart, the guidance of a realized guru helps the seeker avoid pitfalls, understand subtle spiritual truths, and progress on the path more effectively.",
         "A guru serves as a living example of spiritual realization, providing not just theoretical knowledge but practical wisdom born of direct experience. The guru-disciple relationship is considered sacred in the Gita tradition.",
-        "Therefore, while chanting alone can bring some spiritual progress, the combination of devoted practice and guru\u2019s guidance creates the optimal conditions for the highest spiritual attainment.",
+        "Therefore, while chanting alone can bring some spiritual progress, the combination of devoted practice and guru’s guidance creates the optimal conditions for the highest spiritual attainment.",
       ],
     },
   "karmanye-vadhikaraste": {
@@ -110,62 +210,58 @@ const blogPosts: Record<string, BlogPost> = {
     date: "Apr 7, 2025",
     image: img("blog-karmanye.jpg"),
     content: [
-      "One of the most popular and frequently quoted verses of the Bhagavad Gita is Chapter 2, Verse 47: \u201ckarma\u1e47ye v\u0101dhik\u0101raste m\u0101 phale\u1e63hu kad\u0101chana\u201d.",
-      "Translation: \u201cYou have the right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself the cause of the results, and never be attached to not doing your duty.\u201d",
-      "This verse encapsulates the essence of Karma Yoga \u2014 the yoga of selfless action. It teaches us to focus entirely on our efforts and responsibilities without being anxious about outcomes.",
+      "One of the most popular and frequently quoted verses of the Bhagavad Gita is Chapter 2, Verse 47: “karmaṇye vādhikāraste mā phaleṣhu kadāchana”.",
+      "Translation: “You have the right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself the cause of the results, and never be attached to not doing your duty.”",
+      "This verse encapsulates the essence of Karma Yoga — the yoga of selfless action. It teaches us to focus entirely on our efforts and responsibilities without being anxious about outcomes.",
       "In modern life, this teaching is profoundly relevant. Whether in our professional work, relationships, or personal goals, the anxiety about results often paralyzes us or leads to compromised actions. The Gita advises us to give our best effort and leave the results to the divine order.",
       "This is not about being indifferent to outcomes, but about maintaining inner equanimity regardless of whether things go as planned. When we act without attachment to results, our actions become purer, more focused, and more effective.",
-      "The verse also warns against inaction (m\u0101 te sa\u1e45go\u2019stv akarma\u1e47i). Detachment from results should not lead to laziness or avoidance of duty. The Gita calls for engaged, wholehearted action \u2014 just without the burden of expectation.",
+      "The verse also warns against inaction (mā te saṅgo’stv akarmaṇi). Detachment from results should not lead to laziness or avoidance of duty. The Gita calls for engaged, wholehearted action — just without the burden of expectation.",
     ],
   },
-  "\u0906\u0924-\u092e-\u091c-\u0917\u0930-\u0915\u0924-\u0938-\u091c\u0917-\u090f-\u0905\u092a\u0928-\u0905-\u0926\u0930-\u0928-\u0938-\u092a\u0930\u092a-\u0935\u0930":
-    {
-      title:
-        "\u0906\u0924\u094d\u092e-\u091c\u093e\u0917\u0930\u0942\u0915\u0924\u093e \u0938\u0947 \u091c\u0917\u093e\u090f\u0902 \u0905\u092a\u0928\u0940 \u0905\u0902\u0926\u0930\u0942\u0928\u0940 \u0938\u0941\u092a\u0930\u092a\u093e\u0935\u0930",
-      date: "Apr 3, 2025",
-      image: img("blog-atma-jagurukta.webp"),
-      content: [
-        "\u0905\u092a\u0928\u0940 \u0938\u092b\u0932\u0924\u093e \u0914\u0930 \u0905\u092a\u0928\u0947 \u0935\u093f\u0915\u093e\u0938 \u0915\u0947 \u0909\u092a\u0915\u0930\u0923 \u0939\u092e \u092c\u093e\u0939\u0930 \u0915\u0940 \u0926\u0941\u0928\u093f\u092f\u093e \u092e\u0947\u0902 \u0916\u094b\u091c\u0924\u0947 \u092b\u093f\u0930\u0924\u0947 \u0939\u0948\u0902 \u0932\u0947\u0915\u093f\u0928 \u092f\u0939 \u092d\u0942\u0932 \u091c\u093e\u0924\u0947 \u0939\u0948\u0902 \u0915\u093f \u0909\u0938\u0915\u0940 \u0938\u092c\u0938\u0947 \u092c\u0921\u093c\u0940 \u091a\u093e\u092c\u0940 \u0924\u094b \u0939\u092e\u093e\u0930\u0947 \u0905\u0902\u0926\u0930 \u0939\u0940 \u091b\u093f\u092a\u0940 \u0939\u0941\u0908 \u0939\u0948\u0964 \u092f\u0939 \u091a\u093e\u092c\u0940 \u0939\u0948 \u0906\u0924\u094d\u092e \u091c\u093e\u0917\u0930\u0942\u0915\u0924\u093e\u0964",
-        "\u0906\u0924\u094d\u092e \u091c\u093e\u0917\u0930\u0942\u0915\u0924\u093e \u0915\u093e \u0905\u0930\u094d\u0925 \u0939\u0948 \u0905\u092a\u0928\u0947 \u0906\u092a \u0915\u094b \u0917\u0939\u0930\u093e\u0908 \u0938\u0947 \u091c\u093e\u0928\u0928\u093e \u2014 \u0905\u092a\u0928\u0947 \u0935\u093f\u091a\u093e\u0930\u094b\u0902, \u092d\u093e\u0935\u0928\u093e\u0913\u0902, \u092a\u094d\u0930\u0924\u093f\u0915\u094d\u0930\u093f\u092f\u093e\u0913\u0902 \u0914\u0930 \u0935\u094d\u092f\u0935\u0939\u093e\u0930 \u0915\u0947 \u092a\u094d\u0930\u0924\u093f\u092e\u093e\u0928\u094b\u0902 \u0915\u094b \u0938\u092e\u091d\u0928\u093e\u0964",
-        "\u092d\u0917\u0935\u0926\u094d \u0917\u0940\u0924\u093e \u092e\u0947\u0902 \u092d\u0917\u0935\u093e\u0928 \u0936\u094d\u0930\u0940\u0915\u0943\u0937\u094d\u0923 \u0928\u0947 \u0906\u0924\u094d\u092e \u091c\u094d\u091e\u093e\u0928 \u0915\u094b \u0938\u092c\u0938\u0947 \u0909\u091a\u094d\u091a \u091c\u094d\u091e\u093e\u0928 \u092c\u0924\u093e\u092f\u093e \u0939\u0948\u0964 \u091c\u092c \u0939\u092e \u0905\u092a\u0928\u0947 \u0906\u092a \u0915\u094b \u091c\u093e\u0928\u0924\u0947 \u0939\u0948\u0902, \u0924\u092c \u0939\u092e \u0905\u092a\u0928\u0940 \u0905\u0902\u0926\u0930\u0942\u0928\u0940 \u0936\u0915\u094d\u0924\u093f\u092f\u094b\u0902 \u0915\u094b \u091c\u0917\u093e \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964",
-      ],
-    },
-  "\u092a-\u0930\u0936-\u0928-(\u0930-\u091c-\u0935-\u0939-\u0915-\u0921-\u092c-)-\u092e-\u0928\u0938-\u0915-\u0924\u0928-\u0935-\u0915-\u0905\u0927-\u092f-\u0924-\u092e-\u0915-\u091c\u0930-\u090f-\u0915-\u0938-\u0920-\u0915-\u0915-\u092f-\u091c-\u0938\u0915\u0924-\u0939":
-    {
-      title:
-        "\u092a\u094d\u0930\u0936\u094d\u0928 (\u0930\u093e\u091c\u0947\u0936 \u0915\u0947. \u0926\u0942\u092c\u0947) : \u092e\u093e\u0928\u0938\u093f\u0915 \u0924\u0928\u093e\u0935 \u0915\u094b \u0905\u0927\u094d\u092f\u093e\u0924\u094d\u092e \u0915\u0947 \u091c\u0930\u093f\u090f \u0915\u0948\u0938\u0947 \u0920\u0940\u0915 \u0915\u093f\u092f\u093e \u091c\u093e \u0938\u0915\u0924\u093e \u0939\u0948?",
-      date: "Jun 15, 2025",
-      image: img("blog-mental-stress-hi.png"),
-      content: [
-        "\u0924\u0928\u093e\u0935 \u0914\u0930 \u0905\u0935\u0938\u093e\u0926 \u090f\u0915 \u092e\u0939\u093e\u092e\u093e\u0930\u0940 \u0915\u0940 \u0924\u0930\u0939 \u0939\u0948\u0964 \u0907\u0928\u0938\u0947 \u0915\u0948\u0938\u0947 \u0928\u093f\u092a\u091f\u0947\u0902, \u0907\u0928\u0915\u093e \u0938\u094d\u0925\u093e\u092f\u0940 \u0938\u092e\u093e\u0927\u093e\u0928 \u0915\u094d\u092f\u093e \u0939\u0948, \u0907\u0938\u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0907\u0938 \u091a\u0930\u094d\u091a\u093e \u092e\u0947\u0902 \u0939\u0948\u0964",
-        "\u092d\u0917\u0935\u0926\u094d \u0917\u0940\u0924\u093e \u0915\u0947 \u0905\u0928\u0941\u0938\u093e\u0930, \u092e\u093e\u0928\u0938\u093f\u0915 \u0924\u0928\u093e\u0935 \u0915\u093e \u092e\u0942\u0932 \u0915\u093e\u0930\u0923 \u092e\u0928 \u0915\u0940 \u0905\u0936\u093e\u0902\u0924\u093f \u0939\u0948\u0964 \u091c\u092c \u092e\u0928 \u0907\u091a\u094d\u091b\u093e\u0913\u0902, \u092d\u092f\u094b\u0902 \u0914\u0930 \u0906\u0938\u0915\u094d\u0924\u093f\u092f\u094b\u0902 \u0938\u0947 \u0917\u094d\u0930\u0938\u094d\u0924 \u0939\u094b\u0924\u093e \u0939\u0948, \u0924\u092c \u0924\u0928\u093e\u0935 \u0909\u0924\u094d\u092a\u0928\u094d\u0928 \u0939\u094b\u0924\u093e \u0939\u0948\u0964",
-        "\u0905\u0927\u094d\u092f\u093e\u0924\u094d\u092e \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0907\u0938 \u0938\u092e\u0938\u094d\u092f\u093e \u0915\u093e \u0938\u094d\u0925\u093e\u092f\u0940 \u0938\u092e\u093e\u0927\u093e\u0928 \u0938\u0902\u092d\u0935 \u0939\u0948\u0964 \u0927\u094d\u092f\u093e\u0928, \u092a\u094d\u0930\u093e\u0923\u093e\u092f\u093e\u092e \u0914\u0930 \u0906\u0924\u094d\u092e-\u0935\u093f\u091a\u093e\u0930 \u091c\u0948\u0938\u0940 \u092a\u094d\u0930\u0925\u093e\u090f\u0901 \u092e\u0928 \u0915\u094b \u0936\u093e\u0902\u0924 \u0915\u0930\u0924\u0940 \u0939\u0948\u0902\u0964",
-      ],
-    },
-  "\u092a-\u0930\u0936-\u0928-\u0915-\u092f-\u092c-\u0928-\u0917-\u0930-\u0915-\u092f-\u0908\u0936-\u0935\u0930-\u0915-\u0928-\u092e-\u091c\u092a\u0928-\u0938-\u0905\u0927-\u092f-\u0924-\u092e-\u0915-\u0909\u092a\u0932\u092c-\u0927-\u092a-\u0930-\u092a\u0924-\u0928\u0939-\u0939-\u0938\u0915\u0924":
-    {
-      title:
-        "\u092a\u094d\u0930\u0936\u094d\u0928 : \u0915\u093c\u094d\u092f\u093e \u092c\u093f\u0928\u093e \u0917\u0941\u0930\u0942 \u0915\u093f\u092f\u0947 \u0908\u0936\u094d\u0935\u0930 \u0915\u093e \u0928\u093e\u092e \u091c\u092a\u0928\u0947\u0902 \u0938\u0947 \u0905\u0927\u094d\u092f\u093e\u0924\u094d\u092e\u093f\u0915 \u0909\u092a\u0932\u092c\u094d\u0927\u093f \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0928\u0939\u0940\u0902 \u0939\u094b \u0938\u0915\u0924\u0940?",
-      date: "Jul 31, 2025",
-      image: img("blog-chanting-guru-hi.png"),
-      content: [
-        "\u0908\u0936\u094d\u0935\u0930 \u0915\u093e \u0928\u093e\u092e \u091c\u092a \u092a\u094d\u0930\u0917\u0924\u093f \u0915\u0940 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0932\u0947 \u091c\u093e \u0938\u0915\u0924\u093e \u0939\u0948, \u0932\u0947\u0915\u093f\u0928 \u092e\u093e\u0930\u094d\u0917\u0926\u0930\u094d\u0936\u0928 \u092d\u0915\u094d\u0924\u093f \u0915\u094b \u0917\u0939\u0930\u093e\u0924\u093e \u0939\u0948 \u0914\u0930 \u0938\u091a\u094d\u091a\u0940 \u0938\u093f\u0926\u094d\u0927\u093f \u0938\u0941\u0928\u093f\u0936\u094d\u091a\u093f\u0924 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
-        "\u092d\u0917\u0935\u0926\u094d \u0917\u0940\u0924\u093e \u092e\u0947\u0902 \u0917\u0941\u0930\u0941 \u0915\u0940 \u092e\u0939\u0924\u094d\u0924\u093e \u092c\u093e\u0930-\u092c\u093e\u0930 \u0930\u0947\u0916\u093e\u0902\u0915\u093f\u0924 \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u0917\u0941\u0930\u0941 \u0935\u0939 \u0939\u0948 \u091c\u094b \u0905\u0902\u0927\u0915\u093e\u0930 \u0938\u0947 \u092a\u094d\u0930\u0915\u093e\u0936 \u0915\u0940 \u0913\u0930 \u0932\u0947 \u091c\u093e\u0924\u093e \u0939\u0948\u0964",
-        "\u0928\u093e\u092e \u091c\u092a \u090f\u0915 \u0936\u0915\u094d\u0924\u093f\u0936\u093e\u0932\u0940 \u0938\u093e\u0927\u0928\u093e \u0939\u0948, \u092a\u0930\u0902\u0924\u0941 \u0917\u0941\u0930\u0941 \u0915\u0947 \u092c\u093f\u0928\u093e \u0938\u093e\u0927\u0915 \u092e\u093e\u0930\u094d\u0917 \u092e\u0947\u0902 \u092d\u091f\u0915 \u0938\u0915\u0924\u093e \u0939\u0948\u0964 \u0917\u0941\u0930\u0941 \u0915\u093e \u092e\u093e\u0930\u094d\u0917\u0926\u0930\u094d\u0936\u0928 \u0938\u093e\u0927\u0928\u093e \u0915\u094b \u0938\u0939\u0940 \u0926\u093f\u0936\u093e \u0926\u0947\u0924\u093e \u0939\u0948 \u0914\u0930 \u0906\u0927\u094d\u092f\u093e\u0924\u094d\u092e\u093f\u0915 \u092f\u093e\u0924\u094d\u0930\u093e \u0915\u094b \u0938\u0930\u0932 \u092c\u0928\u093e\u0924\u093e \u0939\u0948\u0964",
-      ],
-    },
-  "\u0935-\u0937\u092f-\u0906\u0927-\u092f-\u0924-\u092e-\u0915-\u092a-\u0930\u0917\u0924-\u0915-\u0932-\u090f-\u092e\u0928-\u0915-\u0935-\u0915-\u0930-\u0915-\u0915-\u0938-\u0926-\u0930-\u0915\u0930":
-    {
-      title:
-        "\u0935\u093f\u0937\u092f : \u0906\u0927\u094d\u092f\u093e\u0924\u094d\u092e\u093f\u0915 \u092a\u094d\u0930\u0917\u0924\u093f \u0915\u0947 \u0932\u093f\u090f \u092e\u0928 \u0915\u0947 \u0935\u093f\u0915\u093e\u0930\u094b\u0902 \u0915\u094b \u0915\u0948\u0938\u0947 \u0926\u0942\u0930 \u0915\u0930\u0947\u0902?",
-      date: "Jul 31, 2025",
-      image: img("blog-man-ke-vikar.png"),
-      content: [
-        "\u0905\u0902\u0924\u0903\u0915\u0930\u0923 \u0915\u094b \u0936\u0941\u0926\u094d\u0927 \u0915\u093f\u090f \u092c\u093f\u0928\u093e \u090a\u0901\u091a\u0940 \u0906\u0927\u094d\u092f\u093e\u0924\u094d\u092e\u093f\u0915 \u0909\u092a\u0932\u092c\u094d\u0927\u093f \u0914\u0930 \u0908\u0936\u094d\u0935\u0930 \u0926\u0930\u094d\u0936\u0928 \u0905\u0938\u0902\u092d\u0935 \u0939\u0948\u0964",
-        "\u092d\u0917\u0935\u0926\u094d \u0917\u0940\u0924\u093e \u092e\u0947\u0902 \u0915\u0939\u093e \u0917\u092f\u093e \u0939\u0948 \u0915\u093f \u092e\u0928 \u0915\u0947 \u0935\u093f\u0915\u093e\u0930 \u2014 \u0915\u093e\u092e, \u0915\u094d\u0930\u094b\u0927, \u0932\u094b\u092d, \u092e\u094b\u0939, \u092e\u0926, \u092e\u093e\u0924\u094d\u0938\u0930\u094d\u092f \u2014 \u092f\u0947 \u0938\u092d\u0940 \u0906\u0927\u094d\u092f\u093e\u0924\u094d\u092e\u093f\u0915 \u092a\u094d\u0930\u0917\u0924\u093f \u092e\u0947\u0902 \u092c\u093e\u0927\u0915 \u0939\u0948\u0902\u0964",
-        "\u0907\u0928 \u0935\u093f\u0915\u093e\u0930\u094b\u0902 \u0915\u094b \u0926\u0942\u0930 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0906\u0924\u094d\u092e-\u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923, \u0927\u094d\u092f\u093e\u0928, \u0914\u0930 \u0938\u0924\u094d\u0938\u0902\u0917 \u0906\u0935\u0936\u094d\u092f\u0915 \u0939\u0948\u0964 \u091c\u092c \u0939\u092e \u0905\u092a\u0928\u0947 \u092e\u0928 \u0915\u094b \u0936\u0941\u0926\u094d\u0927 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902, \u0924\u092c \u0908\u0936\u094d\u0935\u0930 \u0926\u0930\u094d\u0936\u0928 \u0938\u0902\u092d\u0935 \u0939\u094b\u0924\u093e \u0939\u0948\u0964",
-      ],
-    },
+  "आत-म-ज-गर-कत-स-जग-ए-अपन-अ-दर-न-स-परप-वर": {
+    title:
+      "आत्म-जागरूकता से जगाएं अपनी अंदरूनी सुपरपावर",
+    date: "Apr 3, 2025",
+    image: img("blog-atma-jagurukta.webp"),
+    content: [
+      "अपनी सफलता और अपने विकास के उपकरण हम बाहर की दुनिया में खोजते फिरते हैं लेकिन यह भूल जाते हैं कि उसकी सबसे बड़ी चाबी तो हमारे अंदर ही छिपी हुई है। यह चाबी है आत्म जागरूकता।",
+      "आत्म जागरूकता का अर्थ है अपने आप को गहराई से जानना — अपने विचारों, भावनाओं, प्रतिक्रियाओं और व्यवहार के प्रतिमानों को समझना।",
+      "भगवद् गीता में भगवान श्रीकृष्ण ने आत्म ज्ञान को सबसे उच्च ज्ञान बताया है। जब हम अपने आप को जानते हैं, तब हम अपनी अंदरूनी शक्तियों को जगा सकते हैं।",
+    ],
+  },
+  "प-रश-न-(र-ज-व-ह-क-ड-ब-)-म-नस-क-तन-व-क-अध-य-त-म-क-जर-ए-क-स-ठ-क-क-य-ज-सकत-ह": {
+    title:
+      "प्रश्न (राजेश के. दूबे) : मानसिक तनाव को अध्यात्म के जरिए कैसे ठीक किया जा सकता है?",
+    date: "Jun 15, 2025",
+    image: img("blog-mental-stress-hi.png"),
+    content: [
+      "तनाव और अवसाद एक महामारी की तरह है। इनसे कैसे निपटें, इनका स्थायी समाधान क्या है, इसका उत्तर इस चर्चा में है।",
+      "भगवद् गीता के अनुसार, मानसिक तनाव का मूल कारण मन की अशांति है। जब मन इच्छाओं, भयों और आसक्तियों से ग्रस्त होता है, तब तनाव उत्पन्न होता है।",
+      "अध्यात्म के माध्यम से इस समस्या का स्थायी समाधान संभव है। ध्यान, प्राणायाम और आत्म-विचार जैसी प्रथाएँ मन को शांत करती हैं।",
+    ],
+  },
+  "प-रश-न-क-य-ब-न-ग-र-क-य-ईश-वर-क-न-म-जपन-स-अध-य-त-म-क-उपलब-ध-प-र-पत-नह-ह-सकत": {
+    title:
+      "प्रश्न : क़्या बिना गुरू किये ईश्वर का नाम जपनें से अध्यात्मिक उपलब्धि प्राप्त नहीं हो सकती?",
+    date: "Jul 31, 2025",
+    image: img("blog-chanting-guru-hi.png"),
+    content: [
+      "ईश्वर का नाम जप प्रगति की दिशा में ले जा सकता है, लेकिन मार्गदर्शन भक्ति को गहराता है और सच्ची सिद्धि सुनिश्चित करता है।",
+      "भगवद् गीता में गुरु की महत्ता बार-बार रेखांकित की गई है। गुरु वह है जो अंधकार से प्रकाश की ओर ले जाता है।",
+      "नाम जप एक शक्तिशाली साधना है, परंतु गुरु के बिना साधक मार्ग में भटक सकता है। गुरु का मार्गदर्शन साधना को सही दिशा देता है और आध्यात्मिक यात्रा को सरल बनाता है।",
+    ],
+  },
+  "व-षय-आध-य-त-म-क-प-रगत-क-ल-ए-मन-क-व-क-र-क-क-स-द-र-कर": {
+    title:
+      "विषय : आध्यात्मिक प्रगति के लिए मन के विकारों को कैसे दूर करें?",
+    date: "Jul 31, 2025",
+    image: img("blog-man-ke-vikar.png"),
+    content: [
+      "अंतःकरण को शुद्ध किए बिना ऊँची आध्यात्मिक उपलब्धि और ईश्वर दर्शन असंभव है।",
+      "भगवद् गीता में कहा गया है कि मन के विकार — काम, क्रोध, लोभ, मोह, मद, मात्सर्य — ये सभी आध्यात्मिक प्रगति में बाधक हैं।",
+      "इन विकारों को दूर करने के लिए आत्म-निरीक्षण, ध्यान, और सत्संग आवश्यक है। जब हम अपने मन को शुद्ध करते हैं, तब ईश्वर दर्शन संभव होता है।",
+    ],
+  },
 };
 
 export function generateStaticParams() {
@@ -203,93 +299,5 @@ export default async function BlogPost(props: {
     );
   }
 
-  return (
-    <>
-      <section className="section-padding pt-28 pb-16 md:pt-36 md:pb-20 bg-cream">
-        <Link
-          href="/blog"
-          className="inline-flex items-center gap-2 text-sm text-saffron hover:text-saffron-dark font-semibold transition-colors mb-8"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Blog
-        </Link>
-
-        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-dark-brown leading-tight max-w-4xl">
-          {post.title}
-        </h1>
-
-        {post.date && (
-          <div className="flex items-center gap-2 mt-5 text-text-muted text-sm">
-            <Calendar className="w-4 h-4" />
-            <time>{post.date}</time>
-          </div>
-        )}
-      </section>
-
-      {post.videoId ? (
-        <div className="section-padding pb-0">
-          <div className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black">
-            <iframe
-              src={`https://www.youtube-nocookie.com/embed/${post.videoId}?rel=0&modestbranding=1`}
-              title={post.title}
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="absolute inset-0 w-full h-full"
-            />
-          </div>
-          {post.videoUrl && (
-            <div className="max-w-4xl mt-3">
-              <a
-                href={post.videoUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-saffron hover:text-saffron-dark transition-colors"
-              >
-                Watch on YouTube
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            </div>
-          )}
-        </div>
-      ) : (
-        post.image && (
-          <div className="section-padding pb-0">
-            <div className="relative w-full max-w-4xl h-64 md:h-96 rounded-2xl overflow-hidden">
-              <Image
-                src={post.image}
-                alt={post.title}
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
-          </div>
-        )
-      )}
-
-      <section className="section-padding py-12 md:py-16">
-        <article className="prose prose-lg max-w-4xl text-text-secondary leading-relaxed space-y-6">
-          {post.intro && (
-            <p className="text-lg md:text-xl text-dark-brown/90 font-medium leading-relaxed border-l-4 border-saffron pl-5">
-              {post.intro}
-            </p>
-          )}
-
-          {post.content.map((paragraph, i) => (
-            <p key={i}>{paragraph}</p>
-          ))}
-
-          {post.sections?.map((section, i) => (
-            <div key={i} className="pt-2">
-              <h2 className="text-xl md:text-2xl font-bold text-dark-brown mt-8 mb-3 leading-snug">
-                {section.heading}
-              </h2>
-              <p className="leading-relaxed">{section.body}</p>
-            </div>
-          ))}
-        </article>
-      </section>
-    </>
-  );
+  return <BlogPostView post={post} />;
 }
