@@ -430,7 +430,7 @@ export const qaItems: QAItem[] = [
       },
       {
         type: "p",
-        text: "I have seen many people who donate a very large portion of their income. One acquaintance of mine receives a monthly pension of about one lakh rupees, out of which he distributes medicines worth nearly fifty thousand rupees among people living in slums. His reasoning is that two individuals (husband and wife) do not require more than the remaining amount for a simple life.",
+        text: "BrahmBodhi has seen many people who donate a very large portion of their income. One acquaintance of his receives a monthly pension of about one lakh rupees, out of which he distributes medicines worth nearly fifty thousand rupees among people living in slums. His reasoning is that two individuals (husband and wife) do not require more than the remaining amount for a simple life.",
       },
       {
         type: "p",
