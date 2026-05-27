@@ -12,8 +12,6 @@ const englishArticles: {
   date: string;
   slug: string;
   image: string;
-  isVideo?: boolean;
-  badge?: string;
 }[] = [
   {
     title:
@@ -22,9 +20,7 @@ const englishArticles: {
       "Roads, factories, and GDP are necessary \u2014 but they are not sufficient. In this address at a \u201cBuilding a New India\u201d summit, BrahmBodhi shows why removing \u0906\u0927\u094d\u092f\u093e\u0924\u094d\u092e\u093f\u0915 \u0928\u093f\u0930\u094d\u0927\u0928\u0924\u093e (spiritual poverty) is just as urgent as removing economic poverty \u2014 and how the Bhagavad Gita gives us the blueprint to build daivi sampada, karma\u2011yoga, and true social equality. Available in English and Hindi.",
     date: "May 26, 2026",
     slug: "removing-spiritual-poverty-building-a-new-india",
-    image: "https://img.youtube.com/vi/knKDmQ7d-3c/maxresdefault.jpg",
-    isVideo: true,
-    badge: "New Video",
+    image: "https://img.youtube.com/vi/knKDmQ7d-3c/hqdefault.jpg",
   },
   {
     title:
@@ -33,9 +29,7 @@ const englishArticles: {
       "BrahmBodhi responds to political calls to \u201ceradicate Sanatan.\u201d Drawing on medieval European history\u2014the Crusades, the Inquisitions, the Catholic\u2013Protestant wars\u2014and on India\u2019s long record as a refuge for persecuted peoples, he shows that Sanatan Dharma is, in truth, one of the most inclusive and non\u2011divisive civilizations the world has ever known.",
     date: "May 26, 2026",
     slug: "is-sanatan-dharma-divisive-a-historical-reality-check",
-    image: "https://img.youtube.com/vi/26a27V0xtNY/maxresdefault.jpg",
-    isVideo: true,
-    badge: "New Video",
+    image: "https://img.youtube.com/vi/26a27V0xtNY/hqdefault.jpg",
   },
   {
     title: "Does Bhagavad Gita Support the Hindu Caste System?",
@@ -165,8 +159,6 @@ export default function BlogPage() {
               slug={post.slug}
               image={post.image}
               index={i}
-              isVideo={post.isVideo}
-              badge={post.badge}
             />
           ))}
         </div>
