@@ -21,13 +21,38 @@ import {
   LogOut,
   Home,
   Keyboard,
+  Film,
 } from "lucide-react";
 import Link from "next/link";
-import { slides } from "./slides";
+import { slides as slidesOriginal } from "./slides";
+import { slidesV1 } from "./slides-v1";
 import { SlideView } from "./SlideView";
 
 const ALLOWED_EMAILS = ["rohitgarg684@gmail.com", "brahmbodhi@gmail.com"];
 const STORAGE_KEY = "ssn-presentation-index";
+const VERSION_STORAGE_KEY = "ssn-presentation-version";
+
+type DeckVersion = "original" | "v1";
+
+const DECKS: Record<DeckVersion, {
+  slides: typeof slidesOriginal;
+  label: string;
+  shortLabel: string;
+  description: string;
+}> = {
+  original: {
+    slides: slidesOriginal,
+    label: "Leadership Briefing",
+    shortLabel: "Briefing",
+    description: "SCQA leadership deck · institutional case",
+  },
+  v1: {
+    slides: slidesV1,
+    label: "Documentary · v1",
+    shortLabel: "Documentary",
+    description: "10-minute documentary script · 28 May 2026",
+  },
+};
 
 const KEYBOARD_HELP: Array<[string, string]> = [
   ["→  Space  PgDn", "Next slide"],
@@ -54,9 +79,47 @@ export default function SewaNidhiPresentationPage() {
   const [showOverview, setShowOverview] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [showSignOutConfirm, setShowSignOutConfirm] = useState(false);
+  const [version, setVersionState] = useState<DeckVersion>("original");
+
+  const slides = DECKS[version].slides;
 
   const containerRef = useRef<HTMLDivElement | null>(null);
   const prefersReducedMotion = useReducedMotion();
+
+  // Resolve initial version from URL (?v=1) or sessionStorage; default = original.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    const fromUrl = params.get("v");
+    let resolved: DeckVersion = "original";
+    if (fromUrl === "1" || fromUrl === "v1") resolved = "v1";
+    else if (fromUrl === "0" || fromUrl === "original") resolved = "original";
+    else {
+      const stored = sessionStorage.getItem(VERSION_STORAGE_KEY);
+      if (stored === "v1" || stored === "original") resolved = stored;
+    }
+    setVersionState(resolved);
+  }, []);
+
+  // Switch the active deck. Resets to slide 0, syncs URL + sessionStorage.
+  const setVersion = useCallback(
+    (next: DeckVersion) => {
+      if (next === version) return;
+      setVersionState(next);
+      setIndex(0);
+      setDirection(1);
+      setShowOverview(false);
+      setShowNotes(false);
+      if (typeof window !== "undefined") {
+        sessionStorage.setItem(VERSION_STORAGE_KEY, next);
+        const url = new URL(window.location.href);
+        if (next === "original") url.searchParams.delete("v");
+        else url.searchParams.set("v", "1");
+        window.history.replaceState({}, "", url.toString());
+      }
+    },
+    [version],
+  );
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (u) => {
@@ -77,19 +140,20 @@ export default function SewaNidhiPresentationPage() {
     return unsubscribe;
   }, []);
 
-  // Restore last slide on sign-in (per-user via sessionStorage)
+  // Restore last slide on sign-in (per-user + per-version via sessionStorage)
   useEffect(() => {
     if (!user || typeof window === "undefined") return;
-    const raw = sessionStorage.getItem(`${STORAGE_KEY}:${user.uid}`);
+    const raw = sessionStorage.getItem(`${STORAGE_KEY}:${user.uid}:${version}`);
     const n = raw ? parseInt(raw, 10) : NaN;
     if (Number.isFinite(n) && n >= 0 && n < slides.length) setIndex(n);
-  }, [user]);
+    else setIndex(0);
+  }, [user, version, slides.length]);
 
   // Persist current slide so an accidental refresh keeps position
   useEffect(() => {
     if (!user || typeof window === "undefined") return;
-    sessionStorage.setItem(`${STORAGE_KEY}:${user.uid}`, String(index));
-  }, [user, index]);
+    sessionStorage.setItem(`${STORAGE_KEY}:${user.uid}:${version}`, String(index));
+  }, [user, version, index]);
 
   // Track real fullscreen state (e.g. Esc-out)
   useEffect(() => {
@@ -117,7 +181,7 @@ export default function SewaNidhiPresentationPage() {
       const im = new window.Image();
       im.src = src;
     });
-  }, [index]);
+  }, [index, slides]);
 
   const goNext = useCallback(() => {
     setIndex((i) => {
@@ -125,7 +189,7 @@ export default function SewaNidhiPresentationPage() {
       setDirection(1);
       return i + 1;
     });
-  }, []);
+  }, [slides.length]);
 
   const goPrev = useCallback(() => {
     setIndex((i) => {
@@ -240,6 +304,7 @@ export default function SewaNidhiPresentationPage() {
     showNotes,
     showHelp,
     showSignOutConfirm,
+    slides.length,
   ]);
 
   const handleSignIn = async () => {
@@ -395,11 +460,42 @@ export default function SewaNidhiPresentationPage() {
             <span className="hidden sm:inline">Home</span>
           </Link>
           <span className="hidden md:inline text-xs text-white/60 font-semibold tracking-wider uppercase">
-            Sanatan Seva Nidhi · Leadership Briefing
+            Sanatan Seva Nidhi · {DECKS[version].label}
           </span>
         </div>
 
         <div className="flex items-center gap-2 pointer-events-auto">
+          <div
+            className="inline-flex items-center rounded-full bg-white/10 backdrop-blur-sm p-0.5 text-xs"
+            role="group"
+            aria-label="Presentation version"
+          >
+            <button
+              onClick={() => setVersion("original")}
+              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full transition-colors cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-saffron ${
+                version === "original"
+                  ? "bg-saffron text-white shadow"
+                  : "text-white/75 hover:text-white"
+              }`}
+              title="Leadership Briefing (original SCQA deck)"
+              aria-pressed={version === "original"}
+            >
+              <span className="font-semibold">Briefing</span>
+            </button>
+            <button
+              onClick={() => setVersion("v1")}
+              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full transition-colors cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-saffron ${
+                version === "v1"
+                  ? "bg-saffron text-white shadow"
+                  : "text-white/75 hover:text-white"
+              }`}
+              title="Documentary v1 — adapted from the 10-minute documentary script (28 May 2026)"
+              aria-pressed={version === "v1"}
+            >
+              <Film className="w-3 h-3" />
+              <span className="font-semibold">v1</span>
+            </button>
+          </div>
           <ControlButton
             label="Keyboard shortcuts (?)"
             onClick={() => setShowHelp(true)}
@@ -542,7 +638,7 @@ export default function SewaNidhiPresentationPage() {
                     id="overview-heading"
                     className="text-xl md:text-3xl font-bold text-white mt-1"
                   >
-                    {slides.length} slides · Sanatan Seva Nidhi
+                    {slides.length} slides · {DECKS[version].label}
                   </h2>
                 </div>
                 <button
