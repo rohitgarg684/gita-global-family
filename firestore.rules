@@ -1,12 +1,20 @@
 rules_version = '2';
 
+// NOTE: Firestore Rules cannot import TypeScript modules, so the
+// allow-list below is duplicated by necessity. The canonical source
+// of truth for authorized emails lives at:
+//   src/lib/authorized-emails.ts  (AUTHORIZED_EMAILS)
+// When you add/remove an address there, KEEP THIS LIST IN SYNC.
 service cloud.firestore {
   match /databases/{database}/documents {
     match /admin_directories/{document=**} {
       allow read: if request.auth != null
         && request.auth.token.email in [
           'rohitgarg684@gmail.com',
-          'brahmbodhi@gmail.com'
+          'brahmbodhi@gmail.com',
+          'vishnumill235@gmail.com',
+          'kkrishnamurti09@gmail.com',
+          'priyadarshi10@gmail.com'
         ];
       allow write: if false;
     }

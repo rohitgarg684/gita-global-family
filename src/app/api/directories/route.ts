@@ -1,10 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { adminDb, adminAuth } from "@/lib/firebase-admin";
-
-const ALLOWED_EMAILS = [
-  "rohitgarg684@gmail.com",
-  "brahmbodhi@gmail.com",
-];
+import { isAuthorizedEmail } from "@/lib/authorized-emails";
 
 export async function GET(req: NextRequest) {
   const authHeader = req.headers.get("authorization");
@@ -16,7 +12,7 @@ export async function GET(req: NextRequest) {
 
   try {
     const decoded = await adminAuth.verifyIdToken(idToken);
-    if (!ALLOWED_EMAILS.includes(decoded.email ?? "")) {
+    if (!isAuthorizedEmail(decoded.email)) {
       return NextResponse.json({ error: "Forbidden" }, { status: 403 });
     }
   } catch {

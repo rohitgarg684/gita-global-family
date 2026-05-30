@@ -8,8 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { onAuthStateChanged, type User } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { img } from "@/lib/image-url";
-
-const ALLOWED_EMAILS = ["rohitgarg684@gmail.com", "brahmbodhi@gmail.com"];
+import { isAuthorizedEmail } from "@/lib/authorized-emails";
 
 interface NavChild {
   href: string;
@@ -64,7 +63,7 @@ export default function Header() {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (u: User | null) => {
-      setIsAdmin(!!u && ALLOWED_EMAILS.includes(u.email ?? ""));
+      setIsAdmin(isAuthorizedEmail(u?.email));
     });
     return unsubscribe;
   }, []);

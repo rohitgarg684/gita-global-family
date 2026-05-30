@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { signInWithPopup, onAuthStateChanged, signOut as fbSignOut, type User } from "firebase/auth";
 import { auth, googleProvider } from "@/lib/firebase";
+import { isAuthorizedEmail } from "@/lib/authorized-emails";
 import {
   LogOut,
   Search,
@@ -14,11 +15,6 @@ import {
   Mail,
   Loader2,
 } from "lucide-react";
-
-const ALLOWED_EMAILS = [
-  "rohitgarg684@gmail.com",
-  "brahmbodhi@gmail.com",
-];
 
 interface SheetData {
   directory: string;
@@ -123,7 +119,7 @@ export default function AdminPage() {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (u) => {
-      if (u && ALLOWED_EMAILS.includes(u.email ?? "")) {
+      if (u && isAuthorizedEmail(u.email)) {
         setUser(u);
         setError("");
       } else if (u) {
@@ -179,7 +175,7 @@ export default function AdminPage() {
     setError("");
     try {
       const result = await signInWithPopup(auth, googleProvider);
-      if (!ALLOWED_EMAILS.includes(result.user.email ?? "")) {
+      if (!isAuthorizedEmail(result.user.email)) {
         await fbSignOut(auth);
         setError("Access denied. This account is not authorized.");
       }

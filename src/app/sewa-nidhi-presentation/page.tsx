@@ -27,8 +27,8 @@ import Link from "next/link";
 import { slides as slidesOriginal } from "./slides";
 import { slidesV1 } from "./slides-v1";
 import { SlideView } from "./SlideView";
+import { isAuthorizedEmail } from "@/lib/authorized-emails";
 
-const ALLOWED_EMAILS = ["rohitgarg684@gmail.com", "brahmbodhi@gmail.com"];
 const STORAGE_KEY = "ssn-presentation-index";
 const VERSION_STORAGE_KEY = "ssn-presentation-version";
 
@@ -123,7 +123,7 @@ export default function SewaNidhiPresentationPage() {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (u) => {
-      if (u && ALLOWED_EMAILS.includes(u.email ?? "")) {
+      if (u && isAuthorizedEmail(u.email)) {
         setUser(u);
         setAuthError("");
       } else if (u) {
@@ -312,7 +312,7 @@ export default function SewaNidhiPresentationPage() {
     setSigningIn(true);
     try {
       const result = await signInWithPopup(auth, googleProvider);
-      if (!ALLOWED_EMAILS.includes(result.user.email ?? "")) {
+      if (!isAuthorizedEmail(result.user.email)) {
         await fbSignOut(auth);
         setAuthError(
           "Access denied. This presentation is restricted to authorized accounts only.",
