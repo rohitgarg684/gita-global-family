@@ -11,7 +11,7 @@ const blogPosts: Record<string, BlogPost> = {
     date: "Jun 5, 2026",
     image: img("blog-know-hinduism-hero.png"),
     intro:
-      "What is Hinduism, really? Where did it come from? Who is its founder? Which is its primary scripture? Is God one or many — formless or with form — and can we actually see Him? In Lesson One of his Religious Literacy series, BrahmBodhi answers the first ten foundational questions about Hindu Dharma — gently, clearly, and rooted in the Bhagavad Gita. Each answer flows into the next, so by the end you have a single, connected picture of Sanatana Dharma.",
+      "What is Hinduism, really? Where did it come from? Who is its founder? Which is its primary scripture? Is God one or many — formless or with form — and can we actually see Him? In Lesson One of his Religious Literacy series, BrahmBodhi answers the first ten foundational questions about Hindu Dharma — gently, clearly, and rooted in the Bhagavad Gita.",
     content: [],
     sections: [
       {
@@ -79,14 +79,14 @@ const blogPosts: Record<string, BlogPost> = {
         image: img("blog-know-hinduism-10-darshan.png"),
         imageAlt:
           "Devotee in deep prayer receiving divine darshan in a temple sanctum",
-        body: "Yes. We can see and hear God in His saakar forms — His with‑body forms. We can even speak with Him.\n\nThe formless (nirakara) God we cannot see with our physical eyes, but we can experience Him. Describing those experiences in words is difficult — just as describing the formless God Himself in words is difficult.\n\nThis is the end of the first ten questions. Notice how each answer flowed into the next: the eternal Dharma → has no single founder → and therefore no single book → so the Gita and the lives of Rama and Krishna become its dual high‑water mark → there are no founders, only great builders → who guide us toward life’s real goal, moksha → which means meeting the One God → who is both formless and full of form → and who can, in His saakar grace, truly be seen, heard, and loved.\n\nThis is Religious Literacy — Lesson One.",
+        body: "Yes. We can see and hear God in His saakar forms — His with‑body forms. We can even speak with Him.\n\nThe formless (nirakara) God we cannot see with our physical eyes, but we can experience Him. Describing those experiences in words is difficult — just as describing the formless God Himself in words is difficult.\n\nThis concludes Religious Literacy — Lesson One.",
       },
     ],
     hi: {
       title:
         "हिंदू धर्म को जानें — धार्मिक साक्षरता : पाठ एक (प्रथम दस बातें)",
       intro:
-        "हिंदू धर्म वास्तव में है क्या? यह कहाँ से आया? इसके संस्थापक कौन हैं? इसका प्रमुख ग्रंथ कौन-सा है? ईश्वर एक है या अनेक — साकार है या निराकार — और क्या उन्हें सचमुच देखा जा सकता है? अपनी “धार्मिक साक्षरता” शृंखला के पाठ एक में ब्रह्मबोधि हिंदू धर्म के ये पहले दस मूलभूत प्रश्न लेते हैं — सहजता से, स्पष्टता से, और भगवद् गीता के आधार पर। प्रत्येक उत्तर अगले उत्तर से जुड़ता चला जाता है, ताकि अंत में पाठक के सामने सनातन धर्म का एक संगत, समग्र चित्र उपस्थित हो।",
+        "हिंदू धर्म वास्तव में है क्या? यह कहाँ से आया? इसके संस्थापक कौन हैं? इसका प्रमुख ग्रंथ कौन-सा है? ईश्वर एक है या अनेक — साकार है या निराकार — और क्या उन्हें सचमुच देखा जा सकता है? अपनी “धार्मिक साक्षरता” शृंखला के पाठ एक में ब्रह्मबोधि हिंदू धर्म के ये पहले दस मूलभूत प्रश्न लेते हैं — सहजता से, स्पष्टता से, और भगवद् गीता के आधार पर।",
       content: [],
       sections: [
         {
@@ -127,7 +127,7 @@ const blogPosts: Record<string, BlogPost> = {
         },
         {
           heading: "१०. तो क्या ईश्वर को हम देख और सुन सकते हैं?",
-          body: "हाँ। ईश्वर को हम उनके साकार रूपों (शरीर वाले रूपों) में देख और सुन सकते हैं। उनसे बातें भी कर सकते हैं।\n\nनिराकार ईश्वर को हम अपनी आँखों से नहीं देख सकते, मगर उनका अनुभव कर सकते हैं। लेकिन उन अनुभवों का शब्दों में वर्णन कठिन है, जैसे कि निराकार ईश्वर का भी शब्दों में वर्णन कठिन है।\n\nयहाँ पहले दस प्रश्न समाप्त होते हैं। ध्यान दें कि किस प्रकार प्रत्येक उत्तर अगले उत्तर में बहता गया — सनातन धर्म → का कोई एक संस्थापक नहीं → इसलिए कोई एक पुस्तक भी नहीं → अतः गीता और श्रीराम-श्रीकृष्ण के जीवन इसके दो शिखर बने → संस्थापक एक नहीं, किन्तु महान निर्माता अनेक → जो हमें जीवन के असली लक्ष्य मोक्ष की ओर ले जाते हैं → जिसका अर्थ है उस एक ईश्वर से मिलन → जो निराकार भी है और साकार भी → और जो अपनी साकार कृपा में सचमुच देखे, सुने और प्रेम किए जा सकते हैं।\n\nयही है — धार्मिक साक्षरता : पाठ एक।",
+          body: "हाँ। ईश्वर को हम उनके साकार रूपों (शरीर वाले रूपों) में देख और सुन सकते हैं। उनसे बातें भी कर सकते हैं।\n\nनिराकार ईश्वर को हम अपनी आँखों से नहीं देख सकते, मगर उनका अनुभव कर सकते हैं। लेकिन उन अनुभवों का शब्दों में वर्णन कठिन है, जैसे कि निराकार ईश्वर का भी शब्दों में वर्णन कठिन है।\n\nयहीं समाप्त होता है — धार्मिक साक्षरता : पाठ एक।",
         },
       ],
     },

@@ -2630,8 +2630,7 @@ export const bhagavadDharmaQA: QAItem[] = [
     answer: [
       { type: "p", text: "Yes. We can see and hear God in His saakar forms \u2014 His with-body forms. We can even speak with Him." },
       { type: "p", text: "The formless (nirakara) God we cannot see with our physical eyes, but we can experience Him. Describing those experiences in words is difficult \u2014 just as describing the formless God Himself in words is difficult." },
-      { type: "p", text: "This is the end of the first ten questions. Notice how each answer flowed into the next: the eternal Dharma \u2192 has no single founder \u2192 and therefore no single book \u2192 so the Gita and the lives of Rama and Krishna become its dual high-water mark \u2192 there are no founders, only great builders \u2192 who guide us toward life\u2019s real goal, moksha \u2192 which means meeting the One God \u2192 who is both formless and full of form \u2192 and who can, in His saakar grace, truly be seen, heard, and loved." },
-      { type: "p", text: "This is Religious Literacy \u2014 Lesson One." },
+      { type: "p", text: "This concludes Religious Literacy \u2014 Lesson One." },
     ],
     hi: {
       question: "तो क्या ईश्वर को हम देख और सुन सकते हैं?",
@@ -2640,8 +2639,7 @@ export const bhagavadDharmaQA: QAItem[] = [
       answer: [
         { type: "p", text: "हाँ। ईश्वर को हम उनके साकार रूपों (शरीर वाले रूपों) में देख और सुन सकते हैं। उनसे बातें भी कर सकते हैं।" },
         { type: "p", text: "निराकार ईश्वर को हम अपनी आँखों से नहीं देख सकते, मगर उनका अनुभव कर सकते हैं। लेकिन उन अनुभवों का शब्दों में वर्णन कठिन है, जैसे कि निराकार ईश्वर का भी शब्दों में वर्णन कठिन है।" },
-        { type: "p", text: "यहाँ पहले दस प्रश्न समाप्त होते हैं। ध्यान दें कि किस प्रकार प्रत्येक उत्तर अगले उत्तर में बहता गया \u2014 सनातन धर्म \u2192 का कोई एक संस्थापक नहीं \u2192 इसलिए कोई एक पुस्तक भी नहीं \u2192 अतः गीता और श्रीराम-श्रीकृष्ण के जीवन इसके दो शिखर बने \u2192 संस्थापक एक नहीं, किन्तु महान निर्माता अनेक \u2192 जो हमें जीवन के असली लक्ष्य मोक्ष की ओर ले जाते हैं \u2192 जिसका अर्थ है उस एक ईश्वर से मिलन \u2192 जो निराकार भी है और साकार भी \u2192 और जो अपनी साकार कृपा में सचमुच देखे, सुने और प्रेम किए जा सकते हैं।" },
-        { type: "p", text: "यही है \u2014 धार्मिक साक्षरता : पाठ एक।" },
+        { type: "p", text: "यहीं समाप्त होता है \u2014 धार्मिक साक्षरता : पाठ एक।" },
       ],
     },
   },
