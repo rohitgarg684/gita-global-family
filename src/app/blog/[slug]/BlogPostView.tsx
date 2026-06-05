@@ -9,6 +9,8 @@ import { ArrowLeft, Calendar, ExternalLink, Globe } from "lucide-react";
 export interface BlogSection {
   heading: string;
   body: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 export interface BlogTranslation {
@@ -161,16 +163,33 @@ export default function BlogPostView({ post }: { post: BlogPost }) {
             <p key={i}>{paragraph}</p>
           ))}
 
-          {t.sections?.map((section, i) => (
-            <div key={i} className="pt-2">
-              <h2 className="text-xl md:text-2xl font-bold text-dark-brown mt-8 mb-3 leading-snug">
-                {section.heading}
-              </h2>
-              <p className="leading-relaxed whitespace-pre-line">
-                {section.body}
-              </p>
-            </div>
-          ))}
+          {t.sections?.map((section, i) => {
+            const sourceSection = post.sections?.[i];
+            const image = section.image ?? sourceSection?.image;
+            const imageAlt =
+              section.imageAlt ?? sourceSection?.imageAlt ?? section.heading;
+            return (
+              <div key={i} className="pt-2">
+                <h2 className="text-xl md:text-2xl font-bold text-dark-brown mt-8 mb-4 leading-snug">
+                  {section.heading}
+                </h2>
+                {image && (
+                  <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden mb-5 shadow-md">
+                    <Image
+                      src={image}
+                      alt={imageAlt}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 768px"
+                      className="object-cover"
+                    />
+                  </div>
+                )}
+                <p className="leading-relaxed whitespace-pre-line">
+                  {section.body}
+                </p>
+              </div>
+            );
+          })}
         </article>
       </motion.section>
     </>

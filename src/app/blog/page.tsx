@@ -15,6 +15,15 @@ const englishArticles: {
 }[] = [
   {
     title:
+      "Know Hinduism: Religious Literacy — Lesson One (First Ten Questions)",
+    excerpt:
+      "Why is Hinduism called Sanatana Dharma? Who founded it? What is its primary scripture? Is God one or many — formless or with form? In Lesson One of his Religious Literacy series, BrahmBodhi answers the first ten foundational questions about Hindu Dharma — gently, clearly, and rooted in the Bhagavad Gita. Available in English and the original Hindi.",
+    date: "Jun 5, 2026",
+    slug: "know-hinduism-religious-literacy-lesson-one",
+    image: img("blog-know-hinduism-hero.png"),
+  },
+  {
+    title:
       "Removing Spiritual Poverty: The Missing Pillar of a New India",
     excerpt:
       "Roads, factories, and GDP are necessary \u2014 but they are not sufficient. In this address at a \u201cBuilding a New India\u201d summit, BrahmBodhi shows why removing \u0906\u0927\u094d\u092f\u093e\u0924\u094d\u092e\u093f\u0915 \u0928\u093f\u0930\u094d\u0927\u0928\u0924\u093e (spiritual poverty) is just as urgent as removing economic poverty \u2014 and how the Bhagavad Gita gives us the blueprint to build daivi sampada, karma\u2011yoga, and true social equality. Available in English and Hindi.",

@@ -2383,4 +2383,266 @@ export const bhagavadDharmaQA: QAItem[] = [
       ],
     },
   },
+  // ───────────────────────────────────────────────────────────────────────────
+  // Know Hinduism — Religious Literacy: Lesson One (First Ten Questions)
+  // Source: BrahmBodhi, "हिंदू धर्म को जानें — धार्मिक साक्षरता : पाठ एक"
+  // Companion blog: /blog/know-hinduism-religious-literacy-lesson-one
+  // ───────────────────────────────────────────────────────────────────────────
+  {
+    id: "kh-why-sanatana-dharma",
+    coverImage: "blog-know-hinduism-01-sanatan.png",
+    tag: "Know Hinduism",
+    question: "Why is Hinduism called \u201cSanatana Dharma\u201d?",
+    preview:
+      "\u201cSanatana\u201d means \u201cthat which always exists\u201d \u2014 the eternal. The foundational principles of Hindu Dharma \u2014 truth, compassion, kindness, good deeds, devotion \u2014 have always existed and always will. Hence the name Sanatana Dharma, the Eternal Way.",
+    answer: [
+      { type: "p", text: "\u201cSanatana\u201d means \u201cthat which always exists\u201d \u2014 the eternal. Hindu Dharma holds that the foundational principles of dharma \u2014 truth (satya), compassion (daya), kindness (karuna), good deeds (sukarma), and devotion to God (Ishvara-bhakti) \u2014 have always existed and always will. They were not invented at some moment in history. For this reason, Hindu Dharma is called Sanatana Dharma \u2014 the Eternal Way." },
+      { type: "p", text: "This sets the stage for everything that follows. Because the dharma itself is eternal, no single person could ever have \u201cstarted\u201d it \u2014 which leads naturally to the next question, about who its founder is." },
+    ],
+    hi: {
+      question: "हिंदू धर्म को \u201cसनातन धर्म\u201d क्यों कहते हैं?",
+      preview:
+        "\u201cसनातन\u201d का अर्थ है \u2014 \u201cजो सदा रहे\u201d। हिंदू धर्म के मूल सिद्धांत \u2014 सत्य, दया, करुणा, अच्छे कर्म और ईश्वर की भक्ति \u2014 सदा से हैं और सदा रहेंगे। इसी कारण हिंदू धर्म को \u201cसनातन धर्म\u201d कहा जाता है।",
+      answer: [
+        { type: "p", text: "\u201cसनातन\u201d का अर्थ है \u2014 \u201cजो सदा रहे\u201d। हिंदू धर्म में माना जाता है कि धर्म के मूल सिद्धांत \u2014 सत्य, दया, करुणा, अच्छे कर्म और ईश्वर की भक्ति \u2014 सदा से हैं और सदा रहेंगे। ये किसी एक काल-विशेष में किसी ने \u2018प्रारम्भ\u2019 नहीं किए। इसी कारण हिंदू धर्म को \u201cसनातन धर्म\u201d कहा जाता है।" },
+        { type: "p", text: "यहीं से आगे की पूरी श्रृंखला खुलती है \u2014 क्योंकि यदि धर्म स्वयं सनातन है, तो उसे कोई एक व्यक्ति \u2018स्थापित\u2019 कैसे करेगा? यही अगला प्रश्न है।" },
+      ],
+    },
+  },
+  {
+    id: "kh-who-founded-hinduism",
+    coverImage: "blog-know-hinduism-02-rishis.png",
+    tag: "Know Hinduism",
+    question: "Who founded Hinduism? Who are its founders?",
+    preview:
+      "Hindu Dharma has no single founder. It is the cumulative result of the knowledge, austerity, and lived experience of countless rishis and rishikas \u2014 just as science has no single founder, but is the work of many scientists across centuries.",
+    answer: [
+      { type: "p", text: "Hindu Dharma has no single founder. It is the cumulative result of the knowledge, austerity (sadhana), inner discovery, and lived experience of countless rishis (male sages) and rishikas (female sages)." },
+      { type: "p", text: "Science, too, has no single founder. Science is the body of knowledge developed and accumulated through the experiments, research, and experiences of many scientists across centuries. In the same way, Hindu Dharma also has no one founder." },
+      { type: "p", text: "The oldest scripture of Hindu Dharma is the Rigveda. Therefore the rishis and rishikas of the Rigveda may be regarded as the earliest founders of Hindu Dharma." },
+      { type: "p", text: "If there is no single founder, there can hardly be a single book \u2014 and that is precisely the next question in this lesson." },
+    ],
+    hi: {
+      question: "हिंदू धर्म की स्थापना किसने की? इसके संस्थापक कौन हैं?",
+      preview:
+        "हिंदू धर्म का कोई एक संस्थापक नहीं है। यह अनेक ऋषियों और ऋषिकाओं के ज्ञान, साधना, खोज और अनुभव का परिणाम है \u2014 जैसे विज्ञान का भी कोई एक संस्थापक नहीं, वह अनेक वैज्ञानिकों के कार्य का संचित ज्ञान है।",
+      answer: [
+        { type: "p", text: "हिंदू धर्म का कोई एक संस्थापक नहीं है। यह अनेक ऋषियों (पुरुषों) और ऋषिकाओं (स्त्रियों) के ज्ञान, साधना, खोज और अनुभव का परिणाम है।" },
+        { type: "p", text: "विज्ञान का भी कोई एक संस्थापक नहीं है। विज्ञान अनेक वैज्ञानिकों के प्रयोगों, अनुसंधान और अनुभव के द्वारा विकसित और संचित ज्ञानराशि को कहते हैं। उसी प्रकार हिंदू धर्म का भी कोई एक संस्थापक नहीं है।" },
+        { type: "p", text: "हिंदू धर्म का सबसे प्राचीन ग्रंथ ऋग्वेद है। इसलिए ऋग्वेद के ऋषि और ऋषिकाएँ हिंदू धर्म के प्रारम्भिक संस्थापक माने जा सकते हैं।" },
+        { type: "p", text: "जहाँ कोई एक संस्थापक नहीं, वहाँ शायद कोई एक ही पुस्तक भी न हो \u2014 और यही इस पाठ का अगला प्रश्न है।" },
+      ],
+    },
+  },
+  {
+    id: "kh-one-primary-scripture",
+    coverImage: "blog-know-hinduism-03-gita.png",
+    tag: "Know Hinduism",
+    question: "What is the one primary sacred book of Hinduism?",
+    preview:
+      "Hindu Dharma has no single, exclusive sacred book \u2014 because, like science, it has many branches and many paths. Yet among all its scriptures, the Bhagavad Gita stands out as the most universally honoured text of inner knowledge.",
+    answer: [
+      { type: "p", text: "Buddhism (founded by the Buddha), Islam (founded by Muhammad) and Christianity (founded by Jesus Christ) are religions established by single individuals. Because of that, each of them has essentially one \u2014 or just a few \u2014 sacred books. Hindu Dharma does not have a single, exclusive sacred book." },
+      { type: "p", text: "As explained earlier, Hindu Dharma is a kind of science \u2014 adhyatma-vijnana, the science of the inner life \u2014 and it is a vast collection of principles and practices discovered by many rishis, avataras, saints, and thinkers." },
+      { type: "p", text: "Science itself has no single book. Physics has its own books, chemistry has its own books, biology has its own books. In the same way, Hindu Dharma has separate sacred texts for dhyana-yoga (meditation), for yajna and Vedic rituals, for tantra-sadhana, and for bhakti \u2014 different paths, different scriptures." },
+      { type: "p", text: "Why so many? Because Hindu rishis developed many paths (panthas) to one single goal \u2014 moksha. Different paths require different books. And because Hindu Dharma is the world\u2019s most ancient religious tradition, its rishis, saints, and thinkers were given an extraordinarily long span of time to explore inwardly in many directions. That is why so many traditions of knowledge, philosophy, sadhana, and worship developed within it." },
+      { type: "p", text: "Yet among all these paths and scriptures, the Bhagavad Gita stands out as the most universally honoured and widely accepted text of adhyatma-jnana (inner knowledge). All Hindu traditions accept the Gita as their shared, primary sacred book. According to Hindu belief, it is the very word of God. In a brief and simple form, it presents the knowledge of how to make this life noble and how to attain moksha. Dhyana, bhakti, jnana, karma \u2014 all the principal paths to moksha \u2014 are gathered into this one scripture." },
+      { type: "p", text: "The Vedas, too, are foundational scriptures of Hindu Dharma and are considered apaurusheya (not of human authorship); they are therefore also shared, primary scriptures of Hindus. The Vedas, however, deal more with hymns to the devas, yajnas, and ritual practice. For the knowledge of adhyatma specifically, the Bhagavad Gita is the most beloved and most widely accepted." },
+      { type: "p", text: "If one scripture stands above the rest, then naturally there must also be ideal individuals who embody Hindu Dharma in life and in teaching \u2014 which brings us to the next question, about the two greatest figures of Hindu Dharma." },
+    ],
+    hi: {
+      question: "हिंदू धर्म की एक प्रमुख पवित्र पुस्तक या ग्रंथ कौन-सा है?",
+      preview:
+        "हिंदू धर्म की कोई एकमात्र पवित्र पुस्तक नहीं है \u2014 क्योंकि विज्ञान की तरह उसमें भी अनेक शाखाएँ और अनेक मार्ग हैं। किन्तु इन सभी के बीच अध्यात्म-ज्ञान के ग्रंथ के रूप में भगवद्गीता सबसे अधिक सम्मानित है।",
+      answer: [
+        { type: "p", text: "बौद्ध धर्म (संस्थापक बुद्ध), इस्लाम (संस्थापक मुहम्मद) और ईसाई धर्म (संस्थापक ईसा मसीह) \u2014 ये किसी एक व्यक्ति द्वारा स्थापित धर्म हैं। इसलिए इन सबकी पवित्र पुस्तक भी एक या कुछ-एक ही हैं। हिंदू धर्म की कोई एकमात्र पवित्र पुस्तक नहीं है।" },
+        { type: "p", text: "जैसा कि बताया गया, हिंदू धर्म एक प्रकार का विज्ञान है \u2014 अध्यात्म-विज्ञान \u2014 जिसमें अनेक ऋषियों, अवतारों, संतों और मनीषियों द्वारा खोजे गए और बताए गए सिद्धांतों और साधनाओं का विशाल संग्रह है।" },
+        { type: "p", text: "विज्ञान की भी कोई एक पुस्तक नहीं होती। भौतिकी (फिज़िक्स) की अलग, रसायन विज्ञान (केमिस्ट्री) की अलग, और जीव-विज्ञान (बायोलॉजी) की अलग-अलग पुस्तकें होती हैं। उसी प्रकार हिंदू धर्म में ध्यान-योग के लिए अलग, यज्ञों और वैदिक कर्मकांड के लिए अलग, तंत्र साधना के लिए अलग, तथा भक्ति आदि के लिए अलग-अलग पवित्र ग्रंथ हैं।" },
+        { type: "p", text: "अलग-अलग साधना मार्गों के लिए अलग-अलग पवित्र ग्रंथ इसलिए हैं क्योंकि हिंदू ऋषियों ने एक ही लक्ष्य \u2014 अर्थात् मोक्ष \u2014 तक पहुँचने के अनेक मार्ग या पंथ विकसित किए। उन विभिन्न पंथों या मार्गों के लिए अलग-अलग ग्रंथों की आवश्यकता थी।" },
+        { type: "p", text: "विज्ञान की तरह हिंदू धर्म की ज्ञान-सम्पदा भी अत्यंत विशाल है। इसका एक कारण यह भी है कि हिंदू धर्म विश्व की सबसे प्राचीन धार्मिक परम्परा है। इसके ऋषियों, संतों और मनीषियों को विभिन्न दिशाओं में आध्यात्मिक खोज और चिंतन के लिए अत्यंत लम्बा कालखंड प्राप्त हुआ।" },
+        { type: "p", text: "किन्तु इन सभी मार्गों और उनके पवित्र ग्रंथों के बीच, अध्यात्म-ज्ञान के ग्रंथ के रूप में भगवद्गीता सबसे अधिक सम्मानित और व्यापक रूप से स्वीकार की जाने वाली पुस्तक है। हिंदू परम्पराएँ इसे अपनी साझा और प्रमुख पवित्र पुस्तक मानती हैं। हिंदू मान्यता के अनुसार यह ईश्वर की वाणी है। इसमें इस जीवन को श्रेष्ठ बनाने तथा मोक्ष प्राप्त करने का ज्ञान संक्षिप्त और सरल रूप में प्रस्तुत किया गया है। ध्यान, भक्ति, ज्ञान और कर्म \u2014 मोक्ष के सभी प्रमुख मार्गों का ज्ञान \u2014 इस एक ही पवित्र ग्रंथ में समाहित है।" },
+        { type: "p", text: "वेद भी हिंदू धर्म के आदि ग्रंथ हैं और उन्हें भी अपौरुषेय माना जाता है। इसलिए वे भी हिंदुओं के प्रमुख साझा पवित्र ग्रंथ हैं। वेदों में देवताओं की स्तुतियाँ, यज्ञ और कर्मकांड से सम्बन्धित विषय अपेक्षाकृत अधिक हैं। इसी कारण अध्यात्म के ज्ञान के लिए भगवद्गीता ही अधिक लोकप्रिय और लोकमान्य है।" },
+        { type: "p", text: "यदि कोई एक ग्रंथ सबसे ऊपर है, तो स्वाभाविक है कि कुछ ऐसे आदर्श व्यक्तित्व भी हों जो उस धर्म को जीवन और शिक्षण \u2014 दोनों में मूर्त रूप दें। यही अगला प्रश्न है।" },
+      ],
+    },
+  },
+  {
+    id: "kh-two-greatest-figures",
+    coverImage: "blog-know-hinduism-04-rama-krishna.png",
+    tag: "Know Hinduism",
+    question: "Name the two greatest figures of Hindu Dharma.",
+    preview:
+      "Shri Rama gave Hindu Dharma its supreme practical model of conduct through his life. Shri Krishna gave it the supreme model of inner knowledge through the Bhagavad Gita. These two \u2014 Rama and Krishna \u2014 are the two highest names of Hindu Dharma.",
+    answer: [
+      { type: "p", text: "How should an ideal Hindu live and act? The supreme practical model of conduct was given by Shri Rama, son of Dasharatha and Kaushalya, through his own life, behaviour, and example." },
+      { type: "p", text: "The supreme model of the knowledge-aspect (jnana-paksha) of Hindu Dharma was given by Shri Krishna in the form of the Bhagavad Gita." },
+      { type: "p", text: "For this reason, these two \u2014 Rama and Krishna \u2014 are the two highest names of Hindu Dharma. Rama shows us how to live the dharma; Krishna shows us how to know it." },
+      { type: "p", text: "Now, since Hindu Dharma had no single \u201cfounder,\u201d people often ask how various great teachers fit into the picture. The Hindu tradition draws a careful distinction between a founder and a builder \u2014 and that is the next question." },
+    ],
+    hi: {
+      question: "हिंदू धर्म के निर्माताओं में दो सबसे बड़े नाम बताइए।",
+      preview:
+        "श्रीराम ने अपने जीवन से हिंदू धर्म को आचरण का सर्वोत्तम मॉडल दिया। श्रीकृष्ण ने भगवद्गीता के रूप में ज्ञान का सर्वोच्च मॉडल प्रदान किया। इसलिए ये दोनों हिंदू धर्म के दो सर्वोच्च नाम हैं।",
+      answer: [
+        { type: "p", text: "एक आदर्श हिंदू का आचरण कैसा होना चाहिए \u2014 इसका सर्वोत्तम व्यावहारिक मॉडल दशरथ और कौशल्या के पुत्र श्रीराम ने अपने जीवन, आचरण और व्यवहार द्वारा प्रस्तुत किया।" },
+        { type: "p", text: "हिंदू धर्म के ज्ञान-पक्ष का सर्वोच्च मॉडल श्रीकृष्ण ने भगवद्गीता के रूप में प्रदान किया।" },
+        { type: "p", text: "इसलिए ये दोनों \u2014 श्रीराम और श्रीकृष्ण \u2014 हिंदू धर्म के दो सर्वोच्च नाम हैं। श्रीराम सिखाते हैं कि धर्म को कैसे जीना है, और श्रीकृष्ण सिखाते हैं कि धर्म को कैसे जानना है।" },
+        { type: "p", text: "अब, जब हिंदू धर्म का कोई एक संस्थापक नहीं है, तो लोग बार-बार पूछते हैं कि फिर इतिहास के अनेक महान आचार्य कहाँ बैठते हैं? हिंदू परम्परा यहाँ \u2018संस्थापक\u2019 और \u2018निर्माता\u2019 में बहुत स्पष्ट अंतर करती है \u2014 यही अगला प्रश्न है।" },
+      ],
+    },
+  },
+  {
+    id: "kh-founder-vs-builder",
+    coverImage: "blog-know-hinduism-05-founder-builder.png",
+    tag: "Know Hinduism",
+    question: "What is the difference between a \u201cfounder\u201d and a \u201cbuilder\u201d?",
+    preview:
+      "A founder begins a tradition or lays its foundation. A builder carries it forward, develops it, and gives it its mature form. Hindu Dharma has no single founder \u2014 but it has had many great builders.",
+    answer: [
+      { type: "p", text: "A \u201cfounder\u201d (sansthapaka) is the one who begins a task or tradition, or who lays its foundation. A \u201cbuilder\u201d (nirmata) is the one who carries it forward, develops it, and gives it its mature form." },
+      { type: "p", text: "For example, if someone lays the foundation of a house, they are its founder. But the one who raises the walls and completes the entire structure is its builder." },
+      { type: "p", text: "This distinction matters, because \u2014 as we said \u2014 Hindu Dharma has no single founder. But it has had many great builders, and they deserve to be remembered. That is the next question." },
+    ],
+    hi: {
+      question: "\u201cसंस्थापक\u201d और \u201cनिर्माता\u201d में क्या अंतर है?",
+      preview:
+        "\u201cसंस्थापक\u201d वह है जो किसी परम्परा की नींव डाले। \u201cनिर्माता\u201d वह है जो उसे आगे बढ़ाए, विकसित करे, और स्वरूप प्रदान करे। हिंदू धर्म का कोई एक संस्थापक नहीं, किन्तु महान निर्माता अनेक हैं।",
+      answer: [
+        { type: "p", text: "\u201cसंस्थापक\u201d वह होता है जो किसी कार्य या परम्परा की शुरुआत करे, या उसकी नींव डाले। \u201cनिर्माता\u201d वह होता है जो उसे आगे बढ़ाए, विकसित करे, और उसका स्वरूप स्पष्ट करे।" },
+        { type: "p", text: "उदाहरण के लिए, यदि कोई व्यक्ति घर की नींव डाले तो वह उसका संस्थापक कहलाएगा, और जो उस घर को पूरा बनाकर खड़ा करे, वह उसका निर्माता कहलाएगा।" },
+        { type: "p", text: "यह अंतर इसलिए महत्त्वपूर्ण है क्योंकि \u2014 जैसा कहा गया \u2014 हिंदू धर्म का कोई एक संस्थापक नहीं है, किन्तु उसके अनेक महान निर्माता हैं। उन्हें स्मरण करना आवश्यक है। यही अगला प्रश्न है।" },
+      ],
+    },
+  },
+  {
+    id: "kh-great-builders-of-hinduism",
+    coverImage: "blog-know-hinduism-06-builders.png",
+    tag: "Know Hinduism",
+    question: "Who are some of the great builders of Hindu Dharma?",
+    preview:
+      "Maharshi Vedavyasa in the ancient age, Adi Shankaracharya in the early medieval period, Ramanandacharya in the late medieval period \u2014 along with Ramanuja, Madhva, Nimbarka, Vallabha and many others \u2014 each built the structure of Hindu Dharma further.",
+    answer: [
+      { type: "h", text: "Ancient age \u2014 Maharshi Vedavyasa" },
+      { type: "p", text: "Maharshi Vedavyasa compiled, classified, and arranged the mantras of the Vedas. This was a monumental work of organizing the foundational scriptures of Hindu Dharma. He also composed the Mahabharata, thereby preserving the historical dimension of Indian dharma and culture. He compiled the eighteen Mahapuranas, gathering the diverse Vaishnava, Shaiva, Shakta, and other traditions into a single narrative heritage. In doing so, he gave ordinary people an accessible, story-based foundation in dharma. The Vedas and Upanishads were largely confined to scholars; the Puranas made dharma and adhyatma available to the common person in simple and engaging form." },
+      { type: "h", text: "Early medieval period \u2014 Adi Shankaracharya" },
+      { type: "p", text: "Through his philosophical, educational, and organizational work, Adi Shankaracharya gave fresh strength to Hindu Dharma. He propagated Advaita Vedanta and established four major mathas in the four cardinal directions of India, thereby strengthening the cultural and spiritual unity of Bharat." },
+      { type: "h", text: "Late medieval period \u2014 Ramanandacharya" },
+      { type: "p", text: "Ramanandacharya set in motion a broad and inclusive stream of bhakti. From his lineage emerged many great saints who carried the message of devotion to the common people, rising above the limitations of caste and birth. Through this, Hindu Dharma was given a new, inclusive direction." },
+      { type: "h", text: "Other great builders of the medieval period" },
+      { type: "p", text: "Ramanujacharya, Madhvacharya, Nimbarkacharya, Vallabhacharya, and many other saints and acharyas made major contributions in the fields of bhakti, darshana, and religious education. Their efforts gave the bhakti movement its wide spread, and the various traditions of Hindu Dharma became even more deeply established." },
+      { type: "p", text: "Having understood the history and the human carriers of the tradition, we can now turn to its core teaching about life itself \u2014 what is the ultimate goal of being human?" },
+    ],
+    hi: {
+      question: "हिंदू धर्म के कुछ अन्य प्रमुख निर्माताओं के नाम बताइए।",
+      preview:
+        "प्राचीन काल में महर्षि वेदव्यास, पूर्व-मध्यकाल में आदि शंकराचार्य, उत्तर-मध्यकाल में रामानन्दाचार्य \u2014 तथा रामानुज, मध्व, निम्बार्क, वल्लभ आदि अनेक आचार्य \u2014 हिंदू धर्म के महान निर्माता हैं।",
+      answer: [
+        { type: "h", text: "प्राचीन काल \u2014 महर्षि वेदव्यास" },
+        { type: "p", text: "महर्षि वेदव्यास ने वेदों के मंत्रों का संकलन, वर्गीकरण और विभाजन किया। यह हिंदू धर्म के आधार-ग्रंथों को व्यवस्थित करने का महान कार्य था। उन्होंने महाभारत की रचना कर भारतीय धर्म और संस्कृति के ऐतिहासिक पक्ष को भी संरक्षित किया। वैष्णव, शैव, शाक्त आदि अनेक धार्मिक परम्पराओं और कथाओं को संकलित कर उन्होंने अठारह महापुराणों की रचना अथवा संकलन किया। इस प्रकार उन्होंने जनसामान्य को धर्म का एक लोकप्रिय और कथात्मक आधार प्रदान किया। वेद और उपनिषदों का अध्ययन मुख्यतः विद्वानों तक सीमित था; पुराणों ने सामान्य जनता के लिए धर्म और अध्यात्म को सरल तथा रोचक रूप में उपलब्ध कराया।" },
+        { type: "h", text: "मध्यकाल का प्रारम्भिक भाग (पूर्व मध्यकाल) \u2014 आदि शंकराचार्य" },
+        { type: "p", text: "आदि शंकराचार्य ने अपने दार्शनिक, शैक्षिक और संगठनात्मक कार्यों द्वारा हिंदू धर्म को नया बल प्रदान किया। उन्होंने अद्वैत वेदांत का प्रचार किया तथा भारत के चारों दिशाओं में चार प्रमुख मठ स्थापित कर भारत की सांस्कृतिक और आध्यात्मिक एकता को सुदृढ़ किया।" },
+        { type: "h", text: "मध्यकाल का उत्तरार्ध (उत्तर मध्यकाल) \u2014 रामानन्दाचार्य" },
+        { type: "p", text: "रामानन्दाचार्य ने भक्ति की एक व्यापक और समावेशी धारा प्रवाहित की। उनकी शिष्य परम्परा में अनेक महान संत उत्पन्न हुए, जिन्होंने जाति और जन्म की सीमाओं से ऊपर उठकर भक्ति का सन्देश जनसामान्य तक पहुँचाया। इससे हिंदू धर्म को एक नई समावेशी दिशा मिली।" },
+        { type: "h", text: "मध्यकाल के अन्य महान निर्माता" },
+        { type: "p", text: "रामानुजाचार्य, मध्वाचार्य, निम्बार्काचार्य, वल्लभाचार्य तथा अनेक अन्य संतों और आचार्यों ने भी भक्ति, दर्शन और धर्मशिक्षा के क्षेत्र में महत्त्वपूर्ण योगदान दिया। इनके प्रयासों से भक्ति आन्दोलन का व्यापक प्रसार हुआ और हिंदू धर्म की विभिन्न परम्पराएँ अधिक सुदृढ़ हुईं।" },
+        { type: "p", text: "इतिहास और परम्परा के वाहकों को समझने के बाद, अब हम स्वयं जीवन के विषय में हिंदू धर्म की मूल शिक्षा पर आते हैं \u2014 मनुष्य जीवन का अंतिम लक्ष्य क्या है?" },
+      ],
+    },
+  },
+  {
+    id: "kh-ultimate-goal-of-life",
+    coverImage: "blog-know-hinduism-07-moksha.png",
+    tag: "Know Hinduism",
+    question: "According to Hinduism, what is the ultimate goal of human life?",
+    preview:
+      "The ultimate goal is Moksha \u2014 also called final liberation (mukti) and nirvana. It means freedom from rebirth, and through that, freedom from all suffering forever. Even svarga (heaven) is not the final goal.",
+    answer: [
+      { type: "p", text: "The ultimate goal is moksha \u2014 also called final liberation (mukti) and nirvana. Moksha means freedom from rebirth, and through that, freedom from all suffering forever." },
+      { type: "p", text: "There is much pleasure in svarga (heaven), but when one\u2019s punya (merit) is exhausted, one falls from there and is reborn in the world, and must suffer once again. For this reason, svarga is not the final goal of life. Moksha is." },
+      { type: "p", text: "If moksha is the goal, then the natural next question is: who is the one we ultimately reach \u2014 God? Is God one or many?" },
+    ],
+    hi: {
+      question: "हिंदू धर्म के अनुसार मनुष्य के जीवन का अंतिम लक्ष्य क्या है?",
+      preview:
+        "मोक्ष \u2014 जिसे अंतिम मुक्ति और निर्वाण भी कहते हैं। इसका अर्थ है पुनर्जन्म से मुक्ति, और इस माध्यम से सभी दुःखों से सदा के लिए मुक्ति। स्वर्ग भी अंतिम लक्ष्य नहीं है।",
+      answer: [
+        { type: "p", text: "मोक्ष \u2014 जिसे अंतिम मुक्ति और निर्वाण भी कहते हैं। मोक्ष का अर्थ है पुनर्जन्म से मुक्ति, और इस माध्यम से सभी दुःखों से सदा के लिए मुक्ति।" },
+        { type: "p", text: "स्वर्ग में बहुत सुख हैं, मगर पुण्य समाप्त हो जाने पर वहाँ से भी लौटकर संसार में पुनर्जन्म लेना पड़ता है, और फिर से दुःख भोगने पड़ते हैं। इसलिए स्वर्ग जीवन का अंतिम लक्ष्य नहीं है। मोक्ष ही है।" },
+        { type: "p", text: "यदि मोक्ष ही लक्ष्य है, तो स्वाभाविक प्रश्न उठता है \u2014 जिनसे मिलना है, वह ईश्वर एक है या अनेक? यही अगला प्रश्न है।" },
+      ],
+    },
+  },
+  {
+    id: "kh-is-god-one-or-many",
+    coverImage: "blog-know-hinduism-08-one-god.png",
+    tag: "Know Hinduism",
+    question: "In Hinduism, is God one or many?",
+    preview:
+      "In Hindu Dharma, God is One. He is called Brahman or Para-Brahman \u2014 the Omnipotent Supreme. Two omnipotent beings cannot logically exist. That one Para-Brahman reveals Himself in many forms.",
+    answer: [
+      { type: "p", text: "In Hindu Dharma, God is One." },
+      { type: "p", text: "\u201cIshvara\u201d means That which is omnipotent (sarva-shaktimaan). Two omnipotent beings cannot exist, because it is not logically possible: if there were two omnipotent powers, each would limit the other. Therefore, like the other major religions, Hindu Dharma also accepts that God is One. He is called Brahman \u2014 or Para-Brahman." },
+      { type: "p", text: "That one Para-Brahman Parameshwara reveals Himself in many forms at the time of creation." },
+      { type: "p", text: "This raises a sensitive and beautiful question \u2014 if God is one, why does He have so many forms? Is He really formless, or with form?" },
+    ],
+    hi: {
+      question: "हिंदू धर्म में ईश्वर एक है या अनेक?",
+      preview:
+        "हिंदू धर्म में ईश्वर एक ही है \u2014 जिसे ब्रह्म या परब्रह्म कहा जाता है। दो सर्वशक्तिमान सत्ताएँ तार्किक रूप से संभव नहीं हैं। वही एक परब्रह्म अनेक रूपों में प्रकट होते हैं।",
+      answer: [
+        { type: "p", text: "हिंदू धर्म में ईश्वर एक ही है।" },
+        { type: "p", text: "\u201cईश्वर\u201d का अर्थ है \u2014 वह सत्ता जो सर्वशक्तिमान हो। सर्वशक्तिमान सत्ता दो नहीं हो सकतीं, क्योंकि यह तार्किक रूप से सम्भव नहीं है। यदि दो सत्ताएँ सर्वशक्तिमान हों, तो वे एक-दूसरे की शक्ति को सीमित कर देंगी। इसलिए, अन्य प्रमुख धर्मों की भाँति, हिंदू धर्म में भी ईश्वर एक ही माना गया है। उसे \u201cब्रह्म\u201d या \u201cपरब्रह्म\u201d कहा जाता है।" },
+        { type: "p", text: "वही एक परब्रह्म परमेश्वर सृष्टि के समय अनेक रूपों में स्वयं को प्रकट करते हैं।" },
+        { type: "p", text: "यहाँ एक स्वाभाविक और सुंदर प्रश्न उठता है \u2014 यदि ईश्वर एक है, तो उसके इतने रूप क्यों हैं? वह निराकार है या साकार?" },
+      ],
+    },
+  },
+  {
+    id: "kh-god-formless-or-with-form",
+    coverImage: "blog-know-hinduism-09-nirakara-sakara.png",
+    tag: "Know Hinduism",
+    question: "Is God formless (without a body) or with form (with a body)?",
+    preview:
+      "God is fundamentally formless (Nirakara) \u2014 called Brahman. For creation, sustenance, and dissolution He also takes saakar (with-form) aspects as Brahma, Vishnu and Shiva, and at times even takes human birth as Rama and Krishna.",
+    answer: [
+      { type: "p", text: "In Hindu Dharma, God is fundamentally formless (nirakara). The formless God is called Brahman. When Brahman (the formless God) creates the universe, He also assumes saakar (with-form) aspects \u2014 bodies with shape and colour \u2014 for the work of creation, sustenance, and dissolution. As Brahma, He creates; as Vishnu, He sustains; as Shiva, He dissolves." },
+      { type: "p", text: "Furthermore, Hindu Dharma teaches that the Para-Brahman Parameshwara also takes birth in human form from time to time \u2014 to restore the balance between dharma and adharma, and for the joy of His devotees. Thus He took human avataras as Shri Rama and Shri Krishna." },
+      { type: "p", text: "So ultimately, it is the One God who is encountered in many forms \u2014 and this naturally invites the final question of this lesson: can we actually see and hear God?" },
+    ],
+    hi: {
+      question: "हिंदू धर्म में ईश्वर निराकार (बिना शरीर के) है या साकार (शरीर वाला)?",
+      preview:
+        "ईश्वर मूलतः निराकार है \u2014 \u201cब्रह्म\u201d कहलाते हैं। सृष्टि, पालन और संहार के लिए वे ब्रह्मा, विष्णु और शिव के साकार रूप ग्रहण करते हैं, और कभी श्रीराम-श्रीकृष्ण के रूप में मनुष्य अवतार भी लेते हैं।",
+      answer: [
+        { type: "p", text: "हिंदू धर्म में ईश्वर मूलतः निराकार है। निराकार ईश्वर को \u201cब्रह्म\u201d कहते हैं। ब्रह्म (निराकार ईश्वर) जब जगत की सृष्टि करते हैं, तब वे संसार की उत्पत्ति, पालन और संहार के लिए साकार रूप (अर्थात् रूप-रंग सहित शरीर) भी ग्रहण करते हैं। ब्रह्मा रूप में वे सृष्टि करते हैं, विष्णु रूप में वे पालन करते हैं, और शिव रूप में वे संहार करते हैं।" },
+        { type: "p", text: "फिर हिंदू धर्म में परब्रह्म परमेश्वर कभी-कभी धर्म और अधर्म के बीच उत्पन्न असन्तुलन को ठीक करने तथा भक्तों के आनन्द के लिए मनुष्य रूप में भी जन्म लेते हैं। जैसे श्रीराम और श्रीकृष्ण के रूप में उन्होंने मनुष्य अवतार लिया।" },
+        { type: "p", text: "इसलिए अंततः एक ही ईश्वर विभिन्न रूपों में मिलते हैं \u2014 और यही हमें इस पाठ के अन्तिम प्रश्न तक ले आता है: क्या हम ईश्वर को सचमुच देख और सुन सकते हैं?" },
+      ],
+    },
+  },
+  {
+    id: "kh-can-we-see-god",
+    coverImage: "blog-know-hinduism-10-darshan.png",
+    tag: "Know Hinduism",
+    question: "So can we actually see and hear God?",
+    preview:
+      "Yes. We can see and hear God in His saakar (with-form) aspect \u2014 we can even speak with Him. The formless God we cannot see with our eyes, but we can experience Him \u2014 though that experience, like the formless God Himself, is difficult to put into words.",
+    answer: [
+      { type: "p", text: "Yes. We can see and hear God in His saakar forms \u2014 His with-body forms. We can even speak with Him." },
+      { type: "p", text: "The formless (nirakara) God we cannot see with our physical eyes, but we can experience Him. Describing those experiences in words is difficult \u2014 just as describing the formless God Himself in words is difficult." },
+      { type: "p", text: "This is the end of the first ten questions. Notice how each answer flowed into the next: the eternal Dharma \u2192 has no single founder \u2192 and therefore no single book \u2192 so the Gita and the lives of Rama and Krishna become its dual high-water mark \u2192 there are no founders, only great builders \u2192 who guide us toward life\u2019s real goal, moksha \u2192 which means meeting the One God \u2192 who is both formless and full of form \u2192 and who can, in His saakar grace, truly be seen, heard, and loved." },
+      { type: "p", text: "This is Religious Literacy \u2014 Lesson One." },
+    ],
+    hi: {
+      question: "तो क्या ईश्वर को हम देख और सुन सकते हैं?",
+      preview:
+        "हाँ। ईश्वर को हम उनके साकार रूपों में देख, सुन और उनसे बात भी कर सकते हैं। निराकार ईश्वर को हम आँखों से नहीं देख सकते, मगर उनका अनुभव कर सकते हैं \u2014 जिसका शब्दों में वर्णन कठिन है।",
+      answer: [
+        { type: "p", text: "हाँ। ईश्वर को हम उनके साकार रूपों (शरीर वाले रूपों) में देख और सुन सकते हैं। उनसे बातें भी कर सकते हैं।" },
+        { type: "p", text: "निराकार ईश्वर को हम अपनी आँखों से नहीं देख सकते, मगर उनका अनुभव कर सकते हैं। लेकिन उन अनुभवों का शब्दों में वर्णन कठिन है, जैसे कि निराकार ईश्वर का भी शब्दों में वर्णन कठिन है।" },
+        { type: "p", text: "यहाँ पहले दस प्रश्न समाप्त होते हैं। ध्यान दें कि किस प्रकार प्रत्येक उत्तर अगले उत्तर में बहता गया \u2014 सनातन धर्म \u2192 का कोई एक संस्थापक नहीं \u2192 इसलिए कोई एक पुस्तक भी नहीं \u2192 अतः गीता और श्रीराम-श्रीकृष्ण के जीवन इसके दो शिखर बने \u2192 संस्थापक एक नहीं, किन्तु महान निर्माता अनेक \u2192 जो हमें जीवन के असली लक्ष्य मोक्ष की ओर ले जाते हैं \u2192 जिसका अर्थ है उस एक ईश्वर से मिलन \u2192 जो निराकार भी है और साकार भी \u2192 और जो अपनी साकार कृपा में सचमुच देखे, सुने और प्रेम किए जा सकते हैं।" },
+        { type: "p", text: "यही है \u2014 धार्मिक साक्षरता : पाठ एक।" },
+      ],
+    },
+  },
 ];
