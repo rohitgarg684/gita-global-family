@@ -46,6 +46,7 @@ const navLinksBase: NavLink[] = [
       },
       { href: "/networking", label: "Network" },
       { href: "/gallery", label: "Gallery" },
+      { href: "/trust-registration", label: "Trust Registration & Deed" },
       { href: "/mailing-list", label: "Mailing List", adminOnly: true },
       {
         href: "/sewa-nidhi-presentation",
