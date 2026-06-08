@@ -12,8 +12,14 @@ export type Scene = {
     toX?: number;
     toY?: number;
   };
-  /** Hindi subtitle (also fed to TTS). */
+  /** Hindi subtitle text displayed on screen. */
   hi: string;
+  /**
+   * Optional override fed to Hindi TTS when the on-screen subtitle contains
+   * characters that TTS engines mangle (digits, URLs, smart-quotes, etc).
+   * If absent, `hi` is used.
+   */
+  hiSpeak?: string;
   /** English subtitle. */
   en: string;
   /** Big on-screen title shown briefly (optional). */
@@ -71,8 +77,8 @@ export const scenes: Scene[] = [
   {
     id: 5,
     durationMs: 9000,
-    image: "/images/film/scene-05-three-faiths.jpg",
-    imageAlt: "Church, Hindu temple, and mosque side by side",
+    image: "/images/film/scene-05-other-faiths.jpg",
+    imageAlt: "A grand Christian church and mosque side by side at dawn",
     kenBurns: { fromScale: 1.0, toScale: 1.08 },
     chapter: { hi: "एक तुलना", en: "A Comparison" },
     hi: "चर्च, मस्जिद — सबके पास संगठित कोष है। ज़कात, टाइथिंग — सब व्यवस्थित।",
@@ -97,6 +103,8 @@ export const scenes: Scene[] = [
     kenBurns: { fromScale: 1.0, toScale: 1.1 },
     chapter: { hi: "समाधान", en: "The Solution" },
     hi: "एक संसदीय कानून — और एक स्वायत्त, पारदर्शी “सनातन सेवा निधि”।",
+    hiSpeak:
+      "एक संसदीय कानून, और एक स्वायत्त, पारदर्शी सनातन सेवा निधि।",
     en: "One Act of Parliament — and an autonomous, transparent “Sanatan Seva Nidhi.”",
   },
   {
@@ -116,6 +124,7 @@ export const scenes: Scene[] = [
     kenBurns: { fromScale: 1.0, toScale: 1.05 },
     accent: "account",
     hi: "जैसे — नौ का अंक, ग्यारह बार: 9 9 9 9 9 9 9 9 9 9 9",
+    hiSpeak: "जैसे — नौ का अंक, ग्यारह बार।",
     en: "Like — the digit nine, eleven times: 9 9 9 9 9 9 9 9 9 9 9",
   },
 
@@ -186,6 +195,8 @@ export const scenes: Scene[] = [
     kenBurns: { fromScale: 1.05, toScale: 1.18 },
     accent: "cta",
     hi: "इस आंदोलन से जुड़िए — gitaglobalfamily.org",
+    hiSpeak:
+      "इस आंदोलन से जुड़िए। गीता ग्लोबल फैमिली डॉट ओआरजी।",
     en: "Join the movement — gitaglobalfamily.org",
   },
 ];

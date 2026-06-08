@@ -27,6 +27,35 @@ function fmtTime(ms: number) {
   return `${m}:${r.toString().padStart(2, "0")}`;
 }
 
+const DIGIT_TO_HINDI: Record<string, string> = {
+  "0": "शून्य",
+  "1": "एक",
+  "2": "दो",
+  "3": "तीन",
+  "4": "चार",
+  "5": "पाँच",
+  "6": "छह",
+  "7": "सात",
+  "8": "आठ",
+  "9": "नौ",
+};
+
+/**
+ * Sanitize a Devanagari subtitle string for Hindi TTS:
+ * - replace ASCII digits with their Hindi words (TTS often reads them in English)
+ * - strip the smart quotes that some engines pronounce literally
+ * - collapse repeated whitespace
+ * Used only as a fallback when a scene has no explicit `hiSpeak` override.
+ */
+function sanitizeForTTS(text: string): string {
+  return text
+    .replace(/[0-9]/g, (d) => ` ${DIGIT_TO_HINDI[d] ?? d} `)
+    .replace(/[“”„"]/g, "")
+    .replace(/—/g, ",")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export default function VideoPage() {
   const [status, setStatus] = useState<Status>("idle");
   const [sceneIndex, setSceneIndex] = useState(0);
@@ -120,7 +149,8 @@ export default function VideoPage() {
     // Speak this scene exactly once when it starts.
     if (speakingForSceneRef.current !== sceneIndex) {
       speakingForSceneRef.current = sceneIndex;
-      speak(scene.hi, scene.durationMs);
+      const spoken = scene.hiSpeak ?? sanitizeForTTS(scene.hi);
+      speak(spoken, scene.durationMs);
     }
 
     rafRef.current = requestAnimationFrame(tick);
@@ -198,7 +228,8 @@ export default function VideoPage() {
       const nm = !m;
       try {
         if (nm) window.speechSynthesis.cancel();
-        else if (status === "playing") speak(scene.hi, scene.durationMs);
+        else if (status === "playing")
+          speak(scene.hiSpeak ?? sanitizeForTTS(scene.hi), scene.durationMs);
       } catch {}
       return nm;
     });
