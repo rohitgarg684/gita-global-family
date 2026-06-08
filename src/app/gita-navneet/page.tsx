@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { BookOpen, ArrowRight, Download, FileText } from "lucide-react";
+import { ArrowRight, Download, FileText } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import { img } from "@/lib/image-url";
 import { getBook } from "@/lib/gita-navneet";
 
 const book = getBook();
@@ -16,71 +18,98 @@ export default function GitaNavneetIndexPage() {
 
   return (
     <>
-      <section className="relative bg-gradient-to-br from-dark-brown via-maroon to-dark-brown py-20 md:py-28 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+      <section className="relative bg-gradient-to-br from-dark-brown via-maroon to-dark-brown py-16 md:py-24 overflow-hidden">
+        <div className="absolute inset-0 opacity-15">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
-                "radial-gradient(circle at 20% 50%, rgba(232,119,46,0.3) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(201,168,76,0.2) 0%, transparent 50%)",
+                "radial-gradient(circle at 20% 50%, rgba(232,119,46,0.4) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(201,168,76,0.25) 0%, transparent 50%)",
             }}
           />
         </div>
-        <div className="relative section-padding text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="w-16 h-16 bg-saffron/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
-              <BookOpen className="w-8 h-8 text-saffron-light" />
-            </div>
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-3">
-              {book.title}
-            </h1>
-            <p className="text-lg text-white/80 max-w-3xl mx-auto mb-6">
-              {book.subtitle}
-            </p>
-            <p className="text-sm text-white/60 mb-8">
-              संकलनकर्ता, अनुवादक, व्याख्याकार:{" "}
-              <span className="text-saffron-light font-medium">
-                {book.author}
-              </span>
-            </p>
-            <div className="flex flex-wrap items-center justify-center gap-3">
-              <Link
-                href="#table-of-contents"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-sm"
-              >
-                Browse Sections <ArrowRight className="w-4 h-4" />
-              </Link>
-              <a
-                href={book.pdfUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 text-white text-sm font-semibold rounded-full hover:bg-white/20 transition-colors border border-white/20"
-              >
-                <Download className="w-4 h-4" /> Download PDF
-              </a>
-            </div>
-            <div className="mt-8 flex items-center justify-center gap-6 text-sm text-white/60">
-              <span>
-                <strong className="text-saffron-light">
-                  {book.sections.length}
-                </strong>{" "}
-                Sections (खंड)
-              </span>
-              <span className="w-1 h-1 bg-white/30 rounded-full" />
-              <span>
-                <strong className="text-saffron-light">{totalChapters}</strong>{" "}
-                Chapters
-              </span>
-              <span className="w-1 h-1 bg-white/30 rounded-full" />
-              <span>
-                <strong className="text-saffron-light">51</strong> Shlokas
-              </span>
-            </div>
-          </motion.div>
+        <div className="relative section-padding">
+          <div className="grid md:grid-cols-[auto_1fr] items-center gap-10 md:gap-14 max-w-5xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mx-auto md:mx-0 shrink-0"
+            >
+              {book.coverImage && (
+                <div className="relative w-[200px] md:w-[260px] aspect-[2/3] drop-shadow-[0_25px_45px_rgba(0,0,0,0.45)]">
+                  <Image
+                    src={img(book.coverImage)}
+                    alt={book.title}
+                    fill
+                    sizes="(max-width: 768px) 200px, 260px"
+                    className="object-cover rounded-md"
+                    priority
+                  />
+                </div>
+              )}
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="text-center md:text-left"
+            >
+              <p className="text-saffron-light text-xs md:text-sm font-semibold tracking-[0.2em] uppercase mb-3">
+                ॥ भारत की सनातन परम्परा की अमूल्य धरोहर ॥
+              </p>
+              <h1 className="text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
+                {book.title}
+              </h1>
+              <p className="text-base md:text-lg text-white/80 mb-5 leading-relaxed">
+                {book.subtitle}
+              </p>
+              <p className="text-sm text-white/60 mb-7">
+                संकलनकर्ता, अनुवादक, व्याख्याकार:{" "}
+                <span className="text-saffron-light font-medium">
+                  {book.author}
+                </span>
+              </p>
+
+              <div className="flex flex-wrap items-center gap-3 justify-center md:justify-start">
+                <Link
+                  href="#table-of-contents"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-saffron text-white text-sm font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-sm"
+                >
+                  Browse Sections <ArrowRight className="w-4 h-4" />
+                </Link>
+                <a
+                  href={book.pdfUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 text-white text-sm font-semibold rounded-full hover:bg-white/20 transition-colors border border-white/20"
+                >
+                  <Download className="w-4 h-4" /> Download PDF
+                </a>
+              </div>
+
+              <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-2 justify-center md:justify-start text-sm text-white/60">
+                <span>
+                  <strong className="text-saffron-light">
+                    {book.sections.length}
+                  </strong>{" "}
+                  खंड · Sections
+                </span>
+                <span className="w-1 h-1 bg-white/30 rounded-full hidden sm:inline-block" />
+                <span>
+                  <strong className="text-saffron-light">
+                    {totalChapters}
+                  </strong>{" "}
+                  Chapters
+                </span>
+                <span className="w-1 h-1 bg-white/30 rounded-full hidden sm:inline-block" />
+                <span>
+                  <strong className="text-saffron-light">51</strong> Shlokas
+                </span>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 

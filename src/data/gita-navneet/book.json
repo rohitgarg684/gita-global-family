@@ -5,7 +5,8 @@
   "publisher": "गीता ग्लोबल पब्लिकेशन",
   "edition": "चतुर्थ संस्करण, 2026",
   "isbn": "9788193956328",
-  "pdfUrl": "/documents/gita-navneet.pdf",
+  "pdfUrl": "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/documents/gita-navneet.pdf",
+  "coverImage": "gita-navneet-cover.png",
   "frontmatter": [
     {
       "slug": "lekhak",

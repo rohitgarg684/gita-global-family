@@ -30,6 +30,7 @@ export interface NavneetBook {
   edition: string;
   isbn: string;
   pdfUrl: string;
+  coverImage?: string;
   frontmatter: NavneetFrontmatter[];
   sections: NavneetSection[];
 }
