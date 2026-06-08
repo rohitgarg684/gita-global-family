@@ -40,6 +40,206 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "human-disposition-divine-or-demonic",
+    coverImage: "qa-human-disposition-divine-demonic.png",
+    question:
+      "What naturally is the human disposition — divine or demonic?",
+    preview:
+      "A seeker once asked: if desire, self-interest, and attachment seem natural to human beings, why should we struggle to cultivate qualities that appear contrary to our instincts? The Gita's answer is that both divine and demonic tendencies exist within every person — and a life of progress lies in gradually rising from tamas to rajas to sattva, and then beyond.",
+    answer: [
+      {
+        type: "p",
+        text: "A devotee once approached Sriyut BrahmBodhi with a question that had arisen during a conversation with a 22-year-old young man. While being introduced to the principles of Navadha Bhakti and the teachings of Chapter 12 of the Bhagavad Gita, the young man raised an honest objection:",
+      },
+      {
+        type: "quote",
+        text: "Many of the qualities described here seem to go against ordinary human nature. Desiring things, thinking about oneself, seeking one's own interests, and being attached to one's likes and dislikes appear to be natural human tendencies. If these are part of human nature, why should we try to act against them? Why should we attempt to cultivate qualities that seem contrary to our natural instincts?",
+      },
+      {
+        type: "p",
+        text: "The devotee, unable to give a satisfactory reply at that moment, sought BrahmBodhi's guidance on how such a question may be addressed. The following is the substance of BrahmBodhi's response.",
+      },
+      { type: "h", text: "Two tendencies live within every human being" },
+      {
+        type: "p",
+        text: "Both divine and demonic qualities are part of human nature. Some people are born with a greater predominance of divine qualities, while others are born with stronger demonic tendencies. Those in whom demonic qualities predominate naturally regard such tendencies as normal and effortless. On the other hand, those in whom divine qualities are stronger find compassion, truthfulness, self-control, and concern for others to be equally natural and effortless. Therefore, the young man's observation is not surprising — it is simply a reflection of where his own present inclinations lie.",
+      },
+      {
+        type: "p",
+        text: "What he needs to understand is that both kinds of tendencies coexist within human beings. It is precisely for this reason that Lord Krishna devotes the entire sixteenth chapter of the Bhagavad Gita to the subject of the Divine and Demonic Natures (Daivāsura-sampad-vibhāga Yoga).",
+      },
+      { type: "h", text: "Divine qualities liberate; demonic qualities bind" },
+      { type: "p", text: "The Lord says:" },
+      {
+        type: "quote",
+        text: "Daivī sampad vimokṣāya nibandhāyāsurī matā;\nMā śucaḥ sampadaṁ daivīm abhijāto'si Pāṇḍava.",
+        cite: "Bhagavad Gita 16.5",
+      },
+      {
+        type: "p",
+        text: "Meaning: \u201CThe divine qualities lead to liberation, whereas the demonic qualities lead to bondage. Do not grieve, O Pāṇḍava, for you are born with the divine endowment.\u201D",
+      },
+      { type: "h", text: "No one escapes the three gunas" },
+      {
+        type: "p",
+        text: "The Lord also makes it clear that no living being — not even the gods — is completely free from the three qualities (gunas) of material nature: sattva (goodness), rajas (passion), and tamas (ignorance):",
+      },
+      {
+        type: "quote",
+        text: "Na tad asti pṛthivyāṁ vā divi deveṣu vā punaḥ;\nSattvaṁ prakṛtijair muktaṁ yad ebhiḥ syāt tribhir guṇaiḥ.",
+        cite: "Bhagavad Gita 18.40",
+      },
+      {
+        type: "p",
+        text: "Meaning: \u201CThere is no being on earth, or even among the gods in heaven, who is free from these three gunas born of material nature.\u201D",
+      },
+      { type: "h", text: "The journey of transformation" },
+      {
+        type: "p",
+        text: "A person's character and conduct are determined by which of these three gunas predominates at a given time. One in whom tamas is dominant should gradually give up tamasic habits and tendencies and move toward rajas, and from rajas toward sattva. Thereafter, one should continue refining oneself by cultivating ever greater purity, wisdom, and self-mastery, ultimately rising even beyond sattva.",
+      },
+      { type: "p", text: "The Lord describes the trajectory of these three gunas:" },
+      {
+        type: "quote",
+        text: "Ūrdhvaṁ gacchanti sattvasthā madhye tiṣṭhanti rājasāḥ;\nJaghanyaguṇavṛttisthā adho gacchanti tāmasāḥ.",
+        cite: "Bhagavad Gita 14.18",
+      },
+      {
+        type: "p",
+        text: "Meaning: \u201CThose established in sattva rise upward; those dominated by rajas remain in the middle; while those immersed in tamasic tendencies move downward.\u201D",
+      },
+      { type: "h", text: "Why cultivate the divine qualities?" },
+      {
+        type: "p",
+        text: "It is therefore entirely natural and rational for a person who seeks progress and excellence in life to reduce demonic tendencies and consciously cultivate divine ones. This is the path that leads simultaneously to worldly well-being and to spiritual advancement. To follow one's lower instincts simply because they feel \u201Cnatural\u201D is to mistake the starting point of life for its destination.",
+      },
+      {
+        type: "p",
+        text: "Lord Krishna opens the sixteenth chapter by listing the very qualities a human being should cultivate:",
+      },
+      {
+        type: "quote",
+        text: "Abhayaṁ sattva-saṁśuddhir jñāna-yoga-vyavasthitiḥ...",
+        cite: "Bhagavad Gita 16.1\u20133",
+      },
+      {
+        type: "ul",
+        items: [
+          "Fearlessness",
+          "Purity of mind (sattva-saṁśuddhi)",
+          "Steadfastness in knowledge and yoga",
+          "Self-control",
+          "Sacrifice (yajña)",
+          "Compassion",
+          "Truthfulness",
+        ],
+      },
+      {
+        type: "p",
+        text: "The cultivation of these divine qualities elevates a person toward a higher life, inner peace, and ultimately spiritual realization. Thus, far from being unnatural, embracing divine qualities is the most rational and dignified response to the fact that human nature contains both possibilities — and that we ourselves choose which one to nourish.",
+      },
+    ],
+    hi: {
+      question:
+        "मनुष्य का स्वाभाविक स्वभाव क्या है — दैवी या आसुरी?",
+      preview:
+        "एक जिज्ञासु ने पूछा : यदि कामना, स्वार्थ और आसक्ति मनुष्य को स्वाभाविक ही लगते हैं, तो उनके विरुद्ध जाकर दैवी गुणों को अपनाने का प्रयास क्यों किया जाए? गीता का उत्तर है — दैवी और आसुरी, दोनों प्रवृत्तियाँ प्रत्येक मनुष्य के भीतर हैं; जीवन की प्रगति इसी में है कि वह क्रमशः तमस् से रजस्, रजस् से सत्त्व, और अंततः सत्त्व से भी ऊपर उठे।",
+      answer: [
+        {
+          type: "p",
+          text: "एक भक्त ने श्रीयुत् ब्रह्मबोधि से एक प्रश्न रखा। बीते दिन वे एक 22 वर्षीय युवक से भगवद्गीता के महत्व पर चर्चा कर रहे थे और उसे नवधा भक्ति तथा गीता के बारहवें अध्याय के मुख्य उपदेशों से अवगत करा रहे थे। उसी संवाद में युवक ने एक रोचक शंका रखी :",
+        },
+        {
+          type: "quote",
+          text: "यहाँ बताए गए अनेक गुण और अभ्यास तो साधारण मानवीय स्वभाव के विरुद्ध प्रतीत होते हैं। इच्छाएँ करना, अपने विषय में सोचना, अपने हित को देखना, अपनी रुचि-अरुचि से जुड़ना — ये सब तो मनुष्य के स्वाभाविक प्रवृत्तियाँ लगती हैं। यदि ये मानवीय स्वभाव का अंग हैं, तो इनके विरुद्ध जाने का प्रयास क्यों किया जाए? जो गुण हमारी स्वाभाविक प्रवृत्तियों के विपरीत प्रतीत होते हैं, उन्हें विकसित करने का यत्न क्यों करें?",
+        },
+        {
+          type: "p",
+          text: "उस समय भक्त इस प्रश्न का संतोषजनक उत्तर नहीं दे पाए और उन्होंने ब्रह्मबोधि से मार्गदर्शन माँगा। निम्नलिखित ब्रह्मबोधि का उत्तर है।",
+        },
+        { type: "h", text: "प्रत्येक मनुष्य के भीतर दो प्रवृत्तियाँ" },
+        {
+          type: "p",
+          text: "दैवी और आसुरी — दोनों ही प्रकार के गुण मानव-स्वभाव के अंग हैं। कुछ लोग दैवी गुणों की प्रधानता के साथ जन्म लेते हैं, तो कुछ में आसुरी प्रवृत्तियाँ प्रबल होती हैं। जिनमें आसुरी गुण प्रबल होते हैं, उन्हें वैसी प्रवृत्तियाँ ही स्वाभाविक और सहज प्रतीत होती हैं। वहीं, जिनमें दैवी गुण अधिक होते हैं, उन्हें करुणा, सत्य, संयम और दूसरों के प्रति चिंता समान रूप से स्वाभाविक और सहज लगती है। अतः उस युवक का अवलोकन आश्चर्यजनक नहीं है — वह केवल यह बता रहा है कि उसकी अपनी वर्तमान प्रवृत्तियाँ कहाँ हैं।",
+        },
+        {
+          type: "p",
+          text: "उसे यह समझने की आवश्यकता है कि मनुष्य के भीतर दोनों प्रकार की प्रवृत्तियाँ एक साथ निवास करती हैं। इसी कारण भगवान श्रीकृष्ण ने भगवद्गीता का पूरा सोलहवाँ अध्याय (दैवासुर-सम्पद्-विभाग योग) इसी विषय को समर्पित किया है।",
+        },
+        { type: "h", text: "दैवी गुण मुक्ति देते हैं, आसुरी बंधन" },
+        { type: "p", text: "भगवान कहते हैं :" },
+        {
+          type: "quote",
+          text: "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता ।\nमा शुचः सम्पदं दैवीमभिजातोऽसि पाण्डव ॥",
+          cite: "भगवद्गीता 16.5",
+        },
+        {
+          type: "p",
+          text: "अर्थात् : \u201Cदैवी सम्पत्ति मोक्ष की ओर ले जाती है, आसुरी सम्पत्ति बंधन की ओर। हे पाण्डव! शोक मत करो, क्योंकि तुम दैवी सम्पत्ति को प्राप्त करके ही जन्मे हो।\u201D",
+        },
+        { type: "h", text: "तीनों गुणों से कोई मुक्त नहीं" },
+        {
+          type: "p",
+          text: "भगवान यह भी स्पष्ट करते हैं कि पृथ्वी पर अथवा देवलोक में, कोई भी प्राणी प्रकृति के तीन गुणों — सत्त्व (सत्त्वगुण), रजस् (रजोगुण) और तमस् (तमोगुण) — से पूर्णतः मुक्त नहीं है :",
+        },
+        {
+          type: "quote",
+          text: "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुनः ।\nसत्त्वं प्रकृतिजैर्मुक्तं यदेभिः स्यात्त्रिभिर्गुणैः ॥",
+          cite: "भगवद्गीता 18.40",
+        },
+        {
+          type: "p",
+          text: "अर्थात् : \u201Cपृथ्वी पर अथवा स्वर्ग में देवताओं के बीच, कोई भी ऐसा प्राणी नहीं जो प्रकृति से उत्पन्न इन तीनों गुणों से मुक्त हो।\u201D",
+        },
+        { type: "h", text: "परिवर्तन की यात्रा" },
+        {
+          type: "p",
+          text: "किसी समय मनुष्य का चरित्र और आचरण इस बात से निर्धारित होता है कि उसमें इन तीनों में से कौन-सा गुण प्रबल है। जिसमें तमस् प्रधान है, उसे क्रमशः तामसिक आदतों और प्रवृत्तियों को छोड़ते हुए रजस् की ओर, और रजस् से सत्त्व की ओर बढ़ना चाहिए। इसके पश्चात् उसे अधिकाधिक पवित्रता, ज्ञान और आत्म-संयम का विकास करते हुए सत्त्व से भी ऊपर उठने का प्रयत्न करते रहना चाहिए।",
+        },
+        { type: "p", text: "भगवान इन तीनों गुणों की गति का वर्णन करते हैं :" },
+        {
+          type: "quote",
+          text: "ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः ।\nजघन्यगुणवृत्तिस्था अधो गच्छन्ति तामसाः ॥",
+          cite: "भगवद्गीता 14.18",
+        },
+        {
+          type: "p",
+          text: "अर्थात् : \u201Cसत्त्व में स्थित मनुष्य ऊपर की ओर जाते हैं; रजस् में स्थित मध्य में रहते हैं; और तमस् की निकृष्ट प्रवृत्तियों में डूबे हुए नीचे की ओर गिरते हैं।\u201D",
+        },
+        { type: "h", text: "दैवी गुणों का विकास क्यों करें?" },
+        {
+          type: "p",
+          text: "अतः जो मनुष्य जीवन में प्रगति और उत्कर्ष चाहता है, उसके लिए आसुरी प्रवृत्तियों को क्षीण करना और दैवी गुणों का सचेत रूप से विकास करना पूर्णतः स्वाभाविक एवं तर्कसंगत है। यही मार्ग एक साथ लौकिक कल्याण और आध्यात्मिक उन्नति, दोनों की ओर ले जाता है। केवल \u201Cस्वाभाविक\u201D लगने के कारण अपनी निम्न प्रवृत्तियों का अनुसरण करना, जीवन के आरंभ-बिंदु को ही उसका गन्तव्य मान लेना है।",
+        },
+        {
+          type: "p",
+          text: "भगवान सोलहवें अध्याय का प्रारम्भ ही उन गुणों की गणना से करते हैं, जिन्हें मनुष्य को विकसित करना चाहिए :",
+        },
+        {
+          type: "quote",
+          text: "अभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः... ",
+          cite: "भगवद्गीता 16.1\u20133",
+        },
+        {
+          type: "ul",
+          items: [
+            "अभय (निर्भयता)",
+            "सत्त्वसंशुद्धि (अंतःकरण की पवित्रता)",
+            "ज्ञानयोग में स्थिरता",
+            "आत्मसंयम",
+            "यज्ञ (त्याग)",
+            "करुणा",
+            "सत्य",
+          ],
+        },
+        {
+          type: "p",
+          text: "इन दैवी गुणों का विकास मनुष्य को उच्चतर जीवन, आंतरिक शांति और अंततः आध्यात्मिक साक्षात्कार की ओर ले जाता है। अतः दैवी गुणों को अपनाना अस्वाभाविक नहीं, बल्कि इस तथ्य के प्रति सर्वाधिक तर्कसंगत और गौरवपूर्ण उत्तर है कि मानव-स्वभाव में दोनों संभावनाएँ विद्यमान हैं — और यह चुनाव हमारा है कि हम किसे पोषित करते हैं।",
+        },
+      ],
+    },
+  },
+  {
     id: "chanting-destroy-sorrow",
     coverImage: "qa-chanting-destroy-sorrow.jpg",
     question:

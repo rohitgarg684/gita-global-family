@@ -3,7 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Download, Globe } from "lucide-react";
+import { Download, Globe, PlayCircle } from "lucide-react";
+import Link from "next/link";
 import { img, doc } from "@/lib/image-url";
 import { en, hi, type ActContent } from "./content";
 
@@ -90,6 +91,22 @@ export default function SanatanSevaNidhiPage() {
           >
             {c.heroNote}
           </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="mt-8"
+          >
+            <Link
+              href="/sanatan-seva-nidhi/video"
+              className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-saffron hover:bg-saffron-dark transition-colors text-white font-semibold shadow-lg shadow-saffron/30"
+            >
+              <PlayCircle className="w-5 h-5" />
+              {lang === "en"
+                ? "Watch the 2-minute film"
+                : "2 मिनट की फ़िल्म देखें"}
+            </Link>
+          </motion.div>
         </div>
       </section>
 
