@@ -7,67 +7,69 @@ interface NavneetContentProps {
   pages: [number, number];
 }
 
-const HEADER_FOOTER_PATTERNS: RegExp[] = [
-  /^गीीताा नवनीता\s*:?\s*51 प्रतितातिनधि� श्लोोक$/,
-  /^\(?[कखगघङ]\)?\s*[^\n]{0,80}खंड$/,
-  /^[कखगघङ]\)\s/,
-  /^[०-९0-9]+$/,
-];
+const RUNNING_FOOTER = /^गीता नवनीत\s*:?\s*51\s*प्रतिनिधि\s*श्लोक\s*$/;
 
 function cleanPageText(raw: string, pageNum: number): string[] {
-  // Split into lines, strip header/footer noise, drop bare page numbers
   const rawLines = raw.split(/\r?\n/);
   const lines: string[] = [];
-  for (let i = 0; i < rawLines.length; i++) {
-    const line = rawLines[i].trim();
-    if (!line) {
+  for (const line of rawLines) {
+    const t = line.trim();
+    if (!t) {
       lines.push("");
       continue;
     }
-    // Drop pure page numbers matching this page
-    if (line === String(pageNum)) continue;
-    // Drop the running footer "गीीताा नवनीता : 51 प्रतितातिनधि� श्लोोक"
-    if (HEADER_FOOTER_PATTERNS.some((re) => re.test(line))) continue;
-    lines.push(line);
+    if (t === String(pageNum)) continue;
+    if (RUNNING_FOOTER.test(t)) continue;
+    lines.push(t);
   }
 
-  // Re-join consecutive non-empty lines into single paragraphs
+  // Group into paragraphs (consecutive non-empty lines)
   const paragraphs: string[] = [];
   let buf: string[] = [];
+  const flush = () => {
+    if (buf.length) {
+      paragraphs.push(buf.join(" ").replace(/\s+/g, " ").trim());
+      buf = [];
+    }
+  };
   for (const line of lines) {
     if (!line) {
-      if (buf.length) {
-        paragraphs.push(buf.join(" "));
-        buf = [];
-      }
+      flush();
     } else {
       buf.push(line);
     }
   }
-  if (buf.length) paragraphs.push(buf.join(" "));
+  flush();
   return paragraphs.filter((p) => p.length > 0);
 }
 
+const SHLOKA_END = /॥\s*\d+\s*[:.]\s*\d+\s*॥/;
+
+const HEADING_PATTERNS = [
+  /^पदच्छेद$/,
+  /^अन्वय\s*(और|एवं)\s*शब्दार्थ$/,
+  /^श्लोक\s*का\s*भावार्थ$/,
+  /^भावार्थ$/,
+  /^टिप्पणी$/,
+  /^[^\n]{0,80}\s*पर\s*टिप्पणी$/,
+  /^उत्तर[—–-]?$/,
+  /^भूमिका$/,
+  /^आरोप\s*\d+\s*:?/,
+  /^[क-ज]\.\s/,
+  /^\d+\.\s+[^।]{0,80}$/,
+];
+
 function isShloka(p: string): boolean {
-  return /॥\s*\d+\s*:\s*\d+\s*॥/.test(p);
+  return SHLOKA_END.test(p);
 }
 
 function isHeading(p: string): boolean {
-  // Likely a heading if short and ends without punctuation, or matches known labels
-  if (p.length < 80 && /^(पादच्छेद|अन्व�? और शुब्दाा��|श्लोोकी कीा भा�ा��|भा�ा��|द्रिटप्पणी|टिप्पणी|श्लोोक[^\s]*\s*पर\s*द्रिटप्पणी)/.test(p)) {
-    return true;
-  }
-  return false;
+  if (p.length > 120) return false;
+  return HEADING_PATTERNS.some((re) => re.test(p));
 }
 
-function normalizeHeading(p: string): string {
-  // Best-effort cleanups so the rendered headings read more naturally
-  return p
-    .replace(/पादच्छेद/, "पदच्छेद")
-    .replace(/अन्व�? और शुब्दाा��/, "अन्वय और शब्दार्थ")
-    .replace(/श्लोोकी कीा भा�ा��/, "श्लोक का भावार्थ")
-    .replace(/^भा�ा��$/, "भावार्थ")
-    .replace(/द्रिटप्पणी/g, "टिप्पणी");
+function isFootnote(p: string): boolean {
+  return /^\d+\s+[A-Za-z“"']/.test(p);
 }
 
 export default function NavneetContent({
@@ -79,22 +81,30 @@ export default function NavneetContent({
     cleanPageText(text, startPage + i)
   );
 
+  // Deduplicate accidental consecutive identical paragraphs (some headings
+  // appear twice in the source PDF due to visual styling)
+  const deduped: string[] = [];
+  for (const p of blocks) {
+    if (deduped.length && deduped[deduped.length - 1] === p) continue;
+    deduped.push(p);
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
-      className="prose prose-lg max-w-none"
+      transition={{ duration: 0.35 }}
+      className="max-w-none"
     >
-      <div className="space-y-5 text-[17px] leading-[1.85] text-dark-brown/90">
-        {blocks.map((p, idx) => {
+      <div className="space-y-5 text-[17px] md:text-[18px] leading-[1.9] text-dark-brown/90">
+        {deduped.map((p, idx) => {
           if (isShloka(p)) {
             return (
               <div
                 key={idx}
-                className="my-6 px-5 py-4 bg-saffron/5 border-l-4 border-saffron rounded-r-lg"
+                className="my-7 px-5 md:px-7 py-5 bg-saffron/5 border-l-4 border-saffron rounded-r-lg"
               >
-                <p className="font-medium text-dark-brown whitespace-pre-line text-center text-lg leading-relaxed">
+                <p className="font-medium text-dark-brown text-center text-lg leading-loose whitespace-pre-line">
                   {p}
                 </p>
               </div>
@@ -104,10 +114,20 @@ export default function NavneetContent({
             return (
               <h3
                 key={idx}
-                className="text-xl font-semibold text-dark-brown mt-8 mb-2 border-b border-cream-dark/50 pb-1"
+                className="text-xl md:text-2xl font-semibold text-dark-brown mt-10 mb-2 border-b border-cream-dark/60 pb-1"
               >
-                {normalizeHeading(p)}
+                {p}
               </h3>
+            );
+          }
+          if (isFootnote(p)) {
+            return (
+              <p
+                key={idx}
+                className="text-sm text-text-muted border-l-2 border-cream-dark pl-3 italic"
+              >
+                {p}
+              </p>
             );
           }
           return (
