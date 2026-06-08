@@ -436,13 +436,65 @@ export function generateStaticParams() {
   return Object.keys(blogPosts).map((slug) => ({ slug }));
 }
 
+function buildDescription(post: BlogPost): string {
+  if (post.intro) return post.intro.slice(0, 280);
+  if (post.content?.length) return post.content[0].slice(0, 280);
+  if (post.sections?.length) return post.sections[0].body.slice(0, 280);
+  return "Insights from the Bhagavad Gita and Sri BrahmBodhi at Gita Global Family.";
+}
+
+function pickImage(post: BlogPost): string {
+  if (post.image) return post.image;
+  if (post.videoId) {
+    return `https://i.ytimg.com/vi/${post.videoId}/maxresdefault.jpg`;
+  }
+  const firstSectionImage = post.sections?.find((s) => s.image)?.image;
+  if (firstSectionImage) return firstSectionImage;
+  return img("og-image.jpeg");
+}
+
 export async function generateMetadata(props: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await props.params;
-  const post = blogPosts[decodeURIComponent(slug)];
+  const decoded = decodeURIComponent(slug);
+  const post = blogPosts[decoded];
+
+  if (!post) {
+    return { title: "Blog Post" };
+  }
+
+  const title = post.title;
+  const description = buildDescription(post);
+  const imageUrl = pickImage(post);
+  const path = `/blog/${decoded}`;
+
   return {
-    title: post?.title ?? "Blog Post",
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      type: "article",
+      title,
+      description,
+      url: path,
+      siteName: "Gita Global Family",
+      publishedTime: post.date,
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [imageUrl],
+    },
   };
 }
 
@@ -450,7 +502,8 @@ export default async function BlogPost(props: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await props.params;
-  const post = blogPosts[decodeURIComponent(slug)];
+  const decoded = decodeURIComponent(slug);
+  const post = blogPosts[decoded];
 
   if (!post) {
     return (
@@ -467,5 +520,5 @@ export default async function BlogPost(props: {
     );
   }
 
-  return <BlogPostView post={post} />;
+  return <BlogPostView post={post} slug={decoded} />;
 }

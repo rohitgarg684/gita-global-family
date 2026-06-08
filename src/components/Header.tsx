@@ -39,6 +39,7 @@ const navLinksBase: NavLink[] = [
       { href: "/projects", label: "Projects" },
       { href: "/gita-gurukul", label: "Gita Gurukul" },
       { href: "/bhagavad-gita", label: "Bhagavad Gita" },
+      { href: "/gita-navneet", label: "Gita Navneet (गीता नवनीत)" },
       {
         href: "/allegations-against-hinduism",
         label: "Allegations Against Hinduism",

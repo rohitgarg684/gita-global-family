@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, ExternalLink, Globe } from "lucide-react";
+import ShareButtons from "@/components/ShareButtons";
 
 export interface BlogSection {
   heading: string;
@@ -33,18 +34,37 @@ type Lang = "en" | "hi";
 interface Labels {
   back: string;
   watchOnYouTube: string;
+  shareThisPost: string;
 }
 
 const LABELS: Record<Lang, Labels> = {
-  en: { back: "Back to Blog", watchOnYouTube: "Watch on YouTube" },
-  hi: { back: "ब्लॉग पर वापस जाएँ", watchOnYouTube: "यूट्यूब पर देखें" },
+  en: {
+    back: "Back to Blog",
+    watchOnYouTube: "Watch on YouTube",
+    shareThisPost: "Share this post",
+  },
+  hi: {
+    back: "ब्लॉग पर वापस जाएँ",
+    watchOnYouTube: "यूट्यूब पर देखें",
+    shareThisPost: "इस लेख को साझा करें",
+  },
 };
 
-export default function BlogPostView({ post }: { post: BlogPost }) {
+export default function BlogPostView({
+  post,
+  slug,
+}: {
+  post: BlogPost;
+  slug: string;
+}) {
   const hasBilingual = !!post.hi;
   const [lang, setLang] = useState<Lang>("en");
   const t = lang === "hi" && post.hi ? post.hi : post;
   const labels = LABELS[lang];
+
+  const shareUrl = `/blog/${slug}`;
+  const shareDescription =
+    t.intro ?? t.content?.[0] ?? t.sections?.[0]?.body ?? post.title;
 
   return (
     <>
@@ -101,6 +121,15 @@ export default function BlogPostView({ post }: { post: BlogPost }) {
             <time>{post.date}</time>
           </div>
         )}
+
+        <div className="mt-6 max-w-4xl">
+          <ShareButtons
+            url={shareUrl}
+            title={t.title}
+            description={shareDescription.slice(0, 280)}
+            lang={lang}
+          />
+        </div>
       </section>
 
       {post.videoId ? (
@@ -191,6 +220,18 @@ export default function BlogPostView({ post }: { post: BlogPost }) {
             );
           })}
         </article>
+
+        <div className="max-w-4xl mt-12 rounded-2xl border border-cream-dark/40 bg-cream/40 p-5 md:p-6">
+          <h2 className="text-base md:text-lg font-bold text-dark-brown mb-3">
+            {labels.shareThisPost}
+          </h2>
+          <ShareButtons
+            url={shareUrl}
+            title={t.title}
+            description={shareDescription.slice(0, 280)}
+            lang={lang}
+          />
+        </div>
       </motion.section>
     </>
   );
