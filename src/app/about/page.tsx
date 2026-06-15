@@ -12,6 +12,7 @@ import {
   Heart,
   BookOpen,
   Globe,
+  Video,
 } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import { img } from "@/lib/image-url";
@@ -209,6 +210,66 @@ export default function AboutPage() {
               </Link>
             </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* Defining Moment — YouTube Short */}
+      <section className="section-padding py-16 md:py-24 bg-white">
+        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          <motion.div {...fadeInUp} className="order-2 lg:order-1">
+            <span className="text-saffron font-semibold text-sm uppercase tracking-wider">
+              A Defining Moment
+            </span>
+            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-dark-brown leading-tight">
+              The Experience That Changed Everything
+            </h2>
+            <p className="mt-5 text-text-secondary leading-relaxed">
+              An experience that turned the course of a successful and
+              distinguished life. What led Sriyut BrahmBodhi to walk away from
+              a path that millions dream of — one of success, prestige, and
+              recognition?
+            </p>
+            <p className="mt-4 text-text-secondary leading-relaxed">
+              Was it merely a personal decision, or was there a deeper, unseen
+              calling behind it? This short film shares a true story — a
+              journey that prompts reflection on life, destiny, and the role
+              of the Divine.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 mt-8">
+              <a
+                href="https://youtube.com/shorts/gB6NoHS-OnA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-md"
+              >
+                <Video className="w-5 h-5" />
+                Watch on YouTube
+              </a>
+              <Link
+                href="/brahmabodhi"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-saffron/30 text-saffron font-semibold rounded-full hover:bg-saffron/5 transition-colors"
+              >
+                Read His Story
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </motion.div>
+
+          <motion.div
+            {...fadeInUp}
+            transition={{ duration: 0.5, delay: 0.15 }}
+            className="order-1 lg:order-2 mx-auto w-full max-w-[360px]"
+          >
+            <div className="relative aspect-[9/16] rounded-3xl overflow-hidden shadow-2xl border border-cream-dark/40 bg-black">
+              <iframe
+                src="https://www.youtube.com/embed/gB6NoHS-OnA"
+                title="A Defining Moment — Sriyut BrahmBodhi"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+          </motion.div>
         </div>
       </section>
 

@@ -117,7 +117,7 @@ const delhiEvents: EventItem[] = [
       title:
         "आचार्य लोकेश मुनि से चर्चा",
       description:
-        "आज जैन धर्म के अग्रणी संत आचार्य लोकेश मुनि से भेंट हुई तथा लगभग आधे घंटे तक धर्म और दर्शन के विभिन्न विषयों पर सार्थक चर्चा हुई। जैन धर्म के कुछ प्रमुख सिद्धांतों पर भी विचार-विमर्श हुआ। साथ ही सभी भारतीय मूल के धर्मों, जो अहिंसा आदि एक प्रकार के जीवन मूल्यों को साझा करते हैं, को एक मंच पर लाने की आवश्यकता पर भी बात हुई।\n\nमैंने उन्हें \"सनातन सेवा निधि\" कानून के प्रारूप तथा जनसामान्य के लिए नवप्रकाशित \"सर्वप्रिय\" गीता की एक प्रति भेंट की।\n\nआचार्य लोकेश मुनि अंतरधार्मिक संवाद (Interfaith Dialogue) में सक्रिय रूप से सहभागी होते रहे हैं तथा देश-विदेश में अनेक सम्मानों और पुरस्कारों से अलंकृत किए जा चुके हैं।\n\nचर्चा के दौरान मैंने उन्हें भगवद्गीता के कुछ ऐसे सिद्धांतों की ओर संक्षेप में संकेत किया, जो जैन दर्शन के कुछ मूल तत्त्वों से अत्यंत निकटता रखते हैं। उदाहरणार्थ, कर्म, कर्तृत्व और कर्मफल के उत्तरदायित्व का सिद्धांत। भगवद्गीता में भगवान कहते हैं :\n\n\"न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः...\" (गीता 5.14)\n\nअर्थात् ईश्वर मनुष्यों के कर्मों, कर्तृत्व अथवा कर्मफल का निर्माण नहीं करते; इनका उत्तरदायित्व स्वयं व्यक्ति पर ही है। जैन दर्शन भी इसी प्रकार कर्म और उसके फल का दायित्व व्यक्ति के ऊपर ही स्थापित करता है, न कि ईश्वर के ऊपर।\n\nआचार्य लोकेश मुनि का एक आश्रम करोल बाग में तथा दूसरा गुड़गाँव में स्थित है। यह चर्चा करोल बाग स्थित आश्रम में हुई।",
+        "आज जैन धर्म के अग्रणी संत आचार्य लोकेश मुनि से स्वामी ब्रह्म बोधि जी की भेंट हुई तथा लगभग आधे घंटे तक धर्म और दर्शन के विभिन्न विषयों पर सार्थक चर्चा हुई। जैन धर्म के कुछ प्रमुख सिद्धांतों पर भी विचार-विमर्श हुआ। साथ ही सभी भारतीय मूल के धर्मों, जो अहिंसा आदि एक प्रकार के जीवन मूल्यों को साझा करते हैं, को एक मंच पर लाने की आवश्यकता पर भी बात हुई।\n\nस्वामी जी ने उन्हें \"सनातन सेवा निधि\" कानून के प्रारूप तथा जनसामान्य के लिए नवप्रकाशित \"सर्वप्रिय\" गीता की एक प्रति भेंट की।\n\nआचार्य लोकेश मुनि अंतरधार्मिक संवाद (Interfaith Dialogue) में सक्रिय रूप से सहभागी होते रहे हैं तथा देश-विदेश में अनेक सम्मानों और पुरस्कारों से अलंकृत किए जा चुके हैं।\n\nचर्चा के दौरान स्वामी जी ने उन्हें भगवद्गीता के कुछ ऐसे सिद्धांतों की ओर संक्षेप में संकेत किया, जो जैन दर्शन के कुछ मूल तत्त्वों से अत्यंत निकटता रखते हैं। उदाहरणार्थ, कर्म, कर्तृत्व और कर्मफल के उत्तरदायित्व का सिद्धांत। भगवद्गीता में भगवान कहते हैं :\n\n\"न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः...\" (गीता 5.14)\n\nअर्थात् ईश्वर मनुष्यों के कर्मों, कर्तृत्व अथवा कर्मफल का निर्माण नहीं करते; इनका उत्तरदायित्व स्वयं व्यक्ति पर ही है। जैन दर्शन भी इसी प्रकार कर्म और उसके फल का दायित्व व्यक्ति के ऊपर ही स्थापित करता है, न कि ईश्वर के ऊपर।\n\nआचार्य लोकेश मुनि का एक आश्रम करोल बाग में तथा दूसरा गुड़गाँव में स्थित है। यह चर्चा करोल बाग स्थित आश्रम में हुई।",
     },
   },
   {
@@ -133,7 +133,7 @@ const delhiEvents: EventItem[] = [
       title:
         "सनातन सेवा निधि कानून: विश्व हिंदू परिषद के अंतरराष्ट्रीय अध्यक्ष से विमर्श",
       description:
-        "आज विश्व हिंदू परिषद के अंतरराष्ट्रीय अध्यक्ष श्री आलोक कुमार से हिंदू धर्म और इसके सुदृढ़ीकरण के लिए सनातन सेवा निधि कानून बनाने की आवश्यकता के बारे में गंभीर और सार्थक विमर्श हुआ।\n\nवे सुप्रीम कोर्ट के सीनियर एडवोकेट भी हैं और हिंदू धर्म का गहन ज्ञान रखते हैं। जैसी कि उनसे आशा थी, वह एक अत्यंत भद्र और विद्वान व्यक्ति निकले।\n\nमैंने उन्हें सनातन सेवा निधि कानून के ड्राफ्ट की मुद्रित प्रतियाँ भेंट कीं और उन्हें इसके प्रमुख प्रावधानों से विस्तार से अवगत कराया। उन्होंने पूरा एक्ट ध्यानपूर्वक पढ़कर पुनः चर्चा करने और अपनी ओर से आवश्यक कार्रवाई करने का आश्वासन दिया।\n\nमंदिरों को ग्राम्य जीवन के केंद्र में पुनः स्थापित करने के लिए गीता वैश्विक परिवार द्वारा जो पायलट प्रोजेक्ट शुरू किए जा रहे हैं, उनमें से एक महत्वपूर्ण पहल है — चयनित गाँवों के 1000 परिवारों को निःशुल्क निम्नलिखित सामग्री उपलब्ध कराना:\n\n• संप्रदाय-निरपेक्ष भगवद्गीता टीका\n• रामचरितमानस का संक्षिप्त रंगीन संस्करण\n• धर्मांतरण-निरोधी कैप्सूल कोर्स (पुस्तिका)\n• धार्मिक साक्षरता मॉड्यूल\n• विद्यार्थियों के लिए 51 श्लोकों की \"गीता नवनीत\" पुस्तक\n\nप्रोजेक्ट प्रारंभ करने से पूर्व गाँव के हिंदुओं की धार्मिक साक्षरता का आधारभूत मूल्यांकन किया जाएगा। एक वर्ष के प्रोजेक्ट की समाप्ति पर पुनः उनकी प्रगति की समीक्षा होगी — न केवल धर्म-ज्ञान बल्कि आचरण में हुए परिवर्तन भी आँके जाएँगे।\n\nश्री आलोक कुमार को इस पहल के बारे में भी अवगत कराया गया और आज ही साई प्रिंटर्स पैक प्रेस से छपकर आई 400 पृष्ठों की सर्वप्रिय गीता टीका संस्करण की सर्वप्रथम प्रति उन्हें भेंट की गई।\n\nश्री आलोक कुमार के साथ हिंदू धर्म के भविष्य पर चर्चा करना एक सुखद और अत्यंत समृद्ध अनुभव रहा।",
+        "आज विश्व हिंदू परिषद के अंतरराष्ट्रीय अध्यक्ष श्री आलोक कुमार से हिंदू धर्म और इसके सुदृढ़ीकरण के लिए सनातन सेवा निधि कानून बनाने की आवश्यकता के बारे में गंभीर और सार्थक विमर्श हुआ।\n\nवे सुप्रीम कोर्ट के सीनियर एडवोकेट भी हैं और हिंदू धर्म का गहन ज्ञान रखते हैं। जैसी कि उनसे आशा थी, वह एक अत्यंत भद्र और विद्वान व्यक्ति निकले।\n\nस्वामी ब्रह्म बोधि जी ने उन्हें सनातन सेवा निधि कानून के ड्राफ्ट की मुद्रित प्रतियाँ भेंट कीं और उन्हें इसके प्रमुख प्रावधानों से विस्तार से अवगत कराया। उन्होंने पूरा एक्ट ध्यानपूर्वक पढ़कर पुनः चर्चा करने और अपनी ओर से आवश्यक कार्रवाई करने का आश्वासन दिया।\n\nमंदिरों को ग्राम्य जीवन के केंद्र में पुनः स्थापित करने के लिए गीता वैश्विक परिवार द्वारा जो पायलट प्रोजेक्ट शुरू किए जा रहे हैं, उनमें से एक महत्वपूर्ण पहल है — चयनित गाँवों के 1000 परिवारों को निःशुल्क निम्नलिखित सामग्री उपलब्ध कराना:\n\n• संप्रदाय-निरपेक्ष भगवद्गीता टीका\n• रामचरितमानस का संक्षिप्त रंगीन संस्करण\n• धर्मांतरण-निरोधी कैप्सूल कोर्स (पुस्तिका)\n• धार्मिक साक्षरता मॉड्यूल\n• विद्यार्थियों के लिए 51 श्लोकों की \"गीता नवनीत\" पुस्तक\n\nप्रोजेक्ट प्रारंभ करने से पूर्व गाँव के हिंदुओं की धार्मिक साक्षरता का आधारभूत मूल्यांकन किया जाएगा। एक वर्ष के प्रोजेक्ट की समाप्ति पर पुनः उनकी प्रगति की समीक्षा होगी — न केवल धर्म-ज्ञान बल्कि आचरण में हुए परिवर्तन भी आँके जाएँगे।\n\nश्री आलोक कुमार को इस पहल के बारे में भी अवगत कराया गया और आज ही साई प्रिंटर्स पैक प्रेस से छपकर आई 400 पृष्ठों की सर्वप्रिय गीता टीका संस्करण की सर्वप्रथम प्रति उन्हें भेंट की गई।\n\nश्री आलोक कुमार के साथ हिंदू धर्म के भविष्य पर चर्चा करना एक सुखद और अत्यंत समृद्ध अनुभव रहा।",
     },
   },
   {
@@ -211,6 +211,43 @@ const nepalEvents: EventItem[] = [
     title: "Ram Mandir Priest, Janakpur",
     description:
       "A moving encounter with the devoted priest of Ram Mandir in Janakpur — a man of overflowing bhakti, raised in the temple since childhood. A heartfelt exchange on devotion and knowledge followed, reflecting the Gita's teaching that the wise devotee stands highest, and that a priest's calling is to guide seekers through both devotion and scriptural wisdom.",
+  },
+];
+
+const mumbaiEvents: EventItem[] = [
+  {
+    images: [img("event-mumbai-swami-raj-1.png")],
+    title: "Initial Meeting at Hotel Swami Raj, Mumbai",
+    description:
+      "Today, an initial meeting was held at Hotel Swami Raj with a few important individuals regarding the challenges facing Hindu Dharma and, in particular, the need for the early enactment of the Sanatan Seva Nidhi Act by Parliament. The participants included two senior advocates.\n\nDiscussions were also held on a plan to re-establish temples as the centres of village life and to appoint a dedicated Dharma outreach worker (Dharma Vistarak) in each temple. A larger meeting on these subjects is planned for tomorrow.",
+    hi: {
+      title: "होटल स्वामी राज, मुंबई में प्रारंभिक बैठक",
+      description:
+        "आज हिंदू धर्म की समस्याओं के संबंध में और विशेष कर सनातन सेवा निधि कानून को शीघ्र संसद से लागू करने के संबंध में एक प्रारंभिक बैठक होटल स्वामी राज में कुछ महत्वपूर्ण लोगों के साथ हुई, जिसमें दो वरीय वकील भी शामिल थे।\n\nसाथ-साथ मंदिरों को ग्राम जीवन के केंद्र में स्थापित करने की योजना और उनमें एक-एक धर्म विस्तारक की नियुक्ति के संदर्भ में भी बातें हुईं। इस संबंध में एक बड़ी बैठक कल होने की योजना है।",
+    },
+  },
+  {
+    images: [img("event-mumbai-tamil-play-1.png")],
+    title: "A Tamil Play Evening with Y. G. Mahendran, Mumbai",
+    description:
+      "In Mumbai today, through the kind courtesy of his chief host Shri Prakash Pai, Swami Brahm Bodhi had the opportunity to watch a Tamil play in which the veteran actor Y. G. Mahendran was in the lead role.\n\nIt was an extremely entertaining and humorous production, with a beautiful blend of positive messages and sharp satire. The quality of the performance could be gauged from the enthusiastic response of the audience. The vast auditorium, with a seating capacity of nearly 3,000, was packed to the brim and erupted with laughter from time to time.\n\nSince Swamiji does not know the Tamil language, he could not fully follow the play. Even so, whenever the entire auditorium burst into laughter, he too could not stop himself from smiling or laughing along. Good humour, it seems, transcends the boundaries of language.\n\nHe will write at some length about this grand and magnificent theatre on another occasion. But even more important than that was the fact that this occasion gave him the opportunity to meet certain distinguished individuals who could well become lifelong friends in the future.\n\nAt the end of the play, the managing trustees took Swamiji up on the stage and gave him a brief opportunity to be introduced to and converse with Shri Y. G. Mahendran and his team. He extended an invitation to them to visit Vrindavan, which they graciously and enthusiastically accepted.\n\nY. G. Mahendran (full name: Yecha Gunja Mahendran) is a distinguished actor, playwright, comedian, theatre personality, and director from Tamil Nadu. Born in Chennai in 1950, he has held an active and respected place in the world of Tamil theatre and cinema for more than five decades.\n\nOne of the great joys of travel is that it brings opportunities to meet people from diverse linguistic, cultural, and professional backgrounds. This evening was especially delightful in that respect. Swamiji was introduced to many warm-hearted, talented, and inspiring individuals. It is hoped that some of these connections will, in time, take the form of lasting friendships.",
+    hi: {
+      title: "वाई. जी. महेंद्रन के साथ तमिल नाटक की संध्या, मुंबई",
+      description:
+        "मुंबई में आज स्वामी ब्रह्म बोधि जी को अपने मुख्य होस्ट श्री प्रकाश पाई के सौजन्य से एक तमिल नाटक देखने का अवसर मिला, जिसमें वरिष्ठ अभिनेता वाई. जी. महेंद्रन मुख्य भूमिका में थे।\n\nयह एक अत्यंत मनोरंजक और हास्यपूर्ण प्रस्तुति थी, जिसमें सकारात्मक संदेशों और तीक्ष्ण व्यंग्य का सुंदर समन्वय था। इसकी गुणवत्ता का अनुमान दर्शकों की उत्साहपूर्ण प्रतिक्रिया से लगाया जा सकता था। लगभग 3,000 दर्शकों की क्षमता वाला विशाल सभागार खचाखच भरा हुआ था और समय-समय पर ठहाकों से गूंज उठता था।\n\nचूँकि स्वामी जी तमिल भाषा नहीं जानते, इसलिए नाटक को पूरी तरह समझ नहीं सके। फिर भी, जब-जब पूरा सभागार हँसी से भर उठता था, तब-तब वे भी अपने आपको मुस्कुराने या हँसने से रोक नहीं पाते थे। अच्छा हास्य भाषा की सीमाओं को भी पार कर जाता है।\n\nइस भव्य और विशाल नाट्यगृह के बारे में वे फिर कभी थोड़े विस्तार से लिखेंगे। किंतु उससे भी अधिक महत्वपूर्ण बात यह रही कि इस अवसर पर उन्हें कुछ ऐसे विशिष्ट व्यक्तियों से मिलने का अवसर मिला, जो भविष्य में आजीवन मित्र बन सकते हैं।\n\nनाटक की समाप्ति पर प्रबंध न्यासियों ने स्वामी जी को मंच पर ले जाकर वाई. जी. महेंद्रन जी तथा उनकी टीम से संक्षिप्त परिचय और संवाद का अवसर प्रदान किया। उन्होंने उन्हें वृंदावन आने का निमंत्रण दिया, जिसे उन्होंने प्रसन्नतापूर्वक और उत्साहपूर्वक स्वीकार किया।\n\nवाई. जी. महेंद्रन (पूरा नाम: येचा गुंजा महेंद्रन) तमिलनाडु के एक प्रतिष्ठित अभिनेता, नाटककार, हास्य कलाकार, रंगमंच व्यक्तित्व तथा निर्देशक हैं। उनका जन्म 1950 में चेन्नई में हुआ था और वे पिछले पाँच दशकों से अधिक समय से तमिल रंगमंच और सिनेमा की दुनिया में सक्रिय एवं सम्मानित स्थान रखते हैं।\n\nयात्राओं का एक बड़ा आनंद यह होता है कि उनसे विभिन्न भाषाई, सांस्कृतिक और व्यावसायिक पृष्ठभूमियों के लोगों से मिलने का अवसर प्राप्त होता है। यह संध्या इस दृष्टि से विशेष रूप से सुखद रही। स्वामी जी का अनेक सौहार्दपूर्ण, प्रतिभाशाली और प्रेरणादायक व्यक्तियों से परिचय हुआ। आशा है कि इनमें से कुछ संबंध भविष्य में स्थायी मित्रता का रूप धारण करेंगे।",
+    },
+  },
+  {
+    images: [img("event-mumbai-prakash-1.png")],
+    title: "With Prakash Ji, Treasurer of Ayyappa Swami Sangathan",
+    description:
+      "Swami Brahm Bodhi with Shri Prakash Ji — Treasurer of the vast Ayyappa Swami organisation across Maharashtra and South India — at his hotel room in Mumbai.\n\nPrakash Ji carries a profound interest in the protection and propagation of Sanatan Dharma, and has made — and continues to make — outstanding contributions in this direction. A polyglot conversant in seven languages, with roots in Karnataka, born and raised in Tamil Nadu, and now settled in Mumbai, Maharashtra — Prakash Ji was presented by Swamiji with four English and Hindi books on the Bhagavad Gita as a gift.\n\nIt was primarily on Prakash Ji's warm and affectionate invitation that Swami Brahm Bodhi travelled to Mumbai, Maharashtra. Swamiji's entire stay in Maharashtra has been graciously arranged by him.\n\nMay Ishvara and Ayyappa Swami always keep Prakash Ji in Their refuge and in Their service, and bless him with happiness and prosperity — these are Swamiji's heartfelt blessings and good wishes.",
+    hi: {
+      title:
+        "अय्यप्पा स्वामी संगठन के कोषाध्यक्ष प्रकाश जी के साथ, मुंबई",
+      description:
+        "महाराष्ट्र सहित दक्षिण भारत में अय्यप्पा स्वामी के विशाल संगठन के कोषाध्यक्ष प्रकाश जी के साथ स्वामी ब्रह्म बोधि जी अपने होटल कक्ष में।\n\nसनातन धर्म के रक्षण और प्रचार-प्रसार में प्रकाश जी की गहन रुचि है और इस दिशा में उन्होंने महान योगदान किया है और कर रहे हैं। सात भाषाएं जानने वाले, कर्नाटक के उत्स वाले, तमिलनाडु में पैदा हुए और पले-बढ़े, तथा अब महाराष्ट्र के मुंबई में सैटल्ड प्रकाश जी को स्वामी जी ने भगवद्गीता पर चार हिंदी-अंग्रेजी पुस्तकें उपहार में दीं।\n\nप्रमुख रूप से इन्हीं के स्नेहमय आमंत्रण पर स्वामी ब्रह्म बोधि जी महाराष्ट्र मुंबई आए। महाराष्ट्र में स्वामी जी का निवास उन्हीं द्वारा संयोजित है।\n\nईश्वर और अय्यप्पा स्वामी उन्हें सदा अपनी शरण और सेवा में रखें, और सुखी संपन्न रखें — यही स्वामी जी का आशीर्वाद और शुभकामना है।",
+    },
   },
 ];
 
@@ -625,8 +662,23 @@ export default function EventsPage() {
         <EventGrid events={vrindavanEvents} />
       </section>
 
-      {/* Delhi Events */}
+      {/* Mumbai / Maharashtra Events */}
       <section className="section-padding py-16 md:py-24">
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <MapPin className="w-5 h-5 text-saffron" />
+          <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
+            India — Mumbai, Maharashtra
+          </span>
+        </div>
+        <SectionHeading
+          title="Events in Mumbai, Maharashtra"
+          subtitle="Meetings with key custodians of Sanatan Dharma in Maharashtra and South India — building bridges between traditions and strengthening the collective work of Dharma."
+        />
+        <EventGrid events={mumbaiEvents} />
+      </section>
+
+      {/* Delhi Events */}
+      <section className="section-padding py-16 md:py-24 bg-cream">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
