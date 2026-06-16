@@ -14,6 +14,10 @@ import {
 import { useState, useEffect, useCallback } from "react";
 import SectionHeading from "@/components/SectionHeading";
 import WatchAndLearn from "@/components/WatchAndLearn";
+import BooksShowcase from "@/components/BooksShowcase";
+import QAGrid from "@/components/QAGrid";
+import { qaItems } from "@/data/qa-brahmbodhi";
+import { bhagavadDharmaQA } from "@/data/qa-bhagavad-dharma";
 import { img } from "@/lib/image-url";
 
 const fadeInUp = {
@@ -290,32 +294,36 @@ export default function BrahmBodhiPage() {
         </div>
       </section>
 
-      {/* Q&A teaser */}
-      <section className="section-padding py-12 md:py-16 bg-cream">
-        <motion.div
-          {...fadeInUp}
-          className="max-w-5xl mx-auto bg-white border border-cream-dark/40 rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center gap-6 shadow-sm"
-        >
-          <div className="shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-saffron/10 text-saffron flex items-center justify-center">
-            <MessageCircleQuestion className="w-7 h-7 md:w-8 md:h-8" />
-          </div>
-          <div className="flex-1">
-            <h3 className="text-xl md:text-2xl font-bold text-dark-brown">
+      {/* Q&A with BrahmBodhi — preview using shared QAGrid */}
+      <section className="section-padding py-16 md:py-24 bg-cream">
+        <div className="max-w-5xl mx-auto">
+          <motion.div {...fadeInUp} className="text-center mb-10 md:mb-12">
+            <span className="inline-flex items-center gap-2 text-saffron font-semibold text-sm uppercase tracking-wider">
+              <MessageCircleQuestion className="w-4 h-4" />
+              Conversations of Wisdom
+            </span>
+            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-dark-brown leading-tight">
               Q&amp;A with BrahmBodhi
-            </h3>
-            <p className="mt-2 text-text-secondary leading-relaxed">
-              Explore questions asked by seekers — and BrahmBodhi&rsquo;s
-              answers, illuminated by the Bhagavad Gita.
+            </h2>
+            <p className="mt-4 text-text-secondary leading-relaxed max-w-2xl mx-auto">
+              Real questions asked by seekers — answered with timeless insights
+              drawn from the Bhagavad Gita and the lived experience of Sriyut
+              BrahmBodhi.
             </p>
+          </motion.div>
+
+          <QAGrid items={[...qaItems, ...bhagavadDharmaQA]} limit={6} />
+
+          <div className="mt-10 md:mt-12 text-center">
+            <Link
+              href="/qa-with-brahmbodhi"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-md"
+            >
+              See All Questions
+              <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
-          <Link
-            href="/qa-with-brahmbodhi"
-            className="inline-flex items-center justify-center gap-2 px-5 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-md whitespace-nowrap"
-          >
-            Read Q&amp;A
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </motion.div>
+        </div>
       </section>
 
       {/* Karma Yoga Section */}
@@ -491,6 +499,13 @@ export default function BrahmBodhiPage() {
 
       {/* Watch & Learn — shared with home page */}
       <WatchAndLearn className="section-padding py-16 md:py-24 bg-white" />
+
+      {/* Books by BrahmBodhi — shared with publications page */}
+      <BooksShowcase
+        title="Books by BrahmBodhi"
+        subtitle="Bhagavad Gita commentaries and student editions, in Hindi and English."
+        className="section-padding py-16 md:py-24 bg-cream"
+      />
 
       {/* CTA */}
       <section className="relative py-20 md:py-28 overflow-hidden">
