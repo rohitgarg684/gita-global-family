@@ -456,11 +456,12 @@ export default function BrahmBodhiPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={(e) => e.stopPropagation()}
-                  className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-sm bg-white/10 hover:bg-white/20 text-white rounded-full transition-colors"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs sm:text-sm bg-saffron hover:bg-saffron-dark text-white rounded-full transition-colors font-semibold"
                   aria-label="Open full image in new tab"
                 >
                   <ExternalLink className="w-4 h-4" />
-                  Full image
+                  <span className="hidden sm:inline">Full image</span>
+                  <span className="sm:hidden">Read</span>
                 </a>
                 <button
                   type="button"
@@ -476,21 +477,26 @@ export default function BrahmBodhiPage() {
               </div>
             </div>
             <div
-              className="flex-1 overflow-auto px-4 md:px-8 pb-8"
-              onClick={(e) => e.stopPropagation()}
+              className="flex-1 min-h-0 overflow-auto px-4 md:px-8 pb-8 flex flex-col items-center"
+              onClick={closeArticle}
             >
-              <div className="max-w-5xl mx-auto bg-white/5 rounded-xl overflow-hidden">
-                {/* Using plain <img> so the full-resolution scan is shown
-                    (no cropping) and the user can scroll/zoom to read. */}
+              <div
+                className="bg-white/5 rounded-xl overflow-hidden inline-block max-w-full"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {/* Plain <img> so the full-resolution scan is shown
+                    without cropping. `max-h-full` keeps the entire article
+                    visible inside the viewport; users can click "Full image"
+                    to open the raw scan in a new tab for deeper zoom. */}
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={activeArticle.image}
                   alt={`${activeArticle.title} — ${activeArticle.publication}`}
-                  className="w-full h-auto block"
+                  className="block max-w-full h-auto md:max-h-[80vh] md:w-auto md:object-contain mx-auto"
                 />
               </div>
-              <p className="text-center text-white/50 text-xs mt-4">
-                Tip: Use pinch / Ctrl + scroll to zoom in for easier reading.
+              <p className="text-center text-white/60 text-xs mt-4">
+                Tip: Click <span className="text-white/90 font-semibold">Full image</span> to open the original scan in a new tab for easier reading and zoom.
               </p>
             </div>
           </motion.div>
