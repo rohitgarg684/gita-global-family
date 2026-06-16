@@ -2,9 +2,18 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { ArrowRight, Video, MessageCircleQuestion } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  ArrowRight,
+  Video,
+  MessageCircleQuestion,
+  BookOpen,
+  X,
+  ExternalLink,
+} from "lucide-react";
+import { useState, useEffect, useCallback } from "react";
 import SectionHeading from "@/components/SectionHeading";
+import WatchAndLearn from "@/components/WatchAndLearn";
 import { img } from "@/lib/image-url";
 
 const fadeInUp = {
@@ -50,33 +59,77 @@ const karmaYogaPhotos = [
 ];
 
 const newspaperArticles = [
-  img("newspaper-1.jpeg"),
-  img("newspaper-2.jpeg"),
-  img("newspaper-3.jpeg"),
-  img("newspaper-4.jpeg"),
-  img("newspaper-5.jpeg"),
-  img("newspaper-6.jpeg"),
+  {
+    title: "Revolution Without Ideas",
+    publication: "The Times of India",
+    section: "Editorial Page",
+    image: img("newspaper-1.jpeg"),
+  },
+  {
+    title: "Not Vigilant Enough",
+    publication: "Hindustan Times",
+    section: "Editorial Page",
+    image: img("newspaper-2.jpeg"),
+  },
+  {
+    title: "To Whom Does Argus Report?",
+    publication: "The Telegraph",
+    section: "Editorial Page",
+    image: img("newspaper-3.jpeg"),
+  },
+  {
+    title: "Civil Servants Not Slaves",
+    publication: "The Indian Express",
+    section: "Editorial Page",
+    image: img("newspaper-4.jpeg"),
+  },
+  {
+    title: "The Right to Inform",
+    publication: "The Indian Express",
+    section: "Editorial Page",
+    image: img("newspaper-5.jpeg"),
+  },
+  {
+    title: "Time People Brought Pressure on Govt",
+    publication: "The Hindu",
+    section: "Editorial Page",
+    image: img("newspaper-6.jpeg"),
+  },
 ];
 
+type NewspaperArticle = (typeof newspaperArticles)[number];
+
 export default function BrahmBodhiPage() {
+  const [activeArticle, setActiveArticle] = useState<NewspaperArticle | null>(
+    null,
+  );
+
+  const closeArticle = useCallback(() => setActiveArticle(null), []);
+
+  useEffect(() => {
+    if (!activeArticle) return;
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeArticle();
+    };
+    document.addEventListener("keydown", handleKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", handleKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [activeArticle, closeArticle]);
+
   return (
     <>
-      {/* Hero */}
-      <section className="relative py-28 md:py-36 overflow-hidden">
-        <Image
-          src={img("brahmabodhi-hero.png")}
-          alt="Sriyut BrahmBodhi"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/60" />
-        <div className="relative section-padding text-center">
+      {/* Page Header */}
+      <section className="relative py-16 md:py-24 bg-gradient-to-b from-cream to-white border-b border-cream-dark/30">
+        <div className="section-padding text-center">
           <motion.span
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-saffron-light font-semibold text-sm uppercase tracking-wider"
+            className="text-saffron font-semibold text-sm uppercase tracking-wider"
           >
             Hari Sharanam!
           </motion.span>
@@ -84,7 +137,7 @@ export default function BrahmBodhiPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="mt-3 text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
+            className="mt-3 text-3xl md:text-5xl lg:text-6xl font-bold text-dark-brown leading-tight"
           >
             Sriyut BrahmBodhi
           </motion.h1>
@@ -99,12 +152,16 @@ export default function BrahmBodhiPage() {
             {...fadeInUp}
             className="w-full md:w-[360px] shrink-0"
           >
-            <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
+            <div className="rounded-2xl overflow-hidden shadow-lg bg-cream">
+              {/* Use intrinsic dimensions so the full portrait is shown
+                  without cropping; the image scales responsively to the
+                  column width. */}
               <Image
-                src={img("brahmabodhi-portrait.jpeg")}
+                src={img("brahmabodhi-portrait-full.png")}
                 alt="Sriyut BrahmBodhi"
-                fill
-                className="object-cover"
+                width={697}
+                height={1024}
+                className="w-full h-auto block"
                 priority
               />
             </div>
@@ -174,15 +231,6 @@ export default function BrahmBodhiPage() {
               >
                 <Video className="w-5 h-5" />
                 Explore on YouTube
-              </a>
-              <a
-                href="https://www.youtube.com/@BrahmBodhi_HindiOfficial?sub_confirmation=1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition-colors shadow-md"
-              >
-                <Video className="w-5 h-5" />
-                ब्रह्मबोधि Channel
               </a>
             </div>
           </motion.div>
@@ -327,26 +375,122 @@ export default function BrahmBodhiPage() {
           ceased sending articles.
         </motion.p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          {newspaperArticles.map((src, i) => (
-            <motion.div
-              key={src}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {newspaperArticles.map((article, i) => (
+            <motion.button
+              key={article.image}
+              type="button"
+              onClick={() => setActiveArticle(article)}
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.08 }}
-              className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow"
+              className="group flex flex-col text-left bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-cream-dark/30 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-saffron focus:ring-offset-2"
+              aria-label={`Read article: ${article.title}`}
             >
-              <Image
-                src={src}
-                alt={`Newspaper article ${i + 1}`}
-                fill
-                className="object-cover"
-              />
-            </motion.div>
+              <div className="relative aspect-[4/3] bg-warm-gray overflow-hidden">
+                <Image
+                  src={article.image}
+                  alt={`${article.title} — ${article.publication}`}
+                  fill
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+              </div>
+              <div className="p-5 flex flex-col flex-1">
+                <h3 className="text-base md:text-lg font-bold text-dark-brown leading-snug">
+                  {article.title}
+                </h3>
+                <p className="text-sm text-text-secondary mt-1.5">
+                  <span className="font-medium text-saffron">
+                    {article.publication}
+                  </span>
+                  <span className="text-text-secondary/60"> · </span>
+                  {article.section}
+                </p>
+                <span className="inline-flex items-center gap-1.5 mt-4 text-saffron font-semibold text-sm group-hover:gap-2.5 transition-all">
+                  <BookOpen className="w-4 h-4" />
+                  Click here to read
+                  <ArrowRight className="w-4 h-4" />
+                </span>
+              </div>
+            </motion.button>
           ))}
         </div>
       </section>
+
+      {/* Newspaper Article Lightbox */}
+      <AnimatePresence>
+        {activeArticle && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-sm flex flex-col"
+            onClick={closeArticle}
+            role="dialog"
+            aria-modal="true"
+            aria-label={activeArticle.title}
+          >
+            <div className="flex items-start justify-between gap-4 px-4 md:px-8 py-4 text-white">
+              <div className="min-w-0 flex-1">
+                <h3 className="text-base md:text-xl font-bold truncate">
+                  {activeArticle.title}
+                </h3>
+                <p className="text-xs md:text-sm text-white/70 mt-0.5 truncate">
+                  {activeArticle.publication} · {activeArticle.section}
+                </p>
+              </div>
+              <div className="flex items-center gap-2 shrink-0">
+                <a
+                  href={activeArticle.image}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-sm bg-white/10 hover:bg-white/20 text-white rounded-full transition-colors"
+                  aria-label="Open full image in new tab"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Full image
+                </a>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    closeArticle();
+                  }}
+                  className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                  aria-label="Close"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+            <div
+              className="flex-1 overflow-auto px-4 md:px-8 pb-8"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="max-w-5xl mx-auto bg-white/5 rounded-xl overflow-hidden">
+                {/* Using plain <img> so the full-resolution scan is shown
+                    (no cropping) and the user can scroll/zoom to read. */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={activeArticle.image}
+                  alt={`${activeArticle.title} — ${activeArticle.publication}`}
+                  className="w-full h-auto block"
+                />
+              </div>
+              <p className="text-center text-white/50 text-xs mt-4">
+                Tip: Use pinch / Ctrl + scroll to zoom in for easier reading.
+              </p>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Watch & Learn — shared with home page */}
+      <WatchAndLearn className="section-padding py-16 md:py-24 bg-white" />
 
       {/* CTA */}
       <section className="relative py-20 md:py-28 overflow-hidden">
