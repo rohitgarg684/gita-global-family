@@ -15,6 +15,7 @@ import { useState, useEffect, useCallback } from "react";
 import SectionHeading from "@/components/SectionHeading";
 import WatchAndLearn from "@/components/WatchAndLearn";
 import BooksShowcase from "@/components/BooksShowcase";
+import ProjectsShowcase from "@/components/ProjectsShowcase";
 import QAGrid from "@/components/QAGrid";
 import { qaItems } from "@/data/qa-brahmbodhi";
 import { bhagavadDharmaQA } from "@/data/qa-bhagavad-dharma";
@@ -511,6 +512,13 @@ export default function BrahmBodhiPage() {
         title="Books by BrahmBodhi"
         subtitle="Bhagavad Gita commentaries and student editions, in Hindi and English."
         className="section-padding py-16 md:py-24 bg-cream"
+      />
+
+      {/* Projects led by BrahmBodhi — shared with home page */}
+      <ProjectsShowcase
+        title="Projects Led by BrahmBodhi"
+        subtitle="Initiatives that translate the Bhagavad Gita's teachings into tangible community transformation."
+        className="section-padding py-16 md:py-24 bg-white"
       />
 
       {/* CTA */}

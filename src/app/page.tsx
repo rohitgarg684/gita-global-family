@@ -11,12 +11,6 @@ import {
   Globe,
   MessageCircleQuestion,
   Sparkles,
-  Landmark,
-  BookOpenText,
-  Users,
-  ShieldCheck,
-  Briefcase,
-  HeartHandshake,
 } from "lucide-react";
 import HeroCarousel from "@/components/HeroCarousel";
 import SectionHeading from "@/components/SectionHeading";
@@ -26,6 +20,7 @@ import ContactForm from "@/components/ContactForm";
 import DonationButton from "@/components/DonationButton";
 import WatchAndLearn from "@/components/WatchAndLearn";
 import ClipsCarousel from "@/components/ClipsCarousel";
+import ProjectsShowcase from "@/components/ProjectsShowcase";
 import { img } from "@/lib/image-url";
 
 const navTabs = [
@@ -507,177 +502,7 @@ export default function HomePage() {
       </section>
 
       {/* Our Projects & Works */}
-      <section className="section-padding py-16 md:py-24">
-        <SectionHeading
-          title="Our Projects"
-          subtitle="The Temple-Centred Village Transformation Initiative — six interconnected projects that turn every village temple into the living heart of community life."
-        />
-
-        {/* Featured initiative card */}
-        <motion.div
-          {...fadeInUp}
-          className="relative max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-xl border border-cream-dark/30 mb-12"
-        >
-          <div className="grid lg:grid-cols-2">
-            <div className="relative aspect-[16/10] lg:aspect-auto lg:min-h-[420px]">
-              <Image
-                src={img("project-hero-temple-village.png")}
-                alt="Temple-Centred Village Transformation Initiative"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent lg:bg-gradient-to-r" />
-            </div>
-            <div className="p-8 md:p-10 lg:p-12 bg-gradient-to-br from-cream via-white to-saffron/5 flex flex-col justify-center">
-              <span className="inline-flex self-start items-center gap-2 px-3 py-1.5 rounded-full bg-saffron/10 border border-saffron/25 text-saffron-dark text-xs font-semibold uppercase tracking-wider">
-                <Sparkles className="w-3.5 h-3.5" />
-                Flagship Initiative
-              </span>
-              <h3 className="mt-4 text-2xl md:text-3xl lg:text-4xl font-bold text-dark-brown leading-tight">
-                Temple-Centred Village Transformation Initiative
-              </h3>
-              <p className="mt-4 text-text-secondary leading-relaxed">
-                A simple, repeatable cycle of <strong>knowledge,
-                engagement, assessment, incentive, leadership, and
-                expansion</strong> — designed to reach 1,000 households per
-                village with curated scriptures, Dharma outreach educators,
-                youth leadership tracks, social resilience training, and
-                dignified livelihood pathways.
-              </p>
-              <div className="mt-6 grid grid-cols-3 gap-3 text-center">
-                <div className="p-3 bg-white rounded-xl border border-cream-dark/40">
-                  <p className="text-2xl font-bold text-saffron">6</p>
-                  <p className="text-xs text-text-muted mt-0.5">Projects</p>
-                </div>
-                <div className="p-3 bg-white rounded-xl border border-cream-dark/40">
-                  <p className="text-2xl font-bold text-saffron">1,000</p>
-                  <p className="text-xs text-text-muted mt-0.5">Households</p>
-                </div>
-                <div className="p-3 bg-white rounded-xl border border-cream-dark/40">
-                  <p className="text-2xl font-bold text-saffron">1</p>
-                  <p className="text-xs text-text-muted mt-0.5">Temple Hub</p>
-                </div>
-              </div>
-              <div className="mt-7 flex flex-wrap gap-3">
-                <Link
-                  href="/projects"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg shadow-saffron/20"
-                >
-                  Explore the Initiative
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center gap-2 px-6 py-3 border-2 border-saffron/40 text-saffron-dark font-semibold rounded-full hover:bg-saffron/10 transition-colors"
-                >
-                  Partner With Us
-                </Link>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* Six project mini-cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
-          {[
-            {
-              icon: Landmark,
-              title: "Temple Empowerment",
-              text: "Reviving the temple as a self-sustaining centre of guidance, learning, and community leadership.",
-              image: img("project-temple-empowerment.png"),
-              href: "/projects#temple-empowerment",
-            },
-            {
-              icon: BookOpenText,
-              title: "Spiritual Literacy in 1,000 Homes",
-              text: "Free curated libraries — Gita, Ramcharitmanas, and Dharma booklets — for every household.",
-              image: img("project-spiritual-literacy.png"),
-              href: "/projects#spiritual-literacy",
-            },
-            {
-              icon: HeartHandshake,
-              title: "Dharma Outreach Educators",
-              text: "Trained extension workers who visit homes, build trust, and turn reading into living practice.",
-              image: img("project-holistic-wellbeing.png"),
-              href: "/projects#active-engagement",
-            },
-            {
-              icon: Users,
-              title: "Youth Leadership",
-              text: "Identifying gifted children and youth as the next generation of spiritual ambassadors.",
-              image: img("project-youth-leaders.png"),
-              href: "/projects#youth-leadership",
-            },
-            {
-              icon: ShieldCheck,
-              title: "Social Resilience",
-              text: "Building intellectual and emotional immunity against conversion pressure and misinformation.",
-              image: img("project-social-resilience.png"),
-              href: "/projects#social-resilience",
-            },
-            {
-              icon: Briefcase,
-              title: "Livelihood Empowerment",
-              text: "Skill training, agriculture linkages, and entrepreneurship — anchoring Dharma in dignified self-reliance.",
-              image: img("project-livelihood-empowerment.png"),
-              href: "/projects#livelihood-empowerment",
-            },
-          ].map((p, i) => (
-            <motion.div
-              key={p.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.07 }}
-            >
-              <Link
-                href={p.href}
-                className="group block h-full bg-cream rounded-2xl overflow-hidden border border-cream-dark/30 hover:border-saffron/40 hover:shadow-lg transition-all"
-              >
-                <div className="relative aspect-[16/10] overflow-hidden">
-                  <Image
-                    src={p.image}
-                    alt={p.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute top-3 left-3 w-9 h-9 bg-white/95 rounded-full flex items-center justify-center shadow-md">
-                    <p.icon className="w-4.5 h-4.5 text-saffron" />
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h4 className="text-base md:text-lg font-semibold text-dark-brown group-hover:text-saffron-dark transition-colors leading-snug">
-                    {p.title}
-                  </h4>
-                  <p className="mt-2 text-sm text-text-secondary leading-relaxed">
-                    {p.text}
-                  </p>
-                  <span className="inline-flex items-center gap-1 mt-3 text-xs font-semibold text-saffron">
-                    Learn more
-                    <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
-                  </span>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
-        </div>
-
-        <div className="text-center mt-12 flex flex-wrap items-center justify-center gap-3">
-          <Link
-            href="/projects"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-saffron text-white font-semibold rounded-full hover:bg-saffron-dark transition-colors shadow-lg"
-          >
-            See All Projects
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-          <Link
-            href="/join-us"
-            className="inline-flex items-center gap-2 px-6 py-3 border-2 border-saffron text-saffron font-semibold rounded-full hover:bg-saffron hover:text-white transition-colors"
-          >
-            Join Hands
-          </Link>
-        </div>
-      </section>
+      <ProjectsShowcase />
 
       {/* FAQ */}
       <section className="section-padding py-16 md:py-24 bg-warm-gray">
