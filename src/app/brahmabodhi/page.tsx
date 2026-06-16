@@ -19,6 +19,7 @@ import ProjectsShowcase from "@/components/ProjectsShowcase";
 import QAGrid from "@/components/QAGrid";
 import { qaItems } from "@/data/qa-brahmbodhi";
 import { bhagavadDharmaQA } from "@/data/qa-bhagavad-dharma";
+import { brahmBodhiCoInQA } from "@/data/qa-brahmbodhi-co-in";
 import { img } from "@/lib/image-url";
 
 const fadeInUp = {
@@ -313,7 +314,10 @@ export default function BrahmBodhiPage() {
             </p>
           </motion.div>
 
-          <QAGrid items={[...qaItems, ...bhagavadDharmaQA]} limit={6} />
+          <QAGrid
+            items={[...qaItems, ...bhagavadDharmaQA, ...brahmBodhiCoInQA]}
+            limit={6}
+          />
 
           <div className="mt-10 md:mt-12 text-center">
             <Link

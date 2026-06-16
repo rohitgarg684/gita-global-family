@@ -3,10 +3,15 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { qaItems, type QAItem } from "@/data/qa-brahmbodhi";
 import { bhagavadDharmaQA } from "@/data/qa-bhagavad-dharma";
+import { brahmBodhiCoInQA } from "@/data/qa-brahmbodhi-co-in";
 import { img } from "@/lib/image-url";
 import QADetailView from "./QADetailView";
 
-const allItems: QAItem[] = [...qaItems, ...bhagavadDharmaQA];
+const allItems: QAItem[] = [
+  ...qaItems,
+  ...bhagavadDharmaQA,
+  ...brahmBodhiCoInQA,
+];
 
 function findItem(slug: string): QAItem | undefined {
   const decoded = decodeURIComponent(slug);

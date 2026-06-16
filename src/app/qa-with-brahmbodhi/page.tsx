@@ -7,12 +7,16 @@ import { Search, MessageCircleQuestion } from "lucide-react";
 import { img } from "@/lib/image-url";
 import { qaItems } from "@/data/qa-brahmbodhi";
 import { bhagavadDharmaQA } from "@/data/qa-bhagavad-dharma";
+import { brahmBodhiCoInQA } from "@/data/qa-brahmbodhi-co-in";
 import QAGrid from "@/components/QAGrid";
 
 export default function QAWithBrahmBodhiPage() {
   const [query, setQuery] = useState("");
 
-  const allItems = useMemo(() => [...qaItems, ...bhagavadDharmaQA], []);
+  const allItems = useMemo(
+    () => [...qaItems, ...bhagavadDharmaQA, ...brahmBodhiCoInQA],
+    [],
+  );
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
