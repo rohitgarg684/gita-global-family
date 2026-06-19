@@ -112,6 +112,12 @@ const genevaEvents: EventItem[] = [
     description:
       "Swami Brahm Bodhi at the United Nations Human Rights Council in Geneva, Switzerland — carrying the message of the Bhagavad Gita and Sanatan Dharma to a global forum dedicated to the protection of human dignity, freedom, and rights. Engagements at the UN Office at Geneva (Palais des Nations) reflected the Gita Global Family's commitment to bringing timeless universal wisdom into contemporary international dialogue on peace, dharma, and the shared welfare of humanity.",
   },
+  {
+    images: [img("event-geneva-redcross-1.png")],
+    title: "International Committee of the Red Cross, Geneva",
+    description:
+      "Swami Brahm Bodhi at the headquarters of the International Committee of the Red Cross (ICRC / CICR) in Geneva, Switzerland — visiting one of the world's foremost humanitarian institutions. The visit reaffirmed the Gita Global Family's deep alignment with the Bhagavad Gita's universal teachings of compassion, seva, and the protection of life and dignity in times of conflict and crisis.",
+  },
 ];
 
 const delhiEvents: EventItem[] = [
