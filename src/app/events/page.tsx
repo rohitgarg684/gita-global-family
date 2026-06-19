@@ -99,11 +99,18 @@ const londonEvents: EventItem[] = [
     description:
       "A memorable evening unfolded at the Nehru Centre, London, during a cultural programme celebrating Bhagavad Gita's universal wisdom.",
   },
+];
+
+const genevaEvents: EventItem[] = [
   {
-    images: [img("event-london-7.jpg")],
-    title: "Nehru Centre Discourse",
+    images: [
+      img("event-un-geneva-1.png"),
+      img("event-un-geneva-2.png"),
+      img("event-un-geneva-3.png"),
+    ],
+    title: "United Nations Human Rights Council, Geneva",
     description:
-      "Continuing the enriching discourse at the Nehru Centre, London — bridging ancient wisdom with modern life.",
+      "Swami Brahm Bodhi at the United Nations Human Rights Council in Geneva, Switzerland — carrying the message of the Bhagavad Gita and Sanatan Dharma to a global forum dedicated to the protection of human dignity, freedom, and rights. Engagements at the UN Office at Geneva (Palais des Nations) reflected the Gita Global Family's commitment to bringing timeless universal wisdom into contemporary international dialogue on peace, dharma, and the shared welfare of humanity.",
   },
 ];
 
@@ -634,8 +641,23 @@ export default function EventsPage() {
         <EventGrid events={londonEvents} />
       </section>
 
-      {/* Bihar / India Events */}
+      {/* Geneva / Switzerland Events */}
       <section className="section-padding py-16 md:py-24 bg-cream">
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <MapPin className="w-5 h-5 text-saffron" />
+          <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
+            Geneva, Switzerland
+          </span>
+        </div>
+        <SectionHeading
+          title="United Nations, Geneva"
+          subtitle="Carrying the Bhagavad Gita's universal message of dharma, peace, and human dignity to the United Nations Human Rights Council and the UN Office at Geneva."
+        />
+        <EventGrid events={genevaEvents} />
+      </section>
+
+      {/* Bihar / India Events */}
+      <section className="section-padding py-16 md:py-24">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
@@ -650,7 +672,7 @@ export default function EventsPage() {
       </section>
 
       {/* Nepal Events */}
-      <section className="section-padding py-16 md:py-24">
+      <section className="section-padding py-16 md:py-24 bg-cream">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
@@ -665,7 +687,7 @@ export default function EventsPage() {
       </section>
 
       {/* Vrindavan Events */}
-      <section className="section-padding py-16 md:py-24 bg-cream">
+      <section className="section-padding py-16 md:py-24">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
@@ -680,7 +702,7 @@ export default function EventsPage() {
       </section>
 
       {/* Mumbai / Maharashtra Events */}
-      <section className="section-padding py-16 md:py-24">
+      <section className="section-padding py-16 md:py-24 bg-cream">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
@@ -695,7 +717,7 @@ export default function EventsPage() {
       </section>
 
       {/* Delhi Events */}
-      <section className="section-padding py-16 md:py-24 bg-cream">
+      <section className="section-padding py-16 md:py-24">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
