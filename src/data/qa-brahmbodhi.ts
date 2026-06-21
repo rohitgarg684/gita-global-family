@@ -1347,4 +1347,238 @@ export const qaItems: QAItem[] = [
       ],
     },
   },
+  {
+    id: "world-yoga-day-yoga-vs-yogasana",
+    coverImage: "qa-world-yoga-day-yoga-vs-yogasana.png",
+    question:
+      "World Yoga Day: A day of Yoga, or merely a day of Yogāsanas?",
+    preview:
+      "On International Yoga Day, the world performs āsanas — but is that truly Yoga? BrahmBodhi explains that yogāsana is only the first step described by Patanjali; the real Yoga, as Lord Krishna teaches in the Bhagavad Gita, is the art of acting without producing binding karma, so that one is freed from rebirth and attains liberation.",
+    answer: [
+      {
+        type: "p",
+        text: "Today is observed as \u201CYoga Day.\u201D Through the efforts of the present Government of India, International Yoga Day has come into being, and yoga is now being demonstrated and practiced in countries across the world. BrahmBodhi welcomes this global awakening, yet draws attention to a subtle but important point: in the form in which it is presently observed, it is not truly a Yoga Day, but rather a Yogāsana Day.",
+      },
+      {
+        type: "h",
+        text: "Yogāsana is only the first step",
+      },
+      {
+        type: "p",
+        text: "In the Yoga Sutras of Patanjali, yogāsana is only the first step toward Yoga. It prepares the body, makes it healthy and strong, and renders it suitable for prolonged meditation and samādhi. It is extremely beneficial for the physical health of all, and to that extent the present-day celebrations of Yoga Day do real good in the world.",
+      },
+      {
+        type: "p",
+        text: "But the practitioner is then expected to gradually understand what the next step is, if one truly wishes to attain Yoga. What is this Yoga toward which the first step of yogāsana leads? It is here that the Bhagavad Gita takes over from where the Yoga Sutras begin.",
+      },
+      {
+        type: "h",
+        text: "What Lord Krishna means by Yoga",
+      },
+      {
+        type: "p",
+        text: "Lord Krishna explains the meaning of Yoga in many ways in the Bhagavad Gita. One of the most well-known definitions is:",
+      },
+      {
+        type: "quote",
+        text: "Yogaḥ karmasu kauśalam.",
+        cite: "Bhagavad Gita 2.50",
+      },
+      {
+        type: "p",
+        text: "\u201CYoga is skill in action.\u201D BrahmBodhi raises an obvious question : does this mean that if a person cooks food, he should cook it skillfully so that it turns out well? If an engineer constructs a building with great expertise, does that engineering become Yoga? Is this what \u201Cskill in action\u201D really means?",
+      },
+      {
+        type: "p",
+        text: "It is not. Performing any work skillfully is certainly a key to worldly success. The Lord Himself acknowledges this elsewhere in the Gita:",
+      },
+      {
+        type: "quote",
+        text: "Sve sve karmaṇy abhirataḥ saṁsiddhiṁ labhate naraḥ.",
+        cite: "Bhagavad Gita 18.45",
+      },
+      {
+        type: "p",
+        text: "\u201CBy remaining devoted and diligent in one\u2019s own work, a person attains great success.\u201D That principle is true, but it is not the meaning of \u201CYogaḥ karmasu kauśalam.\u201D",
+      },
+      {
+        type: "h",
+        text: "The real skill : acting without binding consequences",
+      },
+      {
+        type: "p",
+        text: "What the Lord really means, BrahmBodhi explains, is something far deeper : how should actions be performed so that they do not produce binding consequences? The fruits of every action — good or bad — must eventually be experienced; and to experience them, the soul must take birth again and again. As long as karmic fruits remain unexperienced, liberation cannot be attained.",
+      },
+      {
+        type: "p",
+        text: "The Gita itself warns the seeker beforehand that rebirth is not something to be casually embraced:",
+      },
+      {
+        type: "quote",
+        text: "Punarjanma duḥkhālayam.",
+        cite: "Bhagavad Gita 8.15",
+      },
+      {
+        type: "p",
+        text: "\u201CRebirth is an abode of suffering.\u201D Once birth is taken, sorrow inevitably follows, and liberation remains unattained — for liberation means freedom from the very cycle of birth and death.",
+      },
+      {
+        type: "h",
+        text: "Both good and bad karma keep us bound",
+      },
+      {
+        type: "p",
+        text: "Consider an example. If a person performs many acts of charity and service, good karmic fruits — puṇya — are produced. Some of those fruits may be enjoyed in this life, while those that remain must be experienced in future births. To enjoy those remaining good results, the soul must be born again; and once birth is taken, suffering inevitably follows.",
+      },
+      {
+        type: "p",
+        text: "Likewise, if a person has caused suffering, harmed others, or committed wrongful acts, many negative consequences — pāpa — are created. Some may be experienced in this very life, while the remainder are carried forward into future births.",
+      },
+      {
+        type: "p",
+        text: "Thus, whether one performs virtuous actions or sinful actions, in both cases liberation is obstructed. Mere good behaviour, by itself, does not free the soul; it only ensures a better next life within the cycle of saṁsāra.",
+      },
+      {
+        type: "h",
+        text: "The path of Yoga as the Gita teaches it",
+      },
+      {
+        type: "p",
+        text: "True Yoga, in the Gita\u2019s sense, is the art of acting in such a way that no binding karma is generated at all. BrahmBodhi summarises this path in five inseparable steps :",
+      },
+      {
+        type: "ul",
+        items: [
+          "Do your duty (karma) — never abandon prescribed action.",
+          "Do it selflessly (niṣkāma bhāva) — without craving for personal reward.",
+          "Without attachment (anāsakti) — neither to the work nor to its fruits.",
+          "Offer it to the Lord (īśvara-arpaṇa) — every action surrendered to Him.",
+          "No binding results (no karma-bandha) — and therefore freedom from rebirth.",
+        ],
+      },
+      {
+        type: "p",
+        text: "This is what the Lord describes as the real skill of Yoga — the skill by which one acts fully and rightly in the world, and yet remains untouched by its karmic residue. When bhakti, jñāna, karma and dhyāna are all transformed into this offering to the Lord, they converge into Yoga and lead the soul to union with God and liberation.",
+      },
+      {
+        type: "h",
+        text: "Yogāsana is the first step; Yoga is the ultimate goal",
+      },
+      {
+        type: "p",
+        text: "BrahmBodhi\u2019s appeal on this World Yoga Day is therefore simple. By all means celebrate yogāsana — prepare the body, cultivate physical health and discipline. But do not stop there. Move from yogāsana to Yoga as the Bhagavad Gita teaches it : from physical posture to inner steadiness; from skillful work to surrendered work; from bondage through karma to freedom in the Lord.",
+      },
+      {
+        type: "p",
+        text: "Yogāsana prepares the body. Yoga, in the Gita\u2019s sense, frees the soul. Hari Śaraṇam.",
+      },
+    ],
+    hi: {
+      question:
+        "विश्व योग दिवस : क्या यह सचमुच योग का दिन है, या केवल योगासन का?",
+      preview:
+        "अंतर्राष्ट्रीय योग दिवस पर सारा संसार आसन करता है — पर क्या यही योग है? ब्रह्मबोधि कहते हैं कि पतंजलि के अनुसार योगासन तो योग का केवल पहला सोपान है। वास्तविक योग वही है जो भगवद्गीता में श्रीकृष्ण ने बताया है — ऐसा कर्म जो कोई बंधन उत्पन्न न करे, और इसी से जीव जन्म-मृत्यु के चक्र से मुक्त होकर मोक्ष को प्राप्त होता है।",
+      answer: [
+        {
+          type: "p",
+          text: "आज \u201Cयोग दिवस\u201D के रूप में मनाया जा रहा है। वर्तमान भारत सरकार के प्रयासों से अंतर्राष्ट्रीय योग दिवस का स्वरूप उभरा है और आज विश्व के अनेक देशों में योग का प्रदर्शन और अभ्यास हो रहा है। ब्रह्मबोधि इस वैश्विक जागरण का स्वागत करते हैं, परंतु एक सूक्ष्म किंतु महत्वपूर्ण बात की ओर ध्यान आकर्षित करते हैं — जिस रूप में आज यह दिवस मनाया जा रहा है, वह वस्तुतः \u201Cयोग दिवस\u201D नहीं, अपितु \u201Cयोगासन दिवस\u201D है।",
+        },
+        { type: "h", text: "योगासन तो केवल पहला सोपान है" },
+        {
+          type: "p",
+          text: "पतंजलि के योगसूत्र में योगासन योग का केवल पहला सोपान है। यह शरीर को तैयार करता है, उसे स्वस्थ और सशक्त बनाता है, तथा दीर्घकालीन ध्यान और समाधि के योग्य बनाता है। यह सबके शारीरिक स्वास्थ्य के लिए अत्यंत उपकारी है, और इस दृष्टि से वर्तमान योग दिवस के आयोजन संसार का वास्तविक हित कर रहे हैं।",
+        },
+        {
+          type: "p",
+          text: "किंतु साधक से यह अपेक्षा है कि वह क्रमशः समझे कि यदि सचमुच योग को प्राप्त करना है, तो अगला चरण क्या है। यह \u201Cयोग\u201D क्या है, जिसकी ओर योगासन का पहला कदम ले जाता है? यहीं भगवद्गीता उस यात्रा को आगे बढ़ाती है, जहाँ योगसूत्र का आरम्भ हुआ था।",
+        },
+        { type: "h", text: "श्रीकृष्ण किसे \u201Cयोग\u201D कहते हैं" },
+        {
+          type: "p",
+          text: "भगवद्गीता में भगवान् श्रीकृष्ण योग की व्याख्या अनेक प्रकार से करते हैं। सबसे प्रसिद्ध परिभाषाओं में एक है :",
+        },
+        {
+          type: "quote",
+          text: "योगः कर्मसु कौशलम् ।",
+          cite: "भगवद्गीता 2.50",
+        },
+        {
+          type: "p",
+          text: "\u201Cयोग कर्मों में कुशलता है।\u201D ब्रह्मबोधि एक सीधा प्रश्न उठाते हैं — क्या इसका अर्थ यह है कि यदि कोई व्यक्ति भोजन बनाता है तो उसे कुशलता से बनाए, ताकि भोजन स्वादिष्ट हो? यदि कोई अभियंता अत्यंत कुशलता से भवन निर्मित करता है, तो क्या वह अभियांत्रिकी ही योग बन गई? क्या \u201Cकर्मों में कुशलता\u201D का यही अर्थ है?",
+        },
+        {
+          type: "p",
+          text: "नहीं। किसी भी कार्य को कुशलता से करना निःसंदेह सांसारिक सफलता की कुंजी है। भगवान् ने स्वयं गीता में अन्यत्र भी यही कहा है :",
+        },
+        {
+          type: "quote",
+          text: "स्वे स्वे कर्मण्यभिरतः संसिद्धिं लभते नरः ।",
+          cite: "भगवद्गीता 18.45",
+        },
+        {
+          type: "p",
+          text: "\u201Cअपने-अपने कर्म में निरत रहकर मनुष्य परम सिद्धि को प्राप्त करता है।\u201D यह सिद्धांत सत्य है, परंतु \u201Cयोगः कर्मसु कौशलम्\u201D का यह अर्थ नहीं है।",
+        },
+        { type: "h", text: "वास्तविक कौशल : ऐसा कर्म जो बंधन न रचे" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि स्पष्ट करते हैं कि भगवान् का वास्तविक अभिप्राय इससे कहीं गहन है — कर्म को इस प्रकार कैसे किया जाए कि उससे कोई बंधनकारी फल उत्पन्न ही न हो? प्रत्येक कर्म का फल — शुभ अथवा अशुभ — अंततः भोगना ही पड़ता है; और उसे भोगने के लिए जीव को बार-बार जन्म लेना पड़ता है। जब तक कर्म-फल शेष रहते हैं, मुक्ति संभव नहीं।",
+        },
+        {
+          type: "p",
+          text: "गीता स्वयं साधक को पहले ही चेताती है कि पुनर्जन्म को सहज समझकर स्वीकार न करे :",
+        },
+        {
+          type: "quote",
+          text: "पुनर्जन्म दुःखालयम् ।",
+          cite: "भगवद्गीता 8.15",
+        },
+        {
+          type: "p",
+          text: "\u201Cपुनर्जन्म दुःख का आलय है।\u201D एक बार जन्म लेने पर दुःख अनिवार्य है, और मोक्ष अप्राप्त रह जाता है — क्योंकि मोक्ष का अर्थ ही है जन्म-मृत्यु के चक्र से मुक्ति।",
+        },
+        { type: "h", text: "शुभ-अशुभ दोनों कर्म बाँधते हैं" },
+        {
+          type: "p",
+          text: "एक उदाहरण लें। यदि कोई व्यक्ति अनेक दान-पुण्य और सेवा-कार्य करता है, तो पुण्यरूपी अच्छे कर्मफल उत्पन्न होते हैं। उनमें से कुछ इसी जन्म में भोग लिए जाते हैं, और शेष को भोगने के लिए पुनः जन्म लेना पड़ता है; और जन्म लेते ही दुःख अवश्यंभावी है।",
+        },
+        {
+          type: "p",
+          text: "इसी प्रकार, यदि किसी ने अन्य को कष्ट दिया, अनुचित आचरण किया या पाप किए हों, तो अनेक नकारात्मक फल उत्पन्न होते हैं। उनमें से कुछ इसी जीवन में भोगने पड़ते हैं, और शेष भावी जन्मों में।",
+        },
+        {
+          type: "p",
+          text: "अतः चाहे शुभ कर्म हों या अशुभ — दोनों ही स्थितियों में मोक्ष अवरुद्ध हो जाता है। केवल अच्छा आचरण अपने आप में जीव को मुक्त नहीं करता; वह तो संसार के चक्र के भीतर ही अगला जन्म अधिक श्रेष्ठ बनाता है।",
+        },
+        { type: "h", text: "गीता का योग-मार्ग" },
+        {
+          type: "p",
+          text: "गीता की दृष्टि में सच्चा योग वह कला है, जिसमें कर्म तो पूर्णतः किया जाता है, परंतु कोई बंधनकारी कर्मफल उत्पन्न नहीं होता। ब्रह्मबोधि इस मार्ग को पाँच अविभाज्य सूत्रों में संकलित करते हैं :",
+        },
+        {
+          type: "ul",
+          items: [
+            "कर्तव्य का पालन करो (कर्म) — विहित कर्म का त्याग कभी न करो।",
+            "उसे निष्काम भाव से करो — किसी फल की कामना के बिना।",
+            "अनासक्त रहकर करो — न कर्म में आसक्ति, न उसके फल में।",
+            "उसे ईश्वर को अर्पित करो (ईश्वर-अर्पण) — प्रत्येक कर्म प्रभु को समर्पित।",
+            "कोई बंधनकारी फल न रहे (न कर्मबंध) — और इस प्रकार पुनर्जन्म से मुक्ति।",
+          ],
+        },
+        {
+          type: "p",
+          text: "यही वह \u201Cकर्मों की कुशलता\u201D है, जिसे भगवान् ने योग कहा है — वह कौशल जिससे मनुष्य संसार में पूर्ण रूप से और उचित प्रकार से कर्म तो करता है, किंतु उसके कर्म-संस्कार उसे बाँधते नहीं। जब भक्ति, ज्ञान, कर्म और ध्यान — चारों ईश्वर को समर्पित होकर योग में रूपांतरित होते हैं, तभी जीव ईश्वर से एकता और मोक्ष को प्राप्त होता है।",
+        },
+        { type: "h", text: "योगासन प्रथम सोपान है; योग परम लक्ष्य है" },
+        {
+          type: "p",
+          text: "इस विश्व योग दिवस पर ब्रह्मबोधि का निवेदन सरल है। योगासन अवश्य करें — शरीर को तैयार करें, शारीरिक स्वास्थ्य और अनुशासन का विकास करें। परंतु वहीं रुक न जाएँ। योगासन से आगे बढ़कर उस \u201Cयोग\u201D की ओर बढ़ें, जिसका उपदेश भगवद्गीता में है — शारीरिक आसन से आंतरिक स्थिरता की ओर; कुशल कर्म से समर्पित कर्म की ओर; कर्म के बंधन से ईश्वर में मुक्ति की ओर।",
+        },
+        {
+          type: "p",
+          text: "योगासन शरीर को तैयार करता है। गीता की दृष्टि का \u201Cयोग\u201D आत्मा को मुक्त करता है। हरिः शरणम् ।",
+        },
+      ],
+    },
+  },
 ];

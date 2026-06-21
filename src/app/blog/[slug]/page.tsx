@@ -5,6 +5,120 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 const blogPosts: Record<string, BlogPost> = {
+  "discovery-of-a-new-vinod": {
+    title: "Discovery of a New Vinod",
+    date: "Jun 21, 2026",
+    image: img("blog-discovery-of-a-new-vinod-rohit.png"),
+    intro:
+      "On a long day in Mumbai — from the heritage corridors of the Director General of Police's office in Colaba, to a quiet visit to Swastik Productions in Andheri, to a teakwood workshop preparing deities for the Dartford Temple in London — the most memorable moment came not from a meeting with the powerful, but from an hour‑long taxi ride to Chembur. In a conversation with Rohit Yadav, a forty‑year‑old driver from Kanpur, BrahmBodhi rediscovered Vinod — a former tribal daily‑wage labourer from Ranchi who, with nothing more than knowledge and a forty‑five‑minute video, had transformed the lives of twenty thousand unorganized workers. This is a short reflection on selfless service as a spiritual act, and on the principle at the heart of Bhagavad Dharma: do not make spirituality narrow.",
+    content: [],
+    sections: [
+      {
+        heading: "A long day in a vast city",
+        body: "Distances in Mumbai are enormous, BrahmBodhi observes, and the density of traffic on its limited roads magnifies them even further. Even after spending eight or nine hours in the city, one cannot really visit very many places. His day, therefore, became a slow journey through three or four points — each one carrying its own meaning.\n\nThe day began in the Colaba area, where the office of the Director General of Police, Maharashtra is located in what appears to be a heritage building. BrahmBodhi shares that many years ago he used to visit this building frequently; it has always fascinated him, and so he chose to return to it once again.",
+      },
+      {
+        heading: "A brief meeting with the Director General of Police",
+        body: "BrahmBodhi had a brief meeting with Shri Sadanand Date, the Director General of Police, Maharashtra. He presented the DGP with a copy of his English commentary on the Bhagavad Gita and a copy of the Sanatan Seva Nidhi Act. Shri Date, in his impression, appeared to be a thoughtful and courteous officer — yet firm in his convictions. The two spoke briefly about the Sanatan Seva Nidhi.\n\nBoth the DGP's office and the office building of the Mumbai Police Commissioner, BrahmBodhi notes, are among the sights worth seeing in Mumbai. They belong to an earlier world, and still carry the aura of a bygone era.",
+      },
+      {
+        heading: "A note left at Swastik Productions",
+        body: "Siddharth Kumar Tewary, the owner of Swastik Productions, has produced several outstanding television serials on religious themes. On his way, BrahmBodhi happened to pass by the Swastik Productions office in Andheri West. By the time he stepped inside at around 7:30 p.m., most people had already left; only a few junior staff members remained.\n\nSiddharth Tewary had been out of Mumbai for the past two or three days. Had they met, BrahmBodhi would have shared a few thoughts on how television serials and films could contribute even more to the welfare of humanity. He left a note for him and moved on.",
+      },
+      {
+        heading: "Wood for the Dartford Temple",
+        body: "The management of the Dartford Temple in London had requested a teakwood structure for housing certain deities. With that objective in mind, BrahmBodhi also visited a wood‑carving workshop in Mumbai and held some discussions there about the design and the craft involved.",
+      },
+      {
+        heading: "A taxi ride that became the day's most important event",
+        body: "And yet, the most important event of the day was a taxi journey to Chembur — which began from Swastik Productions and ended at the hotel where BrahmBodhi was staying. What made the journey memorable was not the distance, but the conversation with the driver.\n\nThe driver, Rohit Yadav, is forty years old and originally belongs to Kanpur in Uttar Pradesh. He has lived in Mumbai since the age of twenty. He drives a taxi for nearly sixteen hours a day, yet earns less than ₹2,000 per day. And yet, BrahmBodhi notes, he is full of contentment, enthusiasm, and faith. One is reminded of the Gita's spirit captured in the words “Yena Kenachit Santushtah” — a person content with whatever comes his way.\n\nAn hour‑long journey passed in understanding the way of life of Mumbai's taxi drivers through their conversation.",
+      },
+      {
+        heading: "The welfare schemes Rohit did not know about",
+        body: "BrahmBodhi gently asked Rohit whether he had enrolled in the government's pension scheme. Rohit replied that he was not even aware of it. Was he registered as an unorganized worker with the Labour Department? No. Had he enrolled in any government‑sponsored medical insurance scheme? No. Had he made any arrangements for his daughter under the Sukanya Yojana? Again, no.\n\nBrahmBodhi asked him about several other government welfare schemes. Rohit said he knew very little about them. He had heard of some from a distance, but did not really know how they worked.",
+      },
+      {
+        heading: "The story of Vinod, the tribal labour leader from Ranchi",
+        body: "BrahmBodhi then narrated to Rohit the story of Vinod — a tribal labour leader from Ranchi — with whom he had once had a very similar conversation. At that time Vinod was a daily‑wage labourer. BrahmBodhi introduced him to these welfare mechanisms and offered a little guidance, explaining how unorganized workers could register themselves with the Labour Department.\n\nHe told Rohit how beneficial such registration could be, even though most labourers know nothing about it. He also told him that this same former daily‑wage worker has now become a major labour leader in parts of Jharkhand — particularly in the districts of Gumla and Lohardaga. Today, tens of thousands of workers stand behind Vinod, many of whom he himself helped to register as unorganized labourers.",
+      },
+      {
+        heading: "Knowledge as the seed of transformation",
+        body: "Apart from inspiration, BrahmBodhi reflects, he had given Vinod no significant material assistance. He had simply shared knowledge.\n\nOn one occasion, he had invited a Labour Department officer and recorded a simple forty‑five‑minute instructional video explaining how to fill out the registration forms. Vinod then carried that video from village to village. Gradually, many others became proficient in the process. Today, at least twenty thousand labourers have benefited enormously from those efforts. Various government benefits have begun reaching their accounts automatically. They have even started receiving priority in housing schemes because of their registration.\n\nSome of BrahmBodhi's college friends and other officers known to him — Shri Vijay Datta, a Joint Secretary, and Shri Shashi Ranjan, a former District Magistrate — supported Vinod from time to time and helped get his organization registered as a trade union without the payment of any bribes. Ordinarily, such registrations involve demands for enormous bribes; Vinod paid none. That became possible because of the intervention of such generous and public‑spirited officers.",
+      },
+      {
+        heading: "A driver with the qualities of a sevak",
+        body: "BrahmBodhi noticed in Rohit a genuine inclination toward service. Rohit told him that he neither drinks alcohol, nor smokes, nor consumes gutka. He had learned from Marwari families to feed grains to the birds.\n\nBrahmBodhi mentioned that whenever he used the Uber app, he always selected the option that provides an additional ₹30 to the driver. He asked Rohit whether he actually received this amount. To his surprise, Rohit said he did not even know such an option existed. BrahmBodhi remarked, “Then what was the point of my paying it, if it never reaches you?” Rohit replied that he would check his account and let him know — perhaps he had been receiving it without noticing.",
+      },
+      {
+        heading: "An understanding that may benefit thousands",
+        body: "During the course of that one‑hour conversation, BrahmBodhi and Rohit arrived at an understanding. BrahmBodhi would continue to share knowledge with him regarding government welfare schemes and ways of securing one's future. Once Rohit had learned these things for himself, he would pass the knowledge on to others — and perhaps, like Vinod, benefit ten or twenty thousand people.\n\nSuch work, BrahmBodhi reflects, benefits a person not only in this life but in future lives as well. There are few ways more effective than selfless service for neutralizing the effects of past negative actions and earning divine grace. One need not always undertake great projects. Simply helping someone in a small way while going about one's daily life can itself become a spiritual act.",
+      },
+      {
+        heading: "Vada Pav, and a first taste of Maharashtra",
+        body: "At one point BrahmBodhi said to Rohit, “I have heard so much about Mumbai's famous Vada Pav. What exactly is it? I have no idea. Today you must treat me to one, and have one yourself at my expense.”\n\nRohit laughed and said, “There is nothing extraordinary about it. What people in Uttar Pradesh call an aloo tikki is placed inside a pav, with a little chutney. That's all. Yet the whole of Maharashtra is crazy about Vada Pav.”\n\nWhen Rohit stopped the taxi and brought one for him, BrahmBodhi found that Rohit was largely correct. There was a potato fritter inside, some chutney, and a pav cut into two halves around it. For the first time in his life, BrahmBodhi tasted the Vada Pav of Maharashtra.",
+      },
+      {
+        heading: "A copy of Gita Navneet — and a quiet vow",
+        body: "BrahmBodhi happened to be carrying a copy of Gita Navneet — a collection of fifty‑one selected verses from the Bhagavad Gita designed for beginners. He presented it to Rohit as a gift, telling him that these fifty‑one verses had the potential to completely reorganize and transform a person's life.\n\nHe said to Rohit, “Keep reminding me from time to time on WhatsApp. I will continue sending you information about government schemes and other life‑transforming knowledge. First apply it within your own family, and then pass it on to others.”\n\nA central principle of Bhagavad Dharma, BrahmBodhi reminds us, is this: do not make spirituality narrow.",
+      },
+    ],
+    hi: {
+      title: "एक नए विनोद की खोज",
+      intro:
+        "मुम्बई में एक लम्बे दिन में — कोलाबा स्थित महाराष्ट्र के पुलिस महानिदेशक कार्यालय के विरासत भवनों से लेकर, अंधेरी में स्वस्तिक प्रोडक्शंस की एक शांत यात्रा तक, और लंदन के डार्टफोर्ड मन्दिर के लिए देव-मूर्तियों हेतु तैयार हो रही सागवान-कार्यशाला तक — सबसे स्मरणीय क्षण किसी प्रभावशाली व्यक्ति के साथ बैठक से नहीं, अपितु चेम्बूर तक की एक घंटे की टैक्सी-यात्रा से आया। कानपुर के चालीस वर्षीय चालक रोहित यादव से हुई बातचीत में ब्रह्मबोधि को विनोद की पुनर्खोज हुई — रांची का वह पूर्व आदिवासी दैनिक मज़दूर, जिसने केवल ज्ञान और एक पैंतालीस मिनट के वीडियो के बल पर बीस हज़ार असंगठित कामगारों का जीवन बदल दिया। यह निःस्वार्थ सेवा को आध्यात्मिक कर्म के रूप में देखने का एक संक्षिप्त चिंतन है, और भगवद् धर्म के एक मूल सूत्र की स्मृति है — आध्यात्मिकता को संकीर्ण मत बनाओ।",
+      content: [],
+      sections: [
+        {
+          heading: "एक विशाल नगर में एक लम्बा दिन",
+          body: "ब्रह्मबोधि देखते हैं कि मुम्बई की दूरियाँ अत्यंत बड़ी हैं, और इसकी सीमित सड़कों पर यातायात का घनत्व उन्हें और भी अधिक कर देता है। आठ-नौ घंटे नगर में बिताकर भी कोई बहुत-से स्थानों पर नहीं जा पाता। इसलिए उनका दिन तीन-चार बिन्दुओं की एक धीमी यात्रा बन गया — और प्रत्येक बिन्दु अपना एक अलग अर्थ लेकर आया।\n\nदिन का आरम्भ कोलाबा क्षेत्र से हुआ, जहाँ महाराष्ट्र के पुलिस महानिदेशक का कार्यालय एक ऐसी इमारत में स्थित है जो विरासत-भवन प्रतीत होती है। ब्रह्मबोधि बताते हैं कि अनेक वर्ष पहले वे इस भवन में बार-बार आया करते थे; यह सदा से उन्हें आकर्षित करता रहा है, और इसी कारण उन्होंने इसे एक बार पुनः देखने का निश्चय किया।",
+        },
+        {
+          heading: "पुलिस महानिदेशक से एक संक्षिप्त भेंट",
+          body: "ब्रह्मबोधि की महाराष्ट्र के पुलिस महानिदेशक श्री सदानन्द दाते से एक संक्षिप्त भेंट हुई। उन्होंने महानिदेशक को अपनी अंग्रेज़ी में लिखी भगवद् गीता की टीका तथा “सनातन सेवा निधि अधिनियम” की एक-एक प्रति भेंट की। उनके अनुसार श्री दाते एक विचारशील और शिष्ट अधिकारी प्रतीत हुए — किन्तु अपने सिद्धान्तों में दृढ़। दोनों के बीच सनातन सेवा निधि पर संक्षिप्त चर्चा भी हुई।\n\nब्रह्मबोधि बताते हैं कि महानिदेशक का कार्यालय तथा मुम्बई पुलिस आयुक्त का भवन — दोनों ही मुम्बई के दर्शनीय स्थानों में आते हैं। ये पुराने युग की सम्पदा हैं, और आज भी एक बीते हुए काल का आभा-मण्डल अपने साथ रखते हैं।",
+        },
+        {
+          heading: "स्वस्तिक प्रोडक्शंस में एक छोड़ा हुआ संदेश",
+          body: "स्वस्तिक प्रोडक्शंस के स्वामी श्री सिद्धार्थ कुमार तिवारी ने धार्मिक विषयों पर अनेक उत्कृष्ट टेलीविज़न-धारावाहिकों का निर्माण किया है। मार्ग में ब्रह्मबोधि का गुज़र अंधेरी पश्चिम स्थित स्वस्तिक प्रोडक्शंस के कार्यालय के पास से हुआ। जब वे लगभग साढ़े सात बजे कार्यालय के भीतर पहुँचे, तब अधिकांश लोग जा चुके थे; केवल कुछ कनिष्ठ कर्मचारी ही शेष थे।\n\nसिद्धार्थ तिवारी पिछले दो-तीन दिन से मुम्बई से बाहर थे। यदि भेंट हो पाती, तो ब्रह्मबोधि उनसे कुछ विचार साझा करना चाहते थे — कि टेलीविज़न-धारावाहिक और फ़िल्में मानव-कल्याण में और अधिक योगदान कैसे कर सकती हैं। उन्होंने उनके लिए एक संदेश छोड़ा और आगे बढ़ गए।",
+        },
+        {
+          heading: "डार्टफोर्ड मन्दिर के लिए लकड़ी",
+          body: "लंदन के डार्टफोर्ड मन्दिर के प्रबन्धन ने कुछ देव-मूर्तियों की प्रतिष्ठा के लिए सागवान की लकड़ी की एक संरचना का अनुरोध किया था। उसी उद्देश्य से ब्रह्मबोधि मुम्बई की एक काष्ठ-शिल्प कार्यशाला में भी गए और वहाँ अभिकल्पना तथा शिल्प-कला से जुड़े विषयों पर कुछ चर्चा की।",
+        },
+        {
+          heading: "एक टैक्सी-यात्रा जो दिन की सबसे महत्त्वपूर्ण घटना बन गई",
+          body: "और फिर भी, उस दिन की सबसे महत्त्वपूर्ण घटना थी चेम्बूर तक की वह टैक्सी-यात्रा — जो स्वस्तिक प्रोडक्शंस से प्रारम्भ हुई और उनके होटल पर समाप्त हुई। इस यात्रा को स्मरणीय बनाने वाली बात दूरी नहीं थी — चालक के साथ हुई बातचीत थी।\n\nचालक रोहित यादव चालीस वर्ष के हैं और मूलतः उत्तर प्रदेश के कानपुर के निवासी हैं। वे बीस वर्ष की आयु से मुम्बई में रह रहे हैं। वे प्रतिदिन लगभग सोलह घंटे टैक्सी चलाते हैं, और फिर भी प्रतिदिन दो हज़ार रुपये से कम कमा पाते हैं। और इतना सब होते हुए भी, ब्रह्मबोधि बताते हैं, वे संतोष, उत्साह और श्रद्धा से परिपूर्ण हैं। गीता की उस भावना का स्मरण हो आता है जो “येन केनचित् सन्तुष्टः” शब्दों में अभिव्यक्त होती है — जो जो प्राप्त हो जाए, उसमें संतुष्ट रहने वाला व्यक्ति।\n\nलगभग एक घंटे की यह यात्रा रोहित के साथ बातचीत के माध्यम से मुम्बई के टैक्सी-चालकों की जीवन-शैली को समझते-समझते बीत गई।",
+        },
+        {
+          heading: "रोहित को न ज्ञात कल्याणकारी योजनाएँ",
+          body: "ब्रह्मबोधि ने रोहित से सहजता से पूछा कि क्या उन्होंने सरकार की पेंशन योजना में पंजीकरण कराया है। रोहित ने बताया कि उन्हें इसकी जानकारी ही नहीं है। क्या वे श्रम विभाग में असंगठित कामगार के रूप में पंजीकृत हैं? नहीं। क्या वे किसी सरकारी स्वास्थ्य-बीमा योजना में नामांकित हैं? नहीं। क्या उन्होंने अपनी पुत्री के लिए सुकन्या योजना के अंतर्गत कोई व्यवस्था की है? पुनः, नहीं।\n\nब्रह्मबोधि ने उनसे अनेक अन्य सरकारी कल्याणकारी योजनाओं के बारे में पूछा। रोहित ने बताया कि वे इनके विषय में बहुत कम जानते हैं। कुछ के नाम उन्होंने दूर से सुने हैं, परंतु वस्तुतः वे कैसे काम करती हैं — यह उन्हें ज्ञात नहीं है।",
+        },
+        {
+          heading: "रांची के आदिवासी श्रमिक-नेता विनोद की कथा",
+          body: "तब ब्रह्मबोधि ने रोहित को विनोद की कथा सुनाई — रांची का एक आदिवासी श्रमिक-नेता, जिनके साथ एक समय उनकी ठीक इसी प्रकार की बातचीत हुई थी। उस समय विनोद एक दैनिक मज़दूर थे। ब्रह्मबोधि ने उन्हें इन कल्याणकारी तंत्रों से परिचित कराया और थोड़ा-सा मार्गदर्शन दिया — यह समझाते हुए कि असंगठित कामगार किस प्रकार श्रम विभाग में अपना पंजीकरण करा सकते हैं।\n\nउन्होंने रोहित को बताया कि ऐसा पंजीकरण कितना लाभकारी हो सकता है — यद्यपि अधिकांश मज़दूरों को इसका कुछ भी ज्ञान नहीं होता। उन्होंने यह भी बताया कि वही पूर्व दैनिक-मज़दूर आज झारखंड के कुछ भागों में — विशेषकर गुमला और लोहरदगा ज़िलों में — एक बड़े श्रमिक-नेता बन चुके हैं। आज दसियों हज़ार कामगार विनोद के साथ खड़े हैं, जिनमें से अनेक का पंजीकरण असंगठित श्रमिकों के रूप में स्वयं विनोद ने ही करवाया।",
+        },
+        {
+          heading: "ज्ञान — रूपान्तरण का बीज",
+          body: "ब्रह्मबोधि स्मरण करते हैं कि प्रेरणा के अतिरिक्त उन्होंने विनोद को कोई महत्त्वपूर्ण भौतिक सहायता नहीं दी। उन्होंने मात्र ज्ञान दिया।\n\nएक अवसर पर उन्होंने श्रम विभाग के एक अधिकारी को बुलाया और एक सरल पैंतालीस मिनट का प्रशिक्षण-वीडियो तैयार करवाया, जिसमें यह समझाया गया कि पंजीकरण-प्रपत्र किस प्रकार भरे जाते हैं। विनोद उस वीडियो को गाँव-गाँव ले गए। धीरे-धीरे अनेक अन्य लोग भी इस प्रक्रिया में निपुण हो गए। आज कम-से-कम बीस हज़ार मज़दूरों को इन प्रयासों से अत्यधिक लाभ हुआ है। विभिन्न सरकारी लाभ स्वतः उनके खातों में पहुँचने लगे हैं। पंजीकरण के कारण उन्हें आवास-योजनाओं में भी प्राथमिकता मिलने लगी है।\n\nब्रह्मबोधि के कुछ कॉलेज-साथियों तथा कुछ परिचित अधिकारियों ने — श्री विजय दत्ता, संयुक्त सचिव, तथा श्री शशि रंजन, पूर्व ज़िलाधिकारी — समय-समय पर विनोद का सहयोग किया, और बिना किसी रिश्वत के उनके संगठन को ट्रेड यूनियन के रूप में पंजीकृत कराने में सहायता की। साधारणतः ऐसे पंजीकरणों में भारी रिश्वत की माँग होती है; विनोद ने एक पैसा नहीं दिया। यह संभव हुआ ऐसे उदार और लोक-कल्याणी अधिकारियों के हस्तक्षेप के कारण।",
+        },
+        {
+          heading: "एक सेवक की प्रवृत्ति वाला चालक",
+          body: "ब्रह्मबोधि ने रोहित में सेवा की एक स्वाभाविक प्रवृत्ति देखी। रोहित ने उन्हें बताया कि वे न मद्यपान करते हैं, न धूम्रपान, और न ही गुटखा खाते हैं। उन्होंने मारवाड़ी परिवारों से पक्षियों को अन्न डालना सीखा है।\n\nब्रह्मबोधि ने उल्लेख किया कि जब भी वे ऊबर ऐप का उपयोग करते हैं, तो वे सदा वह विकल्प चुनते हैं जिसमें चालक को अतिरिक्त ₹30 दिए जाते हैं। उन्होंने रोहित से पूछा कि क्या उन्हें वास्तव में यह राशि प्राप्त होती है। उनके आश्चर्य के लिए, रोहित ने बताया कि उन्हें तो यह तक ज्ञात नहीं था कि ऐसा कोई विकल्प भी होता है। ब्रह्मबोधि ने कहा, “तब फिर मेरे चुकाने का क्या अर्थ हुआ, यदि वह आप तक पहुँचता ही नहीं?” रोहित ने उत्तर दिया कि वे अपना खाता देखकर बताएँगे — सम्भव है कि उन्हें यह राशि मिलती हो और उनका ध्यान न गया हो।",
+        },
+        {
+          heading: "एक संकल्प, जो हज़ारों को लाभान्वित कर सकता है",
+          body: "उस एक घंटे की बातचीत के दौरान ब्रह्मबोधि और रोहित एक समझ पर पहुँचे। ब्रह्मबोधि उन्हें सरकारी कल्याणकारी योजनाओं तथा भविष्य को सुरक्षित करने के उपायों के विषय में निरंतर ज्ञान देते रहेंगे। जब रोहित ये बातें स्वयं सीख लेंगे, तो उन्हें दूसरों तक पहुँचाएँगे — और सम्भवतः, विनोद की भाँति, दस-बीस हज़ार लोगों को लाभ पहुँचा सकेंगे।\n\nब्रह्मबोधि चिंतन करते हैं कि ऐसा कार्य व्यक्ति को केवल इस जीवन में ही नहीं, अपितु आगामी जीवनों में भी लाभ पहुँचाता है। पूर्व-कर्मों के दुष्प्रभावों को क्षीण करने तथा ईश्वर की कृपा अर्जित करने के लिए निःस्वार्थ सेवा से अधिक प्रभावी मार्ग बहुत कम हैं। बड़ी-बड़ी परियोजनाएँ ही करना सदा आवश्यक नहीं है। दैनिक जीवन के साथ-साथ किसी की छोटी-सी सहायता कर देना ही — स्वयं में — एक आध्यात्मिक कर्म बन जाता है।",
+        },
+        {
+          heading: "वड़ा पाव — और महाराष्ट्र का पहला स्वाद",
+          body: "एक क्षण ब्रह्मबोधि ने रोहित से कहा, “मैंने मुम्बई के प्रसिद्ध वड़ा पाव के बारे में बहुत सुना है। यह वस्तुतः है क्या? मुझे कोई जानकारी नहीं है। आज आप मुझे एक खिलाइए, और मेरे ख़र्च पर आप भी एक खाइए।”\n\nरोहित हँस पड़े और बोले, “इसमें कुछ विशेष नहीं है। उत्तर प्रदेश में जिसे आलू टिक्की कहते हैं, उसे पाव के अंदर रख दिया जाता है, और साथ में थोड़ी चटनी। बस इतना ही। फिर भी पूरा महाराष्ट्र वड़ा पाव के पीछे पागल है।”\n\nजब रोहित ने टैक्सी रोककर उनके लिए एक वड़ा पाव लाकर दिया, तो ब्रह्मबोधि को लगा कि रोहित बहुत हद तक सही ही थे। भीतर एक आलू-पकौड़ा था, थोड़ी चटनी थी, और चारों ओर एक पाव दो भागों में काटा हुआ था। ब्रह्मबोधि ने अपने जीवन में पहली बार महाराष्ट्र का वड़ा पाव चखा।",
+        },
+        {
+          heading: "गीता-नवनीत की एक प्रति — और एक मौन व्रत",
+          body: "ब्रह्मबोधि के पास उस समय गीता-नवनीत की एक प्रति थी — भगवद् गीता के इक्यावन चयनित श्लोकों का एक संग्रह, जो प्रारम्भिक साधकों के लिए विशेष रूप से तैयार किया गया है। उन्होंने वह प्रति रोहित को उपहार स्वरूप भेंट कर दी, यह कहते हुए कि इन इक्यावन श्लोकों में किसी व्यक्ति के जीवन को पूर्णतः पुनर्व्यवस्थित और रूपान्तरित करने की सामर्थ्य है।\n\nउन्होंने रोहित से कहा, “समय-समय पर मुझे व्हाट्सऐप पर स्मरण कराते रहिएगा। मैं आपको सरकारी योजनाओं तथा अन्य जीवन-परिवर्तनकारी ज्ञान की जानकारी भेजता रहूँगा। पहले उसे अपने परिवार में लागू कीजिए, और फिर दूसरों तक पहुँचाइए।”\n\nभगवद् धर्म का एक केन्द्रीय सिद्धान्त, ब्रह्मबोधि स्मरण कराते हैं, यही है — आध्यात्मिकता को संकीर्ण मत बनाओ।",
+        },
+      ],
+    },
+  },
   "know-hinduism-religious-literacy-lesson-one": {
     title:
       "Know Hinduism: Religious Literacy — Lesson One (First Ten Questions)",

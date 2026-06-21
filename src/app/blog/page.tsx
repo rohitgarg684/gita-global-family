@@ -14,6 +14,14 @@ const englishArticles: {
   image: string;
 }[] = [
   {
+    title: "Discovery of a New Vinod",
+    excerpt:
+      "On a long day in Mumbai \u2014 from the heritage corridors of the DGP\u2019s office in Colaba to a quiet visit to Swastik Productions and a teakwood workshop for the Dartford Temple in London \u2014 the most memorable moment came from an hour\u2011long taxi ride. In a conversation with Rohit Yadav, a forty\u2011year\u2011old driver from Kanpur, BrahmBodhi rediscovered Vinod \u2014 a former tribal daily\u2011wage labourer from Ranchi who, with nothing more than knowledge and a forty\u2011five\u2011minute video, transformed the lives of twenty thousand workers. A short reflection on selfless service as a spiritual act. Available in English and Hindi.",
+    date: "Jun 21, 2026",
+    slug: "discovery-of-a-new-vinod",
+    image: img("blog-discovery-of-a-new-vinod-rohit.png"),
+  },
+  {
     title:
       "Know Hinduism: Religious Literacy — Lesson One (First Ten Questions)",
     excerpt:
