@@ -231,6 +231,21 @@ const nepalEvents: EventItem[] = [
 const mumbaiEvents: EventItem[] = [
   {
     images: [
+      img("event-mumbai-kulin-kothari-1.png"),
+      img("event-mumbai-kulin-kothari-2.png"),
+    ],
+    title: "Meeting with Dr. Kulin Kothari, Vision Foundation of India, Mumbai",
+    description:
+      "Today Swami Brahm Bodhi had the opportunity to meet his old friend, Dr. Kulin Kothari — one of Mumbai's most distinguished ophthalmologists — who runs a renowned eye hospital on Marine Drive.\n\nUpon arrival, Swamiji was shown the entire hospital. He was also shown the process of laser cataract surgery through a transparent glass panel, from where anyone can observe the procedure. He was deeply impressed by the advanced technology and the highly organised system of care.\n\nDr. Kothari then took Swamiji to his second hospital, where people from lower-income groups can receive a complete eye examination for just ₹200.\n\nDr. Kothari has taken upon himself the mission of eliminating avoidable blindness caused by retinal disorders, wherever such conditions are repairable or treatable. In pursuit of this goal, he and his organisation have performed approximately 750,000 eye surgeries across 21 states of India.\n\nDr. Kothari himself devotes the major part of his day to his charitable hospital, where the poor receive treatment.\n\nSwamiji remarked that he has rarely encountered a person in this country with such a spirit of service and philanthropy. Many of Mumbai's most prominent names — whether from the world of industry or the film world — have entrusted their eye surgeries to his skilled hands over the years.\n\nDuring their drive together in his car, and later while sitting in the office of his charitable hospital, Swamiji and Dr. Kothari had long and meaningful discussions about the country, society, and the challenges facing the nation.\n\nMay God grant him a long life and continue to bless his noble work in the service of humanity.",
+    hi: {
+      title:
+        "विज़न फाउंडेशन ऑफ इंडिया के डॉ. कुलिन कोठारी से भेंट, मुंबई",
+      description:
+        "आज स्वामी ब्रह्म बोधि जी को अपने पुराने मित्र डॉ. कुलिन कोठारी से मिलने का अवसर मिला — जो मुंबई के सबसे प्रतिष्ठित नेत्र रोग विशेषज्ञों में से एक हैं और मरीन ड्राइव पर एक प्रसिद्ध नेत्र चिकित्सालय का संचालन करते हैं।\n\nपहुँचने पर स्वामी जी को पूरा अस्पताल दिखाया गया। उन्हें एक पारदर्शी काँच के पैनल के माध्यम से लेज़र मोतियाबिंद शल्य-चिकित्सा (Laser Cataract Surgery) की प्रक्रिया भी दिखाई गई, जहाँ से कोई भी व्यक्ति इस प्रक्रिया का अवलोकन कर सकता है। वे वहाँ की उन्नत तकनीक और अत्यंत सुव्यवस्थित चिकित्सा प्रणाली से गहराई से प्रभावित हुए।\n\nइसके पश्चात् डॉ. कोठारी उन्हें अपने दूसरे अस्पताल में ले गए, जहाँ निम्न आय वर्ग के लोगों के लिए मात्र ₹200 में सम्पूर्ण नेत्र-परीक्षण की व्यवस्था है।\n\nडॉ. कोठारी ने रेटिना संबंधी विकारों से होने वाले उस अंधत्व को समाप्त करने का संकल्प ले रखा है, जिसे रोका या उपचारित किया जा सकता है। इस उद्देश्य की पूर्ति हेतु उन्होंने और उनके संगठन ने भारत के 21 राज्यों में लगभग 7,50,000 नेत्र शल्य-चिकित्साएँ अब तक सम्पन्न की हैं।\n\nडॉ. कोठारी स्वयं अपने दिन का बड़ा भाग अपने धर्मार्थ अस्पताल में लगाते हैं, जहाँ निर्धन रोगियों का उपचार होता है।\n\nस्वामी जी ने कहा कि इस देश में सेवा और परोपकार की ऐसी भावना से ओत-प्रोत व्यक्ति उन्हें कम ही मिले हैं। मुंबई के अनेक प्रमुख व्यक्तित्व — चाहे वे उद्योग जगत से हों या फिल्म जगत से — वर्षों से अपनी आँखों की शल्य-चिकित्साएँ उन्हीं के कुशल हाथों को सौंपते रहे हैं।\n\nउनकी कार में साथ-साथ चलते हुए, और बाद में उनके धर्मार्थ अस्पताल के कार्यालय में बैठकर, स्वामी जी और डॉ. कोठारी के बीच देश, समाज और राष्ट्र के समक्ष खड़ी चुनौतियों पर लंबी और सार्थक चर्चाएँ हुईं।\n\nईश्वर उन्हें दीर्घायु प्रदान करें और मानवता की सेवा में उनके इस पुण्य कार्य पर निरंतर अपनी कृपा बनाए रखें।",
+    },
+  },
+  {
+    images: [
       img("event-mumbai-vishal-chaturvedi-1.png"),
       img("event-mumbai-vishal-chaturvedi-2.png"),
     ],
