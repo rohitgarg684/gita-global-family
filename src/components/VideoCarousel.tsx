@@ -18,6 +18,8 @@ const categories: VideoCategory[] = [
   {
     title: "Bhagavad Gita Wisdom",
     videos: [
+      { id: "7PIG8xSGjqI", title: "भव रोग क्या है? | संसार का सबसे बड़ा रोग | भगवद्गीता का अद्भुत रहस्य" },
+      { id: "kkilMTVOnog", title: "मोक्ष क्या है? | सगुण मोक्ष और निर्गुण मोक्ष में क्या अंतर है?" },
       { id: "5PM71sAvvmg", title: "What is Gita Global Family?" },
       { id: "HB2gWl-VDMA", title: "The Hidden Harmony Behind Gita's Contradictions" },
       { id: "ps7Q93fQ7V8", title: "Understanding Karma Yoga: Action, Inaction, and Sinful Action" },

@@ -5,6 +5,104 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 const blogPosts: Record<string, BlogPost> = {
+  "the-supreme-purpose-of-human-life": {
+    title: "The Supreme Purpose of Human Life",
+    date: "Jul 8, 2026",
+    image: "/images/blog/blog-supreme-purpose-of-human-life.png",
+    intro:
+      "Guruji, what should the true purpose of human life be? In this reflection, BrahmBodhi draws a careful line between a goal and a purpose, shows that the quiet pursuit of happiness underlies almost every goal we chase, and — guided by Bhagavan Krishna's teaching on the three kinds of happiness (sattvic, rajasic, and tamasic) in the Bhagavad Gita — points to the highest answer of all: Divine Bliss in this life and Moksha hereafter as the supreme purpose of human life.",
+    content: [],
+    sections: [
+      {
+        heading: "Goal or purpose — are they the same?",
+        body: "Before we can answer this question honestly, we need to separate two ideas that are often confused: a goal and a purpose. A single life may hold many goals, yet beneath all of them runs one deeper purpose.\n\nEarning wealth is a goal. Raising a family is a goal. Winning fame is a goal. Landing a good job or building a thriving business is a goal too. Over a lifetime a person may pursue a great many such goals.",
+      },
+      {
+        heading: "Behind every goal, one shared purpose",
+        body: "Look closely at these goals, however, and a single thread appears behind all of them — the pursuit of happiness. The income from a job lets us secure life's necessities and the comforts that make us happy. Raising our children and educating them well fills us with joy, while failing them fills us with sorrow. For some, recognition and fame are a genuine source of delight.\n\nOf course, certain goals bring happiness to nearly everyone, while others please only a few. Not everyone longs for fame, so fame does not make everyone happy. Some people dislike being employees and would far rather build something of their own. Yet however different our individual goals may be, the purpose beneath them tends to be the same: we are all seeking happiness.",
+      },
+      {
+        heading: "The real question: what kind of happiness?",
+        body: "This turns the question around. The issue is not whether we want happiness — everyone does — but what kind of happiness we are seeking.\n\nIn the Bhagavad Gita, Bhagavan Krishna describes happiness as being of three kinds: sattvic, rajasic, and tamasic.",
+      },
+      {
+        heading: "Sattvic happiness",
+        body: "yat tad agre viṣam iva pariṇāme 'mṛtopamam\ntat sukhaṁ sāttvikaṁ proktam ātma-buddhi-prasāda-jam\n— Bhagavad Gita 18.37\n\nTranslation: The happiness that tastes like poison at first but turns to nectar in the end, born of the serenity of a purified intellect, is called sattvic happiness.",
+      },
+      {
+        heading: "Rajasic happiness",
+        body: "viṣayendriya-saṁyogād yat tad agre 'mṛtopamam\npariṇāme viṣam iva tat sukhaṁ rājasaṁ smṛtam\n— Bhagavad Gita 18.38\n\nTranslation: The happiness that springs from the contact of the senses with their objects seems like nectar at first but becomes poison in the end. This is known as rajasic happiness.",
+      },
+      {
+        heading: "Tamasic happiness",
+        body: "yad agre cānubandhe ca sukhaṁ mohanam ātmanaḥ\nnidrālasya-pramādotthaṁ tat tāmasam udāhṛtam\n— Bhagavad Gita 18.39\n\nTranslation: The happiness that deludes the self both at the beginning and in its results, and that arises from sleep, laziness, and negligence, is called tamasic happiness.",
+      },
+      {
+        heading: "Recognising the three in everyday life",
+        body: "Sometimes people even take pleasure in another's pain — feeling satisfied by humiliating someone, watching them fall, or causing them harm. So simply wanting happiness is not enough; what matters just as much is the kind of happiness we choose to pursue.\n\nTamasic happiness shows up as excessive sleep, idleness, neglect of one's duties, intoxication, and delight in harming others.\n\nRajasic happiness shows up as the craving for wealth, power, status, sensual pleasure, luxury, fine food, praise, and fame. It looks attractive at the start but usually ends in dissatisfaction, anxiety, and bondage.\n\nSattvic happiness shows up as speaking the truth, serving others, giving in charity, studying sacred wisdom, practising self-discipline, meditation, sincerely performing one's duties, and bringing light into another person's life. Such happiness can feel difficult at first, yet it finally grants deep peace and lasting contentment.",
+      },
+      {
+        heading: "Why do people choose so differently?",
+        body: "If every human being is seeking happiness, why do some settle for tamasic happiness while others reach for sattvic happiness?\n\nThe answer lies in the level of consciousness, knowledge, and discernment a person has developed. A small child prefers sweets to medicine simply because his understanding has not yet matured. In the same way, a spiritually immature person is naturally drawn to immediate sensory pleasure, while a person of ripened discernment chooses a higher and more enduring joy. This is why Bhagavan Krishna urges us to sharpen our discrimination and steadily rise above tamasic and rajasic happiness toward sattvic happiness — and ultimately toward Divine Bliss.\n\nThis is not a lesson unique to the Gita. Any person of mature intellect and refined judgment, whether a believer or not, arrives at the very same conclusion.",
+      },
+      {
+        heading: "Beyond sattvic happiness: Divine Bliss",
+        body: "And yet even sattvic happiness is not the final destination. Its highest flowering is Divine Bliss — the fullest and most perfect expression of sattvic happiness. To rejoice in the awareness of Bhagavan, to be illumined by spiritual wisdom, to be absorbed in loving devotion, to behold Bhagavan everywhere, and to experience our eternal relationship with Paramatman — all of these are forms of Divine Bliss.",
+      },
+      {
+        heading: "The supreme purpose: Divine Bliss and Moksha",
+        body: "So if someone asks, \"What should the true purpose of human life be?\", the answer is simple: the attainment of Divine Bliss.\n\nIn short, every human being should make it the purpose of life to attain Divine Bliss here, in this very lifetime, and Moksha after death. Moksha is complete and eternal freedom from all suffering — an entry into the inexhaustible ocean of Divine Bliss, forever in the presence of Bhagavan. This is the supreme purpose of human life.\n\nThat is why Bhagavan Krishna declares:\n\ntataḥ padaṁ tat parimārgitavyaṁ\nyasmin gatā na nivartanti bhūyaḥ\ntam eva cādyaṁ puruṣaṁ prapadye\nyataḥ pravṛttiḥ prasṛtā purāṇī\n— Bhagavad Gita 15.4\n\nTranslation: Therefore, one should seek that Supreme Abode, having reached which no one ever returns to this world again. I take refuge in that Primeval Supreme Person, from whom this ancient cosmic flow has streamed forth.",
+      },
+    ],
+    hi: {
+      title: "मानव जीवन का परम उद्देश्य",
+      intro:
+        "गुरुजी, मानव जीवन का सच्चा उद्देश्य क्या होना चाहिए? इस चर्चा में ब्रह्मबोधि 'लक्ष्य' और 'उद्देश्य' के बीच का सूक्ष्म अंतर स्पष्ट करते हैं, बताते हैं कि हम जो भी लक्ष्य पाते हैं उन सबके पीछे चुपचाप सुख की ही खोज छिपी रहती है, और भगवद्गीता में भगवान श्रीकृष्ण द्वारा बताए गए तीन प्रकार के सुख (सात्त्विक, राजसिक और तामसिक) के आधार पर सबसे ऊँचे उत्तर की ओर संकेत करते हैं — इसी जीवन में दिव्य आनंद और मृत्यु के पश्चात् मोक्ष ही मानव जीवन का परम उद्देश्य है।",
+      content: [],
+      sections: [
+        {
+          heading: "लक्ष्य और उद्देश्य — क्या ये एक ही हैं?",
+          body: "इस प्रश्न का ईमानदारी से उत्तर देने से पहले हमें दो बातों को अलग-अलग समझना होगा, जिन्हें अक्सर एक ही मान लिया जाता है — लक्ष्य और उद्देश्य। एक ही जीवन में अनेक लक्ष्य हो सकते हैं, परंतु उन सबके पीछे एक ही गहरा उद्देश्य बहता रहता है।\n\nधन कमाना एक लक्ष्य है। परिवार बसाना एक लक्ष्य है। यश पाना भी एक लक्ष्य है। अच्छी नौकरी पाना या सफल व्यवसाय खड़ा करना भी लक्ष्य ही है। इस प्रकार जीवन भर मनुष्य अनेक लक्ष्यों के पीछे दौड़ता रहता है।",
+        },
+        {
+          heading: "हर लक्ष्य के पीछे एक साझा उद्देश्य",
+          body: "किंतु इन लक्ष्यों को ध्यान से देखें तो इन सबके पीछे एक ही सूत्र दिखाई देता है — सुख की खोज। नौकरी से मिलने वाली आय हमें जीवन की आवश्यकताएँ और सुख-सुविधाएँ जुटाने में सहायता करती है। बच्चों का पालन-पोषण और उन्हें अच्छी शिक्षा देना हमें आनंद देता है, और ऐसा न कर पाना दुख देता है। कुछ लोगों को यश और प्रतिष्ठा से गहरा सुख मिलता है।\n\nनिस्संदेह, कुछ लक्ष्य ऐसे होते हैं जिनकी प्राप्ति लगभग सभी को सुख देती है, जबकि कुछ केवल कुछ ही लोगों को। हर कोई यश नहीं चाहता, इसलिए यश सबको सुखी नहीं करता। कुछ लोगों को नौकरी करना अच्छा नहीं लगता और वे अपना कुछ खड़ा करना पसंद करते हैं। फिर भी, हमारे अलग-अलग लक्ष्य चाहे जो भी हों, उनके पीछे का उद्देश्य प्रायः एक ही होता है — हम सब सुख की ही खोज में हैं।",
+        },
+        {
+          heading: "असली प्रश्न: कैसा सुख?",
+          body: "यही बात प्रश्न को पलट देती है। प्रश्न यह नहीं कि हम सुख चाहते हैं या नहीं — सुख तो सभी चाहते हैं — प्रश्न यह है कि हम किस प्रकार का सुख खोज रहे हैं।\n\nभगवद्गीता में भगवान श्रीकृष्ण सुख को तीन प्रकार का बताते हैं — सात्त्विक, राजसिक और तामसिक।",
+        },
+        {
+          heading: "सात्त्विक सुख",
+          body: "यत्तदग्रे विषमिव परिणामेऽमृतोपमम्।\nतत्सुखं सात्त्विकं प्रोक्तमात्मबुद्धिप्रसादजम्॥\n— भगवद्गीता 18.37\n\nअनुवाद: जो सुख आरंभ में विष के समान प्रतीत होता है परंतु परिणाम में अमृत के समान हो जाता है, और जो शुद्ध बुद्धि की प्रसन्नता से उत्पन्न होता है, वही सात्त्विक सुख कहलाता है।",
+        },
+        {
+          heading: "राजसिक सुख",
+          body: "विषयेन्द्रियसंयोगाद्यत्तदग्रेऽमृतोपमम्।\nपरिणामे विषमिव तत्सुखं राजसं स्मृतम्॥\n— भगवद्गीता 18.38\n\nअनुवाद: जो सुख इन्द्रियों के अपने विषयों के संयोग से उत्पन्न होता है, वह आरंभ में अमृत के समान प्रतीत होता है परंतु अंत में विष के समान बन जाता है। ऐसा सुख राजसिक सुख कहलाता है।",
+        },
+        {
+          heading: "तामसिक सुख",
+          body: "यदग्रे चानुबन्धे च सुखं मोहनमात्मनः।\nनिद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम्॥\n— भगवद्गीता 18.39\n\nअनुवाद: जो सुख आरंभ में और परिणाम में — दोनों में — आत्मा को मोहित करता है, और जो निद्रा, आलस्य और प्रमाद से उत्पन्न होता है, वह तामसिक सुख कहलाता है।",
+        },
+        {
+          heading: "इन तीनों को दैनिक जीवन में पहचानना",
+          body: "कभी-कभी लोग दूसरों को कष्ट देने में भी सुख अनुभव करते हैं — किसी का अपमान करके, किसी का पतन देखकर, या किसी को हानि पहुँचाकर संतुष्ट होते हैं। इसलिए केवल सुख चाहना ही पर्याप्त नहीं है; उतना ही महत्वपूर्ण यह है कि हम किस प्रकार के सुख को चुनते हैं।\n\nतामसिक सुख के उदाहरण हैं — अत्यधिक निद्रा, आलस्य, कर्तव्यों की उपेक्षा, नशा, और दूसरों को हानि पहुँचाने में आनंद।\n\nराजसिक सुख के उदाहरण हैं — धन, शक्ति, प्रतिष्ठा, इन्द्रिय-सुख, विलासिता, स्वादिष्ट भोजन, प्रशंसा और यश की लालसा। ये आरंभ में आकर्षक लगते हैं, परंतु अंततः असंतोष, चिंता और बंधन में ले जाते हैं।\n\nसात्त्विक सुख के उदाहरण हैं — सत्य बोलना, दूसरों की सेवा करना, दान देना, शास्त्र-अध्ययन, आत्म-संयम, ध्यान, अपने कर्तव्यों का निष्ठा से पालन, और किसी के जीवन में प्रकाश लाना। ऐसा सुख आरंभ में कठिन प्रतीत हो सकता है, परंतु अंततः गहरी शांति और स्थायी संतोष प्रदान करता है।",
+        },
+        {
+          heading: "लोग इतने भिन्न चुनाव क्यों करते हैं?",
+          body: "यदि प्रत्येक मनुष्य सुख की ही खोज में है, तो कुछ लोग तामसिक सुख से संतुष्ट क्यों हो जाते हैं और कुछ सात्त्विक सुख की ओर क्यों बढ़ते हैं?\n\nइसका उत्तर व्यक्ति की चेतना, ज्ञान और विवेक के स्तर में छिपा है। एक छोटा बच्चा दवा की अपेक्षा मिठाई इसलिए पसंद करता है क्योंकि उसकी समझ अभी परिपक्व नहीं हुई। इसी प्रकार, आध्यात्मिक दृष्टि से अपरिपक्व व्यक्ति स्वाभाविक रूप से तात्कालिक इन्द्रिय-सुख की ओर आकर्षित होता है, जबकि परिपक्व विवेक वाला व्यक्ति ऊँचे और अधिक स्थायी सुख को चुनता है। इसीलिए भगवान श्रीकृष्ण हमें अपने विवेक को तीक्ष्ण करने और तामसिक तथा राजसिक सुख से ऊपर उठकर सात्त्विक सुख — और अंततः दिव्य आनंद — की ओर बढ़ने की प्रेरणा देते हैं।\n\nयह शिक्षा केवल गीता तक सीमित नहीं है। परिपक्व बुद्धि और परिष्कृत विवेक वाला कोई भी व्यक्ति, चाहे आस्तिक हो या नास्तिक, इसी निष्कर्ष पर पहुँचता है।",
+        },
+        {
+          heading: "सात्त्विक सुख से परे: दिव्य आनंद",
+          body: "फिर भी सात्त्विक सुख अंतिम गंतव्य नहीं है। इसका सर्वोच्च पुष्पन दिव्य आनंद है — सात्त्विक सुख की पूर्णतम और सर्वश्रेष्ठ अभिव्यक्ति। भगवान की स्मृति में आनंदित होना, आध्यात्मिक ज्ञान से आलोकित होना, प्रेममयी भक्ति में लीन होना, सर्वत्र भगवान के दर्शन करना, और परमात्मा के साथ अपने शाश्वत संबंध का अनुभव करना — ये सब दिव्य आनंद के ही रूप हैं।",
+        },
+        {
+          heading: "परम उद्देश्य: दिव्य आनंद और मोक्ष",
+          body: "इसलिए यदि कोई पूछे, \"मानव जीवन का सच्चा उद्देश्य क्या होना चाहिए?\", तो उत्तर सरल है — दिव्य आनंद की प्राप्ति।\n\nसंक्षेप में, प्रत्येक मनुष्य को अपने जीवन का यही उद्देश्य बनाना चाहिए कि वह इसी जीवन में दिव्य आनंद और मृत्यु के पश्चात् मोक्ष को प्राप्त करे। मोक्ष का अर्थ है — समस्त दुखों से पूर्ण और शाश्वत मुक्ति, तथा भगवान की नित्य उपस्थिति में दिव्य आनंद के अक्षय सागर में प्रवेश। यही मानव जीवन का परम उद्देश्य है।\n\nइसीलिए भगवान श्रीकृष्ण घोषणा करते हैं:\n\nततः पदं तत्परिमार्गितव्यं यस्मिन्गता न निवर्तन्ति भूयः।\nतमेव चाद्यं पुरुषं प्रपद्ये यतः प्रवृत्तिः प्रसृता पुराणी॥\n— भगवद्गीता 15.4\n\nअनुवाद: इसलिए उस परम पद की खोज करनी चाहिए, जिसे प्राप्त कर लेने पर कोई फिर इस संसार में लौटकर नहीं आता। मैं उसी आदि पुरुष की शरण ग्रहण करता हूँ, जिससे यह सनातन सृष्टि-प्रवाह प्रकट हुआ है।",
+        },
+      ],
+    },
+  },
   "discovery-of-a-new-vinod": {
     title: "Discovery of a New Vinod",
     date: "Jun 21, 2026",

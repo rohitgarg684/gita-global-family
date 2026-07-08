@@ -14,6 +14,14 @@ const englishArticles: {
   image: string;
 }[] = [
   {
+    title: "The Supreme Purpose of Human Life",
+    excerpt:
+      "Guruji, what should the true purpose of human life be? BrahmBodhi separates a goal from a purpose, shows that almost every goal we chase is really a search for happiness, and \u2014 through Bhagavan Krishna's teaching on the three kinds of happiness (sattvic, rajasic, and tamasic) in the Bhagavad Gita \u2014 points to the highest answer of all: Divine Bliss in this life and Moksha hereafter. Available in English and Hindi.",
+    date: "Jul 8, 2026",
+    slug: "the-supreme-purpose-of-human-life",
+    image: "/images/blog/blog-supreme-purpose-of-human-life.png",
+  },
+  {
     title: "Discovery of a New Vinod",
     excerpt:
       "On a long day in Mumbai \u2014 from the heritage corridors of the DGP\u2019s office in Colaba to a quiet visit to Swastik Productions and a teakwood workshop for the Dartford Temple in London \u2014 the most memorable moment came from an hour\u2011long taxi ride. In a conversation with Rohit Yadav, a forty\u2011year\u2011old driver from Kanpur, BrahmBodhi rediscovered Vinod \u2014 a former tribal daily\u2011wage labourer from Ranchi who, with nothing more than knowledge and a forty\u2011five\u2011minute video, transformed the lives of twenty thousand workers. A short reflection on selfless service as a spiritual act. Available in English and Hindi.",
