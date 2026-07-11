@@ -40,6 +40,169 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "how-to-go-within-realize-the-self-part-1",
+    question:
+      "How does one go within, realize the true nature of the Self, and attain eternal bliss? (Part 1)",
+    preview:
+      "A seeker asks what it truly means to \u201Cgo within\u201D and experience the Self. Before turning to the practice, Brahm Bodhi first clears away a common assumption \u2014 that every scripture dismisses the world as unreal \u2014 and, through the analogy of a film cast upon a screen, shows how the world is real in our experience yet wholly dependent on Brahman.",
+    image: {
+      en: "qa-go-within-self-part1.png",
+      hi: "qa-go-within-self-part1.png",
+      alt: {
+        en: "Go within: realize the Self and attain eternal bliss",
+        hi: "भीतर प्रवेश कर — आत्मा के सत्य स्वरूप से जुड़ें और अक्षय आनंद को प्राप्त करें",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "A seeker once approached Brahm Bodhi for guidance on a question that troubles many who walk the spiritual path.",
+      },
+      {
+        type: "quote",
+        text: "Most scriptures declare that Brahman alone is real and the world is mithyā, and that nothing here can give lasting happiness or peace, for everything is subject to change and eventually perishes. The moment one desire is fulfilled, another arises; however much wealth or pleasure one gathers, complete satisfaction is never reached. We are told that whoever seeks lasting peace must turn within, realize their true nature as the Self, and become a witness. Yet no one explains what it actually means to \u201Cgo within.\u201D How does one experience one\u2019s true Self? What does one actually have to do?",
+      },
+      {
+        type: "p",
+        text: "Brahm Bodhi observed that the seeker\u2019s question carried not only questions but also a few assumptions \u2014 and that it would help to examine these first.",
+      },
+      {
+        type: "h",
+        text: "\u201CBrahman alone is real, the world is mithyā\u201D \u2014 is this what all scriptures say?",
+      },
+      {
+        type: "p",
+        text: "The seeker had written that all scriptures hold Brahman alone to be real and the world to be mithyā. This statement, Brahm Bodhi explained, is not entirely correct. Advaita Vedānta is not the only philosophical tradition within Sanātana Dharma; there are also schools such as Dvaita and Vishishtādvaita.",
+      },
+      {
+        type: "p",
+        text: "Great teachers such as Bhagavatpāda Madhvāchārya, Bhagavatpāda Rāmānujāchārya, and Bhagavatpāda Nimbārkāchārya did not regard the world as a mere illusion or unreality. They considered it to be a real creation of Bhagavān.",
+      },
+      {
+        type: "p",
+        text: "Moreover, the word mithyā itself does not carry the same meaning in every tradition. In Advaita Vedānta it does not mean \u201Cabsolutely unreal.\u201D Rather, it refers to that which is experienced but has no independent or ultimate existence of its own.",
+      },
+      { type: "h", text: "What the Gita says about the world" },
+      {
+        type: "p",
+        text: "The Bhagavad Gita, too, describes both Prakriti (material nature) and Purusha as beginningless:",
+      },
+      {
+        type: "quote",
+        text: "Prakṛtiṁ puruṣaṁ caiva viddhy anādī ubhāv api.",
+        cite: "Bhagavad Gita 13.19",
+      },
+      {
+        type: "p",
+        text: "At the same time, the Gita explains that the manifested universe repeatedly comes into being and again dissolves back into Prakriti:",
+      },
+      {
+        type: "quote",
+        text: "Sarva-bhūtāni Kaunteya prakṛtiṁ yānti māmikām... punaḥ punaś ca...",
+        cite: "Bhagavad Gita 9.7\u20138",
+      },
+      {
+        type: "p",
+        text: "The world, therefore, is neither eternal in its manifested form nor the ultimate Reality.",
+      },
+      { type: "h", text: "The analogy of the cinema" },
+      {
+        type: "p",
+        text: "Brahm Bodhi illustrated this with a familiar example. When a person sits in a cinema hall watching a film, the world on the screen appears so real that the viewer laughs, weeps, feels fear, and rejoices along with the characters. While the film runs, the experience is entirely real. Yet the moment the film ends, one recognizes at once that everything seen on the screen had no independent existence of its own.",
+      },
+      {
+        type: "p",
+        text: "This world may be understood in a similar sense. If Brahman is the projector, then the universe is like the moving picture cast upon the screen. The experience is real, but the projected world has no existence of its own; it depends entirely upon Brahman.",
+      },
+      { type: "h", text: "The real question" },
+      {
+        type: "p",
+        text: "This brings us to the question that truly matters: how does one rise above the fleeting, perishable pleasures offered by this moving picture of life and attain that inexhaustible bliss which, according to the Bhagavad Gita, already resides within us?",
+      },
+      {
+        type: "p",
+        text: "That subject deserves a discussion of its own, and so it will be taken up in the next part.",
+      },
+    ],
+    hi: {
+      question:
+        "मनुष्य भीतर कैसे प्रवेश करे, आत्मा के सत्य स्वरूप को कैसे जाने और अक्षय आनंद को कैसे प्राप्त करे? (भाग 1)",
+      preview:
+        "एक जिज्ञासु पूछते हैं कि \u201Cभीतर जाने\u201D और आत्मा का अनुभव करने का वास्तविक अर्थ क्या है। साधना की बात से पूर्व ब्रह्मबोधि एक प्रचलित धारणा को स्पष्ट करते हैं \u2014 कि सभी शास्त्र संसार को असत्य मानते हैं \u2014 और चलचित्र (सिनेमा) के दृष्टान्त से समझाते हैं कि संसार अनुभव में सत्य है, परन्तु पूर्णतः ब्रह्म पर आश्रित है।",
+      answer: [
+        {
+          type: "p",
+          text: "एक जिज्ञासु ने आध्यात्मिक मार्ग से जुड़े एक प्रश्न पर मार्गदर्शन के लिए ब्रह्मबोधि से संपर्क किया \u2014 ऐसा प्रश्न जो इस पथ पर चलने वाले अनेक साधकों को व्यथित करता है।",
+        },
+        {
+          type: "quote",
+          text: "अधिकांश शास्त्र कहते हैं कि \u201Cब्रह्म ही सत्य है, जगत् मिथ्या है।\u201D यह भी कहा जाता है कि इस संसार की कोई भी वस्तु स्थायी सुख या शांति नहीं दे सकती, क्योंकि सब कुछ परिवर्तनशील है और अंततः नष्ट हो जाता है। एक इच्छा पूरी होते ही दूसरी उठ खड़ी होती है; कितना भी सांसारिक धन या भोग एकत्र कर लें, पूर्ण संतोष कभी प्राप्त नहीं होता। हमें बताया जाता है कि स्थायी शांति चाहने वाले को भीतर मुड़ना होगा, आत्मा के रूप में अपने सच्चे स्वरूप को जानना होगा और साक्षी बनना होगा। परन्तु यह कोई नहीं बताता कि \u201Cभीतर जाने\u201D का वास्तव में अर्थ क्या है। अपने सच्चे आत्मस्वरूप का अनुभव कैसे हो? वस्तुतः करना क्या है?",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने ध्यान दिलाया कि जिज्ञासु के प्रश्न में केवल प्रश्न ही नहीं, कुछ पूर्वधारणाएँ भी छिपी हैं \u2014 और सबसे पहले उन्हीं पर विचार करना उचित होगा।",
+        },
+        {
+          type: "h",
+          text: "\u201Cब्रह्म ही सत्य, जगत् मिथ्या\u201D \u2014 क्या सभी शास्त्र यही कहते हैं?",
+        },
+        {
+          type: "p",
+          text: "जिज्ञासु ने लिखा था कि सभी शास्त्र ब्रह्म को ही सत्य और जगत् को मिथ्या मानते हैं। ब्रह्मबोधि ने समझाया कि यह कथन पूर्णतः ठीक नहीं है। सनातन धर्म में केवल अद्वैत वेदान्त ही एकमात्र दार्शनिक परम्परा नहीं है; द्वैत और विशिष्टाद्वैत जैसे मत भी हैं।",
+        },
+        {
+          type: "p",
+          text: "भगवत्पाद मध्वाचार्य, भगवत्पाद रामानुजाचार्य और भगवत्पाद निम्बार्काचार्य जैसे महान आचार्य जगत् को मात्र भ्रम या असत्य नहीं मानते। वे इसे भगवान की एक वास्तविक सृष्टि मानते हैं।",
+        },
+        {
+          type: "p",
+          text: "इसके अतिरिक्त, \u2018मिथ्या\u2019 शब्द का अर्थ भी प्रत्येक दार्शनिक परम्परा में एक-सा नहीं है। अद्वैत वेदान्त में इसका अर्थ \u201Cपूर्णतः असत्\u201D नहीं है। यह उसका द्योतक है जो अनुभव में तो आता है, किन्तु जिसका अपना कोई स्वतन्त्र या परम अस्तित्व नहीं होता।",
+        },
+        { type: "h", text: "जगत् के विषय में गीता क्या कहती है" },
+        {
+          type: "p",
+          text: "भगवद्गीता भी प्रकृति और पुरुष \u2014 दोनों को अनादि बताती है :",
+        },
+        {
+          type: "quote",
+          text: "प्रकृतिं पुरुषं चैव विद्ध्यनादी उभावपि।",
+          cite: "भगवद्गीता 13.19",
+        },
+        {
+          type: "p",
+          text: "साथ ही गीता यह भी बताती है कि व्यक्त जगत् बार-बार उत्पन्न होता है और पुनः प्रकृति में विलीन हो जाता है :",
+        },
+        {
+          type: "quote",
+          text: "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम्... पुनः पुनः...",
+          cite: "भगवद्गीता 9.7\u20138",
+        },
+        {
+          type: "p",
+          text: "अतः जगत् न तो अपने व्यक्त रूप में शाश्वत है और न ही परम सत्य।",
+        },
+        { type: "h", text: "सिनेमा का दृष्टान्त" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने इसे एक परिचित उदाहरण से समझाया। जब कोई व्यक्ति सिनेमा हॉल में बैठकर फ़िल्म देखता है, तो परदे पर का संसार इतना वास्तविक प्रतीत होता है कि दर्शक पात्रों के साथ हँसता है, रोता है, भयभीत होता है और आनन्दित होता है। जब तक फ़िल्म चलती है, अनुभव पूर्णतः सत्य होता है। परन्तु फ़िल्म समाप्त होते ही तुरन्त यह ज्ञात हो जाता है कि परदे पर जो कुछ देखा, उसका अपना कोई स्वतन्त्र अस्तित्व नहीं था।",
+        },
+        {
+          type: "p",
+          text: "इस संसार को भी इसी अर्थ में समझा जा सकता है। यदि ब्रह्म प्रोजेक्टर है, तो यह जगत् परदे पर प्रक्षेपित चलचित्र के समान है। अनुभव सत्य है, किन्तु प्रक्षेपित जगत् का अपना कोई स्वतन्त्र अस्तित्व नहीं; वह पूर्णतः ब्रह्म पर आश्रित है।",
+        },
+        { type: "h", text: "असली प्रश्न" },
+        {
+          type: "p",
+          text: "इससे वह प्रश्न सामने आता है जो वास्तव में महत्वपूर्ण है : जीवन के इस चलचित्र द्वारा प्रदान किए जाने वाले क्षणिक और नश्वर सुखों से ऊपर उठकर मनुष्य उस अक्षय आनन्द को कैसे प्राप्त करे, जो भगवद्गीता के अनुसार पहले से ही हमारे भीतर स्थित है?",
+        },
+        {
+          type: "p",
+          text: "यह विषय अपने आप में एक स्वतन्त्र चर्चा का अधिकारी है, अतः इसे अगले भाग में लिया जाएगा।",
+        },
+      ],
+    },
+  },
+  {
     id: "human-disposition-divine-or-demonic",
     coverImage: "qa-human-disposition-divine-demonic.png",
     question:
