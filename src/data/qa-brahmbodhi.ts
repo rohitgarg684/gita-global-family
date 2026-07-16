@@ -209,8 +209,8 @@ export const qaItems: QAItem[] = [
     preview:
       "Continuing the discussion, Brahm Bodhi shows that realizing the identity of the Self with Brahman is not the only road to everlasting bliss. Drawing on the Bhagavata Purana and the Gita, he explains the Path of Devotion (Bhakti Yoga): the devotee, longing for Bhagavan Narayana \u2014 the Saguna Brahman \u2014 reaches Vaikuntha and eternal bliss through love and surrender, the very same Supreme Goal attained through the path of knowledge.",
     image: {
-      en: "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/images/qa-go-within-self-part1.png",
-      hi: "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/images/qa-go-within-self-part1.png",
+      en: "qa-go-within-self-part1.png",
+      hi: "qa-go-within-self-part1.png",
       alt: {
         en: "The path of devotion: attaining eternal bliss through love of the Saguna Brahman",
         hi: "भक्ति का मार्ग : सगुण ब्रह्म के प्रेम द्वारा अक्षय आनंद की प्राप्ति",
@@ -366,8 +366,8 @@ export const qaItems: QAItem[] = [
     preview:
       "Can everlasting peace and bliss be attained without direct realization of the Self \u2014 and if so, how? Brahm Bodhi shows that the path of devotion offers such a way: resting on faith, love and complete surrender rather than philosophical inquiry, the devotee seeks the Saguna Brahman, Bhagavan Narayana, and through His grace attains Vaikuntha and unmixed, everlasting bliss.",
     image: {
-      en: "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/images/qa-go-within-self-part1.png",
-      hi: "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/images/qa-go-within-self-part1.png",
+      en: "qa-go-within-self-part1.png",
+      hi: "qa-go-within-self-part1.png",
       alt: {
         en: "The devotional path to everlasting bliss in Vaikuntha",
         hi: "वैकुण्ठ में अक्षय आनंद का भक्तिमय मार्ग",
