@@ -203,6 +203,310 @@ export const qaItems: QAItem[] = [
     },
   },
   {
+    id: "how-to-go-within-realize-the-self-part-2",
+    question:
+      "How does one go within, realize the true nature of the Self, and attain eternal bliss? (Part 2)",
+    preview:
+      "Continuing the discussion, Brahm Bodhi shows that realizing the identity of the Self with Brahman is not the only road to everlasting bliss. Drawing on the Bhagavata Purana and the Gita, he explains the Path of Devotion (Bhakti Yoga): the devotee, longing for Bhagavan Narayana \u2014 the Saguna Brahman \u2014 reaches Vaikuntha and eternal bliss through love and surrender, the very same Supreme Goal attained through the path of knowledge.",
+    image: {
+      en: "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/images/qa-go-within-self-part1.png",
+      hi: "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/images/qa-go-within-self-part1.png",
+      alt: {
+        en: "The path of devotion: attaining eternal bliss through love of the Saguna Brahman",
+        hi: "भक्ति का मार्ग : सगुण ब्रह्म के प्रेम द्वारा अक्षय आनंद की प्राप्ति",
+      },
+    },
+    answer: [
+      {
+        type: "h",
+        text: "Is inner realization of the identity of the Self and God necessary for everlasting bliss?",
+      },
+      {
+        type: "p",
+        text: "Turning to the second dimension of the seeker\u2019s question, Brahm Bodhi explained that realizing the true nature of the Self is not the only road to everlasting bliss.",
+      },
+      {
+        type: "p",
+        text: "According to the Bhagavata Purana, one of the foremost scriptures of the Bhakti tradition, there is another path to eternal bliss. On this path, the rigorous disciplines prescribed in works such as Patanjali\u2019s Yoga Sutras are not indispensable, nor is the direct realization of the true nature of the Self a prerequisite for Liberation.",
+      },
+      {
+        type: "p",
+        text: "This is the Path of Devotion (Bhakti Yoga), rather than the Path of Knowledge (Jnana Yoga) or the Path of Meditation (Dhyana Yoga).",
+      },
+      { type: "h", text: "The devotee\u2019s aspiration" },
+      {
+        type: "p",
+        text: "A devotee does not focus on realizing the true nature of the Self, nor does he seek, through inward contemplation, to experience the identity of the individual Self with the Supreme Brahman. His aspiration is directed towards Bhagavan Narayana, the Saguna Brahman \u2014 the personal manifestation of the Supreme Reality.",
+      },
+      {
+        type: "p",
+        text: "The centre of his spiritual life is not philosophical inquiry but loving devotion, worship, adoration, self-surrender, and an ever-deepening relationship with God.",
+      },
+      { type: "h", text: "The devotee is not devoid of knowledge" },
+      {
+        type: "p",
+        text: "This does not mean that a devotee is devoid of knowledge. On the contrary, he possesses all the essential knowledge required for spiritual life. He knows that God is omnipotent, omniscient, omnipresent, infinitely compassionate, and perfectly just \u2014 the Creator, Sustainer, and Dissolver of the universe, and the loving protector of His devotees.",
+      },
+      { type: "p", text: "For the devotee, this knowledge is sufficient." },
+      {
+        type: "p",
+        text: "He does not consider it necessary to pursue an elaborate philosophical understanding of the relationship between the individual Self and the Supreme Reality, because his goal is not to merge into the Nirguna Brahman. His longing is to attain Bhagavan Narayana, the Saguna Brahman \u2014 the personal and loving manifestation of that very Supreme Reality.",
+      },
+      { type: "h", text: "The culmination: Vaikuntha" },
+      {
+        type: "p",
+        text: "Thus, through love and devotion, he steadily advances towards God. The culmination of his spiritual journey is the attainment of Vaikuntha, the Divine Abode of Bhagavan Vishnu, where the Lord eternally manifests Himself in His glorious Personal Form.",
+      },
+      {
+        type: "p",
+        text: "Having reached that Divine Abode, the devotee experiences eternal, unalloyed bliss. Maya has no access there; time has no dominion there. It is a realm pervaded entirely by pure Sattva, and sorrow cannot even cast its shadow upon those who dwell there.",
+      },
+      { type: "h", text: "Two paths, one Supreme Goal" },
+      {
+        type: "p",
+        text: "Therefore, it is incorrect to conclude that without realizing the true nature of the Self one cannot attain God, Liberation, or eternal bliss. The very same Supreme Goal can also be attained through selfless love and unwavering devotion to the Saguna Brahman.",
+      },
+      {
+        type: "p",
+        text: "Bhagavan Krishna Himself affirms this profound truth in the Bhagavad Gita, declaring that seekers approach Him through different spiritual attitudes:",
+      },
+      {
+        type: "quote",
+        text: "jñāna-yajñena cāpy anye yajanto mām upāsate;\nekatvena pṛthaktvena bahudhā viśvato-mukham.",
+        cite: "Bhagavad Gita 9.15",
+      },
+      {
+        type: "p",
+        text: "\u201COthers worship Me through the sacrifice of knowledge \u2014 some perceiving Me as One, others as distinct from themselves, while still others adore Me in My countless universal manifestations.\u201D",
+      },
+      {
+        type: "p",
+        text: "Thus, some seekers approach the Supreme through the vision of Oneness, while others approach Him through the attitude of loving distinctness. Although the disciplines of these two paths differ, both ultimately lead to the same Supreme Reality.",
+      },
+    ],
+    hi: {
+      question:
+        "मनुष्य भीतर कैसे प्रवेश करे, आत्मा के सत्य स्वरूप को कैसे जाने और अक्षय आनंद को कैसे प्राप्त करे? (भाग 2)",
+      preview:
+        "चर्चा को आगे बढ़ाते हुए ब्रह्मबोधि बताते हैं कि आत्मा और ब्रह्म की एकता का साक्षात्कार ही अक्षय आनंद का एकमात्र मार्ग नहीं है। श्रीमद्भागवत पुराण और गीता के आधार पर वे भक्ति योग का मार्ग समझाते हैं : भक्त सगुण ब्रह्म भगवान नारायण की चाह में प्रेम और समर्पण के द्वारा वैकुण्ठ और शाश्वत आनंद को प्राप्त करता है \u2014 वही परम लक्ष्य जो ज्ञान के मार्ग से भी प्राप्त होता है।",
+      answer: [
+        {
+          type: "h",
+          text: "क्या अक्षय आनंद के लिए आत्मा और ईश्वर की एकता का आन्तरिक साक्षात्कार अनिवार्य है?",
+        },
+        {
+          type: "p",
+          text: "जिज्ञासु के प्रश्न के दूसरे पक्ष पर विचार करते हुए ब्रह्मबोधि ने बताया कि आत्मा के सत्य स्वरूप का साक्षात्कार ही अक्षय आनंद का एकमात्र मार्ग नहीं है।",
+        },
+        {
+          type: "p",
+          text: "श्रीमद्भागवत पुराण \u2014 भक्ति परम्परा के प्रमुख ग्रन्थों में से एक \u2014 के अनुसार अक्षय आनंद तक पहुँचने का एक और मार्ग है। इस मार्ग पर पतञ्जलि के योगसूत्र जैसे ग्रन्थों में वर्णित कठोर साधनाएँ अनिवार्य नहीं हैं, और न ही मोक्ष के लिए आत्मा के सत्य स्वरूप का साक्षात्कार पूर्वापेक्षा है।",
+        },
+        {
+          type: "p",
+          text: "यह ज्ञानयोग अथवा ध्यानयोग नहीं, अपितु भक्तियोग का मार्ग है।",
+        },
+        { type: "h", text: "भक्त की अभिलाषा" },
+        {
+          type: "p",
+          text: "भक्त आत्मा के सत्य स्वरूप के साक्षात्कार पर ध्यान केन्द्रित नहीं करता, और न ही अन्तर्मुख चिन्तन द्वारा जीवात्मा की परब्रह्म से एकता का अनुभव करना चाहता है। उसकी अभिलाषा सगुण ब्रह्म भगवान नारायण की ओर लगी रहती है \u2014 परम सत्य का साकार, व्यक्तिस्वरूप।",
+        },
+        {
+          type: "p",
+          text: "उसके आध्यात्मिक जीवन का केन्द्र दार्शनिक विवेचना नहीं, अपितु प्रेममयी भक्ति, पूजा, आराधना, आत्मसमर्पण और ईश्वर के साथ निरन्तर गहराता सम्बन्ध है।",
+        },
+        { type: "h", text: "भक्त ज्ञानरहित नहीं होता" },
+        {
+          type: "p",
+          text: "इसका अर्थ यह नहीं कि भक्त ज्ञानरहित होता है। इसके विपरीत, आध्यात्मिक जीवन के लिए आवश्यक समस्त ज्ञान उसके पास होता है। वह जानता है कि ईश्वर सर्वशक्तिमान, सर्वज्ञ, सर्वव्यापी, अनन्त करुणामय और पूर्णतः न्यायकारी हैं \u2014 सृष्टि के रचयिता, पालक और संहारक, तथा अपने भक्तों के प्रेममय रक्षक।",
+        },
+        { type: "p", text: "भक्त के लिए यही ज्ञान पर्याप्त है।" },
+        {
+          type: "p",
+          text: "वह जीवात्मा और परम सत्य के सम्बन्ध की विस्तृत दार्शनिक विवेचना को आवश्यक नहीं मानता, क्योंकि उसका लक्ष्य निर्गुण ब्रह्म में विलीन होना नहीं है। उसकी चाह उसी परम सत्य के साकार, प्रेममय स्वरूप \u2014 सगुण ब्रह्म भगवान नारायण \u2014 को प्राप्त करना है।",
+        },
+        { type: "h", text: "परिणति : वैकुण्ठ" },
+        {
+          type: "p",
+          text: "इस प्रकार प्रेम और भक्ति के द्वारा वह निरन्तर ईश्वर की ओर बढ़ता है। उसकी आध्यात्मिक यात्रा की परिणति भगवान विष्णु के दिव्य धाम वैकुण्ठ की प्राप्ति है, जहाँ भगवान अपने दिव्य व्यक्तिस्वरूप में नित्य प्रकट रहते हैं।",
+        },
+        {
+          type: "p",
+          text: "उस दिव्य धाम में पहुँचकर भक्त शाश्वत, निर्मल आनंद का अनुभव करता है। वहाँ माया का प्रवेश नहीं, वहाँ काल का शासन नहीं। वह धाम पूर्णतः शुद्ध सत्त्व से व्याप्त है, और वहाँ निवास करने वालों पर शोक अपनी छाया तक नहीं डाल सकता।",
+        },
+        { type: "h", text: "दो मार्ग, एक परम लक्ष्य" },
+        {
+          type: "p",
+          text: "अतः यह निष्कर्ष निकालना ठीक नहीं कि आत्मा के सत्य स्वरूप का साक्षात्कार किए बिना ईश्वर, मोक्ष अथवा अक्षय आनंद प्राप्त नहीं हो सकता। वही परम लक्ष्य सगुण ब्रह्म के प्रति निष्काम प्रेम और अनन्य भक्ति के द्वारा भी प्राप्त किया जा सकता है।",
+        },
+        {
+          type: "p",
+          text: "भगवान कृष्ण स्वयं भगवद्गीता में इस गूढ़ सत्य की पुष्टि करते हुए कहते हैं कि साधक भिन्न-भिन्न भावों से उन्हें प्राप्त करते हैं :",
+        },
+        {
+          type: "quote",
+          text: "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते।\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम्॥",
+          cite: "भगवद्गीता 9.15",
+        },
+        {
+          type: "p",
+          text: "\u201Cकुछ अन्य ज्ञानयज्ञ के द्वारा मेरी उपासना करते हैं \u2014 कोई मुझे एक (अभिन्न) रूप में जानकर, कोई पृथक् रूप में, तो कोई मेरे अनन्त विश्वरूप में मेरी आराधना करते हैं।\u201D",
+        },
+        {
+          type: "p",
+          text: "इस प्रकार कुछ साधक एकत्व की दृष्टि से परम की ओर बढ़ते हैं, तो कुछ प्रेममय पृथक्त्व के भाव से। यद्यपि इन दोनों मार्गों की साधनाएँ भिन्न हैं, दोनों ही अन्ततः उसी परम सत्य तक पहुँचाते हैं।",
+        },
+      ],
+    },
+  },
+  {
+    id: "how-to-go-within-realize-the-self-part-3",
+    question:
+      "How does one go within, realize the true nature of the Self, and attain eternal bliss? (Part 3)",
+    preview:
+      "Can everlasting peace and bliss be attained without direct realization of the Self \u2014 and if so, how? Brahm Bodhi shows that the path of devotion offers such a way: resting on faith, love and complete surrender rather than philosophical inquiry, the devotee seeks the Saguna Brahman, Bhagavan Narayana, and through His grace attains Vaikuntha and unmixed, everlasting bliss.",
+    image: {
+      en: "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/images/qa-go-within-self-part1.png",
+      hi: "https://storage.googleapis.com/gita-gloval-family.firebasestorage.app/assets/images/qa-go-within-self-part1.png",
+      alt: {
+        en: "The devotional path to everlasting bliss in Vaikuntha",
+        hi: "वैकुण्ठ में अक्षय आनंद का भक्तिमय मार्ग",
+      },
+    },
+    answer: [
+      {
+        type: "h",
+        text: "Can everlasting peace and bliss be attained without Self-realization? If so, how?",
+      },
+      {
+        type: "p",
+        text: "Brahm Bodhi then took up a question that follows naturally: can everlasting peace and bliss be reached at all without the direct realization of the Self \u2014 and if so, by what means?",
+      },
+      {
+        type: "p",
+        text: "Not only the Bhagavad Gita, he said, but foremost scriptures such as the Bhagavata Purana point to another path to everlasting bliss. Along this path it is not essential to study texts such as Patanjali\u2019s Yoga Sutras or to practise the disciplines they prescribe, nor is the final, direct realization of the true nature of the Self a requirement.",
+      },
+      {
+        type: "p",
+        text: "This, Brahm Bodhi explained, is the path of Bhakti (devotion), and not the path of Jnana (knowledge) or Dhyana (meditation).",
+      },
+      { type: "h", text: "What the devotee seeks" },
+      {
+        type: "p",
+        text: "A seeker on the path of devotion, he said, does not set out to realize the nature of the Self, nor does he turn inward to experience the identity of the individual Self with Brahman. His goal, rather, is to attain the Supreme Lord in His Saguna Brahman aspect \u2014 Bhagavan Narayana.",
+      },
+      {
+        type: "p",
+        text: "The foundation of such a seeker\u2019s practice is not philosophical inquiry but faith, love, worship, adoration, and complete surrender.",
+      },
+      { type: "h", text: "Knowledge enough for the journey" },
+      {
+        type: "p",
+        text: "This does not mean, Brahm Bodhi clarified, that a devotee requires no knowledge at all. He needs the essential spiritual knowledge: that God is omnipotent, omniscient, omnipresent, infinitely compassionate, and perfectly just \u2014 the Creator, Sustainer, and Dissolver of the entire universe, and the loving protector of His devotees. This understanding is sufficient for his spiritual journey.",
+      },
+      {
+        type: "p",
+        text: "Beyond this, he said, a detailed philosophical analysis of the relationship between the individual Self and Brahman is not necessary for such a seeker, for his goal is not to merge into the Nirguna Brahman but to attain Bhagavan Narayana, the Saguna Brahman. In other words, he seeks not the attributeless Absolute, but that very Absolute in its personal, loving, and manifest form.",
+      },
+      { type: "h", text: "The culmination: Vaikuntha" },
+      {
+        type: "p",
+        text: "Accordingly, through love and devotion the seeker advances towards Bhagavan, and the culmination of his devotional practice, Brahm Bodhi said, is the attainment of Vaikuntha \u2014 the divine abode where Bhagavan Vishnu resides in His eternal Personal Form.",
+      },
+      {
+        type: "p",
+        text: "Having reached that divine realm, the devotee experiences everlasting, unmixed bliss, for there Maya has no access, time has no influence, and the realm is governed entirely by pure Sattva. Sorrow cannot even touch anyone there.",
+      },
+      { type: "h", text: "The same Supreme Goal" },
+      {
+        type: "p",
+        text: "Therefore, Brahm Bodhi concluded, it is not correct to hold that God-realization, liberation, or everlasting bliss cannot be attained without the direct realization of the Self. A seeker who advances towards the Saguna Brahman through selfless love and devotion reaches the very same supreme goal.",
+      },
+      {
+        type: "p",
+        text: "Bhagavan Krishna explains this truth beautifully in the Bhagavad Gita, saying that people approach Him through different spiritual attitudes:",
+      },
+      {
+        type: "quote",
+        text: "jñāna-yajñena cāpy anye yajanto mām upāsate;\nekatvena pṛthaktvena bahudhā viśvato-mukham.",
+        cite: "Bhagavad Gita 9.15",
+      },
+      {
+        type: "p",
+        text: "\u201CSome seekers worship Me in the spirit of oneness, while others worship Me as distinct from themselves \u2014 and both forms of worship ultimately lead to Me.\u201D",
+      },
+    ],
+    hi: {
+      question:
+        "मनुष्य भीतर कैसे प्रवेश करे, आत्मा के सत्य स्वरूप को कैसे जाने और अक्षय आनंद को कैसे प्राप्त करे? (भाग 3)",
+      preview:
+        "क्या आत्मा के प्रत्यक्ष साक्षात्कार के बिना अक्षय शांति और आनंद प्राप्त हो सकते हैं \u2014 और यदि हाँ, तो कैसे? ब्रह्मबोधि बताते हैं कि भक्ति का मार्ग ऐसा उपाय देता है : दार्शनिक विवेचना नहीं, अपितु श्रद्धा, प्रेम और पूर्ण समर्पण के आधार पर भक्त सगुण ब्रह्म भगवान नारायण को चाहता है और उनकी कृपा से वैकुण्ठ तथा निर्मल, अक्षय आनंद को प्राप्त करता है।",
+      answer: [
+        {
+          type: "h",
+          text: "क्या आत्म-साक्षात्कार के बिना अक्षय शांति और आनंद प्राप्त हो सकते हैं? यदि हाँ, तो कैसे?",
+        },
+        {
+          type: "p",
+          text: "इसके पश्चात ब्रह्मबोधि ने एक स्वाभाविक प्रश्न पर विचार किया : क्या आत्मा के सत्य स्वरूप के प्रत्यक्ष साक्षात्कार के बिना अक्षय शांति और आनंद प्राप्त हो सकते हैं \u2014 और यदि हाँ, तो किस साधन से?",
+        },
+        {
+          type: "p",
+          text: "उन्होंने बताया कि केवल भगवद्गीता ही नहीं, अपितु श्रीमद्भागवत पुराण जैसे प्रमुख शास्त्र भी अक्षय आनंद के एक और मार्ग की ओर संकेत करते हैं। इस मार्ग पर पतञ्जलि के योगसूत्र जैसे ग्रन्थों का अध्ययन अथवा उनमें वर्णित साधनाओं का अभ्यास अनिवार्य नहीं है, और न ही आत्मा के सत्य स्वरूप का अन्तिम, प्रत्यक्ष साक्षात्कार आवश्यक है।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि यह भक्ति का मार्ग है \u2014 ज्ञान अथवा ध्यान का नहीं।",
+        },
+        { type: "h", text: "भक्त की चाह" },
+        {
+          type: "p",
+          text: "उन्होंने बताया कि भक्तिमार्ग का साधक आत्मा के स्वरूप का साक्षात्कार करने में नहीं लगता, और न ही अन्तर्मुख होकर जीवात्मा और ब्रह्म की एकता का अनुभव करना चाहता है। उसका लक्ष्य तो परमेश्वर को उनके सगुण ब्रह्म स्वरूप \u2014 भगवान नारायण \u2014 के रूप में प्राप्त करना है।",
+        },
+        {
+          type: "p",
+          text: "ऐसे साधक की साधना का आधार दार्शनिक विवेचना नहीं, अपितु श्रद्धा, प्रेम, पूजा, आराधना और पूर्ण समर्पण है।",
+        },
+        { type: "h", text: "यात्रा के लिए पर्याप्त ज्ञान" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने स्पष्ट किया कि इसका अर्थ यह नहीं कि भक्त को किसी ज्ञान की आवश्यकता ही नहीं। उसे आवश्यक आध्यात्मिक ज्ञान अवश्य चाहिए : कि ईश्वर सर्वशक्तिमान, सर्वज्ञ, सर्वव्यापी, अनन्त करुणामय और पूर्णतः न्यायकारी हैं \u2014 सम्पूर्ण सृष्टि के रचयिता, पालक और संहारक, तथा अपने भक्तों के प्रेममय रक्षक। यही समझ उसकी आध्यात्मिक यात्रा के लिए पर्याप्त है।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने कहा कि इसके अतिरिक्त, जीवात्मा और ब्रह्म के सम्बन्ध का विस्तृत दार्शनिक विश्लेषण ऐसे साधक के लिए आवश्यक नहीं, क्योंकि उसका लक्ष्य निर्गुण ब्रह्म में विलीन होना नहीं, अपितु सगुण ब्रह्म भगवान नारायण को प्राप्त करना है। दूसरे शब्दों में, वह निर्गुण निराकार को नहीं, अपितु उसी परम सत्य को उसके साकार, प्रेममय और व्यक्त स्वरूप में चाहता है।",
+        },
+        { type: "h", text: "परिणति : वैकुण्ठ" },
+        {
+          type: "p",
+          text: "इस प्रकार प्रेम और भक्ति के द्वारा साधक भगवान की ओर बढ़ता है, और ब्रह्मबोधि के अनुसार उसकी भक्ति-साधना की परिणति वैकुण्ठ की प्राप्ति है \u2014 वह दिव्य धाम जहाँ भगवान विष्णु अपने नित्य व्यक्तिस्वरूप में विराजते हैं।",
+        },
+        {
+          type: "p",
+          text: "उस दिव्य धाम में पहुँचकर भक्त शाश्वत, निर्मल आनंद का अनुभव करता है, क्योंकि वहाँ माया का प्रवेश नहीं, काल का प्रभाव नहीं, और वह धाम पूर्णतः शुद्ध सत्त्व से शासित है। वहाँ किसी को शोक छू तक नहीं सकता।",
+        },
+        { type: "h", text: "वही एक परम लक्ष्य" },
+        {
+          type: "p",
+          text: "अतः ब्रह्मबोधि ने निष्कर्ष दिया कि यह मानना ठीक नहीं कि आत्मा के प्रत्यक्ष साक्षात्कार के बिना ईश्वर-प्राप्ति, मोक्ष अथवा अक्षय आनंद सम्भव नहीं। जो साधक निष्काम प्रेम और भक्ति के द्वारा सगुण ब्रह्म की ओर बढ़ता है, वह भी उसी परम लक्ष्य को प्राप्त करता है।",
+        },
+        {
+          type: "p",
+          text: "भगवान कृष्ण भगवद्गीता में इस सत्य को सुन्दर रूप में समझाते हैं, यह कहते हुए कि लोग भिन्न-भिन्न भावों से उन्हें प्राप्त करते हैं :",
+        },
+        {
+          type: "quote",
+          text: "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते।\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम्॥",
+          cite: "भगवद्गीता 9.15",
+        },
+        {
+          type: "p",
+          text: "\u201Cकुछ साधक एकत्व के भाव से मेरी उपासना करते हैं, तो कुछ मुझे स्वयं से पृथक् मानकर \u2014 और उपासना के ये दोनों रूप अन्ततः मुझ तक ही पहुँचाते हैं।\u201D",
+        },
+      ],
+    },
+  },
+  {
     id: "human-disposition-divine-or-demonic",
     coverImage: "qa-human-disposition-divine-demonic.png",
     question:
