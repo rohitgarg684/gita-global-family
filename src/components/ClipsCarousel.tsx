@@ -63,6 +63,7 @@ const categories: ClipCategory[] = [
   {
     title: "Rediscovering Our Roots",
     clips: [
+      { id: "QXjSkemkj2c", title: "Is Reincarnation Real? A Scientific Study of 3,000 Cases" },
       { id: "MwMm46yBN48", title: "God's Names Are Powerful — But Conditions Apply" },
       { id: "5iFXVAQ039c", title: "Chanting God's Name at Death: Truths & Myths" },
       { id: "VdlEcYIEZJY", title: "This One Gita Verse Can Liberate You" },
