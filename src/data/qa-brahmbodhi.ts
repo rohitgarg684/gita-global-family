@@ -507,6 +507,141 @@ export const qaItems: QAItem[] = [
     },
   },
   {
+    id: "how-to-go-within-realize-the-self-part-4",
+    question:
+      "How does one go within, realize the true nature of the Self, and attain eternal bliss? (Part 4)",
+    preview:
+      "Can liberation and eternal, infinite bliss be attained even without Self-realization? Brahm Bodhi shows how the two paths finally meet: the knower is granted supreme devotion at liberation\u2019s gateway, and the devotee is granted illuminating knowledge \u2014 yet only on the path of knowledge is direct Self-realization indispensable, while the devotee attains saguna moksha in Vaikuntha without it.",
+    image: {
+      en: "qa-go-within-self-part1.png",
+      hi: "qa-go-within-self-part1.png",
+      alt: {
+        en: "Knowledge and devotion converge upon the same Supreme Goal",
+        hi: "ज्ञान और भक्ति एक ही परम लक्ष्य पर मिलते हैं",
+      },
+    },
+    answer: [
+      {
+        type: "h",
+        text: "Can liberation and eternal, infinite bliss be attained even without Self-realization?",
+      },
+      {
+        type: "p",
+        text: "There is, Brahm Bodhi noted, an interesting point worth observing about how the two paths finally meet.",
+      },
+      { type: "h", text: "The knower is granted devotion" },
+      {
+        type: "p",
+        text: "When a seeker travelling on the path of knowledge reaches the gateway to liberation with the \u201Cpassport\u201D of Self-realization, he said, Bhagavan still grants him the \u201Cvisa on arrival\u201D of devotion before admitting him into His divine abode. This is why Bhagavan Krishna declares:",
+      },
+      {
+        type: "quote",
+        text: "brahma-bhūtaḥ prasannātmā na śocati na kāṅkṣati;\nsamaḥ sarveṣu bhūteṣu mad-bhaktiṁ labhate parām.",
+        cite: "Bhagavad Gita 18.54",
+      },
+      {
+        type: "quote",
+        text: "bhaktyā mām abhijānāti yāvān yaś cāsmi tattvataḥ;\ntato māṁ tattvato jñātvā viśate tad-anantaram.",
+        cite: "Bhagavad Gita 18.55",
+      },
+      {
+        type: "p",
+        text: "In other words, Brahm Bodhi explained, even after attaining the Brahman state the seeker is blessed with supreme devotion to Bhagavan; through that devotion he comes to know Bhagavan in His true essence and thereafter enters His divine abode.",
+      },
+      { type: "h", text: "The devotee is granted knowledge" },
+      {
+        type: "p",
+        text: "Similarly, he said, when a seeker following the path of devotion reaches the gateway to liberation carrying the \u201Cpassport\u201D of bhakti, Bhagavan grants him the \u201Cvisa on arrival\u201D of knowledge. Bhagavan Himself declares:",
+      },
+      {
+        type: "quote",
+        text: "teṣām evānukampārtham aham ajñāna-jaṁ tamaḥ;\nnāśayāmy ātma-bhāva-stho jñāna-dīpena bhāsvatā.",
+        cite: "Bhagavad Gita 10.11",
+      },
+      {
+        type: "p",
+        text: "That is, Bhagavan Himself, dwelling in the devotee\u2019s heart, destroys the darkness born of ignorance with the radiant lamp of knowledge.",
+      },
+      { type: "h", text: "Two paths, one Goal" },
+      {
+        type: "p",
+        text: "Thus, Brahm Bodhi observed, the seeker on the path of knowledge ultimately attains devotion, while the seeker on the path of devotion ultimately receives the necessary knowledge through Bhagavan\u2019s grace. Though they begin from different directions, both paths finally converge upon the same Supreme Goal. Knowledge and devotion are not rivals; they complement and complete one another.",
+      },
+      { type: "h", text: "One important distinction" },
+      {
+        type: "p",
+        text: "There is, however, one important distinction, he added. On the path of knowledge, direct realization and personal experience of the Self and its identity with Brahman, the formless Absolute, are indispensable \u2014 mere intellectual understanding, hearsay, or imagination is not sufficient.",
+      },
+      {
+        type: "p",
+        text: "On the path of devotion, however, such Self-realization is not essential. Through devotion alone the seeker can attain saguna moksha, reaching Vaikuntha, where the soul \u2014 without merging into God \u2014 becomes forever free from the cycle of birth and death and attains infinite, eternal bliss and peace.",
+      },
+    ],
+    hi: {
+      question:
+        "मनुष्य भीतर कैसे प्रवेश करे, आत्मा के सत्य स्वरूप को कैसे जाने और अक्षय आनंद को कैसे प्राप्त करे? (भाग 4)",
+      preview:
+        "क्या आत्म-साक्षात्कार के बिना भी मोक्ष तथा अनन्त, अक्षय आनंद प्राप्त हो सकते हैं? ब्रह्मबोधि बताते हैं कि दोनों मार्ग अन्ततः एक ही स्थान पर मिलते हैं : ज्ञानी को मुक्ति के द्वार पर परा भक्ति प्राप्त होती है और भक्त को प्रकाशमय ज्ञान \u2014 किन्तु आत्मा का प्रत्यक्ष साक्षात्कार केवल ज्ञानमार्ग पर ही अनिवार्य है, जबकि भक्त उसके बिना ही वैकुण्ठ में सगुण मोक्ष प्राप्त कर लेता है।",
+      answer: [
+        {
+          type: "h",
+          text: "क्या आत्म-साक्षात्कार के बिना भी मोक्ष तथा अनन्त, अक्षय आनंद प्राप्त हो सकते हैं?",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि यहाँ एक रोचक बात ध्यान देने योग्य है \u2014 कि दोनों मार्ग अन्ततः किस प्रकार एक-दूसरे से मिल जाते हैं।",
+        },
+        { type: "h", text: "ज्ञानी को भक्ति की प्राप्ति" },
+        {
+          type: "p",
+          text: "उन्होंने बताया कि जब ज्ञानमार्ग पर चलने वाला साधक आत्म-साक्षात्कार रूपी \u201Cपासपोर्ट\u201D लेकर मुक्ति के द्वार पर पहुँचता है, तब भी भगवान उसे अपने दिव्य धाम में प्रवेश देने से पूर्व भक्ति रूपी \u201Cवीज़ा ऑन अराइवल\u201D प्रदान करते हैं। इसीलिए भगवान कृष्ण कहते हैं :",
+        },
+        {
+          type: "quote",
+          text: "ब्रह्मभूतः प्रसन्नात्मा न शोचति न काङ्क्षति।\nसमः सर्वेषु भूतेषु मद्भक्तिं लभते पराम्॥",
+          cite: "भगवद्गीता 18.54",
+        },
+        {
+          type: "quote",
+          text: "भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः।\nततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम्॥",
+          cite: "भगवद्गीता 18.55",
+        },
+        {
+          type: "p",
+          text: "अर्थात, ब्रह्मबोधि ने समझाया कि ब्रह्म-अवस्था प्राप्त कर लेने के पश्चात भी साधक को भगवान की परा भक्ति का वरदान मिलता है; उसी भक्ति के द्वारा वह भगवान को उनके सत्य स्वरूप में जानता है और तदनन्तर उनके दिव्य धाम में प्रवेश करता है।",
+        },
+        { type: "h", text: "भक्त को ज्ञान की प्राप्ति" },
+        {
+          type: "p",
+          text: "उन्होंने कहा कि इसी प्रकार, जब भक्तिमार्ग पर चलने वाला साधक भक्ति रूपी \u201Cपासपोर्ट\u201D लेकर मुक्ति के द्वार पर पहुँचता है, तब भगवान उसे ज्ञान रूपी \u201Cवीज़ा ऑन अराइवल\u201D प्रदान करते हैं। भगवान स्वयं कहते हैं :",
+        },
+        {
+          type: "quote",
+          text: "तेषामेवानुकम्पार्थमहमज्ञानजं तमः।\nनाशयाम्यात्मभावस्थो ज्ञानदीपेन भास्वता॥",
+          cite: "भगवद्गीता 10.11",
+        },
+        {
+          type: "p",
+          text: "अर्थात, भगवान स्वयं भक्त के हृदय में स्थित होकर अज्ञान से उत्पन्न अन्धकार को ज्ञान के देदीप्यमान दीपक से नष्ट कर देते हैं।",
+        },
+        { type: "h", text: "दो मार्ग, एक ही लक्ष्य" },
+        {
+          type: "p",
+          text: "इस प्रकार, ब्रह्मबोधि ने कहा, ज्ञानमार्ग का साधक अन्ततः भक्ति को प्राप्त करता है, और भक्तिमार्ग का साधक अन्ततः भगवान की कृपा से आवश्यक ज्ञान को प्राप्त करता है। यद्यपि दोनों भिन्न-भिन्न दिशाओं से आरम्भ करते हैं, तथापि दोनों मार्ग अन्ततः उसी एक परम लक्ष्य पर मिल जाते हैं। ज्ञान और भक्ति प्रतिद्वन्द्वी नहीं हैं; वे एक-दूसरे के पूरक हैं और एक-दूसरे को पूर्ण करते हैं।",
+        },
+        { type: "h", text: "एक महत्वपूर्ण भेद" },
+        {
+          type: "p",
+          text: "किन्तु उन्होंने जोड़ा कि यहाँ एक महत्वपूर्ण भेद है। ज्ञानमार्ग पर आत्मा तथा निराकार ब्रह्म के साथ उसकी एकता का प्रत्यक्ष साक्षात्कार और स्वानुभव अनिवार्य है \u2014 केवल बौद्धिक समझ, सुनी-सुनाई बात अथवा कल्पना पर्याप्त नहीं।",
+        },
+        {
+          type: "p",
+          text: "किन्तु भक्तिमार्ग पर ऐसा आत्म-साक्षात्कार अनिवार्य नहीं। केवल भक्ति के द्वारा ही साधक सगुण मोक्ष प्राप्त कर सकता है, वैकुण्ठ पहुँच सकता है, जहाँ आत्मा \u2014 ईश्वर में विलीन हुए बिना \u2014 जन्म-मृत्यु के चक्र से सदा के लिए मुक्त होकर अनन्त, अक्षय आनंद और शांति को प्राप्त करती है।",
+        },
+      ],
+    },
+  },
+  {
     id: "human-disposition-divine-or-demonic",
     coverImage: "qa-human-disposition-divine-demonic.png",
     question:
