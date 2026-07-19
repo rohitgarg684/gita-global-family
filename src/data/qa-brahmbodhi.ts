@@ -642,6 +642,107 @@ export const qaItems: QAItem[] = [
     },
   },
   {
+    id: "how-to-go-within-realize-the-self-part-5",
+    question:
+      "How does one go within, realize the true nature of the Self, and attain eternal bliss? (Part 5)",
+    preview:
+      "In his concluding words, Brahm Bodhi affirms that Self-realization is not the only road to God, liberation, or eternal bliss: the Gita honours both the Path of Knowledge and the Path of Devotion. Complementary rather than contradictory, they converge upon one Supreme Goal \u2014 the destination is one, the routes are different.",
+    image: {
+      en: "qa-go-within-self-part1.png",
+      hi: "qa-go-within-self-part1.png",
+      alt: {
+        en: "One destination, different routes: knowledge and devotion",
+        hi: "एक ही लक्ष्य, भिन्न मार्ग : ज्ञान और भक्ति",
+      },
+    },
+    answer: [
+      { type: "h", text: "Conclusion" },
+      {
+        type: "p",
+        text: "Therefore, Brahm Bodhi concluded, one should not assume that realization of the true nature of the Self is the only means of attaining God, Liberation, or eternal bliss. The Bhagavad Gita recognizes both the Path of Knowledge and the Path of Devotion as authentic and complete spiritual paths.",
+      },
+      {
+        type: "p",
+        text: "Those who are drawn to the realization of the Nirguna Brahman, he said, may pursue the Path of Knowledge or the Path of Meditation; while those whose hearts are naturally inclined towards love, worship, and surrender may follow the Path of Devotion and attain Bhagavan Narayana, the Saguna Brahman.",
+      },
+      {
+        type: "p",
+        text: "Ultimately, Brahm Bodhi observed, both paths are complementary rather than contradictory. The seeker on the Path of Knowledge ultimately arrives at supreme Devotion, while the seeker on the Path of Devotion ultimately receives the illuminating Knowledge bestowed by Bhagavan Himself. Thus the two paths, though different in discipline, converge at the same Supreme Goal.",
+      },
+      {
+        type: "p",
+        text: "Bhagavan Krishna Himself declares:",
+      },
+      {
+        type: "quote",
+        text: "jñāna-yajñena cāpy anye yajanto mām upāsate;\nekatvena pṛthaktvena bahudhā viśvato-mukham.",
+        cite: "Bhagavad Gita 9.15",
+      },
+      {
+        type: "p",
+        text: "\u201COthers worship Me through the sacrifice of Knowledge, perceiving Me as One; others worship Me as distinct from themselves; while still others worship Me in My countless universal manifestations.\u201D",
+      },
+      {
+        type: "p",
+        text: "Thus, Brahm Bodhi noted, Bhagavan explicitly accepts both approaches \u2014 the path of Oneness and the path of loving distinctness. Each is a valid means of reaching Him.",
+      },
+      {
+        type: "p",
+        text: "The choice of the path should therefore be guided by one\u2019s innate disposition, temperament, and spiritual aspiration. What matters is not whether one begins with Knowledge or with Devotion, but whether one proceeds with sincerity, perseverance, and complete dedication to God.",
+      },
+      {
+        type: "p",
+        text: "The destination is one. The routes are different.",
+      },
+    ],
+    hi: {
+      question:
+        "मनुष्य भीतर कैसे प्रवेश करे, आत्मा के सत्य स्वरूप को कैसे जाने और अक्षय आनंद को कैसे प्राप्त करे? (भाग 5)",
+      preview:
+        "अपने समापन वचनों में ब्रह्मबोधि कहते हैं कि आत्म-साक्षात्कार ही ईश्वर, मोक्ष अथवा अक्षय आनंद का एकमात्र मार्ग नहीं है : गीता ज्ञानमार्ग और भक्तिमार्ग \u2014 दोनों को स्वीकार करती है। ये परस्पर विरोधी नहीं, अपितु पूरक हैं और एक ही परम लक्ष्य पर मिल जाते हैं \u2014 लक्ष्य एक है, मार्ग भिन्न हैं।",
+      answer: [
+        { type: "h", text: "निष्कर्ष" },
+        {
+          type: "p",
+          text: "अतः ब्रह्मबोधि ने निष्कर्ष दिया कि यह मान लेना ठीक नहीं कि आत्मा के सत्य स्वरूप का साक्षात्कार ही ईश्वर-प्राप्ति, मोक्ष अथवा अक्षय आनंद का एकमात्र साधन है। भगवद्गीता ज्ञानमार्ग और भक्तिमार्ग \u2014 दोनों को प्रामाणिक और पूर्ण आध्यात्मिक मार्ग के रूप में स्वीकार करती है।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने कहा कि जो निर्गुण ब्रह्म के साक्षात्कार की ओर आकृष्ट हैं, वे ज्ञानमार्ग अथवा ध्यानमार्ग का अनुसरण कर सकते हैं; और जिनके हृदय स्वभावतः प्रेम, पूजा और समर्पण की ओर झुके हैं, वे भक्तिमार्ग पर चलकर सगुण ब्रह्म भगवान नारायण को प्राप्त कर सकते हैं।",
+        },
+        {
+          type: "p",
+          text: "अन्ततः, ब्रह्मबोधि ने कहा, दोनों मार्ग परस्पर विरोधी नहीं, अपितु पूरक हैं। ज्ञानमार्ग का साधक अन्ततः परा भक्ति को प्राप्त करता है, और भक्तिमार्ग का साधक अन्ततः भगवान द्वारा प्रदत्त प्रकाशमय ज्ञान को पाता है। इस प्रकार दोनों मार्ग, साधना में भिन्न होते हुए भी, उसी एक परम लक्ष्य पर मिल जाते हैं।",
+        },
+        {
+          type: "p",
+          text: "भगवान कृष्ण स्वयं कहते हैं :",
+        },
+        {
+          type: "quote",
+          text: "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते।\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम्॥",
+          cite: "भगवद्गीता 9.15",
+        },
+        {
+          type: "p",
+          text: "\u201Cकुछ ज्ञानयज्ञ के द्वारा मुझे एक जानकर उपासना करते हैं; कुछ मुझे स्वयं से पृथक् मानकर; तो कुछ मेरे अनन्त विश्वरूपों में मेरी उपासना करते हैं।\u201D",
+        },
+        {
+          type: "p",
+          text: "इस प्रकार, ब्रह्मबोधि ने कहा, भगवान स्पष्ट रूप से दोनों भावों को स्वीकार करते हैं \u2014 एकत्व का मार्ग और प्रेममय पृथक्त्व का मार्ग। दोनों ही उन तक पहुँचने के प्रामाणिक साधन हैं।",
+        },
+        {
+          type: "p",
+          text: "अतः मार्ग का चुनाव व्यक्ति के अपने स्वभाव, प्रवृत्ति और आध्यात्मिक आकांक्षा के अनुसार होना चाहिए। महत्वपूर्ण यह नहीं कि कोई ज्ञान से आरम्भ करता है अथवा भक्ति से, अपितु यह कि वह श्रद्धा, दृढ़ता और ईश्वर के प्रति पूर्ण समर्पण के साथ आगे बढ़ता है या नहीं।",
+        },
+        {
+          type: "p",
+          text: "लक्ष्य एक है। मार्ग भिन्न हैं।",
+        },
+      ],
+    },
+  },
+  {
     id: "human-disposition-divine-or-demonic",
     coverImage: "qa-human-disposition-divine-demonic.png",
     question:
