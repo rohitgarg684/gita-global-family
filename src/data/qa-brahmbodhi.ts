@@ -40,6 +40,186 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "what-moksha-is-and-how-to-accelerate-liberation",
+    question:
+      "What is Mokṣa, and how can one accelerate progress toward liberation?",
+    preview:
+      "Having read the Purāṇas, a seeker begins to suspect that mokṣa is not a spiritual destination at all, but merely a permanent \u201Cstate of mind\u201D to be cultivated in this life \u2014 and asks whether there is an effective method to keep that state stable. Brahm Bodhi gently corrects the misunderstanding: mokṣa is indeed liberation from birth, death and rebirth, a transcendental state and a destination, while the required state of mind is only the means. He also points to a \u201Cspiritual technology\u201D that can speed a sincere seeker\u2019s progress.",
+    tag: "Mokṣa",
+    image: {
+      en: "qa-what-moksha-is-and-how-to-accelerate-liberation.png",
+      hi: "qa-what-moksha-is-and-how-to-accelerate-liberation.png",
+      alt: {
+        en: "Mokṣa \u2014 the ultimate destination, freedom from birth, death and rebirth; the state of mind is only the means",
+        hi: "मोक्ष \u2014 परम गंतव्य, जन्म-मृत्यु और पुनर्जन्म से मुक्ति; मनःस्थिति केवल साधन है",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "Brahm Bodhi read the seeker\u2019s question carefully and observed that it contained two principal points.",
+      },
+      {
+        type: "ol",
+        items: [
+          "First, the seeker had begun to feel that his earlier understanding was mistaken \u2014 that mokṣa is a state or spiritual destination to be attained: liberation from the cycle of birth, death, and rebirth. After reading the Purāṇas, however, he had come to believe instead that mokṣa is neither a spiritual destination nor a transcendental state, but rather a way of living in this very life \u2014 a particular \u201Cstate of mind.\u201D",
+          "Second, the seeker wished to know whether there is any effective method for maintaining this mokṣa-like \u201Cstate of mind,\u201D so that, through regular practice, it may remain stable.",
+        ],
+      },
+      { type: "h", text: "The new understanding is not correct" },
+      {
+        type: "p",
+        text: "Brahm Bodhi explained that the seeker\u2019s new understanding \u2014 that mokṣa is not a destination or an attainable spiritual state, nor any transcendental state, but merely a permanent state of mind attainable in this life \u2014 is not correct.",
+      },
+      {
+        type: "p",
+        text: "It would also be incorrect to say that the Bhāgavata Purāṇa expresses such a view. Brahm Bodhi invited the seeker to read once again the two pages from the Bhāgavata Purāṇa that had been shared in the group \u2014 particularly the second column of the second page. Nothing stated there supports the interpretation the seeker had drawn; there appears to have been some misunderstanding. The discourse given by Sage Kapila to his mother Devahūti in the Bhāgavata Purāṇa is one of the finest spiritual discourses found in the entire body of Hindu scriptures, apart from the Bhagavadgītā.",
+      },
+      {
+        type: "p",
+        text: "Because of his present engagements, Brahm Bodhi noted that he could not discuss the matter at length at that moment. Even so, he stated clearly that mokṣa is indeed the state of liberation from birth, death, and the cycle of rebirth. It is known by several names, including mokṣa, final liberation, nirvāṇa, and kaivalya.",
+      },
+      { type: "h", text: "Two forms of liberation: nirguṇa and saguṇa mokṣa" },
+      {
+        type: "p",
+        text: "Saguṇa mokṣa and nirguṇa mokṣa are two distinct states or spiritual destinations attained after liberation from the cycle of rebirth. In nirguṇa mokṣa, the ātmā relinquishes its liṅga-śarīra, or subtle body, merges into the formless Parabrahman, and loses its separate individual existence. Thereafter, it is never reborn.",
+      },
+      {
+        type: "p",
+        text: "In saguṇa mokṣa, after relinquishing its liṅga-śarīra, the ātmā does not merge into Parabrahman and lose its individual identity. Instead, it acquires a divine body and resides eternally in a divine realm \u2014 such as Vaikuṇṭha \u2014 free from suffering and from the cycle of birth and death, abiding in a state of supreme bliss without dissolving its individual existence.",
+      },
+      {
+        type: "p",
+        text: "Mokṣa is, therefore, a transcendental state, an exalted spiritual condition, and a destination. The seeker\u2019s earlier understanding was correct. Sage Kapila has said nothing to the contrary anywhere in the Bhāgavata Purāṇa.",
+      },
+      {
+        type: "p",
+        text: "Sage Kapila is merely explaining how that state \u2014 the param pada \u2014 may be attained, whether it is the state of saguṇa mokṣa or nirguṇa mokṣa. He is describing the means and the path leading to mokṣa.",
+      },
+      { type: "h", text: "Mokṣa is not a \u201Cstate of mind\u201D" },
+      {
+        type: "p",
+        text: "Mokṣa, therefore, is not a \u201Cstate of mind.\u201D Upon attaining the ultimate state of mokṣa, even the mind ceases to exist, because the mind is a constituent of prakṛti. It is a part of our liṅga-śarīra, or subtle body. When the liṅga-śarīra ceases to exist, the mind, too, ceases to continue.",
+      },
+      { type: "h", text: "The state of mind is the means, not the goal" },
+      {
+        type: "p",
+        text: "This brings us to the seeker\u2019s second question: whether there is a method that can be practised either to attain mokṣa or to maintain permanently the mental state necessary for its attainment.",
+      },
+      {
+        type: "p",
+        text: "This mental state is a means to mokṣa \u2014 a means of attaining liberation from the cycle of rebirth. It is not itself the end or the ultimate goal.",
+      },
+      {
+        type: "p",
+        text: "Bhagavān Kapila explains how this necessary mental state may be attained on the second page the seeker shared \u2014 particularly in its second column. Brahm Bodhi urged the seeker to study and understand that process carefully.",
+      },
+      { type: "h", text: "Spiritual technology to accelerate progress" },
+      {
+        type: "p",
+        text: "Brahm Bodhi assured the seeker that the method taught by Bhagavān Kapila is undoubtedly true and effective. However, to attain that mental condition or \u201Cstate of mind,\u201D he and his associates have also developed certain psychological processes \u2014 methods grounded in the science of the mind. By practising them, any sincere sādhaka who is genuinely serious about spiritual progress and the attainment of mokṣa may benefit several times more rapidly than through traditional methods alone, and may attain the necessary state of mind much sooner.",
+      },
+      {
+        type: "p",
+        text: "This may be described as a form of \u201Cspiritual technology.\u201D Just as technology can be developed in the physical sciences, psychological technology can also be developed within spiritual disciplines that focus on transforming one\u2019s state of mind. The essential difference is that the technologies of psychology and spirituality are of a different order from physical technology.",
+      },
+      {
+        type: "p",
+        text: "Brahm Bodhi added that, apart from this seeker, several other members of the group have also become inclined towards serious spiritual practice and desire special guidance in this regard. As soon as time permits, he will guide all serious aspirants on this subject and endeavour to devise something especially beneficial for them.",
+      },
+      {
+        type: "quote",
+        text: "The state of mind is the means \u2014 not Mokṣa itself.",
+        cite: "Brahm Bodhi",
+      },
+    ],
+    hi: {
+      question:
+        "मोक्ष वास्तव में क्या है, और मुक्ति की ओर प्रगति को कैसे तीव्र किया जाए?",
+      preview:
+        "पुराणों को पढ़ने के बाद एक जिज्ञासु को यह लगने लगता है कि मोक्ष कोई आध्यात्मिक गंतव्य नहीं, बल्कि इसी जीवन में साधने योग्य एक स्थायी \u201Cमनःस्थिति\u201D मात्र है \u2014 और वे पूछते हैं कि क्या इस स्थिति को स्थिर बनाए रखने की कोई प्रभावी विधि है। ब्रह्मबोधि इस भ्रान्ति का समाधान करते हैं : मोक्ष वस्तुतः जन्म-मृत्यु और पुनर्जन्म से मुक्ति है \u2014 एक दिव्य अवस्था और गंतव्य, जबकि अपेक्षित मनःस्थिति केवल साधन है। साथ ही वे उस \u201Cआध्यात्मिक तकनीक\u201D की ओर संकेत करते हैं जो एक निष्ठावान साधक की प्रगति को कई गुना तीव्र कर सकती है।",
+      answer: [
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने जिज्ञासु के प्रश्न को ध्यानपूर्वक पढ़ा और पाया कि उसमें मुख्यतः दो बिन्दु हैं।",
+        },
+        {
+          type: "ol",
+          items: [
+            "पहला, जिज्ञासु को अब यह अनुभव होने लगा है कि उनकी पूर्व की समझ त्रुटिपूर्ण थी \u2014 कि मोक्ष कोई प्राप्त करने योग्य अवस्था या आध्यात्मिक गंतव्य है : जन्म, मृत्यु और पुनर्जन्म के चक्र से मुक्ति। किन्तु पुराणों को पढ़ने के पश्चात् अब वे यह मानने लगे हैं कि मोक्ष न तो कोई आध्यात्मिक गंतव्य है और न ही कोई दिव्य अवस्था, अपितु इसी जीवन में जीने की एक रीति \u2014 एक विशेष \u201Cमनःस्थिति\u201D \u2014 है।",
+            "दूसरा प्रमुख बिन्दु यह है कि वे जानना चाहते हैं कि क्या इस मोक्ष-सदृश \u201Cमनःस्थिति\u201D को बनाए रखने की कोई प्रभावी विधि है, जिससे नियमित अभ्यास द्वारा वह स्थिर बनी रहे।",
+          ],
+        },
+        { type: "h", text: "नई समझ ठीक नहीं है" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने समझाया कि जिज्ञासु की यह नई समझ \u2014 कि मोक्ष कोई गंतव्य या प्राप्त करने योग्य आध्यात्मिक अवस्था नहीं, न ही कोई दिव्य अवस्था, अपितु इसी जीवन में प्राप्त होने वाली एक स्थायी मनःस्थिति मात्र है \u2014 ठीक नहीं है।",
+        },
+        {
+          type: "p",
+          text: "यह कहना भी उचित नहीं होगा कि श्रीमद्भागवत पुराण ऐसा कोई मत प्रकट करता है। ब्रह्मबोधि ने जिज्ञासु से आग्रह किया कि इस समूह में साझा किए गए भागवत पुराण के उन दो पृष्ठों को \u2014 विशेषकर दूसरे पृष्ठ के दूसरे स्तम्भ को \u2014 एक बार पुनः पढ़ें। वहाँ जो कहा गया है, उससे इस व्याख्या का कोई समर्थन नहीं होता; प्रतीत होता है कि कहीं कोई भ्रम हुआ है। भागवत पुराण में कपिल मुनि द्वारा अपनी माता देवहूति को दिया गया उपदेश, भगवद्गीता को छोड़कर, समस्त हिन्दू शास्त्रों में उपलब्ध श्रेष्ठतम आध्यात्मिक उपदेशों में से एक है।",
+        },
+        {
+          type: "p",
+          text: "अपनी वर्तमान व्यस्तताओं के कारण ब्रह्मबोधि ने कहा कि इस विषय पर वे अभी विस्तार से चर्चा नहीं कर सकेंगे। फिर भी उन्होंने स्पष्ट रूप से कहा कि मोक्ष वस्तुतः जन्म, मृत्यु और पुनर्जन्म के चक्र से मुक्ति की अवस्था ही है। इसे अनेक नामों से जाना जाता है \u2014 मोक्ष, परम मुक्ति, निर्वाण और कैवल्य।",
+        },
+        { type: "h", text: "मुक्ति के दो रूप : निर्गुण और सगुण मोक्ष" },
+        {
+          type: "p",
+          text: "सगुण मोक्ष और निर्गुण मोक्ष \u2014 पुनर्जन्म के चक्र से मुक्ति के पश्चात् प्राप्त होने वाली दो भिन्न अवस्थाएँ या आध्यात्मिक गंतव्य हैं। निर्गुण मोक्ष में आत्मा अपने लिङ्ग-शरीर अर्थात् सूक्ष्म शरीर का त्याग कर निराकार परब्रह्म में विलीन हो जाती है और अपना पृथक् वैयक्तिक अस्तित्व खो देती है। तत्पश्चात् उसका पुनर्जन्म कभी नहीं होता।",
+        },
+        {
+          type: "p",
+          text: "सगुण मोक्ष में आत्मा अपने लिङ्ग-शरीर का त्याग करने के पश्चात् परब्रह्म में विलीन होकर अपनी वैयक्तिक पहचान नहीं खोती। इसके विपरीत, वह एक दिव्य शरीर धारण करती है और किसी दिव्य लोक में \u2014 जैसे वैकुण्ठ में \u2014 शाश्वत रूप से निवास करती है, दुःख तथा जन्म-मृत्यु के चक्र से मुक्त होकर, अपने वैयक्तिक अस्तित्व को विलीन किए बिना परम आनन्द की अवस्था में स्थित रहती है।",
+        },
+        {
+          type: "p",
+          text: "अतः मोक्ष एक दिव्य अवस्था, एक उच्च आध्यात्मिक स्थिति और एक गंतव्य है। जिज्ञासु की पूर्व की समझ ही सही थी। कपिल मुनि ने भागवत पुराण में कहीं भी इसके विपरीत कुछ नहीं कहा है।",
+        },
+        {
+          type: "p",
+          text: "कपिल मुनि तो केवल यह समझा रहे हैं कि उस अवस्था \u2014 \u2018परम पद\u2019 \u2014 को, चाहे वह सगुण मोक्ष की अवस्था हो या निर्गुण मोक्ष की, किस प्रकार प्राप्त किया जाए। वे मोक्ष की ओर ले जाने वाले साधनों और मार्ग का वर्णन कर रहे हैं।",
+        },
+        { type: "h", text: "मोक्ष कोई \u201Cमनःस्थिति\u201D नहीं है" },
+        {
+          type: "p",
+          text: "अतः मोक्ष कोई \u201Cमनःस्थिति\u201D नहीं है। मोक्ष की परम अवस्था को प्राप्त कर लेने पर मन भी नहीं रहता, क्योंकि मन प्रकृति का ही एक अंग है। यह हमारे लिङ्ग-शरीर अर्थात् सूक्ष्म शरीर का एक भाग है। जब लिङ्ग-शरीर ही नहीं रहता, तो मन भी नहीं रह पाता।",
+        },
+        { type: "h", text: "मनःस्थिति साधन है, साध्य नहीं" },
+        {
+          type: "p",
+          text: "अब हम जिज्ञासु के दूसरे प्रश्न पर आते हैं : क्या कोई ऐसी विधि है जिसका अभ्यास या तो मोक्ष प्राप्त करने के लिए किया जा सके, अथवा मोक्ष की प्राप्ति के लिए आवश्यक मनःस्थिति को स्थायी रूप से बनाए रखने के लिए।",
+        },
+        {
+          type: "p",
+          text: "यह मनःस्थिति मोक्ष का साधन है \u2014 पुनर्जन्म के चक्र से मुक्ति प्राप्त करने का साधन। यह स्वयं में साध्य या परम लक्ष्य नहीं है।",
+        },
+        {
+          type: "p",
+          text: "भगवान कपिल यह समझाते हैं कि यह आवश्यक मनःस्थिति किस प्रकार प्राप्त की जाए \u2014 जिज्ञासु द्वारा साझा किए गए दूसरे पृष्ठ पर, विशेषकर उसके दूसरे स्तम्भ में। ब्रह्मबोधि ने जिज्ञासु से आग्रह किया कि वे उस प्रक्रिया का ध्यानपूर्वक अध्ययन कर उसे समझें।",
+        },
+        { type: "h", text: "प्रगति को तीव्र करने वाली आध्यात्मिक तकनीक" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने जिज्ञासु को आश्वस्त किया कि भगवान कपिल द्वारा सिखाई गई विधि निःसंदेह सत्य और प्रभावी है। किन्तु उस मनःस्थिति या \u201Cस्टेट ऑफ़ माइंड\u201D को प्राप्त करने के लिए उन्होंने और उनके सहयोगियों ने कुछ मनोवैज्ञानिक प्रक्रियाएँ भी विकसित की हैं \u2014 ऐसी विधियाँ जो मन के विज्ञान पर आधारित हैं। इनका अभ्यास करके ऐसा कोई भी निष्ठावान साधक, जो आध्यात्मिक प्रगति और मोक्ष की प्राप्ति के प्रति सचमुच गंभीर है, केवल पारम्परिक विधियों की तुलना में कई गुना अधिक तीव्रता से लाभान्वित हो सकता है और आवश्यक मनःस्थिति को कहीं शीघ्र प्राप्त कर सकता है।",
+        },
+        {
+          type: "p",
+          text: "इसे एक प्रकार की \u201Cआध्यात्मिक तकनीक\u201D कहा जा सकता है। जिस प्रकार भौतिक विज्ञानों में तकनीक विकसित की जा सकती है, उसी प्रकार उन आध्यात्मिक साधनाओं में भी मनोवैज्ञानिक तकनीक विकसित की जा सकती है जो मनुष्य की मनःस्थिति के रूपान्तरण पर केन्द्रित हैं। मूल अन्तर केवल इतना है कि मनोविज्ञान और अध्यात्म की तकनीकें भौतिक तकनीक से भिन्न प्रकृति की होती हैं।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने यह भी कहा कि इस जिज्ञासु के अतिरिक्त इस समूह के कई अन्य सदस्य भी गंभीर आध्यात्मिक साधना की ओर प्रवृत्त हुए हैं और इस विषय में विशेष मार्गदर्शन चाहते हैं। समय मिलते ही वे सभी गंभीर साधकों का इस विषय में मार्गदर्शन करेंगे और जिज्ञासु के लिए विशेष रूप से कुछ लाभकारी विकसित करने का प्रयास करेंगे।",
+        },
+        {
+          type: "quote",
+          text: "मनःस्थिति तो साधन है \u2014 मोक्ष स्वयं नहीं।",
+          cite: "ब्रह्मबोधि",
+        },
+      ],
+    },
+  },
+  {
     id: "how-to-go-within-realize-the-self-part-1",
     question:
       "How does one go within, realize the true nature of the Self, and attain eternal bliss? (Part 1)",
