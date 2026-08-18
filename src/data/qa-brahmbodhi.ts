@@ -40,6 +40,218 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "difference-between-dharma-and-spirituality",
+    question: "What is the difference between dharma and spirituality?",
+    preview:
+      "Dharma and spirituality are often spoken of together, yet they are not the same. Brahm Bodhi draws the distinction with a simple illustration \u2014 the honest businessman who is dharmic by day and a seeker by night \u2014 and shows how the Gita, the Ramcharitmanas and the Bhagavata each teach both. Dharma asks how one should live in the world; spirituality asks who one truly is. Yet the plant of spirituality can grow only in the soil of dharma.",
+    tag: "Dharma & Spirituality",
+    image: {
+      en: "qa-difference-between-dharma-and-spirituality.png",
+      hi: "qa-difference-between-dharma-and-spirituality.png",
+      alt: {
+        en: "Dharma and spirituality \u2014 duty and righteous living by day, the search for the Divine within",
+        hi: "धर्म और अध्यात्म \u2014 कर्तव्य और सदाचरण, तथा भीतर परमात्मा की खोज",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "Brahm Bodhi observed that the words dharma and spirituality are heard again and again, yet they are not exactly the same \u2014 even though there is some overlap between them.",
+      },
+      {
+        type: "p",
+        text: "In simple terms, dharma primarily tells a person what one ought to do in life and what one ought not to do. Spirituality asks who one truly is, what one\u2019s relationship with the Supreme Being is, and how that relationship may be established. Spirituality is the search for the Supreme Reality; dharma is dedication to one\u2019s duty.",
+      },
+      { type: "h", text: "An example: the dharmic businessman" },
+      {
+        type: "p",
+        text: "Brahm Bodhi illustrated this through an example. Suppose there is a businessman. He does not cheat his customers, gives them the correct weight, pays his employees on time, and helps those in need. He is, therefore, a dharmic person.",
+      },
+      {
+        type: "p",
+        text: "But the same businessman sits quietly at night and reflects: this wealth, this body, this reputation \u2014 all of these will one day be left behind. Am I merely this body? Does the Supreme Being exist? What is my relationship with Him? Can the soul be connected with the Divine \u2014 and if so, how? This is the search of spirituality. This is the beginning of the spiritual journey.",
+      },
+      { type: "h", text: "The great scriptures teach both" },
+      {
+        type: "p",
+        text: "The great scriptures teach both. The Gita teaches both. The Ramcharitmanas teaches both. The Bhagavata Purana also teaches both.",
+      },
+      {
+        type: "p",
+        text: "Bhagavan Krishna tells Arjuna not to run away from his duty. He tells him to follow his svadharma, to stand against injustice, and to perform his responsibility. This is the teaching of dharma.",
+      },
+      {
+        type: "p",
+        text: "But the same Krishna also tells Arjuna that he is not merely the body \u2014 the soul is neither born nor does it die. He teaches him to offer his actions to God and to fix his mind on the Divine. This is spirituality.",
+      },
+      { type: "h", text: "Dharma and spirituality in the Ramcharitmanas" },
+      {
+        type: "p",
+        text: "In the Ramcharitmanas, Bhagavan Rama defines dharma in these words:",
+      },
+      {
+        type: "quote",
+        text: "परहित सरिस धरम नहिं भाई।\nपर पीड़ा सम नहिं अधमाई॥",
+        cite: "Ramcharitmanas, Uttarakanda (after Doha 87)",
+      },
+      {
+        type: "p",
+        text: "\u201CThere is no dharma equal to working for the welfare of others, and there is no adharma equal to causing suffering to others.\u201D",
+      },
+      {
+        type: "p",
+        text: "But the Manas does not stop there. Love for Bhagavan Rama, devotion, surrender, and the journey of perceiving the Divine presence in every being belong to the realm of spirituality.",
+      },
+      { type: "h", text: "The teaching of the Bhagavata" },
+      {
+        type: "p",
+        text: "The Bhagavata teaches the same. Feeding the hungry, refraining from injustice, and following compassion and truth are dharma. But, like Prahlada, to see God in every circumstance and to remain constantly aware of Him is spirituality.",
+      },
+      { type: "h", text: "Two different questions" },
+      {
+        type: "p",
+        text: "Dharma asks: How should one conduct oneself in relation to the world? Spirituality asks: Who am I, and what is my relationship with the Supreme Being?",
+      },
+      { type: "h", text: "Spirituality grows in the soil of dharma" },
+      {
+        type: "p",
+        text: "But one thing must be remembered: the plant of spirituality can grow only in the soil of dharma. The spiritual journey of an adharmic person soon comes to a halt. In the soil of such a heart, the seed of spirituality is unable to flourish despite repeated effort.",
+      },
+      {
+        type: "p",
+        text: "At the final stage of spirituality, however, all worldly dharmas are left behind. Bhagavan says:",
+      },
+      {
+        type: "quote",
+        text: "सर्वधर्मान् परित्यज्य मामेकं शरणं व्रज।\nअहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥",
+        cite: "Bhagavad Gita 18.66",
+      },
+      {
+        type: "p",
+        text: "\u201CAbandon all dharmas (duties) and take refuge in Me alone. I shall liberate you from all sins. Do not grieve.\u201D",
+      },
+      {
+        type: "p",
+        text: "But this does not mean that a spiritual person begins to act in an adharmic way. In reality, a truly spiritual person is always deeply rooted in dharma \u2014 endowed with forgiveness, compassion, truth, non-violence, and kindness. That is why Bhagavan Krishna says:",
+      },
+      {
+        type: "quote",
+        text: "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति।\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति॥",
+        cite: "Bhagavad Gita 9.31",
+      },
+      {
+        type: "p",
+        text: "That is, one who attains devotion to God soon becomes dharmic and righteous, and attains everlasting peace.",
+      },
+      { type: "h", text: "The centre now rests in God" },
+      {
+        type: "p",
+        text: "The centre of such a person\u2019s entire existence, however, now rests in God. Mirabai left behind her duties as a wife and her other worldly obligations and surrendered herself completely to the spiritual path. For her, Krishna was no longer merely one part of life; Krishna had become life itself.",
+      },
+    ],
+    hi: {
+      question: "धर्म और अध्यात्म में क्या अन्तर है?",
+      preview:
+        "धर्म और अध्यात्म प्रायः साथ-साथ कहे जाते हैं, फिर भी दोनों एक नहीं हैं। ब्रह्मबोधि एक सरल दृष्टान्त से यह भेद स्पष्ट करते हैं \u2014 वह ईमानदार व्यापारी जो दिन में धार्मिक है और रात्रि में जिज्ञासु \u2014 और दिखाते हैं कि गीता, रामचरितमानस तथा भागवत तीनों ही दोनों की शिक्षा देते हैं। धर्म पूछता है कि संसार में कैसे रहा जाए; अध्यात्म पूछता है कि मैं वस्तुतः कौन हूँ। किन्तु अध्यात्म का पौधा केवल धर्म की भूमि में ही उग सकता है।",
+      answer: [
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि हम धर्म और अध्यात्म शब्द बार-बार सुनते हैं, किन्तु दोनों बिल्कुल एक नहीं हैं \u2014 यद्यपि इनमें कुछ समानता अवश्य है।",
+        },
+        {
+          type: "p",
+          text: "सरल शब्दों में, धर्म मुख्यतः यह बताता है कि जीवन में मनुष्य को क्या करना चाहिए और क्या नहीं करना चाहिए। अध्यात्म यह पूछता है कि मैं वस्तुतः कौन हूँ, परमात्मा से मेरा क्या सम्बन्ध है, और वह सम्बन्ध किस प्रकार स्थापित किया जा सकता है। अध्यात्म परम सत्य की खोज है; धर्म अपने कर्तव्य के प्रति समर्पण है।",
+        },
+        { type: "h", text: "एक उदाहरण : धार्मिक व्यापारी" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने इसे एक उदाहरण से समझाया। मान लीजिए कोई व्यापारी है। वह अपने ग्राहकों को धोखा नहीं देता, उन्हें सही तौल देता है, अपने कर्मचारियों को समय पर वेतन देता है, और जरूरतमंदों की सहायता करता है। अतः वह एक धार्मिक व्यक्ति है।",
+        },
+        {
+          type: "p",
+          text: "किन्तु वही व्यापारी रात्रि में शान्त बैठकर विचार करता है : यह धन, यह शरीर, यह प्रतिष्ठा \u2014 यह सब एक दिन यहीं छूट जाएगा। क्या मैं केवल यह शरीर ही हूँ? क्या परमात्मा है? उससे मेरा क्या सम्बन्ध है? क्या आत्मा को परमात्मा से जोड़ा जा सकता है \u2014 और यदि हाँ, तो कैसे? यही अध्यात्म की खोज है। यही आध्यात्मिक यात्रा का आरम्भ है।",
+        },
+        { type: "h", text: "महान् शास्त्र दोनों की शिक्षा देते हैं" },
+        {
+          type: "p",
+          text: "महान् शास्त्र दोनों की शिक्षा देते हैं। गीता दोनों सिखाती है। रामचरितमानस दोनों सिखाती है। श्रीमद्भागवत पुराण भी दोनों सिखाता है।",
+        },
+        {
+          type: "p",
+          text: "भगवान कृष्ण अर्जुन से कहते हैं कि वह अपने कर्तव्य से भागे नहीं। वे उससे कहते हैं कि वह अपने स्वधर्म का पालन करे, अन्याय के विरुद्ध खड़ा हो, और अपने दायित्व को निभाए। यह धर्म की शिक्षा है।",
+        },
+        {
+          type: "p",
+          text: "किन्तु वही कृष्ण अर्जुन से यह भी कहते हैं कि वह केवल यह शरीर नहीं है \u2014 आत्मा न तो जन्म लेती है और न ही मरती है। वे उसे सिखाते हैं कि वह अपने समस्त कर्म परमात्मा को अर्पित कर दे और अपने मन को परमात्मा में स्थिर करे। यह अध्यात्म है।",
+        },
+        { type: "h", text: "रामचरितमानस में धर्म और अध्यात्म" },
+        {
+          type: "p",
+          text: "रामचरितमानस में भगवान राम धर्म की परिभाषा इन शब्दों में देते हैं :",
+        },
+        {
+          type: "quote",
+          text: "परहित सरिस धरम नहिं भाई।\nपर पीड़ा सम नहिं अधमाई॥",
+          cite: "रामचरितमानस, उत्तरकाण्ड (दोहा 87 के पश्चात्)",
+        },
+        {
+          type: "p",
+          text: "\u201Cदूसरों के कल्याण के समान कोई धर्म नहीं है, और दूसरों को पीड़ा पहुँचाने के समान कोई अधर्म नहीं है।\u201D",
+        },
+        {
+          type: "p",
+          text: "किन्तु मानस यहीं नहीं रुकती। भगवान राम के प्रति प्रेम, भक्ति, समर्पण, और प्रत्येक प्राणी में उस दिव्य उपस्थिति का दर्शन करने की यात्रा \u2014 यह अध्यात्म के क्षेत्र से सम्बन्धित है।",
+        },
+        { type: "h", text: "भागवत की शिक्षा" },
+        {
+          type: "p",
+          text: "भागवत भी यही सिखाता है। भूखे को भोजन कराना, अन्याय न करना, तथा करुणा और सत्य का पालन करना \u2014 यह धर्म है। किन्तु प्रह्लाद के समान, प्रत्येक परिस्थिति में परमात्मा का दर्शन करना और निरन्तर उसके प्रति सजग बने रहना \u2014 यह अध्यात्म है।",
+        },
+        { type: "h", text: "दो भिन्न प्रश्न" },
+        {
+          type: "p",
+          text: "धर्म पूछता है : संसार के प्रति मुझे अपना आचरण कैसा रखना चाहिए? अध्यात्म पूछता है : मैं कौन हूँ, और परमात्मा से मेरा क्या सम्बन्ध है?",
+        },
+        { type: "h", text: "अध्यात्म धर्म की भूमि में उगता है" },
+        {
+          type: "p",
+          text: "किन्तु एक बात स्मरण रखनी चाहिए : अध्यात्म का पौधा केवल धर्म की भूमि में ही उग सकता है। अधार्मिक व्यक्ति की आध्यात्मिक यात्रा शीघ्र ही रुक जाती है। ऐसे हृदय की भूमि में अध्यात्म का बीज बार-बार प्रयास करने पर भी फल-फूल नहीं पाता।",
+        },
+        {
+          type: "p",
+          text: "तथापि अध्यात्म की अन्तिम अवस्था में समस्त सांसारिक धर्म पीछे छूट जाते हैं। भगवान कहते हैं :",
+        },
+        {
+          type: "quote",
+          text: "सर्वधर्मान् परित्यज्य मामेकं शरणं व्रज।\nअहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥",
+          cite: "भगवद्गीता 18.66",
+        },
+        {
+          type: "p",
+          text: "\u201Cसमस्त धर्मों (कर्तव्यों) को त्यागकर केवल मेरी ही शरण में आ जा। मैं तुझे समस्त पापों से मुक्त कर दूँगा, शोक मत कर।\u201D",
+        },
+        {
+          type: "p",
+          text: "किन्तु इसका यह अर्थ नहीं कि आध्यात्मिक व्यक्ति अधार्मिक आचरण करने लगता है। वस्तुतः सच्चा आध्यात्मिक व्यक्ति सदैव धर्म में गहराई से प्रतिष्ठित रहता है \u2014 क्षमा, करुणा, सत्य, अहिंसा और दया से युक्त। इसीलिए भगवान कृष्ण कहते हैं :",
+        },
+        {
+          type: "quote",
+          text: "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति।\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति॥",
+          cite: "भगवद्गीता 9.31",
+        },
+        {
+          type: "p",
+          text: "अर्थात् जो परमात्मा की भक्ति को प्राप्त कर लेता है, वह शीघ्र ही धर्मात्मा और सदाचारी बन जाता है और शाश्वत शान्ति को प्राप्त करता है।",
+        },
+        { type: "h", text: "अब केन्द्र परमात्मा में स्थित है" },
+        {
+          type: "p",
+          text: "तथापि ऐसे व्यक्ति के समस्त अस्तित्व का केन्द्र अब परमात्मा में स्थित रहता है। मीराबाई ने पत्नी के रूप में अपने कर्तव्यों और अन्य सांसारिक दायित्वों को पीछे छोड़कर स्वयं को पूर्णतः आध्यात्मिक मार्ग को समर्पित कर दिया। उनके लिए कृष्ण अब जीवन का मात्र एक अंश नहीं रह गए थे; कृष्ण ही जीवन बन गए थे।",
+        },
+      ],
+    },
+  },
+  {
     id: "what-moksha-is-and-how-to-accelerate-liberation",
     question:
       "What is Mokṣa, and how can one accelerate progress toward liberation?",
