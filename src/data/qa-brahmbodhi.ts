@@ -40,6 +40,132 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "is-it-possible-to-live-by-the-ideals-of-the-gita",
+    question:
+      "Is it possible to live according to the ideals of the Gita in the present age?",
+    preview:
+      "A seeker, Sanchit Swaroop, having grasped the Gita\u2019s call to act with equanimity, to perform one\u2019s svadharma without attachment to results, and to keep the welfare of all in mind, asks whether such a life is possible today \u2014 and whether Brahm Bodhi knows an enlightened person living this way whose company he might seek. Brahm Bodhi answers that it is certainly possible, that such realized souls do live quietly among us, and that the true aim is not merely to find such a person but to become one.",
+    tag: "Living the Gita",
+    image: {
+      en: "qa-living-the-ideals-of-the-gita.png",
+      hi: "qa-living-the-ideals-of-the-gita.png",
+      alt: {
+        en: "Living the ideals of the Gita in the modern age \u2014 the enlightened live quietly among ordinary people",
+        hi: "आधुनिक युग में गीता के आदर्शों को जीना \u2014 आत्मज्ञानी सामान्य लोगों के बीच सहज भाव से रहते हैं",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "A seeker named Sanchit Swaroop wrote to Brahm Bodhi with a heartfelt question.",
+      },
+      {
+        type: "quote",
+        text: "After listening to and reading some commentators on the Śrīmad Bhagavad Gita, I have understood that the Gita instructs us to spend our lives in devotion to Bhagavan \u2014 performing our prescribed duties with equanimity, fulfilling our svadharma without attachment to the fruits of action, and keeping the welfare of all in mind. Is it possible to live in this manner in the present age? If you know of any enlightened person who lives in this way, please tell me about them so that I may seek their spiritual company. Jai Shri Radha-Krishna!",
+      },
+      {
+        type: "p",
+        text: "Brahm Bodhi replied that the seeker had correctly understood the message of the Gita and, on the basis of that understanding, had asked two questions.",
+      },
+      { type: "h", text: "Is such a life possible in the present age?" },
+      {
+        type: "p",
+        text: "The seeker\u2019s first question was whether it is possible in the present age to attain the state described by the Gita. Brahm Bodhi\u2019s answer was that it is certainly possible. One should continue striving patiently and persistently; anyone who does so can attain this state.",
+      },
+      {
+        type: "h",
+        text: "Do enlightened persons who live this way still exist?",
+      },
+      {
+        type: "p",
+        text: "The seeker\u2019s second question was whether Brahm Bodhi knew of any enlightened person who has attained the state described by the Gita \u2014 and, if such a person exists, whether he would share their name so that the seeker might seek their spiritual company.",
+      },
+      {
+        type: "p",
+        text: "Brahm Bodhi observed that, today, the Bhagavad Gita is the most widely read of all the scriptures of Sanatana Dharma throughout the world. It is therefore not difficult to believe that there must be many enlightened individuals who are following the path shown by the Gita.",
+      },
+      {
+        type: "p",
+        text: "However, identifying them is not easy, because they do not necessarily wear any distinctive attire. They live and conduct themselves among us like ordinary human beings. Nor is it necessary that they should wish to publicise themselves or become well known, for their purpose is not self-promotion. Their purpose is to live according to the philosophy of the Gita and thereby attain the grace of God and moksha.",
+      },
+      {
+        type: "p",
+        text: "Some among them may not only strive to follow the ideals of the Gita in their own lives but may also actively work to fulfil the purpose expressed by Bhagavan in verses 68 and 69 of the eighteenth chapter of the Bhagavad Gita. For this reason, some of them may be known to a few people, while others may be known to a great many.",
+      },
+      {
+        type: "h",
+        text: "The true aim: not only to find such a soul, but to become one",
+      },
+      {
+        type: "p",
+        text: "Therefore, Brahm Bodhi encouraged the seeker to continue his search and make an effort to identify such individuals and seek their spiritual company. Even more important, however, is that one remain in constant communion with the Bhagavad Gita and strive to live according to its ideals. Ultimately, the aim should not merely be to find such an enlightened person, but to become one oneself.",
+      },
+      {
+        type: "quote",
+        text: "The aim is not merely to find such a soul \u2014 but to become one.",
+        cite: "Brahm Bodhi",
+      },
+    ],
+    hi: {
+      question:
+        "क्या वर्तमान युग में गीता के आदर्शों के अनुसार जीवन जीना सम्भव है?",
+      preview:
+        "सञ्चित स्वरूप नामक एक जिज्ञासु, गीता के इस सन्देश को समझकर \u2014 कि समता के साथ कर्म किया जाए, फल की आसक्ति के बिना अपने स्वधर्म का पालन हो, और सबके कल्याण का ध्यान रखा जाए \u2014 पूछते हैं कि क्या आज ऐसा जीवन सम्भव है, और क्या ब्रह्मबोधि किसी ऐसे आत्मज्ञानी को जानते हैं जो इस प्रकार जीते हों, जिनका सत्संग वे प्राप्त कर सकें। ब्रह्मबोधि उत्तर देते हैं कि यह निश्चय ही सम्भव है, कि ऐसे आत्मज्ञानी हमारे बीच सहज रूप से रहते हैं, और सच्चा लक्ष्य केवल ऐसे व्यक्ति को खोजना नहीं, बल्कि स्वयं वैसा बन जाना है।",
+      answer: [
+        {
+          type: "p",
+          text: "सञ्चित स्वरूप नामक एक जिज्ञासु ने ब्रह्मबोधि को एक हार्दिक प्रश्न लिखा।",
+        },
+        {
+          type: "quote",
+          text: "श्रीमद्भगवद्गीता पर कुछ भाष्यकारों को सुनने और पढ़ने के पश्चात् मैंने यह समझा है कि गीता हमें भगवान की भक्ति में जीवन बिताने का उपदेश देती है \u2014 समता के साथ अपने विहित कर्मों को करते हुए, फल की आसक्ति के बिना अपने स्वधर्म का पालन करते हुए, और सबके कल्याण का ध्यान रखते हुए। क्या वर्तमान युग में इस प्रकार जीना सम्भव है? यदि आप किसी ऐसे आत्मज्ञानी को जानते हों जो इस प्रकार जीवन जीते हों, तो कृपया मुझे उनके विषय में बताएँ, जिससे मैं उनका सत्संग प्राप्त कर सकूँ। जय श्री राधा-कृष्ण!",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने उत्तर दिया कि जिज्ञासु ने गीता के सन्देश को सही समझा है और उसी समझ के आधार पर उन्होंने दो प्रश्न पूछे हैं।",
+        },
+        { type: "h", text: "क्या वर्तमान युग में ऐसा जीवन सम्भव है?" },
+        {
+          type: "p",
+          text: "जिज्ञासु का पहला प्रश्न यह था कि क्या वर्तमान युग में गीता में वर्णित अवस्था को प्राप्त करना सम्भव है। ब्रह्मबोधि का उत्तर था \u2014 हाँ, यह निश्चय ही सम्भव है। धैर्य और निरन्तरता के साथ प्रयास करते रहना चाहिए; जो ऐसा करता है, वह भी इस अवस्था को प्राप्त कर सकता है।",
+        },
+        {
+          type: "h",
+          text: "क्या इस प्रकार जीने वाले आत्मज्ञानी आज भी हैं?",
+        },
+        {
+          type: "p",
+          text: "जिज्ञासु का दूसरा प्रश्न यह था कि क्या ब्रह्मबोधि किसी ऐसे आत्मज्ञानी को जानते हैं जिसने गीता में वर्णित अवस्था प्राप्त की हो \u2014 और यदि ऐसा कोई व्यक्ति है, तो क्या वे उसका नाम बताएँगे, जिससे जिज्ञासु उसका सत्संग प्राप्त कर सके।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि आज सम्पूर्ण विश्व में सनातन धर्म के समस्त शास्त्रों में भगवद्गीता सर्वाधिक पढ़ी जाने वाली है। अतः यह मानना कठिन नहीं है कि अनेक ऐसे आत्मज्ञानी अवश्य होंगे जो गीता द्वारा दिखाए मार्ग पर चल रहे हैं।",
+        },
+        {
+          type: "p",
+          text: "किन्तु उन्हें पहचानना सरल नहीं है, क्योंकि वे आवश्यक रूप से कोई विशिष्ट वेश धारण नहीं करते। वे हमारे बीच सामान्य मनुष्यों के समान रहते और आचरण करते हैं। यह भी आवश्यक नहीं कि वे स्वयं का प्रचार करना या प्रसिद्ध होना चाहें, क्योंकि उनका उद्देश्य आत्म-प्रचार नहीं है। उनका उद्देश्य गीता के दर्शन के अनुसार जीना और इस प्रकार भगवान की कृपा तथा मोक्ष को प्राप्त करना है।",
+        },
+        {
+          type: "p",
+          text: "उनमें से कुछ न केवल अपने जीवन में गीता के आदर्शों का पालन करने का प्रयास करते हैं, बल्कि भगवद्गीता के अठारहवें अध्याय के 68वें और 69वें श्लोक में भगवान द्वारा व्यक्त प्रयोजन को पूर्ण करने के लिए सक्रिय रूप से कार्य भी करते हैं। इसी कारण उनमें से कुछ थोड़े लोगों को ज्ञात होते हैं, तो कुछ बहुत बड़ी संख्या में लोगों को।",
+        },
+        {
+          type: "h",
+          text: "सच्चा लक्ष्य : ऐसे व्यक्ति को खोजना नहीं, स्वयं वैसा बनना",
+        },
+        {
+          type: "p",
+          text: "अतः ब्रह्मबोधि ने जिज्ञासु को प्रेरित किया कि वे अपनी खोज जारी रखें और ऐसे व्यक्तियों को पहचानकर उनका सत्संग प्राप्त करने का प्रयास करें। किन्तु इससे भी अधिक महत्वपूर्ण यह है कि मनुष्य निरन्तर भगवद्गीता के सम्पर्क में रहे और उसके आदर्शों के अनुसार जीने का प्रयास करे। अन्ततः लक्ष्य केवल किसी ऐसे आत्मज्ञानी को खोजना नहीं, बल्कि स्वयं वैसा बन जाना होना चाहिए।",
+        },
+        {
+          type: "quote",
+          text: "लक्ष्य केवल ऐसे किसी आत्मा को खोजना नहीं \u2014 बल्कि स्वयं वैसा बन जाना है।",
+          cite: "ब्रह्मबोधि",
+        },
+      ],
+    },
+  },
+  {
     id: "difference-between-dharma-and-spirituality",
     question: "What is the difference between dharma and spirituality?",
     preview:
