@@ -244,6 +244,12 @@ export const qaItems: QAItem[] = [
     },
     answer: [
       {
+        type: "video",
+        videoId: "IChY38us9BU",
+        title: "What is the difference between dharma and spirituality?",
+        caption: "Dharma teaches right conduct in the world, while spirituality leads us toward the relationship between the soul and God.",
+      },
+      {
         type: "p",
         text: "Brahm Bodhi observed that the words dharma and spirituality are heard again and again, yet they are not exactly the same \u2014 even though there is some overlap between them.",
       },
@@ -337,12 +343,23 @@ export const qaItems: QAItem[] = [
         type: "p",
         text: "The centre of such a person\u2019s entire existence, however, now rests in God. Mirabai left behind her duties as a wife and her other worldly obligations and surrendered herself completely to the spiritual path. For her, Krishna was no longer merely one part of life; Krishna had become life itself.",
       },
+      { type: "h", text: "Join the WhatsApp study group" },
+      {
+        type: "p",
+        text: "To understand the profound and life-transforming wisdom of the Bhagavad Gita, seekers are warmly invited to join our special WhatsApp group. This group is meant for those who are earnest about their spiritual growth, character-building, and the shaping of their lives. Ask your questions on life-building, dharma, and spirituality within the group, and receive scripturally grounded guidance from the head of the Bhagavad Dharma Peeth, Sriyut Brahm Bodhi Ji Maharaj.",
+      },
     ],
     hi: {
       question: "धर्म और अध्यात्म में क्या अन्तर है?",
       preview:
         "धर्म और अध्यात्म प्रायः साथ-साथ कहे जाते हैं, फिर भी दोनों एक नहीं हैं। ब्रह्मबोधि एक सरल दृष्टान्त से यह भेद स्पष्ट करते हैं \u2014 वह ईमानदार व्यापारी जो दिन में धार्मिक है और रात्रि में जिज्ञासु \u2014 और दिखाते हैं कि गीता, रामचरितमानस तथा भागवत तीनों ही दोनों की शिक्षा देते हैं। धर्म पूछता है कि संसार में कैसे रहा जाए; अध्यात्म पूछता है कि मैं वस्तुतः कौन हूँ। किन्तु अध्यात्म का पौधा केवल धर्म की भूमि में ही उग सकता है।",
       answer: [
+        {
+          type: "video",
+          videoId: "IChY38us9BU",
+          title: "धर्म और अध्यात्म में क्या अंतर है?",
+          caption: "धर्म हमें संसार में सही आचरण करना सिखाता है, जबकि अध्यात्म आत्मा और ईश्वर के संबंध की ओर ले जाता है।",
+        },
         {
           type: "p",
           text: "ब्रह्मबोधि ने कहा कि हम धर्म और अध्यात्म शब्द बार-बार सुनते हैं, किन्तु दोनों बिल्कुल एक नहीं हैं \u2014 यद्यपि इनमें कुछ समानता अवश्य है।",
@@ -436,6 +453,11 @@ export const qaItems: QAItem[] = [
         {
           type: "p",
           text: "तथापि ऐसे व्यक्ति के समस्त अस्तित्व का केन्द्र अब परमात्मा में स्थित रहता है। मीराबाई ने पत्नी के रूप में अपने कर्तव्यों और अन्य सांसारिक दायित्वों को पीछे छोड़कर स्वयं को पूर्णतः आध्यात्मिक मार्ग को समर्पित कर दिया। उनके लिए कृष्ण अब जीवन का मात्र एक अंश नहीं रह गए थे; कृष्ण ही जीवन बन गए थे।",
+        },
+        { type: "h", text: "WhatsApp अध्ययन समूह से जुड़ें" },
+        {
+          type: "p",
+          text: "भगवद्गीता के गहन एवं जीवन-परिवर्तनकारी ज्ञान को समझने के लिए हमारे विशेष WhatsApp समूह से जुड़ें। यह समूह उन लोगों के लिए है, जो अपने आध्यात्मिक विकास, चरित्र-निर्माण और जीवन-निर्माण के प्रति गंभीर हैं। जीवन-निर्माण, धर्म एवं अध्यात्म से संबंधित अपने प्रश्न समूह में पूछें और भगवद्धर्म पीठाधीश श्रीयुत ब्रह्मबोधि जी महाराज से शास्त्रसम्मत मार्गदर्शन प्राप्त करें।",
         },
       ],
     },
