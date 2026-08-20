@@ -40,6 +40,69 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "how-to-overcome-stage-fear-and-speak-with-confidence",
+    question: "How can one overcome stage fear and speak with confidence?",
+    preview:
+      "Stage fear does not mean a person is incapable of great things \u2014 even Jawaharlal Nehru, Swami Vivekananda and Mahatma Gandhi felt nervous when they first faced an audience. Brahm Bodhi explains how, with knowledge, preparation, practice and repeated opportunities to speak, anyone can gradually overcome stage fright: begin with a small audience, practise regularly, and move to larger gatherings.",
+    tag: "Life & Mind",
+    answer: [
+      {
+        type: "video",
+        videoId: "3afLKDUqWAE",
+        title: "How to Overcome Stage Fear and Speak with Confidence",
+        caption: "Brahm Bodhi on overcoming stage fright and speaking with confidence",
+      },
+      {
+        type: "p",
+        text: "Brahm Bodhi reassures that stage fear does not mean a person is incapable of achieving great things. Even great speakers such as Jawaharlal Nehru, Swami Vivekananda, and Mahatma Gandhi experienced nervousness when they first faced an audience.",
+      },
+      {
+        type: "p",
+        text: "With knowledge, preparation, practice, and repeated opportunities to speak, one can gradually overcome stage fright and become a confident speaker.",
+      },
+      {
+        type: "p",
+        text: "The path is simple: begin with a small audience, practise regularly, and gradually move to larger audiences. Success will surely follow.",
+      },
+      { type: "h", text: "An invitation to go deeper" },
+      {
+        type: "p",
+        text: "To gain a deeper understanding of the profound and life-transforming wisdom of the Bhagavad Gita, seekers are warmly invited to join our exclusive study group. This group is specially created for those who are sincerely committed to their spiritual growth and character development.",
+      },
+    ],
+    hi: {
+      question:
+        "मंच के भय (स्टेज फियर) को कैसे दूर करें और आत्मविश्वास के साथ कैसे बोलें?",
+      preview:
+        "मंच का भय यह नहीं दर्शाता कि व्यक्ति महान कार्य करने में असमर्थ है \u2014 जवाहरलाल नेहरू, स्वामी विवेकानन्द और महात्मा गांधी जैसे महान वक्ता भी जब पहली बार श्रोताओं के सामने आए तो घबराहट का अनुभव करते थे। ब्रह्मबोधि बताते हैं कि ज्ञान, तैयारी, अभ्यास और बार-बार बोलने के अवसरों के साथ कोई भी व्यक्ति धीरे-धीरे मंच के भय पर विजय पा सकता है : छोटे श्रोता-समूह से आरम्भ करें, नियमित अभ्यास करें, और क्रमशः बड़े समूहों की ओर बढ़ें।",
+      answer: [
+        {
+          type: "video",
+          videoId: "3afLKDUqWAE",
+          title: "मंच के भय को कैसे दूर करें और आत्मविश्वास के साथ बोलें",
+          caption: "मंच के भय पर विजय पाने पर ब्रह्मबोधि",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि आश्वस्त करते हैं कि मंच का भय यह नहीं दर्शाता कि व्यक्ति महान कार्य करने में असमर्थ है। जवाहरलाल नेहरू, स्वामी विवेकानन्द और महात्मा गांधी जैसे महान वक्ता भी जब पहली बार श्रोताओं के सामने आए, तब घबराहट का अनुभव करते थे।",
+        },
+        {
+          type: "p",
+          text: "ज्ञान, तैयारी, अभ्यास और बार-बार बोलने के अवसरों के साथ मनुष्य धीरे-धीरे मंच के भय पर विजय पा सकता है और एक आत्मविश्वासी वक्ता बन सकता है।",
+        },
+        {
+          type: "p",
+          text: "मार्ग सरल है : छोटे श्रोता-समूह से आरम्भ करें, नियमित अभ्यास करें, और क्रमशः बड़े श्रोता-समूहों की ओर बढ़ें। सफलता निश्चित रूप से मिलेगी।",
+        },
+        { type: "h", text: "और गहराई में जाने का निमन्त्रण" },
+        {
+          type: "p",
+          text: "भगवद्गीता के गूढ़ और जीवन-परिवर्तनकारी ज्ञान को गहराई से समझने के लिए, जिज्ञासुओं का हमारे विशेष अध्ययन समूह में सादर स्वागत है। यह समूह विशेष रूप से उन लोगों के लिए बनाया गया है जो अपने आध्यात्मिक विकास और चरित्र-निर्माण के प्रति सच्चे मन से समर्पित हैं।",
+        },
+      ],
+    },
+  },
+  {
     id: "is-it-possible-to-live-by-the-ideals-of-the-gita",
     question:
       "Is it possible to live according to the ideals of the Gita in the present age?",
