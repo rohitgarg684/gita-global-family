@@ -40,6 +40,94 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "what-is-the-bhagavad-gita",
+    question: "What is the Bhagavad Gita, and why does it still matter today?",
+    preview:
+      "Listen to Manpreet, a third-grade student at our Gita Global Gurukul in Himachal. In this simple video, Manpreet Krishna explains what the Bhagavad Gita truly is \u2014 the divine wisdom Bhagavan Sri Krishna gave to Arjuna \u2014 and how it still guides our lives toward duty, patience, courage, discernment and balance.",
+    tag: "Gurukul Voices",
+    answer: [
+      {
+        type: "p",
+        text: "Listen to Manpreet, a young student in the third grade at our Gita Global Gurukul in Himachal.",
+      },
+      {
+        type: "video",
+        videoId: "p5Mrmn8Qyd8",
+        title: "What is the Bhagavad Gita? Divine wisdom that gives direction to life",
+        caption: "Manpreet, a Gita Global Gurukul student, on what the Bhagavad Gita truly is",
+      },
+      {
+        type: "p",
+        text: "What is the Bhagavad Gita? What is its true meaning, and why does it hold such importance in life today?",
+      },
+      {
+        type: "p",
+        text: "In this simple video, Manpreet Krishna, a student of the Gita Global Gurukul, explains that the divine knowledge given by Bhagavan Sri Krishna to Arjuna still gives our lives direction \u2014 guiding us in duty, patience, courage, discernment, and balance.",
+      },
+      { type: "p", text: "Bhagavan Sri Krishna says:" },
+      {
+        type: "quote",
+        text: "क्लैब्यं मा स्म गमः पार्थ।",
+        cite: "Bhagavad Gita 2.3",
+      },
+      {
+        type: "p",
+        text: "That is: \u201CO Arjuna, do not yield to weakness.\u201D",
+      },
+      {
+        type: "p",
+        text: "By understanding the Bhagavad Gita and bringing its message into our lives, we can make our lives more meaningful, balanced, and radiant.",
+      },
+      {
+        type: "p",
+        text: "This video is for students, young people, teachers, parents, and every curious seeker who wishes to understand the practical, life-giving wisdom of the Bhagavad Gita in a simple form.",
+      },
+    ],
+    hi: {
+      question: "भगवद्गीता क्या है, और आज भी इसका महत्व क्यों है?",
+      preview:
+        "हमारे हिमाचल स्थित गीता ग्लोबल गुरुकुल में तीसरी कक्षा में पढ़ने वाले मनप्रीत को सुनिये। इस सरल वीडियो में मनप्रीत कृष्ण बताते हैं कि भगवद्गीता वास्तव में क्या है \u2014 भगवान श्रीकृष्ण द्वारा अर्जुन को दिया गया दिव्य ज्ञान \u2014 और यह आज भी हमारे जीवन को कर्तव्य, धैर्य, साहस, विवेक और संतुलन की दिशा कैसे देती है।",
+      answer: [
+        {
+          type: "p",
+          text: "हमारे हिमाचल स्थित गीता ग्लोबल गुरुकुल में तीसरी कक्षा में पढ़ने वाले मनप्रीत को सुनिये।",
+        },
+        {
+          type: "video",
+          videoId: "p5Mrmn8Qyd8",
+          title: "भगवद्गीता क्या है? जीवन को दिशा देने वाला दिव्य ज्ञान",
+          caption: "गीता ग्लोबल गुरुकुल के विद्यार्थी मनप्रीत — भगवद्गीता वास्तव में क्या है",
+        },
+        {
+          type: "p",
+          text: "भगवद्गीता क्या है? इसका वास्तविक अर्थ क्या है और आज के जीवन में इसका महत्व क्यों है?",
+        },
+        {
+          type: "p",
+          text: "गीता ग्लोबल गुरुकुल के विद्यार्थी मनप्रीत कृष्ण इस सरल वीडियो में बताते हैं कि भगवान श्रीकृष्ण द्वारा अर्जुन को दिया गया यह दिव्य ज्ञान आज भी हमारे जीवन को कर्तव्य, धैर्य, साहस, विवेक और संतुलन की दिशा देता है।",
+        },
+        { type: "p", text: "भगवान श्रीकृष्ण कहते हैं \u2014" },
+        {
+          type: "quote",
+          text: "क्लैब्यं मा स्म गमः पार्थ।",
+          cite: "भगवद्गीता 2.3",
+        },
+        {
+          type: "p",
+          text: "अर्थात् \u2014 हे अर्जुन! दुर्बलता को मत अपनाओ।",
+        },
+        {
+          type: "p",
+          text: "भगवद्गीता को समझकर और उसके संदेश को जीवन में उतारकर हम अपने जीवन को अधिक सार्थक, संतुलित और प्रकाशमय बना सकते हैं।",
+        },
+        {
+          type: "p",
+          text: "यह वीडियो विद्यार्थियों, युवाओं, शिक्षकों, अभिभावकों और प्रत्येक जिज्ञासु व्यक्ति के लिए है, जो भगवद्गीता के जीवनोपयोगी ज्ञान को सरल रूप में समझना चाहता है।",
+        },
+      ],
+    },
+  },
+  {
     id: "how-to-overcome-stage-fear-and-speak-with-confidence",
     question: "How can one overcome stage fear and speak with confidence?",
     preview:
