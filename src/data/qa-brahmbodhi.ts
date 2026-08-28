@@ -40,6 +40,541 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "journey-towards-moksha-part-1",
+    question:
+      "The journey towards Moksha: is liberation attained through solitary sadhana, or while living amidst family and society? (Part 1)",
+    preview:
+      "A retired doctor, drawn to God and temple service since childhood, asks Brahm Bodhi what his lifelong austerities, japa and meditation have attained \u2014 and whether one should serve society or seek solitude for knowledge and devotion. Brahm Bodhi lays the groundwork: no sadhana is wasted, yet the journey to moksha, like a long voyage, is best completed with the right means in this very lifetime.",
+    image: {
+      en: "qa-journey-towards-moksha.png",
+      hi: "qa-journey-towards-moksha.png",
+      alt: {
+        en: "The journey towards Moksha: a pilgrim walking the long road to the luminous divine destination",
+        hi: "मोक्ष की यात्रा \u2014 दिव्य गंतव्य की ओर लंबे मार्ग पर चलता एक यात्री",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "A retired doctor \u2014 whom Brahm Bodhi addresses as \u201CDoctor Sahib\u201D \u2014 wrote seeking guidance, describing a lifelong pull toward God and service in temples.",
+      },
+      {
+        type: "quote",
+        text: "Hari Sharanam. Since childhood I have felt naturally drawn toward God and service in temples. During my active professional life this remained one part of my life. After retirement I wished to devote all my time to the worship of Bhagavan, to pilgrimage and satsang. Yet my experience over the past few years has been that whenever I step outside that environment, I find myself back where I was before. It seems that I am still exactly as I was in childhood, with not the slightest change in my state of mind. Since childhood I have practised rigorous austerities, nama-japa, meditation and samadhi. I wish to understand what has been attained through all this, and what may ultimately be attained. Should a healthy body and mind be employed, while living amidst family and society, for the welfare of ordinary people? Or should one seek solitude for the pursuit of knowledge, detachment and devotion? Please guide me. Jai Shri Ram.",
+      },
+      {
+        type: "p",
+        text: "\u201CHari Sharanam, Doctor Sahib,\u201D Brahm Bodhi began. He gently observed that the seeker\u2019s account and question were not entirely clear to him \u2014 particularly whether he meant that he had been experiencing samadhi since childhood \u2014 yet he offered a brief response to what he had understood.",
+      },
+      { type: "h", text: "No sadhana is ever wasted" },
+      {
+        type: "p",
+        text: "First, Brahm Bodhi assured him, whatever japa, tapas, meditation, worship and spiritual practice one undertakes certainly bears some fruit. Whether little or much, nothing goes entirely to waste.",
+      },
+      { type: "h", text: "But the right means shorten the journey" },
+      {
+        type: "p",
+        text: "Suppose, he said, one has to travel from Patna to London and begins walking in that direction. Every step is not wasted; one does move somewhat closer to the destination. But had one taken the right train and then the right flight, one would have reached there much sooner. Even a person who cannot afford an air ticket should, if he truly wishes to reach London, try to cut unnecessary expenses, work harder to earn a little extra, and somehow arrange the fare.",
+      },
+      {
+        type: "p",
+        text: "Most people, Brahm Bodhi observed, are travelling toward moksha on foot. Perhaps one person in a hundred thousand is even making a serious attempt. Whatever distance one has covered leaves its samskaras accumulated in the subtle body, and in the next birth one may get an opportunity to continue the journey \u2014 provided one is born again as a human being.",
+      },
+      {
+        type: "p",
+        text: "But it is equally possible, he cautioned, that next time one may begin walking in the opposite direction. And if one is born as an animal or a bird, who knows when a human birth will come again? It is therefore far better to complete the journey in this very lifetime.",
+      },
+      { type: "h", text: "A story: the fear of degradation" },
+      {
+        type: "p",
+        text: "Brahm Bodhi recalled an acquaintance who happened to receive compensation of nearly \u20B925 crore. Already well-off, the man now worried that in his next birth he might be born as a dog. Having studied the scriptures, he knew there is no guarantee that one\u2019s next birth will necessarily be human. He asked Brahm Bodhi what he should do with those \u20B925 crore so that he might avoid spiritual degradation \u2014 perhaps having read that some action once committed can result in birth in a canine form.",
+      },
+      {
+        type: "p",
+        text: "Once the gravity of the cycle of birth and death truly sinks into a person\u2019s consciousness, Brahm Bodhi noted, he strives far more urgently to escape it.",
+      },
+      { type: "p", text: "That is why Bhagavan says in the Gita:" },
+      {
+        type: "quote",
+        text: "जन्ममृत्युजराव्याधिदुःखदोषानुदर्शनम्।",
+        cite: "Bhagavad Gita 13.9",
+      },
+      {
+        type: "p",
+        text: "To contemplate repeatedly upon the suffering inherent in birth, death, old age and disease is itself spiritually beneficial.",
+      },
+      {
+        type: "p",
+        text: "Descriptions of hell, he added, are found not only in the Garuda Purana but also in the Bhagavata and several other scriptures. Even Yudhishthira had to witness hell in the Mahabharata, though only for a few moments \u2014 and we know that even he had committed certain wrongs. It is therefore best that we do not knowingly commit even a single wrongful act.",
+      },
+      {
+        type: "p",
+        text: "As real as this birth is, so is rebirth; so are heaven and hell. And moksha is the final liberation from this entire cycle.",
+      },
+      {
+        type: "p",
+        text: "This, Brahm Bodhi clarified, is not yet the answer to the doctor\u2019s question. It is only the background necessary for understanding it.",
+      },
+      { type: "h", text: "Understanding the route before setting out" },
+      {
+        type: "p",
+        text: "If we have to travel to a distant country, he said, we ask ten people how to get there, what means of transport to take, and where to stay. Why, then, should we undertake the journey toward moksha without first understanding the route?",
+      },
+      {
+        type: "p",
+        text: "The doctor\u2019s central question, Brahm Bodhi acknowledged, is extremely important: Is it more spiritually beneficial to withdraw from worldly life and devote oneself full-time to bhajan and sadhana \u2014 or is the same spiritual attainment possible while living amidst family and society and working for the welfare of others?",
+      },
+      {
+        type: "p",
+        text: "He promised a direct answer to this question \u2014 but not on that day. He would take it up in small parts, so that everyone could understand it clearly.",
+      },
+      { type: "h", text: "For the present" },
+      {
+        type: "p",
+        text: "For now, Brahm Bodhi advised, everyone should read the Bhagavata\u2019s description of the hells and of the actions that lead to them. It will evoke a profound sense of fear \u2014 and even that fear can become a means to one\u2019s spiritual welfare.",
+      },
+      {
+        type: "p",
+        text: "Turning to the seeker, he added with warmth that he knew the doctor personally \u2014 knew how honest and compassionate a physician he had been. What he had said about hell and spiritual degradation, therefore, was not directed at the doctor personally; it was meant for everyone.",
+      },
+      {
+        type: "p",
+        text: "The doctor was certainly deserving of sadgati, a blessed destination, Brahm Bodhi said. But one should not strive merely for sadgati \u2014 one should strive for the highest destination, the param gati.",
+      },
+    ],
+    hi: {
+      question:
+        "मोक्ष की यात्रा : क्या मुक्ति एकांत साधना से मिलती है, या परिवार और समाज के बीच रहते हुए भी? (भाग 1)",
+      preview:
+        "बचपन से ईश्वर और मंदिर-सेवा की ओर झुकाव रखने वाले एक सेवानिवृत्त चिकित्सक ब्रह्मबोधि से पूछते हैं कि उनके जीवन भर के तप, जप और ध्यान से क्या प्राप्त हुआ, और क्या मनुष्य को समाज की सेवा करनी चाहिए अथवा ज्ञान और भक्ति के लिए एकांत खोजना चाहिए। ब्रह्मबोधि आधार रखते हैं \u2014 कोई साधना व्यर्थ नहीं जाती, फिर भी मोक्ष की यात्रा, किसी लंबी यात्रा की भाँति, सही साधनों से इसी जीवन में पूर्ण कर लेना श्रेयस्कर है।",
+      answer: [
+        {
+          type: "p",
+          text: "एक सेवानिवृत्त चिकित्सक \u2014 जिन्हें ब्रह्मबोधि \u2018डॉक्टर साहब\u2019 कहकर संबोधित करते हैं \u2014 ने मार्गदर्शन के लिए लिखा और बताया कि बचपन से ही उनका ईश्वर और मंदिर-सेवा की ओर स्वाभाविक झुकाव रहा है।",
+        },
+        {
+          type: "quote",
+          text: "हरि शरणम्। बचपन से ही मेरा ईश्वर और मंदिरों में सेवा की ओर स्वाभाविक झुकाव रहा है। अपने कर्मशील व्यावसायिक जीवन में यह मेरे जीवन का एक भाग बना रहा। सेवानिवृत्ति के पश्चात मैं अपना समस्त समय भगवान की उपासना, तीर्थयात्रा और सत्संग में लगाना चाहता था। किन्तु पिछले कुछ वर्षों का मेरा अनुभव यह रहा है कि जैसे ही मैं उस वातावरण से बाहर निकलता हूँ, मैं पुनः वहीं पहुँच जाता हूँ जहाँ पहले था। मुझे प्रतीत होता है कि मैं आज भी ठीक वैसा ही हूँ जैसा बचपन में था \u2014 मन की स्थिति में तनिक भी परिवर्तन नहीं। बचपन से मैंने कठोर तप, नाम-जप, ध्यान और समाधि का अभ्यास किया है। मैं समझना चाहता हूँ कि इस सबसे क्या प्राप्त हुआ, और अंततः क्या प्राप्त हो सकता है। क्या स्वस्थ शरीर और मन को, परिवार और समाज के बीच रहते हुए, सामान्य जनों के कल्याण में लगाना चाहिए? अथवा ज्ञान, वैराग्य और भक्ति के लिए एकांत खोजना चाहिए? कृपया मार्गदर्शन कीजिए। जय श्री राम।",
+        },
+        {
+          type: "p",
+          text: "\u201Cहरि शरणम्, डॉक्टर साहब,\u201D ब्रह्मबोधि ने आरंभ किया। उन्होंने सौम्यता से कहा कि जिज्ञासु का विवरण और प्रश्न उन्हें पूर्णतः स्पष्ट नहीं हैं \u2014 विशेषकर यह कि क्या उनका आशय यह है कि वे बचपन से समाधि का अनुभव करते रहे हैं \u2014 फिर भी जो उन्होंने समझा, उस पर संक्षेप में उत्तर दिया।",
+        },
+        { type: "h", text: "कोई साधना व्यर्थ नहीं जाती" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने पहले उन्हें आश्वस्त किया कि जो भी जप, तप, ध्यान, उपासना और साधना मनुष्य करता है, उसका कुछ न कुछ फल अवश्य मिलता है। थोड़ा हो या अधिक, कुछ भी पूर्णतः व्यर्थ नहीं जाता।",
+        },
+        { type: "h", text: "किन्तु सही साधन यात्रा को छोटा कर देते हैं" },
+        {
+          type: "p",
+          text: "उन्होंने कहा \u2014 मान लीजिए किसी को पटना से लंदन जाना है और वह उस दिशा में पैदल चलना आरंभ कर देता है। उसका हर कदम व्यर्थ नहीं जाता; वह अपने गंतव्य के कुछ निकट अवश्य पहुँचता है। किन्तु यदि उसने सही रेलगाड़ी और फिर सही विमान लिया होता, तो वह वहाँ बहुत शीघ्र पहुँच जाता। जो व्यक्ति हवाई टिकट का व्यय वहन नहीं कर सकता, उसे भी, यदि वह सचमुच लंदन पहुँचना चाहता है, तो अनावश्यक व्यय घटाने, अधिक परिश्रम कर कुछ अतिरिक्त कमाने और किसी प्रकार किराया जुटाने का प्रयास करना चाहिए।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि अधिकांश लोग मोक्ष की ओर पैदल ही यात्रा कर रहे हैं। संभवतः लाख में एक व्यक्ति ही इसका गंभीर प्रयास करता है। जितनी दूरी कोई तय करता है, उसके संस्कार सूक्ष्म शरीर में संचित रहते हैं, और अगले जन्म में उसे यात्रा जारी रखने का अवसर मिल सकता है \u2014 बशर्ते वह पुनः मनुष्य रूप में जन्म ले।",
+        },
+        {
+          type: "p",
+          text: "किन्तु यह भी उतना ही संभव है, उन्होंने सचेत किया, कि अगली बार हम विपरीत दिशा में चलना आरंभ कर दें। और यदि हम पशु या पक्षी के रूप में जन्म लें, तो कौन जाने पुनः मनुष्य-जन्म कब मिलेगा? अतः इसी जीवन में यात्रा पूर्ण कर लेना कहीं अधिक श्रेयस्कर है।",
+        },
+        { type: "h", text: "एक प्रसंग : अधोगति का भय" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने एक परिचित का स्मरण किया जिन्हें लगभग \u20B925 करोड़ का मुआवजा प्राप्त हुआ। पहले से संपन्न वे व्यक्ति अब इस चिंता में थे कि कहीं अगले जन्म में उनका जन्म कुत्ते के रूप में न हो जाए। शास्त्रों के अध्ययन के कारण वे जानते थे कि इसकी कोई गारंटी नहीं कि अगला जन्म अवश्य मनुष्य का ही होगा। उन्होंने ब्रह्मबोधि से पूछा कि वे उन \u20B925 करोड़ का क्या करें जिससे आध्यात्मिक अधोगति से बच सकें \u2014 संभवतः उन्होंने कहीं पढ़ा था कि कोई कर्म, जो कभी किया गया हो, श्वान-योनि में जन्म का कारण बन सकता है।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि जब जन्म-मृत्यु के चक्र की गंभीरता किसी के अंतःकरण में सचमुच उतर जाती है, तब वह उससे मुक्त होने के लिए कहीं अधिक तत्परता से प्रयास करता है।",
+        },
+        { type: "p", text: "इसीलिए भगवान गीता में कहते हैं \u2014" },
+        {
+          type: "quote",
+          text: "जन्ममृत्युजराव्याधिदुःखदोषानुदर्शनम्।",
+          cite: "भगवद्गीता 13.9",
+        },
+        {
+          type: "p",
+          text: "जन्म, मृत्यु, वृद्धावस्था और रोग में निहित दुःख का बार-बार चिंतन करना स्वयं में आध्यात्मिक दृष्टि से हितकर है।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने कहा कि नरक के वर्णन केवल गरुड़ पुराण में ही नहीं, अपितु भागवत तथा अनेक अन्य शास्त्रों में भी मिलते हैं। महाभारत में युधिष्ठिर को भी नरक का दर्शन करना पड़ा था, यद्यपि कुछ ही क्षणों के लिए \u2014 और हम जानते हैं कि उनसे भी कुछ त्रुटियाँ हुई थीं। अतः यही सर्वोत्तम है कि हम जानबूझकर एक भी अनुचित कर्म न करें।",
+        },
+        {
+          type: "p",
+          text: "जितना सत्य यह जन्म है, उतना ही सत्य पुनर्जन्म है; उतने ही सत्य स्वर्ग और नरक हैं। और मोक्ष इस समस्त चक्र से अंतिम मुक्ति है।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने स्पष्ट किया कि यह अभी डॉक्टर साहब के प्रश्न का उत्तर नहीं है। यह तो केवल उस उत्तर को समझने के लिए आवश्यक पृष्ठभूमि है।",
+        },
+        { type: "h", text: "यात्रा से पूर्व मार्ग को समझना" },
+        {
+          type: "p",
+          text: "उन्होंने कहा \u2014 यदि हमें किसी दूर देश की यात्रा करनी हो, तो हम दस लोगों से पूछते हैं कि वहाँ कैसे पहुँचें, कौन-सा साधन लें और कहाँ ठहरें। तो फिर मोक्ष की यात्रा हम बिना मार्ग को समझे क्यों आरंभ कर दें?",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने स्वीकार किया कि डॉक्टर साहब का केंद्रीय प्रश्न अत्यंत महत्वपूर्ण है : क्या सांसारिक जीवन से विरत होकर पूर्णकालिक रूप से भजन और साधना में लग जाना आध्यात्मिक दृष्टि से अधिक हितकर है \u2014 अथवा वही आध्यात्मिक प्राप्ति परिवार और समाज के बीच रहते हुए, दूसरों के कल्याण में कार्य करते हुए भी संभव है?",
+        },
+        {
+          type: "p",
+          text: "उन्होंने इस प्रश्न का सीधा उत्तर देने का वचन दिया \u2014 किन्तु उस दिन नहीं। वे इसे छोटे-छोटे भागों में लेंगे, ताकि सब इसे स्पष्ट रूप से समझ सकें।",
+        },
+        { type: "h", text: "इस समय के लिए" },
+        {
+          type: "p",
+          text: "फिलहाल ब्रह्मबोधि की सलाह यह रही कि सबको भागवत में वर्णित नरकों का और उन कर्मों का वर्णन पढ़ना चाहिए जो उन तक ले जाते हैं। इससे गहन भय का भाव उत्पन्न होगा \u2014 और वह भय भी मनुष्य के आध्यात्मिक कल्याण का साधन बन सकता है।",
+        },
+        {
+          type: "p",
+          text: "जिज्ञासु की ओर मुड़ते हुए उन्होंने स्नेहपूर्वक कहा कि वे डॉक्टर साहब को व्यक्तिगत रूप से जानते हैं \u2014 जानते हैं कि वे कितने ईमानदार और करुणाशील चिकित्सक रहे हैं। अतः नरक और अधोगति के विषय में जो कुछ उन्होंने कहा, वह डॉक्टर साहब के प्रति व्यक्तिगत रूप से लक्षित नहीं है; वह सबके लिए है।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने कहा कि डॉक्टर साहब निश्चय ही सद्गति के अधिकारी हैं। किन्तु मनुष्य को केवल सद्गति के लिए प्रयास नहीं करना चाहिए \u2014 उसे सर्वोच्च गति, अर्थात् परम गति के लिए प्रयास करना चाहिए।",
+        },
+      ],
+    },
+  },
+  {
+    id: "spiritual-technology-psychological-engineering-part-1",
+    question:
+      "What are \u201CSpiritual Technology\u201D and \u201CPsychological Engineering,\u201D and how do they accelerate spiritual progress? (Part 1)",
+    preview:
+      "A devotee, Vimal Kumar Khera, asks Brahm Bodhi to explain the tools of \u201CPsychological Engineering\u201D used in Bhagavad Dharma. Brahm Bodhi lays the foundation \u2014 showing how the mind, intellect and the \u201CI-sense\u201D form the cage of Maya, and how systematic psychological methods, joined with sadhana, can tunnel through the mountain of the mind toward the Self.",
+    image: {
+      en: "qa-spiritual-technology-psychological-engineering.png",
+      hi: "qa-spiritual-technology-psychological-engineering.png",
+      alt: {
+        en: "Spiritual Technology: tunnelling through the mountain of the mind toward the Self",
+        hi: "आध्यात्मिक प्रौद्योगिकी \u2014 मन रूपी पर्वत को भेदकर आत्मा की ओर मार्ग",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "A devotee, Vimal Kumar Khera, wrote to Brahm Bodhi with deep reverence, recalling an earlier promise that, when time permitted, further light would be shed upon \u201CSpiritual Technology\u201D and \u201CPsychological Engineering.\u201D He now sought that guidance.",
+      },
+      {
+        type: "quote",
+        text: "Respected Brahm Bodhi Ji, my humble pranam to you. Your guidance fills the mind with immense joy. You had yourself said that, when time permitted, you would shed further light on this subject. Prabhu Ji, please find some time \u2014 otherwise time itself will one day take us away! Kindly illuminate us with the light of your knowledge and bless us with your guidance.",
+      },
+      {
+        type: "p",
+        text: "\u201CHari Sharanam, Khera Ji!\u201D Brahm Bodhi replied, and then took up the subject.",
+      },
+      {
+        type: "p",
+        text: "He recalled that in an earlier answer, while discussing these very terms, he had said that it is entirely appropriate to employ techniques or \u201Ctechnology\u201D drawn from psychology for spiritual progress, because ultimately it is the mind that has to be trained and mastered. When the mind is mastered, our perception begins to change, insight into the true nature of reality begins to dawn, and the way opens toward the realization of God.",
+      },
+      {
+        type: "p",
+        text: "The seeker had now expressed a wish to understand the very tools of Psychological Engineering employed by Bhagavad Dharma.",
+      },
+      { type: "h", text: "The Gita as a science of the mind" },
+      {
+        type: "p",
+        text: "If one reads the Bhagavad Gita carefully, Brahm Bodhi observed, a very substantial part of it deals with the science of the mind \u2014 what we today call psychology. The Gita certainly explains the nature of the Atman, but the Atman itself is akarta, the non-doer. It performs no action for its own liberation. In a sense, it remains imprisoned within the cage of Maya.",
+      },
+      {
+        type: "p",
+        text: "This entire divine lila is a cosmic drama in which the jivatman \u2014 an individual manifestation of the same Supreme Reality \u2014 comes under the veil of Maya and forgets its true nature.",
+      },
+      { type: "h", text: "What is this veil, this cage?" },
+      {
+        type: "p",
+        text: "It may be understood as the sukshma sharira, the subtle body, also called the linga sharira. Among its principal constituents are manas (mind), buddhi (intellect), and ahamkara (the sense of \u201CI\u201D). All three play an extremely important role in the spiritual journey, and all three fall within the domain of psychology.",
+      },
+      {
+        type: "p",
+        text: "Here, ahamkara does not mean pride or arrogance. Pride can certainly be one expression of ahamkara, but its fundamental meaning here is the \u201CI-sense\u201D \u2014 the experience of oneself as a separate individual entity.",
+      },
+      {
+        type: "p",
+        text: "\u201CI am Varuna,\u201D \u201CI am Indra,\u201D \u201CI am Shiva,\u201D \u201CI am Brahma\u201D; or, at the human level, \u201CI am rich,\u201D \u201CI am poor,\u201D \u201CI am powerful,\u201D \u201CI am weak and helpless.\u201D Behind all these statements operates the same \u201CI-sense.\u201D",
+      },
+      {
+        type: "p",
+        text: "It is this \u201CI-sense\u201D that makes one experience oneself as separate from another. In broad terms, it may be described as the apparent individualization of the one indivisible Supreme Self.",
+      },
+      {
+        type: "p",
+        text: "Without this \u201CI,\u201D it is difficult even to conceive of the empirical world and individual existence. Yet this very \u201CI\u201D also becomes one of the principal elements in the alloy from which the cage of Maya is formed.",
+      },
+      {
+        type: "p",
+        text: "This background is necessary, Brahm Bodhi explained, because it is this \u201CI\u201D that makes one deity appear separate from another, one human being from another, and one living being from another \u2014 although, from the spiritual standpoint, the same Supreme Reality dwells within them all.",
+      },
+      { type: "h", text: "The role of \u201CSpiritual Technology\u201D" },
+      {
+        type: "p",
+        text: "What, then, is the role of \u201CSpiritual Technology\u201D here? Its task is gradually to reduce the dominance of this \u201CI.\u201D Its purpose is to begin loosening, within a matter of weeks, the rigidity of such notions as \u201CI am the master and this person is my servant,\u201D or \u201CI am wealthy and powerful, while that beggar sitting by the roadside is someone entirely separate from me.\u201D",
+      },
+      {
+        type: "p",
+        text: "This does not mean that one must become a beggar and sit by the roadside. What is necessary is that one\u2019s vision should mature to the point of recognizing that the same Supreme Being dwells within that beggar \u2014 that the Atman within him is of the same Divine Reality as the Atman dwelling within oneself. One then begins to experience the underlying oneness between oneself and the other.",
+      },
+      {
+        type: "p",
+        text: "The Bhagavad Gita repeatedly teaches precisely this vision. Bhagavan Krishna says:",
+      },
+      {
+        type: "quote",
+        text: "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि। ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः॥",
+        cite: "Bhagavad Gita 6.29",
+      },
+      {
+        type: "p",
+        text: "The one established in Yoga sees the Self abiding in all beings and all beings abiding in the Self, beholding the same Reality everywhere.",
+      },
+      { type: "p", text: "Again:" },
+      {
+        type: "quote",
+        text: "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन। सुखं वा यदि वा दुःखं स योगी परमो मतः॥",
+        cite: "Bhagavad Gita 6.32",
+      },
+      {
+        type: "p",
+        text: "One who, taking oneself as the measure, sees all beings as equal \u2014 regarding their happiness and suffering as one\u2019s own \u2014 is considered the highest yogi.",
+      },
+      {
+        type: "p",
+        text: "The Gita makes another very clear declaration:",
+      },
+      {
+        type: "quote",
+        text: "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति। तस्याहं न प्रणश्यामि स च मे न प्रणश्यति॥",
+        cite: "Bhagavad Gita 6.30",
+      },
+      {
+        type: "p",
+        text: "One who sees the Lord everywhere and sees everything in the Lord never loses sight of Him, nor does the Lord ever lose sight of that person.",
+      },
+      {
+        type: "p",
+        text: "We read these verses, Brahm Bodhi noted, but allowing their truth to penetrate deeply into the mind is difficult. Even after reflecting upon them, it can take a very long time to understand this truth fully, accept it inwardly, assimilate it, and finally make it a part of our very nature.",
+      },
+      {
+        type: "p",
+        text: "Merely reading the Gita, the Ramayana, or the Bhagavata repeatedly does not immediately dissolve the deeply ingrained sense of separateness that has accumulated within the mind over a very long period. For that, systematic practice \u2014 which we may call sadhana \u2014 is necessary.",
+      },
+      {
+        type: "p",
+        text: "It is precisely here that the usefulness of \u201CSpiritual Technology,\u201D \u201CPsychological Engineering,\u201D or Manovaigyanik Abhiyantran becomes apparent.",
+      },
+      { type: "h", text: "The analogy of the tunnel" },
+      {
+        type: "p",
+        text: "Brahm Bodhi illustrated this with an analogy. Suppose one has to cross a high and inaccessible mountain, beyond which lies a divine world, and to reach it a tunnel must be carved through the mountain.",
+      },
+      {
+        type: "p",
+        text: "If one tries to cut through the mountain using only a hammer and chisel, it may take thousands of days. Modern technology, however \u2014 using massive drilling machines, controlled blasting, and other sophisticated equipment \u2014 can accomplish the same task in a fraction of that time. The mountain remains the same. The destination remains the same. What has changed is the effectiveness of the tools.",
+      },
+      {
+        type: "p",
+        text: "The human mind is such a formidable mountain. Our samskaras, ahamkara, attachments and aversions (raga-dvesha), fears, desires, and long-established patterns of thought are the hard rocks of this mountain. Merely listening to spiritual discourses does not break these rocks.",
+      },
+      {
+        type: "p",
+        text: "For this purpose, meditation, self-observation, the systematic cultivation of particular attitudes and emotions, repetition, transformation of perspective, and other effective methods understood through psychology can be employed in an organized manner.",
+      },
+      {
+        type: "p",
+        text: "Such transformation cannot ordinarily be achieved in a short period through any one simple method \u2014 such as mantra-japa or nama-japa alone \u2014 although these practices certainly have their own definite spiritual benefits.",
+      },
+      { type: "h", text: "What this does and does not mean" },
+      {
+        type: "p",
+        text: "This systematic application of psychological methods for accelerating spiritual transformation is what, in Bhagavad Dharma, is called \u201CSpiritual Technology\u201D and \u201CPsychological Engineering\u201D (Manovaigyanik Abhiyantran).",
+      },
+      {
+        type: "p",
+        text: "This does not mean that some modern psychological technique can automatically bestow moksha. It means that the process of mastering and transforming the mind can be made more systematic, conscious, and effective.",
+      },
+      {
+        type: "p",
+        text: "A mental veil that might take an extremely long time to remove through irregular or unsystematic efforts can be worked upon far more effectively when useful psychological techniques are combined with proper spiritual sadhana. In this way, a seeker can substantially accelerate spiritual progress.",
+      },
+      {
+        type: "p",
+        text: "A tunnelling machine does not create the world that lies beyond the mountain; it merely opens a passage through which that world can be reached more quickly. In exactly the same way, psychological techniques do not create God or the Atman \u2014 they are already there. These techniques merely help remove the psychological barriers and mental obstructions that prevent us from perceiving the Reality that already exists.",
+      },
+      {
+        type: "p",
+        text: "Brahm Bodhi acknowledged that he had still not fully answered the seeker\u2019s original question \u2014 but that this background was necessary in order to understand the answer properly, and that in this discussion he had tried to lay that foundation.",
+      },
+      {
+        type: "p",
+        text: "In the next discussion, he said, the subject would be carried one step further: how this \u201CSpiritual Technology\u201D or \u201CPsychological Engineering\u201D of Bhagavad Dharma can actually be applied in spiritual practice, and what specific tools and techniques it uses to accelerate spiritual progress.",
+      },
+    ],
+    hi: {
+      question:
+        "\u201Cआध्यात्मिक प्रौद्योगिकी\u201D और \u201Cमनोवैज्ञानिक अभियंत्रण\u201D क्या हैं, और ये आध्यात्मिक प्रगति को कैसे त्वरित करते हैं? (भाग 1)",
+      preview:
+        "श्रद्धालु विमल कुमार खेरा जी ब्रह्मबोधि से भगवद्धर्म में प्रयुक्त \u2018मनोवैज्ञानिक अभियंत्रण\u2019 के साधनों को समझाने की प्रार्थना करते हैं। ब्रह्मबोधि इसका आधार रखते हैं \u2014 यह दर्शाते हुए कि मन, बुद्धि और \u2018मैं\u2019-भाव किस प्रकार माया का पिंजरा रचते हैं, और व्यवस्थित मनोवैज्ञानिक विधियाँ साधना के साथ मिलकर मन रूपी पर्वत को भेदकर आत्मा की ओर मार्ग कैसे बना सकती हैं।",
+      answer: [
+        {
+          type: "p",
+          text: "एक श्रद्धालु विमल कुमार खेरा जी ने अत्यंत श्रद्धा के साथ ब्रह्मबोधि को लिखा और उनका वह वचन स्मरण कराया कि समय मिलने पर वे \u201Cआध्यात्मिक प्रौद्योगिकी\u201D और \u201Cमनोवैज्ञानिक अभियंत्रण\u201D पर और प्रकाश डालेंगे। अब उन्होंने उसी मार्गदर्शन की प्रार्थना की।",
+        },
+        {
+          type: "quote",
+          text: "आदरणीय ब्रह्मबोधि जी, मेरा सादर प्रणाम। आपका मार्गदर्शन मन को अपार आनंद से भर देता है। आपने स्वयं कहा था कि समय मिलने पर आप इस विषय पर और प्रकाश डालेंगे। प्रभु जी, कृपया कुछ समय अवश्य निकालिए \u2014 अन्यथा समय ही किसी दिन हमें ले जाएगा! अपने ज्ञान के प्रकाश से हमें आलोकित कीजिए और अपने मार्गदर्शन से हमें कृतार्थ कीजिए।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने उत्तर दिया \u2014 \u201Cहरि शरणम्, खेरा जी!\u201D \u2014 और तत्पश्चात विषय का प्रतिपादन आरंभ किया।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने स्मरण कराया कि एक पूर्व उत्तर में, इन्हीं शब्दों की चर्चा करते हुए, उन्होंने कहा था कि आध्यात्मिक प्रगति के लिए मनोविज्ञान से ली गई युक्तियों अथवा \u201Cप्रौद्योगिकी\u201D का प्रयोग करना पूर्णतः उचित है, क्योंकि अंततः मन को ही साधना और वश में करना है। जब मन वश में हो जाता है, तब हमारी दृष्टि बदलने लगती है, सत्य के वास्तविक स्वरूप की अंतर्दृष्टि उदित होने लगती है, और ईश्वर-साक्षात्कार का मार्ग खुलता है।",
+        },
+        {
+          type: "p",
+          text: "अब जिज्ञासु ने भगवद्धर्म में प्रयुक्त \u2018मनोवैज्ञानिक अभियंत्रण\u2019 के इन्हीं साधनों को समझने की इच्छा व्यक्त की।",
+        },
+        { type: "h", text: "मन के विज्ञान के रूप में गीता" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि यदि भगवद्गीता को ध्यानपूर्वक पढ़ा जाए, तो उसका एक बहुत बड़ा भाग मन के विज्ञान \u2014 जिसे आज हम मनोविज्ञान कहते हैं \u2014 से संबंधित मिलेगा। गीता आत्मा के स्वरूप का वर्णन अवश्य करती है, किन्तु आत्मा स्वयं अकर्ता है; वह अपनी मुक्ति के लिए स्वयं कोई कर्म नहीं करती। एक अर्थ में वह माया के पिंजरे में बंदी-सी रहती है।",
+        },
+        {
+          type: "p",
+          text: "यह समस्त दिव्य लीला एक ब्रह्मांडीय नाट्य है, जिसमें जीवात्मा \u2014 उसी परम सत्ता का एक व्यक्तिगत प्राकट्य \u2014 माया के आवरण में आकर अपने सच्चे स्वरूप को भूल जाती है।",
+        },
+        { type: "h", text: "यह आवरण, यह पिंजरा क्या है?" },
+        {
+          type: "p",
+          text: "इसे सूक्ष्म शरीर, अर्थात् लिंग शरीर के रूप में समझा जा सकता है। इसके प्रमुख अवयवों में मनस् (मन), बुद्धि और अहंकार (\u2018मैं\u2019-भाव) आते हैं। ये तीनों हमारी आध्यात्मिक यात्रा में अत्यंत महत्वपूर्ण भूमिका निभाते हैं, और ये तीनों ही मनोविज्ञान के क्षेत्र में आते हैं।",
+        },
+        {
+          type: "p",
+          text: "यहाँ अहंकार का अर्थ गर्व या दंभ नहीं है। गर्व अहंकार की एक अभिव्यक्ति अवश्य हो सकता है, किन्तु यहाँ इसका मूल अर्थ है \u2018मैं\u2019-भाव \u2014 स्वयं को एक पृथक् व्यक्तिगत सत्ता के रूप में अनुभव करना।",
+        },
+        {
+          type: "p",
+          text: "\u201Cमैं वरुण हूँ,\u201D \u201Cमैं इंद्र हूँ,\u201D \u201Cमैं शिव हूँ,\u201D \u201Cमैं ब्रह्मा हूँ\u201D; अथवा मानवीय स्तर पर \u2014 \u201Cमैं धनवान हूँ,\u201D \u201Cमैं निर्धन हूँ,\u201D \u201Cमैं शक्तिशाली हूँ,\u201D \u201Cमैं दुर्बल और असहाय हूँ।\u201D इन सभी कथनों के पीछे वही \u2018मैं\u2019-भाव कार्य करता है।",
+        },
+        {
+          type: "p",
+          text: "यही \u2018मैं\u2019-भाव मनुष्य को स्वयं को दूसरे से पृथक् अनुभव कराता है। व्यापक रूप से इसे एक अखंड परम आत्मा के आभासी \u2018व्यक्तिकरण\u2019 के रूप में वर्णित किया जा सकता है।",
+        },
+        {
+          type: "p",
+          text: "इस \u2018मैं\u2019 के बिना व्यावहारिक जगत् और व्यक्तिगत अस्तित्व की कल्पना करना भी कठिन है। फिर भी यही \u2018मैं\u2019 उस मिश्रधातु का एक प्रमुख तत्व बन जाता है, जिससे माया का पिंजरा बनता है।",
+        },
+        {
+          type: "p",
+          text: "यह पृष्ठभूमि समझना आवश्यक है, क्योंकि यही \u2018मैं\u2019 एक देवता को दूसरे देवता से, एक मनुष्य को दूसरे मनुष्य से, और एक प्राणी को दूसरे प्राणी से पृथक् दिखाता है \u2014 यद्यपि आध्यात्मिक दृष्टि से उन सबके भीतर वही परम सत्ता निवास करती है।",
+        },
+        { type: "h", text: "\u201Cआध्यात्मिक प्रौद्योगिकी\u201D की भूमिका" },
+        {
+          type: "p",
+          text: "तो फिर यहाँ \u201Cआध्यात्मिक प्रौद्योगिकी\u201D की भूमिका क्या है? इसका कार्य है \u2014 इस \u2018मैं\u2019 के प्रभुत्व को धीरे-धीरे कम करना। इसका उद्देश्य है कि कुछ ही सप्ताहों में ऐसी दृढ़ धारणाओं की कठोरता ढीली पड़ने लगे \u2014 जैसे \u201Cमैं स्वामी हूँ और यह व्यक्ति मेरा सेवक है,\u201D अथवा \u201Cमैं धनी और शक्तिशाली हूँ, जबकि सड़क किनारे बैठा वह भिखारी मुझसे सर्वथा पृथक् कोई है।\u201D",
+        },
+        {
+          type: "p",
+          text: "इसका अर्थ यह नहीं कि हमें स्वयं भिखारी बनकर सड़क किनारे बैठ जाना है। आवश्यक यह है कि हमारी दृष्टि इतनी परिपक्व हो जाए कि हम पहचान सकें कि उस भिखारी के भीतर भी वही परम पुरुष निवास करते हैं \u2014 कि उसके भीतर की आत्मा उसी दिव्य सत्ता की है जो मेरे भीतर की आत्मा है। तब हम अपने और दूसरे के बीच की अंतर्निहित एकता का अनुभव करने लगते हैं।",
+        },
+        {
+          type: "p",
+          text: "भगवद्गीता बार-बार ठीक यही दृष्टि सिखाती है। भगवान श्रीकृष्ण कहते हैं \u2014",
+        },
+        {
+          type: "quote",
+          text: "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि। ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः॥",
+          cite: "भगवद्गीता 6.29",
+        },
+        {
+          type: "p",
+          text: "योग में स्थित पुरुष सब भूतों में आत्मा को और आत्मा में सब भूतों को देखता है; वह सर्वत्र एक ही सत्ता का दर्शन करता है।",
+        },
+        { type: "p", text: "पुनः \u2014" },
+        {
+          type: "quote",
+          text: "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन। सुखं वा यदि वा दुःखं स योगी परमो मतः॥",
+          cite: "भगवद्गीता 6.32",
+        },
+        {
+          type: "p",
+          text: "जो अपनी उपमा से सबको समान देखता है \u2014 दूसरों के सुख-दुःख को अपने सुख-दुःख के समान मानता है \u2014 वही परम योगी माना गया है।",
+        },
+        { type: "p", text: "गीता एक और स्पष्ट घोषणा करती है \u2014" },
+        {
+          type: "quote",
+          text: "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति। तस्याहं न प्रणश्यामि स च मे न प्रणश्यति॥",
+          cite: "भगवद्गीता 6.30",
+        },
+        {
+          type: "p",
+          text: "जो मुझे सर्वत्र देखता है और सब कुछ मुझमें देखता है, उसके लिए मैं कभी अदृश्य नहीं होता, और वह मेरे लिए कभी अदृश्य नहीं होता।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि हम इन श्लोकों को पढ़ तो लेते हैं, किन्तु इनके सत्य को मन में गहराई तक उतरने देना कठिन है। मनन के पश्चात भी इस सत्य को पूर्णतः समझने, भीतर से स्वीकार करने, आत्मसात् करने और अंततः अपने स्वभाव का अंग बना लेने में बहुत लंबा समय लग सकता है।",
+        },
+        {
+          type: "p",
+          text: "गीता, रामायण अथवा भागवत को बार-बार पढ़ लेने मात्र से वह पृथकता का भाव तुरंत विलीन नहीं हो जाता, जो अत्यंत दीर्घ काल से मन में गहराई तक जमा हुआ है। उसके लिए व्यवस्थित अभ्यास \u2014 अर्थात् साधना \u2014 आवश्यक है।",
+        },
+        {
+          type: "p",
+          text: "ठीक यहीं \u201Cआध्यात्मिक प्रौद्योगिकी,\u201D \u201Cमनोवैज्ञानिक अभियंत्रण\u201D अथवा Manovaigyanik Abhiyantran की उपयोगिता प्रकट होती है।",
+        },
+        { type: "h", text: "सुरंग का दृष्टान्त" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने इसे एक दृष्टान्त से समझाया। मान लीजिए किसी को एक ऊँचे और दुर्गम पर्वत को पार करना है, जिसके उस पार एक दिव्य लोक है; और वहाँ पहुँचने के लिए पर्वत में एक सुरंग बनानी है।",
+        },
+        {
+          type: "p",
+          text: "यदि केवल हथौड़े और छेनी से पर्वत काटने का प्रयास किया जाए, तो इसमें हज़ारों दिन लग सकते हैं। किन्तु आधुनिक प्रौद्योगिकी \u2014 विशाल ड्रिलिंग मशीनों, नियंत्रित विस्फोट और अन्य उन्नत उपकरणों से \u2014 वही कार्य उसके अल्पांश समय में पूरा कर सकती है। पर्वत वही है, गंतव्य वही है; जो बदला है वह है उपकरणों की प्रभावशीलता।",
+        },
+        {
+          type: "p",
+          text: "मानव-मन ऐसा ही एक दुर्जेय पर्वत है। हमारे संस्कार, अहंकार, राग-द्वेष, भय, इच्छाएँ और दीर्घकाल से स्थापित विचार-प्रणालियाँ इसकी कठोर चट्टानें हैं। मात्र आध्यात्मिक प्रवचन सुनने से ये चट्टानें नहीं टूटतीं।",
+        },
+        {
+          type: "p",
+          text: "इस हेतु ध्यान, आत्म-निरीक्षण, कतिपय भावों और मनोवृत्तियों का व्यवस्थित अभ्यास, पुनरावृत्ति, दृष्टिकोण का परिवर्तन तथा मनोविज्ञान द्वारा समझी गई अन्य प्रभावी विधियों को सुव्यवस्थित रूप से प्रयोग में लाया जा सकता है।",
+        },
+        {
+          type: "p",
+          text: "ऐसा रूपांतरण साधारणतः किसी एक सरल विधि \u2014 जैसे केवल मंत्र-जप या नाम-जप \u2014 से अल्प समय में संभव नहीं होता, यद्यपि इन साधनों के अपने निश्चित आध्यात्मिक लाभ अवश्य हैं।",
+        },
+        { type: "h", text: "इसका अर्थ क्या है और क्या नहीं" },
+        {
+          type: "p",
+          text: "मनोवैज्ञानिक विधियों का यह व्यवस्थित प्रयोग, जो आध्यात्मिक रूपांतरण को त्वरित करता है, वही भगवद्धर्म में \u201Cआध्यात्मिक प्रौद्योगिकी\u201D और \u201Cमनोवैज्ञानिक अभियंत्रण\u201D कहलाता है।",
+        },
+        {
+          type: "p",
+          text: "इसका अर्थ यह नहीं कि कोई आधुनिक मनोवैज्ञानिक तकनीक स्वतः मोक्ष प्रदान कर सकती है। इसका अर्थ है कि मन को साधने और रूपांतरित करने की प्रक्रिया को अधिक व्यवस्थित, सचेत और प्रभावी बनाया जा सकता है।",
+        },
+        {
+          type: "p",
+          text: "जिस मानसिक आवरण को अनियमित या अव्यवस्थित प्रयास से हटाने में अत्यंत दीर्घ समय लग सकता है, उस पर उपयोगी मनोवैज्ञानिक विधियों को समुचित आध्यात्मिक साधना के साथ जोड़ने पर कहीं अधिक प्रभावी ढंग से कार्य किया जा सकता है। इस प्रकार साधक अपनी आध्यात्मिक प्रगति को पर्याप्त रूप से त्वरित कर सकता है।",
+        },
+        {
+          type: "p",
+          text: "सुरंग बनाने वाली मशीन पर्वत के उस पार के लोक का निर्माण नहीं करती; वह केवल एक मार्ग खोल देती है जिससे उस लोक तक शीघ्र पहुँचा जा सके। ठीक इसी प्रकार, मनोवैज्ञानिक विधियाँ ईश्वर या आत्मा का निर्माण नहीं करतीं \u2014 वे तो पहले से ही विद्यमान हैं। ये विधियाँ केवल उन मनोवैज्ञानिक अवरोधों और मानसिक बाधाओं को हटाने में सहायता करती हैं, जो पहले से विद्यमान सत्य के दर्शन में बाधक हैं।",
+        },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने स्वीकार किया कि उन्होंने अभी जिज्ञासु के मूल प्रश्न का पूर्ण उत्तर नहीं दिया है \u2014 किन्तु उस उत्तर को भली-भाँति समझने के लिए यह पृष्ठभूमि आवश्यक थी, और इस चर्चा में उन्होंने वही आधार रखने का प्रयास किया है।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने कहा कि अगली चर्चा में इस विषय को एक पग आगे बढ़ाया जाएगा \u2014 कि भगवद्धर्म की यह \u201Cआध्यात्मिक प्रौद्योगिकी\u201D अथवा \u201Cमनोवैज्ञानिक अभियंत्रण\u201D वस्तुतः साधना में कैसे प्रयुक्त होती है, और आध्यात्मिक प्रगति को त्वरित करने के लिए यह किन विशिष्ट साधनों और विधियों का उपयोग करती है।",
+        },
+      ],
+    },
+  },
+  {
     id: "what-is-the-bhagavad-gita",
     question: "What is the Bhagavad Gita, and why does it still matter today?",
     preview:
