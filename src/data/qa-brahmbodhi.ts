@@ -40,6 +40,419 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "discipline-conscious-subconscious-mind",
+    question:
+      "How can the conscious and subconscious mind be disciplined and made an instrument of self-welfare and the welfare of all?",
+    preview:
+      "A seeker asks Brahm Bodhi to explain the conscious and subconscious mind, so that human society may cultivate right action and keep the Earth clean and beautiful. Brahm Bodhi maps the mind at three levels — conscious, subconscious and unconscious — and shows, through the Gita’s teaching of abhyasa and vairagya, how the conscious mind becomes the laboratory in which deep samskaras are purified, so that inner transformation flowers outward as the welfare of family, society and nature.",
+    image: {
+      en: "qa-discipline-conscious-subconscious-mind.png",
+      hi: "qa-discipline-conscious-subconscious-mind.png",
+      alt: {
+        en: "The three levels of the mind shown as an iceberg above and below the ocean, transforming into a cultivated field bearing the crop of spiritual realization",
+        hi: "मन के तीन स्तर — समुद्र के ऊपर और नीचे हिमशैल की भाँति — जो आध्यात्मिक अनुभूति की फसल देने वाले जुते हुए खेत में रूपांतरित होते हैं",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "A seeker wrote to Brahm Bodhi with deep reverence, asking him to shed light on the conscious and subconscious mind while discussing how the mind is to be disciplined — so that, by understanding the distinction between them, human beings might cultivate the tendency to perform right actions.",
+      },
+      {
+        type: "quote",
+        text: "🙏 Om Hari Sharanam, Prajnapita. While discussing how to discipline the mind, please share some knowledge about the conscious and subconscious mind, so that by understanding the distinction between them, we may develop the tendency to perform right actions in human life. It is through self-reflection by human society that we can learn to live on this Earth in a way that keeps Mother Earth clean and beautiful, while promoting the welfare of all. 🙏",
+      },
+      {
+        type: "p",
+        text: "“Hari Sharanam!” Brahm Bodhi replied. He observed that the seeker had raised a very important subject.",
+      },
+      {
+        type: "p",
+        text: "Before one learns how to discipline the mind, he said, it is useful to understand that only a very small part of everything happening within us remains in our direct conscious awareness at any given moment. Both modern psychology and the Indian spiritual tradition, each in its own language and framework, have sought to understand these deeper layers of the mind.",
+      },
+      {
+        type: "p",
+        text: "For simplicity, Brahm Bodhi explained, the functioning of the mind may be understood at three levels.",
+      },
+      { type: "h", text: "1. The conscious mind" },
+      {
+        type: "p",
+        text: "What am I thinking at this moment? What decision am I making? To whom am I speaking? What do I consider right or wrong? All this, he said, belongs to the conscious level of the mind.",
+      },
+      {
+        type: "p",
+        text: "It is here that discrimination and conscious judgement can operate. One may be angry, yet still decide not to speak harshly. Thus the conscious mind can become the very doorway to transformation within us.",
+      },
+      { type: "h", text: "2. The subconscious, or preconscious, level" },
+      {
+        type: "p",
+        text: "There are countless memories, learned habits and mental tendencies that are not before our conscious awareness at this moment, yet surface when required, or continue to influence our behaviour without any special conscious effort.",
+      },
+      {
+        type: "p",
+        text: "When one first learns to drive a car, Brahm Bodhi noted, every action has to be performed consciously. After some time, many of those actions begin to occur automatically. In the same way, behaviours repeatedly performed gradually become part of our nature and descend below the conscious mind to the subconscious level.",
+      },
+      { type: "h", text: "3. The unconscious mind" },
+      {
+        type: "p",
+        text: "Sigmund Freud, he observed, particularly emphasised that there may be desires, fears, conflicts and repressed experiences within our minds of which we have no direct awareness, yet which nevertheless influence our behaviour and emotions.",
+      },
+      {
+        type: "p",
+        text: "This, Brahm Bodhi said, becomes extremely important in everyday life.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Sometimes we know that becoming angry is not right, yet we become angry.",
+          "We know that jealousy is undesirable, yet jealousy arises.",
+          "We know that we should love a person, yet bitterness towards that person emerges from somewhere within.",
+          "We know that a particular habit is harmful, yet we return to it again and again.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Why? Because our behaviour is not governed solely by the conscious thought present before us at a given moment. Our past experiences, habits, fears, attractions, mental associations and deeply embedded samskaras also shape the way we respond.",
+      },
+      { type: "h", text: "The Indian spiritual perspective" },
+      {
+        type: "p",
+        text: "Indian thought, Brahm Bodhi continued, goes a step further. It speaks not only of mental impressions formed during this lifetime, but of the continuity of samskaras and karma across successive births.",
+      },
+      {
+        type: "p",
+        text: "The Gita tells us that when the jiva leaves one body and enters another, it carries the mind and senses with it. Within this spiritual framework, it therefore also carries what we describe as the impressions embedded in the subconscious and unconscious mind — what we understand as samskaras.",
+      },
+      {
+        type: "quote",
+        text: "manaḥ-ṣaṣṭhānīndriyāṇi prakṛti-sthāni karṣati",
+        cite: "Bhagavad Gita 15.7",
+      },
+      { type: "p", text: "The next verse offers a beautiful analogy:" },
+      {
+        type: "quote",
+        text: "vāyur gandhān ivāśayāt",
+        cite: "Bhagavad Gita 15.8",
+      },
+      {
+        type: "p",
+        text: "Just as the wind carries fragrance from its source, the jiva, in passing from one body to another, carries with it the subtle faculties associated with the mind and senses, along with its samskaras. This “fragrance,” in fact, serves as a metaphor for the accumulated samskaras of our many births.",
+      },
+      {
+        type: "p",
+        text: "In Vedantic terminology, this is understood in relation to the subtle body, the sukshma sharira. The mind, intellect, ego-sense and samskaras are not held to perish merely because the physical body has ceased to exist; they remain connected with the onward journey of the jiva.",
+      },
+      { type: "h", text: "How are these accumulated samskaras to be cleansed?" },
+      {
+        type: "p",
+        text: "This, Brahm Bodhi said, brings us to the real question of sadhana: if samskaras have accumulated within us over many years — and, according to the Indian spiritual view, over many births — how are they to be cleansed?",
+      },
+      {
+        type: "p",
+        text: "It is here that Bhagavan Sri Krishna gives an extraordinarily practical answer:",
+      },
+      {
+        type: "quote",
+        text: "asaṃśayaṃ mahābāho mano durnigrahaṃ calam abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
+        cite: "Bhagavad Gita 6.35",
+      },
+      {
+        type: "p",
+        text: "The mind is undoubtedly restless and difficult to control, yet it can be disciplined through practice (abhyasa) and detachment (vairagya).",
+      },
+      {
+        type: "p",
+        text: "This principle, Brahm Bodhi explained, may also be understood in psychological terms.",
+      },
+      {
+        type: "p",
+        text: "Abhyasa means that, at the conscious level, we repeatedly choose the right thought, the right emotion and the right action.",
+      },
+      {
+        type: "p",
+        text: "Vairagya does not merely mean abandoning the world. When an old attraction, hatred, anger, ego, greed or habit pulls us in a particular direction, repeatedly refusing to follow it — and gradually becoming detached from it — is also vairagya.",
+      },
+      { type: "h", text: "The conscious mind as the laboratory of sadhana" },
+      {
+        type: "p",
+        text: "Suppose, he said, that anger long hidden, suppressed or accumulated in the subconscious and unconscious mind rises to the surface. Earlier, whenever it arose, one reacted angrily ten times out of ten.",
+      },
+      {
+        type: "p",
+        text: "Now, through reading the Gita and other scriptures, participating in satsang, and repeatedly reflecting upon their teachings, one becomes consciously aware of what is happening within. Perhaps at first one is able to stop oneself on two occasions out of ten; then on five; eventually on eight.",
+      },
+      {
+        type: "p",
+        text: "Gradually the new response becomes a practice; repeated practice creates a samskara; and that samskara begins to become part of one’s nature.",
+      },
+      {
+        type: "p",
+        text: "It then sinks deeper within — moving beyond the subconscious and becoming established at the still deeper unconscious level of the mind. In this way, the mind is gradually cleansed.",
+      },
+      {
+        type: "p",
+        text: "How quickly this happens, Brahm Bodhi noted, depends upon how consciously and persistently we practise, using the conscious mind as the instrument of transformation.",
+      },
+      {
+        type: "p",
+        text: "Therefore sadhana does not merely mean feeding good thoughts to the conscious mind. Its purpose is to use conscious discrimination and sustained practice to progressively refine the samskaras deeply embedded within the subconscious and unconscious mind.",
+      },
+      {
+        type: "p",
+        text: "This is why continuous practices — meditation, japa, scriptural study, satsang, self-observation, selfless service, self-restraint and the remembrance of God — are so important. These are not merely religious acts whose effect lasts only for the duration of the practice; pursued continuously, they become instruments for transforming the very tendencies through which we think, feel and respond.",
+      },
+      { type: "h", text: "The social consequences of inner transformation" },
+      {
+        type: "p",
+        text: "And this inner transformation, he said, also has profound social consequences.",
+      },
+      {
+        type: "ul",
+        items: [
+          "If greed fills the mind, nature will be exploited, animals will be exploited, human beings will be exploited.",
+          "If ego dominates the mind, conflict will arise and others will be humiliated — and, by the principle of karma, we too will have to face the consequences of our actions, and may ourselves experience exploitation, humiliation and suffering.",
+          "If there is a lack of restraint within, it will manifest outwardly as excessive consumption.",
+        ],
+      },
+      {
+        type: "p",
+        text: "But if compassion, restraint and concern for the welfare of all become our samskaras, these qualities will naturally express themselves in our conduct toward family, society and nature.",
+      },
+      {
+        type: "p",
+        text: "Therefore, Brahm Bodhi said, before cleansing the Earth outside — and even while doing so — we must also cleanse the inner soil of the mind.",
+      },
+      { type: "h", text: "Preparing the field of the mind" },
+      {
+        type: "p",
+        text: "This too may be compared to preparing, ploughing and cultivating the field of the mind for the cultivation of spirituality. Only when this field has been properly prepared can the beautiful crop of spirituality grow in it, ultimately bearing the fruits of the vision of God, God-realisation and moksha.",
+      },
+      {
+        type: "p",
+        text: "And the Gita, he reminded, gives us a profoundly effective method for this inner purification: abhyasa and vairagya.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Again and again, choose what is good and auspicious.",
+          "Again and again, turn away from what is harmful and unwholesome.",
+          "If you fall, rise again.",
+          "And gradually allow your conscious efforts to become samskaras embedded in the subconscious and unconscious mind.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Then sadhana does not merely change our thoughts; it begins to transform our very nature. And when our nature changes, our behaviour changes — we ourselves change.",
+      },
+      {
+        type: "p",
+        text: "When we change and our behaviour changes, our families and society begin to change, and lok-kalyan — the welfare of all — becomes possible. Ultimately, the purification of the human mind itself leads toward the cleanliness, welfare and upliftment of the Earth.",
+      },
+    ],
+    hi: {
+      question:
+        "सचेतन और अवचेतन मन को कैसे अनुशासित करें और उसे आत्म-कल्याण तथा सर्वकल्याण का साधन कैसे बनाएँ?",
+      preview:
+        "एक जिज्ञासु ब्रह्मबोधि से सचेतन और अवचेतन मन को समझाने की प्रार्थना करते हैं, ताकि मानव-समाज सत्कर्म की प्रवृत्ति विकसित करे और धरती को स्वच्छ एवं सुंदर बनाए रखे। ब्रह्मबोधि मन को तीन स्तरों — सचेतन, अवचेतन और अचेतन — में समझाते हैं, और गीता के अभ्यास एवं वैराग्य के उपदेश द्वारा दर्शाते हैं कि सचेतन मन किस प्रकार वह प्रयोगशाला बनता है जिसमें गहरे संस्कार शुद्ध होते हैं — जिससे आंतरिक रूपांतरण बाहर परिवार, समाज और प्रकृति के कल्याण के रूप में प्रकट होता है।",
+      answer: [
+        {
+          type: "p",
+          text: "एक जिज्ञासु ने अत्यंत श्रद्धा के साथ ब्रह्मबोधि को लिखा और मन को अनुशासित करने की चर्चा के प्रसंग में उनसे सचेतन और अवचेतन मन पर प्रकाश डालने की प्रार्थना की — ताकि इन दोनों के भेद को समझकर मनुष्य में सत्कर्म करने की प्रवृत्ति विकसित हो सके।",
+        },
+        {
+          type: "quote",
+          text: "🙏 ॐ हरि शरणम्, प्रज्ञापिता। मन को अनुशासित करने की चर्चा करते हुए कृपया सचेतन और अवचेतन मन के विषय में कुछ ज्ञान दीजिए, ताकि इन दोनों के भेद को समझकर हम मानव-जीवन में सत्कर्म करने की प्रवृत्ति विकसित कर सकें। मानव-समाज के आत्म-चिंतन से ही हम इस पृथ्वी पर इस प्रकार जीना सीख सकते हैं कि धरती माता स्वच्छ और सुंदर बनी रहे और सबका कल्याण हो। 🙏",
+        },
+        {
+          type: "p",
+          text: "“हरि शरणम्!” ब्रह्मबोधि ने उत्तर दिया। उन्होंने कहा कि जिज्ञासु ने एक अत्यंत महत्वपूर्ण विषय उठाया है।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने कहा कि मन को अनुशासित करना सीखने से पूर्व यह समझ लेना उपयोगी है कि हमारे भीतर जो कुछ घटित होता है, उसका बहुत ही अल्प भाग ही किसी क्षण हमारी प्रत्यक्ष सचेतन जागरूकता में रहता है। आधुनिक मनोविज्ञान और भारतीय आध्यात्मिक परंपरा — दोनों ने, अपनी-अपनी भाषा और दृष्टि में, मन के इन गहन स्तरों को समझने का प्रयास किया है।",
+        },
+        {
+          type: "p",
+          text: "सरलता के लिए, ब्रह्मबोधि ने कहा, मन के कार्य को तीन स्तरों पर समझा जा सकता है।",
+        },
+        { type: "h", text: "1. सचेतन मन" },
+        {
+          type: "p",
+          text: "इस क्षण मैं क्या सोच रहा हूँ? मैं क्या निर्णय ले रहा हूँ? मैं किससे बात कर रहा हूँ? मैं किसे उचित या अनुचित मानता हूँ? यह सब, उन्होंने कहा, मन के सचेतन स्तर से संबंधित है।",
+        },
+        {
+          type: "p",
+          text: "यहीं विवेक और सचेत निर्णय कार्य कर सकते हैं। मैं क्रोधित हो सकता हूँ, फिर भी यह निश्चय कर सकता हूँ कि मैं कठोर वचन नहीं बोलूँगा। इस प्रकार सचेतन मन हमारे भीतर रूपांतरण का द्वार बन सकता है।",
+        },
+        { type: "h", text: "2. अवचेतन (प्राक्-चेतन) स्तर" },
+        {
+          type: "p",
+          text: "असंख्य स्मृतियाँ, अर्जित आदतें और मानसिक प्रवृत्तियाँ ऐसी होती हैं जो इस क्षण हमारी सचेतन जागरूकता के सम्मुख नहीं हैं, फिर भी आवश्यकता पड़ने पर उभर आती हैं, अथवा बिना किसी विशेष सचेत प्रयास के हमारे आचरण को प्रभावित करती रहती हैं।",
+        },
+        {
+          type: "p",
+          text: "जब हम पहली बार कार चलाना सीखते हैं, ब्रह्मबोधि ने कहा, तो प्रत्येक क्रिया सचेत रूप से करनी पड़ती है। कुछ समय पश्चात उनमें से अनेक क्रियाएँ स्वतः होने लगती हैं। इसी प्रकार, बार-बार किए गए आचरण धीरे-धीरे हमारे स्वभाव का अंग बन जाते हैं और सचेतन मन से नीचे उतरकर अवचेतन स्तर पर पहुँच जाते हैं।",
+        },
+        { type: "h", text: "3. अचेतन मन" },
+        {
+          type: "p",
+          text: "सिगमंड फ्रॉयड ने, उन्होंने कहा, विशेष रूप से इस पर बल दिया कि हमारे मन में ऐसी इच्छाएँ, भय, द्वंद्व और दमित अनुभव हो सकते हैं जिनका हमें कोई प्रत्यक्ष बोध नहीं होता, फिर भी वे हमारे आचरण और भावों को प्रभावित करते हैं।",
+        },
+        {
+          type: "p",
+          text: "यह, ब्रह्मबोधि ने कहा, हमारे दैनिक जीवन में अत्यंत महत्वपूर्ण हो जाता है।",
+        },
+        {
+          type: "ul",
+          items: [
+            "कभी-कभी हम जानते हैं कि क्रोध करना उचित नहीं, फिर भी क्रोधित हो जाते हैं।",
+            "हम जानते हैं कि ईर्ष्या अवांछनीय है, फिर भी ईर्ष्या उठ आती है।",
+            "हम जानते हैं कि किसी व्यक्ति से प्रेम करना चाहिए, फिर भी उस व्यक्ति के प्रति कहीं भीतर से कटुता उभर आती है।",
+            "हम जानते हैं कि कोई आदत हानिकारक है, फिर भी हम बार-बार उसी की ओर लौटते हैं।",
+          ],
+        },
+        {
+          type: "p",
+          text: "क्यों? क्योंकि हमारा आचरण केवल किसी क्षण सम्मुख उपस्थित सचेतन विचार से ही संचालित नहीं होता। हमारे अतीत के अनुभव, आदतें, भय, आकर्षण, मानसिक साहचर्य और गहराई में जमे संस्कार भी हमारी प्रतिक्रिया के ढंग को गढ़ते हैं।",
+        },
+        { type: "h", text: "भारतीय आध्यात्मिक दृष्टि" },
+        {
+          type: "p",
+          text: "भारतीय चिंतन, ब्रह्मबोधि ने आगे कहा, एक पग और आगे जाता है। वह केवल इस जन्म में बने मानसिक संस्कारों की ही बात नहीं करता, अपितु जन्म-जन्मांतर में संस्कारों और कर्म की निरंतरता की भी बात करता है।",
+        },
+        {
+          type: "p",
+          text: "गीता हमें बताती है कि जब जीव एक शरीर को छोड़कर दूसरे शरीर में प्रवेश करता है, तो वह मन और इंद्रियों को साथ ले जाता है। इस आध्यात्मिक दृष्टि में, वह उन्हीं छापों को भी साथ ले जाता है जिन्हें हम अवचेतन और अचेतन मन में अंकित ‘संस्कार’ कहते हैं।",
+        },
+        {
+          type: "quote",
+          text: "मनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति",
+          cite: "भगवद्गीता 15.7",
+        },
+        { type: "p", text: "अगला श्लोक एक सुंदर उपमा देता है —" },
+        {
+          type: "quote",
+          text: "वायुर्गन्धानिवाशयात्",
+          cite: "भगवद्गीता 15.8",
+        },
+        {
+          type: "p",
+          text: "जैसे वायु सुगंध को उसके स्रोत से ले जाती है, वैसे ही जीव एक शरीर से दूसरे शरीर में जाते समय मन और इंद्रियों से संबद्ध सूक्ष्म शक्तियों को, अपने संस्कारों सहित, साथ ले जाता है। यह ‘सुगंध’ वस्तुतः हमारे अनेक जन्मों में संचित संस्कारों का रूपक है।",
+        },
+        {
+          type: "p",
+          text: "वेदांत की शब्दावली में इसे सूक्ष्म शरीर के संदर्भ में समझा जाता है। मन, बुद्धि, अहंकार और संस्कार केवल इसलिए नष्ट नहीं हो जाते कि स्थूल शरीर का अंत हो गया; वे जीव की आगे की यात्रा से जुड़े रहते हैं।",
+        },
+        { type: "h", text: "इन संचित संस्कारों का शोधन कैसे हो?" },
+        {
+          type: "p",
+          text: "यह, ब्रह्मबोधि ने कहा, हमें साधना के वास्तविक प्रश्न तक ले आता है: यदि संस्कार हमारे भीतर अनेक वर्षों में — और भारतीय आध्यात्मिक दृष्टि के अनुसार अनेक जन्मों में — संचित हुए हैं, तो उनका शोधन कैसे हो?",
+        },
+        {
+          type: "p",
+          text: "यहीं भगवान श्रीकृष्ण एक अत्यंत व्यावहारिक उत्तर देते हैं —",
+        },
+        {
+          type: "quote",
+          text: "असंशयं महाबाहो मनो दुर्निग्रहं चलम्। अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते॥",
+          cite: "भगवद्गीता 6.35",
+        },
+        {
+          type: "p",
+          text: "मन निःसंदेह चंचल और कठिनता से वश में होने वाला है, फिर भी उसे अभ्यास और वैराग्य के द्वारा साधा जा सकता है।",
+        },
+        {
+          type: "p",
+          text: "इस सिद्धांत को, ब्रह्मबोधि ने कहा, मनोवैज्ञानिक दृष्टि से भी समझा जा सकता है।",
+        },
+        {
+          type: "p",
+          text: "अभ्यास का अर्थ है — सचेतन स्तर पर बार-बार सही विचार, सही भाव और सही कर्म को चुनना।",
+        },
+        {
+          type: "p",
+          text: "वैराग्य का अर्थ केवल संसार का त्याग नहीं है। जब कोई पुराना आकर्षण, द्वेष, क्रोध, अहंकार, लोभ अथवा आदत हमें किसी दिशा में खींचती है, तो बार-बार उसका अनुसरण करने से इनकार करना — और धीरे-धीरे उससे विरक्त होते जाना — भी वैराग्य है।",
+        },
+        { type: "h", text: "सचेतन मन — साधना की प्रयोगशाला" },
+        {
+          type: "p",
+          text: "मान लीजिए, उन्होंने कहा, कि अवचेतन और अचेतन मन में लंबे समय से छिपा, दमित अथवा संचित क्रोध सतह पर उठ आता है। पहले, जब भी वह उठता था, मनुष्य दस में से दसों बार क्रोध से प्रतिक्रिया करता था।",
+        },
+        {
+          type: "p",
+          text: "अब, गीता और अन्य शास्त्रों के अध्ययन, सत्संग में सहभागिता और उनकी शिक्षाओं पर बार-बार मनन के द्वारा, वह अपने भीतर घटित हो रहे को सचेत रूप से देखने लगता है। संभव है आरंभ में वह दस में से दो बार स्वयं को रोक पाए; फिर पाँच बार; और अंततः आठ बार।",
+        },
+        {
+          type: "p",
+          text: "धीरे-धीरे नई प्रतिक्रिया अभ्यास बन जाती है; बार-बार का अभ्यास संस्कार रचता है; और वह संस्कार उसके स्वभाव का अंग बनने लगता है।",
+        },
+        {
+          type: "p",
+          text: "तब वह और गहरे उतरता है — अवचेतन से आगे जाकर मन के और भी गहन अचेतन स्तर पर स्थापित हो जाता है। इस प्रकार मन धीरे-धीरे शुद्ध होता जाता है।",
+        },
+        {
+          type: "p",
+          text: "यह कितनी शीघ्रता से होगा, ब्रह्मबोधि ने कहा, यह इस पर निर्भर करता है कि हम सचेतन मन को रूपांतरण के उपकरण के रूप में प्रयोग करते हुए कितने सचेत और निरंतर भाव से अभ्यास करते हैं।",
+        },
+        {
+          type: "p",
+          text: "अतः साधना का अर्थ केवल सचेतन मन को अच्छे विचार खिलाना नहीं है। उसका प्रयोजन है — सचेत विवेक और सतत अभ्यास के द्वारा अवचेतन और अचेतन मन में गहराई तक जमे संस्कारों को उत्तरोत्तर परिष्कृत करना।",
+        },
+        {
+          type: "p",
+          text: "यही कारण है कि ध्यान, जप, शास्त्र-अध्ययन, सत्संग, आत्म-निरीक्षण, निष्काम सेवा, संयम और ईश्वर-स्मरण जैसे सतत अभ्यास इतने महत्वपूर्ण हैं। ये केवल ऐसे धार्मिक कर्म नहीं हैं जिनका प्रभाव केवल अभ्यास की अवधि तक रहता हो; निरंतर किए जाने पर ये उन्हीं प्रवृत्तियों को रूपांतरित करने के उपकरण बन जाते हैं जिनके द्वारा हम सोचते, अनुभव करते और प्रतिक्रिया करते हैं।",
+        },
+        { type: "h", text: "आंतरिक रूपांतरण के सामाजिक परिणाम" },
+        {
+          type: "p",
+          text: "और यह आंतरिक रूपांतरण, उन्होंने कहा, गहरे सामाजिक परिणाम भी लाता है।",
+        },
+        {
+          type: "ul",
+          items: [
+            "यदि मन लोभ से भर जाए, तो प्रकृति का शोषण होगा, पशुओं का शोषण होगा, मनुष्यों का शोषण होगा।",
+            "यदि मन पर अहंकार हावी हो, तो संघर्ष उठेगा और दूसरों का अपमान होगा — और कर्म के सिद्धांत के अनुसार हमें भी अपने कर्मों का फल भोगना पड़ेगा, और हम स्वयं भी शोषण, अपमान और दुःख का अनुभव कर सकते हैं।",
+            "यदि भीतर संयम का अभाव हो, तो वह बाहर अत्यधिक उपभोग के रूप में प्रकट होगा।",
+          ],
+        },
+        {
+          type: "p",
+          text: "किन्तु यदि करुणा, संयम और सर्वकल्याण की भावना हमारे संस्कार बन जाएँ, तो ये गुण स्वाभाविक रूप से हमारे परिवार, समाज और प्रकृति के प्रति आचरण में प्रकट होंगे।",
+        },
+        {
+          type: "p",
+          text: "इसलिए, ब्रह्मबोधि ने कहा, बाहर की पृथ्वी को स्वच्छ करने से पूर्व — और उसके साथ-साथ — हमें मन की भीतरी भूमि को भी स्वच्छ करना होगा।",
+        },
+        { type: "h", text: "मन के खेत को तैयार करना" },
+        {
+          type: "p",
+          text: "इसे भी आध्यात्मिकता की खेती के लिए मन रूपी खेत को तैयार करने, जोतने और संवारने से उपमित किया जा सकता है। जब यह खेत भली-भाँति तैयार हो जाता है, तभी उसमें आध्यात्मिकता की सुंदर फसल उग सकती है, जो अंततः ईश्वर-दर्शन, ईश्वर-साक्षात्कार और मोक्ष के फल देती है।",
+        },
+        {
+          type: "p",
+          text: "और गीता, उन्होंने स्मरण कराया, इस आंतरिक शुद्धि के लिए एक अत्यंत प्रभावी विधि देती है — अभ्यास और वैराग्य।",
+        },
+        {
+          type: "ul",
+          items: [
+            "बार-बार वही चुनिए जो शुभ और कल्याणकारी है।",
+            "बार-बार उससे मुख मोड़िए जो हानिकारक और अशुभ है।",
+            "यदि गिरें, तो पुनः उठिए।",
+            "और धीरे-धीरे अपने सचेत प्रयासों को अवचेतन और अचेतन मन में अंकित संस्कार बनने दीजिए।",
+          ],
+        },
+        {
+          type: "p",
+          text: "तब साधना केवल हमारे विचारों को नहीं बदलती; वह हमारे स्वभाव को ही रूपांतरित करने लगती है। और जब हमारा स्वभाव बदलता है, तो हमारा आचरण बदलता है — हम स्वयं बदल जाते हैं।",
+        },
+        {
+          type: "p",
+          text: "जब हम बदलते हैं और हमारा आचरण बदलता है, तो हमारे परिवार और समाज भी बदलने लगते हैं, और लोक-कल्याण संभव होता है। अंततः मानव-मन की यही शुद्धि पृथ्वी की स्वच्छता, कल्याण और उन्नति की ओर ले जाती है।",
+        },
+      ],
+    },
+  },
+  {
     id: "journey-towards-moksha-part-1",
     question:
       "The journey towards Moksha: is liberation attained through solitary sadhana, or while living amidst family and society? (Part 1)",
