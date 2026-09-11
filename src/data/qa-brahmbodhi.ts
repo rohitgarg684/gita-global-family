@@ -239,6 +239,173 @@ export const qaItems: QAItem[] = [
     },
   },
   {
+    id: "spiritual-technology-psychological-engineering-part-2",
+    question:
+      "Spiritual Technology and Psychological Engineering for God-realization: what is “Sadhana-Pravesh”? (Part 2)",
+    preview:
+      "Returning to Khera Ji’s question, Brahm Bodhi announces a new gateway — “Sadhana-Pravesh” — on the Bhagavad Dharma website (www.gitadharma.org): a structured, six-month series of practices in “Spiritual Technology” and “Psychological Engineering.” Just as a good crop needs prepared soil, the mind must be cultivated before the seed of a mantra can flower; Sadhana-Pravesh is designed to prepare that inner soil and greatly accelerate the journey toward God-realization.",
+    image: {
+      en: "qa-sadhana-pravesh.png",
+      hi: "qa-sadhana-pravesh.png",
+      alt: {
+        en: "Sadhana-Pravesh: preparing the soil of the mind so the seed of the mantra can grow into the harvest of spiritual realization",
+        hi: "साधना-प्रवेश — मन की भूमि को तैयार करना, ताकि मंत्र रूपी बीज आध्यात्मिक अनुभूति की फसल में विकसित हो सके",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "The devotee Vimal Kumar Khera had once again drawn Brahm Bodhi’s attention to an old post of his. “Hari Sharanam, Khera Ji,” he began. Khera Ji’s original question, he noted, was not actually contained in that post — yet, on revisiting it, Brahm Bodhi found in it something even more important.",
+      },
+      {
+        type: "p",
+        text: "He recalled having promised that he would soon introduce everyone to certain practical applications of “Spiritual Technology” and “Psychological Engineering” — methods that could enable a seeker to progress far more rapidly on the spiritual path.",
+      },
+      {
+        type: "p",
+        text: "On looking at the post again, however, he realized that one or two exercises would not be enough. What was needed was an entire series of carefully structured practices. He also felt that there was no reason to confine this work to one group alone: there are serious seekers of spirituality all over the world, and in time this system should be made available to them as well.",
+      },
+      { type: "h", text: "A new gateway: “Sadhana-Pravesh”" },
+      {
+        type: "p",
+        text: "He therefore announced a decision — to open a new gateway called “Sadhana-Pravesh” (Entry into Spiritual Practice) on the Bhagavad Dharma website, www.gitadharma.org. He had requested the associates in the United States who maintain the websites as a voluntary service to restructure the Bhagavad Dharma website accordingly.",
+      },
+      {
+        type: "p",
+        text: "Sadhana-Pravesh, he explained, would not merely introduce people to Psychological Engineering and Spiritual Technology. It would contain structured modules through which these methods could actually be practised, step by step.",
+      },
+      { type: "h", text: "Why the journey toward Moksha takes so long" },
+      {
+        type: "p",
+        text: "The scriptures and the spiritual masters tell us that the journey toward Moksha may take hundreds — sometimes even thousands — of lifetimes. Perhaps it does, Brahm Bodhi acknowledged. But one reason, he suggested, may be this: ordinarily a Guru gives a mantra without first preparing the soil of the mind, and thereafter the seeker is largely left to travel the path on his own.",
+      },
+      {
+        type: "p",
+        text: "In actual life, he observed, we find that merely receiving a mantra often produces no major perceptible spiritual transformation or profound spiritual experience, even after twenty or thirty years. This, he said, was a conclusion he had reached after intimate conversations with many spiritual practitioners.",
+      },
+      { type: "h", text: "The analogy of the soil" },
+      {
+        type: "p",
+        text: "He illustrated the point with an analogy. What is the first requirement for a good crop? Properly prepared soil. If the land is full of stones, weeds and pests, even the finest seed will not yield a healthy crop. The farmer must first prepare and cultivate the soil, remove the weeds, loosen the earth — and only then sow the seed.",
+      },
+      { type: "p", text: "The same principle, he said, applies to spirituality." },
+      {
+        type: "quote",
+        text: "The mind is the soil in which the seed of spirituality is sown.",
+      },
+      {
+        type: "p",
+        text: "If that soil has not been prepared, how can the seed of a mantra manifest its full potential?",
+      },
+      { type: "h", text: "The Gita as the source of this technology" },
+      {
+        type: "p",
+        text: "A very substantial part of the Bhagavad Gita, Brahm Bodhi noted, teaches us precisely how this inner soil is to be prepared. But these teachings are scattered throughout the Gita, in different places and contexts — for the Gita is a dialogue that took place on a battlefield, not a systematically arranged textbook.",
+      },
+      {
+        type: "p",
+        text: "It is this very process, he said, that he wishes to organize and accelerate through the practical application of Psychological Engineering and Spiritual Technology. The clearest and most profound indications of this technology, in his understanding, are found in the Bhagavad Gita itself.",
+      },
+      { type: "h", text: "How Sadhana-Pravesh will work" },
+      {
+        type: "p",
+        text: "In Sadhana-Pravesh, therefore, the first task will be to prepare this inner soil. As the soil of the mind becomes ready, the seed of the mantra can germinate, and the real crop of spirituality can begin to grow far more rapidly.",
+      },
+      {
+        type: "p",
+        text: "The programme will require a minimum period of six months, and serious spiritual seekers and practitioners from anywhere in the world will be able to join it.",
+      },
+      { type: "h", text: "On mantra-initiation, and Khera Ji’s original question" },
+      {
+        type: "p",
+        text: "Many people approach Brahm Bodhi requesting mantra-initiation. He generally does not give initiation, he explained, until he feels that the seeker’s inner ground has been sufficiently prepared to receive it. “So please wait a little while,” he counselled.",
+      },
+      {
+        type: "p",
+        text: "As for Khera Ji’s original question — that too, he now recalled, was very important. He would answer it separately.",
+      },
+    ],
+    hi: {
+      question:
+        "ईश्वर-साक्षात्कार हेतु “आध्यात्मिक प्रौद्योगिकी” और “मनोवैज्ञानिक अभियंत्रण”: “साधना-प्रवेश” क्या है? (भाग 2)",
+      preview:
+        "खेरा जी के प्रश्न पर लौटते हुए ब्रह्मबोधि एक नए द्वार की घोषणा करते हैं — “साधना-प्रवेश” — जो भगवद्धर्म की वेबसाइट (www.gitadharma.org) पर आरंभ होगा: “आध्यात्मिक प्रौद्योगिकी” और “मनोवैज्ञानिक अभियंत्रण” के अभ्यासों की एक व्यवस्थित, कम-से-कम छह मास की श्रृंखला। जैसे अच्छी फसल के लिए भूमि का तैयार होना आवश्यक है, वैसे ही मंत्र रूपी बीज के अंकुरित होने से पूर्व मन की भूमि को संवारना आवश्यक है; साधना-प्रवेश उसी अंतःभूमि को तैयार करने और ईश्वर-साक्षात्कार की यात्रा को अत्यधिक त्वरित करने के लिए रचा गया है।",
+      answer: [
+        {
+          type: "p",
+          text: "श्रद्धालु विमल कुमार खेरा जी ने एक बार पुनः ब्रह्मबोधि का ध्यान उनकी एक पुरानी पोस्ट की ओर आकृष्ट किया। “हरि शरणम्, खेरा जी,” उन्होंने आरंभ किया। उन्होंने कहा कि खेरा जी का मूल प्रश्न वस्तुतः उस पोस्ट में नहीं था — फिर भी, उसे पुनः देखने पर उन्हें उसमें उससे भी अधिक महत्वपूर्ण कुछ मिला।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने स्मरण किया कि उन्होंने वचन दिया था कि शीघ्र ही वे सबको “आध्यात्मिक प्रौद्योगिकी” और “मनोवैज्ञानिक अभियंत्रण” के कुछ व्यावहारिक प्रयोगों से परिचित कराएँगे — ऐसी विधियाँ, जो साधक को आध्यात्मिक मार्ग पर कहीं अधिक शीघ्रता से आगे बढ़ने में समर्थ बना सकें।",
+        },
+        {
+          type: "p",
+          text: "किन्तु पोस्ट को पुनः देखने पर उन्होंने अनुभव किया कि एक-दो अभ्यास पर्याप्त नहीं होंगे। जो आवश्यक था, वह थी सुव्यवस्थित रूप से रची गई अभ्यासों की एक संपूर्ण श्रृंखला। उन्हें यह भी लगा कि इस कार्य को केवल एक समूह तक सीमित रखने का कोई कारण नहीं है: संसार भर में आध्यात्मिकता के गंभीर जिज्ञासु हैं, और समय के साथ यह पद्धति उन्हें भी उपलब्ध होनी चाहिए।",
+        },
+        { type: "h", text: "एक नया द्वार: “साधना-प्रवेश”" },
+        {
+          type: "p",
+          text: "इसलिए उन्होंने एक निर्णय की घोषणा की — भगवद्धर्म की वेबसाइट, www.gitadharma.org, पर “साधना-प्रवेश” (आध्यात्मिक अभ्यास में प्रवेश) नामक एक नया द्वार आरंभ करना। उन्होंने संयुक्त राज्य अमेरिका में स्थित उन सहयोगियों से, जो स्वैच्छिक सेवा के रूप में वेबसाइटों का कार्य देखते हैं, अनुरोध किया है कि वे भगवद्धर्म की वेबसाइट को तदनुसार पुनर्संरचित करें।",
+        },
+        {
+          type: "p",
+          text: "उन्होंने बताया कि साधना-प्रवेश केवल लोगों को मनोवैज्ञानिक अभियंत्रण और आध्यात्मिक प्रौद्योगिकी से परिचित ही नहीं कराएगा। इसमें ऐसे व्यवस्थित मॉड्यूल होंगे, जिनके माध्यम से इन विधियों का वस्तुतः चरण-दर-चरण अभ्यास किया जा सके।",
+        },
+        { type: "h", text: "मोक्ष की यात्रा इतनी दीर्घ क्यों होती है" },
+        {
+          type: "p",
+          text: "शास्त्र और संत हमें बताते हैं कि मोक्ष की यात्रा में सैकड़ों — कभी-कभी तो सहस्रों — जन्म लग सकते हैं। संभव है ऐसा ही हो, ब्रह्मबोधि ने स्वीकार किया। किन्तु इसका एक कारण, उन्होंने संकेत किया, यह हो सकता है: सामान्यतः गुरु मन की भूमि को तैयार किए बिना ही मंत्र दे देते हैं, और उसके पश्चात साधक प्रायः अकेले ही मार्ग पर चलने के लिए छोड़ दिया जाता है।",
+        },
+        {
+          type: "p",
+          text: "व्यवहार में, उन्होंने कहा, हम देखते हैं कि केवल मंत्र प्राप्त कर लेने मात्र से बीस-तीस वर्षों के पश्चात भी प्रायः कोई बड़ा प्रत्यक्ष आध्यात्मिक रूपांतरण अथवा गहन आध्यात्मिक अनुभव नहीं होता। यह निष्कर्ष, उन्होंने कहा, वे अनेक साधकों से आत्मीय वार्तालाप के पश्चात इस पर पहुँचे हैं।",
+        },
+        { type: "h", text: "भूमि का दृष्टान्त" },
+        {
+          type: "p",
+          text: "उन्होंने इस बात को एक दृष्टान्त से समझाया। अच्छी फसल की पहली आवश्यकता क्या है? भली-भाँति तैयार की गई भूमि। यदि भूमि पत्थरों, खरपतवार और कीटों से भरी हो, तो श्रेष्ठतम बीज भी स्वस्थ फसल नहीं दे सकता। किसान को पहले भूमि को तैयार करना और जोतना पड़ता है, खरपतवार हटाना पड़ता है, मिट्टी को पोला करना पड़ता है — और तभी वह बीज बोता है।",
+        },
+        { type: "p", text: "यही सिद्धांत, उन्होंने कहा, आध्यात्मिकता पर भी लागू होता है।" },
+        {
+          type: "quote",
+          text: "मन ही वह भूमि है जिसमें आध्यात्मिकता का बीज बोया जाता है।",
+        },
+        {
+          type: "p",
+          text: "यदि वह भूमि तैयार ही न हो, तो मंत्र रूपी बीज अपनी पूर्ण क्षमता को कैसे प्रकट कर सकता है?",
+        },
+        { type: "h", text: "इस प्रौद्योगिकी का स्रोत — गीता" },
+        {
+          type: "p",
+          text: "ब्रह्मबोधि ने कहा कि भगवद्गीता का एक बहुत बड़ा भाग हमें ठीक यही सिखाता है कि इस अंतःभूमि को कैसे तैयार किया जाए। किन्तु ये शिक्षाएँ गीता में यत्र-तत्र, भिन्न-भिन्न स्थलों और प्रसंगों में बिखरी हुई हैं — क्योंकि गीता एक ऐसा संवाद है जो रणभूमि पर हुआ, न कि कोई व्यवस्थित रूप से संकलित पाठ्य-ग्रंथ।",
+        },
+        {
+          type: "p",
+          text: "यही वह प्रक्रिया है, उन्होंने कहा, जिसे वे मनोवैज्ञानिक अभियंत्रण और आध्यात्मिक प्रौद्योगिकी के व्यावहारिक प्रयोग द्वारा व्यवस्थित और त्वरित करना चाहते हैं। इस प्रौद्योगिकी के सर्वाधिक स्पष्ट और गंभीर संकेत, उनकी समझ में, स्वयं भगवद्गीता में ही मिलते हैं।",
+        },
+        { type: "h", text: "साधना-प्रवेश कैसे कार्य करेगा" },
+        {
+          type: "p",
+          text: "अतः साधना-प्रवेश में पहला कार्य होगा इस अंतःभूमि को तैयार करना। ज्यों-ज्यों मन की भूमि तैयार होती जाएगी, त्यों-त्यों मंत्र रूपी बीज अंकुरित हो सकेगा, और आध्यात्मिकता की वास्तविक फसल कहीं अधिक शीघ्रता से बढ़ने लगेगी।",
+        },
+        {
+          type: "p",
+          text: "इस कार्यक्रम के लिए कम-से-कम छह मास की अवधि आवश्यक होगी, और संसार में कहीं भी स्थित गंभीर आध्यात्मिक जिज्ञासु एवं साधक इसमें सम्मिलित हो सकेंगे।",
+        },
+        { type: "h", text: "मंत्र-दीक्षा और खेरा जी का मूल प्रश्न" },
+        {
+          type: "p",
+          text: "अनेक लोग ब्रह्मबोधि के पास मंत्र-दीक्षा की प्रार्थना लेकर आते हैं। उन्होंने बताया कि जब तक उन्हें यह अनुभव न हो जाए कि साधक की अंतःभूमि दीक्षा ग्रहण करने के लिए पर्याप्त रूप से तैयार है, तब तक वे सामान्यतः दीक्षा नहीं देते। “इसलिए कुछ काल प्रतीक्षा कीजिए,” उन्होंने परामर्श दिया।",
+        },
+        {
+          type: "p",
+          text: "रही बात खेरा जी के मूल प्रश्न की — वह भी, अब उन्हें स्मरण हुआ, अत्यंत महत्वपूर्ण था। उसका उत्तर वे पृथक् रूप से देंगे।",
+        },
+      ],
+    },
+  },
+  {
     id: "spiritual-technology-psychological-engineering-part-1",
     question:
       "What are \u201CSpiritual Technology\u201D and \u201CPsychological Engineering,\u201D and how do they accelerate spiritual progress? (Part 1)",
