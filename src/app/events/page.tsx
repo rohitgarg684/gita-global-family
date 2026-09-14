@@ -328,6 +328,39 @@ const vrindavanEvents: EventItem[] = [
   },
 ];
 
+const prakritiSanskritiEvents: EventItem[] = [
+  {
+    images: [
+      img("event-delhi-prakriti-sanskriti-1.png"),
+      img("event-delhi-prakriti-sanskriti-2.png"),
+      img("event-delhi-prakriti-sanskriti-3.png"),
+    ],
+    title:
+      "Prakriti\u2013Sanskriti Samanvaya: A National Conference for a Livable Future",
+    description:
+      "On 12\u201313 September 2026, Swami Brahm Bodhi took part in a national conference held in New Delhi under the theme \u201CPrakriti\u2013Sanskriti Samanvaya (Harmony of Nature and Culture): Toward a Livable Future.\u201D The conference was organized by Shri Rajendra Singh \u2014 the Ramon Magsaysay laureate widely known as the \u201CWaterman of India\u201D (Jal Purush).\n\nOn the first day, Swami Brahm Bodhi delivered an address on the central theme of the conference. On the second day, he delivered the concluding address. A summary of the other speakers\u2019 talks and of the wider deliberations will be published once the relevant material is received from the organizers.\n\nIn his concluding address, Swami Brahm Bodhi observed that Shri Rajendra Singh has done extraordinary work in the field of \u201CPrakriti\u201D (nature) over the past five decades \u2014 work that everyone present acknowledged to have scarcely any parallel in the country.\n\nHe emphasized, however, that the remarkable efforts made by Shri Singh and by other individuals in their respective fields have not yet made a sufficient impact on the broader national canvas, beyond their own chosen domains. He therefore proposed convening a focused brainstorming (vichar-manthan) of around fifteen of the country\u2019s most eminent figures working in the social sphere, to bring forth fresh ideas on how the \u201Clarger picture\u201D of both India\u2019s \u201CPrakriti\u201D (nature) and \u201CSanskriti\u201D (culture) might be effectively transformed.\n\nHe suggested exploring the formation of an independent, people-based \u201CLokshakti\u201D (people\u2019s power) body that would awaken, counsel, and enter into constructive dialogue with \u201CRajshakti\u201D (state power) at both the Union and State levels. This, he said, would be possible only if such distinguished individuals rose above personal ego and self-interest and came together for the wider good of the nation.\n\nSwami Brahm Bodhi noted that, despite India\u2019s remarkable progress in recent decades, the country\u2019s position on several important indices remains a matter of concern. Corruption, he said, has deeply affected public institutions \u2014 including the bureaucracy, the police, the political executive, and the judiciary. Even more worrying, in his view, is the erosion of moral standards within society itself; ethical values appear to be sinking to alarmingly low levels.\n\nHe further stressed that the community of saints and spiritual leaders has an equally important role to play \u2014 but that, rather than becoming part of this same body, it should form its own independent and parallel \u201CLokshakti\u201D platform. Such a platform could bring eminent saints and spiritual leaders together to reflect on the moral, spiritual, and cultural condition of society, and could become an independent voice offering guidance to the nation. The community of saints, he said, cannot remain indifferent to the overall condition of the common people, and in particular to the state of their \u201CSanskriti\u201D (culture).",
+    hi: {
+      title:
+        "प्रकृति\u2013संस्कृति समन्वय : जीवन-योग्य भविष्य के लिए (राष्ट्रीय सम्मेलन)",
+      description:
+        "12\u201313 सितंबर 2026 को नई दिल्ली में \u201Cप्रकृति\u2013संस्कृति समन्वय : जीवन-योग्य भविष्य के लिए\u201D विषय पर आयोजित इस राष्ट्रीय सम्मेलन में स्वामी ब्रह्म बोधि जी ने भाग लिया। सम्मेलन का आयोजन \u201Cजल पुरुष\u201D के नाम से विख्यात और रेमन मैग्सेसे पुरस्कार से सम्मानित श्री राजेंद्र सिंह द्वारा किया गया।\n\nसम्मेलन के पहले दिन स्वामी ब्रह्म बोधि जी ने इसके केंद्रीय विषय पर अपना वक्तव्य दिया। दूसरे दिन उन्होंने सम्मेलन का समापन वक्तव्य दिया। अन्य वक्ताओं के भाषणों तथा सम्मेलन में हुए विचार-विमर्श का सार आयोजकों से संबंधित सामग्री प्राप्त होने के पश्चात प्रकाशित किया जाएगा।\n\nअपने समापन वक्तव्य में स्वामी जी ने कहा कि श्री राजेंद्र सिंह ने पिछले पाँच दशकों में \u201Cप्रकृति\u201D के क्षेत्र में असाधारण कार्य किया है; वहाँ उपस्थित सभी लोगों ने स्वीकार किया कि देश में उनके कार्य की शायद ही कोई समानांतर मिसाल हो।\n\nउन्होंने इस बात पर बल दिया कि श्री सिंह तथा अन्य व्यक्तियों द्वारा अपने-अपने क्षेत्रों में किए गए उल्लेखनीय प्रयासों का प्रभाव अभी उनके चुने हुए कार्यक्षेत्रों से आगे बढ़कर देश के व्यापक परिदृश्य पर पर्याप्त रूप से दिखाई नहीं देता। इसलिए उन्होंने सामाजिक क्षेत्र में कार्यरत देश की लगभग पंद्रह अत्यंत प्रतिष्ठित विभूतियों की एक केंद्रित विचार-मंथन बैठक आयोजित करने का प्रस्ताव रखा, जिसमें इस पर नए विचार सामने आएँ कि भारत की \u201Cप्रकृति\u201D और \u201Cसंस्कृति\u201D \u2014 दोनों के \u201Cव्यापक परिदृश्य\u201D \u2014 को किस प्रकार प्रभावी ढंग से बदला जा सकता है।\n\nउन्होंने एक स्वतंत्र, जन-आधारित \u201Cलोकशक्ति\u201D निकाय के गठन की संभावना पर विचार करने का सुझाव दिया, जो केंद्र और राज्यों \u2014 दोनों स्तरों पर \u2014 \u201Cराजशक्ति\u201D को जाग्रत करे, परामर्श दे और उसके साथ रचनात्मक संवाद स्थापित करे। यह तभी संभव होगा, उन्होंने कहा, जब ऐसी विशिष्ट विभूतियाँ अपने व्यक्तिगत अहं और हितों से ऊपर उठकर देश के व्यापक हित में एक साथ आएँ।\n\nस्वामी जी ने कहा कि हाल के दशकों में भारत की उल्लेखनीय प्रगति के बावजूद अनेक महत्त्वपूर्ण सूचकांकों पर देश की स्थिति अभी भी चिंताजनक है। भ्रष्टाचार ने नौकरशाही, पुलिस, राजनीतिक कार्यपालिका और न्यायपालिका सहित सार्वजनिक संस्थाओं को गहराई से प्रभावित किया है। उनके अनुसार इससे भी अधिक चिंताजनक बात समाज में नैतिक मानदंडों का क्षरण है; नैतिक मूल्य चिंताजनक रूप से निम्न स्तर तक पहुँचते दिखाई दे रहे हैं।\n\nउन्होंने आगे बल देकर कहा कि संत और आध्यात्मिक समुदाय की भी इसमें उतनी ही महत्त्वपूर्ण भूमिका है; किंतु उसे इसी निकाय का अंग बनने के बजाय अपना एक स्वतंत्र और समानांतर \u201Cलोकशक्ति\u201D मंच बनाना चाहिए। ऐसा मंच प्रतिष्ठित संतों और आध्यात्मिक नेतृत्व को एक साथ लाकर समाज की नैतिक, आध्यात्मिक और सांस्कृतिक स्थिति पर विचार कर सकता है और राष्ट्र को मार्गदर्शन देने वाली एक स्वतंत्र आवाज बन सकता है। उन्होंने कहा कि संत समाज जनसामान्य की समग्र स्थिति, और विशेष रूप से उसकी \u201Cसंस्कृति\u201D की दशा के प्रति उदासीन नहीं रह सकता।",
+    },
+  },
+  {
+    images: [img("event-delhi-bharat-ratna-rajendra-singh-letter.png")],
+    title:
+      "An Appeal for the Bharat Ratna for Shri Rajendra Singh, the \u201CWaterman of India\u201D",
+    description:
+      "Addressing the members of his broadcast group, Swami Brahm Bodhi drew attention to the case of Shri Rajendra Singh \u2014 widely known as the \u201CJal Purush\u201D (Waterman of India) \u2014 who is celebrated for his work in the conservation of nature and the environment, and who has received the Ramon Magsaysay Award. It is somewhat surprising, Swamiji observed, that Shri Singh has not been conferred any of the Government of India\u2019s Padma awards; possibly, by mere oversight, the matter has never been brought to the notice of any government.\n\nSwami Brahm Bodhi noted that he has known Shri Rajendra Singh for more than fifteen years and has himself visited several sites to witness his grassroots work at first hand. Moved by this, he felt inspired to draw the Prime Minister\u2019s attention to the matter, and has accordingly written a letter to the Prime Minister, a copy of which is appended here.\n\nIn his letter, Swami Brahm Bodhi requests that Shri Rajendra Singh be considered for the Bharat Ratna, India\u2019s highest civilian honour. He recalls that Shri Singh began his work in 1985 in Rajasthan through the Tarun Bharat Sangh, reviving traditional johads and rainwater-harvesting systems and developing an effective, community-based model of water conservation. Under his leadership, more than 14,000 water structures have been built or revived, 13 rivers rejuvenated, and water security brought to over a thousand villages \u2014 work recognized with the Indira Gandhi Paryavaran Award (1994), the Ramon Magsaysay Award (2001), and the Stockholm Water Prize (2015). Noting that India\u2019s highest honour has never been confined to a single field \u2014 having been conferred upon figures across philosophy and education, science, music, economics, sport, and agriculture \u2014 he argues that water conservation and environmental rejuvenation is today a nationally vital field, and that Shri Singh\u2019s extraordinary, sustained and result-oriented contribution merits serious consideration for the Bharat Ratna.\n\nSwami Brahm Bodhi urged the members of the broadcast group, and others, to also write to the Prime Minister at the address given in his letter, or to send a message online through the \u201CWrite to the Prime Minister\u201D portal. He has attached a copy of his own letter, in which the essential reasons for this request may be found in brief.",
+    hi: {
+      title:
+        "\u2018वॉटरमैन ऑफ इंडिया\u2019 श्री राजेंद्र सिंह को भारत रत्न दिए जाने हेतु अनुरोध",
+      description:
+        "अपने ब्रॉडकास्ट समूह के सदस्यों को संबोधित करते हुए स्वामी ब्रह्म बोधि जी ने श्री राजेंद्र सिंह के प्रसंग की ओर ध्यान आकर्षित किया \u2014 जिन्हें \u201Cजल पुरुष\u201D के नाम से भी जाना जाता है, और जो प्रकृति एवं पर्यावरण संरक्षण के अपने कार्य के लिए व्यापक रूप से विख्यात हैं तथा जिन्हें रेमन मैग्सेसे पुरस्कार भी प्राप्त है। स्वामी जी ने कहा कि यह कुछ चकित करने वाली बात है कि भारत सरकार के पद्म पुरस्कारों में उन्हें अब तक कोई सम्मान नहीं मिला; संभव है, संयोगवश, किसी सरकार का ध्यान इस ओर न गया हो।\n\nस्वामी जी ने बताया कि वे श्री राजेंद्र सिंह से पंद्रह वर्षों से अधिक समय से परिचित हैं और उन्होंने स्वयं भी कुछ स्थलों पर जाकर उनके जमीनी कार्यों को देखा है। इससे प्रेरित होकर उन्हें यह प्रेरणा हुई कि वे इस विषय की ओर प्रधानमंत्री का ध्यान आकर्षित करें; अतः उन्होंने प्रधानमंत्री को एक पत्र लिखा है, जिसकी एक प्रति यहाँ संलग्न है।\n\nअपने पत्र में स्वामी ब्रह्म बोधि जी अनुरोध करते हैं कि श्री राजेंद्र सिंह को भारत के सर्वोच्च नागरिक सम्मान \u201Cभारत रत्न\u201D के लिए विचार किया जाए। वे स्मरण कराते हैं कि श्री सिंह ने 1985 में राजस्थान में तरुण भारत संघ के माध्यम से अपना कार्य आरंभ किया, पारंपरिक जोहड़ों और वर्षा-जल-संचयन प्रणालियों को पुनर्जीवित किया, और जल-संरक्षण का एक प्रभावी समुदाय-आधारित मॉडल विकसित किया। उनके नेतृत्व में 14,000 से अधिक जल-संरचनाओं का निर्माण एवं पुनरुद्धार हुआ, 13 नदियाँ पुनर्जीवित हुईं, और एक हजार से अधिक गाँवों तक जल-सुरक्षा पहुँची \u2014 इस कार्य के लिए उन्हें इंदिरा गांधी पर्यावरण पुरस्कार (1994), रेमन मैग्सेसे पुरस्कार (2001) और स्टॉकहोम वॉटर प्राइज़ (2015) से सम्मानित किया गया। यह उल्लेख करते हुए कि भारत का यह सर्वोच्च सम्मान कभी किसी एक क्षेत्र तक सीमित नहीं रहा \u2014 यह दर्शन एवं शिक्षा, विज्ञान, संगीत, अर्थशास्त्र, खेल और कृषि जैसे विविध क्षेत्रों की विभूतियों को प्रदान किया गया है \u2014 वे तर्क देते हैं कि जल-संरक्षण और पर्यावरण-पुनर्जीवन आज राष्ट्रीय दृष्टि से एक अत्यंत महत्वपूर्ण क्षेत्र है, और श्री सिंह का असाधारण, निरंतर तथा परिणामदायी योगदान \u201Cभारत रत्न\u201D हेतु गंभीर विचार का अधिकारी है।\n\nस्वामी जी ने ब्रॉडकास्ट समूह के सदस्यों तथा अन्य सभी से आग्रह किया कि वे भी उनके पत्र में दिए गए पते पर प्रधानमंत्री को पत्र लिखें, अथवा ऑनलाइन \u201CWrite to the Prime Minister\u201D पोर्टल पर जाकर उन्हें एक संदेश भेजें। उन्होंने अपने पत्र की एक प्रति भी संलग्न की है, जिसमें इस अनुरोध के कुछ प्रमुख कारण संक्षेप में मिल जाएँगे।",
+    },
+  },
+];
+
 const deogharEvents: EventItem[] = [
   {
     images: [
@@ -684,8 +717,23 @@ export default function EventsPage() {
         </motion.blockquote>
       </section>
 
-      {/* Deoghar / Jharkhand Events */}
+      {/* New Delhi — Prakriti–Sanskriti Conference */}
       <section className="section-padding py-16 md:py-24">
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <MapPin className="w-5 h-5 text-saffron" />
+          <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
+            India — New Delhi
+          </span>
+        </div>
+        <SectionHeading
+          title="Prakriti–Sanskriti Conference, New Delhi"
+          subtitle="A national conference (12–13 September 2026) on the harmony of nature and culture, organized by Shri Rajendra Singh, the “Waterman of India” — where Swami Brahm Bodhi called for an independent “Lokshakti” and appealed for the Bharat Ratna to be conferred on Shri Rajendra Singh."
+        />
+        <EventGrid events={prakritiSanskritiEvents} />
+      </section>
+
+      {/* Deoghar / Jharkhand Events */}
+      <section className="section-padding py-16 md:py-24 bg-cream">
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="w-5 h-5 text-saffron" />
           <span className="text-sm font-semibold text-saffron uppercase tracking-wider">
