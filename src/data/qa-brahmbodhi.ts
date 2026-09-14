@@ -40,6 +40,183 @@ export interface QAItem extends QATranslation {
 
 export const qaItems: QAItem[] = [
   {
+    id: "why-krishna-did-not-answer-arjunas-questions",
+    question:
+      "Why did Sri Krishna not directly address some of Arjuna’s serious concerns (Gita 1.38–44) about the destruction of war?",
+    preview:
+      "A seeker asks why, in the first chapter of the Gita (verses 1.38–44), Bhagavan Sri Krishna gives no separate reply to Arjuna’s grave apprehensions about the ruin of families and the fate of war-widows — and whether the carnage might have been avoided had the Pandavas simply retired to the forest. Brahm Bodhi explains Krishna’s refined method: rather than rebutting each inference like a court, he lifts Arjuna’s vision from “I and my family” to svadharma, selfless action and, finally, lokasangraha — the welfare of all.",
+    image: {
+      en: "qa-krishna-not-answering-arjuna.png",
+      hi: "qa-krishna-not-answering-arjuna.png",
+      alt: {
+        en: "Bhagavan Sri Krishna counselling Arjuna on the chariot at Kurukshetra, the two armies arrayed behind them",
+        hi: "कुरुक्षेत्र में रथ पर अर्जुन को उपदेश देते भगवान श्रीकृष्ण, पीछे दोनों सेनाएँ पंक्तिबद्ध",
+      },
+    },
+    answer: [
+      {
+        type: "p",
+        text: "A seeker wrote to Brahm Bodhi with a thoughtful question about the opening chapter of the Bhagavad Gita.",
+      },
+      {
+        type: "quote",
+        text: "Jai Shri Radhe-Krishna! In verses 1.38 to 1.44 of the Srimad Bhagavad Gita, Arjuna speaks at length about the ruin that war will bring. Yet Bhagavan Sri Krishna neither dwells upon these points nor offers any comment on them. Were those considerations not worthy of reflection? What does the Mahabharata say about the later lives of the wives of those slain in the war? And since the Pandavas, by their age, were fit for the vanaprastha stage of life, would this vast slaughter not have been averted had the Lord simply guided them to live accordingly?",
+      },
+      {
+        type: "p",
+        text: "“Hari Sharanam!” Brahm Bodhi replied, and took up the question with care.",
+      },
+      { type: "h", text: "First, understand Sri Krishna’s manner of dialogue" },
+      {
+        type: "p",
+        text: "It is first necessary, he said, to understand Bhagavan Sri Krishna’s style of conversation. If a person keeps raising one question and argument after another, a wise one does not necessarily answer each separately. He tends instead to grasp the root problem hidden behind those questions, and answers that. This highly refined method is visible throughout the Gita: Krishna does not directly rebut each of Arjuna’s statements, but gradually lifts his thinking to a higher and wider plane.",
+      },
+      {
+        type: "p",
+        text: "It must also be remembered, Brahm Bodhi noted, that this was not a leisurely discussion held in the comfort of an ashram, reclining in an easy chair. Both armies stood ready for battle and lakhs of warriors were waiting. Krishna’s aim, therefore, was not to settle in detail every curiosity arising in Arjuna’s mind on the spot. His immediate purpose was to dispel the delusion (moha) and mental crisis that were causing Arjuna to shrink from his duty.",
+      },
+      { type: "h", text: "Which of Arjuna’s fears were valid?" },
+      {
+        type: "p",
+        text: "One of Arjuna’s apprehensions was entirely correct: the war would cause terrible destruction. This needed no prophecy; it was evident from the vast armies standing before him. But alongside this, Arjuna went on to infer that with the men slain, the women would be left unprotected, the family dharma (kuladharma) would be destroyed, and varnasankara — a confusion of the social order — would arise. Krishna did not answer these inferences one by one, because he could see that history itself would answer them.",
+      },
+      { type: "h", text: "History itself answers Arjuna’s fears" },
+      {
+        type: "p",
+        text: "The later narrative of the Mahabharata, Brahm Bodhi explained, gives its own reply. The Stri Parva poignantly describes the unbearable grief of the war-widows. Yet the Mahabharata presents no broad social picture in which war-widows, left destitute, wander helplessly and thereby give rise, on a large scale, to the “varnasankara” that Arjuna had imagined.",
+      },
+      {
+        type: "p",
+        text: "On the contrary, the Anushasana Parva clearly records that Yudhishthira gave abundant wealth to the women who had lost husbands and sons in the war. Even the women of the Kaurava family were not cast aside. The Ashramavasika Parva tells us that Dhritarashtra and Gandhari lived under the protection and honour of the Pandavas until nearly fifteen years after the war. And in the Mahabharata’s supernatural account, Vyasa even brings about a reunion of the slain warriors with their kin, and there is an episode in which the widows are offered the choice of departing to the realm of their husbands. In other words, the Mahabharata’s own story does not prove Arjuna’s apprehensions true; it does not show them unfolding as he had imagined.",
+      },
+      { type: "h", text: "Arjuna’s deeper problem" },
+      {
+        type: "p",
+        text: "Arjuna’s root difficulty, Brahm Bodhi observed, was perhaps deeper still. At that moment he was viewing the war largely through a personal and familial lens: my grandsire, my teacher, my kinsmen, our lineage, our women, our families. This view was human, but incomplete. The other side was not yet sufficiently before him: what would become of the people (praja) — a society far larger than his own family — if the kingdom were left in the hands of one of Duryodhana’s disposition?",
+      },
+      { type: "h", text: "Krishna raises the vision to lokasangraha" },
+      {
+        type: "p",
+        text: "Krishna does not bluntly tell Arjuna, “You are thinking only of your own family.” His method is more refined. He goes on to place before Arjuna the principle of lokasangraha — the holding-together and welfare of the world — and cites the example of kings such as Janaka:",
+      },
+      {
+        type: "quote",
+        text: "कर्मणैव हि संसिद्धिमास्थिता जनकादयः। लोकसंग्रहमेवापि सम्पश्यन्कर्तुमर्हसि॥",
+        cite: "Bhagavad Gita 3.20",
+      },
+      {
+        type: "p",
+        text: "That is: Arjuna too ought to act, keeping in view the welfare of the world.",
+      },
+      {
+        type: "p",
+        text: "Here the deeper answer to Arjuna’s question is found. The question was not merely how much sorrow the war would bring to his family. It was equally this: how much suffering might come to society and to the people if the war were not fought? Sometimes personal and familial sorrow must be accepted for the sake of the wider welfare of all.",
+      },
+      { type: "h", text: "Why retiring to the forest was not the solution" },
+      {
+        type: "p",
+        text: "From this same standpoint, Brahm Bodhi continued, the suggestion that the Pandavas should simply take up vanaprastha was not an adequate solution either. First, it is not correct to assume that every kshatriya king, on reaching a certain age, was obliged to relinquish rule and retire to the forest. In fact, the practice of kings and others entering the vanaprastha and sannyasa stages is not strongly borne out by history and the Puranas. Our very highest ideals, Sri Rama and Sri Krishna, accepted neither the vanaprastha nor the sannyasa ashrama.",
+      },
+      {
+        type: "p",
+        text: "Second, and more importantly: had the Pandavas gone away to the forest, their own personal struggle might have ended, but the plight of the people living under Duryodhana’s rule would not. If those who have the capacity to resist injustice withdraw merely to spare themselves and their families sorrow, that would indeed be renunciation (tyaga) — but would it also be lokasangraha?",
+      },
+      { type: "h", text: "The heart of Krishna’s answer" },
+      {
+        type: "p",
+        text: "This is why Krishna does not refute each of Arjuna’s inferences in 1.38–44 one by one, like a court of law. He effects a far more fundamental change: he raises Arjuna’s vision from “I and my family” to svadharma, to selfless action (nishkama karma), and ultimately to lokasangraha.",
+      },
+      {
+        type: "p",
+        text: "Some of Arjuna’s fears were valid — the war was indeed terribly destructive. But not every one of his fears was borne out by history. And Krishna’s comprehensive answer was this: the question of dharma cannot be decided solely on the basis of which option is less painful for me and my family; one must also consider what one’s duty is for the sake of the wider society and the welfare of all.",
+      },
+    ],
+    hi: {
+      question:
+        "अर्जुन के कुछ गंभीर प्रश्नों (गीता 1.38–44) का श्रीकृष्ण द्वारा उत्तर न दिया जाना — ऐसा क्यों?",
+      preview:
+        "एक जिज्ञासु पूछते हैं कि गीता के प्रथम अध्याय (श्लोक 1.38–44) में युद्ध से होने वाले विनाश, कुल के नाश और युद्ध-विधवाओं की दशा पर अर्जुन की गंभीर आशंकाओं का भगवान श्रीकृष्ण अलग से उत्तर क्यों नहीं देते — और क्या पाण्डवों के वानप्रस्थ ले लेने से यह नरसंहार टल सकता था। ब्रह्मबोधि श्रीकृष्ण की परिष्कृत शैली समझाते हैं: वे न्यायालय की भाँति प्रत्येक अनुमान का खंडन करने के बजाय अर्जुन की दृष्टि को ‘मैं और मेरा परिवार’ से उठाकर स्वधर्म, निष्काम कर्म और अंततः लोकसंग्रह तक ले जाते हैं।",
+      answer: [
+        {
+          type: "p",
+          text: "एक जिज्ञासु ने भगवद्गीता के प्रथम अध्याय के विषय में एक विचारणीय प्रश्न लेकर ब्रह्मबोधि को लिखा।",
+        },
+        {
+          type: "quote",
+          text: "जय श्रीराधेकृष्ण! श्रीमद्भगवद्गीता के प्रथम अध्याय के श्लोक 38 से 44 तक अर्जुन ने युद्ध से होने वाली हानि के विषय में जो बातें कही हैं, उन पर भगवान श्रीकृष्ण ने न तो कोई ध्यान केंद्रित किया और न ही कोई मन्तव्य व्यक्त किया। क्या वे तथ्य विचारणीय नहीं थे? युद्ध में जो मारे गए, उनकी धर्मपत्नियों के शेष जीवन के विषय में महाभारत में क्या उल्लेख है? जब यह युद्ध हुआ, तब पाण्डवों की आयु वानप्रस्थ आश्रम में रहने की थी; यदि श्रीभगवान उन्हें तदनुसार जीवनयापन के लिए प्रेरित कर देते, तो क्या यह नरसंहार बच न जाता?",
+        },
+        {
+          type: "p",
+          text: "“हरि शरणम्!” ब्रह्मबोधि ने उत्तर दिया, और प्रश्न को सावधानी से लिया।",
+        },
+        { type: "h", text: "पहले श्रीकृष्ण की संवाद-शैली को समझें" },
+        {
+          type: "p",
+          text: "उन्होंने कहा कि सर्वप्रथम भगवान श्रीकृष्ण की संवाद-शैली को समझना आवश्यक है। यदि कोई व्यक्ति एक के बाद एक अनेक प्रश्न और तर्क रखता चला जाए, तो आवश्यक नहीं कि ज्ञानी प्रत्येक का अलग-अलग उत्तर दे। वह प्रायः उन प्रश्नों के पीछे छिपी मूल समस्या को पकड़ता है और उसी का उत्तर देता है। पूरी गीता में श्रीकृष्ण की यही अत्यंत परिष्कृत शैली दिखाई देती है — वे अर्जुन के प्रत्येक कथन का सीधा खंडन नहीं करते, अपितु उसके चिंतन को धीरे-धीरे एक ऊँचे और व्यापक धरातल पर ले जाते हैं।",
+        },
+        {
+          type: "p",
+          text: "यह भी स्मरण रखना चाहिए, ब्रह्मबोधि ने कहा, कि यह किसी आश्रम में आराम-कुर्सी पर बैठकर होने वाला दीर्घ संवाद नहीं था। दोनों सेनाएँ युद्ध के लिए खड़ी थीं और लाखों योद्धा प्रतीक्षा कर रहे थे। इसलिए अर्जुन के मन में उठी प्रत्येक जिज्ञासा को वहीं विस्तार से शांत करना श्रीकृष्ण का उद्देश्य नहीं था। उनका तत्काल उद्देश्य अर्जुन के उस मोह और मानसिक संकट को दूर करना था, जिसके कारण वह अपने कर्तव्य से हट रहा था।",
+        },
+        { type: "h", text: "अर्जुन की कौन-सी आशंकाएँ सही थीं?" },
+        {
+          type: "p",
+          text: "अर्जुन की एक आशंका बिल्कुल सही थी: युद्ध से भयंकर विनाश होगा। इसके लिए किसी भविष्यवाणी की आवश्यकता नहीं थी; सामने खड़ी विशाल सेनाओं को देखकर यह स्पष्ट था। किंतु इसके साथ ही अर्जुन ने आगे यह अनुमान भी लगाया कि पुरुषों के मारे जाने से स्त्रियाँ असुरक्षित होंगी, कुलधर्म नष्ट होगा और वर्णसंकर उत्पन्न होगा। श्रीकृष्ण ने इन अनुमानों का वहाँ अलग-अलग उत्तर नहीं दिया, क्योंकि वे देख रहे थे कि आने वाला इतिहास स्वयं इनका उत्तर दे देगा।",
+        },
+        { type: "h", text: "इतिहास स्वयं इन आशंकाओं का उत्तर देता है" },
+        {
+          type: "p",
+          text: "महाभारत की आगे की कथा, ब्रह्मबोधि ने कहा, स्वयं इनका उत्तर देती है। स्त्रीपर्व युद्ध-विधवाओं के असह्य दुःख का मार्मिक वर्णन करता है। किंतु महाभारत ऐसा कोई व्यापक सामाजिक चित्र प्रस्तुत नहीं करता जिसमें युद्ध-विधवाएँ निराश्रित होकर भटकने लगी हों और परिणामस्वरूप बड़े पैमाने पर वही ‘वर्णसंकर’ उत्पन्न हो गया हो जिसकी अर्जुन ने कल्पना की थी।",
+        },
+        {
+          type: "p",
+          text: "इसके विपरीत, अनुशासनपर्व में स्पष्ट उल्लेख है कि युधिष्ठिर ने युद्ध में पति और पुत्र खो चुकी स्त्रियों को प्रचुर धन दिया। कौरव परिवार की स्त्रियों को भी त्याग नहीं दिया गया। आश्रमवासिकपर्व से ज्ञात होता है कि धृतराष्ट्र और गांधारी युद्ध के लगभग पन्द्रह वर्ष बाद तक पाण्डवों के संरक्षण और सम्मान में रहे। और महाभारत के अलौकिक आख्यान में व्यास युद्ध में मारे गए योद्धाओं का उनके परिजनों से पुनर्मिलन भी कराते हैं, तथा विधवाओं को अपने पतियों के लोक में जाने का विकल्प दिए जाने का प्रसंग भी आता है। अर्थात् महाभारत का अपना कथानक अर्जुन की आशंकाओं को सत्य सिद्ध नहीं करता; वह वैसा घटित होते नहीं दिखाता जैसा उसने कल्पना की थी।",
+        },
+        { type: "h", text: "अर्जुन की गहरी समस्या" },
+        {
+          type: "p",
+          text: "अर्जुन की मूल समस्या, ब्रह्मबोधि ने कहा, संभवतः इससे भी गहरी थी। वह उस समय युद्ध को मुख्यतः व्यक्तिगत और पारिवारिक दृष्टि से देख रहा था: मेरे पितामह, मेरे गुरु, मेरे भाई-बन्धु, हमारा कुल, हमारी स्त्रियाँ और हमारे परिवार। यह दृष्टि मानवीय थी, किंतु अधूरी थी। उसके सामने अभी दूसरा पक्ष पर्याप्त रूप से नहीं था: यदि दुर्योधन जैसी प्रवृत्ति के हाथ में राज्य छोड़ दिया जाए, तो उसके परिवार से कहीं बड़े समाज — प्रजा — का क्या होगा?",
+        },
+        { type: "h", text: "श्रीकृष्ण दृष्टि को लोकसंग्रह तक उठाते हैं" },
+        {
+          type: "p",
+          text: "श्रीकृष्ण अर्जुन से रूखे ढंग से यह नहीं कहते कि “तुम केवल अपने परिवार की सोच रहे हो।” उनकी शैली अधिक परिष्कृत है। आगे वे लोकसंग्रह का सिद्धान्त सामने रखते हैं और जनक जैसे राजाओं का उदाहरण देते हैं —",
+        },
+        {
+          type: "quote",
+          text: "कर्मणैव हि संसिद्धिमास्थिता जनकादयः। लोकसंग्रहमेवापि सम्पश्यन्कर्तुमर्हसि॥",
+          cite: "भगवद्गीता 3.20",
+        },
+        {
+          type: "p",
+          text: "अर्थात् अर्जुन को लोकसंग्रह को दृष्टि में रखते हुए भी कर्म करना चाहिए।",
+        },
+        {
+          type: "p",
+          text: "यहीं अर्जुन के प्रश्न का गहरा उत्तर मिलता है। प्रश्न केवल यह नहीं था कि युद्ध से मेरे परिवार को कितना दुःख होगा; प्रश्न यह भी था कि युद्ध न करने से समाज और प्रजा को कितना दुःख हो सकता है। कभी-कभी व्यापक लोककल्याण के लिए व्यक्तिगत और पारिवारिक दुःख को स्वीकार करना पड़ता है।",
+        },
+        { type: "h", text: "वन चले जाना समाधान क्यों नहीं था" },
+        {
+          type: "p",
+          text: "इसी दृष्टि से, ब्रह्मबोधि ने आगे कहा, पाण्डवों के वानप्रस्थ ले लेने का सुझाव भी पर्याप्त समाधान नहीं था। पहली बात, यह मानना उचित नहीं कि किसी निश्चित आयु पर पहुँचते ही प्रत्येक क्षत्रिय राजा के लिए शासन छोड़कर वानप्रस्थ लेना अनिवार्य था। वस्तुतः राजाओं तथा अन्य लोगों द्वारा भी वानप्रस्थ और सन्यास आश्रम में जाने की परंपरा इतिहास और पुराणों से अधिक पुष्ट नहीं होती। हमारे सर्वोच्च आदर्श श्रीराम और श्रीकृष्ण ने न तो वानप्रस्थ आश्रम स्वीकार किया, न सन्यास आश्रम।",
+        },
+        {
+          type: "p",
+          text: "दूसरी और अधिक महत्वपूर्ण बात यह है कि पाण्डवों के वन चले जाने से उनका व्यक्तिगत संघर्ष तो समाप्त हो सकता था, किंतु दुर्योधन के शासन में रहने वाली प्रजा की समस्या समाप्त नहीं होती। अन्याय के प्रतिरोध की क्षमता रखने वाले व्यक्ति यदि केवल अपने और अपने परिवार के दुःख से बचने के लिए पीछे हट जाएँ, तो वह त्याग अवश्य होगा — किंतु क्या वह लोकसंग्रह भी होगा?",
+        },
+        { type: "h", text: "श्रीकृष्ण के उत्तर का सार" },
+        {
+          type: "p",
+          text: "यही कारण है कि श्रीकृष्ण अर्जुन के 1.38–44 के प्रत्येक अनुमान का न्यायालय की भाँति एक-एक करके खंडन नहीं करते। वे उससे कहीं अधिक मूल परिवर्तन करते हैं: अर्जुन की दृष्टि को “मैं और मेरा परिवार” से उठाकर स्वधर्म, निष्काम कर्म और अंततः लोकसंग्रह तक ले जाते हैं।",
+        },
+        {
+          type: "p",
+          text: "अर्जुन की कुछ आशंकाएँ सही थीं — युद्ध सचमुच अत्यंत विनाशकारी हुआ। किंतु उसकी प्रत्येक आशंका इतिहास में सत्य सिद्ध नहीं हुई। और श्रीकृष्ण का व्यापक उत्तर यह था कि धर्म का निर्णय केवल इस आधार पर नहीं हो सकता कि मेरे और मेरे परिवार के लिए कौन-सा विकल्प कम दुःखद है; यह भी देखना होगा कि व्यापक समाज और लोककल्याण के लिए मेरा कर्तव्य क्या है।",
+        },
+      ],
+    },
+  },
+  {
     id: "discipline-conscious-subconscious-mind",
     question:
       "How can the conscious and subconscious mind be disciplined and made an instrument of self-welfare and the welfare of all?",
